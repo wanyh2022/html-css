@@ -1,0 +1,632 @@
+[Script Info]
+Title: 015 Hyperlinks_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=13&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.46,0:00:03.96,*Default,NTP,0000,0000,0000,,基本构建块之一
+Dialogue: 0,0:00:03.96,0:00:06.87,*Default,NTP,0000,0000,0000,,互联网是超链接
+Dialogue: 0,0:00:06.87,0:00:09.33,*Default,NTP,0000,0000,0000,,或者简而言之，只是链接。
+Dialogue: 0,0:00:09.33,0:00:12.68,*Default,NTP,0000,0000,0000,,所以链接才是真正使互联网成为可能的东西
+Dialogue: 0,0:00:12.68,0:00:15.16,*Default,NTP,0000,0000,0000,,成为一个全球网络。
+Dialogue: 0,0:00:15.16,0:00:17.34,*Default,NTP,0000,0000,0000,,所以没有页面之间的链接，
+Dialogue: 0,0:00:17.34,0:00:19.28,*Default,NTP,0000,0000,0000,,不会有网络。
+Dialogue: 0,0:00:19.28,0:00:20.71,*Default,NTP,0000,0000,0000,,现在让我们学习
+Dialogue: 0,0:00:20.71,0:00:23.88,*Default,NTP,0000,0000,0000,,如何在我们自己的网页上放置链接。
+Dialogue: 0,0:00:25.32,0:00:29.29,*Default,NTP,0000,0000,0000,,现在，我们可以将链接分为两大类。
+Dialogue: 0,0:00:29.29,0:00:31.36,*Default,NTP,0000,0000,0000,,第一类是链接
+Dialogue: 0,0:00:31.36,0:00:35.74,*Default,NTP,0000,0000,0000,,指向我们自己网站内的其他页面。
+Dialogue: 0,0:00:35.74,0:00:38.40,*Default,NTP,0000,0000,0000,,所以让我们说，在我们的网站上，
+Dialogue: 0,0:00:38.40,0:00:39.72,*Default,NTP,0000,0000,0000,,代码杂志，
+Dialogue: 0,0:00:39.72,0:00:41.58,*Default,NTP,0000,0000,0000,,我们有另一篇博文。
+Dialogue: 0,0:00:41.58,0:00:44.40,*Default,NTP,0000,0000,0000,,所以我们可以从这个页面创建一个链接
+Dialogue: 0,0:00:44.40,0:00:47.08,*Default,NTP,0000,0000,0000,,到另一页，对吧？
+Dialogue: 0,0:00:47.08,0:00:49.70,*Default,NTP,0000,0000,0000,,现在，另一方面，另一个类别
+Dialogue: 0,0:00:49.70,0:00:53.92,*Default,NTP,0000,0000,0000,,是指向我们网站之外的链接。
+Dialogue: 0,0:00:53.92,0:00:58.09,*Default,NTP,0000,0000,0000,,例如，如果我在这里放置了指向 udemy.com 的链接
+Dialogue: 0,0:00:58.09,0:01:00.67,*Default,NTP,0000,0000,0000,,在这个页面上，然后那个，当然，
+Dialogue: 0,0:01:00.67,0:01:03.13,*Default,NTP,0000,0000,0000,,将是与外部的链接
+Dialogue: 0,0:01:03.13,0:01:05.54,*Default,NTP,0000,0000,0000,,我们的网站，对吧？
+Dialogue: 0,0:01:05.54,0:01:08.09,*Default,NTP,0000,0000,0000,,现在，我们确实创建了这两种类型的链接
+Dialogue: 0,0:01:08.09,0:01:11.10,*Default,NTP,0000,0000,0000,,在 HTML 中以完全相同的方式
+Dialogue: 0,0:01:11.10,0:01:14.33,*Default,NTP,0000,0000,0000,,但仍有一些特殊性
+Dialogue: 0,0:01:14.33,0:01:16.14,*Default,NTP,0000,0000,0000,,我们需要注意的
+Dialogue: 0,0:01:16.14,0:01:18.86,*Default,NTP,0000,0000,0000,,所以现在让我们从第二种开始
+Dialogue: 0,0:01:18.86,0:01:21.17,*Default,NTP,0000,0000,0000,,我正在描述的链接，
+Dialogue: 0,0:01:21.17,0:01:24.05,*Default,NTP,0000,0000,0000,,指向我们自己网站的外部。
+Dialogue: 0,0:01:25.15,0:01:26.85,*Default,NTP,0000,0000,0000,,所以我在演示中所拥有的
+Dialogue: 0,0:01:26.85,0:01:30.84,*Default,NTP,0000,0000,0000,,是在这部分的结尾，
+Dialogue: 0,0:01:30.84,0:01:33.30,*Default,NTP,0000,0000,0000,,所以这是什么是HTML部分，
+Dialogue: 0,0:01:33.30,0:01:36.32,*Default,NTP,0000,0000,0000,,我有一个指向 MDN Web Docs 的链接。
+Dialogue: 0,0:01:37.16,0:01:39.27,*Default,NTP,0000,0000,0000,,所以这基本上是一个网站
+Dialogue: 0,0:01:39.27,0:01:41.55,*Default,NTP,0000,0000,0000,,在这里您可以了解有关 HTML 的所有信息
+Dialogue: 0,0:01:41.55,0:01:43.96,*Default,NTP,0000,0000,0000,,还有 CSS 和 JavaScript。
+Dialogue: 0,0:01:45.19,0:01:48.22,*Default,NTP,0000,0000,0000,,实际上，我会更好地向您展示这个网站
+Dialogue: 0,0:01:48.22,0:01:49.76,*Default,NTP,0000,0000,0000,,在下一节
+Dialogue: 0,0:01:49.76,0:01:52.34,*Default,NTP,0000,0000,0000,,因为它对 Web 开发人员很重要
+Dialogue: 0,0:01:52.34,0:01:53.83,*Default,NTP,0000,0000,0000,,知道如何使用
+Dialogue: 0,0:01:53.83,0:01:58.19,*Default,NTP,0000,0000,0000,,并在此 Web 文档页面中查找信息。
+Dialogue: 0,0:01:59.38,0:02:03.21,*Default,NTP,0000,0000,0000,,所以我们想要的是抓住那个链接
+Dialogue: 0,0:02:03.21,0:02:04.63,*Default,NTP,0000,0000,0000,,所以要做到这一点，
+Dialogue: 0,0:02:04.63,0:02:09.63,*Default,NTP,0000,0000,0000,,只是谷歌 MDN，它代表 Mozilla 开发者网络
+Dialogue: 0,0:02:10.17,0:02:12.85,*Default,NTP,0000,0000,0000,,然后只是 HTML。
+Dialogue: 0,0:02:12.85,0:02:15.62,*Default,NTP,0000,0000,0000,,以及我们将在此处使用的确切 URL
+Dialogue: 0,0:02:15.62,0:02:16.76,*Default,NTP,0000,0000,0000,,没关系。
+Dialogue: 0,0:02:16.76,0:02:19.64,*Default,NTP,0000,0000,0000,,我们想要的只是有一些 URL
+Dialogue: 0,0:02:19.64,0:02:22.15,*Default,NTP,0000,0000,0000,,这指向我们自己的页面之外。
+Dialogue: 0,0:02:23.26,0:02:24.23,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:02:24.23,0:02:26.35,*Default,NTP,0000,0000,0000,,所以让我们在这里抓住这个，
+Dialogue: 0,0:02:26.35,0:02:28.76,*Default,NTP,0000,0000,0000,,这是谷歌的第一个结果。
+Dialogue: 0,0:02:28.76,0:02:31.47,*Default,NTP,0000,0000,0000,,所以我一次又一次地复制它，
+Dialogue: 0,0:02:31.47,0:02:33.42,*Default,NTP,0000,0000,0000,,请记住，这称为 URL。
+Dialogue: 0,0:02:34.55,0:02:35.41,*Default,NTP,0000,0000,0000,,所以如你所知，
+Dialogue: 0,0:02:35.41,0:02:38.01,*Default,NTP,0000,0000,0000,,互联网上的每一个网站
+Dialogue: 0,0:02:38.01,0:02:39.71,*Default,NTP,0000,0000,0000,,有自己的网址
+Dialogue: 0,0:02:39.71,0:02:41.65,*Default,NTP,0000,0000,0000,,这就是我们需要的
+Dialogue: 0,0:02:41.65,0:02:43.89,*Default,NTP,0000,0000,0000,,创建指向该页面的链接。
+Dialogue: 0,0:02:45.89,0:02:47.27,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:02:47.27,0:02:50.20,*Default,NTP,0000,0000,0000,,那么让我们看看。
+Dialogue: 0,0:02:51.74,0:02:56.42,*Default,NTP,0000,0000,0000,,是的，我们想把它放在这里
+Dialogue: 0,0:02:56.42,0:02:58.78,*Default,NTP,0000,0000,0000,,在这个无序列表之后。
+Dialogue: 0,0:02:59.76,0:03:00.70,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:03:00.70,0:03:01.83,*Default,NTP,0000,0000,0000,,让我们在演示中看看。
+Dialogue: 0,0:03:02.85,0:03:05.50,*Default,NTP,0000,0000,0000,,是的，所以就在有序列表之后。
+Dialogue: 0,0:03:07.03,0:03:07.86,*Default,NTP,0000,0000,0000,,所以就在这里。
+Dialogue: 0,0:03:08.86,0:03:12.05,*Default,NTP,0000,0000,0000,,所以要在 HTML 中创建一个链接，
+Dialogue: 0,0:03:12.05,0:03:15.87,*Default,NTP,0000,0000,0000,,我们使用 a 元素，它代表锚点。
+Dialogue: 0,0:03:15.87,0:03:18.11,*Default,NTP,0000,0000,0000,,所以从技术上讲，一个超链接
+Dialogue: 0,0:03:18.11,0:03:22.57,*Default,NTP,0000,0000,0000,,或者链接实际上在 HTML 中称为锚点。
+Dialogue: 0,0:03:22.57,0:03:25.35,*Default,NTP,0000,0000,0000,,所以它是一个锚元素。
+Dialogue: 0,0:03:25.35,0:03:26.64,*Default,NTP,0000,0000,0000,,我们可以关闭它。
+Dialogue: 0,0:03:26.64,0:03:28.74,*Default,NTP,0000,0000,0000,,那么我们可以这样指定我的内容
+Dialogue: 0,0:03:28.74,0:03:32.30,*Default,NTP,0000,0000,0000,,然后我们可以，或者我们必须实际关闭它。
+Dialogue: 0,0:03:32.30,0:03:34.70,*Default,NTP,0000,0000,0000,,所以让我们从这样做开始。
+Dialogue: 0,0:03:34.70,0:03:37.40,*Default,NTP,0000,0000,0000,,现在，关于链接的内容，
+Dialogue: 0,0:03:37.40,0:03:39.92,*Default,NTP,0000,0000,0000,,我们在这里指定的实际上是文本
+Dialogue: 0,0:03:39.92,0:03:42.82,*Default,NTP,0000,0000,0000,,我们希望在页面上显示。
+Dialogue: 0,0:03:42.82,0:03:44.66,*Default,NTP,0000,0000,0000,,所以链接的文本。
+Dialogue: 0,0:03:45.59,0:03:48.88,*Default,NTP,0000,0000,0000,,所以在这种情况下，就是这个 MDN Web Docs。
+Dialogue: 0,0:03:50.17,0:03:51.00,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:03:51.00,0:03:55.73,*Default,NTP,0000,0000,0000,,所以 MDN 网络文档。
+Dialogue: 0,0:03:55.73,0:03:58.09,*Default,NTP,0000,0000,0000,,但是现在，URL 呢？
+Dialogue: 0,0:03:58.09,0:04:00.85,*Default,NTP,0000,0000,0000,,我们希望这个链接指向哪里？
+Dialogue: 0,0:04:00.85,0:04:04.62,*Default,NTP,0000,0000,0000,,好吧，为此，我们需要再次使用一个属性。
+Dialogue: 0,0:04:05.86,0:04:10.86,*Default,NTP,0000,0000,0000,,所以在这种情况下，它是 href 属性。
+Dialogue: 0,0:04:11.27,0:04:13.56,*Default,NTP,0000,0000,0000,,然后相等，双引号
+Dialogue: 0,0:04:13.56,0:04:15.73,*Default,NTP,0000,0000,0000,,然后我们可以简单地粘贴该 URL
+Dialogue: 0,0:04:15.73,0:04:18.21,*Default,NTP,0000,0000,0000,,我们在这里复制的
+Dialogue: 0,0:04:18.21,0:04:20.40,*Default,NTP,0000,0000,0000,,实际上就是这样。
+Dialogue: 0,0:04:20.40,0:04:22.02,*Default,NTP,0000,0000,0000,,所以如果我现在救它，
+Dialogue: 0,0:04:22.87,0:04:25.89,*Default,NTP,0000,0000,0000,,然后在这里重新加载我们的页面，
+Dialogue: 0,0:04:27.46,0:04:29.53,*Default,NTP,0000,0000,0000,,那么这里是我们的链接。
+Dialogue: 0,0:04:30.66,0:04:32.19,*Default,NTP,0000,0000,0000,,你在下面看到，
+Dialogue: 0,0:04:32.19,0:04:33.69,*Default,NTP,0000,0000,0000,,所以在这个角落
+Dialogue: 0,0:04:33.69,0:04:36.71,*Default,NTP,0000,0000,0000,,当我悬停它时，它实际上向我显示了 URL
+Dialogue: 0,0:04:36.71,0:04:38.53,*Default,NTP,0000,0000,0000,,然后当我点击它时，
+Dialogue: 0,0:04:38.53,0:04:40.16,*Default,NTP,0000,0000,0000,,我们的页面在那里。
+Dialogue: 0,0:04:42.23,0:04:45.82,*Default,NTP,0000,0000,0000,,太好了，所以这实际上已经是基础
+Dialogue: 0,0:04:45.82,0:04:48.13,*Default,NTP,0000,0000,0000,,创建一个链接。
+Dialogue: 0,0:04:48.13,0:04:49.94,*Default,NTP,0000,0000,0000,,很简单，对吧？
+Dialogue: 0,0:04:50.98,0:04:52.85,*Default,NTP,0000,0000,0000,,现在，我们想要这个链接
+Dialogue: 0,0:04:52.85,0:04:56.94,*Default,NTP,0000,0000,0000,,实际上就像在这个文本中一样。
+Dialogue: 0,0:04:56.94,0:04:59.67,*Default,NTP,0000,0000,0000,,因此，在此处的另一段中。
+Dialogue: 0,0:05:01.61,0:05:02.60,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:05:02.60,0:05:05.57,*Default,NTP,0000,0000,0000,,所以让我们创建那个段落。
+Dialogue: 0,0:05:06.84,0:05:11.19,*Default,NTP,0000,0000,0000,,因此，您可以在以下位置了解更多信息，
+Dialogue: 0,0:05:12.91,0:05:15.71,*Default,NTP,0000,0000,0000,,然后这个链接在这里
+Dialogue: 0,0:05:15.71,0:05:20.68,*Default,NTP,0000,0000,0000,,基本上只是这里文字的延续。
+Dialogue: 0,0:05:20.68,0:05:23.38,*Default,NTP,0000,0000,0000,,所以在这一段里面。
+Dialogue: 0,0:05:23.38,0:05:25.76,*Default,NTP,0000,0000,0000,,所以我们可以在这里完成我们的句子
+Dialogue: 0,0:05:25.76,0:05:29.78,*Default,NTP,0000,0000,0000,,然后像往常一样关闭我们的段落。
+Dialogue: 0,0:05:31.63,0:05:36.49,*Default,NTP,0000,0000,0000,,所以现在看起来就像原来的一样。
+Dialogue: 0,0:05:36.49,0:05:37.47,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:05:37.47,0:05:39.58,*Default,NTP,0000,0000,0000,,现在，再次注意这里发生的事情
+Dialogue: 0,0:05:39.58,0:05:40.78,*Default,NTP,0000,0000,0000,,当我点击它时。
+Dialogue: 0,0:05:41.78,0:05:43.94,*Default,NTP,0000,0000,0000,,所以你看到我们直接导航
+Dialogue: 0,0:05:43.94,0:05:47.97,*Default,NTP,0000,0000,0000,,到这个页面，现在我们自己的页面消失了。
+Dialogue: 0,0:05:47.97,0:05:50.02,*Default,NTP,0000,0000,0000,,所以当然，我们可以回到这里
+Dialogue: 0,0:05:50.02,0:05:51.87,*Default,NTP,0000,0000,0000,,但有时我们想做的事
+Dialogue: 0,0:05:51.87,0:05:54.47,*Default,NTP,0000,0000,0000,,是在新选项卡中打开链接。
+Dialogue: 0,0:05:54.47,0:05:56.85,*Default,NTP,0000,0000,0000,,因此，让我也向您展示我们如何做到这一点。
+Dialogue: 0,0:05:57.86,0:06:00.43,*Default,NTP,0000,0000,0000,,当然，我们并不总是想要这样。
+Dialogue: 0,0:06:00.43,0:06:02.93,*Default,NTP,0000,0000,0000,,很多时候，我们实际上想要页面
+Dialogue: 0,0:06:02.93,0:06:07.53,*Default,NTP,0000,0000,0000,,真正移动到我们在此处指定的 URL
+Dialogue: 0,0:06:07.53,0:06:09.71,*Default,NTP,0000,0000,0000,,但有时它也很有用
+Dialogue: 0,0:06:09.71,0:06:12.83,*Default,NTP,0000,0000,0000,,保持页面打开，只需打开 URL
+Dialogue: 0,0:06:12.83,0:06:15.38,*Default,NTP,0000,0000,0000,,在一个新标签中，我们可以做到这一点
+Dialogue: 0,0:06:15.38,0:06:17.68,*Default,NTP,0000,0000,0000,,通过指定目标属性，
+Dialogue: 0,0:06:18.94,0:06:20.53,*Default,NTP,0000,0000,0000,,然后像往常一样引用
+Dialogue: 0,0:06:20.53,0:06:22.74,*Default,NTP,0000,0000,0000,,然后这个看起来有点奇怪
+Dialogue: 0,0:06:22.74,0:06:26.80,*Default,NTP,0000,0000,0000,,所以它是下划线，然后是空白。
+Dialogue: 0,0:06:28.49,0:06:30.85,*Default,NTP,0000,0000,0000,,所以给它一个保存
+Dialogue: 0,0:06:30.85,0:06:33.44,*Default,NTP,0000,0000,0000,,当我们重新加载时，它看起来会一样
+Dialogue: 0,0:06:33.44,0:06:36.33,*Default,NTP,0000,0000,0000,,但行为应该已经改变。
+Dialogue: 0,0:06:36.33,0:06:39.62,*Default,NTP,0000,0000,0000,,确实，请注意它是如何打开一个新标签的
+Dialogue: 0,0:06:39.62,0:06:42.65,*Default,NTP,0000,0000,0000,,而我们原来的那个仍然是开放的。
+Dialogue: 0,0:06:44.17,0:06:45.10,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:06:45.10,0:06:48.45,*Default,NTP,0000,0000,0000,,所以这有效，所以我们现在有一个链接
+Dialogue: 0,0:06:48.45,0:06:51.51,*Default,NTP,0000,0000,0000,,指向外部的 URL
+Dialogue: 0,0:06:51.51,0:06:53.52,*Default,NTP,0000,0000,0000,,我们自己的网站。
+Dialogue: 0,0:06:53.52,0:06:55.86,*Default,NTP,0000,0000,0000,,但现在关于第一个场景
+Dialogue: 0,0:06:55.86,0:07:00.52,*Default,NTP,0000,0000,0000,,我们基本上想链接到一个内部页面。
+Dialogue: 0,0:07:00.52,0:07:01.69,*Default,NTP,0000,0000,0000,,现在让我们这样做。
+Dialogue: 0,0:07:02.53,0:07:04.31,*Default,NTP,0000,0000,0000,,再回到我们的演示，
+Dialogue: 0,0:07:04.31,0:07:05.78,*Default,NTP,0000,0000,0000,,我们这里有这个例子。
+Dialogue: 0,0:07:05.78,0:07:09.53,*Default,NTP,0000,0000,0000,,小号o 一开始，就在主标题之后，
+Dialogue: 0,0:07:09.53,0:07:11.68,*Default,NTP,0000,0000,0000,,我们在这里有这些链接
+Dialogue: 0,0:07:11.68,0:07:14.68,*Default,NTP,0000,0000,0000,,所以这些应该是链接
+Dialogue: 0,0:07:14.68,0:07:18.25,*Default,NTP,0000,0000,0000,,指向属于此博客的页面。
+Dialogue: 0,0:07:18.25,0:07:20.72,*Default,NTP,0000,0000,0000,,所以现在让我们在这里创建第一个链接，
+Dialogue: 0,0:07:20.72,0:07:23.57,*Default,NTP,0000,0000,0000,,所以博客，并创建一个新页面
+Dialogue: 0,0:07:23.57,0:07:25.91,*Default,NTP,0000,0000,0000,,我们实际上可以链接到的地方。
+Dialogue: 0,0:07:27.23,0:07:28.15,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:07:28.15,0:07:31.16,*Default,NTP,0000,0000,0000,,所以创建一个新页面就这么简单
+Dialogue: 0,0:07:31.16,0:07:34.96,*Default,NTP,0000,0000,0000,,就像创建一个新的 HTML 文档一样。
+Dialogue: 0,0:07:34.96,0:07:36.96,*Default,NTP,0000,0000,0000,,所以让我们再次打开侧边栏
+Dialogue: 0,0:07:36.96,0:07:41.19,*Default,NTP,0000,0000,0000,,通过点击这里然后我们基本上在这里看到我们的资源管理器
+Dialogue: 0,0:07:41.19,0:07:42.37,*Default,NTP,0000,0000,0000,,与所有文件
+Dialogue: 0,0:07:43.32,0:07:47.13,*Default,NTP,0000,0000,0000,,然后再一次，我们在这里在这个图标中创建一个新文件
+Dialogue: 0,0:07:47.13,0:07:52.13,*Default,NTP,0000,0000,0000,,这次我们称之为 blog.html。
+Dialogue: 0,0:07:52.30,0:07:55.33,*Default,NTP,0000,0000,0000,,现在我们可以在这里使用这个作弊
+Dialogue: 0,0:07:55.33,0:07:57.95,*Default,NTP,0000,0000,0000,,创建 HTML 结构
+Dialogue: 0,0:07:57.95,0:08:01.52,*Default,NTP,0000,0000,0000,,但实际上，让我们再在这里练习一下。
+Dialogue: 0,0:08:01.52,0:08:03.86,*Default,NTP,0000,0000,0000,,如果你愿意，你甚至可以暂停视频
+Dialogue: 0,0:08:03.86,0:08:06.37,*Default,NTP,0000,0000,0000,,并自己输入
+Dialogue: 0,0:08:06.37,0:08:08.47,*Default,NTP,0000,0000,0000,,但我现在会很快在这里完成。
+Dialogue: 0,0:08:09.49,0:08:10.32,*Default,NTP,0000,0000,0000,,所以html。
+Dialogue: 0,0:08:11.29,0:08:13.17,*Default,NTP,0000,0000,0000,,然后我们当然需要关闭它。
+Dialogue: 0,0:08:18.18,0:08:19.54,*Default,NTP,0000,0000,0000,,现在，在 html 内部，
+Dialogue: 0,0:08:19.54,0:08:22.20,*Default,NTP,0000,0000,0000,,记住，我们有头。
+Dialogue: 0,0:08:23.81,0:08:26.62,*Default,NTP,0000,0000,0000,,在头部内部，我们通常有一个标题。
+Dialogue: 0,0:08:27.69,0:08:32.23,*Default,NTP,0000,0000,0000,,而这个，我们就这样称呼它吧，博客。
+Dialogue: 0,0:08:32.23,0:08:36.15,*Default,NTP,0000,0000,0000,,所以只是大写使它非常明显
+Dialogue: 0,0:08:38.02,0:08:39.17,*Default,NTP,0000,0000,0000,,你看这真的是
+Dialogue: 0,0:08:39.17,0:08:41.80,*Default,NTP,0000,0000,0000,,只是一个非常简单的骨架结构，
+Dialogue: 0,0:08:41.80,0:08:43.58,*Default,NTP,0000,0000,0000,,只是一个有标题的头。
+Dialogue: 0,0:08:45.05,0:08:47.19,*Default,NTP,0000,0000,0000,,事实上，身体也是如此，
+Dialogue: 0,0:08:47.19,0:08:48.84,*Default,NTP,0000,0000,0000,,记住是那个部分
+Dialogue: 0,0:08:48.84,0:08:51.69,*Default,NTP,0000,0000,0000,,这将在浏览器中可见。
+Dialogue: 0,0:08:52.97,0:08:55.82,*Default,NTP,0000,0000,0000,,所以在这里我将简单地指定一个 h2 元素
+Dialogue: 0,0:08:57.72,0:08:59.98,*Default,NTP,0000,0000,0000,,并在这里关闭它
+Dialogue: 0,0:08:59.98,0:09:03.85,*Default,NTP,0000,0000,0000,,我们也将其称为 BLOG。
+Dialogue: 0,0:09:03.85,0:09:07.25,*Default,NTP,0000,0000,0000,,好吧，啊，当然，我们还是需要关闭身体。
+Dialogue: 0,0:09:11.10,0:09:12.30,*Default,NTP,0000,0000,0000,,就是这样。
+Dialogue: 0,0:09:12.30,0:09:13.81,*Default,NTP,0000,0000,0000,,让我们拯救它。
+Dialogue: 0,0:09:13.81,0:09:15.77,*Default,NTP,0000,0000,0000,,所以这里我们有一个非常简单的，
+Dialogue: 0,0:09:15.77,0:09:20.55,*Default,NTP,0000,0000,0000,,非常简单的博客 HTML 文档。
+Dialogue: 0,0:09:20.55,0:09:22.53,*Default,NTP,0000,0000,0000,,但现在有了它，
+Dialogue: 0,0:09:22.53,0:09:27.18,*Default,NTP,0000,0000,0000,,我们可以在这里创建超链接或链接
+Dialogue: 0,0:09:27.18,0:09:32.18,*Default,NTP,0000,0000,0000,,在这个 index.html 中，它将指向那个 blog.html。
+Dialogue: 0,0:09:32.53,0:09:35.83,*Default,NTP,0000,0000,0000,,因此浏览器将导航到该页面。
+Dialogue: 0,0:09:37.30,0:09:39.61,*Default,NTP,0000,0000,0000,,因此，让我们在 h1 之后立即执行此操作。
+Dialogue: 0,0:09:40.77,0:09:43.62,*Default,NTP,0000,0000,0000,,所以锚元素。
+Dialogue: 0,0:09:44.48,0:09:45.88,*Default,NTP,0000,0000,0000,,然后我们需要href
+Dialogue: 0,0:09:48.56,0:09:50.60,*Default,NTP,0000,0000,0000,,所以现在我们在这里做什么
+Dialogue: 0,0:09:50.60,0:09:52.69,*Default,NTP,0000,0000,0000,,指定 URL
+Dialogue: 0,0:09:52.69,0:09:55.97,*Default,NTP,0000,0000,0000,,是指定HTML文件的名称
+Dialogue: 0,0:09:55.97,0:09:57.74,*Default,NTP,0000,0000,0000,,我们想去的
+Dialogue: 0,0:09:57.74,0:09:59.78,*Default,NTP,0000,0000,0000,,所以在这种情况下，当然，
+Dialogue: 0,0:09:59.78,0:10:03.47,*Default,NTP,0000,0000,0000,,我们刚刚创建的这个 blog.html。
+Dialogue: 0,0:10:04.40,0:10:07.27,*Default,NTP,0000,0000,0000,,那么这里作为元素的内容，
+Dialogue: 0,0:10:07.27,0:10:08.94,*Default,NTP,0000,0000,0000,,让我们再写一次博客吧
+Dialogue: 0,0:10:09.80,0:10:13.73,*Default,NTP,0000,0000,0000,,然后像往常一样关闭它。
+Dialogue: 0,0:10:13.73,0:10:15.34,*Default,NTP,0000,0000,0000,,给它一个保存。
+Dialogue: 0,0:10:15.34,0:10:17.72,*Default,NTP,0000,0000,0000,,这是我们美丽的链接
+Dialogue: 0,0:10:17.72,0:10:21.06,*Default,NTP,0000,0000,0000,,现在看看我点击它时会发生什么。
+Dialogue: 0,0:10:21.06,0:10:23.64,*Default,NTP,0000,0000,0000,,Bam，我们现在在博客
+Dialogue: 0,0:10:23.64,0:10:27.47,*Default,NTP,0000,0000,0000,,您也可以在 URL 栏中看到。
+Dialogue: 0,0:10:27.47,0:10:30.09,*Default,NTP,0000,0000,0000,,所以这就是现在所有的这个文件。
+Dialogue: 0,0:10:30.09,0:10:31.83,*Default,NTP,0000,0000,0000,,所以所有这条路
+Dialogue: 0,0:10:31.83,0:10:34.40,*Default,NTP,0000,0000,0000,,最后是 blog.html。
+Dialogue: 0,0:10:35.35,0:10:36.69,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:10:36.69,0:10:39.75,*Default,NTP,0000,0000,0000,,现在，要返回，我们当然可以点击这里
+Dialogue: 0,0:10:39.75,0:10:42.95,*Default,NTP,0000,0000,0000,,在这个后退按钮上，但我们还可以做什么
+Dialogue: 0,0:10:42.95,0:10:44.75,*Default,NTP,0000,0000,0000,,就是在这里加个链接，
+Dialogue: 0,0:10:44.75,0:10:48.77,*Default,NTP,0000,0000,0000,,它只是指向 index.html。
+Dialogue: 0,0:10:48.77,0:10:49.60,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:10:49.60,0:10:51.92,*Default,NTP,0000,0000,0000,,这听起来是个好主意，不是吗？
+Dialogue: 0,0:10:53.29,0:10:56.58,*Default,NTP,0000,0000,0000,,所以让我们回到 blog.html
+Dialogue: 0,0:10:56.58,0:10:59.02,*Default,NTP,0000,0000,0000,,作为另一个挑战，
+Dialogue: 0,0:10:59.02,0:11:03.30,*Default,NTP,0000,0000,0000,,现在我希望您自己实际创建此链接。
+Dialogue: 0,0:11:03.30,0:11:06.11,*Default,NTP,0000,0000,0000,,所以在这里暂停视频并创建一个链接
+Dialogue: 0,0:11:06.11,0:11:09.48,*Default,NTP,0000,0000,0000,,指向 index.html。
+Dialogue: 0,0:11:11.63,0:11:14.76,*Default,NTP,0000,0000,0000,,那你做到了吗？
+Dialogue: 0,0:11:14.76,0:11:16.85,*Default,NTP,0000,0000,0000,,或者至少尝试一下？
+Dialogue: 0,0:11:16.85,0:11:18.43,*Default,NTP,0000,0000,0000,,好吧，我当然希望如此。
+Dialogue: 0,0:11:19.40,0:11:21.31,*Default,NTP,0000,0000,0000,,但无论如何，当然，
+Dialogue: 0,0:11:21.31,0:11:23.35,*Default,NTP,0000,0000,0000,,我们再次使用 a 元素。
+Dialogue: 0,0:11:23.35,0:11:25.61,*Default,NTP,0000,0000,0000,,然后我们指定href
+Dialogue: 0,0:11:25.61,0:11:29.56,*Default,NTP,0000,0000,0000,,好吧，回过头来，我们只说 index.html。
+Dialogue: 0,0:11:32.30,0:11:34.68,*Default,NTP,0000,0000,0000,,然后在这里我们可以指定任何文本，
+Dialogue: 0,0:11:34.68,0:11:36.57,*Default,NTP,0000,0000,0000,,我没有告诉你是哪一个
+Dialogue: 0,0:11:36.57,0:11:38.49,*Default,NTP,0000,0000,0000,,因为这并不重要。
+Dialogue: 0,0:11:39.40,0:11:42.86,*Default,NTP,0000,0000,0000,,就说回家吧
+Dialogue: 0,0:11:42.86,0:11:44.65,*Default,NTP,0000,0000,0000,,或类似的东西。
+Dialogue: 0,0:11:44.65,0:11:46.09,*Default,NTP,0000,0000,0000,,给它一个保存。
+Dialogue: 0,0:11:47.23,0:11:49.33,*Default,NTP,0000,0000,0000,,现在，一旦我们重新加载它，
+Dialogue: 0,0:11:49.33,0:11:51.64,*Default,NTP,0000,0000,0000,,我们有我们的链接，我们可以点击它
+Dialogue: 0,0:11:51.64,0:11:54.12,*Default,NTP,0000,0000,0000,,所以现在我们基本上可以回去了
+Dialogue: 0,0:11:54.12,0:11:56.27,*Default,NTP,0000,0000,0000,,在这两页之间来回
+Dialogue: 0,0:11:56.27,0:11:58.80,*Default,NTP,0000,0000,0000,,因为它们现在通过这些链接连接起来。
+Dialogue: 0,0:11:59.69,0:12:01.01,*Default,NTP,0000,0000,0000,,所以我们可以去博客，
+Dialogue: 0,0:12:01.01,0:12:05.75,*Default,NTP,0000,0000,0000,,我们可以来回移动等等。
+Dialogue: 0,0:12:05.75,0:12:08.84,*Default,NTP,0000,0000,0000,,好吧，让我们在这里关闭这个。
+Dialogue: 0,0:12:08.84,0:12:10.89,*Default,NTP,0000,0000,0000,,我们不再需要它了。
+Dialogue: 0,0:12:10.89,0:12:12.77,*Default,NTP,0000,0000,0000,,刚刚结束，
+Dialogue: 0,0:12:12.77,0:12:15.28,*Default,NTP,0000,0000,0000,,我们实际上也可以指定一个链接
+Dialogue: 0,0:12:15.28,0:12:17.26,*Default,NTP,0000,0000,0000,,那不会去任何地方。
+Dialogue: 0,0:12:17.26,0:12:19.01,*Default,NTP,0000,0000,0000,,所以让我也向你展示一下。
+Dialogue: 0,0:12:22.22,0:12:25.06,*Default,NTP,0000,0000,0000,,所以我们先写内容
+Dialogue: 0,0:12:25.06,0:12:28.70,*Default,NTP,0000,0000,0000,,在这里我有我认为的挑战
+Dialogue: 0,0:12:30.77,0:12:31.83,*Default,NTP,0000,0000,0000,,在演示中。
+Dialogue: 0,0:12:31.83,0:12:35.06,*Default,NTP,0000,0000,0000,,所以我们有挑战 Flexbox 和 CSS Grid。
+Dialogue: 0,0:12:37.02,0:12:38.68,*Default,NTP,0000,0000,0000,,所以这就是挑战
+Dialogue: 0,0:12:38.68,0:12:40.47,*Default,NTP,0000,0000,0000,,但是看看现在会发生什么
+Dialogue: 0,0:12:40.47,0:12:43.48,*Default,NTP,0000,0000,0000,,当我像这样重新加载页面时。
+Dialogue: 0,0:12:45.09,0:12:48.57,*Default,NTP,0000,0000,0000,,所以你看到它只说挑战
+Dialogue: 0,0:12:48.57,0:12:51.26,*Default,NTP,0000,0000,0000,,但请注意它只是普通文本。
+Dialogue: 0,0:12:51.26,0:12:53.80,*Default,NTP,0000,0000,0000,,它不是蓝色也不是下划线，
+Dialogue: 0,0:12:53.80,0:12:56.98,*Default,NTP,0000,0000,0000,,所以它显然不是一个链接，对吧？
+Dialogue: 0,0:12:56.98,0:13:00.19,*Default,NTP,0000,0000,0000,,所以即使它实际上是一个锚元素
+Dialogue: 0,0:13:00.19,0:13:03.19,*Default,NTP,0000,0000,0000,,但是是什么让锚元素真正成为链接
+Dialogue: 0,0:13:03.19,0:13:05.80,*Default,NTP,0000,0000,0000,,是 href 属性。
+Dialogue: 0,0:13:05.80,0:13:08.13,*Default,NTP,0000,0000,0000,,所以我们真的需要指定它，
+Dialogue: 0,0:13:08.13,0:13:10.35,*Default,NTP,0000,0000,0000,,否则它根本不是一个链接。
+Dialogue: 0,0:13:10.35,0:13:12.18,*Default,NTP,0000,0000,0000,,那么它只是一个锚，
+Dialogue: 0,0:13:12.18,0:13:14.42,*Default,NTP,0000,0000,0000,,这不是很有用。
+Dialogue: 0,0:13:16.14,0:13:19.51,*Default,NTP,0000,0000,0000,,但是如果我们不希望它指向任何地方怎么办
+Dialogue: 0,0:13:19.51,0:13:21.20,*Default,NTP,0000,0000,0000,,正如我所说？
+Dialogue: 0,0:13:21.20,0:13:22.88,*Default,NTP,0000,0000,0000,,嗯，解决方案
+Dialogue: 0,0:13:22.88,0:13:26.93,*Default,NTP,0000,0000,0000,,是在此处指定此井号。
+Dialogue: 0,0:13:26.93,0:13:28.37,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:13:28.37,0:13:30.80,*Default,NTP,0000,0000,0000,,所以如果我现在保存并重新加载，
+Dialogue: 0,0:13:30.80,0:13:34.61,*Default,NTP,0000,0000,0000,,然后我们回到这实际上是一个链接。
+Dialogue: 0,0:13:34.61,0:13:36.28,*Default,NTP,0000,0000,0000,,它只是没有指向任何地方。
+Dialogue: 0,0:13:36.28,0:13:39.19,*Default,NTP,0000,0000,0000,,单击此链接时会发生什么
+Dialogue: 0,0:13:39.19,0:13:41.79,*Default,NTP,0000,0000,0000,,是基本上它回到顶部
+Dialogue: 0,0:13:41.79,0:13:44.74,*Default,NTP,0000,0000,0000,,当前页面，好吗？
+Dialogue: 0,0:13:44.74,0:13:46.46,*Default,NTP,0000,0000,0000,,在课程的稍后部分，
+Dialogue: 0,0:13:46.46,0:13:48.15,*Default,NTP,0000,0000,0000,,我们实际上会利用
+Dialogue: 0,0:13:48.15,0:13:50.77,*Default,NTP,0000,0000,0000,,这种行为，但现在，
+Dialogue: 0,0:13:50.77,0:13:51.94,*Default,NTP,0000,0000,0000,,我只是想让你知道
+Dialogue: 0,0:13:51.94,0:13:54.35,*Default,NTP,0000,0000,0000,,这就是我们可以指定链接的方式
+Dialogue: 0,0:13:54.35,0:13:57.47,*Default,NTP,0000,0000,0000,,当我们还没有他们的 URL 时
+Dialogue: 0,0:13:57.47,0:13:59.18,*Default,NTP,0000,0000,0000,,或者没有任何页面。
+Dialogue: 0,0:13:59.18,0:14:01.79,*Default,NTP,0000,0000,0000,,所以基本上，这就像一个占位符链接。
+Dialogue: 0,0:14:03.29,0:14:04.12,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:14:04.12,0:14:06.38,*Default,NTP,0000,0000,0000,,所以让我们在这里复制两次。
+Dialogue: 0,0:14:06.38,0:14:08.36,*Default,NTP,0000,0000,0000,,没必要再写了。
+Dialogue: 0,0:14:08.36,0:14:09.47,*Default,NTP,0000,0000,0000,,但当然，如果你愿意，
+Dialogue: 0,0:14:09.47,0:14:10.77,*Default,NTP,0000,0000,0000,,你可以写再次。
+Dialogue: 0,0:14:11.81,0:14:15.32,*Default,NTP,0000,0000,0000,,所以只针对这个 Flexbox 和 CSS Grid。
+Dialogue: 0,0:14:16.17,0:14:18.09,*Default,NTP,0000,0000,0000,,所以只是为了让导航看起来
+Dialogue: 0,0:14:18.09,0:14:20.68,*Default,NTP,0000,0000,0000,,有点像完整的。
+Dialogue: 0,0:14:22.24,0:14:23.45,*Default,NTP,0000,0000,0000,,但所有这些链接，
+Dialogue: 0,0:14:23.45,0:14:25.26,*Default,NTP,0000,0000,0000,,他们不应该指向任何地方。
+Dialogue: 0,0:14:27.28,0:14:30.41,*Default,NTP,0000,0000,0000,,好的，这就是您指定链接的方式
+Dialogue: 0,0:14:30.41,0:14:35.41,*Default,NTP,0000,0000,0000,,或超链接或锚点，我们也可以在 HTML 中调用它们。
+Dialogue: 0,0:14:36.14,0:14:38.24,*Default,NTP,0000,0000,0000,,所以这是一个非常重要的部分
+Dialogue: 0,0:14:38.24,0:14:41.04,*Default,NTP,0000,0000,0000,,正如我一开始所说的那样
+Dialogue: 0,0:14:41.04,0:14:44.10,*Default,NTP,0000,0000,0000,,因此，请确保您了解它们的工作原理
+Dialogue: 0,0:14:44.10,0:14:47.28,*Default,NTP,0000,0000,0000,,以及我们如何将它们放在我们自己的网页中。
+Dialogue: 0,0:00:01.46,0:00:03.96,*Default,NTP,0000,0000,0000,,One of the fundamental building blocks
+Dialogue: 0,0:00:03.96,0:00:06.87,*Default,NTP,0000,0000,0000,,of the internet are hyperlinks
+Dialogue: 0,0:00:06.87,0:00:09.33,*Default,NTP,0000,0000,0000,,or for short, just links.
+Dialogue: 0,0:00:09.33,0:00:12.68,*Default,NTP,0000,0000,0000,,So links are what actually enables the internet
+Dialogue: 0,0:00:12.68,0:00:15.16,*Default,NTP,0000,0000,0000,,to be a worldwide web.
+Dialogue: 0,0:00:15.16,0:00:17.34,*Default,NTP,0000,0000,0000,,So without links between pages,
+Dialogue: 0,0:00:17.34,0:00:19.28,*Default,NTP,0000,0000,0000,,there would be no web.
+Dialogue: 0,0:00:19.28,0:00:20.71,*Default,NTP,0000,0000,0000,,And so let's now learn
+Dialogue: 0,0:00:20.71,0:00:23.88,*Default,NTP,0000,0000,0000,,how to place links on our own webpages.
+Dialogue: 0,0:00:25.32,0:00:29.29,*Default,NTP,0000,0000,0000,,Now, we can place links into two big categories.
+Dialogue: 0,0:00:29.29,0:00:31.36,*Default,NTP,0000,0000,0000,,The first category is links
+Dialogue: 0,0:00:31.36,0:00:35.74,*Default,NTP,0000,0000,0000,,that point to other pages within our own website.
+Dialogue: 0,0:00:35.74,0:00:38.40,*Default,NTP,0000,0000,0000,,So let's say that here in our website,
+Dialogue: 0,0:00:38.40,0:00:39.72,*Default,NTP,0000,0000,0000,,The Code Magazine,
+Dialogue: 0,0:00:39.72,0:00:41.58,*Default,NTP,0000,0000,0000,,we had another blog post.
+Dialogue: 0,0:00:41.58,0:00:44.40,*Default,NTP,0000,0000,0000,,So we could then create a link from this page
+Dialogue: 0,0:00:44.40,0:00:47.08,*Default,NTP,0000,0000,0000,,to that other page, right?
+Dialogue: 0,0:00:47.08,0:00:49.70,*Default,NTP,0000,0000,0000,,Now, on the other hand, the other category
+Dialogue: 0,0:00:49.70,0:00:53.92,*Default,NTP,0000,0000,0000,,is links that point to outside of our website.
+Dialogue: 0,0:00:53.92,0:00:58.09,*Default,NTP,0000,0000,0000,,So for example, if I placed a link to udemy.com here
+Dialogue: 0,0:00:58.09,0:01:00.67,*Default,NTP,0000,0000,0000,,on this page, then that, of course,
+Dialogue: 0,0:01:00.67,0:01:03.13,*Default,NTP,0000,0000,0000,,would be a link to the outside
+Dialogue: 0,0:01:03.13,0:01:05.54,*Default,NTP,0000,0000,0000,,of our website, right?
+Dialogue: 0,0:01:05.54,0:01:08.09,*Default,NTP,0000,0000,0000,,Now, we do create these two types of links
+Dialogue: 0,0:01:08.09,0:01:11.10,*Default,NTP,0000,0000,0000,,in the exact same way in HTML
+Dialogue: 0,0:01:11.10,0:01:14.33,*Default,NTP,0000,0000,0000,,but there's still some kinds of particularities
+Dialogue: 0,0:01:14.33,0:01:16.14,*Default,NTP,0000,0000,0000,,that we need to be aware of
+Dialogue: 0,0:01:16.14,0:01:18.86,*Default,NTP,0000,0000,0000,,and so let's now actually start with the second kind
+Dialogue: 0,0:01:18.86,0:01:21.17,*Default,NTP,0000,0000,0000,,of link that I was describing,
+Dialogue: 0,0:01:21.17,0:01:24.05,*Default,NTP,0000,0000,0000,,which point outwards of our own website.
+Dialogue: 0,0:01:25.15,0:01:26.85,*Default,NTP,0000,0000,0000,,So what I have here in the demo
+Dialogue: 0,0:01:26.85,0:01:30.84,*Default,NTP,0000,0000,0000,,is that here at the end of this part,
+Dialogue: 0,0:01:30.84,0:01:33.30,*Default,NTP,0000,0000,0000,,so of this what is HTML section,
+Dialogue: 0,0:01:33.30,0:01:36.32,*Default,NTP,0000,0000,0000,,I have a link to the MDN Web Docs.
+Dialogue: 0,0:01:37.16,0:01:39.27,*Default,NTP,0000,0000,0000,,So this is basically a website
+Dialogue: 0,0:01:39.27,0:01:41.55,*Default,NTP,0000,0000,0000,,where you can learn all about HTML
+Dialogue: 0,0:01:41.55,0:01:43.96,*Default,NTP,0000,0000,0000,,and also CSS and JavaScript.
+Dialogue: 0,0:01:45.19,0:01:48.22,*Default,NTP,0000,0000,0000,,And actually, I will show you this site a little bit better
+Dialogue: 0,0:01:48.22,0:01:49.76,*Default,NTP,0000,0000,0000,,in the next section
+Dialogue: 0,0:01:49.76,0:01:52.34,*Default,NTP,0000,0000,0000,,because it's important as a web developer
+Dialogue: 0,0:01:52.34,0:01:53.83,*Default,NTP,0000,0000,0000,,to know how to use
+Dialogue: 0,0:01:53.83,0:01:58.19,*Default,NTP,0000,0000,0000,,and find information here in this web documentations page.
+Dialogue: 0,0:01:59.38,0:02:03.21,*Default,NTP,0000,0000,0000,,So what we want is to grab the link of that
+Dialogue: 0,0:02:03.21,0:02:04.63,*Default,NTP,0000,0000,0000,,and so to do that,
+Dialogue: 0,0:02:04.63,0:02:09.63,*Default,NTP,0000,0000,0000,,just google MDN, which stands for Mozilla Developer Network
+Dialogue: 0,0:02:10.17,0:02:12.85,*Default,NTP,0000,0000,0000,,and then just HTML.
+Dialogue: 0,0:02:12.85,0:02:15.62,*Default,NTP,0000,0000,0000,,And the exact URL that we're gonna use here
+Dialogue: 0,0:02:15.62,0:02:16.76,*Default,NTP,0000,0000,0000,,doesn't really matter.
+Dialogue: 0,0:02:16.76,0:02:19.64,*Default,NTP,0000,0000,0000,,All we want is to have some URL
+Dialogue: 0,0:02:19.64,0:02:22.15,*Default,NTP,0000,0000,0000,,that points outside of our own page.
+Dialogue: 0,0:02:23.26,0:02:24.23,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:02:24.23,0:02:26.35,*Default,NTP,0000,0000,0000,,So let's just grab this one here,
+Dialogue: 0,0:02:26.35,0:02:28.76,*Default,NTP,0000,0000,0000,,which was the first Google result.
+Dialogue: 0,0:02:28.76,0:02:31.47,*Default,NTP,0000,0000,0000,,So I'm copying it and again,
+Dialogue: 0,0:02:31.47,0:02:33.42,*Default,NTP,0000,0000,0000,,keep in mind that this is called a URL.
+Dialogue: 0,0:02:34.55,0:02:35.41,*Default,NTP,0000,0000,0000,,So as you know,
+Dialogue: 0,0:02:35.41,0:02:38.01,*Default,NTP,0000,0000,0000,,every single website on the internet
+Dialogue: 0,0:02:38.01,0:02:39.71,*Default,NTP,0000,0000,0000,,has its own URL
+Dialogue: 0,0:02:39.71,0:02:41.65,*Default,NTP,0000,0000,0000,,and so that is what we need in order
+Dialogue: 0,0:02:41.65,0:02:43.89,*Default,NTP,0000,0000,0000,,to create a link to that page.
+Dialogue: 0,0:02:45.89,0:02:47.27,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:02:47.27,0:02:50.20,*Default,NTP,0000,0000,0000,,So let's see.
+Dialogue: 0,0:02:51.74,0:02:56.42,*Default,NTP,0000,0000,0000,,Yeah, we want to put that right here
+Dialogue: 0,0:02:56.42,0:02:58.78,*Default,NTP,0000,0000,0000,,after this unordered list.
+Dialogue: 0,0:02:59.76,0:03:00.70,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:03:00.70,0:03:01.83,*Default,NTP,0000,0000,0000,,Let's see in the demo.
+Dialogue: 0,0:03:02.85,0:03:05.50,*Default,NTP,0000,0000,0000,,Yeah, so right here after the ordered list.
+Dialogue: 0,0:03:07.03,0:03:07.86,*Default,NTP,0000,0000,0000,,So that's here.
+Dialogue: 0,0:03:08.86,0:03:12.05,*Default,NTP,0000,0000,0000,,So to create a link in HTML,
+Dialogue: 0,0:03:12.05,0:03:15.87,*Default,NTP,0000,0000,0000,,we use the a element, which stands for anchor.
+Dialogue: 0,0:03:15.87,0:03:18.11,*Default,NTP,0000,0000,0000,,So technically, a hyperlink
+Dialogue: 0,0:03:18.11,0:03:22.57,*Default,NTP,0000,0000,0000,,or a link is actually called anchor in HTML.
+Dialogue: 0,0:03:22.57,0:03:25.35,*Default,NTP,0000,0000,0000,,So it is an anchor element.
+Dialogue: 0,0:03:25.35,0:03:26.64,*Default,NTP,0000,0000,0000,,We can close it.
+Dialogue: 0,0:03:26.64,0:03:28.74,*Default,NTP,0000,0000,0000,,Then we can specify some content
+Dialogue: 0,0:03:28.74,0:03:32.30,*Default,NTP,0000,0000,0000,,and then we can, or we have to actually close it.
+Dialogue: 0,0:03:32.30,0:03:34.70,*Default,NTP,0000,0000,0000,,So let's start by doing that.
+Dialogue: 0,0:03:34.70,0:03:37.40,*Default,NTP,0000,0000,0000,,Now, as for the content of the link,
+Dialogue: 0,0:03:37.40,0:03:39.92,*Default,NTP,0000,0000,0000,,what we specify here is actually the text
+Dialogue: 0,0:03:39.92,0:03:42.82,*Default,NTP,0000,0000,0000,,that we want to be displayed on the page.
+Dialogue: 0,0:03:42.82,0:03:44.66,*Default,NTP,0000,0000,0000,,So the text of the link.
+Dialogue: 0,0:03:45.59,0:03:48.88,*Default,NTP,0000,0000,0000,,So in this case, that is this MDN Web Docs.
+Dialogue: 0,0:03:50.17,0:03:51.00,*Default,NTP,0000,0000,0000,,All right?
+Dialogue: 0,0:03:51.00,0:03:55.73,*Default,NTP,0000,0000,0000,,So MDN Web Docs.
+Dialogue: 0,0:03:55.73,0:03:58.09,*Default,NTP,0000,0000,0000,,But now, what about the URL
+Dialogue: 0,0:03:58.09,0:04:00.85,*Default,NTP,0000,0000,0000,,where we want this link to point to?
+Dialogue: 0,0:04:00.85,0:04:04.62,*Default,NTP,0000,0000,0000,,Well, for that, we need to once again use an attribute.
+Dialogue: 0,0:04:05.86,0:04:10.86,*Default,NTP,0000,0000,0000,,So in this case, it is the href attribute.
+Dialogue: 0,0:04:11.27,0:04:13.56,*Default,NTP,0000,0000,0000,,Then equal, double quotes
+Dialogue: 0,0:04:13.56,0:04:15.73,*Default,NTP,0000,0000,0000,,and then we can simply paste that URL
+Dialogue: 0,0:04:15.73,0:04:18.21,*Default,NTP,0000,0000,0000,,that we copied right here
+Dialogue: 0,0:04:18.21,0:04:20.40,*Default,NTP,0000,0000,0000,,and that's actually it.
+Dialogue: 0,0:04:20.40,0:04:22.02,*Default,NTP,0000,0000,0000,,So if I give it a save now,
+Dialogue: 0,0:04:22.87,0:04:25.89,*Default,NTP,0000,0000,0000,,and then reload our page here,
+Dialogue: 0,0:04:27.46,0:04:29.53,*Default,NTP,0000,0000,0000,,then here is our link.
+Dialogue: 0,0:04:30.66,0:04:32.19,*Default,NTP,0000,0000,0000,,And you see down there,
+Dialogue: 0,0:04:32.19,0:04:33.69,*Default,NTP,0000,0000,0000,,so here in this corner
+Dialogue: 0,0:04:33.69,0:04:36.71,*Default,NTP,0000,0000,0000,,that when I hover it, it actually shows me the URL
+Dialogue: 0,0:04:36.71,0:04:38.53,*Default,NTP,0000,0000,0000,,and then when I click it,
+Dialogue: 0,0:04:38.53,0:04:40.16,*Default,NTP,0000,0000,0000,,our page goes there.
+Dialogue: 0,0:04:42.23,0:04:45.82,*Default,NTP,0000,0000,0000,,Great, and so that is actually already the basics
+Dialogue: 0,0:04:45.82,0:04:48.13,*Default,NTP,0000,0000,0000,,of creating a link.
+Dialogue: 0,0:04:48.13,0:04:49.94,*Default,NTP,0000,0000,0000,,Very simple, right?
+Dialogue: 0,0:04:50.98,0:04:52.85,*Default,NTP,0000,0000,0000,,Now, we want this link here
+Dialogue: 0,0:04:52.85,0:04:56.94,*Default,NTP,0000,0000,0000,,to actually be like inside of this text.
+Dialogue: 0,0:04:56.94,0:04:59.67,*Default,NTP,0000,0000,0000,,So inside of one more paragraph here.
+Dialogue: 0,0:05:01.61,0:05:02.60,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:05:02.60,0:05:05.57,*Default,NTP,0000,0000,0000,,So let's create that paragraph.
+Dialogue: 0,0:05:06.84,0:05:11.19,*Default,NTP,0000,0000,0000,,So you can learn more at,
+Dialogue: 0,0:05:12.91,0:05:15.71,*Default,NTP,0000,0000,0000,,and then this link here
+Dialogue: 0,0:05:15.71,0:05:20.68,*Default,NTP,0000,0000,0000,,is basically just a continuation of the text in here.
+Dialogue: 0,0:05:20.68,0:05:23.38,*Default,NTP,0000,0000,0000,,So inside of this paragraph.
+Dialogue: 0,0:05:23.38,0:05:25.76,*Default,NTP,0000,0000,0000,,So we can finish our sentence here
+Dialogue: 0,0:05:25.76,0:05:29.78,*Default,NTP,0000,0000,0000,,and then close up our paragraph as usual.
+Dialogue: 0,0:05:31.63,0:05:36.49,*Default,NTP,0000,0000,0000,,And so now that looks just like in the original one.
+Dialogue: 0,0:05:36.49,0:05:37.47,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:05:37.47,0:05:39.58,*Default,NTP,0000,0000,0000,,Now, notice what happens here once again
+Dialogue: 0,0:05:39.58,0:05:40.78,*Default,NTP,0000,0000,0000,,when I click it.
+Dialogue: 0,0:05:41.78,0:05:43.94,*Default,NTP,0000,0000,0000,,So you see that we navigated directly
+Dialogue: 0,0:05:43.94,0:05:47.97,*Default,NTP,0000,0000,0000,,to this page and now our own page disappeared.
+Dialogue: 0,0:05:47.97,0:05:50.02,*Default,NTP,0000,0000,0000,,So of course, we can go back here
+Dialogue: 0,0:05:50.02,0:05:51.87,*Default,NTP,0000,0000,0000,,but sometimes what we want to do
+Dialogue: 0,0:05:51.87,0:05:54.47,*Default,NTP,0000,0000,0000,,is to open a link in a new tab.
+Dialogue: 0,0:05:54.47,0:05:56.85,*Default,NTP,0000,0000,0000,,So let me also show you how we can do that.
+Dialogue: 0,0:05:57.86,0:06:00.43,*Default,NTP,0000,0000,0000,,And of course, we don't always want that.
+Dialogue: 0,0:06:00.43,0:06:02.93,*Default,NTP,0000,0000,0000,,So many times, we actually want the page
+Dialogue: 0,0:06:02.93,0:06:07.53,*Default,NTP,0000,0000,0000,,to really move to the URL that we specified here
+Dialogue: 0,0:06:07.53,0:06:09.71,*Default,NTP,0000,0000,0000,,but also sometimes it's useful
+Dialogue: 0,0:06:09.71,0:06:12.83,*Default,NTP,0000,0000,0000,,to keep the page open and simply open the URL
+Dialogue: 0,0:06:12.83,0:06:15.38,*Default,NTP,0000,0000,0000,,in a new tab, and we can do that
+Dialogue: 0,0:06:15.38,0:06:17.68,*Default,NTP,0000,0000,0000,,by specifying the target attribute,
+Dialogue: 0,0:06:18.94,0:06:20.53,*Default,NTP,0000,0000,0000,,then the quotes as always
+Dialogue: 0,0:06:20.53,0:06:22.74,*Default,NTP,0000,0000,0000,,and then this one looks a bit weird,
+Dialogue: 0,0:06:22.74,0:06:26.80,*Default,NTP,0000,0000,0000,,so it's underscore and then blank.
+Dialogue: 0,0:06:28.49,0:06:30.85,*Default,NTP,0000,0000,0000,,So give that a save
+Dialogue: 0,0:06:30.85,0:06:33.44,*Default,NTP,0000,0000,0000,,and when we reload, it will look the same
+Dialogue: 0,0:06:33.44,0:06:36.33,*Default,NTP,0000,0000,0000,,but the behavior should have changed.
+Dialogue: 0,0:06:36.33,0:06:39.62,*Default,NTP,0000,0000,0000,,And indeed, notice how it opened a new tab
+Dialogue: 0,0:06:39.62,0:06:42.65,*Default,NTP,0000,0000,0000,,and our original one is still open.
+Dialogue: 0,0:06:44.17,0:06:45.10,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:06:45.10,0:06:48.45,*Default,NTP,0000,0000,0000,,So that worked and so we have now a link
+Dialogue: 0,0:06:48.45,0:06:51.51,*Default,NTP,0000,0000,0000,,that points to a URL that is outside
+Dialogue: 0,0:06:51.51,0:06:53.52,*Default,NTP,0000,0000,0000,,of our own website.
+Dialogue: 0,0:06:53.52,0:06:55.86,*Default,NTP,0000,0000,0000,,But now about that first scenario
+Dialogue: 0,0:06:55.86,0:07:00.52,*Default,NTP,0000,0000,0000,,where we want to link to an internal page basically.
+Dialogue: 0,0:07:00.52,0:07:01.69,*Default,NTP,0000,0000,0000,,Let's do that now.
+Dialogue: 0,0:07:02.53,0:07:04.31,*Default,NTP,0000,0000,0000,,And going back again to our demo,
+Dialogue: 0,0:07:04.31,0:07:05.78,*Default,NTP,0000,0000,0000,,we have here this example.
+Dialogue: 0,0:07:05.78,0:07:09.53,*Default,NTP,0000,0000,0000,,So in the very beginning, right after the main heading,
+Dialogue: 0,0:07:09.53,0:07:11.68,*Default,NTP,0000,0000,0000,,we have these links here
+Dialogue: 0,0:07:11.68,0:07:14.68,*Default,NTP,0000,0000,0000,,and so these are supposed to be links
+Dialogue: 0,0:07:14.68,0:07:18.25,*Default,NTP,0000,0000,0000,,that point to pages that are part of this blog.
+Dialogue: 0,0:07:18.25,0:07:20.72,*Default,NTP,0000,0000,0000,,So let's now create this first link here,
+Dialogue: 0,0:07:20.72,0:07:23.57,*Default,NTP,0000,0000,0000,,so blog, and also create a new page
+Dialogue: 0,0:07:23.57,0:07:25.91,*Default,NTP,0000,0000,0000,,where we can actually link to.
+Dialogue: 0,0:07:27.23,0:07:28.15,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:07:28.15,0:07:31.16,*Default,NTP,0000,0000,0000,,And so creating a new page is as simple
+Dialogue: 0,0:07:31.16,0:07:34.96,*Default,NTP,0000,0000,0000,,as creating a new HTML document.
+Dialogue: 0,0:07:34.96,0:07:36.96,*Default,NTP,0000,0000,0000,,So let's open up again our sidebar
+Dialogue: 0,0:07:36.96,0:07:41.19,*Default,NTP,0000,0000,0000,,by clicking here and then we see our explorer here basically
+Dialogue: 0,0:07:41.19,0:07:42.37,*Default,NTP,0000,0000,0000,,with all the files
+Dialogue: 0,0:07:43.32,0:07:47.13,*Default,NTP,0000,0000,0000,,and then again, we create a new file in this icon here
+Dialogue: 0,0:07:47.13,0:07:52.13,*Default,NTP,0000,0000,0000,,and let's call it blog.html this time.
+Dialogue: 0,0:07:52.30,0:07:55.33,*Default,NTP,0000,0000,0000,,And now we could use this cheat here
+Dialogue: 0,0:07:55.33,0:07:57.95,*Default,NTP,0000,0000,0000,,to create the HTML structure
+Dialogue: 0,0:07:57.95,0:08:01.52,*Default,NTP,0000,0000,0000,,but actually, let's practice a little bit here again.
+Dialogue: 0,0:08:01.52,0:08:03.86,*Default,NTP,0000,0000,0000,,And if you want, you can even pause the video
+Dialogue: 0,0:08:03.86,0:08:06.37,*Default,NTP,0000,0000,0000,,and type it out on your own
+Dialogue: 0,0:08:06.37,0:08:08.47,*Default,NTP,0000,0000,0000,,but I will just do it here very fast now.
+Dialogue: 0,0:08:09.49,0:08:10.32,*Default,NTP,0000,0000,0000,,So html.
+Dialogue: 0,0:08:11.29,0:08:13.17,*Default,NTP,0000,0000,0000,,Then we need to close it, of course.
+Dialogue: 0,0:08:18.18,0:08:19.54,*Default,NTP,0000,0000,0000,,Now, inside of the html,
+Dialogue: 0,0:08:19.54,0:08:22.20,*Default,NTP,0000,0000,0000,,remember, we have the head.
+Dialogue: 0,0:08:23.81,0:08:26.62,*Default,NTP,0000,0000,0000,,Inside of the head, we have a title usually.
+Dialogue: 0,0:08:27.69,0:08:32.23,*Default,NTP,0000,0000,0000,,And this one, let's just call it like this, BLOG.
+Dialogue: 0,0:08:32.23,0:08:36.15,*Default,NTP,0000,0000,0000,,So just uppercase to make it really obvious
+Dialogue: 0,0:08:38.02,0:08:39.17,*Default,NTP,0000,0000,0000,,and you see that this is really
+Dialogue: 0,0:08:39.17,0:08:41.80,*Default,NTP,0000,0000,0000,,just a very bare bones structure,
+Dialogue: 0,0:08:41.80,0:08:43.58,*Default,NTP,0000,0000,0000,,just a head with a title.
+Dialogue: 0,0:08:45.05,0:08:47.19,*Default,NTP,0000,0000,0000,,And actually, the same for the body,
+Dialogue: 0,0:08:47.19,0:08:48.84,*Default,NTP,0000,0000,0000,,which remember is the part
+Dialogue: 0,0:08:48.84,0:08:51.69,*Default,NTP,0000,0000,0000,,that is going to be visible in the browser.
+Dialogue: 0,0:08:52.97,0:08:55.82,*Default,NTP,0000,0000,0000,,So here I will simply specify an h2 element
+Dialogue: 0,0:08:57.72,0:08:59.98,*Default,NTP,0000,0000,0000,,and close it also here
+Dialogue: 0,0:08:59.98,0:09:03.85,*Default,NTP,0000,0000,0000,,and let's call this one BLOG as well.
+Dialogue: 0,0:09:03.85,0:09:07.25,*Default,NTP,0000,0000,0000,,Okay, ah, we still need to close the body, of course.
+Dialogue: 0,0:09:11.10,0:09:12.30,*Default,NTP,0000,0000,0000,,And that's it.
+Dialogue: 0,0:09:12.30,0:09:13.81,*Default,NTP,0000,0000,0000,,Let's give it a save.
+Dialogue: 0,0:09:13.81,0:09:15.77,*Default,NTP,0000,0000,0000,,And so here we have a very simple,
+Dialogue: 0,0:09:15.77,0:09:20.55,*Default,NTP,0000,0000,0000,,very bare bones blog HTML document.
+Dialogue: 0,0:09:20.55,0:09:22.53,*Default,NTP,0000,0000,0000,,But now with that in place,
+Dialogue: 0,0:09:22.53,0:09:27.18,*Default,NTP,0000,0000,0000,,we can create a hyperlink or a link right here
+Dialogue: 0,0:09:27.18,0:09:32.18,*Default,NTP,0000,0000,0000,,in this index.html, which will point to that blog.html.
+Dialogue: 0,0:09:32.53,0:09:35.83,*Default,NTP,0000,0000,0000,,And so the browser will then navigate to that page.
+Dialogue: 0,0:09:37.30,0:09:39.61,*Default,NTP,0000,0000,0000,,So let's do it right here after the h1.
+Dialogue: 0,0:09:40.77,0:09:43.62,*Default,NTP,0000,0000,0000,,And so the anchor element.
+Dialogue: 0,0:09:44.48,0:09:45.88,*Default,NTP,0000,0000,0000,,Then we need the href
+Dialogue: 0,0:09:48.56,0:09:50.60,*Default,NTP,0000,0000,0000,,and so now what we do here instead
+Dialogue: 0,0:09:50.60,0:09:52.69,*Default,NTP,0000,0000,0000,,of specifying a URL
+Dialogue: 0,0:09:52.69,0:09:55.97,*Default,NTP,0000,0000,0000,,is to specify the name of the HTML file
+Dialogue: 0,0:09:55.97,0:09:57.74,*Default,NTP,0000,0000,0000,,that we want to go to
+Dialogue: 0,0:09:57.74,0:09:59.78,*Default,NTP,0000,0000,0000,,and so in this case, it is, of course,
+Dialogue: 0,0:09:59.78,0:10:03.47,*Default,NTP,0000,0000,0000,,this blog.html that we just created.
+Dialogue: 0,0:10:04.40,0:10:07.27,*Default,NTP,0000,0000,0000,,Then here as the content of the element,
+Dialogue: 0,0:10:07.27,0:10:08.94,*Default,NTP,0000,0000,0000,,let's just write blog again
+Dialogue: 0,0:10:09.80,0:10:13.73,*Default,NTP,0000,0000,0000,,and then close it as always.
+Dialogue: 0,0:10:13.73,0:10:15.34,*Default,NTP,0000,0000,0000,,Give it a save.
+Dialogue: 0,0:10:15.34,0:10:17.72,*Default,NTP,0000,0000,0000,,Here is our beautiful link
+Dialogue: 0,0:10:17.72,0:10:21.06,*Default,NTP,0000,0000,0000,,and now watch what happens as I click it.
+Dialogue: 0,0:10:21.06,0:10:23.64,*Default,NTP,0000,0000,0000,,Bam, we are now at blog
+Dialogue: 0,0:10:23.64,0:10:27.47,*Default,NTP,0000,0000,0000,,and you can see that also here in the URL bar.
+Dialogue: 0,0:10:27.47,0:10:30.09,*Default,NTP,0000,0000,0000,,So which is now all of this file.
+Dialogue: 0,0:10:30.09,0:10:31.83,*Default,NTP,0000,0000,0000,,And so all of this path
+Dialogue: 0,0:10:31.83,0:10:34.40,*Default,NTP,0000,0000,0000,,and then at the end, blog.html.
+Dialogue: 0,0:10:35.35,0:10:36.69,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:10:36.69,0:10:39.75,*Default,NTP,0000,0000,0000,,Now, to go back, we could, of course, click here
+Dialogue: 0,0:10:39.75,0:10:42.95,*Default,NTP,0000,0000,0000,,on this back button but what we could also do
+Dialogue: 0,0:10:42.95,0:10:44.75,*Default,NTP,0000,0000,0000,,is to add a link here,
+Dialogue: 0,0:10:44.75,0:10:48.77,*Default,NTP,0000,0000,0000,,which simply points back to index.html.
+Dialogue: 0,0:10:48.77,0:10:49.60,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:10:49.60,0:10:51.92,*Default,NTP,0000,0000,0000,,That sounds like a nice idea, doesn't it?
+Dialogue: 0,0:10:53.29,0:10:56.58,*Default,NTP,0000,0000,0000,,So let's come back here to blog.html
+Dialogue: 0,0:10:56.58,0:10:59.02,*Default,NTP,0000,0000,0000,,and as yet another challenge,
+Dialogue: 0,0:10:59.02,0:11:03.30,*Default,NTP,0000,0000,0000,,now I want you to actually create this link on your own.
+Dialogue: 0,0:11:03.30,0:11:06.11,*Default,NTP,0000,0000,0000,,So pause the video here and create a link
+Dialogue: 0,0:11:06.11,0:11:09.48,*Default,NTP,0000,0000,0000,,that points back to index.html.
+Dialogue: 0,0:11:11.63,0:11:14.76,*Default,NTP,0000,0000,0000,,So did you manage to do that?
+Dialogue: 0,0:11:14.76,0:11:16.85,*Default,NTP,0000,0000,0000,,Or at least try it?
+Dialogue: 0,0:11:16.85,0:11:18.43,*Default,NTP,0000,0000,0000,,Well, I sure hope so.
+Dialogue: 0,0:11:19.40,0:11:21.31,*Default,NTP,0000,0000,0000,,But anyway, of course,
+Dialogue: 0,0:11:21.31,0:11:23.35,*Default,NTP,0000,0000,0000,,we use the a element again.
+Dialogue: 0,0:11:23.35,0:11:25.61,*Default,NTP,0000,0000,0000,,Then we specify href
+Dialogue: 0,0:11:25.61,0:11:29.56,*Default,NTP,0000,0000,0000,,and well, to go back, we just say index.html.
+Dialogue: 0,0:11:32.30,0:11:34.68,*Default,NTP,0000,0000,0000,,And then here we can specify any text,
+Dialogue: 0,0:11:34.68,0:11:36.57,*Default,NTP,0000,0000,0000,,which I didn't tell you which one
+Dialogue: 0,0:11:36.57,0:11:38.49,*Default,NTP,0000,0000,0000,,because it doesn't really matter.
+Dialogue: 0,0:11:39.40,0:11:42.86,*Default,NTP,0000,0000,0000,,Let's just say back to home
+Dialogue: 0,0:11:42.86,0:11:44.65,*Default,NTP,0000,0000,0000,,or something like that.
+Dialogue: 0,0:11:44.65,0:11:46.09,*Default,NTP,0000,0000,0000,,Give it a save.
+Dialogue: 0,0:11:47.23,0:11:49.33,*Default,NTP,0000,0000,0000,,And now once we reload it,
+Dialogue: 0,0:11:49.33,0:11:51.64,*Default,NTP,0000,0000,0000,,we have our link, we can click it
+Dialogue: 0,0:11:51.64,0:11:54.12,*Default,NTP,0000,0000,0000,,and so now we can basically go back
+Dialogue: 0,0:11:54.12,0:11:56.27,*Default,NTP,0000,0000,0000,,and forth between these two pages
+Dialogue: 0,0:11:56.27,0:11:58.80,*Default,NTP,0000,0000,0000,,because they're now connected through these links.
+Dialogue: 0,0:11:59.69,0:12:01.01,*Default,NTP,0000,0000,0000,,So we can go to the blog,
+Dialogue: 0,0:12:01.01,0:12:05.75,*Default,NTP,0000,0000,0000,,we can go back and forth and so on and so forth.
+Dialogue: 0,0:12:05.75,0:12:08.84,*Default,NTP,0000,0000,0000,,All right, so let's close up this one here.
+Dialogue: 0,0:12:08.84,0:12:10.89,*Default,NTP,0000,0000,0000,,We don't need it anymore.
+Dialogue: 0,0:12:10.89,0:12:12.77,*Default,NTP,0000,0000,0000,,And just to finish,
+Dialogue: 0,0:12:12.77,0:12:15.28,*Default,NTP,0000,0000,0000,,we can also actually specify a link
+Dialogue: 0,0:12:15.28,0:12:17.26,*Default,NTP,0000,0000,0000,,that doesn't go anywhere.
+Dialogue: 0,0:12:17.26,0:12:19.01,*Default,NTP,0000,0000,0000,,So let me show that to you as well.
+Dialogue: 0,0:12:22.22,0:12:25.06,*Default,NTP,0000,0000,0000,,So let's just write the content first
+Dialogue: 0,0:12:25.06,0:12:28.70,*Default,NTP,0000,0000,0000,,and here I have Challenges I think
+Dialogue: 0,0:12:30.77,0:12:31.83,*Default,NTP,0000,0000,0000,,in the demo.
+Dialogue: 0,0:12:31.83,0:12:35.06,*Default,NTP,0000,0000,0000,,So we have Challenges Flexbox and CSS Grid.
+Dialogue: 0,0:12:37.02,0:12:38.68,*Default,NTP,0000,0000,0000,,So that's Challenges
+Dialogue: 0,0:12:38.68,0:12:40.47,*Default,NTP,0000,0000,0000,,but watch what happens now
+Dialogue: 0,0:12:40.47,0:12:43.48,*Default,NTP,0000,0000,0000,,when I reload the page like this.
+Dialogue: 0,0:12:45.09,0:12:48.57,*Default,NTP,0000,0000,0000,,So you see that it only says challenge
+Dialogue: 0,0:12:48.57,0:12:51.26,*Default,NTP,0000,0000,0000,,but notice how it's just normal text.
+Dialogue: 0,0:12:51.26,0:12:53.80,*Default,NTP,0000,0000,0000,,It's not blue and not underlined,
+Dialogue: 0,0:12:53.80,0:12:56.98,*Default,NTP,0000,0000,0000,,so it's clearly not a link, right?
+Dialogue: 0,0:12:56.98,0:13:00.19,*Default,NTP,0000,0000,0000,,So even though it is actually an anchor element
+Dialogue: 0,0:13:00.19,0:13:03.19,*Default,NTP,0000,0000,0000,,but what makes an anchor element really a link
+Dialogue: 0,0:13:03.19,0:13:05.80,*Default,NTP,0000,0000,0000,,is the href property.
+Dialogue: 0,0:13:05.80,0:13:08.13,*Default,NTP,0000,0000,0000,,And so we really need to specify it,
+Dialogue: 0,0:13:08.13,0:13:10.35,*Default,NTP,0000,0000,0000,,otherwise it is not a link at all.
+Dialogue: 0,0:13:10.35,0:13:12.18,*Default,NTP,0000,0000,0000,,It is then just an anchor,
+Dialogue: 0,0:13:12.18,0:13:14.42,*Default,NTP,0000,0000,0000,,which is not really useful.
+Dialogue: 0,0:13:16.14,0:13:19.51,*Default,NTP,0000,0000,0000,,But what if we don't want this to point anywhere
+Dialogue: 0,0:13:19.51,0:13:21.20,*Default,NTP,0000,0000,0000,,as I was saying?
+Dialogue: 0,0:13:21.20,0:13:22.88,*Default,NTP,0000,0000,0000,,Well, the solution to that
+Dialogue: 0,0:13:22.88,0:13:26.93,*Default,NTP,0000,0000,0000,,is to specify this hash symbol right here.
+Dialogue: 0,0:13:26.93,0:13:28.37,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:13:28.37,0:13:30.80,*Default,NTP,0000,0000,0000,,So if I now save it and reload,
+Dialogue: 0,0:13:30.80,0:13:34.61,*Default,NTP,0000,0000,0000,,then we are back to this being a link actually.
+Dialogue: 0,0:13:34.61,0:13:36.28,*Default,NTP,0000,0000,0000,,It just doesn't point anywhere.
+Dialogue: 0,0:13:36.28,0:13:39.19,*Default,NTP,0000,0000,0000,,What happens when you click on this link
+Dialogue: 0,0:13:39.19,0:13:41.79,*Default,NTP,0000,0000,0000,,is that basically it goes back to the top
+Dialogue: 0,0:13:41.79,0:13:44.74,*Default,NTP,0000,0000,0000,,of this current page, okay?
+Dialogue: 0,0:13:44.74,0:13:46.46,*Default,NTP,0000,0000,0000,,And a little bit later in the course,
+Dialogue: 0,0:13:46.46,0:13:48.15,*Default,NTP,0000,0000,0000,,we will actually make use
+Dialogue: 0,0:13:48.15,0:13:50.77,*Default,NTP,0000,0000,0000,,of this behavior but for now,
+Dialogue: 0,0:13:50.77,0:13:51.94,*Default,NTP,0000,0000,0000,,I just want you to know
+Dialogue: 0,0:13:51.94,0:13:54.35,*Default,NTP,0000,0000,0000,,that this is how we can specify links
+Dialogue: 0,0:13:54.35,0:13:57.47,*Default,NTP,0000,0000,0000,,when we don't have any URL yet for them
+Dialogue: 0,0:13:57.47,0:13:59.18,*Default,NTP,0000,0000,0000,,or don't have any page.
+Dialogue: 0,0:13:59.18,0:14:01.79,*Default,NTP,0000,0000,0000,,So basically, this is like a placeholder link.
+Dialogue: 0,0:14:03.29,0:14:04.12,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:14:04.12,0:14:06.38,*Default,NTP,0000,0000,0000,,And so let's just copy this here twice.
+Dialogue: 0,0:14:06.38,0:14:08.36,*Default,NTP,0000,0000,0000,,There's no need to write it again.
+Dialogue: 0,0:14:08.36,0:14:09.47,*Default,NTP,0000,0000,0000,,But of course, if you want,
+Dialogue: 0,0:14:09.47,0:14:10.77,*Default,NTP,0000,0000,0000,,you can write it again.
+Dialogue: 0,0:14:11.81,0:14:15.32,*Default,NTP,0000,0000,0000,,So just for this Flexbox and CSS Grid.
+Dialogue: 0,0:14:16.17,0:14:18.09,*Default,NTP,0000,0000,0000,,So just to make that navigation look
+Dialogue: 0,0:14:18.09,0:14:20.68,*Default,NTP,0000,0000,0000,,a bit more like complete.
+Dialogue: 0,0:14:22.24,0:14:23.45,*Default,NTP,0000,0000,0000,,But all of these link,
+Dialogue: 0,0:14:23.45,0:14:25.26,*Default,NTP,0000,0000,0000,,they should not point anywhere.
+Dialogue: 0,0:14:27.28,0:14:30.41,*Default,NTP,0000,0000,0000,,Okay, and this is how you specify links
+Dialogue: 0,0:14:30.41,0:14:35.41,*Default,NTP,0000,0000,0000,,or hyperlinks or anchors as we can also call them in HTML.
+Dialogue: 0,0:14:36.14,0:14:38.24,*Default,NTP,0000,0000,0000,,So this is a really important part
+Dialogue: 0,0:14:38.24,0:14:41.04,*Default,NTP,0000,0000,0000,,of the web as I said in the very beginning
+Dialogue: 0,0:14:41.04,0:14:44.10,*Default,NTP,0000,0000,0000,,and so make sure that you understand how they work
+Dialogue: 0,0:14:44.10,0:14:47.28,*Default,NTP,0000,0000,0000,,and how we place them inside our own webpages.

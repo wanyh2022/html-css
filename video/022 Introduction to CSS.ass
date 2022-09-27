@@ -1,0 +1,172 @@
+[Script Info]
+Title: 022 Introduction to CSS_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=20&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.90,0:00:05.15,*Default,NTP,0000,0000,0000,,欢迎来到关于 CSS 的第一讲。
+Dialogue: 0,0:00:05.15,0:00:09.04,*Default,NTP,0000,0000,0000,,所以就像我们在 HTML 基础部分所做的那样，
+Dialogue: 0,0:00:09.04,0:00:12.58,*Default,NTP,0000,0000,0000,,在本节中，我们还将首先查看
+Dialogue: 0,0:00:12.58,0:00:14.35,*Default,NTP,0000,0000,0000,,CSS实际上是什么，
+Dialogue: 0,0:00:14.35,0:00:17.50,*Default,NTP,0000,0000,0000,,我们将学习一些常用术语，
+Dialogue: 0,0:00:17.50,0:00:20.91,*Default,NTP,0000,0000,0000,,这样你就永远知道我在说什么
+Dialogue: 0,0:00:20.91,0:00:25.67,*Default,NTP,0000,0000,0000,,当我提到不同的 CSS 代码时。
+Dialogue: 0,0:00:26.60,0:00:27.73,*Default,NTP,0000,0000,0000,,所以首先，
+Dialogue: 0,0:00:27.73,0:00:31.36,*Default,NTP,0000,0000,0000,,CSS 代表层叠样式表。
+Dialogue: 0,0:00:31.36,0:00:33.06,*Default,NTP,0000,0000,0000,,就像 HTML 一样，
+Dialogue: 0,0:00:33.06,0:00:38.06,*Default,NTP,0000,0000,0000,,CSS 也是 Web 的核心技术之一。
+Dialogue: 0,0:00:38.45,0:00:40.95,*Default,NTP,0000,0000,0000,,现在记住我们使用 HTML
+Dialogue: 0,0:00:40.95,0:00:44.73,*Default,NTP,0000,0000,0000,,基本上描述页面的内容。
+Dialogue: 0,0:00:44.73,0:00:46.13,*Default,NTP,0000,0000,0000,,而另一方面，
+Dialogue: 0,0:00:46.13,0:00:49.27,*Default,NTP,0000,0000,0000,,我们使用 CSS 来描述视觉风格
+Dialogue: 0,0:00:49.27,0:00:52.05,*Default,NTP,0000,0000,0000,,和内容的呈现
+Dialogue: 0,0:00:52.05,0:00:55.98,*Default,NTP,0000,0000,0000,,我们之前使用 HTML 编写的。
+Dialogue: 0,0:00:55.98,0:01:00.14,*Default,NTP,0000,0000,0000,,所以 CSS 和 HTML 非常紧密地结合在一起。
+Dialogue: 0,0:01:00.14,0:01:04.09,*Default,NTP,0000,0000,0000,,事实上，在这里，你可以看到一个网页，
+Dialogue: 0,0:01:04.09,0:01:06.94,*Default,NTP,0000,0000,0000,,这实际上是我们将构建的项目
+Dialogue: 0,0:01:06.94,0:01:08.64,*Default,NTP,0000,0000,0000,,在课程的后期。
+Dialogue: 0,0:01:08.64,0:01:12.16,*Default,NTP,0000,0000,0000,,所以在左边你只有内容。
+Dialogue: 0,0:01:12.16,0:01:13.75,*Default,NTP,0000,0000,0000,,所以只是HTML。
+Dialogue: 0,0:01:13.75,0:01:15.18,*Default,NTP,0000,0000,0000,,然后在右边，
+Dialogue: 0,0:01:15.18,0:01:20.18,*Default,NTP,0000,0000,0000,,你有完全相同的 HTML 代码，但有很多 CSS。
+Dialogue: 0,0:01:21.12,0:01:24.67,*Default,NTP,0000,0000,0000,,这样 CSS 就描述了视觉风格
+Dialogue: 0,0:01:24.67,0:01:29.67,*Default,NTP,0000,0000,0000,,以及整个内容的基本布局。
+Dialogue: 0,0:01:30.07,0:01:31.67,*Default,NTP,0000,0000,0000,,现在，正如你已经知道的，
+Dialogue: 0,0:01:31.67,0:01:35.55,*Default,NTP,0000,0000,0000,,HTML由一堆不同的元素组成
+Dialogue: 0,0:01:35.55,0:01:38.50,*Default,NTP,0000,0000,0000,,我们可以用来描述内容。
+Dialogue: 0,0:01:38.50,0:01:41.45,*Default,NTP,0000,0000,0000,,同样，CSS 与此类似，
+Dialogue: 0,0:01:41.45,0:01:45.58,*Default,NTP,0000,0000,0000,,因为 CSS 包含无数的属性
+Dialogue: 0,0:01:45.58,0:01:50.06,*Default,NTP,0000,0000,0000,,然后我们的开发人员可以使用它来格式化内容。
+Dialogue: 0,0:01:50.06,0:01:54.22,*Default,NTP,0000,0000,0000,,这些属性允许我们格式化不同的东西
+Dialogue: 0,0:01:54.22,0:01:58.25,*Default,NTP,0000,0000,0000,,关于字体，文本，一般间距，
+Dialogue: 0,0:01:58.25,0:02:01.82,*Default,NTP,0000,0000,0000,,页面布局等等。
+Dialogue: 0,0:02:01.82,0:02:04.83,*Default,NTP,0000,0000,0000,,真的有很多不同的属性。
+Dialogue: 0,0:02:04.83,0:02:08.19,*Default,NTP,0000,0000,0000,,当然，您无需熟记于心。
+Dialogue: 0,0:02:08.19,0:02:10.65,*Default,NTP,0000,0000,0000,,没有必要这样做。
+Dialogue: 0,0:02:10.65,0:02:12.49,*Default,NTP,0000,0000,0000,,你学习这些属性的方式
+Dialogue: 0,0:02:12.49,0:02:16.24,*Default,NTP,0000,0000,0000,,是你一遍又一遍地使用最重要的，
+Dialogue: 0,0:02:16.24,0:02:20.58,*Default,NTP,0000,0000,0000,,在某一时刻，它会变得非常直观。
+Dialogue: 0,0:02:20.58,0:02:24.32,*Default,NTP,0000,0000,0000,,好的，这就是 CSS 的全部意义所在。
+Dialogue: 0,0:02:24.32,0:02:29.32,*Default,NTP,0000,0000,0000,,所以现在让我们来看一段实际的 CSS 代码。
+Dialogue: 0,0:02:30.41,0:02:34.32,*Default,NTP,0000,0000,0000,,这就是典型的一小段 CSS
+Dialogue: 0,0:02:34.32,0:02:35.44,*Default,NTP,0000,0000,0000,,可能看起来像。
+Dialogue: 0,0:02:35.44,0:02:38.89,*Default,NTP,0000,0000,0000,,它总是以选择器开头。
+Dialogue: 0,0:02:38.89,0:02:39.97,*Default,NTP,0000,0000,0000,,例如，
+Dialogue: 0,0:02:39.97,0:02:43.51,*Default,NTP,0000,0000,0000,,如果我们想为页面上的所有 h1 元素设置样式，
+Dialogue: 0,0:02:43.51,0:02:46.26,*Default,NTP,0000,0000,0000,,我们需要在 CSS 中选择它，
+Dialogue: 0,0:02:46.26,0:02:49.40,*Default,NTP,0000,0000,0000,,然后我们可以对其应用一些样式。
+Dialogue: 0,0:02:49.40,0:02:54.40,*Default,NTP,0000,0000,0000,,所以这些风格中的每一种，我们都可以称之为声明。
+Dialogue: 0,0:02:54.52,0:02:59.28,*Default,NTP,0000,0000,0000,,例如，这里我们将字体大小设置为 20 像素。
+Dialogue: 0,0:02:59.28,0:03:03.18,*Default,NTP,0000,0000,0000,,因此字体大小称为属性。
+Dialogue: 0,0:03:03.18,0:03:06.91,*Default,NTP,0000,0000,0000,,而 20 像素是我们声明的值
+Dialogue: 0,0:03:06.91,0:03:09.79,*Default,NTP,0000,0000,0000,,对于该字体大小属性。
+Dialogue: 0,0:03:09.79,0:03:13.65,*Default,NTP,0000,0000,0000,,所以财产和价值一起是一个声明。
+Dialogue: 0,0:03:13.65,0:03:18.19,*Default,NTP,0000,0000,0000,,我们也可以更随意地称其为风格。
+Dialogue: 0,0:03:18.19,0:03:21.54,*Default,NTP,0000,0000,0000,,然后所有这些声明，或样式一起，
+Dialogue: 0,0:03:21.54,0:03:24.46,*Default,NTP,0000,0000,0000,,组成声明块。
+Dialogue: 0,0:03:24.46,0:03:28.00,*Default,NTP,0000,0000,0000,,所以我们在选择器后面有这些花括号，
+Dialogue: 0,0:03:28.00,0:03:30.46,*Default,NTP,0000,0000,0000,,所以在声明块里面
+Dialogue: 0,0:03:30.46,0:03:32.95,*Default,NTP,0000,0000,0000,,去所有不同的声明。
+Dialogue: 0,0:03:32.95,0:03:34.78,*Default,NTP,0000,0000,0000,,所以我们所有的风格。
+Dialogue: 0,0:03:34.78,0:03:36.03,*Default,NTP,0000,0000,0000,,而这一切加在一起，
+Dialogue: 0,0:03:36.03,0:03:39.76,*Default,NTP,0000,0000,0000,,所以基本上选择器加上声明块
+Dialogue: 0,0:03:39.76,0:03:43.22,*Default,NTP,0000,0000,0000,,是我们c都是 CSS 规则。
+Dialogue: 0,0:03:43.22,0:03:47.16,*Default,NTP,0000,0000,0000,,所以这意味着，最终我们的 CSS 代码
+Dialogue: 0,0:03:47.16,0:03:51.38,*Default,NTP,0000,0000,0000,,会有很多不同的CSS规则，一个接一个，
+Dialogue: 0,0:03:51.38,0:03:53.58,*Default,NTP,0000,0000,0000,,我们选择所有元素的地方
+Dialogue: 0,0:03:53.58,0:03:56.58,*Default,NTP,0000,0000,0000,,并以我们想要的任何方式设计它们。
+Dialogue: 0,0:03:56.58,0:03:58.04,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:58.04,0:04:00.23,*Default,NTP,0000,0000,0000,,这正是我们将开始做的事情
+Dialogue: 0,0:04:00.23,0:04:01.65,*Default,NTP,0000,0000,0000,,在下一个视频中。
+Dialogue: 0,0:04:01.65,0:04:04.03,*Default,NTP,0000,0000,0000,,所以我们现在就去那里。
+Dialogue: 0,0:00:00.90,0:00:05.15,*Default,NTP,0000,0000,0000,,Welcome to the first lecture about CSS.
+Dialogue: 0,0:00:05.15,0:00:09.04,*Default,NTP,0000,0000,0000,,So just like we did in the HTML fundamental section,
+Dialogue: 0,0:00:09.04,0:00:12.58,*Default,NTP,0000,0000,0000,,in this section we will also start by looking
+Dialogue: 0,0:00:12.58,0:00:14.35,*Default,NTP,0000,0000,0000,,at what CSS actually is,
+Dialogue: 0,0:00:14.35,0:00:17.50,*Default,NTP,0000,0000,0000,,and we will learn some common terminology,
+Dialogue: 0,0:00:17.50,0:00:20.91,*Default,NTP,0000,0000,0000,,so that you always know what I'm talking about
+Dialogue: 0,0:00:20.91,0:00:25.67,*Default,NTP,0000,0000,0000,,when I refer to different pieces of the CSS code.
+Dialogue: 0,0:00:26.60,0:00:27.73,*Default,NTP,0000,0000,0000,,So first of all,
+Dialogue: 0,0:00:27.73,0:00:31.36,*Default,NTP,0000,0000,0000,,CSS stands for Cascading Style Sheets.
+Dialogue: 0,0:00:31.36,0:00:33.06,*Default,NTP,0000,0000,0000,,And just like HTML,
+Dialogue: 0,0:00:33.06,0:00:38.06,*Default,NTP,0000,0000,0000,,CSS is also one of the core technologies of the web.
+Dialogue: 0,0:00:38.45,0:00:40.95,*Default,NTP,0000,0000,0000,,Now remember that we use HTML
+Dialogue: 0,0:00:40.95,0:00:44.73,*Default,NTP,0000,0000,0000,,to basically describe the content of a page.
+Dialogue: 0,0:00:44.73,0:00:46.13,*Default,NTP,0000,0000,0000,,And on the other hand,
+Dialogue: 0,0:00:46.13,0:00:49.27,*Default,NTP,0000,0000,0000,,we use CSS to describe the visual style
+Dialogue: 0,0:00:49.27,0:00:52.05,*Default,NTP,0000,0000,0000,,and the presentation of the content
+Dialogue: 0,0:00:52.05,0:00:55.98,*Default,NTP,0000,0000,0000,,that we previously wrote using HTML.
+Dialogue: 0,0:00:55.98,0:01:00.14,*Default,NTP,0000,0000,0000,,So CSS and HTML work very closely together.
+Dialogue: 0,0:01:00.14,0:01:04.09,*Default,NTP,0000,0000,0000,,And in fact, down here, you can see a webpage,
+Dialogue: 0,0:01:04.09,0:01:06.94,*Default,NTP,0000,0000,0000,,which is actually the project that we will build
+Dialogue: 0,0:01:06.94,0:01:08.64,*Default,NTP,0000,0000,0000,,later in the course.
+Dialogue: 0,0:01:08.64,0:01:12.16,*Default,NTP,0000,0000,0000,,So in the left side you have just the content.
+Dialogue: 0,0:01:12.16,0:01:13.75,*Default,NTP,0000,0000,0000,,So just the HTML.
+Dialogue: 0,0:01:13.75,0:01:15.18,*Default,NTP,0000,0000,0000,,And then on the right side,
+Dialogue: 0,0:01:15.18,0:01:20.18,*Default,NTP,0000,0000,0000,,you have the exact same HTML code, but with a lot of CSS.
+Dialogue: 0,0:01:21.12,0:01:24.67,*Default,NTP,0000,0000,0000,,And so that CSS describes the visual style
+Dialogue: 0,0:01:24.67,0:01:29.67,*Default,NTP,0000,0000,0000,,and also the layout basically of that whole content.
+Dialogue: 0,0:01:30.07,0:01:31.67,*Default,NTP,0000,0000,0000,,Now, as you already know,
+Dialogue: 0,0:01:31.67,0:01:35.55,*Default,NTP,0000,0000,0000,,HTML consists of a bunch of different elements
+Dialogue: 0,0:01:35.55,0:01:38.50,*Default,NTP,0000,0000,0000,,that we can use to describe the content.
+Dialogue: 0,0:01:38.50,0:01:41.45,*Default,NTP,0000,0000,0000,,And so again, CSS is similar to that,
+Dialogue: 0,0:01:41.45,0:01:45.58,*Default,NTP,0000,0000,0000,,because CSS consists of countless properties
+Dialogue: 0,0:01:45.58,0:01:50.06,*Default,NTP,0000,0000,0000,,that we developers can then use to format the content.
+Dialogue: 0,0:01:50.06,0:01:54.22,*Default,NTP,0000,0000,0000,,And these properties allow us to format different things
+Dialogue: 0,0:01:54.22,0:01:58.25,*Default,NTP,0000,0000,0000,,about a font, the text, the general spacing,
+Dialogue: 0,0:01:58.25,0:02:01.82,*Default,NTP,0000,0000,0000,,a layout of the page and so on and so forth.
+Dialogue: 0,0:02:01.82,0:02:04.83,*Default,NTP,0000,0000,0000,,There is really lots of different properties.
+Dialogue: 0,0:02:04.83,0:02:08.19,*Default,NTP,0000,0000,0000,,And of course you don't need to know all of them by heart.
+Dialogue: 0,0:02:08.19,0:02:10.65,*Default,NTP,0000,0000,0000,,There's just no need for that.
+Dialogue: 0,0:02:10.65,0:02:12.49,*Default,NTP,0000,0000,0000,,The way that you learn these properties
+Dialogue: 0,0:02:12.49,0:02:16.24,*Default,NTP,0000,0000,0000,,is that you use the most important ones over and over again,
+Dialogue: 0,0:02:16.24,0:02:20.58,*Default,NTP,0000,0000,0000,,and at one point it will then become very intuitive.
+Dialogue: 0,0:02:20.58,0:02:24.32,*Default,NTP,0000,0000,0000,,Okay, so this is what CSS is all about.
+Dialogue: 0,0:02:24.32,0:02:29.32,*Default,NTP,0000,0000,0000,,So let's now take a look at an actual piece of CSS code.
+Dialogue: 0,0:02:30.41,0:02:34.32,*Default,NTP,0000,0000,0000,,So this is what a typical small piece of CSS
+Dialogue: 0,0:02:34.32,0:02:35.44,*Default,NTP,0000,0000,0000,,might look like.
+Dialogue: 0,0:02:35.44,0:02:38.89,*Default,NTP,0000,0000,0000,,And it always starts with a selector.
+Dialogue: 0,0:02:38.89,0:02:39.97,*Default,NTP,0000,0000,0000,,So for example,
+Dialogue: 0,0:02:39.97,0:02:43.51,*Default,NTP,0000,0000,0000,,if we want to style all the h1 elements on the page,
+Dialogue: 0,0:02:43.51,0:02:46.26,*Default,NTP,0000,0000,0000,,we need to select it in CSS,
+Dialogue: 0,0:02:46.26,0:02:49.40,*Default,NTP,0000,0000,0000,,and then we can apply some styles to it.
+Dialogue: 0,0:02:49.40,0:02:54.40,*Default,NTP,0000,0000,0000,,And so each of these styles, we can call it a declaration.
+Dialogue: 0,0:02:54.52,0:02:59.28,*Default,NTP,0000,0000,0000,,So for example, here we set the font size to 20 pixels.
+Dialogue: 0,0:02:59.28,0:03:03.18,*Default,NTP,0000,0000,0000,,And so that font size is called the property.
+Dialogue: 0,0:03:03.18,0:03:06.91,*Default,NTP,0000,0000,0000,,And the 20 pixels is the value that we declare
+Dialogue: 0,0:03:06.91,0:03:09.79,*Default,NTP,0000,0000,0000,,for that font size property.
+Dialogue: 0,0:03:09.79,0:03:13.65,*Default,NTP,0000,0000,0000,,And so property and value together is a declaration.
+Dialogue: 0,0:03:13.65,0:03:18.19,*Default,NTP,0000,0000,0000,,And we can also, more casually, call that a style.
+Dialogue: 0,0:03:18.19,0:03:21.54,*Default,NTP,0000,0000,0000,,Then all of these declarations, or styles together,
+Dialogue: 0,0:03:21.54,0:03:24.46,*Default,NTP,0000,0000,0000,,make up the declaration block.
+Dialogue: 0,0:03:24.46,0:03:28.00,*Default,NTP,0000,0000,0000,,So we have these curly braces after the selector,
+Dialogue: 0,0:03:28.00,0:03:30.46,*Default,NTP,0000,0000,0000,,and so inside of the declaration block
+Dialogue: 0,0:03:30.46,0:03:32.95,*Default,NTP,0000,0000,0000,,go all the different declarations.
+Dialogue: 0,0:03:32.95,0:03:34.78,*Default,NTP,0000,0000,0000,,So all our styles.
+Dialogue: 0,0:03:34.78,0:03:36.03,*Default,NTP,0000,0000,0000,,And all this together,
+Dialogue: 0,0:03:36.03,0:03:39.76,*Default,NTP,0000,0000,0000,,so basically the selector plus the declaration block
+Dialogue: 0,0:03:39.76,0:03:43.22,*Default,NTP,0000,0000,0000,,is what we call a CSS rule.
+Dialogue: 0,0:03:43.22,0:03:47.16,*Default,NTP,0000,0000,0000,,And so what this means, is that in the end our CSS code
+Dialogue: 0,0:03:47.16,0:03:51.38,*Default,NTP,0000,0000,0000,,will be a lot of different CSS rules, one after another,
+Dialogue: 0,0:03:51.38,0:03:53.58,*Default,NTP,0000,0000,0000,,where we select all of our elements
+Dialogue: 0,0:03:53.58,0:03:56.58,*Default,NTP,0000,0000,0000,,and style them in any way that we want.
+Dialogue: 0,0:03:56.58,0:03:58.04,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:58.04,0:04:00.23,*Default,NTP,0000,0000,0000,,And so that is exactly what we will start doing
+Dialogue: 0,0:04:00.23,0:04:01.65,*Default,NTP,0000,0000,0000,,in the next video.
+Dialogue: 0,0:04:01.65,0:04:04.03,*Default,NTP,0000,0000,0000,,So let's go there right now.

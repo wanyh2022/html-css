@@ -1,0 +1,248 @@
+[Script Info]
+Title: 017 A Note on Semantic HTML_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=15&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.36,0:00:05.82,*Default,NTP,0000,0000,0000,,所以我多次提到语义 HTML 一词
+Dialogue: 0,0:00:05.82,0:00:07.23,*Default,NTP,0000,0000,0000,,在这个部分。
+Dialogue: 0,0:00:07.23,0:00:10.67,*Default,NTP,0000,0000,0000,,所以现在让我们实际上非常快速地定义我
+Dialogue: 0,0:00:10.67,0:00:13.76,*Default,NTP,0000,0000,0000,,实际上是指语义HTML。
+Dialogue: 0,0:00:15.32,0:00:18.89,*Default,NTP,0000,0000,0000,,所以在 HTML 中，当我们谈论语义时，
+Dialogue: 0,0:00:18.89,0:00:22.72,*Default,NTP,0000,0000,0000,,我们的意思是某些元素实际上有
+Dialogue: 0,0:00:22.72,0:00:26.33,*Default,NTP,0000,0000,0000,,赋予它们的意义或目的。
+Dialogue: 0,0:00:26.33,0:00:29.87,*Default,NTP,0000,0000,0000,,因此，当我们考虑某个 HTML 元素时，
+Dialogue: 0,0:00:29.87,0:00:33.27,*Default,NTP,0000,0000,0000,,我们实际上不应该考虑该元素的外观
+Dialogue: 0,0:00:33.27,0:00:35.81,*Default,NTP,0000,0000,0000,,就像它在页面上呈现的那样。
+Dialogue: 0,0:00:35.81,0:00:38.95,*Default,NTP,0000,0000,0000,,但相反，我们应该考虑那个元素
+Dialogue: 0,0:00:38.95,0:00:42.41,*Default,NTP,0000,0000,0000,,实际上意味着什么以及它代表什么。
+Dialogue: 0,0:00:42.41,0:00:46.89,*Default,NTP,0000,0000,0000,,所以这基本上是语义 HTML 的定义。
+Dialogue: 0,0:00:46.89,0:00:50.76,*Default,NTP,0000,0000,0000,,现在，并非 HTML 中的所有元素都是语义的。
+Dialogue: 0,0:00:50.76,0:00:54.97,*Default,NTP,0000,0000,0000,,实际上我之前谈过一点
+Dialogue: 0,0:00:54.97,0:00:58.25,*Default,NTP,0000,0000,0000,,在这个元素中。所以强元素，
+Dialogue: 0,0:00:58.25,0:01:02.75,*Default,NTP,0000,0000,0000,,这使得我们的元素在页面上看起来很粗。
+Dialogue: 0,0:01:02.75,0:01:07.01,*Default,NTP,0000,0000,0000,,所以请记住我之前是如何使用 B 元素的，
+Dialogue: 0,0:01:07.01,0:01:09.92,*Default,NTP,0000,0000,0000,,它只是将其内容变为粗体，
+Dialogue: 0,0:01:09.92,0:01:13.15,*Default,NTP,0000,0000,0000,,但没有附加任何意义。对？
+Dialogue: 0,0:01:13.15,0:01:15.01,*Default,NTP,0000,0000,0000,,所以我之前解释过。
+Dialogue: 0,0:01:15.01,0:01:17.52,*Default,NTP,0000,0000,0000,,所以现在也许它更有意义了。
+Dialogue: 0,0:01:18.36,0:01:21.76,*Default,NTP,0000,0000,0000,,再次，通过在这里使用强元素，
+Dialogue: 0,0:01:21.76,0:01:25.42,*Default,NTP,0000,0000,0000,,文本在浏览器中仍会显示为粗体，
+Dialogue: 0,0:01:25.42,0:01:28.64,*Default,NTP,0000,0000,0000,,但这里真正重要的是我们现在分配一些
+Dialogue: 0,0:01:28.64,0:01:31.05,*Default,NTP,0000,0000,0000,,这里的内容的意思。
+Dialogue: 0,0:01:31.05,0:01:33.80,*Default,NTP,0000,0000,0000,,我们现在说这是一个强大的内容，
+Dialogue: 0,0:01:33.80,0:01:38.00,*Default,NTP,0000,0000,0000,,这基本上意味着一个非常重要的内容和
+Dialogue: 0,0:01:38.00,0:01:43.00,*Default,NTP,0000,0000,0000,,这件作品也一样。所以这个基本词在这里。
+Dialogue: 0,0:01:43.84,0:01:48.28,*Default,NTP,0000,0000,0000,,因此，我们再次使用 EM 来强调这一点。
+Dialogue: 0,0:01:48.28,0:01:52.23,*Default,NTP,0000,0000,0000,,所以它在网页上看起来仍然是 atelic，
+Dialogue: 0,0:01:52.23,0:01:56.16,*Default,NTP,0000,0000,0000,,但我们真正的意思是我们强调了这个词
+Dialogue: 0,0:01:56.16,0:02:01.03,*Default,NTP,0000,0000,0000,,这里。所以我们特别强调了它，是的，
+Dialogue: 0,0:02:01.03,0:02:04.37,*Default,NTP,0000,0000,0000,,这就是这个元素现在的意思。
+Dialogue: 0,0:02:05.45,0:02:09.00,*Default,NTP,0000,0000,0000,,好的，实际上也是如此
+Dialogue: 0,0:02:09.00,0:02:12.42,*Default,NTP,0000,0000,0000,,我们在上一个视频中使用的所有这些元素。
+Dialogue: 0,0:02:12.42,0:02:15.64,*Default,NTP,0000,0000,0000,,所以例如这里，这个导航元素，
+Dialogue: 0,0:02:15.64,0:02:17.80,*Default,NTP,0000,0000,0000,,这一切都是为了创造一个盒子，
+Dialogue: 0,0:02:17.80,0:02:22.16,*Default,NTP,0000,0000,0000,,记住其中包含这四个锚元素，
+Dialogue: 0,0:02:22.16,0:02:25.06,*Default,NTP,0000,0000,0000,,但在视觉上它并没有真正做任何事情。
+Dialogue: 0,0:02:25.06,0:02:28.31,*Default,NTP,0000,0000,0000,,这一切都是为了表达一种意义
+Dialogue: 0,0:02:28.31,0:02:32.33,*Default,NTP,0000,0000,0000,,这是一个导航，但不是使用导航，
+Dialogue: 0,0:02:32.33,0:02:35.64,*Default,NTP,0000,0000,0000,,我们也可以使用更通用的元素，
+Dialogue: 0,0:02:35.64,0:02:38.24,*Default,NTP,0000,0000,0000,,这是 div 元素。
+Dialogue: 0,0:02:38.24,0:02:43.24,*Default,NTP,0000,0000,0000,,例如， div 在这里打开和关闭它，然后再一次，
+Dialogue: 0,0:02:43.61,0:02:46.21,*Default,NTP,0000,0000,0000,,视觉上什么都不会改变。
+Dialogue: 0,0:02:46.21,0:02:49.32,*Default,NTP,0000,0000,0000,,所以这一切都是为了创造一个新的盒子，
+Dialogue: 0,0:02:49.32,0:02:51.78,*Default,NTP,0000,0000,0000,,但这个盒子没有任何意义。
+Dialogue: 0,0:02:51.78,0:02:53.88,*Default,NTP,0000,0000,0000,,这就是 div 的含义。
+Dialogue: 0,0:02:54.76,0:02:57.43,*Default,NTP,0000,0000,0000,,所以回到 HTML 5 之前的一天，
+Dialogue: 0,0:02:57.43,0:03:00.98,*Default,NTP,0000,0000,0000,,我们总是为我们需要的每个盒子使用 div
+Dialogue: 0,0:03:00.98,0:03:03.18,*Default,NTP,0000,0000,0000,,像这样在页面上，
+Dialogue: 0,0:03:03.18,0:03:07.94,*Default,NTP,0000,0000,0000,,但后来 HTML 5 出现并引入了这个概念
+Dialogue: 0,0:03:07.94,0:03:09.70,*Default,NTP,0000,0000,0000,,语义 HTML。
+Dialogue: 0,0:03:09.70,0:03:13.04,*Default,NTP,0000,0000,0000,,所以现在我们应该只在不使用的时候使用 div 元素
+Dialogue: 0,0:03:13.04,0:03:16.92,*Default,NTP,0000,0000,0000,,想给某个容器附加某种意义。
+Dialogue: 0,0:03:16.92,0:03:20.46,*Default,NTP,0000,0000,0000,,所以到我们页面上的某个like box元素。
+Dialogue: 0,0:03:21.31,0:03:22.14,*Default,NTP,0000,0000,0000,,所以在这种情况下，
+Dialogue: 0,0:03:22.14,0:03:25.76,*Default,NTP,0000,0000,0000,,我们真的希望这意味着它是一个导航。
+Dialogue: 0,0:03:25.76,0:03:30.51,*Default,NTP,0000,0000,0000,,所以我们为此使用导航元素。
+Dialogue: 0,0:03:30.51,0:03:34.62,*Default,NTP,0000,0000,0000,,好的。文章的标题也是如此，
+Dialogue: 0,0:03:36.20,0:03:38.22,*Default,NTP,0000,0000,0000,,我们在这里的页脚。
+Dialogue: 0,0:03:39.22,0:03:43.69,*Default,NTP,0000,0000,0000,,事实上，即使对于段落也是如此，
+Dialogue: 0,0:03:43.69,0:03:46.61,*Default,NTP,0000,0000,0000,,例如，因为所有这些，65
+Dialogue: 0,0:03:46.61,0:03:51.04,*Default,NTP,0000,0000,0000,,这里的这一段和所有其他的段落真的是，
+Dialogue: 0,0:03:51.04,0:03:54.82,*Default,NTP,0000,0000,0000,,本质上是填充文本的框。
+Dialogue: 0,0:03:54.82,0:03:58.37,*Default,NTP,0000,0000,0000,,现在 P 当然确实有语义。
+Dialogue: 0,0:03:58.37,0:04:00.63,*Default,NTP,0000,0000,0000,,这意味着它是一个段落，
+Dialogue: 0,0:04:00.63,0:04:05.42,*Default,NTP,0000,0000,0000,,但我们可以再次使用没有任何意义的通用框。
+Dialogue: 0,0:04:05.42,0:04:09.21,*Default,NTP,0000,0000,0000,,所以 div 和任何东西都不会在视觉上发生变化。
+Dialogue: 0,0:04:11.56,0:04:14.30,*Default,NTP,0000,0000,0000,,好的。实际上，这里确实发生了一些变化。
+Dialogue: 0,0:04:14.30,0:04:17.43,*Default,NTP,0000,0000,0000,,所以我们失去了一些空白
+Dialogue: 0,0:04:17.43,0:04:19.28,*Default,NTP,0000,0000,0000,,我们确实在P附近。
+Dialogue: 0,0:04:20.89,0:04:23.79,*Default,NTP,0000,0000,0000,,好吧，还是把它放回这里吧
+Dialogue: 0,0:04:23.79,0:04:27.65,*Default,NTP,0000,0000,0000,,到 P 是因为我们希望它具有某种意义。
+Dialogue: 0,0:04:27.65,0:04:30.74,*Default,NTP,0000,0000,0000,,当然我们也想要浏览器的间距
+Dialogue: 0,0:04:30.74,0:04:34.25,*Default,NTP,0000,0000,0000,,默认情况下，我们围绕 P 元素。
+Dialogue: 0,0:04:34.25,0:04:38.94,*Default,NTP,0000,0000,0000,,现在好了，但我提到的想法仍然成立
+Dialogue: 0,0:04:38.94,0:04:42.59,*Default,NTP,0000,0000,0000,,因为我们可以很容易地在这里重建这个空间
+Dialogue: 0,0:04:42.59,0:04:44.77,*Default,NTP,0000,0000,0000,,稍后使用一些 CSS。
+Dialogue: 0,0:04:44.77,0:04:46.12,*Default,NTP,0000,0000,0000,,所以如果我们想要，
+Dialogue: 0,0:04:46.12,0:04:50.38,*Default,NTP,0000,0000,0000,,事实上，我们可以只用 div 构建整个网页
+Dialogue: 0,0:04:50.38,0:04:52.30,*Default,NTP,0000,0000,0000,,如果我们想要元素
+Dialogue: 0,0:04:52.30,0:04:56.12,*Default,NTP,0000,0000,0000,,然后使用 CSS 为它们设置我们想要的样式。
+Dialogue: 0,0:04:56.12,0:04:58.30,*Default,NTP,0000,0000,0000,,但我们当然不会那样做。
+Dialogue: 0,0:04:58.30,0:05:01.99,*Default,NTP,0000,0000,0000,,我们使用语义 HTML 来赋予四个元素含义。
+Dialogue: 0,0:05:02.87,0:05:05.67,*Default,NTP,0000,0000,0000,,现在你可能会问我们为什么要这么做
+Dialogue: 0,0:05:05.67,0:05:07.69,*Default,NTP,0000,0000,0000,,并且有多种原因。
+Dialogue: 0,0:05:07.69,0:05:11.32,*Default,NTP,0000,0000,0000,,实际上，我想我已经提到过它们。
+Dialogue: 0,0:05:11.32,0:05:14.77,*Default,NTP,0000,0000,0000,,所以其中之一是搜索引擎优化，
+Dialogue: 0,0:05:14.77,0:05:18.00,*Default,NTP,0000,0000,0000,,这基本上意味着像谷歌这样的搜索引擎
+Dialogue: 0,0:05:18.00,0:05:22.04,*Default,NTP,0000,0000,0000,,将能够理解您的内容的结构。
+Dialogue: 0,0:05:22.04,0:05:25.39,*Default,NTP,0000,0000,0000,,因此他们将能够更好地分析
+Dialogue: 0,0:05:25.39,0:05:29.12,*Default,NTP,0000,0000,0000,,您的内容和网页的全部内容。
+Dialogue: 0,0:05:29.12,0:05:33.28,*Default,NTP,0000,0000,0000,,同样，编写语义 HTML 对于
+Dialogue: 0,0:05:33.28,0:05:36.25,*Default,NTP,0000,0000,0000,,可访问性，尤其是对于人们
+Dialogue: 0,0:05:36.25,0:05:41.09,*Default,NTP,0000,0000,0000,,依靠屏幕阅读器在网页上消费的人。
+Dialogue: 0,0:05:41.09,0:05:44.28,*Default,NTP,0000,0000,0000,,好的，所以我希望这是有道理的，
+Dialogue: 0,0:05:44.28,0:05:47.38,*Default,NTP,0000,0000,0000,,我们也会继续探讨这个话题
+Dialogue: 0,0:05:47.38,0:05:50.23,*Default,NTP,0000,0000,0000,,当我们完成剩下的课程时，
+Dialogue: 0,0:05:50.23,0:05:53.05,*Default,NTP,0000,0000,0000,,但我仍然想从很
+Dialogue: 0,0:05:53.05,0:05:56.16,*Default,NTP,0000,0000,0000,,当我们想到 HTML 时，
+Dialogue: 0,0:05:56.16,0:05:59.17,*Default,NTP,0000,0000,0000,,我们不应该只考虑它的实际外观
+Dialogue: 0,0:05:59.17,0:06:00.20,*Default,NTP,0000,0000,0000,,在浏览器中，
+Dialogue: 0,0:06:00.20,0:06:03.80,*Default,NTP,0000,0000,0000,,但更多的是关于这些元素的实际含义
+Dialogue: 0,0:06:03.80,0:06:05.76,*Default,NTP,0000,0000,0000,,以及他们代表什么。
+Dialogue: 0,0:06:05.76,0:06:07.63,*Default,NTP,0000,0000,0000,,话虽如此，
+Dialogue: 0,0:06:07.63,0:06:11.56,*Default,NTP,0000,0000,0000,,我们已经完成了本节中必须学习的所有内容。
+Dialogue: 0,0:06:11.56,0:06:13.49,*Default,NTP,0000,0000,0000,,所以在下一个视频中，
+Dialogue: 0,0:06:13.49,0:06:16.71,*Default,NTP,0000,0000,0000,,我们将配置 vs 代码多一点，
+Dialogue: 0,0:06:16.71,0:06:20.32,*Default,NTP,0000,0000,0000,,然后我们将继续进行最后两个挑战
+Dialogue: 0,0:06:20.32,0:06:21.52,*Default,NTP,0000,0000,0000,,在节中。
+Dialogue: 0,0:06:21.52,0:06:25.48,*Default,NTP,0000,0000,0000,,所以不要等待，让我们继续这里的下一个讲座。
+Dialogue: 0,0:00:01.36,0:00:05.82,*Default,NTP,0000,0000,0000,,So I mentioned the term semantic HTML a couple of times
+Dialogue: 0,0:00:05.82,0:00:07.23,*Default,NTP,0000,0000,0000,,in this section.
+Dialogue: 0,0:00:07.23,0:00:10.67,*Default,NTP,0000,0000,0000,,And so let's now actually very quickly define what I
+Dialogue: 0,0:00:10.67,0:00:13.76,*Default,NTP,0000,0000,0000,,actually mean by semantic HTML.
+Dialogue: 0,0:00:15.32,0:00:18.89,*Default,NTP,0000,0000,0000,,So in HTML, when we talk about semantics,
+Dialogue: 0,0:00:18.89,0:00:22.72,*Default,NTP,0000,0000,0000,,what we mean is that certain elements have actually
+Dialogue: 0,0:00:22.72,0:00:26.33,*Default,NTP,0000,0000,0000,,a meaning or a purpose attached to them.
+Dialogue: 0,0:00:26.33,0:00:29.87,*Default,NTP,0000,0000,0000,,So when we think about a certain HTML element,
+Dialogue: 0,0:00:29.87,0:00:33.27,*Default,NTP,0000,0000,0000,,we should actually not think about what that element looks
+Dialogue: 0,0:00:33.27,0:00:35.81,*Default,NTP,0000,0000,0000,,like as it's rendered on the page.
+Dialogue: 0,0:00:35.81,0:00:38.95,*Default,NTP,0000,0000,0000,,But instead we should think about what that element
+Dialogue: 0,0:00:38.95,0:00:42.41,*Default,NTP,0000,0000,0000,,actually means and what it stands for.
+Dialogue: 0,0:00:42.41,0:00:46.89,*Default,NTP,0000,0000,0000,,So that is basically the definition of semantic HTML.
+Dialogue: 0,0:00:46.89,0:00:50.76,*Default,NTP,0000,0000,0000,,Now, not all elements in HTML are semantic.
+Dialogue: 0,0:00:50.76,0:00:54.97,*Default,NTP,0000,0000,0000,,And actually I talked a little bit about that before
+Dialogue: 0,0:00:54.97,0:00:58.25,*Default,NTP,0000,0000,0000,,here in this element. So the strong element,
+Dialogue: 0,0:00:58.25,0:01:02.75,*Default,NTP,0000,0000,0000,,which makes our element look bold here on the page.
+Dialogue: 0,0:01:02.75,0:01:07.01,*Default,NTP,0000,0000,0000,,So remember how previously I used the B element,
+Dialogue: 0,0:01:07.01,0:01:09.92,*Default,NTP,0000,0000,0000,,which simply turns its content bold,
+Dialogue: 0,0:01:09.92,0:01:13.15,*Default,NTP,0000,0000,0000,,but doesn't attach it any meaning. Right?
+Dialogue: 0,0:01:13.15,0:01:15.01,*Default,NTP,0000,0000,0000,,So I explained that before.
+Dialogue: 0,0:01:15.01,0:01:17.52,*Default,NTP,0000,0000,0000,,And so now maybe it makes a bit more sense.
+Dialogue: 0,0:01:18.36,0:01:21.76,*Default,NTP,0000,0000,0000,,So again, by using the strong element here,
+Dialogue: 0,0:01:21.76,0:01:25.42,*Default,NTP,0000,0000,0000,,the text will still look bold here in the browser,
+Dialogue: 0,0:01:25.42,0:01:28.64,*Default,NTP,0000,0000,0000,,but what really matters here is that we now assign some
+Dialogue: 0,0:01:28.64,0:01:31.05,*Default,NTP,0000,0000,0000,,meaning to this content here.
+Dialogue: 0,0:01:31.05,0:01:33.80,*Default,NTP,0000,0000,0000,,We now say that is a strong content,
+Dialogue: 0,0:01:33.80,0:01:38.00,*Default,NTP,0000,0000,0000,,which means basically a very important piece of content and
+Dialogue: 0,0:01:38.00,0:01:43.00,*Default,NTP,0000,0000,0000,,the same here for this piece. So this fundamental word here.
+Dialogue: 0,0:01:43.84,0:01:48.28,*Default,NTP,0000,0000,0000,,So again, we use EM for emphasizing this.
+Dialogue: 0,0:01:48.28,0:01:52.23,*Default,NTP,0000,0000,0000,,And so it still looks atelic here on the webpage,
+Dialogue: 0,0:01:52.23,0:01:56.16,*Default,NTP,0000,0000,0000,,but what we really mean is that we emphasized this word
+Dialogue: 0,0:01:56.16,0:02:01.03,*Default,NTP,0000,0000,0000,,here. So we gave it a special emphasis and yeah,
+Dialogue: 0,0:02:01.03,0:02:04.37,*Default,NTP,0000,0000,0000,,that's what this element here right now means.
+Dialogue: 0,0:02:05.45,0:02:09.00,*Default,NTP,0000,0000,0000,,Okay, and the same is actually true for
+Dialogue: 0,0:02:09.00,0:02:12.42,*Default,NTP,0000,0000,0000,,all of these elements that we used in the last video.
+Dialogue: 0,0:02:12.42,0:02:15.64,*Default,NTP,0000,0000,0000,,So for example here, this navigation element,
+Dialogue: 0,0:02:15.64,0:02:17.80,*Default,NTP,0000,0000,0000,,all this does is to create a box,
+Dialogue: 0,0:02:17.80,0:02:22.16,*Default,NTP,0000,0000,0000,,remember which then contains these four anchor elements,
+Dialogue: 0,0:02:22.16,0:02:25.06,*Default,NTP,0000,0000,0000,,but visually it doesn't really do anything.
+Dialogue: 0,0:02:25.06,0:02:28.31,*Default,NTP,0000,0000,0000,,All this does is to represent as a meaning
+Dialogue: 0,0:02:28.31,0:02:32.33,*Default,NTP,0000,0000,0000,,that this is a navigation, but instead of using nav,
+Dialogue: 0,0:02:32.33,0:02:35.64,*Default,NTP,0000,0000,0000,,we could also have used a more generic element,
+Dialogue: 0,0:02:35.64,0:02:38.24,*Default,NTP,0000,0000,0000,,which is the div element.
+Dialogue: 0,0:02:38.24,0:02:43.24,*Default,NTP,0000,0000,0000,,So for example, div open and close it here, and again,
+Dialogue: 0,0:02:43.61,0:02:46.21,*Default,NTP,0000,0000,0000,,visually nothing will change.
+Dialogue: 0,0:02:46.21,0:02:49.32,*Default,NTP,0000,0000,0000,,And so all this did was to create a new box,
+Dialogue: 0,0:02:49.32,0:02:51.78,*Default,NTP,0000,0000,0000,,but the box without any meaning.
+Dialogue: 0,0:02:51.78,0:02:53.88,*Default,NTP,0000,0000,0000,,So that's what div stands for.
+Dialogue: 0,0:02:54.76,0:02:57.43,*Default,NTP,0000,0000,0000,,So back in the day before HTML five,
+Dialogue: 0,0:02:57.43,0:03:00.98,*Default,NTP,0000,0000,0000,,we always use divs for every single box that we needed
+Dialogue: 0,0:03:00.98,0:03:03.18,*Default,NTP,0000,0000,0000,,like this on the page,
+Dialogue: 0,0:03:03.18,0:03:07.94,*Default,NTP,0000,0000,0000,,but then HTML five came around and introduced this concept
+Dialogue: 0,0:03:07.94,0:03:09.70,*Default,NTP,0000,0000,0000,,of semantic HTML.
+Dialogue: 0,0:03:09.70,0:03:13.04,*Default,NTP,0000,0000,0000,,And so now we should only use the div element when we don't
+Dialogue: 0,0:03:13.04,0:03:16.92,*Default,NTP,0000,0000,0000,,want to attach a certain meaning to a certain container.
+Dialogue: 0,0:03:16.92,0:03:20.46,*Default,NTP,0000,0000,0000,,So to a certain like box element on our page.
+Dialogue: 0,0:03:21.31,0:03:22.14,*Default,NTP,0000,0000,0000,,So in this case,
+Dialogue: 0,0:03:22.14,0:03:25.76,*Default,NTP,0000,0000,0000,,we really want this to mean that it's a navigation.
+Dialogue: 0,0:03:25.76,0:03:30.51,*Default,NTP,0000,0000,0000,,And so we use the navigation element for that.
+Dialogue: 0,0:03:30.51,0:03:34.62,*Default,NTP,0000,0000,0000,,Okay. And the same is true for the article, the header,
+Dialogue: 0,0:03:36.20,0:03:38.22,*Default,NTP,0000,0000,0000,,the footer that we have down here.
+Dialogue: 0,0:03:39.22,0:03:43.69,*Default,NTP,0000,0000,0000,,And in fact it is true even for the paragraph,
+Dialogue: 0,0:03:43.69,0:03:46.61,*Default,NTP,0000,0000,0000,,for example, because all that,
+Dialogue: 0,0:03:46.61,0:03:51.04,*Default,NTP,0000,0000,0000,,this paragraph here and all the other paragraphs really are,
+Dialogue: 0,0:03:51.04,0:03:54.82,*Default,NTP,0000,0000,0000,,are essentially boxes filled with text.
+Dialogue: 0,0:03:54.82,0:03:58.37,*Default,NTP,0000,0000,0000,,Now the P of course does have a semantic meaning.
+Dialogue: 0,0:03:58.37,0:04:00.63,*Default,NTP,0000,0000,0000,,It means that it is a paragraph,
+Dialogue: 0,0:04:00.63,0:04:05.42,*Default,NTP,0000,0000,0000,,but we could again use a generic box without any meaning.
+Dialogue: 0,0:04:05.42,0:04:09.21,*Default,NTP,0000,0000,0000,,So the div and nothing would change visually.
+Dialogue: 0,0:04:11.56,0:04:14.30,*Default,NTP,0000,0000,0000,,Okay. Actually something did change here.
+Dialogue: 0,0:04:14.30,0:04:17.43,*Default,NTP,0000,0000,0000,,So we lost some of the white space that
+Dialogue: 0,0:04:17.43,0:04:19.28,*Default,NTP,0000,0000,0000,,we do have around the P.
+Dialogue: 0,0:04:20.89,0:04:23.79,*Default,NTP,0000,0000,0000,,All right, so let's put it back here anyway
+Dialogue: 0,0:04:23.79,0:04:27.65,*Default,NTP,0000,0000,0000,,to the P because we want it to have some meaning.
+Dialogue: 0,0:04:27.65,0:04:30.74,*Default,NTP,0000,0000,0000,,And of course we also want the spacing that's the browser
+Dialogue: 0,0:04:30.74,0:04:34.25,*Default,NTP,0000,0000,0000,,gives us by default around the P elements.
+Dialogue: 0,0:04:34.25,0:04:38.94,*Default,NTP,0000,0000,0000,,Now okay, but the idea that I mentioned still holds
+Dialogue: 0,0:04:38.94,0:04:42.59,*Default,NTP,0000,0000,0000,,because we could very easily recreate this space here
+Dialogue: 0,0:04:42.59,0:04:44.77,*Default,NTP,0000,0000,0000,,using some CSS later.
+Dialogue: 0,0:04:44.77,0:04:46.12,*Default,NTP,0000,0000,0000,,So if we wanted,
+Dialogue: 0,0:04:46.12,0:04:50.38,*Default,NTP,0000,0000,0000,,we could in fact build the entire webpage only out of div
+Dialogue: 0,0:04:50.38,0:04:52.30,*Default,NTP,0000,0000,0000,,elements if we wanted and
+Dialogue: 0,0:04:52.30,0:04:56.12,*Default,NTP,0000,0000,0000,,then use CSS to style them as we want.
+Dialogue: 0,0:04:56.12,0:04:58.30,*Default,NTP,0000,0000,0000,,But of course we don't do that.
+Dialogue: 0,0:04:58.30,0:05:01.99,*Default,NTP,0000,0000,0000,,We use semantic HTML to give four elements meaning.
+Dialogue: 0,0:05:02.87,0:05:05.67,*Default,NTP,0000,0000,0000,,Now you might ask why we actually do that
+Dialogue: 0,0:05:05.67,0:05:07.69,*Default,NTP,0000,0000,0000,,and there are multiple reasons.
+Dialogue: 0,0:05:07.69,0:05:11.32,*Default,NTP,0000,0000,0000,,And I think I mentioned them already, actually.
+Dialogue: 0,0:05:11.32,0:05:14.77,*Default,NTP,0000,0000,0000,,So one of them is a search engine optimization,
+Dialogue: 0,0:05:14.77,0:05:18.00,*Default,NTP,0000,0000,0000,,which basically means that a search engine such as Google
+Dialogue: 0,0:05:18.00,0:05:22.04,*Default,NTP,0000,0000,0000,,will be able to understand the structure of your content.
+Dialogue: 0,0:05:22.04,0:05:25.39,*Default,NTP,0000,0000,0000,,And therefore they will be better able to analyze
+Dialogue: 0,0:05:25.39,0:05:29.12,*Default,NTP,0000,0000,0000,,what your content and what your webpage is all about.
+Dialogue: 0,0:05:29.12,0:05:33.28,*Default,NTP,0000,0000,0000,,Also writing semantic HTML is extremely important for
+Dialogue: 0,0:05:33.28,0:05:36.25,*Default,NTP,0000,0000,0000,,accessibility and especially for people
+Dialogue: 0,0:05:36.25,0:05:41.09,*Default,NTP,0000,0000,0000,,who rely on screen readers to consume on web pages.
+Dialogue: 0,0:05:41.09,0:05:44.28,*Default,NTP,0000,0000,0000,,Okay, so I hope that this makes sense,
+Dialogue: 0,0:05:44.28,0:05:47.38,*Default,NTP,0000,0000,0000,,and we will also keep touching on the subject
+Dialogue: 0,0:05:47.38,0:05:50.23,*Default,NTP,0000,0000,0000,,as we go through the rest of the course,
+Dialogue: 0,0:05:50.23,0:05:53.05,*Default,NTP,0000,0000,0000,,but I still wanted to make it very clear from the very
+Dialogue: 0,0:05:53.05,0:05:56.16,*Default,NTP,0000,0000,0000,,beginning that when we think about HTML,
+Dialogue: 0,0:05:56.16,0:05:59.17,*Default,NTP,0000,0000,0000,,we should not only think about how it actually looks like
+Dialogue: 0,0:05:59.17,0:06:00.20,*Default,NTP,0000,0000,0000,,in the browser,
+Dialogue: 0,0:06:00.20,0:06:03.80,*Default,NTP,0000,0000,0000,,but even more about what these elements actually mean
+Dialogue: 0,0:06:03.80,0:06:05.76,*Default,NTP,0000,0000,0000,,and what they stand for.
+Dialogue: 0,0:06:05.76,0:06:07.63,*Default,NTP,0000,0000,0000,,And with that being said,
+Dialogue: 0,0:06:07.63,0:06:11.56,*Default,NTP,0000,0000,0000,,we kind of finished all we had to learn in this section.
+Dialogue: 0,0:06:11.56,0:06:13.49,*Default,NTP,0000,0000,0000,,And so in the next video,
+Dialogue: 0,0:06:13.49,0:06:16.71,*Default,NTP,0000,0000,0000,,we will configure vs code a little bit more,
+Dialogue: 0,0:06:16.71,0:06:20.32,*Default,NTP,0000,0000,0000,,and then we will move on to two final challenges
+Dialogue: 0,0:06:20.32,0:06:21.52,*Default,NTP,0000,0000,0000,,in the section.
+Dialogue: 0,0:06:21.52,0:06:25.48,*Default,NTP,0000,0000,0000,,So don't wait and let's move on to the next lecture here.

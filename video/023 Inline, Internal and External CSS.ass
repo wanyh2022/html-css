@@ -1,0 +1,475 @@
+[Script Info]
+Title: 023 Inline, Internal and External CSS_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=21&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.56,0:00:05.43,*Default,NTP,0000,0000,0000,,我们可以写CSS的三个地方
+Dialogue: 0,0:00:05.43,0:00:10.43,*Default,NTP,0000,0000,0000,,我们称它们为内联 CSS、内部 CSS 和外部 CSS。
+Dialogue: 0,0:00:11.80,0:00:13.55,*Default,NTP,0000,0000,0000,,现在让我们了解一下
+Dialogue: 0,0:00:13.55,0:00:16.30,*Default,NTP,0000,0000,0000,,这三种不同类型的 CSS
+Dialogue: 0,0:00:16.30,0:00:18.76,*Default,NTP,0000,0000,0000,,还有哪一个是最好的。
+Dialogue: 0,0:00:20.35,0:00:23.52,*Default,NTP,0000,0000,0000,,在本节以及下一节中，
+Dialogue: 0,0:00:23.52,0:00:26.86,*Default,NTP,0000,0000,0000,,我们实际上将继续致力于同一个项目
+Dialogue: 0,0:00:26.86,0:00:29.91,*Default,NTP,0000,0000,0000,,我们在上一节中开始构建。
+Dialogue: 0,0:00:29.91,0:00:33.92,*Default,NTP,0000,0000,0000,,所以关于HTML介绍的部分
+Dialogue: 0,0:00:33.92,0:00:36.98,*Default,NTP,0000,0000,0000,,记住我们就是这样离开的
+Dialogue: 0,0:00:36.98,0:00:40.08,*Default,NTP,0000,0000,0000,,最后一节之后的项目。
+Dialogue: 0,0:00:40.08,0:00:43.48,*Default,NTP,0000,0000,0000,,现在到第一个 CSS 部分结束时，
+Dialogue: 0,0:00:43.48,0:00:45.91,*Default,NTP,0000,0000,0000,,它看起来像这样。
+Dialogue: 0,0:00:45.91,0:00:48.86,*Default,NTP,0000,0000,0000,,所以这是完全不同的，对吧？
+Dialogue: 0,0:00:48.86,0:00:51.32,*Default,NTP,0000,0000,0000,,所以我们这里有很多颜色，
+Dialogue: 0,0:00:51.32,0:00:54.48,*Default,NTP,0000,0000,0000,,我们在顶部有这个颜色边框。
+Dialogue: 0,0:00:55.57,0:00:58.52,*Default,NTP,0000,0000,0000,,字体也完全不同。
+Dialogue: 0,0:00:58.52,0:01:02.82,*Default,NTP,0000,0000,0000,,所以文字颜色也变了，
+Dialogue: 0,0:01:02.82,0:01:06.75,*Default,NTP,0000,0000,0000,,是的，这里我们有一些漂亮的背景颜色。
+Dialogue: 0,0:01:06.75,0:01:08.73,*Default,NTP,0000,0000,0000,,我们这里甚至还有这个按钮，
+Dialogue: 0,0:01:08.73,0:01:10.74,*Default,NTP,0000,0000,0000,,漂浮在右侧。
+Dialogue: 0,0:01:12.00,0:01:15.41,*Default,NTP,0000,0000,0000,,所以是的，很多视觉风格
+Dialogue: 0,0:01:15.41,0:01:17.92,*Default,NTP,0000,0000,0000,,将通过页面应用
+Dialogue: 0,0:01:17.92,0:01:19.41,*Default,NTP,0000,0000,0000,,贯穿本节。
+Dialogue: 0,0:01:19.41,0:01:23.77,*Default,NTP,0000,0000,0000,,通过构建这个项目，你会学到很多 CSS。
+Dialogue: 0,0:01:23.77,0:01:26.67,*Default,NTP,0000,0000,0000,,好的，现在我想保留一个文件夹
+Dialogue: 0,0:01:26.67,0:01:29.02,*Default,NTP,0000,0000,0000,,对于这些部分中的每一个。
+Dialogue: 0,0:01:29.02,0:01:31.31,*Default,NTP,0000,0000,0000,,所以我现在去我的桌面
+Dialogue: 0,0:01:31.31,0:01:35.84,*Default,NTP,0000,0000,0000,,并为此部分创建一个全新的项目文件夹。
+Dialogue: 0,0:01:35.84,0:01:37.76,*Default,NTP,0000,0000,0000,,所以这次我要做的是
+Dialogue: 0,0:01:37.76,0:01:40.68,*Default,NTP,0000,0000,0000,,我不会进入这个文件夹，
+Dialogue: 0,0:01:40.68,0:01:43.61,*Default,NTP,0000,0000,0000,,这是我们从 GitHub 下载的代码，
+Dialogue: 0,0:01:43.61,0:01:47.53,*Default,NTP,0000,0000,0000,,但相反，我要做的是简单地复制
+Dialogue: 0,0:01:47.53,0:01:49.57,*Default,NTP,0000,0000,0000,,这个项目来自上一节。
+Dialogue: 0,0:01:51.25,0:01:56.25,*Default,NTP,0000,0000,0000,,好的，然后我将其称为 03 和 CSS 基础。
+Dialogue: 0,0:01:59.72,0:02:02.28,*Default,NTP,0000,0000,0000,,这就是本节的起点
+Dialogue: 0,0:02:02.28,0:02:05.41,*Default,NTP,0000,0000,0000,,是最后一节的最终代码。
+Dialogue: 0,0:02:05.41,0:02:07.17,*Default,NTP,0000,0000,0000,,所以我希望这是有道理的，
+Dialogue: 0,0:02:07.17,0:02:10.55,*Default,NTP,0000,0000,0000,,但如果你只想在同一个文件夹中工作，
+Dialogue: 0,0:02:10.55,0:02:13.16,*Default,NTP,0000,0000,0000,,那当然是绝对没有问题的。
+Dialogue: 0,0:02:13.16,0:02:15.21,*Default,NTP,0000,0000,0000,,所以你可以继续写代码
+Dialogue: 0,0:02:15.21,0:02:17.57,*Default,NTP,0000,0000,0000,,完全相同的文件
+Dialogue: 0,0:02:17.57,0:02:20.57,*Default,NTP,0000,0000,0000,,我们在上一节中一直在努力。
+Dialogue: 0,0:02:20.57,0:02:23.04,*Default,NTP,0000,0000,0000,,我就是这样做的，所以最后，
+Dialogue: 0,0:02:23.04,0:02:26.72,*Default,NTP,0000,0000,0000,,我可以给你所有组织良好的代码。
+Dialogue: 0,0:02:27.92,0:02:32.92,*Default,NTP,0000,0000,0000,,好的，所以我现在将在此处关闭此窗口
+Dialogue: 0,0:02:34.47,0:02:36.39,*Default,NTP,0000,0000,0000,,我们可以右键点击这里
+Dialogue: 0,0:02:36.39,0:02:39.68,*Default,NTP,0000,0000,0000,,在 VS 代码上说新窗口
+Dialogue: 0,0:02:41.00,0:02:42.98,*Default,NTP,0000,0000,0000,,然后从这里打开文件夹。
+Dialogue: 0,0:02:44.21,0:02:48.93,*Default,NTP,0000,0000,0000,,所以在桌面上，这就是我刚刚创建的，
+Dialogue: 0,0:02:48.93,0:02:52.84,*Default,NTP,0000,0000,0000,,打开它，然后像往常一样我将它推到左侧。
+Dialogue: 0,0:02:54.00,0:02:57.69,*Default,NTP,0000,0000,0000,,现在我们可以把它放在另一边，
+Dialogue: 0,0:02:57.69,0:03:01.01,*Default,NTP,0000,0000,0000,,但稍后我们将需要更多空间
+Dialogue: 0,0:03:01.01,0:03:03.52,*Default,NTP,0000,0000,0000,,因为你会看到这里有一些空间
+Dialogue: 0,0:03:03.52,0:03:05.55,*Default,NTP,0000,0000,0000,,之前，对。
+Dialogue: 0,0:03:05.55,0:03:08.66,*Default,NTP,0000,0000,0000,,所以有了这个布局，就在右边，
+Dialogue: 0,0:03:08.66,0:03:10.28,*Default,NTP,0000,0000,0000,,还不够，
+Dialogue: 0,0:03:11.30,0:03:13.25,*Default,NTP,0000,0000,0000,,但现在这并不重要。
+Dialogue: 0,0:03:15.36,0:03:17.56,*Default,NTP,0000,0000,0000,,现在，我们以前的这个，
+Dialogue: 0,0:03:17.56,0:03:20.06,*Default,NTP,0000,0000,0000,,现在自从我们关闭了那个窗口，
+Dialogue: 0,0:03:20.06,0:03:21.48,*Default,NTP,0000,0000,0000,,它不再起作用。
+Dialogue: 0,0:03:21.48,0:03:23.72,*Default,NTP,0000,0000,0000,,所以如果我现在在这里重新加载，
+Dialogue: 0,0:03:23.72,0:03:26.78,*Default,NTP,0000,0000,0000,,谷歌浏览器告诉我无法访问该网站，
+Dialogue: 0,0:03:26.78,0:03:28.34,*Default,NTP,0000,0000,0000,,所以我可以关闭它
+Dialogue: 0,0:03:29.20,0:03:32.19,*Default,NTP,0000,0000,0000,,然后我可以再次点击这里
+Dialogue: 0,0:03:32.19,0:03:35.13,*Default,NTP,0000,0000,0000,,现在就在这个新窗口中直播吧。
+Dialogue: 0,0:03:35.13,0:03:39.69,*Default,NTP,0000,0000,0000,,好的，所以在这个新项目中，实际上是一样的，
+Dialogue: 0,0:03:39.69,0:03:41.40,*Default,NTP,0000,0000,0000,,但这是一个新项目文件夹
+Dialogue: 0,0:03:41.40,0:03:45.30,*Default,NTP,0000,0000,0000,,所以对于 VS 代码来说，它就像一个新项目。
+Dialogue: 0,0:03:45.30,0:03:48.74,*Default,NTP,0000,0000,0000,,所以如果我现在点击上线，它应该会重新开始。
+Dialogue: 0,0:03:49.74,0:03:53.21,*Default,NTP,0000,0000,0000,,这就是我们离开项目的方式
+Dialogue: 0,0:03:53.21,0:03:54.76,*Default,NTP,0000,0000,0000,,在最后一节之后，
+Dialogue: 0,0:03:54.76,0:03:57.60,*Default,NTP,0000,0000,0000,,这是这个新的起点。
+Dialogue: 0,0:03:57.60,0:04:02.60,*Default,NTP,0000,0000,0000,,太好了，但现在让我们终于开始使用一些 CSS。
+Dialogue: 0,0:04:02.91,0:04:07.91,*Default,NTP,0000,0000,0000,,对，记住有三种写 CSS 的方法
+Dialogue: 0,0:04:08.50,0:04:11.71,*Default,NTP,0000,0000,0000,,第一个是内联 CSS。
+Dialogue: 0,0:04:11.71,0:04:15.38,*Default,NTP,0000,0000,0000,,因此，让我首先向您展示内联 CSS 的工作原理。
+Dialogue: 0,0:04:15.38,0:04:18.28,*Default,NTP,0000,0000,0000,,而内联CSS基本上就是写
+Dialogue: 0,0:04:18.28,0:04:23.28,*Default,NTP,0000,0000,0000,,里面的 CSS 代码，本质上是元素的。
+Dialogue: 0,0:04:23.69,0:04:27.58,*Default,NTP,0000,0000,0000,,因此，假设我们想在此处设置此文本的样式，蓝色。
+Dialogue: 0,0:04:27.58,0:04:30.80,*Default,NTP,0000,0000,0000,,所以这个H1，我们可以声明
+Dialogue: 0,0:04:30.80,0:04:34.33,*Default,NTP,0000,0000,0000,,像这样的样式属性，
+Dialogue: 0,0:04:34.33,0:04:37.74,*Default,NTP,0000,0000,0000,,然后在这个 HTML 元素内部
+Dialogue: 0,0:04:37.74,0:04:40.14,*Default,NTP,0000,0000,0000,,在这个 HTML 文件中，
+Dialogue: 0,0:04:40.14,0:04:42.82,*Default,NTP,0000,0000,0000,,然后我们将开始编写我们的 CSS。
+Dialogue: 0,0:04:43.73,0:04:48.37,*Default,NTP,0000,0000,0000,,所以我们可以说颜色，然后将其设置为蓝色。
+Dialogue: 0,0:04:48.37,0:04:50.01,*Default,NTP,0000,0000,0000,,如果我给它一个保存，
+Dialogue: 0,0:04:50.01,0:04:52.98,*Default,NTP,0000,0000,0000,,然后你会看到它实际上变成了蓝色。
+Dialogue: 0,0:04:53.82,0:04:56.59,*Default,NTP,0000,0000,0000,,所以这行得通，对吧？
+Dialogue: 0,0:04:56.59,0:05:01.59,*Default,NTP,0000,0000,0000,,但是，通常不应该使用内联样式，好吧。
+Dialogue: 0,0:05:02.22,0:05:03.85,*Default,NTP,0000,0000,0000,,我只是给你看这个
+Dialogue: 0,0:05:03.85,0:05:07.53,*Default,NTP,0000,0000,0000,,所以如果在某些情况下你在这里看到这个
+Dialogue: 0,0:05:07.53,0:05:10.16,*Default,NTP,0000,0000,0000,,在其他一些代码和其他一些网页上，
+Dialogue: 0,0:05:10.16,0:05:11.83,*Default,NTP,0000,0000,0000,,那么你知道它是什么，
+Dialogue: 0,0:05:11.83,0:05:15.50,*Default,NTP,0000,0000,0000,,但是当你自己编码时不应该使用它。
+Dialogue: 0,0:05:15.50,0:05:18.84,*Default,NTP,0000,0000,0000,,所以当你建立自己的网页或网站时，
+Dialogue: 0,0:05:18.84,0:05:21.14,*Default,NTP,0000,0000,0000,,那就别这样了，好吧。
+Dialogue: 0,0:05:22.55,0:05:26.35,*Default,NTP,0000,0000,0000,,现在让我们继续讨论第二种编写 CSS 的方式，
+Dialogue: 0,0:05:26.35,0:05:29.64,*Default,NTP,0000,0000,0000,,这称为内部CSS。
+Dialogue: 0,0:05:29.64,0:05:31.30,*Default,NTP,0000,0000,0000,,因此，使用内部 CSS，
+Dialogue: 0,0:05:31.30,0:05:33.73,*Default,NTP,0000,0000,0000,,我们来到这里
+Dialogue: 0,0:05:33.73,0:05:38.29,*Default,NTP,0000,0000,0000,,然后我们声明一个样式元素。
+Dialogue: 0,0:05:38.29,0:05:40.43,*Default,NTP,0000,0000,0000,,如此风格，
+Dialogue: 0,0:05:40.43,0:05:43.89,*Default,NTP,0000,0000,0000,,然后我们可以在这里写我们的CSS
+Dialogue: 0,0:05:43.89,0:05:46.34,*Default,NTP,0000,0000,0000,,进入样式元素。
+Dialogue: 0,0:05:46.34,0:05:49.37,*Default,NTP,0000,0000,0000,,所以基本上整个页面都是HTML，
+Dialogue: 0,0:05:49.37,0:05:52.84,*Default,NTP,0000,0000,0000,,但是这个样式元素里面的所有东西
+Dialogue: 0,0:05:52.84,0:05:57.26,*Default,NTP,0000,0000,0000,,需要在头部内部的是CSS。
+Dialogue: 0,0:05:57.26,0:05:59.65,*Default,NTP,0000,0000,0000,,现在让我们写一些非常相似的东西
+Dialogue: 0,0:05:59.65,0:06:02.84,*Default,NTP,0000,0000,0000,,到我们在最后一个视频结束时写的内容。
+Dialogue: 0,0:06:02.84,0:06:05.49,*Default,NTP,0000,0000,0000,,所以请记住，我们总是需要开始
+Dialogue: 0,0:06:05.49,0:06:07.47,*Default,NTP,0000,0000,0000,,带选择器
+Dialogue: 0,0:06:07.47,0:06:09.79,*Default,NTP,0000,0000,0000,,因为在这种情况下我们不打算写
+Dialogue: 0,0:06:09.79,0:06:13.20,*Default,NTP,0000,0000,0000,,代码直接在 H1 元素上。
+Dialogue: 0,0:06:13.20,0:06:16.30,*Default,NTP,0000,0000,0000,,所以我们的 CSS 需要一种了解的方式
+Dialogue: 0,0:06:16.30,0:06:20.23,*Default,NTP,0000,0000,0000,,我们真正想要设计什么元素，对吧？
+Dialogue: 0,0:06:20.23,0:06:22.22,*Default,NTP,0000,0000,0000,,所以我们可以这样选择，
+Dialogue: 0,0:06:23.11,0:06:26.13,*Default,NTP,0000,0000,0000,,然后我们开始我们的声明块。
+Dialogue: 0,0:06:26.13,0:06:28.69,*Default,NTP,0000,0000,0000,,这就是我们所说的
+Dialogue: 0,0:06:28.69,0:06:30.61,*Default,NTP,0000,0000,0000,,在最后一节课结束时。
+Dialogue: 0,0:06:31.63,0:06:34.30,*Default,NTP,0000,0000,0000,,所以现在在这里，我们可以写一个风格，
+Dialogue: 0,0:06:34.30,0:06:38.44,*Default,NTP,0000,0000,0000,,所以一个声明，它只是一个属性
+Dialogue: 0,0:06:38.44,0:06:40.83,*Default,NTP,0000,0000,0000,,在这种情况下，颜色属性。
+Dialogue: 0,0:06:40.83,0:06:44.36,*Default,NTP,0000,0000,0000,,然后我们为其指定蓝色值，
+Dialogue: 0,0:06:44.36,0:06:47.26,*Default,NTP,0000,0000,0000,,如果我们现在保存并重新加载，
+Dialogue: 0,0:06:47.26,0:06:51.18,*Default,NTP,0000,0000,0000,,然后你再次看到，这里的代码变成了蓝色，
+Dialogue: 0,0:06:51.18,0:06:55.42,*Default,NTP,0000,0000,0000,,所以整个文本变成了蓝色。
+Dialogue: 0,0:06:55.42,0:06:59.14,*Default,NTP,0000,0000,0000,,太好了，所以这已经是向前迈出的一大步
+Dialogue: 0,0:06:59.14,0:07:02.33,*Default,NTP,0000,0000,0000,,因为现在我们解耦了风格，
+Dialogue: 0,0:07:02.33,0:07:07.33,*Default,NTP,0000,0000,0000,,这是来自实际 HTML 元素的所有内容。
+Dialogue: 0,0:07:07.73,0:07:11.28,*Default,NTP,0000,0000,0000,,所以之前我们必须在这里设计风格，
+Dialogue: 0,0:07:11.28,0:07:13.37,*Default,NTP,0000,0000,0000,,然后是 CSS 和 HTML，
+Dialogue: 0,0:07:13.37,0:07:15.20,*Default,NTP,0000,0000,0000,,有点纠结，
+Dialogue: 0,0:07:15.20,0:07:18.25,*Default,NTP,0000,0000,0000,,这在编程中从来都不是一件好事，
+Dialogue: 0,0:07:18.25,0:07:22.43,*Default,NTP,0000,0000,0000,,所以我们想把这些东西放在不同的地方，\N00:07:22,430 --> 00:07:25,730我们也称之为关注点分离。\N137
+Dialogue: 0,0:07:25.73,0:07:28.81,*Default,NTP,0000,0000,0000,,所以现在我们有了，我们的风格在这里。
+Dialogue: 0,0:07:28.81,0:07:30.78,*Default,NTP,0000,0000,0000,,所以一切都在脑海中，
+Dialogue: 0,0:07:30.78,0:07:33.93,*Default,NTP,0000,0000,0000,,和这里的元素分离。
+Dialogue: 0,0:07:33.93,0:07:37.38,*Default,NTP,0000,0000,0000,,但是，如果我们有很多 CSS 代码，
+Dialogue: 0,0:07:37.38,0:07:39.93,*Default,NTP,0000,0000,0000,,那么这也不是很实用。
+Dialogue: 0,0:07:39.93,0:07:43.96,*Default,NTP,0000,0000,0000,,所以想象一下我们有 500 行 CSS 代码
+Dialogue: 0,0:07:43.96,0:07:46.84,*Default,NTP,0000,0000,0000,,然后这实际上并不少见。
+Dialogue: 0,0:07:46.84,0:07:47.88,*Default,NTP,0000,0000,0000,,所以在那种情况下，
+Dialogue: 0,0:07:47.88,0:07:50.53,*Default,NTP,0000,0000,0000,,这会使我们的 HTML 文件膨胀
+Dialogue: 0,0:07:50.53,0:07:53.12,*Default,NTP,0000,0000,0000,,并且很难导航它。
+Dialogue: 0,0:07:53.12,0:07:56.85,*Default,NTP,0000,0000,0000,,因此，我们可以更加分离事物
+Dialogue: 0,0:07:56.85,0:08:01.85,*Default,NTP,0000,0000,0000,,通过将我们所有的 CSS 代码放入一个特殊的 CSS 文件中。
+Dialogue: 0,0:08:02.95,0:08:05.30,*Default,NTP,0000,0000,0000,,所以让我们这样做。
+Dialogue: 0,0:08:05.30,0:08:08.15,*Default,NTP,0000,0000,0000,,所以我们在新文件上再次点击这里
+Dialogue: 0,0:08:09.08,0:08:11.34,*Default,NTP,0000,0000,0000,,这里的这个可以有任何名字，
+Dialogue: 0,0:08:11.34,0:08:14.90,*Default,NTP,0000,0000,0000,,但我喜欢称它为 style.css。
+Dialogue: 0,0:08:14.90,0:08:17.03,*Default,NTP,0000,0000,0000,,好的，所以在 HTML 中，
+Dialogue: 0,0:08:17.03,0:08:18.93,*Default,NTP,0000,0000,0000,,第一页通常应该
+Dialogue: 0,0:08:18.93,0:08:21.58,*Default,NTP,0000,0000,0000,,总是被称为 index.html，
+Dialogue: 0,0:08:21.58,0:08:24.56,*Default,NTP,0000,0000,0000,,这确实是一个约定，但对于 CSS 文件，
+Dialogue: 0,0:08:24.56,0:08:26.67,*Default,NTP,0000,0000,0000,,你可以给它起任何你想要的名字，
+Dialogue: 0,0:08:26.67,0:08:30.31,*Default,NTP,0000,0000,0000,,但同样，我喜欢称它为 style.css。
+Dialogue: 0,0:08:31.70,0:08:35.84,*Default,NTP,0000,0000,0000,,好的，这就是我们现在所说的外部 CSS
+Dialogue: 0,0:08:35.84,0:08:40.59,*Default,NTP,0000,0000,0000,,因为我们现在要移动这个声明块
+Dialogue: 0,0:08:40.59,0:08:44.95,*Default,NTP,0000,0000,0000,,或者这条规则实际上变成了一个完全不同的文件，
+Dialogue: 0,0:08:44.95,0:08:49.20,*Default,NTP,0000,0000,0000,,所以这个 CSS 现在在 HTML 之外。
+Dialogue: 0,0:08:50.21,0:08:53.51,*Default,NTP,0000,0000,0000,,好的，所以我们在这里有我们的风格
+Dialogue: 0,0:08:53.51,0:08:57.16,*Default,NTP,0000,0000,0000,,现在我们不再需要这里的样式了。
+Dialogue: 0,0:08:57.16,0:09:00.50,*Default,NTP,0000,0000,0000,,现在，也许你注意到当我保存这个时，
+Dialogue: 0,0:09:00.50,0:09:03.33,*Default,NTP,0000,0000,0000,,蓝色实际上已经消失了。
+Dialogue: 0,0:09:03.33,0:09:06.15,*Default,NTP,0000,0000,0000,,那么为什么你认为会发生这种情况？
+Dialogue: 0,0:09:06.15,0:09:08.81,*Default,NTP,0000,0000,0000,,那么为什么这个文本不再是蓝色的
+Dialogue: 0,0:09:08.81,0:09:11.30,*Default,NTP,0000,0000,0000,,即使我们在这里有完全相同的代码
+Dialogue: 0,0:09:11.30,0:09:12.62,*Default,NTP,0000,0000,0000,,和我们以前一样？
+Dialogue: 0,0:09:13.68,0:09:17.34,*Default,NTP,0000,0000,0000,,嗯，原因是现在的 HTML
+Dialogue: 0,0:09:17.34,0:09:22.34,*Default,NTP,0000,0000,0000,,无法知道我们确实有一个 CSS 文件，
+Dialogue: 0,0:09:22.49,0:09:25.19,*Default,NTP,0000,0000,0000,,或者换句话说，HTML 文件
+Dialogue: 0,0:09:25.19,0:09:29.69,*Default,NTP,0000,0000,0000,,并且 CSS 文件不会自动链接。
+Dialogue: 0,0:09:29.69,0:09:33.83,*Default,NTP,0000,0000,0000,,所以我们需要做的是告诉我们的HTML文件，
+Dialogue: 0,0:09:33.83,0:09:36.78,*Default,NTP,0000,0000,0000,,有一个我们想要使用的 CSS 文件
+Dialogue: 0,0:09:36.78,0:09:39.22,*Default,NTP,0000,0000,0000,,为 HTML 设置样式。
+Dialogue: 0,0:09:39.22,0:09:41.83,*Default,NTP,0000,0000,0000,,所以我们需要将它们基本连接在一起，
+Dialogue: 0,0:09:41.83,0:09:45.70,*Default,NTP,0000,0000,0000,,我们再次这样做，在 HTML 头部，
+Dialogue: 0,0:09:45.70,0:09:48.30,*Default,NTP,0000,0000,0000,,因为这正是所有信息的所在
+Dialogue: 0,0:09:48.30,0:09:49.63,*Default,NTP,0000,0000,0000,,关于页面去。
+Dialogue: 0,0:09:50.87,0:09:54.69,*Default,NTP,0000,0000,0000,,为此，我们使用了链接元素。
+Dialogue: 0,0:09:54.69,0:09:57.27,*Default,NTP,0000,0000,0000,,所以这是另一个新元素，
+Dialogue: 0,0:09:57.27,0:09:59.81,*Default,NTP,0000,0000,0000,,并且链接元素实际上很混乱
+Dialogue: 0,0:09:59.81,0:10:02.77,*Default,NTP,0000,0000,0000,,对于初学者，因为很多人，
+Dialogue: 0,0:10:02.77,0:10:04.67,*Default,NTP,0000,0000,0000,,当他们开始时，他们可能会认为
+Dialogue: 0,0:10:04.67,0:10:06.97,*Default,NTP,0000,0000,0000,,链接元素实际上是
+Dialogue: 0,0:10:06.97,0:10:10.10,*Default,NTP,0000,0000,0000,,创建像这里这样的超链接，
+Dialogue: 0,0:10:10.10,0:10:12.53,*Default,NTP,0000,0000,0000,,但当然不是这样。
+Dialogue: 0,0:10:12.53,0:10:15.42,*Default,NTP,0000,0000,0000,,如您所知，创建超链接，
+Dialogue: 0,0:10:15.42,0:10:16.97,*Default,NTP,0000,0000,0000,,我们使用锚标签，
+Dialogue: 0,0:10:16.97,0:10:20.12,*Default,NTP,0000,0000,0000,,所以不是链接标签。
+Dialogue: 0,0:10:20.12,0:10:22.52,*Default,NTP,0000,0000,0000,,所以链接元素真的只有
+Dialogue: 0,0:10:22.52,0:10:26.97,*Default,NTP,0000,0000,0000,,将 HTML 连接到 CSS 文件的唯一目的。
+Dialogue: 0,0:10:27.87,0:10:31.22,*Default,NTP,0000,0000,0000,,所以在这里我们再次指定 H ref，
+Dialogue: 0,0:10:32.60,0:10:36.73,*Default,NTP,0000,0000,0000,,然后在这里我们需要 CSS 文件的路径。
+Dialogue: 0,0:10:36.73,0:10:39.91,*Default,NTP,0000,0000,0000,,所以在这种情况下，这只是 style.css，
+Dialogue: 0,0:10:42.79,0:10:44.84,*Default,NTP,0000,0000,0000,,那么这里也不错
+Dialogue: 0,0:10:44.84,0:10:47.98,*Default,NTP,0000,0000,0000,,指定 rail 属性
+Dialogue: 0,0:10:47.98,0:10:50.80,*Default,NTP,0000,0000,0000,,并提前告诉 HTML
+Dialogue: 0,0:10:50.80,0:10:53.72,*Default,NTP,0000,0000,0000,,这是一个样式表。
+Dialogue: 0,0:10:54.91,0:10:56.90,*Default,NTP,0000,0000,0000,,现在当我再次保存这个时，
+Dialogue: 0,0:10:56.90,0:11:00.76,*Default,NTP,0000,0000,0000,,看看会发生什么，很好，
+Dialogue: 0,0:11:00.76,0:11:02.76,*Default,NTP,0000,0000,0000,,我们这里的文字又是蓝色的。
+Dialogue: 0,0:11:02.76,0:11:07.76,*Default,NTP,0000,0000,0000,,所以现在我们在这里成功地连接了我们的 CSS 文件
+Dialogue: 0,0:11:08.00,0:11:10.56,*Default,NTP,0000,0000,0000,,到我们的 HTML 文件。
+Dialogue: 0,0:11:10.56,0:11:13.03,*Default,NTP,0000,0000,0000,,所以这现在是外部 CSS，
+Dialogue: 0,0:11:13.03,0:11:15.28,*Default,NTP,0000,0000,0000,,这是我们将在其余部分中使用的
+Dialogue: 0,0:11:15.28,0:11:16.40,*Default,NTP,0000,0000,0000,,当然。
+Dialogue: 0,0:11:16.40,0:11:18.71,*Default,NTP,0000,0000,0000,,这也是我建议你做的
+Dialogue: 0,0:11:18.71,0:11:22.11,*Default,NTP,0000,0000,0000,,每当您构建自己的网页时，
+Dialogue: 0,0:11:22.11,0:11:26.25,*Default,NTP,0000,0000,0000,,然而内部 CSS 有时也有它的位置，
+Dialogue: 0,0:11:26.25,0:11:27.98,*Default,NTP,0000,0000,0000,,尤其是当你只想
+Dialogue: 0,0:11:27.98,0:11:30.55,*Default,NTP,0000,0000,0000,,建造小而快的东西
+Dialogue: 0,0:11:30.55,0:11:33.08,*Default,NTP,0000,0000,0000,,并且想要在同一个文件中做所有事情。
+Dialogue: 0,0:11:33.08,0:11:37.79,*Default,NTP,0000,0000,0000,,那么创建内部 CSS 是完全可以接受的
+Dialogue: 0,0:11:37.79,0:11:42.72,*Default,NTP,0000,0000,0000,,使用 style 元素，记住，就像这样。
+Dialogue: 0,0:11:42.72,0:11:44.15,*Default,NTP,0000,0000,0000,,但是内联CSS，
+Dialogue: 0,0:11:44.15,0:11:46.72,*Default,NTP,0000,0000,0000,,这就是我一开始向你展示的。
+Dialogue: 0,0:11:46.72,0:11:48.96,*Default,NTP,0000,0000,0000,,所以在这里添加样式，
+Dialogue: 0,0:11:48.96,0:11:51.66,*Default,NTP,0000,0000,0000,,使用通常的样式属性
+Dialogue: 0,0:11:51.66,0:11:53.29,*Default,NTP,0000,0000,0000,,不是一个好习惯，
+Dialogue: 0,0:11:53.29,0:11:56.23,*Default,NTP,0000,0000,0000,,所以这样做不是一个好主意。
+Dialogue: 0,0:11:56.23,0:11:59.37,*Default,NTP,0000,0000,0000,,好的，现在有了这个，
+Dialogue: 0,0:11:59.37,0:12:01.21,*Default,NTP,0000,0000,0000,,我们准备开始学习
+Dialogue: 0,0:12:01.21,0:12:06.21,*Default,NTP,0000,0000,0000,,我们最初的几个用于样式文本的 CSS 属性。
+Dialogue: 0,0:12:06.29,0:12:09.92,*Default,NTP,0000,0000,0000,,所以这将是我们下一节课的主题。
+Dialogue: 0,0:00:01.56,0:00:05.43,*Default,NTP,0000,0000,0000,,There are three places where we can write CSS
+Dialogue: 0,0:00:05.43,0:00:10.43,*Default,NTP,0000,0000,0000,,and we call them inline CSS, internal CSS, and external CSS.
+Dialogue: 0,0:00:11.80,0:00:13.55,*Default,NTP,0000,0000,0000,,And so let's now learn about
+Dialogue: 0,0:00:13.55,0:00:16.30,*Default,NTP,0000,0000,0000,,these three different types of CSS
+Dialogue: 0,0:00:16.30,0:00:18.76,*Default,NTP,0000,0000,0000,,and also which one is the best.
+Dialogue: 0,0:00:20.35,0:00:23.52,*Default,NTP,0000,0000,0000,,And in this section, and also the next one,
+Dialogue: 0,0:00:23.52,0:00:26.86,*Default,NTP,0000,0000,0000,,we will actually keep working on this same project
+Dialogue: 0,0:00:26.86,0:00:29.91,*Default,NTP,0000,0000,0000,,that we started building in the last section.
+Dialogue: 0,0:00:29.91,0:00:33.92,*Default,NTP,0000,0000,0000,,So the section about the introduction to HTML
+Dialogue: 0,0:00:33.92,0:00:36.98,*Default,NTP,0000,0000,0000,,and remember that this is how we left
+Dialogue: 0,0:00:36.98,0:00:40.08,*Default,NTP,0000,0000,0000,,the project after that last section.
+Dialogue: 0,0:00:40.08,0:00:43.48,*Default,NTP,0000,0000,0000,,And now by the end of this first CSS section,
+Dialogue: 0,0:00:43.48,0:00:45.91,*Default,NTP,0000,0000,0000,,it will look like this.
+Dialogue: 0,0:00:45.91,0:00:48.86,*Default,NTP,0000,0000,0000,,So that's completely different, right?
+Dialogue: 0,0:00:48.86,0:00:51.32,*Default,NTP,0000,0000,0000,,So we have a lot of colors here,
+Dialogue: 0,0:00:51.32,0:00:54.48,*Default,NTP,0000,0000,0000,,we have this color border at the top.
+Dialogue: 0,0:00:55.57,0:00:58.52,*Default,NTP,0000,0000,0000,,The font is also completely different.
+Dialogue: 0,0:00:58.52,0:01:02.82,*Default,NTP,0000,0000,0000,,So the text color also changed,
+Dialogue: 0,0:01:02.82,0:01:06.75,*Default,NTP,0000,0000,0000,,and yeah, here we have some nice background colors.
+Dialogue: 0,0:01:06.75,0:01:08.73,*Default,NTP,0000,0000,0000,,We even have this button here,
+Dialogue: 0,0:01:08.73,0:01:10.74,*Default,NTP,0000,0000,0000,,floating here on the right side.
+Dialogue: 0,0:01:12.00,0:01:15.41,*Default,NTP,0000,0000,0000,,And so yeah, a lot of visual styles
+Dialogue: 0,0:01:15.41,0:01:17.92,*Default,NTP,0000,0000,0000,,are going to be applied through the page
+Dialogue: 0,0:01:17.92,0:01:19.41,*Default,NTP,0000,0000,0000,,throughout this section.
+Dialogue: 0,0:01:19.41,0:01:23.77,*Default,NTP,0000,0000,0000,,And you will learn a lot of CSS by building this project.
+Dialogue: 0,0:01:23.77,0:01:26.67,*Default,NTP,0000,0000,0000,,Okay, now I like to keep one folder
+Dialogue: 0,0:01:26.67,0:01:29.02,*Default,NTP,0000,0000,0000,,for each of these sections.
+Dialogue: 0,0:01:29.02,0:01:31.31,*Default,NTP,0000,0000,0000,,And so I will now go to my desktop
+Dialogue: 0,0:01:31.31,0:01:35.84,*Default,NTP,0000,0000,0000,,and create a brand new project folder for this section.
+Dialogue: 0,0:01:35.84,0:01:37.76,*Default,NTP,0000,0000,0000,,So what I'm going to do is this time,
+Dialogue: 0,0:01:37.76,0:01:40.68,*Default,NTP,0000,0000,0000,,I will not go into this folder,
+Dialogue: 0,0:01:40.68,0:01:43.61,*Default,NTP,0000,0000,0000,,which is the code that we downloaded from GitHub,
+Dialogue: 0,0:01:43.61,0:01:47.53,*Default,NTP,0000,0000,0000,,but instead, what I will do is to simply copy
+Dialogue: 0,0:01:47.53,0:01:49.57,*Default,NTP,0000,0000,0000,,this project from the last section.
+Dialogue: 0,0:01:51.25,0:01:56.25,*Default,NTP,0000,0000,0000,,Okay, and then I will call it 03 and CSS fundamentals.
+Dialogue: 0,0:01:59.72,0:02:02.28,*Default,NTP,0000,0000,0000,,And so the starting point for this section
+Dialogue: 0,0:02:02.28,0:02:05.41,*Default,NTP,0000,0000,0000,,is the final code of the last section.
+Dialogue: 0,0:02:05.41,0:02:07.17,*Default,NTP,0000,0000,0000,,So I hope that makes sense,
+Dialogue: 0,0:02:07.17,0:02:10.55,*Default,NTP,0000,0000,0000,,but if you feel like just working in the same folder,
+Dialogue: 0,0:02:10.55,0:02:13.16,*Default,NTP,0000,0000,0000,,that is of course, absolutely no problem.
+Dialogue: 0,0:02:13.16,0:02:15.21,*Default,NTP,0000,0000,0000,,So you can just keep writing code
+Dialogue: 0,0:02:15.21,0:02:17.57,*Default,NTP,0000,0000,0000,,exactly in the same documents
+Dialogue: 0,0:02:17.57,0:02:20.57,*Default,NTP,0000,0000,0000,,that we have been working on in the last section.
+Dialogue: 0,0:02:20.57,0:02:23.04,*Default,NTP,0000,0000,0000,,I'm just doing it like this, so that in the end,
+Dialogue: 0,0:02:23.04,0:02:26.72,*Default,NTP,0000,0000,0000,,I can give you all the code organized nicely.
+Dialogue: 0,0:02:27.92,0:02:32.92,*Default,NTP,0000,0000,0000,,Okay, so I will now close this window here
+Dialogue: 0,0:02:34.47,0:02:36.39,*Default,NTP,0000,0000,0000,,and we can right click for example here
+Dialogue: 0,0:02:36.39,0:02:39.68,*Default,NTP,0000,0000,0000,,on VS code and say new window
+Dialogue: 0,0:02:41.00,0:02:42.98,*Default,NTP,0000,0000,0000,,and then open the folder from here.
+Dialogue: 0,0:02:44.21,0:02:48.93,*Default,NTP,0000,0000,0000,,So on the desktop, it is this that I just created,
+Dialogue: 0,0:02:48.93,0:02:52.84,*Default,NTP,0000,0000,0000,,open it and then as always I'm pushing it to the left side.
+Dialogue: 0,0:02:54.00,0:02:57.69,*Default,NTP,0000,0000,0000,,Now we can put this here on the other side,
+Dialogue: 0,0:02:57.69,0:03:01.01,*Default,NTP,0000,0000,0000,,but later we will need a bit more space
+Dialogue: 0,0:03:01.01,0:03:03.52,*Default,NTP,0000,0000,0000,,because you'll see that there was some space here
+Dialogue: 0,0:03:03.52,0:03:05.55,*Default,NTP,0000,0000,0000,,before, right.
+Dialogue: 0,0:03:05.55,0:03:08.66,*Default,NTP,0000,0000,0000,,And so with this layout, just being on the right side,
+Dialogue: 0,0:03:08.66,0:03:10.28,*Default,NTP,0000,0000,0000,,there is not enough for that,
+Dialogue: 0,0:03:11.30,0:03:13.25,*Default,NTP,0000,0000,0000,,but for now that doesn't really matter.
+Dialogue: 0,0:03:15.36,0:03:17.56,*Default,NTP,0000,0000,0000,,Now, this one that we had before,
+Dialogue: 0,0:03:17.56,0:03:20.06,*Default,NTP,0000,0000,0000,,now since we closed that window,
+Dialogue: 0,0:03:20.06,0:03:21.48,*Default,NTP,0000,0000,0000,,it will no longer work.
+Dialogue: 0,0:03:21.48,0:03:23.72,*Default,NTP,0000,0000,0000,,So if I reload here now,
+Dialogue: 0,0:03:23.72,0:03:26.78,*Default,NTP,0000,0000,0000,,Google Chrome tells me that the site can't be reached,
+Dialogue: 0,0:03:26.78,0:03:28.34,*Default,NTP,0000,0000,0000,,so I can just close this
+Dialogue: 0,0:03:29.20,0:03:32.19,*Default,NTP,0000,0000,0000,,and I can then again click here
+Dialogue: 0,0:03:32.19,0:03:35.13,*Default,NTP,0000,0000,0000,,on go live now in this new window.
+Dialogue: 0,0:03:35.13,0:03:39.69,*Default,NTP,0000,0000,0000,,Okay, so in this new project, which is actually the same,
+Dialogue: 0,0:03:39.69,0:03:41.40,*Default,NTP,0000,0000,0000,,but it is a new project folder
+Dialogue: 0,0:03:41.40,0:03:45.30,*Default,NTP,0000,0000,0000,,and so for VS code it is like a new project.
+Dialogue: 0,0:03:45.30,0:03:48.74,*Default,NTP,0000,0000,0000,,So if I click now on go live, it should start again.
+Dialogue: 0,0:03:49.74,0:03:53.21,*Default,NTP,0000,0000,0000,,And so here is the way we left the project
+Dialogue: 0,0:03:53.21,0:03:54.76,*Default,NTP,0000,0000,0000,,after the last section,
+Dialogue: 0,0:03:54.76,0:03:57.60,*Default,NTP,0000,0000,0000,,which is the starting point of this new one.
+Dialogue: 0,0:03:57.60,0:04:02.60,*Default,NTP,0000,0000,0000,,Great, but now let's finally get started with some CSS.
+Dialogue: 0,0:04:02.91,0:04:07.91,*Default,NTP,0000,0000,0000,,Right, so remember there were three ways of writing CSS
+Dialogue: 0,0:04:08.50,0:04:11.71,*Default,NTP,0000,0000,0000,,and the first one was inline CSS.
+Dialogue: 0,0:04:11.71,0:04:15.38,*Default,NTP,0000,0000,0000,,So let me start by showing you how inline CSS works.
+Dialogue: 0,0:04:15.38,0:04:18.28,*Default,NTP,0000,0000,0000,,And inline CSS is basically just writing
+Dialogue: 0,0:04:18.28,0:04:23.28,*Default,NTP,0000,0000,0000,,the CSS code inside, essentially of the element.
+Dialogue: 0,0:04:23.69,0:04:27.58,*Default,NTP,0000,0000,0000,,So let's say that we wanted to style this text here, blue.
+Dialogue: 0,0:04:27.58,0:04:30.80,*Default,NTP,0000,0000,0000,,So this H1, we could declare
+Dialogue: 0,0:04:30.80,0:04:34.33,*Default,NTP,0000,0000,0000,,the style attribute like this,
+Dialogue: 0,0:04:34.33,0:04:37.74,*Default,NTP,0000,0000,0000,,and then inside of this HTML element
+Dialogue: 0,0:04:37.74,0:04:40.14,*Default,NTP,0000,0000,0000,,and inside of this HTML file,
+Dialogue: 0,0:04:40.14,0:04:42.82,*Default,NTP,0000,0000,0000,,we would then start writing our CSS.
+Dialogue: 0,0:04:43.73,0:04:48.37,*Default,NTP,0000,0000,0000,,So we can say color and then set it to blue.
+Dialogue: 0,0:04:48.37,0:04:50.01,*Default,NTP,0000,0000,0000,,If I give it a save,
+Dialogue: 0,0:04:50.01,0:04:52.98,*Default,NTP,0000,0000,0000,,then you see that it turned actually blue.
+Dialogue: 0,0:04:53.82,0:04:56.59,*Default,NTP,0000,0000,0000,,So this worked, right?
+Dialogue: 0,0:04:56.59,0:05:01.59,*Default,NTP,0000,0000,0000,,However, inline styles should usually never be used, okay.
+Dialogue: 0,0:05:02.22,0:05:03.85,*Default,NTP,0000,0000,0000,,I'm just showing this to you
+Dialogue: 0,0:05:03.85,0:05:07.53,*Default,NTP,0000,0000,0000,,so that if in some case you see this here
+Dialogue: 0,0:05:07.53,0:05:10.16,*Default,NTP,0000,0000,0000,,on some other code and some other webpage,
+Dialogue: 0,0:05:10.16,0:05:11.83,*Default,NTP,0000,0000,0000,,then you know what it is,
+Dialogue: 0,0:05:11.83,0:05:15.50,*Default,NTP,0000,0000,0000,,but you should not use it when you code on your own.
+Dialogue: 0,0:05:15.50,0:05:18.84,*Default,NTP,0000,0000,0000,,So when you build your own web pages or websites,
+Dialogue: 0,0:05:18.84,0:05:21.14,*Default,NTP,0000,0000,0000,,then don't do this, okay.
+Dialogue: 0,0:05:22.55,0:05:26.35,*Default,NTP,0000,0000,0000,,And so let's now move on to the second way of writing CSS,
+Dialogue: 0,0:05:26.35,0:05:29.64,*Default,NTP,0000,0000,0000,,which is called internal CSS.
+Dialogue: 0,0:05:29.64,0:05:31.30,*Default,NTP,0000,0000,0000,,So with internal CSS,
+Dialogue: 0,0:05:31.30,0:05:33.73,*Default,NTP,0000,0000,0000,,we come here to the head
+Dialogue: 0,0:05:33.73,0:05:38.29,*Default,NTP,0000,0000,0000,,and then we declare a style element.
+Dialogue: 0,0:05:38.29,0:05:40.43,*Default,NTP,0000,0000,0000,,So style,
+Dialogue: 0,0:05:40.43,0:05:43.89,*Default,NTP,0000,0000,0000,,and then we can write our CSS right here
+Dialogue: 0,0:05:43.89,0:05:46.34,*Default,NTP,0000,0000,0000,,into the style element.
+Dialogue: 0,0:05:46.34,0:05:49.37,*Default,NTP,0000,0000,0000,,So basically this entire page is HTML,
+Dialogue: 0,0:05:49.37,0:05:52.84,*Default,NTP,0000,0000,0000,,but everything that is inside this style element
+Dialogue: 0,0:05:52.84,0:05:57.26,*Default,NTP,0000,0000,0000,,that needs to be inside of the head will be CSS.
+Dialogue: 0,0:05:57.26,0:05:59.65,*Default,NTP,0000,0000,0000,,And for now let's write something very similar
+Dialogue: 0,0:05:59.65,0:06:02.84,*Default,NTP,0000,0000,0000,,to what we wrote by the end of the last video.
+Dialogue: 0,0:06:02.84,0:06:05.49,*Default,NTP,0000,0000,0000,,So remember that we always need to start
+Dialogue: 0,0:06:05.49,0:06:07.47,*Default,NTP,0000,0000,0000,,with a selector
+Dialogue: 0,0:06:07.47,0:06:09.79,*Default,NTP,0000,0000,0000,,because in this case we are not going to write
+Dialogue: 0,0:06:09.79,0:06:13.20,*Default,NTP,0000,0000,0000,,the code directly on the H1 element.
+Dialogue: 0,0:06:13.20,0:06:16.30,*Default,NTP,0000,0000,0000,,And so our CSS needs a way of knowing
+Dialogue: 0,0:06:16.30,0:06:20.23,*Default,NTP,0000,0000,0000,,what element we actually want to style, right?
+Dialogue: 0,0:06:20.23,0:06:22.22,*Default,NTP,0000,0000,0000,,So we can select it like this,
+Dialogue: 0,0:06:23.11,0:06:26.13,*Default,NTP,0000,0000,0000,,and then we start our declaration block.
+Dialogue: 0,0:06:26.13,0:06:28.69,*Default,NTP,0000,0000,0000,,And again that is what we talked about
+Dialogue: 0,0:06:28.69,0:06:30.61,*Default,NTP,0000,0000,0000,,by the end of the last lecture.
+Dialogue: 0,0:06:31.63,0:06:34.30,*Default,NTP,0000,0000,0000,,And so now here, we can write a style,
+Dialogue: 0,0:06:34.30,0:06:38.44,*Default,NTP,0000,0000,0000,,so a declaration, which is just a property
+Dialogue: 0,0:06:38.44,0:06:40.83,*Default,NTP,0000,0000,0000,,in this case the color property.
+Dialogue: 0,0:06:40.83,0:06:44.36,*Default,NTP,0000,0000,0000,,And then we specify the blue value for it,
+Dialogue: 0,0:06:44.36,0:06:47.26,*Default,NTP,0000,0000,0000,,and if we now save it and reload,
+Dialogue: 0,0:06:47.26,0:06:51.18,*Default,NTP,0000,0000,0000,,then you see that once again, the code turned blue here,
+Dialogue: 0,0:06:51.18,0:06:55.42,*Default,NTP,0000,0000,0000,,so this entire text just became blue.
+Dialogue: 0,0:06:55.42,0:06:59.14,*Default,NTP,0000,0000,0000,,Great, so this is already a huge step forward
+Dialogue: 0,0:06:59.14,0:07:02.33,*Default,NTP,0000,0000,0000,,because now we decoupled the style,
+Dialogue: 0,0:07:02.33,0:07:07.33,*Default,NTP,0000,0000,0000,,which is all of this here from the actual HTML element.
+Dialogue: 0,0:07:07.73,0:07:11.28,*Default,NTP,0000,0000,0000,,So before as we had to style here,
+Dialogue: 0,0:07:11.28,0:07:13.37,*Default,NTP,0000,0000,0000,,then the CSS and the HTML,
+Dialogue: 0,0:07:13.37,0:07:15.20,*Default,NTP,0000,0000,0000,,were kind of entangled,
+Dialogue: 0,0:07:15.20,0:07:18.25,*Default,NTP,0000,0000,0000,,and that is never a good thing in programming,
+Dialogue: 0,0:07:18.25,0:07:22.43,*Default,NTP,0000,0000,0000,,and so we want to keep these things in separate places,
+Dialogue: 0,0:07:22.43,0:07:25.73,*Default,NTP,0000,0000,0000,,we also call it the separation of concerns.
+Dialogue: 0,0:07:25.73,0:07:28.81,*Default,NTP,0000,0000,0000,,And so now we have, our style here.
+Dialogue: 0,0:07:28.81,0:07:30.78,*Default,NTP,0000,0000,0000,,So everything up in the head,
+Dialogue: 0,0:07:30.78,0:07:33.93,*Default,NTP,0000,0000,0000,,and the elements down here separated.
+Dialogue: 0,0:07:33.93,0:07:37.38,*Default,NTP,0000,0000,0000,,However, if we have a lot of CSS code,
+Dialogue: 0,0:07:37.38,0:07:39.93,*Default,NTP,0000,0000,0000,,then that is also not really practical.
+Dialogue: 0,0:07:39.93,0:07:43.96,*Default,NTP,0000,0000,0000,,So imagine we have like 500 lines of CSS code
+Dialogue: 0,0:07:43.96,0:07:46.84,*Default,NTP,0000,0000,0000,,and then that is actually not uncommon.
+Dialogue: 0,0:07:46.84,0:07:47.88,*Default,NTP,0000,0000,0000,,And so in that case,
+Dialogue: 0,0:07:47.88,0:07:50.53,*Default,NTP,0000,0000,0000,,that would bloat our HTML file
+Dialogue: 0,0:07:50.53,0:07:53.12,*Default,NTP,0000,0000,0000,,and it would be very hard to navigate it.
+Dialogue: 0,0:07:53.12,0:07:56.85,*Default,NTP,0000,0000,0000,,And so therefore we can separate things even more
+Dialogue: 0,0:07:56.85,0:08:01.85,*Default,NTP,0000,0000,0000,,by putting all of our CSS code into a special CSS file.
+Dialogue: 0,0:08:02.95,0:08:05.30,*Default,NTP,0000,0000,0000,,So let's do that.
+Dialogue: 0,0:08:05.30,0:08:08.15,*Default,NTP,0000,0000,0000,,So we click here again on new file
+Dialogue: 0,0:08:09.08,0:08:11.34,*Default,NTP,0000,0000,0000,,and this one here can have any name,
+Dialogue: 0,0:08:11.34,0:08:14.90,*Default,NTP,0000,0000,0000,,but I like to call it style.css.
+Dialogue: 0,0:08:14.90,0:08:17.03,*Default,NTP,0000,0000,0000,,Okay, so in HTML,
+Dialogue: 0,0:08:17.03,0:08:18.93,*Default,NTP,0000,0000,0000,,the first page should usually
+Dialogue: 0,0:08:18.93,0:08:21.58,*Default,NTP,0000,0000,0000,,always be called index.html,
+Dialogue: 0,0:08:21.58,0:08:24.56,*Default,NTP,0000,0000,0000,,that's really a convention, but for the CSS file,
+Dialogue: 0,0:08:24.56,0:08:26.67,*Default,NTP,0000,0000,0000,,you can give it any name that you want,
+Dialogue: 0,0:08:26.67,0:08:30.31,*Default,NTP,0000,0000,0000,,but again, I like to call it style.css.
+Dialogue: 0,0:08:31.70,0:08:35.84,*Default,NTP,0000,0000,0000,,Okay, and so this is what we now call external CSS
+Dialogue: 0,0:08:35.84,0:08:40.59,*Default,NTP,0000,0000,0000,,because we will move now this declaration block
+Dialogue: 0,0:08:40.59,0:08:44.95,*Default,NTP,0000,0000,0000,,or this rule actually into a completely different file,
+Dialogue: 0,0:08:44.95,0:08:49.20,*Default,NTP,0000,0000,0000,,and so this CSS is now external to the HTML.
+Dialogue: 0,0:08:50.21,0:08:53.51,*Default,NTP,0000,0000,0000,,Okay, so we have our style here
+Dialogue: 0,0:08:53.51,0:08:57.16,*Default,NTP,0000,0000,0000,,and now we no longer need the style in here.
+Dialogue: 0,0:08:57.16,0:09:00.50,*Default,NTP,0000,0000,0000,,Now, maybe you noticed that as I saved this,
+Dialogue: 0,0:09:00.50,0:09:03.33,*Default,NTP,0000,0000,0000,,the blue color is actually gone.
+Dialogue: 0,0:09:03.33,0:09:06.15,*Default,NTP,0000,0000,0000,,So why do you think that is happening?
+Dialogue: 0,0:09:06.15,0:09:08.81,*Default,NTP,0000,0000,0000,,So why is this text no longer blue
+Dialogue: 0,0:09:08.81,0:09:11.30,*Default,NTP,0000,0000,0000,,even though we have the exact same code here
+Dialogue: 0,0:09:11.30,0:09:12.62,*Default,NTP,0000,0000,0000,,as we had before?
+Dialogue: 0,0:09:13.68,0:09:17.34,*Default,NTP,0000,0000,0000,,Well, the reason is that HTML right now
+Dialogue: 0,0:09:17.34,0:09:22.34,*Default,NTP,0000,0000,0000,,has no way of knowing that we actually do have a CSS file,
+Dialogue: 0,0:09:22.49,0:09:25.19,*Default,NTP,0000,0000,0000,,or in other words the HTML file
+Dialogue: 0,0:09:25.19,0:09:29.69,*Default,NTP,0000,0000,0000,,and the CSS file do not automatically get linked.
+Dialogue: 0,0:09:29.69,0:09:33.83,*Default,NTP,0000,0000,0000,,So what we need to do is to tell our HTML file,
+Dialogue: 0,0:09:33.83,0:09:36.78,*Default,NTP,0000,0000,0000,,that there is a CSS file that we want to use
+Dialogue: 0,0:09:36.78,0:09:39.22,*Default,NTP,0000,0000,0000,,to style the HTML.
+Dialogue: 0,0:09:39.22,0:09:41.83,*Default,NTP,0000,0000,0000,,So we need to link them together basically,
+Dialogue: 0,0:09:41.83,0:09:45.70,*Default,NTP,0000,0000,0000,,and we do that once again, here in the HTML head,
+Dialogue: 0,0:09:45.70,0:09:48.30,*Default,NTP,0000,0000,0000,,because that is exactly where all the information
+Dialogue: 0,0:09:48.30,0:09:49.63,*Default,NTP,0000,0000,0000,,about the page goes.
+Dialogue: 0,0:09:50.87,0:09:54.69,*Default,NTP,0000,0000,0000,,And for that, we use the link element.
+Dialogue: 0,0:09:54.69,0:09:57.27,*Default,NTP,0000,0000,0000,,So that's yet another new element,
+Dialogue: 0,0:09:57.27,0:09:59.81,*Default,NTP,0000,0000,0000,,and the link element is actually quite confusing
+Dialogue: 0,0:09:59.81,0:10:02.77,*Default,NTP,0000,0000,0000,,for beginners because many people,
+Dialogue: 0,0:10:02.77,0:10:04.67,*Default,NTP,0000,0000,0000,,when they start out they might think
+Dialogue: 0,0:10:04.67,0:10:06.97,*Default,NTP,0000,0000,0000,,that the link element is actually
+Dialogue: 0,0:10:06.97,0:10:10.10,*Default,NTP,0000,0000,0000,,to create hyperlinks like here,
+Dialogue: 0,0:10:10.10,0:10:12.53,*Default,NTP,0000,0000,0000,,but that is of course not the case.
+Dialogue: 0,0:10:12.53,0:10:15.42,*Default,NTP,0000,0000,0000,,So as you know already to create hyperlinks,
+Dialogue: 0,0:10:15.42,0:10:16.97,*Default,NTP,0000,0000,0000,,we use the anchor tag,
+Dialogue: 0,0:10:16.97,0:10:20.12,*Default,NTP,0000,0000,0000,,so not the link tag.
+Dialogue: 0,0:10:20.12,0:10:22.52,*Default,NTP,0000,0000,0000,,So the link element really only has
+Dialogue: 0,0:10:22.52,0:10:26.97,*Default,NTP,0000,0000,0000,,the only purpose of connecting the HTML to a CSS file.
+Dialogue: 0,0:10:27.87,0:10:31.22,*Default,NTP,0000,0000,0000,,So here we specify H ref once again,
+Dialogue: 0,0:10:32.60,0:10:36.73,*Default,NTP,0000,0000,0000,,and then here we need the path to the CSS file.
+Dialogue: 0,0:10:36.73,0:10:39.91,*Default,NTP,0000,0000,0000,,And so in that case, this is just style.css,
+Dialogue: 0,0:10:42.79,0:10:44.84,*Default,NTP,0000,0000,0000,,then here it is also good
+Dialogue: 0,0:10:44.84,0:10:47.98,*Default,NTP,0000,0000,0000,,to specify the rail property
+Dialogue: 0,0:10:47.98,0:10:50.80,*Default,NTP,0000,0000,0000,,and to tell the HTML ahead of time
+Dialogue: 0,0:10:50.80,0:10:53.72,*Default,NTP,0000,0000,0000,,that this is a style sheet.
+Dialogue: 0,0:10:54.91,0:10:56.90,*Default,NTP,0000,0000,0000,,And now when I saved this again,
+Dialogue: 0,0:10:56.90,0:11:00.76,*Default,NTP,0000,0000,0000,,watch what happens and nice,
+Dialogue: 0,0:11:00.76,0:11:02.76,*Default,NTP,0000,0000,0000,,our text here is blue again.
+Dialogue: 0,0:11:02.76,0:11:07.76,*Default,NTP,0000,0000,0000,,And so now we successfully connected our CSS file right here
+Dialogue: 0,0:11:08.00,0:11:10.56,*Default,NTP,0000,0000,0000,,to our HTML file.
+Dialogue: 0,0:11:10.56,0:11:13.03,*Default,NTP,0000,0000,0000,,So this is now external CSS,
+Dialogue: 0,0:11:13.03,0:11:15.28,*Default,NTP,0000,0000,0000,,and it is what we will use throughout the rest
+Dialogue: 0,0:11:15.28,0:11:16.40,*Default,NTP,0000,0000,0000,,of the course.
+Dialogue: 0,0:11:16.40,0:11:18.71,*Default,NTP,0000,0000,0000,,And it's also what I advise you to do
+Dialogue: 0,0:11:18.71,0:11:22.11,*Default,NTP,0000,0000,0000,,for whenever you build your own web pages,
+Dialogue: 0,0:11:22.11,0:11:26.25,*Default,NTP,0000,0000,0000,,however internal CSS also sometimes has its place,
+Dialogue: 0,0:11:26.25,0:11:27.98,*Default,NTP,0000,0000,0000,,especially when you just want
+Dialogue: 0,0:11:27.98,0:11:30.55,*Default,NTP,0000,0000,0000,,to build something small and fast
+Dialogue: 0,0:11:30.55,0:11:33.08,*Default,NTP,0000,0000,0000,,and want to do everything in the same file.
+Dialogue: 0,0:11:33.08,0:11:37.79,*Default,NTP,0000,0000,0000,,Then it is perfectly acceptable to create internal CSS
+Dialogue: 0,0:11:37.79,0:11:42.72,*Default,NTP,0000,0000,0000,,using the style element, remember, so just like this.
+Dialogue: 0,0:11:42.72,0:11:44.15,*Default,NTP,0000,0000,0000,,But inline CSS,
+Dialogue: 0,0:11:44.15,0:11:46.72,*Default,NTP,0000,0000,0000,,which is what I showed you in the very beginning.
+Dialogue: 0,0:11:46.72,0:11:48.96,*Default,NTP,0000,0000,0000,,So adding the style right here,
+Dialogue: 0,0:11:48.96,0:11:51.66,*Default,NTP,0000,0000,0000,,using the style attribute that is usually
+Dialogue: 0,0:11:51.66,0:11:53.29,*Default,NTP,0000,0000,0000,,not a good practice,
+Dialogue: 0,0:11:53.29,0:11:56.23,*Default,NTP,0000,0000,0000,,and so it's not a good idea to do that.
+Dialogue: 0,0:11:56.23,0:11:59.37,*Default,NTP,0000,0000,0000,,All right, and with this now in place,
+Dialogue: 0,0:11:59.37,0:12:01.21,*Default,NTP,0000,0000,0000,,we are ready to start learning
+Dialogue: 0,0:12:01.21,0:12:06.21,*Default,NTP,0000,0000,0000,,our very first couple of CSS properties for styling texts.
+Dialogue: 0,0:12:06.29,0:12:09.92,*Default,NTP,0000,0000,0000,,And so that is going to be the subject of our next lecture.

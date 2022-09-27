@@ -1,0 +1,455 @@
+[Script Info]
+Title: 011 HTML Document Structure_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=9&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.44,0:00:02.92,*Default,NTP,0000,0000,0000,,欢迎回来。
+Dialogue: 0,0:00:02.92,0:00:07.04,*Default,NTP,0000,0000,0000,,所以，我们首先需要了解 HTML
+Dialogue: 0,0:00:07.04,0:00:10.11,*Default,NTP,0000,0000,0000,,常见的 HTML 文档结构。
+Dialogue: 0,0:00:10.11,0:00:12.09,*Default,NTP,0000,0000,0000,,所以，一个结构，每个和
+Dialogue: 0,0:00:12.09,0:00:15.43,*Default,NTP,0000,0000,0000,,每个 HTML 文档都需要。
+Dialogue: 0,0:00:15.43,0:00:19.41,*Default,NTP,0000,0000,0000,,但是让我们先快速浏览一下
+Dialogue: 0,0:00:19.41,0:00:21.86,*Default,NTP,0000,0000,0000,,在我们将要建立的项目中
+Dialogue: 0,0:00:21.86,0:00:23.83,*Default,NTP,0000,0000,0000,,贯穿本节。
+Dialogue: 0,0:00:23.83,0:00:26.77,*Default,NTP,0000,0000,0000,,所以，我们正在打造 The Code 杂志。
+Dialogue: 0,0:00:26.77,0:00:30.12,*Default,NTP,0000,0000,0000,,因此，正如您在此处和本 Code Magazine 中所看到的，
+Dialogue: 0,0:00:30.12,0:00:34.83,*Default,NTP,0000,0000,0000,,我们正在构建这种非常简单的博客文章，称为
+Dialogue: 0,0:00:34.83,0:00:37.46,*Default,NTP,0000,0000,0000,,“网络的基本语言”。
+Dialogue: 0,0:00:37.46,0:00:40.95,*Default,NTP,0000,0000,0000,,所以我们在这里有一些链接，我们有图片，
+Dialogue: 0,0:00:40.95,0:00:43.22,*Default,NTP,0000,0000,0000,,我们有一些粗体字。
+Dialogue: 0,0:00:43.22,0:00:47.97,*Default,NTP,0000,0000,0000,,我们有，在这里，你看，我们有一些斜体文本。
+Dialogue: 0,0:00:47.97,0:00:49.51,*Default,NTP,0000,0000,0000,,我们有清单。
+Dialogue: 0,0:00:51.51,0:00:54.86,*Default,NTP,0000,0000,0000,,是的，所以有很多东西
+Dialogue: 0,0:00:54.86,0:00:58.58,*Default,NTP,0000,0000,0000,,我们将在本节中学习，到最后，
+Dialogue: 0,0:00:58.58,0:01:01.82,*Default,NTP,0000,0000,0000,,您将学习 HTML 的基础知识
+Dialogue: 0,0:01:01.82,0:01:03.97,*Default,NTP,0000,0000,0000,,我们将结束这个项目。
+Dialogue: 0,0:01:05.28,0:01:09.40,*Default,NTP,0000,0000,0000,,好的，但无论如何，让我们现在终于开始工作了。
+Dialogue: 0,0:01:09.40,0:01:12.19,*Default,NTP,0000,0000,0000,,我们需要再次做的第一件事是
+Dialogue: 0,0:01:12.19,0:01:14.55,*Default,NTP,0000,0000,0000,,创建我们的项目文件夹。
+Dialogue: 0,0:01:14.55,0:01:18.71,*Default,NTP,0000,0000,0000,,所以，让我们回到我们的桌面或您正在工作的地方
+Dialogue: 0,0:01:18.71,0:01:20.37,*Default,NTP,0000,0000,0000,,与您的文件。
+Dialogue: 0,0:01:20.37,0:01:23.14,*Default,NTP,0000,0000,0000,,我要做的是打开这个文件夹
+Dialogue: 0,0:01:23.14,0:01:25.75,*Default,NTP,0000,0000,0000,,我们刚刚在上一节下载的。
+Dialogue: 0,0:01:26.79,0:01:29.28,*Default,NTP,0000,0000,0000,,所以基本上，启动代码，
+Dialogue: 0,0:01:29.28,0:01:33.36,*Default,NTP,0000,0000,0000,,然后我将进入这个起始文件夹
+Dialogue: 0,0:01:33.36,0:01:37.77,*Default,NTP,0000,0000,0000,,并在此处获取启动文件的副本。
+Dialogue: 0,0:01:37.77,0:01:42.77,*Default,NTP,0000,0000,0000,,所以我会复制这个文件夹并放在我的桌面上，
+Dialogue: 0,0:01:43.01,0:01:44.02,*Default,NTP,0000,0000,0000,,就在这儿。
+Dialogue: 0,0:01:45.88,0:01:47.39,*Default,NTP,0000,0000,0000,,现在，与其那样做，
+Dialogue: 0,0:01:47.39,0:01:51.44,*Default,NTP,0000,0000,0000,,您也可以直接在此处使用此文件夹
+Dialogue: 0,0:01:51.44,0:01:53.42,*Default,NTP,0000,0000,0000,,作为您的项目文件夹，
+Dialogue: 0,0:01:53.42,0:01:56.09,*Default,NTP,0000,0000,0000,,但这可能会导致一些混乱。
+Dialogue: 0,0:01:56.09,0:01:59.95,*Default,NTP,0000,0000,0000,,所以，我总是喜欢简单地把这个文件夹复制到这里
+Dialogue: 0,0:01:59.95,0:02:01.05,*Default,NTP,0000,0000,0000,,到别的地方。
+Dialogue: 0,0:02:02.76,0:02:05.19,*Default,NTP,0000,0000,0000,,好的，让我们回到 VS 代码。
+Dialogue: 0,0:02:06.56,0:02:08.14,*Default,NTP,0000,0000,0000,,我实际上可以关闭它。
+Dialogue: 0,0:02:08.14,0:02:10.78,*Default,NTP,0000,0000,0000,,然后让我们来这里的菜单，
+Dialogue: 0,0:02:10.78,0:02:13.84,*Default,NTP,0000,0000,0000,,然后文件，并打开一个新窗口。
+Dialogue: 0,0:02:16.81,0:02:19.21,*Default,NTP,0000,0000,0000,,好吧，然后就在这里，
+Dialogue: 0,0:02:19.21,0:02:21.86,*Default,NTP,0000,0000,0000,,我们可以选择打开文件夹
+Dialogue: 0,0:02:21.86,0:02:24.86,*Default,NTP,0000,0000,0000,,或者我们也可以在这里展开侧边栏
+Dialogue: 0,0:02:24.86,0:02:27.29,*Default,NTP,0000,0000,0000,,并单击此处的打开文件夹。
+Dialogue: 0,0:02:27.29,0:02:30.68,*Default,NTP,0000,0000,0000,,所以请记住，这将定义我们的项目文件夹。
+Dialogue: 0,0:02:32.32,0:02:35.68,*Default,NTP,0000,0000,0000,,所以我要去我的桌面然后选择这个文件夹
+Dialogue: 0,0:02:35.68,0:02:37.10,*Default,NTP,0000,0000,0000,,我刚刚在那里创建的。
+Dialogue: 0,0:02:38.10,0:02:41.40,*Default,NTP,0000,0000,0000,,如此开放，我们开始了。
+Dialogue: 0,0:02:42.76,0:02:45.30,*Default,NTP,0000,0000,0000,,所以，我们现在可以关闭这个
+Dialogue: 0,0:02:45.30,0:02:48.12,*Default,NTP,0000,0000,0000,,并将这个推到左侧。
+Dialogue: 0,0:02:50.47,0:02:52.65,*Default,NTP,0000,0000,0000,,这个面板我们不需要。
+Dialogue: 0,0:02:52.65,0:02:55.95,*Default,NTP,0000,0000,0000,,然后，在这里，在我们的项目文件夹中，
+Dialogue: 0,0:02:55.95,0:02:59.46,*Default,NTP,0000,0000,0000,,我们可以，就像之前创建一个新文件一样，
+Dialogue: 0,0:02:59.46,0:03:03.90,*Default,NTP,0000,0000,0000,,我们将再次将其称为 index.html。
+Dialogue: 0,0:03:03.90,0:03:08.66,*Default,NTP,0000,0000,0000,,所以它只是一个带有html文件扩展名的普通文件
+Dialogue: 0,0:03:08.66,0:03:12.58,*Default,NTP,0000,0000,0000,,和索引的名称，它应该始终是主页
+Dialogue: 0,0:03:12.58,0:03:13.89,*Default,NTP,0000,0000,0000,,的任何网站。
+Dialogue: 0,0:03:15.82,0:03:18.68,*Default,NTP,0000,0000,0000,,好吧，所以，正如我之前提到的，
+Dialogue: 0,0:03:18.68,0:03:21.69,*Default,NTP,0000,0000,0000,,我们这里有一些图像作为我们的起始文件，
+Dialogue: 0,0:03:21.69,0:03:24.49,*Default,NTP,0000,0000,0000,,还有这个文本文件在这里。
+Dialogue: 0,0:03:24.49,0:03:27.88,*Default,NTP,0000,0000,0000,,所以让我们实际上也打开这个文件
+Dialogue: 0,0:03:27.88,0:03:29.61,*Default,NTP,0000,0000,0000,,现在，我将在此处单击此图标
+Dialogue: 0,0:03:29.61,0:03:33.38,*Default,NTP,0000,0000,0000,,折叠侧边栏以给我们更多空间。
+Dialogue: 0,0:03:35.08,0:03:38.95,*Default,NTP,0000,0000,0000,,好的，现在，记住，在第一部分中如何
+Dialogue: 0,0:03:38.95,0:03:43.95,*Default,NTP,0000,0000,0000,,我们使用这种作弊方法来创建我们的 HTML 结构。
+Dialogue: 0,0:03:43.96,0:03:48.03,*Default,NTP,0000,0000,0000,,所以我们写了感叹号，然后输入，
+Dialogue: 0,0:03:48.03,0:03:50.71,*Default,NTP,0000,0000,0000,,然后给了我们所有这些结构。
+Dialogue: 0,0:03:51.61,0:03:54.53,*Default,NTP,0000,0000,0000,,但是，要正确学习 HTML，
+Dialogue: 0,0:03:54.53,0:03:56.83,*Default,NTP,0000,0000,0000,,我们当然需要知道如何写作
+Dialogue: 0,0:03:56.83,0:03:59.23,*Default,NTP,0000,0000,0000,,所有这些结构都靠我们自己。
+Dialogue: 0,0:03:59.23,0:04:01.84,*Default,NTP,0000,0000,0000,,所以，这应该永远是第一件事
+Dialogue: 0,0:04:01.84,0:04:03.47,*Default,NTP,0000,0000,0000,,我们在 HTML 中学习的内容。
+Dialogue: 0,0:04:04.74,0:04:06.85,*Default,NTP,0000,0000,0000,,所以，我们从一个空页面开始，
+Dialogue: 0,0:04:06.85,0:04:10.48,*Default,NTP,0000,0000,0000,,然后我们需要做的第一件事就是声明一个
+Dialogue: 0,0:04:10.48,0:04:12.72,*Default,NTP,0000,0000,0000,,所谓的doc类型。
+Dialogue: 0,0:04:12.72,0:04:17.16,*Default,NTP,0000,0000,0000,,所以只要写小于号，感叹号，
+Dialogue: 0,0:04:17.16,0:04:19.91,*Default,NTP,0000,0000,0000,,然后是文档类型。
+Dialogue: 0,0:04:19.91,0:04:23.53,*Default,NTP,0000,0000,0000,,并看到一个 VS 代码实际上是在尝试自动
+Dialogue: 0,0:04:23.53,0:04:25.40,*Default,NTP,0000,0000,0000,,在这里为我们完成这个，
+Dialogue: 0,0:04:25.40,0:04:28.09,*Default,NTP,0000,0000,0000,,但是让我们手动编写
+Dialogue: 0,0:04:29.50,0:04:34.50,*Default,NTP,0000,0000,0000,,所以这段代码基本上会留在你的记忆中，好吧。
+Dialogue: 0,0:04:34.74,0:04:39.52,*Default,NTP,0000,0000,0000,,所以我们要写一个感叹号，doc type HTML in
+Dialogue: 0,0:04:39.52,0:04:43.60,*Default,NTP,0000,0000,0000,,为了基本告诉浏览器这个文档使用
+Dialogue: 0,0:04:43.60,0:04:48.60,*Default,NTP,0000,0000,0000,,HTML。接下来，我们需要创建一个 HTML 元素。
+Dialogue: 0,0:04:48.86,0:04:52.86,*Default,NTP,0000,0000,0000,,所以请记住从上一课中创建一个元素
+Dialogue: 0,0:04:52.86,0:04:55.75,*Default,NTP,0000,0000,0000,,再次，我们使用小于符号，
+Dialogue: 0,0:04:55.75,0:05:00.49,*Default,NTP,0000,0000,0000,,然后是元素的名称，在这种情况下是 HTML，
+Dialogue: 0,0:05:00.49,0:05:02.52,*Default,NTP,0000,0000,0000,,然后我们关闭它。
+Dialogue: 0,0:05:02.52,0:05:04.00,*Default,NTP,0000,0000,0000,,再一次，
+Dialogue: 0,0:05:04.00,0:05:08.30,*Default,NTP,0000,0000,0000,,VS 代码现在会自动为我们关闭该元素。
+Dialogue: 0,0:05:08.30,0:05:11.66,*Default,NTP,0000,0000,0000,,所以它创建了一个公开标签。
+Dialogue: 0,0:05:11.66,0:05:13.45,*Default,NTP,0000,0000,0000,,现在，如果你不想这样，
+Dialogue: 0,0:05:13.45,0:05:16.62,*Default,NTP,0000,0000,0000,,您实际上可以关闭该功能并
+Dialogue: 0,0:05:16.62,0:05:18.82,*Default,NTP,0000,0000,0000,,让我来告诉你怎么做。
+Dialogue: 0,0:05:18.82,0:05:21.46,*Default,NTP,0000,0000,0000,,所以再一次，你来这里设置
+Dialogue: 0,0:05:21.46,0:05:23.74,*Default,NTP,0000,0000,0000,,然后调用此设置的名称
+Dialogue: 0,0:05:25.36,0:05:27.52,*Default,NTP,0000,0000,0000,,自动关闭标签。
+Dialogue: 0,0:05:28.49,0:05:31.46,*Default,NTP,0000,0000,0000,,实际上我现在将其关闭
+Dialogue: 0,0:05:31.46,0:05:34.69,*Default,NTP,0000,0000,0000,,这样你就可以真正手动编写这段代码了
+Dialogue: 0,0:05:34.69,0:05:37.85,*Default,NTP,0000,0000,0000,,而不是让 VS 代码帮助你。
+Dialogue: 0,0:05:39.01,0:05:41.97,*Default,NTP,0000,0000,0000,,所以我们稍后会重新启用它，但现在，
+Dialogue: 0,0:05:41.97,0:05:44.83,*Default,NTP,0000,0000,0000,,我真的希望你学习如何编写这些元素
+Dialogue: 0,0:05:44.83,0:05:47.68,*Default,NTP,0000,0000,0000,,手动，现在没有任何帮助。
+Dialogue: 0,0:05:47.68,0:05:51.16,*Default,NTP,0000,0000,0000,,好的，所以我们有开始和结束标签
+Dialogue: 0,0:05:51.16,0:05:55.30,*Default,NTP,0000,0000,0000,,的 HTML 元素。现在就内容而言，
+Dialogue: 0,0:05:55.30,0:05:58.76,*Default,NTP,0000,0000,0000,,我们实际上将在其中放入另一个元素。
+Dialogue: 0,0:05:58.76,0:06:02.23,*Default,NTP,0000,0000,0000,,所以让我们在这里给自己一些空间。
+Dialogue: 0,0:06:02.23,0:06:07.23,*Default,NTP,0000,0000,0000,,然后在 HTML 内部，我们首先需要一个 head 元素。
+Dialogue: 0,0:06:08.92,0:06:12.33,*Default,NTP,0000,0000,0000,,所以让我们写它，打开和
+Dialogue: 0,0:06:12.33,0:06:14.75,*Default,NTP,0000,0000,0000,,然后我会立即关闭它，
+Dialogue: 0,0:06:14.75,0:06:17.46,*Default,NTP,0000,0000,0000,,因为现在我们不会在里面放任何内容。
+Dialogue: 0,0:06:19.55,0:06:20.56,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:20.56,0:06:23.42,*Default,NTP,0000,0000,0000,,所以是头部，然后是身体。
+Dialogue: 0,0:06:23.42,0:06:25.01,*Default,NTP,0000,0000,0000,,我将在一秒钟内解释，
+Dialogue: 0,0:06:25.01,0:06:27.09,*Default,NTP,0000,0000,0000,,这些实际上是什么。
+Dialogue: 0,0:06:29.90,0:06:34.37,*Default,NTP,0000,0000,0000,,所以每一个 HTML 文档总是需要开始
+Dialogue: 0,0:06:34.37,0:06:37.96,*Default,NTP,0000,0000,0000,,像这样的 HTML 元素。
+Dialogue: 0,0:06:37.96,0:06:41.31,*Default,NTP,0000,0000,0000,,然后在这个元素内部，正如我们刚才所说，
+Dialogue: 0,0:06:41.31,0:06:44.87,*Default,NTP,0000,0000,0000,,我们需要一个头部元素和一个身体元素。
+Dialogue: 0,0:06:45.76,0:06:49.04,*Default,NTP,0000,0000,0000,,现在head元素基本上是为了东西
+Dialogue: 0,0:06:49.04,0:06:52.38,*Default,NTP,0000,0000,0000,,在浏览器窗口中不可见。
+Dialogue: 0,0:06:52.38,0:06:55.63,*Default,NTP,0000,0000,0000,,所以这个头部将包含页面标题，
+Dialogue: 0,0:06:55.63,0:06:58.71,*Default,NTP,0000,0000,0000,,有关页面的一些附加信息，
+Dialogue: 0,0:06:58.71,0:07:02.49,*Default,NTP,0000,0000,0000,,链接到 CSS 文件或其他东西。
+Dialogue: 0,0:07:02.49,0:07:03.98,*Default,NTP,0000,0000,0000,,当我们完成课程时，
+Dialogue: 0,0:07:03.98,0:07:07.55,*Default,NTP,0000,0000,0000,,我们将用各种不同的元素填充这个头部。
+Dialogue: 0,0:07:07.55,0:07:11.66,*Default,NTP,0000,0000,0000,,但现在，我想做的只是指定标题。
+Dialogue: 0,0:07:13.53,0:07:15.72,*Default,NTP,0000,0000,0000,,因此，让我们为此使用 title 元素。
+Dialogue: 0,0:07:16.68,0:07:18.36,*Default,NTP,0000,0000,0000,,而这个页面，我想调用
+Dialogue: 0,0:07:18.36,0:07:23.03,*Default,NTP,0000,0000,0000,,“网络的基本语言”
+Dialogue: 0,0:07:25.38,0:07:26.76,*Default,NTP,0000,0000,0000,,HTML。
+Dialogue: 0,0:07:26.76,0:07:29.50,*Default,NTP,0000,0000,0000,,所以基本上这就是这里的标题
+Dialogue: 0,0:07:29.50,0:07:31.70,*Default,NTP,0000,0000,0000,,这篇博文也是如此。\N00:07:31,700--> 00:07:35,563\N好的。这时，我们需要这个元素的结束标签。\N\N137
+Dialogue: 0,0:07:37.87,0:07:39.32,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:41.03,0:07:44.92,*Default,NTP,0000,0000,0000,,那么body实际上是所有元素的
+Dialogue: 0,0:07:44.92,0:07:47.63,*Default,NTP,0000,0000,0000,,这将在页面上可见。
+Dialogue: 0,0:07:47.63,0:07:51.21,*Default,NTP,0000,0000,0000,,所以我们在浏览器中看到的所有元素
+Dialogue: 0,0:07:51.21,0:07:55.18,*Default,NTP,0000,0000,0000,,将始终在 body 元素内部。
+Dialogue: 0,0:07:55.18,0:07:58.97,*Default,NTP,0000,0000,0000,,只是为了展示给你，而不是让它空着，
+Dialogue: 0,0:07:58.97,0:08:01.40,*Default,NTP,0000,0000,0000,,让我在这里放一些代码。
+Dialogue: 0,0:08:01.40,0:08:04.62,*Default,NTP,0000,0000,0000,,所以我将再次使用标题一元素。
+Dialogue: 0,0:08:04.62,0:08:08.71,*Default,NTP,0000,0000,0000,,所以我们在第一次编码讲座中使用的H1，
+Dialogue: 0,0:08:09.72,0:08:12.77,*Default,NTP,0000,0000,0000,,让我从这里抓取这段文字。
+Dialogue: 0,0:08:15.00,0:08:18.34,*Default,NTP,0000,0000,0000,,这就是内容，然后，
+Dialogue: 0,0:08:18.34,0:08:21.42,*Default,NTP,0000,0000,0000,,关闭它，好的。
+Dialogue: 0,0:08:21.42,0:08:25.58,*Default,NTP,0000,0000,0000,,现在，我们还没有保存这个文件，但正如我们所做的那样
+Dialogue: 0,0:08:25.58,0:08:29.07,*Default,NTP,0000,0000,0000,,prettier 将再次为我们格式化此文件。
+Dialogue: 0,0:08:29.07,0:08:32.69,*Default,NTP,0000,0000,0000,,所以让我们保存一下，你会发现现在我们有了
+Dialogue: 0,0:08:32.69,0:08:34.53,*Default,NTP,0000,0000,0000,,正确的缩进。
+Dialogue: 0,0:08:34.53,0:08:37.66,*Default,NTP,0000,0000,0000,,通过缩进，我的意思是
+Dialogue: 0,0:08:37.66,0:08:40.01,*Default,NTP,0000,0000,0000,,因为这个头部元素，例如，
+Dialogue: 0,0:08:40.01,0:08:42.22,*Default,NTP,0000,0000,0000,,在 HTML 中，
+Dialogue: 0,0:08:42.22,0:08:45.16,*Default,NTP,0000,0000,0000,,它应该有一些空间来做到这一点
+Dialogue: 0,0:08:45.16,0:08:47.11,*Default,NTP,0000,0000,0000,,视觉上很明显。
+Dialogue: 0,0:08:47.11,0:08:50.40,*Default,NTP,0000,0000,0000,,好的，所以基本上这只是一个标签。
+Dialogue: 0,0:08:50.40,0:08:52.05,*Default,NTP,0000,0000,0000,,因此，如果我按 Tab 键，
+Dialogue: 0,0:08:52.05,0:08:55.40,*Default,NTP,0000,0000,0000,,然后它将添加另一个级别的缩进。
+Dialogue: 0,0:08:55.40,0:08:58.45,*Default,NTP,0000,0000,0000,,所以现在它和标题处于同一水平，
+Dialogue: 0,0:08:58.45,0:09:00.97,*Default,NTP,0000,0000,0000,,这没有意义，因为标题
+Dialogue: 0,0:09:00.97,0:09:04.96,*Default,NTP,0000,0000,0000,,也是在脑袋里面吧？
+Dialogue: 0,0:09:04.96,0:09:09.44,*Default,NTP,0000,0000,0000,,所以我们在 HTML 里面有 head，然后在
+Dialogue: 0,0:09:09.44,0:09:11.72,*Default,NTP,0000,0000,0000,,头，我们有标题元素。
+Dialogue: 0,0:09:11.72,0:09:15.27,*Default,NTP,0000,0000,0000,,因此它有另一个级别的缩进。
+Dialogue: 0,0:09:15.27,0:09:16.24,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:09:16.24,0:09:18.74,*Default,NTP,0000,0000,0000,,现在这只是出于审美原因
+Dialogue: 0,0:09:18.74,0:09:20.90,*Default,NTP,0000,0000,0000,,使我们的代码更具可读性。
+Dialogue: 0,0:09:20.90,0:09:24.40,*Default,NTP,0000,0000,0000,,所以浏览器真的不关心这个缩进，
+Dialogue: 0,0:09:24.40,0:09:25.96,*Default,NTP,0000,0000,0000,,但这对我们仍然很重要
+Dialogue: 0,0:09:25.96,0:09:27.70,*Default,NTP,0000,0000,0000,,能够阅读代码。
+Dialogue: 0,0:09:28.96,0:09:29.79,*Default,NTP,0000,0000,0000,,再说一次，
+Dialogue: 0,0:09:29.79,0:09:33.35,*Default,NTP,0000,0000,0000,,让我们拯救一下，我想我们现在已经准备好了
+Dialogue: 0,0:09:33.35,0:09:37.18,*Default,NTP,0000,0000,0000,,实际上继续并在浏览器中打开它。
+Dialogue: 0,0:09:38.73,0:09:42.80,*Default,NTP,0000,0000,0000,,所以让我们来到我们的项目文件夹，然后双击
+Dialogue: 0,0:09:42.80,0:09:47.80,*Default,NTP,0000,0000,0000,,index.HTML，很好，就在这里。
+Dialogue: 0,0:09:48.14,0:09:51.34,*Default,NTP,0000,0000,0000,,让我们先放在这里，关闭这个，
+Dialogue: 0,0:09:51.34,0:09:54.98,*Default,NTP,0000,0000,0000,,但我也会让这个演示保持打开状态
+Dialogue: 0,0:09:54.98,0:09:57.51,*Default,NTP,0000,0000,0000,,所以我们看到了我们最终想要实现的目标。
+Dialogue: 0,0:09:59.29,0:10:02.05,*Default,NTP,0000,0000,0000,,好的，这就是这里的关闭。
+Dialogue: 0,0:10:02.05,0:10:06.84,*Default,NTP,0000,0000,0000,,有了这个，我们学习了 HTML 的基本结构。
+Dialogue: 0,0:10:06.84,0:10:08.85,*Default,NTP,0000,0000,0000,,所以让我们快速回顾一下。
+Dialogue: 0,0:10:09.74,0:10:13.14,*Default,NTP,0000,0000,0000,,所以每个 HTML 文档总是需要以这些开头
+Dialogue: 0,0:10:13.14,0:10:14.79,*Default,NTP,0000,0000,0000,,所谓的doc类型。
+Dialogue: 0,0:10:14.79,0:10:17.58,*Default,NTP,0000,0000,0000,,所以这会让浏览器知道我们实际上是
+Dialogue: 0,0:10:17.58,0:10:22.46,*Default,NTP,0000,0000,0000,,在此文件中使用 HTML，然后所有浏览器都会知道
+Dialogue: 0,0:10:22.46,0:10:26.03,*Default,NTP,0000,0000,0000,,他们应该使用 HTML 5 规范来
+Dialogue: 0,0:10:26.03,0:10:27.97,*Default,NTP,0000,0000,0000,,呈现此 HTML。
+Dialogue: 0,0:10:27.97,0:10:30.38,*Default,NTP,0000,0000,0000,,然后我们有了 HTML 元素，
+Dialogue: 0,0:10:30.38,0:10:35.38,*Default,NTP,0000,0000,0000,,它始终是 head 和
+Dialogue: 0,0:10:35.45,0:10:36.86,*Default,NTP,0000,0000,0000,,身体元素。
+Dialogue: 0,0:10:36.86,0:10:39.76,*Default,NTP,0000,0000,0000,,所以这个结构真的总是一样的
+Dialogue: 0,0:10:39.76,0:10:41.52,*Default,NTP,0000,0000,0000,,在所有网页中。
+Dialogue: 0,0:10:41.52,0:10:45.33,*Default,NTP,0000,0000,0000,,我们总是需要一个带有头部的 HTML 元素
+Dialogue: 0,0:10:45.33,0:10:47.00,*Default,NTP,0000,0000,0000,,和一个身体。
+Dialogue: 0,0:10:47.00,0:10:51.08,*Default,NTP,0000,0000,0000,,现在，我们放入头部和身体的内容是可选的，
+Dialogue: 0,0:10:51.08,0:10:54.03,*Default,NTP,0000,0000,0000,,但是拥有这两个不是可选的。
+Dialogue: 0,0:10:54.03,0:10:56.41,*Default,NTP,0000,0000,0000,,所以我们总是需要头部和身体。
+Dialogue: 0,0:10:57.31,0:10:58.48,*Default,NTP,0000,0000,0000,,现在在这种情况下，
+Dialogue: 0,0:10:58.48,0:11:01.97,*Default,NTP,0000,0000,0000,,我们放在头部的只是一个标题元素，
+Dialogue: 0,0:11:01.97,0:11:04.78,*Default,NTP,0000,0000,0000,,但在这里我们可以放各种其他的东西
+Dialogue: 0,0:11:04.78,0:11:06.79,*Default,NTP,0000,0000,0000,,那些不可见的，
+Dialogue: 0,0:11:06.79,0:11:09.31,*Default,NTP,0000,0000,0000,,或未在此处呈现的
+Dialogue: 0,0:11:09.31,0:11:11.97,*Default,NTP,0000,0000,0000,,在浏览器的这个主要部分。
+Dialogue: 0,0:11:11.97,0:11:13.02,*Default,NTP,0000,0000,0000,,另一方面，
+Dialogue: 0,0:11:13.02,0:11:16.20,*Default,NTP,0000,0000,0000,,我们真正想要在这里呈现的内容
+Dialogue: 0,0:11:16.20,0:11:18.64,*Default,NTP,0000,0000,0000,,应该进入身体。
+Dialogue: 0,0:11:18.64,0:11:21.62,*Default,NTP,0000,0000,0000,,所以这就是为什么在这里有这个 H1 元素，
+Dialogue: 0,0:11:21.62,0:11:25.50,*Default,NTP,0000,0000,0000,,然后它似乎在页面上可见。
+Dialogue: 0,0:11:25.50,0:11:27.38,*Default,NTP,0000,0000,0000,,好的，就是这样，
+Dialogue: 0,0:11:27.38,0:11:31.32,*Default,NTP,0000,0000,0000,,这是每个 HTML 的基本 HTML 结构
+Dialogue: 0,0:11:31.32,0:11:33.96,*Default,NTP,0000,0000,0000,,您真正需要知道的文件。
+Dialogue: 0,0:11:33.96,0:11:34.90,*Default,NTP,0000,0000,0000,,有了这个，
+Dialogue: 0,0:11:34.90,0:11:38.39,*Default,NTP,0000,0000,0000,,让我们继续下一节课，我们将学习
+Dialogue: 0,0:11:38.39,0:11:42.10,*Default,NTP,0000,0000,0000,,几个用于处理文本的新元素。
+Dialogue: 0,0:11:42.10,0:11:43.90,*Default,NTP,0000,0000,0000,,所以我希望很快能在那里见到你。
+Dialogue: 0,0:00:01.44,0:00:02.92,*Default,NTP,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:00:02.92,0:00:07.04,*Default,NTP,0000,0000,0000,,So, the first thing that we need to learn about HTML is
+Dialogue: 0,0:00:07.04,0:00:10.11,*Default,NTP,0000,0000,0000,,the common HTML document structure.
+Dialogue: 0,0:00:10.11,0:00:12.09,*Default,NTP,0000,0000,0000,,So, a structure that each and
+Dialogue: 0,0:00:12.09,0:00:15.43,*Default,NTP,0000,0000,0000,,every HTML document needs to have.
+Dialogue: 0,0:00:15.43,0:00:19.41,*Default,NTP,0000,0000,0000,,But let's start by taking a very quick look
+Dialogue: 0,0:00:19.41,0:00:21.86,*Default,NTP,0000,0000,0000,,at the project that we're going to build
+Dialogue: 0,0:00:21.86,0:00:23.83,*Default,NTP,0000,0000,0000,,throughout this section.
+Dialogue: 0,0:00:23.83,0:00:26.77,*Default,NTP,0000,0000,0000,,So, we are building The Code Magazine.
+Dialogue: 0,0:00:26.77,0:00:30.12,*Default,NTP,0000,0000,0000,,So, as you can see here, and in this Code Magazine,
+Dialogue: 0,0:00:30.12,0:00:34.83,*Default,NTP,0000,0000,0000,,we are building this very simple kind of blog post called
+Dialogue: 0,0:00:34.83,0:00:37.46,*Default,NTP,0000,0000,0000,,"The Basic Language of the Web."
+Dialogue: 0,0:00:37.46,0:00:40.95,*Default,NTP,0000,0000,0000,,So we have some links here, we have images,
+Dialogue: 0,0:00:40.95,0:00:43.22,*Default,NTP,0000,0000,0000,,We have some bold texts.
+Dialogue: 0,0:00:43.22,0:00:47.97,*Default,NTP,0000,0000,0000,,We have, here, you see, we have some italic text.
+Dialogue: 0,0:00:47.97,0:00:49.51,*Default,NTP,0000,0000,0000,,We have lists.
+Dialogue: 0,0:00:51.51,0:00:54.86,*Default,NTP,0000,0000,0000,,And yeah, so there's a bunch of stuff
+Dialogue: 0,0:00:54.86,0:00:58.58,*Default,NTP,0000,0000,0000,,that we will learn in this section, so that by the end,
+Dialogue: 0,0:00:58.58,0:01:01.82,*Default,NTP,0000,0000,0000,,you will have learned the fundamentals of HTML
+Dialogue: 0,0:01:01.82,0:01:03.97,*Default,NTP,0000,0000,0000,,and we'll end up with this project.
+Dialogue: 0,0:01:05.28,0:01:09.40,*Default,NTP,0000,0000,0000,,Okay, but anyway, let's now finally get to work.
+Dialogue: 0,0:01:09.40,0:01:12.19,*Default,NTP,0000,0000,0000,,And the first thing that we need to do again is
+Dialogue: 0,0:01:12.19,0:01:14.55,*Default,NTP,0000,0000,0000,,to create our project folder.
+Dialogue: 0,0:01:14.55,0:01:18.71,*Default,NTP,0000,0000,0000,,So, let's go back to our desktop or to where you are working
+Dialogue: 0,0:01:18.71,0:01:20.37,*Default,NTP,0000,0000,0000,,with your files.
+Dialogue: 0,0:01:20.37,0:01:23.14,*Default,NTP,0000,0000,0000,,And what I'm going to do is to open up this folder
+Dialogue: 0,0:01:23.14,0:01:25.75,*Default,NTP,0000,0000,0000,,that we just downloaded in the last section.
+Dialogue: 0,0:01:26.79,0:01:29.28,*Default,NTP,0000,0000,0000,,So basically, the starter code,
+Dialogue: 0,0:01:29.28,0:01:33.36,*Default,NTP,0000,0000,0000,,and then I'm going to reach into this starter folder
+Dialogue: 0,0:01:33.36,0:01:37.77,*Default,NTP,0000,0000,0000,,and grab a copy of the starter files here.
+Dialogue: 0,0:01:37.77,0:01:42.77,*Default,NTP,0000,0000,0000,,So I will copy this folder and put it on my desktop,
+Dialogue: 0,0:01:43.01,0:01:44.02,*Default,NTP,0000,0000,0000,,right here.
+Dialogue: 0,0:01:45.88,0:01:47.39,*Default,NTP,0000,0000,0000,,Now, instead of doing that,
+Dialogue: 0,0:01:47.39,0:01:51.44,*Default,NTP,0000,0000,0000,,you could also simply go ahead and use this folder here
+Dialogue: 0,0:01:51.44,0:01:53.42,*Default,NTP,0000,0000,0000,,as your project folder,
+Dialogue: 0,0:01:53.42,0:01:56.09,*Default,NTP,0000,0000,0000,,but that might lead to some confusions.
+Dialogue: 0,0:01:56.09,0:01:59.95,*Default,NTP,0000,0000,0000,,So, I always prefer to simply copy this folder here
+Dialogue: 0,0:01:59.95,0:02:01.05,*Default,NTP,0000,0000,0000,,to somewhere else.
+Dialogue: 0,0:02:02.76,0:02:05.19,*Default,NTP,0000,0000,0000,,Okay, let's go back to VS code.
+Dialogue: 0,0:02:06.56,0:02:08.14,*Default,NTP,0000,0000,0000,,I can actually close this.
+Dialogue: 0,0:02:08.14,0:02:10.78,*Default,NTP,0000,0000,0000,,And then let's come here to the menu,
+Dialogue: 0,0:02:10.78,0:02:13.84,*Default,NTP,0000,0000,0000,,and then file, and open a new window.
+Dialogue: 0,0:02:16.81,0:02:19.21,*Default,NTP,0000,0000,0000,,All right, and then right here,
+Dialogue: 0,0:02:19.21,0:02:21.86,*Default,NTP,0000,0000,0000,,we can select open folder
+Dialogue: 0,0:02:21.86,0:02:24.86,*Default,NTP,0000,0000,0000,,or we can also expand the sidebar here
+Dialogue: 0,0:02:24.86,0:02:27.29,*Default,NTP,0000,0000,0000,,and click on open folder right here.
+Dialogue: 0,0:02:27.29,0:02:30.68,*Default,NTP,0000,0000,0000,,So remember that this will define our project folder.
+Dialogue: 0,0:02:32.32,0:02:35.68,*Default,NTP,0000,0000,0000,,So I'm going to my desktop and then select this folder
+Dialogue: 0,0:02:35.68,0:02:37.10,*Default,NTP,0000,0000,0000,,that I just created there.
+Dialogue: 0,0:02:38.10,0:02:41.40,*Default,NTP,0000,0000,0000,,So open, and there we go.
+Dialogue: 0,0:02:42.76,0:02:45.30,*Default,NTP,0000,0000,0000,,So, we can close this one now
+Dialogue: 0,0:02:45.30,0:02:48.12,*Default,NTP,0000,0000,0000,,and push this one to the left side.
+Dialogue: 0,0:02:50.47,0:02:52.65,*Default,NTP,0000,0000,0000,,This panel we don't need.
+Dialogue: 0,0:02:52.65,0:02:55.95,*Default,NTP,0000,0000,0000,,And then, here, inside of our project folder,
+Dialogue: 0,0:02:55.95,0:02:59.46,*Default,NTP,0000,0000,0000,,we can, just like before create a new file,
+Dialogue: 0,0:02:59.46,0:03:03.90,*Default,NTP,0000,0000,0000,,and we will once again, call it index.html.
+Dialogue: 0,0:03:03.90,0:03:08.66,*Default,NTP,0000,0000,0000,,So it's just a regular file with the html file extension
+Dialogue: 0,0:03:08.66,0:03:12.58,*Default,NTP,0000,0000,0000,,and the name of index, which should always be the main page
+Dialogue: 0,0:03:12.58,0:03:13.89,*Default,NTP,0000,0000,0000,,of any website.
+Dialogue: 0,0:03:15.82,0:03:18.68,*Default,NTP,0000,0000,0000,,All right, so, as I mentioned before,
+Dialogue: 0,0:03:18.68,0:03:21.69,*Default,NTP,0000,0000,0000,,we have some images here as our starter files,
+Dialogue: 0,0:03:21.69,0:03:24.49,*Default,NTP,0000,0000,0000,,and also this text file here.
+Dialogue: 0,0:03:24.49,0:03:27.88,*Default,NTP,0000,0000,0000,,So let's actually also open up this file
+Dialogue: 0,0:03:27.88,0:03:29.61,*Default,NTP,0000,0000,0000,,and now, I will click this icon here
+Dialogue: 0,0:03:29.61,0:03:33.38,*Default,NTP,0000,0000,0000,,to collapse the sidebar to give us some more space.
+Dialogue: 0,0:03:35.08,0:03:38.95,*Default,NTP,0000,0000,0000,,Okay, now, remember, how in the first section
+Dialogue: 0,0:03:38.95,0:03:43.95,*Default,NTP,0000,0000,0000,,we use this kind of cheat to create our HTML structure.
+Dialogue: 0,0:03:43.96,0:03:48.03,*Default,NTP,0000,0000,0000,,So we wrote the exclamation mark, and then type,
+Dialogue: 0,0:03:48.03,0:03:50.71,*Default,NTP,0000,0000,0000,,and that then gave us all of this structure.
+Dialogue: 0,0:03:51.61,0:03:54.53,*Default,NTP,0000,0000,0000,,However, to properly learn HTML,
+Dialogue: 0,0:03:54.53,0:03:56.83,*Default,NTP,0000,0000,0000,,we, of course, need to know how to write
+Dialogue: 0,0:03:56.83,0:03:59.23,*Default,NTP,0000,0000,0000,,all of this structure on our own.
+Dialogue: 0,0:03:59.23,0:04:01.84,*Default,NTP,0000,0000,0000,,And so, that should always be the first thing
+Dialogue: 0,0:04:01.84,0:04:03.47,*Default,NTP,0000,0000,0000,,that we learn in HTML.
+Dialogue: 0,0:04:04.74,0:04:06.85,*Default,NTP,0000,0000,0000,,So, we start with an empty page,
+Dialogue: 0,0:04:06.85,0:04:10.48,*Default,NTP,0000,0000,0000,,and then the first thing that we need to do is to declare a
+Dialogue: 0,0:04:10.48,0:04:12.72,*Default,NTP,0000,0000,0000,,so-called doc type.
+Dialogue: 0,0:04:12.72,0:04:17.16,*Default,NTP,0000,0000,0000,,So just write the less than symbol, exclamation mark,
+Dialogue: 0,0:04:17.16,0:04:19.91,*Default,NTP,0000,0000,0000,,and then doc type.
+Dialogue: 0,0:04:19.91,0:04:23.53,*Default,NTP,0000,0000,0000,,And to see that a VS code is actually trying to auto
+Dialogue: 0,0:04:23.53,0:04:25.40,*Default,NTP,0000,0000,0000,,complete this here for us,
+Dialogue: 0,0:04:25.40,0:04:28.09,*Default,NTP,0000,0000,0000,,but let's just write it all by hand
+Dialogue: 0,0:04:29.50,0:04:34.50,*Default,NTP,0000,0000,0000,,so that this code basically sticks in your memory, okay.
+Dialogue: 0,0:04:34.74,0:04:39.52,*Default,NTP,0000,0000,0000,,So we have to write an exclamation mark, doc type HTML in
+Dialogue: 0,0:04:39.52,0:04:43.60,*Default,NTP,0000,0000,0000,,order to basically tell the browser that this document uses
+Dialogue: 0,0:04:43.60,0:04:48.60,*Default,NTP,0000,0000,0000,,HTML. Next up, we need to create a HTML element.
+Dialogue: 0,0:04:48.86,0:04:52.86,*Default,NTP,0000,0000,0000,,So remember from the last lecture that to create an element
+Dialogue: 0,0:04:52.86,0:04:55.75,*Default,NTP,0000,0000,0000,,again, we use the less than symbol,
+Dialogue: 0,0:04:55.75,0:05:00.49,*Default,NTP,0000,0000,0000,,then the name of the element, which in this case is HTML,
+Dialogue: 0,0:05:00.49,0:05:02.52,*Default,NTP,0000,0000,0000,,and then we close that.
+Dialogue: 0,0:05:02.52,0:05:04.00,*Default,NTP,0000,0000,0000,,And once again,
+Dialogue: 0,0:05:04.00,0:05:08.30,*Default,NTP,0000,0000,0000,,a VS code automatically now closes that element for us.
+Dialogue: 0,0:05:08.30,0:05:11.66,*Default,NTP,0000,0000,0000,,So it created a disclosing tag.
+Dialogue: 0,0:05:11.66,0:05:13.45,*Default,NTP,0000,0000,0000,,Now, in case you don't want that,
+Dialogue: 0,0:05:13.45,0:05:16.62,*Default,NTP,0000,0000,0000,,you can actually turn off that functionality and
+Dialogue: 0,0:05:16.62,0:05:18.82,*Default,NTP,0000,0000,0000,,let me show you how.
+Dialogue: 0,0:05:18.82,0:05:21.46,*Default,NTP,0000,0000,0000,,So again, you come here to the settings
+Dialogue: 0,0:05:21.46,0:05:23.74,*Default,NTP,0000,0000,0000,,and then the name of this setting is called
+Dialogue: 0,0:05:25.36,0:05:27.52,*Default,NTP,0000,0000,0000,,auto close tags.
+Dialogue: 0,0:05:28.49,0:05:31.46,*Default,NTP,0000,0000,0000,,And actually I will turn this off for now
+Dialogue: 0,0:05:31.46,0:05:34.69,*Default,NTP,0000,0000,0000,,so that you can really write this code by hand
+Dialogue: 0,0:05:34.69,0:05:37.85,*Default,NTP,0000,0000,0000,,instead of having VS code helping you.
+Dialogue: 0,0:05:39.01,0:05:41.97,*Default,NTP,0000,0000,0000,,So we will turn this back on a bit later, but for now,
+Dialogue: 0,0:05:41.97,0:05:44.83,*Default,NTP,0000,0000,0000,,I really want you to learn how to write these elements
+Dialogue: 0,0:05:44.83,0:05:47.68,*Default,NTP,0000,0000,0000,,by hand, without any help now.
+Dialogue: 0,0:05:47.68,0:05:51.16,*Default,NTP,0000,0000,0000,,Okay, So we have the opening and the closing tag
+Dialogue: 0,0:05:51.16,0:05:55.30,*Default,NTP,0000,0000,0000,,of the HTML element. And now as for the content,
+Dialogue: 0,0:05:55.30,0:05:58.76,*Default,NTP,0000,0000,0000,,we will actually put another element inside it.
+Dialogue: 0,0:05:58.76,0:06:02.23,*Default,NTP,0000,0000,0000,,So let's give ourselves some space here.
+Dialogue: 0,0:06:02.23,0:06:07.23,*Default,NTP,0000,0000,0000,,And then inside of the HTML, we want first a head element.
+Dialogue: 0,0:06:08.92,0:06:12.33,*Default,NTP,0000,0000,0000,,So let's write it, opening and
+Dialogue: 0,0:06:12.33,0:06:14.75,*Default,NTP,0000,0000,0000,,I will then immediately close it actually,
+Dialogue: 0,0:06:14.75,0:06:17.46,*Default,NTP,0000,0000,0000,,because for now we will not put any content in there.
+Dialogue: 0,0:06:19.55,0:06:20.56,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:20.56,0:06:23.42,*Default,NTP,0000,0000,0000,,So the head and then, the body.
+Dialogue: 0,0:06:23.42,0:06:25.01,*Default,NTP,0000,0000,0000,,And I will explain in a second,
+Dialogue: 0,0:06:25.01,0:06:27.09,*Default,NTP,0000,0000,0000,,what each of these actually is.
+Dialogue: 0,0:06:29.90,0:06:34.37,*Default,NTP,0000,0000,0000,,So each and every HTML document always needs to start
+Dialogue: 0,0:06:34.37,0:06:37.96,*Default,NTP,0000,0000,0000,,with the HTML element like this.
+Dialogue: 0,0:06:37.96,0:06:41.31,*Default,NTP,0000,0000,0000,,Then inside of this element, as we just put,
+Dialogue: 0,0:06:41.31,0:06:44.87,*Default,NTP,0000,0000,0000,,we need one head element and one body element.
+Dialogue: 0,0:06:45.76,0:06:49.04,*Default,NTP,0000,0000,0000,,Now the head element is basically for things
+Dialogue: 0,0:06:49.04,0:06:52.38,*Default,NTP,0000,0000,0000,,that are not visible in the browser window.
+Dialogue: 0,0:06:52.38,0:06:55.63,*Default,NTP,0000,0000,0000,,So this head will contain the page title,
+Dialogue: 0,0:06:55.63,0:06:58.71,*Default,NTP,0000,0000,0000,,some additional information about the page,
+Dialogue: 0,0:06:58.71,0:07:02.49,*Default,NTP,0000,0000,0000,,link to CSS files or other things.
+Dialogue: 0,0:07:02.49,0:07:03.98,*Default,NTP,0000,0000,0000,,And as we go through the course,
+Dialogue: 0,0:07:03.98,0:07:07.55,*Default,NTP,0000,0000,0000,,we will fill this head with all kinds of different elements.
+Dialogue: 0,0:07:07.55,0:07:11.66,*Default,NTP,0000,0000,0000,,But for now, all I want to do is to just specify the title.
+Dialogue: 0,0:07:13.53,0:07:15.72,*Default,NTP,0000,0000,0000,,So let's use the title element for that.
+Dialogue: 0,0:07:16.68,0:07:18.36,*Default,NTP,0000,0000,0000,,And this page, I want to call
+Dialogue: 0,0:07:18.36,0:07:23.03,*Default,NTP,0000,0000,0000,,'The Basic Language of the Web'
+Dialogue: 0,0:07:25.38,0:07:26.76,*Default,NTP,0000,0000,0000,,HTML.
+Dialogue: 0,0:07:26.76,0:07:29.50,*Default,NTP,0000,0000,0000,,So basically that's the title here of
+Dialogue: 0,0:07:29.50,0:07:31.70,*Default,NTP,0000,0000,0000,,this blog post as well.
+Dialogue: 0,0:07:31.70,0:07:35.56,*Default,NTP,0000,0000,0000,,Okay. At then, we need a closing tag of this element.
+Dialogue: 0,0:07:37.87,0:07:39.32,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:41.03,0:07:44.92,*Default,NTP,0000,0000,0000,,Then the body is actually for all the elements
+Dialogue: 0,0:07:44.92,0:07:47.63,*Default,NTP,0000,0000,0000,,that will be visible on the page.
+Dialogue: 0,0:07:47.63,0:07:51.21,*Default,NTP,0000,0000,0000,,So all the elements that we see here in the browser
+Dialogue: 0,0:07:51.21,0:07:55.18,*Default,NTP,0000,0000,0000,,will always be inside of the body element.
+Dialogue: 0,0:07:55.18,0:07:58.97,*Default,NTP,0000,0000,0000,,And just to show it to you, instead of leaving it empty,
+Dialogue: 0,0:07:58.97,0:08:01.40,*Default,NTP,0000,0000,0000,,let me put some code here.
+Dialogue: 0,0:08:01.40,0:08:04.62,*Default,NTP,0000,0000,0000,,So I will again use the heading one element.
+Dialogue: 0,0:08:04.62,0:08:08.71,*Default,NTP,0000,0000,0000,,So H1 that we used in the very first coding lecture,
+Dialogue: 0,0:08:09.72,0:08:12.77,*Default,NTP,0000,0000,0000,,and let me just grab this text from here.
+Dialogue: 0,0:08:15.00,0:08:18.34,*Default,NTP,0000,0000,0000,,So that's the content that then again,
+Dialogue: 0,0:08:18.34,0:08:21.42,*Default,NTP,0000,0000,0000,,closing it, all right.
+Dialogue: 0,0:08:21.42,0:08:25.58,*Default,NTP,0000,0000,0000,,Now, we haven't saved this file yet, but as we do
+Dialogue: 0,0:08:25.58,0:08:29.07,*Default,NTP,0000,0000,0000,,prettier will again format this file for us.
+Dialogue: 0,0:08:29.07,0:08:32.69,*Default,NTP,0000,0000,0000,,So let's give it a save and you see that now we have the
+Dialogue: 0,0:08:32.69,0:08:34.53,*Default,NTP,0000,0000,0000,,correct indentation.
+Dialogue: 0,0:08:34.53,0:08:37.66,*Default,NTP,0000,0000,0000,,And by indentation, what I mean is that
+Dialogue: 0,0:08:37.66,0:08:40.01,*Default,NTP,0000,0000,0000,,since this head element, for example,
+Dialogue: 0,0:08:40.01,0:08:42.22,*Default,NTP,0000,0000,0000,,is inside the HTML,
+Dialogue: 0,0:08:42.22,0:08:45.16,*Default,NTP,0000,0000,0000,,it should have some space here to make that
+Dialogue: 0,0:08:45.16,0:08:47.11,*Default,NTP,0000,0000,0000,,visually obvious.
+Dialogue: 0,0:08:47.11,0:08:50.40,*Default,NTP,0000,0000,0000,,Okay, so basically this is just a tab here.
+Dialogue: 0,0:08:50.40,0:08:52.05,*Default,NTP,0000,0000,0000,,So if I hit the tab key,
+Dialogue: 0,0:08:52.05,0:08:55.40,*Default,NTP,0000,0000,0000,,then it will add another level of indentation.
+Dialogue: 0,0:08:55.40,0:08:58.45,*Default,NTP,0000,0000,0000,,And so now it's at the same level as the title,
+Dialogue: 0,0:08:58.45,0:09:00.97,*Default,NTP,0000,0000,0000,,which doesn't make sense because the title
+Dialogue: 0,0:09:00.97,0:09:04.96,*Default,NTP,0000,0000,0000,,is also inside of the head, right?
+Dialogue: 0,0:09:04.96,0:09:09.44,*Default,NTP,0000,0000,0000,,So we have the head inside of HTML and then inside of the
+Dialogue: 0,0:09:09.44,0:09:11.72,*Default,NTP,0000,0000,0000,,head, we have the title element.
+Dialogue: 0,0:09:11.72,0:09:15.27,*Default,NTP,0000,0000,0000,,And so therefore it has another level of indentation.
+Dialogue: 0,0:09:15.27,0:09:16.24,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:16.24,0:09:18.74,*Default,NTP,0000,0000,0000,,Now this is just for aesthetic reasons to
+Dialogue: 0,0:09:18.74,0:09:20.90,*Default,NTP,0000,0000,0000,,make our code more readable.
+Dialogue: 0,0:09:20.90,0:09:24.40,*Default,NTP,0000,0000,0000,,So the browser really doesn't care about this indentation,
+Dialogue: 0,0:09:24.40,0:09:25.96,*Default,NTP,0000,0000,0000,,but it is still important for us
+Dialogue: 0,0:09:25.96,0:09:27.70,*Default,NTP,0000,0000,0000,,to be able to read the code.
+Dialogue: 0,0:09:28.96,0:09:29.79,*Default,NTP,0000,0000,0000,,So again,
+Dialogue: 0,0:09:29.79,0:09:33.35,*Default,NTP,0000,0000,0000,,let's give it a save and I think we are ready now to
+Dialogue: 0,0:09:33.35,0:09:37.18,*Default,NTP,0000,0000,0000,,actually go ahead and open this in the browser.
+Dialogue: 0,0:09:38.73,0:09:42.80,*Default,NTP,0000,0000,0000,,So let's come to our project folder and then double click
+Dialogue: 0,0:09:42.80,0:09:47.80,*Default,NTP,0000,0000,0000,,index.HTML, and nice, here it is.
+Dialogue: 0,0:09:48.14,0:09:51.34,*Default,NTP,0000,0000,0000,,Let's put it here first, close up this one,
+Dialogue: 0,0:09:51.34,0:09:54.98,*Default,NTP,0000,0000,0000,,but I will also leave this demo open just
+Dialogue: 0,0:09:54.98,0:09:57.51,*Default,NTP,0000,0000,0000,,so we see what we want to achieve in the end.
+Dialogue: 0,0:09:59.29,0:10:02.05,*Default,NTP,0000,0000,0000,,Okay, that's close up this one here.
+Dialogue: 0,0:10:02.05,0:10:06.84,*Default,NTP,0000,0000,0000,,And with this, we learned the basic structure of HTML.
+Dialogue: 0,0:10:06.84,0:10:08.85,*Default,NTP,0000,0000,0000,,So let's just quickly review.
+Dialogue: 0,0:10:09.74,0:10:13.14,*Default,NTP,0000,0000,0000,,So every HTML document always needs to start with these
+Dialogue: 0,0:10:13.14,0:10:14.79,*Default,NTP,0000,0000,0000,,so-called doc type.
+Dialogue: 0,0:10:14.79,0:10:17.58,*Default,NTP,0000,0000,0000,,And so this will let the browser know that we are actually
+Dialogue: 0,0:10:17.58,0:10:22.46,*Default,NTP,0000,0000,0000,,using HTML in this file and all browsers will then know
+Dialogue: 0,0:10:22.46,0:10:26.03,*Default,NTP,0000,0000,0000,,that they should use the HTML five specification to
+Dialogue: 0,0:10:26.03,0:10:27.97,*Default,NTP,0000,0000,0000,,render this HTML.
+Dialogue: 0,0:10:27.97,0:10:30.38,*Default,NTP,0000,0000,0000,,Then we have the HTML element,
+Dialogue: 0,0:10:30.38,0:10:35.38,*Default,NTP,0000,0000,0000,,which is always the parent element of both the head and of
+Dialogue: 0,0:10:35.45,0:10:36.86,*Default,NTP,0000,0000,0000,,the body element.
+Dialogue: 0,0:10:36.86,0:10:39.76,*Default,NTP,0000,0000,0000,,So this structure is really always the same
+Dialogue: 0,0:10:39.76,0:10:41.52,*Default,NTP,0000,0000,0000,,in all web pages.
+Dialogue: 0,0:10:41.52,0:10:45.33,*Default,NTP,0000,0000,0000,,We always need to have an HTML element with a head
+Dialogue: 0,0:10:45.33,0:10:47.00,*Default,NTP,0000,0000,0000,,and with a body.
+Dialogue: 0,0:10:47.00,0:10:51.08,*Default,NTP,0000,0000,0000,,Now, what we put into the head and the body is optional,
+Dialogue: 0,0:10:51.08,0:10:54.03,*Default,NTP,0000,0000,0000,,but having these two is not optional.
+Dialogue: 0,0:10:54.03,0:10:56.41,*Default,NTP,0000,0000,0000,,So we always need head and body.
+Dialogue: 0,0:10:57.31,0:10:58.48,*Default,NTP,0000,0000,0000,,Now in this situation,
+Dialogue: 0,0:10:58.48,0:11:01.97,*Default,NTP,0000,0000,0000,,all we put in the head is just a title element,
+Dialogue: 0,0:11:01.97,0:11:04.78,*Default,NTP,0000,0000,0000,,but here we can put all kinds of other stuff
+Dialogue: 0,0:11:04.78,0:11:06.79,*Default,NTP,0000,0000,0000,,that are not visible,
+Dialogue: 0,0:11:06.79,0:11:09.31,*Default,NTP,0000,0000,0000,,or that are not rendered here
+Dialogue: 0,0:11:09.31,0:11:11.97,*Default,NTP,0000,0000,0000,,in this main part of the browser.
+Dialogue: 0,0:11:11.97,0:11:13.02,*Default,NTP,0000,0000,0000,,On the other hand,
+Dialogue: 0,0:11:13.02,0:11:16.20,*Default,NTP,0000,0000,0000,,the content that we actually want to be rendered here
+Dialogue: 0,0:11:16.20,0:11:18.64,*Default,NTP,0000,0000,0000,,should go into the body.
+Dialogue: 0,0:11:18.64,0:11:21.62,*Default,NTP,0000,0000,0000,,And so that's why having this H1 element here,
+Dialogue: 0,0:11:21.62,0:11:25.50,*Default,NTP,0000,0000,0000,,then it appears to be visible on the page.
+Dialogue: 0,0:11:25.50,0:11:27.38,*Default,NTP,0000,0000,0000,,Okay, and that's it,
+Dialogue: 0,0:11:27.38,0:11:31.32,*Default,NTP,0000,0000,0000,,that's the basic HTML structure for each and every HTML
+Dialogue: 0,0:11:31.32,0:11:33.96,*Default,NTP,0000,0000,0000,,document that you really need to know.
+Dialogue: 0,0:11:33.96,0:11:34.90,*Default,NTP,0000,0000,0000,,And with that,
+Dialogue: 0,0:11:34.90,0:11:38.39,*Default,NTP,0000,0000,0000,,let's move on to the next lecture where we will learn a
+Dialogue: 0,0:11:38.39,0:11:42.10,*Default,NTP,0000,0000,0000,,couple of new elements for working with text.
+Dialogue: 0,0:11:42.10,0:11:43.90,*Default,NTP,0000,0000,0000,,So I hope to see you there soon.

@@ -1,0 +1,716 @@
+[Script Info]
+Title: 020 CHALLENGE #2_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=18&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.28,0:00:04.69,*Default,NTP,0000,0000,0000,,是时候迎接另一个激动人心的编码挑战了
+Dialogue: 0,0:00:04.69,0:00:08.92,*Default,NTP,0000,0000,0000,,这样您就可以继续练习新的 HTML 技能。
+Dialogue: 0,0:00:10.40,0:00:14.07,*Default,NTP,0000,0000,0000,,在这个中，我希望你构建这个组件
+Dialogue: 0,0:00:14.07,0:00:17.11,*Default,NTP,0000,0000,0000,,对于这款匡威全明星鞋。
+Dialogue: 0,0:00:17.11,0:00:19.01,*Default,NTP,0000,0000,0000,,我在这里说组件
+Dialogue: 0,0:00:19.01,0:00:22.18,*Default,NTP,0000,0000,0000,,因为我想让你想象这里的内容
+Dialogue: 0,0:00:22.18,0:00:26.29,*Default,NTP,0000,0000,0000,,在电子商务商店之类的环境中。
+Dialogue: 0,0:00:26.29,0:00:29.24,*Default,NTP,0000,0000,0000,,所以想象一下我们有一家鞋店
+Dialogue: 0,0:00:29.24,0:00:32.09,*Default,NTP,0000,0000,0000,,并且有多双鞋，每一双，
+Dialogue: 0,0:00:32.09,0:00:35.37,*Default,NTP,0000,0000,0000,,然后有像这个小组件
+Dialogue: 0,0:00:35.37,0:00:36.98,*Default,NTP,0000,0000,0000,,有了这个描述。
+Dialogue: 0,0:00:36.98,0:00:38.94,*Default,NTP,0000,0000,0000,,所以像价格这样的东西，
+Dialogue: 0,0:00:38.94,0:00:41.36,*Default,NTP,0000,0000,0000,,一个简短的描述，一个链接
+Dialogue: 0,0:00:41.36,0:00:44.22,*Default,NTP,0000,0000,0000,,然后是这里的一些产品细节。
+Dialogue: 0,0:00:44.22,0:00:46.45,*Default,NTP,0000,0000,0000,,现在，我正在构建这个组件，
+Dialogue: 0,0:00:46.45,0:00:48.58,*Default,NTP,0000,0000,0000,,所以我正在写这个 HTML
+Dialogue: 0,0:00:48.58,0:00:52.17,*Default,NTP,0000,0000,0000,,在一个名为 codepen.io 的特殊编码平台上。
+Dialogue: 0,0:00:53.92,0:00:55.99,*Default,NTP,0000,0000,0000,,所以这是一个在线的地方
+Dialogue: 0,0:00:55.99,0:00:58.61,*Default,NTP,0000,0000,0000,,我们基本上可以在其中编写代码
+Dialogue: 0,0:00:58.61,0:01:01.32,*Default,NTP,0000,0000,0000,,然后它会自动执行代码
+Dialogue: 0,0:01:01.32,0:01:04.38,*Default,NTP,0000,0000,0000,,并渲染它，它也很容易
+Dialogue: 0,0:01:04.38,0:01:06.46,*Default,NTP,0000,0000,0000,,分享该代码。
+Dialogue: 0,0:01:06.46,0:01:09.52,*Default,NTP,0000,0000,0000,,现在，当然，您不需要使用 CodePen
+Dialogue: 0,0:01:09.52,0:01:11.69,*Default,NTP,0000,0000,0000,,为了完成这个挑战。
+Dialogue: 0,0:01:11.69,0:01:15.29,*Default,NTP,0000,0000,0000,,你可以去你的代码编辑器
+Dialogue: 0,0:01:15.29,0:01:19.10,*Default,NTP,0000,0000,0000,,例如，在此处添加一个全新的 HTML 文件
+Dialogue: 0,0:01:19.10,0:01:22.28,*Default,NTP,0000,0000,0000,,然后在那里构建所有代码。
+Dialogue: 0,0:01:22.28,0:01:25.06,*Default,NTP,0000,0000,0000,,我在视频中不这样做的原因
+Dialogue: 0,0:01:25.06,0:01:26.84,*Default,NTP,0000,0000,0000,,是因为我们实际上要建造
+Dialogue: 0,0:01:26.84,0:01:28.87,*Default,NTP,0000,0000,0000,,稍后在这个挑战上。
+Dialogue: 0,0:01:28.87,0:01:32.39,*Default,NTP,0000,0000,0000,,所以我们将继续开发这个非常小的项目
+Dialogue: 0,0:01:32.39,0:01:34.14,*Default,NTP,0000,0000,0000,,在接下来的几节中
+Dialogue: 0,0:01:34.14,0:01:35.97,*Default,NTP,0000,0000,0000,,然后会造成混乱
+Dialogue: 0,0:01:35.97,0:01:40.23,*Default,NTP,0000,0000,0000,,不同的文件和许多不同的代码。
+Dialogue: 0,0:01:40.23,0:01:42.89,*Default,NTP,0000,0000,0000,,但当然，因为你是自己做的，
+Dialogue: 0,0:01:42.89,0:01:44.32,*Default,NTP,0000,0000,0000,,在自己的电脑上，
+Dialogue: 0,0:01:44.32,0:01:45.68,*Default,NTP,0000,0000,0000,,对你来说更容易
+Dialogue: 0,0:01:45.68,0:01:47.47,*Default,NTP,0000,0000,0000,,所以你可以，就像我说的，
+Dialogue: 0,0:01:47.47,0:01:51.85,*Default,NTP,0000,0000,0000,,如果需要，创建一个新的 HTML 文件并在此处执行。
+Dialogue: 0,0:01:51.85,0:01:53.12,*Default,NTP,0000,0000,0000,,但另一方面，
+Dialogue: 0,0:01:53.12,0:01:55.42,*Default,NTP,0000,0000,0000,,我认为它也很有帮助和有用
+Dialogue: 0,0:01:55.42,0:01:59.08,*Default,NTP,0000,0000,0000,,让你了解一下codepen.io
+Dialogue: 0,0:01:59.08,0:02:01.49,*Default,NTP,0000,0000,0000,,并在那里创造挑战。
+Dialogue: 0,0:02:02.67,0:02:04.64,*Default,NTP,0000,0000,0000,,所以让我给你
+Dialogue: 0,0:02:04.64,0:02:06.97,*Default,NTP,0000,0000,0000,,CodePen 的快速演示。
+Dialogue: 0,0:02:08.18,0:02:10.87,*Default,NTP,0000,0000,0000,,所以我会说谷歌 CodePen
+Dialogue: 0,0:02:10.87,0:02:13.61,*Default,NTP,0000,0000,0000,,或者你可以去 codepen.io。
+Dialogue: 0,0:02:13.61,0:02:16.13,*Default,NTP,0000,0000,0000,,然后你所要做的就是点击这里
+Dialogue: 0,0:02:16.13,0:02:18.12,*Default,NTP,0000,0000,0000,,关于开始编码。
+Dialogue: 0,0:02:18.12,0:02:19.65,*Default,NTP,0000,0000,0000,,现在，也许在未来，
+Dialogue: 0,0:02:19.65,0:02:22.61,*Default,NTP,0000,0000,0000,,CodePen 发生了一些变化，
+Dialogue: 0,0:02:22.61,0:02:24.25,*Default,NTP,0000,0000,0000,,所以关于这个界面
+Dialogue: 0,0:02:24.25,0:02:27.15,*Default,NTP,0000,0000,0000,,但您将始终能够创建一个新的 CodePen
+Dialogue: 0,0:02:27.15,0:02:30.99,*Default,NTP,0000,0000,0000,,只需访问 codepen.io/pen。
+Dialogue: 0,0:02:30.99,0:02:32.08,*Default,NTP,0000,0000,0000,,所以就像这样。
+Dialogue: 0,0:02:33.34,0:02:35.83,*Default,NTP,0000,0000,0000,,所以这里我们基本上有一个面板
+Dialogue: 0,0:02:35.83,0:02:38.48,*Default,NTP,0000,0000,0000,,我们可以在其中编写 HTML、CSS
+Dialogue: 0,0:02:38.48,0:02:40.61,*Default,NTP,0000,0000,0000,,如果我们愿意，还有 JavaScript。
+Dialogue: 0,0:02:40.61,0:02:44.03,*Default,NTP,0000,0000,0000,,或者我们也可以折叠这些面板
+Dialogue: 0,0:02:44.03,0:02:45.69,*Default,NTP,0000,0000,0000,,如果我们不需要它们，
+Dialogue: 0,0:02:45.69,0:02:47.64,*Default,NTP,0000,0000,0000,,现在就是这种情况。
+Dialogue: 0,0:02:47.64,0:02:49.91,*Default,NTP,0000,0000,0000,,所以我们可以编写我们的 HTML。
+Dialogue: 0,0:02:49.91,0:02:52.47,*Default,NTP,0000,0000,0000,,让我们只写一个 h1 元素。\N00:02:54,85​​0 --> 00:02:56,803\N你好，世界，例如。\N\N65
+Dialogue: 0,0:02:58.75,0:02:59.82,*Default,NTP,0000,0000,0000,,你看我们有
+Dialogue: 0,0:02:59.82,0:03:03.57,*Default,NTP,0000,0000,0000,,再次手动关闭元素。
+Dialogue: 0,0:03:04.74,0:03:07.29,*Default,NTP,0000,0000,0000,,但不管怎样，你会看到一段时间后，
+Dialogue: 0,0:03:07.29,0:03:10.47,*Default,NTP,0000,0000,0000,,然后它将结果呈现在这里。
+Dialogue: 0,0:03:10.47,0:03:12.77,*Default,NTP,0000,0000,0000,,所以基本上在这个结果面板中。
+Dialogue: 0,0:03:13.66,0:03:16.83,*Default,NTP,0000,0000,0000,,您还可以更改 CodePen 的名称。
+Dialogue: 0,0:03:18.43,0:03:21.27,*Default,NTP,0000,0000,0000,,所以让我们说挑战＃2，
+Dialogue: 0,0:03:21.27,0:03:23.32,*Default,NTP,0000,0000,0000,,这是 thi 的名字的讲座。
+Dialogue: 0,0:03:24.81,0:03:28.14,*Default,NTP,0000,0000,0000,,好的，然后你也可以保存它。
+Dialogue: 0,0:03:28.14,0:03:31.70,*Default,NTP,0000,0000,0000,,现在，要保存它，您必须创建一个免费帐户
+Dialogue: 0,0:03:31.70,0:03:34.97,*Default,NTP,0000,0000,0000,,但我会说这样做实际上是值得的。
+Dialogue: 0,0:03:34.97,0:03:38.56,*Default,NTP,0000,0000,0000,,但当然，它是可选的，你不是被迫的
+Dialogue: 0,0:03:38.56,0:03:40.96,*Default,NTP,0000,0000,0000,,在此处创建一个新帐户
+Dialogue: 0,0:03:40.96,0:03:43.32,*Default,NTP,0000,0000,0000,,但如果你这样做，那实际上很有帮助
+Dialogue: 0,0:03:43.32,0:03:46.49,*Default,NTP,0000,0000,0000,,因为那样你会得到一个特殊的 URL
+Dialogue: 0,0:03:46.49,0:03:48.03,*Default,NTP,0000,0000,0000,,每个 CodePen
+Dialogue: 0,0:03:48.03,0:03:51.15,*Default,NTP,0000,0000,0000,,然后你就可以和其他人分享那个 CodePen。
+Dialogue: 0,0:03:51.15,0:03:54.75,*Default,NTP,0000,0000,0000,,所以如果你想创建一个简单的例子，
+Dialogue: 0,0:03:54.75,0:03:56.51,*Default,NTP,0000,0000,0000,,快速演示
+Dialogue: 0,0:03:56.51,0:03:58.05,*Default,NTP,0000,0000,0000,,向某人展示，
+Dialogue: 0,0:03:58.05,0:04:00.77,*Default,NTP,0000,0000,0000,,那么你就可以来 CodePen，
+Dialogue: 0,0:04:00.77,0:04:02.27,*Default,NTP,0000,0000,0000,,在这里创建它
+Dialogue: 0,0:04:02.27,0:04:05.36,*Default,NTP,0000,0000,0000,,然后从这里复制、粘贴 URL
+Dialogue: 0,0:04:05.36,0:04:07.19,*Default,NTP,0000,0000,0000,,一旦你保存了它
+Dialogue: 0,0:04:07.19,0:04:08.18,*Default,NTP,0000,0000,0000,,顺便说一下，
+Dialogue: 0,0:04:08.18,0:04:11.38,*Default,NTP,0000,0000,0000,,我刚才描述的其实也是最好的方法
+Dialogue: 0,0:04:11.38,0:04:14.99,*Default,NTP,0000,0000,0000,,在 Udemy 的问答部分共享代码
+Dialogue: 0,0:04:14.99,0:04:17.20,*Default,NTP,0000,0000,0000,,以防您遇到任何问题。
+Dialogue: 0,0:04:18.61,0:04:19.44,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:04:19.44,0:04:21.79,*Default,NTP,0000,0000,0000,,再说一次，这可能是个好主意
+Dialogue: 0,0:04:21.79,0:04:23.81,*Default,NTP,0000,0000,0000,,在此处创建帐户
+Dialogue: 0,0:04:23.81,0:04:24.97,*Default,NTP,0000,0000,0000,,因为它只是有用
+Dialogue: 0,0:04:24.97,0:04:27.68,*Default,NTP,0000,0000,0000,,很多很多程序员都使用 CodePen。
+Dialogue: 0,0:04:27.68,0:04:29.94,*Default,NTP,0000,0000,0000,,这是一个非常流行的工具。
+Dialogue: 0,0:04:29.94,0:04:32.73,*Default,NTP,0000,0000,0000,,但无论如何，现在回到挑战，
+Dialogue: 0,0:04:32.73,0:04:34.79,*Default,NTP,0000,0000,0000,,让我给你一些提示。
+Dialogue: 0,0:04:35.63,0:04:38.27,*Default,NTP,0000,0000,0000,,好的，这就是结果的样子
+Dialogue: 0,0:04:38.27,0:04:40.31,*Default,NTP,0000,0000,0000,,我想让你建造
+Dialogue: 0,0:04:40.31,0:04:42.22,*Default,NTP,0000,0000,0000,,但为了帮助你一点，
+Dialogue: 0,0:04:42.22,0:04:45.64,*Default,NTP,0000,0000,0000,,我实际上需要在这里更改一些代码。
+Dialogue: 0,0:04:45.64,0:04:47.27,*Default,NTP,0000,0000,0000,,所以在更改视图中，
+Dialogue: 0,0:04:47.27,0:04:50.99,*Default,NTP,0000,0000,0000,,我们现在可以切换到编辑器视图，
+Dialogue: 0,0:04:50.99,0:04:55.34,*Default,NTP,0000,0000,0000,,然后看起来就像我之前向您展示的一样。
+Dialogue: 0,0:04:57.19,0:05:00.02,*Default,NTP,0000,0000,0000,,好的，现在我们把编辑放在首位
+Dialogue: 0,0:05:00.02,0:05:01.65,*Default,NTP,0000,0000,0000,,然后结果下来。
+Dialogue: 0,0:05:02.93,0:05:06.03,*Default,NTP,0000,0000,0000,,所以有些事情我需要解释
+Dialogue: 0,0:05:06.03,0:05:08.06,*Default,NTP,0000,0000,0000,,在你开始之前。
+Dialogue: 0,0:05:08.06,0:05:10.56,*Default,NTP,0000,0000,0000,,所以首先，我想让你把所有的
+Dialogue: 0,0:05:10.56,0:05:14.18,*Default,NTP,0000,0000,0000,,文章元素内的此内容。
+Dialogue: 0,0:05:14.18,0:05:15.98,*Default,NTP,0000,0000,0000,,记住我提到的
+Dialogue: 0,0:05:15.98,0:05:18.76,*Default,NTP,0000,0000,0000,,文章元素不能只被使用
+Dialogue: 0,0:05:18.76,0:05:22.12,*Default,NTP,0000,0000,0000,,对于诸如书面博客文章之类的内容
+Dialogue: 0,0:05:22.12,0:05:26.06,*Default,NTP,0000,0000,0000,,但也适合真正的物理文章
+Dialogue: 0,0:05:26.06,0:05:30.12,*Default,NTP,0000,0000,0000,,所以像这样的鞋子就是一个很好的例子。
+Dialogue: 0,0:05:30.12,0:05:31.77,*Default,NTP,0000,0000,0000,,所以这是一篇文章
+Dialogue: 0,0:05:31.77,0:05:34.07,*Default,NTP,0000,0000,0000,,再一次，回到这个例子
+Dialogue: 0,0:05:34.07,0:05:37.69,*Default,NTP,0000,0000,0000,,拥有像一个电子商务商店，
+Dialogue: 0,0:05:37.69,0:05:40.58,*Default,NTP,0000,0000,0000,,那么每双鞋都是不同的文章
+Dialogue: 0,0:05:40.58,0:05:43.32,*Default,NTP,0000,0000,0000,,所以你会有一个文章元素
+Dialogue: 0,0:05:43.32,0:05:46.51,*Default,NTP,0000,0000,0000,,每双鞋，对吧？
+Dialogue: 0,0:05:47.81,0:05:51.80,*Default,NTP,0000,0000,0000,,然后在这里，有一个我们从未使用过的元素，
+Dialogue: 0,0:05:51.80,0:05:54.36,*Default,NTP,0000,0000,0000,,这是这个可点击的按钮。
+Dialogue: 0,0:05:54.36,0:05:55.76,*Default,NTP,0000,0000,0000,,所以在这里，
+Dialogue: 0,0:05:55.76,0:05:59.01,*Default,NTP,0000,0000,0000,,您会看到这只是按钮元素。
+Dialogue: 0,0:05:59.01,0:06:02.15,*Default,NTP,0000,0000,0000,,所以你可以继续使用它。
+Dialogue: 0,0:06:02.15,0:06:04.97,*Default,NTP,0000,0000,0000,,最后，还有别的东西，
+Dialogue: 0,0:06:04.97,0:06:08.46,*Default,NTP,0000,0000,0000,,这里是这个符号，所以这里是这个箭头。
+Dialogue: 0,0:06:08.46,0:06:12.52,*Default,NTP,0000,0000,0000,,现在，记得回到我们的项目中，
+Dialogue: 0,0:06:12.52,0:06:16.11,*Default,NTP,0000,0000,0000,,所以在这里，我在这里提到了这个符号，
+Dialogue: 0,0:06:16.11,0:06:20.15,*Default,NTP,0000,0000,0000,,这个版权符号是一个 HTML 实体，对吧？
+Dialogue: 0,0:06:20.15,0:06:23.28,*Default,NTP,0000,0000,0000,,记住这一点，所以这个箭头在这里
+Dialogue: 0,0:06:23.28,0:06:26.19,*Default,NTP,0000,0000,0000,,只是另一个 HTML 实体。
+Dialogue: 0,0:06:26.19,0:06:27.58,*Default,NTP,0000,0000,0000,,而且我当时也提过
+Dialogue: 0,0:06:27.58,0:06:29.63,*Default,NTP,0000,0000,0000,,有一个非常方便的清单
+Dialogue: 0,0:06:29.63,0:06:32.94,*Default,NTP,0000,0000,0000,,在我的资源页面上，就是这个。
+Dialogue: 0,0:06:33.87,0:06:35.93,*Default,NTP,0000,0000,0000,,现在，如果你以后看这个，
+Dialogue: 0,0:06:35.93,0:06:39.63,*Default,NTP,0000,0000,0000,,那么这个页面可能看起来很不一样
+Dialogue: 0,0:06:39.63,0:06:42.40,*Default,NTP,0000,0000,0000,,但现在，这就是我所拥有的
+Dialogue: 0,0:06:42.40,0:06:46.37,*Default,NTP,0000,0000,0000,,以及我的意思的 HTML 实体引用，
+Dialogue: 0,0:06:46.37,0:06:49.10,*Default,NTP,0000,0000,0000,,所以我前面提到的就是这个。
+Dialogue: 0,0:06:49.10,0:06:51.74,*Default,NTP,0000,0000,0000,,所以让我们实际打开它
+Dialogue: 0,0:06:51.74,0:06:56.74,*Default,NTP,0000,0000,0000,,然后有很多东西可以使用。
+Dialogue: 0,0:06:56.92,0:06:58.95,*Default,NTP,0000,0000,0000,,所以所有这些不同的符号
+Dialogue: 0,0:06:58.95,0:07:01.26,*Default,NTP,0000,0000,0000,,例如，这里是复制符号
+Dialogue: 0,0:07:01.26,0:07:03.54,*Default,NTP,0000,0000,0000,,我们之前在 VS Code 中使用过的。
+Dialogue: 0,0:07:04.66,0:07:06.11,*Default,NTP,0000,0000,0000,,现在，这是一个巨大的清单
+Dialogue: 0,0:07:06.11,0:07:08.65,*Default,NTP,0000,0000,0000,,我只是要使用一个命令
+Dialogue: 0,0:07:08.65,0:07:13.34,*Default,NTP,0000,0000,0000,,或 Control + F 在页面上搜索箭头
+Dialogue: 0,0:07:14.27,0:07:15.48,*Default,NTP,0000,0000,0000,,现在我们开始。
+Dialogue: 0,0:07:16.36,0:07:18.93,*Default,NTP,0000,0000,0000,,所以这里有所有这些不同的箭头
+Dialogue: 0,0:07:18.93,0:07:20.96,*Default,NTP,0000,0000,0000,,我用的是这个。
+Dialogue: 0,0:07:21.95,0:07:23.63,*Default,NTP,0000,0000,0000,,所以要插入这个箭头
+Dialogue: 0,0:07:23.63,0:07:25.79,*Default,NTP,0000,0000,0000,,到您自己的 HTML 代码中，
+Dialogue: 0,0:07:25.79,0:07:30.26,*Default,NTP,0000,0000,0000,,您所要做的就是编写这个 HTML 实体。
+Dialogue: 0,0:07:30.26,0:07:31.09,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:07:32.04,0:07:35.18,*Default,NTP,0000,0000,0000,,是的，我会离开这个。
+Dialogue: 0,0:07:35.18,0:07:37.43,*Default,NTP,0000,0000,0000,,哦，好吧，实际上，我们不再需要它了。
+Dialogue: 0,0:07:38.47,0:07:39.79,*Default,NTP,0000,0000,0000,,对。
+Dialogue: 0,0:07:39.79,0:07:41.35,*Default,NTP,0000,0000,0000,,哦，还有一件事，
+Dialogue: 0,0:07:41.35,0:07:43.22,*Default,NTP,0000,0000,0000,,这是图像。
+Dialogue: 0,0:07:43.22,0:07:45.95,*Default,NTP,0000,0000,0000,,所以你不能真正将图像上传到 CodePen
+Dialogue: 0,0:07:45.95,0:07:47.85,*Default,NTP,0000,0000,0000,,除非您有付费帐户
+Dialogue: 0,0:07:47.85,0:07:50.36,*Default,NTP,0000,0000,0000,,但我认为这没有意义。
+Dialogue: 0,0:07:51.21,0:07:54.59,*Default,NTP,0000,0000,0000,,所以我实际上为你上传了图片
+Dialogue: 0,0:07:54.59,0:07:55.76,*Default,NTP,0000,0000,0000,,到这个网址。
+Dialogue: 0,0:07:57.13,0:07:59.28,*Default,NTP,0000,0000,0000,,所以你看到这实际上是另一种方式
+Dialogue: 0,0:07:59.28,0:08:01.23,*Default,NTP,0000,0000,0000,,包括图像。
+Dialogue: 0,0:08:01.23,0:08:03.49,*Default,NTP,0000,0000,0000,,所以本质上，一个即将到来的图像
+Dialogue: 0,0:08:03.49,0:08:04.80,*Default,NTP,0000,0000,0000,,从某个网址。
+Dialogue: 0,0:08:05.93,0:08:08.78,*Default,NTP,0000,0000,0000,,所以相比之下，就在这里，
+Dialogue: 0,0:08:08.78,0:08:11.16,*Default,NTP,0000,0000,0000,,当我们之前编写代码时，
+Dialogue: 0,0:08:11.16,0:08:13.29,*Default,NTP,0000,0000,0000,,那么源始终是图像
+Dialogue: 0,0:08:13.29,0:08:15.06,*Default,NTP,0000,0000,0000,,在我们自己的电脑上。
+Dialogue: 0,0:08:15.06,0:08:17.18,*Default,NTP,0000,0000,0000,,所以在这种情况下，在图像文件夹中
+Dialogue: 0,0:08:17.18,0:08:19.83,*Default,NTP,0000,0000,0000,,然后是这个图像名称。
+Dialogue: 0,0:08:19.83,0:08:22.88,*Default,NTP,0000,0000,0000,,如果你在自己的电脑上构建这个挑战，
+Dialogue: 0,0:08:22.88,0:08:26.15,*Default,NTP,0000,0000,0000,,那么你可以在这里使用这个挑战图像。
+Dialogue: 0,0:08:26.15,0:08:27.54,*Default,NTP,0000,0000,0000,,所以它是完全一样的。
+Dialogue: 0,0:08:29.17,0:08:30.01,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:08:30.01,0:08:33.20,*Default,NTP,0000,0000,0000,,但是如果你像我一样在 CodePen 上构建它，
+Dialogue: 0,0:08:33.20,0:08:35.40,*Default,NTP,0000,0000,0000,,那么你将需要这张图片
+Dialogue: 0,0:08:35.40,0:08:37.65,*Default,NTP,0000,0000,0000,,位于此 URL。
+Dialogue: 0,0:08:37.65,0:08:40.99,*Default,NTP,0000,0000,0000,,所以我们只是从屏幕上复制到这里
+Dialogue: 0,0:08:40.99,0:08:43.30,*Default,NTP,0000,0000,0000,,并将其用于您自己的项目。
+Dialogue: 0,0:08:44.75,0:08:46.64,*Default,NTP,0000,0000,0000,,然后是图像的尺寸
+Dialogue: 0,0:08:46.64,0:08:49.86,*Default,NTP,0000,0000,0000,,应该是 250 乘 250。
+Dialogue: 0,0:08:49.86,0:08:52.18,*Default,NTP,0000,0000,0000,,有了这个，我想我给了你一切
+Dialogue: 0,0:08:52.18,0:08:53.96,*Default,NTP,0000,0000,0000,,你需要知道的。
+Dialogue: 0,0:08:53.96,0:08:55.63,*Default,NTP,0000,0000,0000,,所以继续复制这个 URL
+Dialogue: 0,0:08:56.93,0:08:59.94,*Default,NTP,0000,0000,0000,,现在我将切换到默认页面视图
+Dialogue: 0,0:08:59.94,0:09:03.02,*Default,NTP,0000,0000,0000,,这样您就可以立即看到所有内容
+Dialogue: 0,0:09:03.02,0:09:05.92,*Default,NTP,0000,0000,0000,,现在我就让你去做吧
+Dialogue: 0,0:09:05.92,0:09:09.54,*Default,NTP,0000,0000,0000,,5 或 10 分钟后回到这里
+Dialogue: 0,0:09:09.54,0:09:11.16,*Default,NTP,0000,0000,0000,,一旦你准备好了。
+Dialogue: 0,0:09:13.87,0:09:16.19,*Default,NTP,0000,0000,0000,,好的，我们回来了
+Dialogue: 0,0:09:16.19,0:09:20.03,*Default,NTP,0000,0000,0000,,我希望这对你来说不是太大的挑战
+Dialogue: 0,0:09:20.03,0:09:21.72,*Default,NTP,0000,0000,0000,,这样我就不会太难了。
+Dialogue: 0,0:09:22.60,0:09:23.67,*Default,NTP,0000,0000,0000,,所以希望你得到
+Dialogue: 0,0:09:23.67,0:09:26.58,*Default,NTP,0000,0000,0000,,多练习一点技巧
+Dialogue: 0,0:09:26.58,0:09:29.24,*Default,NTP,0000,0000,0000,,所以现在如果你有任何疑问
+Dialogue: 0,0:09:29.24,0:09:31.30,*Default,NTP,0000,0000,0000,,或者你遇到任何问题，
+Dialogue: 0,0:09:31.30,0:09:33.45,*Default,NTP,0000,0000,0000,,我现在将在这里向您展示我的解决方案。
+Dialogue: 0,0:09:36.89,0:09:39.70,*Default,NTP,0000,0000,0000,,正如我提到的，我们在这里使用了一篇文章
+Dialogue: 0,0:09:40.72,0:09:42.50,*Default,NTP,0000,0000,0000,,现在是标题，
+Dialogue: 0,0:09:42.50,0:09:45.89,*Default,NTP,0000,0000,0000,,我用的是h2，实际上不是h1
+Dialogue: 0,0:09:45.89,0:09:48.76,*Default,NTP,0000,0000,0000,,因为这是一个组件的想法
+Dialogue: 0,0:09:48.76,0:09:51.17,*Default,NTP,0000,0000,0000,,在更大的页面内。
+Dialogue: 0,0:09:51.17,0:09:55.01,*Default,NTP,0000,0000,0000,,所以每个页面应该只有一个 h1
+Dialogue: 0,0:09:55.01,0:09:57.37,*Default,NTP,0000,0000,0000,,所以如果我们有 mul文章，
+Dialogue: 0,0:09:57.37,0:10:00.04,*Default,NTP,0000,0000,0000,,那么他们每个人都应该只是一个h2。
+Dialogue: 0,0:10:01.57,0:10:06.57,*Default,NTP,0000,0000,0000,,匡威 Chuck Taylor 全明星。
+Dialogue: 0,0:10:10.67,0:10:14.45,*Default,NTP,0000,0000,0000,,好吧，我本可以从演示中复制它。
+Dialogue: 0,0:10:14.45,0:10:15.31,*Default,NTP,0000,0000,0000,,但无论如何。
+Dialogue: 0,0:10:16.72,0:10:17.55,*Default,NTP,0000,0000,0000,,所以我
+Dialogue: 0,0:10:21.47,0:10:22.79,*Default,NTP,0000,0000,0000,,现在我真的会继续
+Dialogue: 0,0:10:22.79,0:10:25.71,*Default,NTP,0000,0000,0000,,并在此处复制此 URL
+Dialogue: 0,0:10:27.45,0:10:28.58,*Default,NTP,0000,0000,0000,,在编辑器视图中。
+Dialogue: 0,0:10:34.18,0:10:35.01,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:10:38.10,0:10:39.96,*Default,NTP,0000,0000,0000,,然后替代文本是，
+Dialogue: 0,0:10:43.76,0:10:45.27,*Default,NTP,0000,0000,0000,,我现在只是在这里复制它。
+Dialogue: 0,0:10:46.93,0:10:49.22,*Default,NTP,0000,0000,0000,,这样应该就够了。
+Dialogue: 0,0:10:49.22,0:10:50.31,*Default,NTP,0000,0000,0000,,然后是高度
+Dialogue: 0,0:10:53.08,0:10:55.48,*Default,NTP,0000,0000,0000,,宽度为 250。
+Dialogue: 0,0:11:00.93,0:11:02.26,*Default,NTP,0000,0000,0000,,就在这里。
+Dialogue: 0,0:11:02.26,0:11:03.44,*Default,NTP,0000,0000,0000,,这是我们的形象。
+Dialogue: 0,0:11:04.34,0:11:05.24,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:11:05.24,0:11:07.08,*Default,NTP,0000,0000,0000,,现在让我们回到这里
+Dialogue: 0,0:11:08.80,0:11:12.32,*Default,NTP,0000,0000,0000,,并实际复制所有这些内容。
+Dialogue: 0,0:11:12.32,0:11:13.15,*Default,NTP,0000,0000,0000,,为什么不？
+Dialogue: 0,0:11:15.35,0:11:17.72,*Default,NTP,0000,0000,0000,,然后我们就可以，在那之后，
+Dialogue: 0,0:11:17.72,0:11:20.10,*Default,NTP,0000,0000,0000,,将所有内容包装到自己的元素中。
+Dialogue: 0,0:11:21.41,0:11:22.96,*Default,NTP,0000,0000,0000,,所以这里我们有价格。
+Dialogue: 0,0:11:22.96,0:11:26.73,*Default,NTP,0000,0000,0000,,我将继续为每个段落使用一个段落
+Dialogue: 0,0:11:26.73,0:11:28.10,*Default,NTP,0000,0000,0000,,这些元素中，
+Dialogue: 0,0:11:28.10,0:11:30.11,*Default,NTP,0000,0000,0000,,所以对于每个文本元素。
+Dialogue: 0,0:11:31.40,0:11:33.09,*Default,NTP,0000,0000,0000,,然后我们有免费送货。\N00:11:39,130​​ --> 00:11:40,310\N好的。\N\N242
+Dialogue: 0,0:11:40.31,0:11:41.90,*Default,NTP,0000,0000,0000,,你看到那个 CodePen
+Dialogue: 0,0:11:41.90,0:11:45.64,*Default,NTP,0000,0000,0000,,实际上在那里自动做了一些缩进。
+Dialogue: 0,0:11:45.64,0:11:47.16,*Default,NTP,0000,0000,0000,,所以这很有帮助。
+Dialogue: 0,0:11:50.03,0:11:52.61,*Default,NTP,0000,0000,0000,,然后这里还有一段。
+Dialogue: 0,0:12:00.51,0:12:01.75,*Default,NTP,0000,0000,0000,,对。
+Dialogue: 0,0:12:01.75,0:12:03.93,*Default,NTP,0000,0000,0000,,所以我们正在格式化我们的内容，
+Dialogue: 0,0:12:03.93,0:12:06.41,*Default,NTP,0000,0000,0000,,当然，除了所有内容
+Dialogue: 0,0:12:06.41,0:12:09.61,*Default,NTP,0000,0000,0000,,那不在任何元素内。
+Dialogue: 0,0:12:09.61,0:12:13.98,*Default,NTP,0000,0000,0000,,所以请记住我是如何提到 HTML 无关紧要的
+Dialogue: 0,0:12:13.98,0:12:16.98,*Default,NTP,0000,0000,0000,,关于任何间距或任何输入。
+Dialogue: 0,0:12:16.98,0:12:18.45,*Default,NTP,0000,0000,0000,,所以就像换行符。
+Dialogue: 0,0:12:18.45,0:12:20.40,*Default,NTP,0000,0000,0000,,一切都在同一条线上
+Dialogue: 0,0:12:20.40,0:12:24.15,*Default,NTP,0000,0000,0000,,这就是为什么我们需要构建我们的内容
+Dialogue: 0,0:12:24.15,0:12:25.27,*Default,NTP,0000,0000,0000,,以合乎逻辑的方式。
+Dialogue: 0,0:12:26.41,0:12:29.45,*Default,NTP,0000,0000,0000,,现在，这里我们有了那个锚元素。
+Dialogue: 0,0:12:33.17,0:12:35.00,*Default,NTP,0000,0000,0000,,事实上，我并没有真正告诉你
+Dialogue: 0,0:12:35.00,0:12:37.37,*Default,NTP,0000,0000,0000,,此链接应指向的位置。
+Dialogue: 0,0:12:37.37,0:12:39.47,*Default,NTP,0000,0000,0000,,所以你可以创建一个空链接
+Dialogue: 0,0:12:39.47,0:12:41.47,*Default,NTP,0000,0000,0000,,基本上是这样的，
+Dialogue: 0,0:12:41.47,0:12:44.66,*Default,NTP,0000,0000,0000,,或者你可以链接匡威网站。
+Dialogue: 0,0:12:44.66,0:12:46.32,*Default,NTP,0000,0000,0000,,所以让我抓住那个链接。
+Dialogue: 0,0:12:47.28,0:12:51.67,*Default,NTP,0000,0000,0000,,所以 converse.com 可能
+Dialogue: 0,0:12:51.67,0:12:53.51,*Default,NTP,0000,0000,0000,,我正在这样做。
+Dialogue: 0,0:12:53.51,0:12:55.11,*Default,NTP,0000,0000,0000,,你马上就会明白为什么。
+Dialogue: 0,0:12:56.89,0:13:01.64,*Default,NTP,0000,0000,0000,,原因是因为我们实际上需要这个 https://。
+Dialogue: 0,0:13:02.72,0:13:04.33,*Default,NTP,0000,0000,0000,,所以整个网址。
+Dialogue: 0,0:13:07.65,0:13:09.34,*Default,NTP,0000,0000,0000,,这不是必需的。
+Dialogue: 0,0:13:10.61,0:13:14.75,*Default,NTP,0000,0000,0000,,现在让我们结束这个。
+Dialogue: 0,0:13:14.75,0:13:17.49,*Default,NTP,0000,0000,0000,,当然，在这里，我们不只是想要这个符号
+Dialogue: 0,0:13:17.49,0:13:19.88,*Default,NTP,0000,0000,0000,,因为这并不完全正确，
+Dialogue: 0,0:13:19.88,0:13:22.74,*Default,NTP,0000,0000,0000,,所以相反，我们想要那个 HTML 实体
+Dialogue: 0,0:13:22.74,0:13:25.08,*Default,NTP,0000,0000,0000,,你希望使用。
+Dialogue: 0,0:13:25.08,0:13:27.79,*Default,NTP,0000,0000,0000,,这就是右箭头。
+Dialogue: 0,0:13:29.56,0:13:30.93,*Default,NTP,0000,0000,0000,,所以这是这里的缩写，
+Dialogue: 0,0:13:30.93,0:13:32.92,*Default,NTP,0000,0000,0000,,for r 代表右
+Dialogue: 0,0:13:32.92,0:13:34.80,*Default,NTP,0000,0000,0000,,然后 arr 为箭头
+Dialogue: 0,0:13:34.80,0:13:38.15,*Default,NTP,0000,0000,0000,,确实，这就是我们得到的结果。
+Dialogue: 0,0:13:39.29,0:13:40.35,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:13:40.35,0:13:42.69,*Default,NTP,0000,0000,0000,,所以我们拥有所有这部分。
+Dialogue: 0,0:13:42.69,0:13:45.56,*Default,NTP,0000,0000,0000,,现在让我们在这里处理这个列表
+Dialogue: 0,0:13:45.56,0:13:46.96,*Default,NTP,0000,0000,0000,,和这个标题。
+Dialogue: 0,0:13:46.96,0:13:48.92,*Default,NTP,0000,0000,0000,,最后还有这个按钮。
+Dialogue: 0,0:13:50.52,0:13:55.52,*Default,NTP,0000,0000,0000,,所以我这里已经有一个h2了，对吧？
+Dialogue: 0,0:13:56.85,0:14:00.10,*Default,NTP,0000,0000,0000,,所以对于这个，我现在使用的是 h3。
+Dialogue: 0,0:14:02.31,0:14:03.14,*Default,NTP,0000,0000,0000,,H3。
+Dialogue: 0,0:14:04.15,0:14:05.20,*Default,NTP,0000,0000,0000,,并关闭它。
+Dialogue: 0,0:14:09.07,0:14:09.90,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:14:09.90,0:14:12.04,*Default,NTP,0000,0000,0000,,现在记住，
+Dialogue: 0,0:14:12.04,0:14:15.91,*Default,NTP,0000,0000,0000,,为了创建一个列表，这就是我们想要的，
+Dialogue: 0,0:14:15.91,0:14:17.73,*Default,NTP,0000,0000,0000,,所以一个项目符号列表，
+Dialogue: 0,0:14:17.73,0:14:20.50,*Default,NTP,0000,0000,0000,,我们使用无序元素
+Dialogue: 0,0:14:20.50,0:14:23.43,*Default,NTP,0000,0000,0000,,或者实际上，无序列表元素。
+Dialogue: 0,0:14:25.02,0:14:27.33,*Default,NTP,0000,0000,0000,,现在我们把所有的
+Dialogue: 0,0:14:27.33,0:14:31.89,*Default,NTP,0000,0000,0000,,这些合为一个 li 元素，对吧？
+Dialogue: 0,0:14:33.18,0:14:36.10,*Default,NTP,0000,0000,0000,,所以我希望在这一点上，
+Dialogue: 0,0:14:36.10,0:14:38.90,*Default,NTP,0000,0000,0000,,你已经知道这些元素了。
+Dialogue: 0,0:14:40.01,0:14:41.74,*Default,NTP,0000,0000,0000,,所以你练习了很多
+Dialogue: 0,0:14:41.74,0:14:43.48,*Default,NTP,0000,0000,0000,,所以我确定
+Dialogue: 0,0:14:43.48,0:14:48.48,*Default,NTP,0000,0000,0000,,现在这对你来说变得容易多了。
+Dialogue: 0,0:14:50.23,0:14:52.35,*Default,NTP,0000,0000,0000,,让我们在这里删除这个点
+Dialogue: 0,0:14:52.35,0:14:53.71,*Default,NTP,0000,0000,0000,,我们几乎完成了。
+Dialogue: 0,0:14:54.72,0:14:58.27,*Default,NTP,0000,0000,0000,,所以我们现在只需要最后那个按钮。
+Dialogue: 0,0:14:58.27,0:15:00.89,*Default,NTP,0000,0000,0000,,正如我之前向你展示的那样，
+Dialogue: 0,0:15:00.89,0:15:04.39,*Default,NTP,0000,0000,0000,,为此，我们可以简单地使用 HTML 中的按钮元素。
+Dialogue: 0,0:15:05.95,0:15:07.07,*Default,NTP,0000,0000,0000,,所以加入购物车。
+Dialogue: 0,0:15:07.95,0:15:09.32,*Default,NTP,0000,0000,0000,,当然，那个按钮，
+Dialogue: 0,0:15:10.42,0:15:13.32,*Default,NTP,0000,0000,0000,,所以点击那个按钮不会做任何事情。
+Dialogue: 0,0:15:13.32,0:15:16.09,*Default,NTP,0000,0000,0000,,为此，我们需要一些 JavaScript。
+Dialogue: 0,0:15:16.09,0:15:20.43,*Default,NTP,0000,0000,0000,,但至少它在这里是可见的，好吗？
+Dialogue: 0,0:15:20.43,0:15:23.65,*Default,NTP,0000,0000,0000,,我们在这里看到我们有 80 个未保存的更改。
+Dialogue: 0,0:15:23.65,0:15:26.31,*Default,NTP,0000,0000,0000,,因此，如果您想再次保留这些更改，
+Dialogue: 0,0:15:26.31,0:15:28.16,*Default,NTP,0000,0000,0000,,你必须保存 CodePen
+Dialogue: 0,0:15:29.21,0:15:31.51,*Default,NTP,0000,0000,0000,,并为此创建一个免费帐户。
+Dialogue: 0,0:15:32.90,0:15:36.19,*Default,NTP,0000,0000,0000,,哦，我以为我们真的完成了
+Dialogue: 0,0:15:36.19,0:15:37.08,*Default,NTP,0000,0000,0000,,带着这个挑战
+Dialogue: 0,0:15:37.08,0:15:40.35,*Default,NTP,0000,0000,0000,,但少了一小块。
+Dialogue: 0,0:15:40.35,0:15:44.52,*Default,NTP,0000,0000,0000,,所以原文中的这段文字实际上是粗体的。
+Dialogue: 0,0:15:45.76,0:15:47.83,*Default,NTP,0000,0000,0000,,所以这是唯一的区别。
+Dialogue: 0,0:15:48.87,0:15:50.61,*Default,NTP,0000,0000,0000,,所以这是我们缺少的东西。
+Dialogue: 0,0:15:50.61,0:15:54.49,*Default,NTP,0000,0000,0000,,所以让我们简单地把这个值包装在这里，
+Dialogue: 0,0:15:54.49,0:15:57.89,*Default,NTP,0000,0000,0000,,所以这一切都变成了强烈的文字元素。
+Dialogue: 0,0:15:58.73,0:16:01.22,*Default,NTP,0000,0000,0000,,不是弦，强。
+Dialogue: 0,0:16:05.01,0:16:06.98,*Default,NTP,0000,0000,0000,,你现在看到了，
+Dialogue: 0,0:16:06.98,0:16:09.83,*Default,NTP,0000,0000,0000,,我们没有关闭这个标签，
+Dialogue: 0,0:16:09.83,0:16:11.35,*Default,NTP,0000,0000,0000,,所以这个强大的元素
+Dialogue: 0,0:16:11.35,0:16:12.89,*Default,NTP,0000,0000,0000,,所以现在剩下的
+Dialogue: 0,0:16:12.89,0:16:16.00,*Default,NTP,0000,0000,0000,,内容基本变强。
+Dialogue: 0,0:16:16.00,0:16:17.75,*Default,NTP,0000,0000,0000,,所以现在一切都很大胆
+Dialogue: 0,0:16:17.75,0:16:20.39,*Default,NTP,0000,0000,0000,,因为这个元素永远不会结束。
+Dialogue: 0,0:16:20.39,0:16:24.51,*Default,NTP,0000,0000,0000,,但是，当然，那将是一个错误。
+Dialogue: 0,0:16:24.51,0:16:26.70,*Default,NTP,0000,0000,0000,,它甚至不是有效的 HTML
+Dialogue: 0,0:16:26.70,0:16:29.52,*Default,NTP,0000,0000,0000,,但浏览器仍然不知何故
+Dialogue: 0,0:16:29.52,0:16:32.17,*Default,NTP,0000,0000,0000,,能够以某种方式呈现它。
+Dialogue: 0,0:16:32.17,0:16:35.54,*Default,NTP,0000,0000,0000,,但不管怎样，有了这个，我们完成了这个挑战
+Dialogue: 0,0:16:35.54,0:16:39.86,*Default,NTP,0000,0000,0000,,实际上还有 HTML 部分的介绍。
+Dialogue: 0,0:16:39.86,0:16:42.32,*Default,NTP,0000,0000,0000,,所以一定要检查一切
+Dialogue: 0,0:16:42.32,0:16:44.40,*Default,NTP,0000,0000,0000,,你刚刚在本节中学到的，
+Dialogue: 0,0:16:44.40,0:16:47.98,*Default,NTP,0000,0000,0000,,你所有的新技能，然后一旦你准备好了，
+Dialogue: 0,0:16:47.98,0:16:51.09,*Default,NTP,0000,0000,0000,,我们可以一起进入下一部分，
+Dialogue: 0,0:16:51.09,0:16:54.02,*Default,NTP,0000,0000,0000,,这将是 CSS 的基础。
+Dialogue: 0,0:16:54.02,0:16:56.12,*Default,NTP,0000,0000,0000,,所以你最终会学到
+Dialogue: 0,0:16:56.12,0:16:58.52,*Default,NTP,0000,0000,0000,,如何实际设置您的内容的样式
+Dialogue: 0,0:16:58.52,0:17:01.17,*Default,NTP,0000,0000,0000,,让它看起来更精致一点
+Dialogue: 0,0:17:01.17,0:17:02.67,*Default,NTP,0000,0000,0000,,而且更漂亮。
+Dialogue: 0,0:17:02.67,0:17:04.76,*Default,NTP,0000,0000,0000,,所以这真的非常令人兴奋
+Dialogue: 0,0:17:04.76,0:17:09.01,*Default,NTP,0000,0000,0000,,所以是的，一旦你准备好了，让我们继续前进。
+Dialogue: 0,0:17:09.01,0:17:09.84,*Default,NTP,0000,0000,0000,,再见。
+Dialogue: 0,0:00:01.28,0:00:04.69,*Default,NTP,0000,0000,0000,,Time for another exciting coding challenge
+Dialogue: 0,0:00:04.69,0:00:08.92,*Default,NTP,0000,0000,0000,,so that you can keep practicing your new HTML skills.
+Dialogue: 0,0:00:10.40,0:00:14.07,*Default,NTP,0000,0000,0000,,And in this one, I want you to build this component
+Dialogue: 0,0:00:14.07,0:00:17.11,*Default,NTP,0000,0000,0000,,for this Converse All Star shoe.
+Dialogue: 0,0:00:17.11,0:00:19.01,*Default,NTP,0000,0000,0000,,And I'm saying component here
+Dialogue: 0,0:00:19.01,0:00:22.18,*Default,NTP,0000,0000,0000,,because I want you to imagine this content here
+Dialogue: 0,0:00:22.18,0:00:26.29,*Default,NTP,0000,0000,0000,,in the context of something like an e-commerce store.
+Dialogue: 0,0:00:26.29,0:00:29.24,*Default,NTP,0000,0000,0000,,So imagine that we have a shoe store
+Dialogue: 0,0:00:29.24,0:00:32.09,*Default,NTP,0000,0000,0000,,and there are multiple shoes and for each of them,
+Dialogue: 0,0:00:32.09,0:00:35.37,*Default,NTP,0000,0000,0000,,there is then like this small component
+Dialogue: 0,0:00:35.37,0:00:36.98,*Default,NTP,0000,0000,0000,,with this description.
+Dialogue: 0,0:00:36.98,0:00:38.94,*Default,NTP,0000,0000,0000,,So stuff like the price,
+Dialogue: 0,0:00:38.94,0:00:41.36,*Default,NTP,0000,0000,0000,,a short description, a link
+Dialogue: 0,0:00:41.36,0:00:44.22,*Default,NTP,0000,0000,0000,,and then some product details here.
+Dialogue: 0,0:00:44.22,0:00:46.45,*Default,NTP,0000,0000,0000,,Now, I am building this component,
+Dialogue: 0,0:00:46.45,0:00:48.58,*Default,NTP,0000,0000,0000,,so I'm writing this HTML
+Dialogue: 0,0:00:48.58,0:00:52.17,*Default,NTP,0000,0000,0000,,on a special coding platform called codepen.io.
+Dialogue: 0,0:00:53.92,0:00:55.99,*Default,NTP,0000,0000,0000,,So this is a place online
+Dialogue: 0,0:00:55.99,0:00:58.61,*Default,NTP,0000,0000,0000,,where we can basically write our code
+Dialogue: 0,0:00:58.61,0:01:01.32,*Default,NTP,0000,0000,0000,,and it will then automatically execute the code
+Dialogue: 0,0:01:01.32,0:01:04.38,*Default,NTP,0000,0000,0000,,and render it and it makes it also easy
+Dialogue: 0,0:01:04.38,0:01:06.46,*Default,NTP,0000,0000,0000,,to share that code.
+Dialogue: 0,0:01:06.46,0:01:09.52,*Default,NTP,0000,0000,0000,,Now, of course, you don't need to use CodePen
+Dialogue: 0,0:01:09.52,0:01:11.69,*Default,NTP,0000,0000,0000,,in order to complete this challenge.
+Dialogue: 0,0:01:11.69,0:01:15.29,*Default,NTP,0000,0000,0000,,You can just go to your code editor
+Dialogue: 0,0:01:15.29,0:01:19.10,*Default,NTP,0000,0000,0000,,and for example, add a brand new HTML file here
+Dialogue: 0,0:01:19.10,0:01:22.28,*Default,NTP,0000,0000,0000,,and then build all the code in there.
+Dialogue: 0,0:01:22.28,0:01:25.06,*Default,NTP,0000,0000,0000,,The reason why I'm not doing that here in the video
+Dialogue: 0,0:01:25.06,0:01:26.84,*Default,NTP,0000,0000,0000,,is because we're actually gonna build
+Dialogue: 0,0:01:26.84,0:01:28.87,*Default,NTP,0000,0000,0000,,on this challenge later.
+Dialogue: 0,0:01:28.87,0:01:32.39,*Default,NTP,0000,0000,0000,,So we will keep developing this very small project
+Dialogue: 0,0:01:32.39,0:01:34.14,*Default,NTP,0000,0000,0000,,over the next few sections
+Dialogue: 0,0:01:34.14,0:01:35.97,*Default,NTP,0000,0000,0000,,and that will then create a mess
+Dialogue: 0,0:01:35.97,0:01:40.23,*Default,NTP,0000,0000,0000,,of different files and a lot of different code.
+Dialogue: 0,0:01:40.23,0:01:42.89,*Default,NTP,0000,0000,0000,,But of course, because you're doing it on your own,
+Dialogue: 0,0:01:42.89,0:01:44.32,*Default,NTP,0000,0000,0000,,on your own computer,
+Dialogue: 0,0:01:44.32,0:01:45.68,*Default,NTP,0000,0000,0000,,it's easier for you
+Dialogue: 0,0:01:45.68,0:01:47.47,*Default,NTP,0000,0000,0000,,and so you can just, as I said,
+Dialogue: 0,0:01:47.47,0:01:51.85,*Default,NTP,0000,0000,0000,,if you want, create a new HTML file and do it here.
+Dialogue: 0,0:01:51.85,0:01:53.12,*Default,NTP,0000,0000,0000,,But on the other hand,
+Dialogue: 0,0:01:53.12,0:01:55.42,*Default,NTP,0000,0000,0000,,I think it's also helpful and useful
+Dialogue: 0,0:01:55.42,0:01:59.08,*Default,NTP,0000,0000,0000,,for you to learn a little bit about codepen.io
+Dialogue: 0,0:01:59.08,0:02:01.49,*Default,NTP,0000,0000,0000,,and create the challenge there.
+Dialogue: 0,0:02:02.67,0:02:04.64,*Default,NTP,0000,0000,0000,,So let me just give you
+Dialogue: 0,0:02:04.64,0:02:06.97,*Default,NTP,0000,0000,0000,,a very quick demonstration of CodePen.
+Dialogue: 0,0:02:08.18,0:02:10.87,*Default,NTP,0000,0000,0000,,So just google CodePen I would say
+Dialogue: 0,0:02:10.87,0:02:13.61,*Default,NTP,0000,0000,0000,,or you can go to codepen.io.
+Dialogue: 0,0:02:13.61,0:02:16.13,*Default,NTP,0000,0000,0000,,And then all you have to is to click here
+Dialogue: 0,0:02:16.13,0:02:18.12,*Default,NTP,0000,0000,0000,,on Start Coding.
+Dialogue: 0,0:02:18.12,0:02:19.65,*Default,NTP,0000,0000,0000,,Now, maybe in the future,
+Dialogue: 0,0:02:19.65,0:02:22.61,*Default,NTP,0000,0000,0000,,something has changed about CodePen,
+Dialogue: 0,0:02:22.61,0:02:24.25,*Default,NTP,0000,0000,0000,,so about this interface
+Dialogue: 0,0:02:24.25,0:02:27.15,*Default,NTP,0000,0000,0000,,but you will always be able to create a new CodePen
+Dialogue: 0,0:02:27.15,0:02:30.99,*Default,NTP,0000,0000,0000,,simply by going to codepen.io/pen.
+Dialogue: 0,0:02:30.99,0:02:32.08,*Default,NTP,0000,0000,0000,,So just like this.
+Dialogue: 0,0:02:33.34,0:02:35.83,*Default,NTP,0000,0000,0000,,So here we basically have a panel
+Dialogue: 0,0:02:35.83,0:02:38.48,*Default,NTP,0000,0000,0000,,where we can write HTML, CSS
+Dialogue: 0,0:02:38.48,0:02:40.61,*Default,NTP,0000,0000,0000,,and JavaScript if we want.
+Dialogue: 0,0:02:40.61,0:02:44.03,*Default,NTP,0000,0000,0000,,Or we can also just collapse these panels
+Dialogue: 0,0:02:44.03,0:02:45.69,*Default,NTP,0000,0000,0000,,if we don't need them,
+Dialogue: 0,0:02:45.69,0:02:47.64,*Default,NTP,0000,0000,0000,,which is the case right now.
+Dialogue: 0,0:02:47.64,0:02:49.91,*Default,NTP,0000,0000,0000,,And so we can write our HTML.
+Dialogue: 0,0:02:49.91,0:02:52.47,*Default,NTP,0000,0000,0000,,Let's just write an h1 element.
+Dialogue: 0,0:02:54.85,0:02:56.80,*Default,NTP,0000,0000,0000,,Hello, World, for example.
+Dialogue: 0,0:02:58.75,0:02:59.82,*Default,NTP,0000,0000,0000,,And you see that here we have
+Dialogue: 0,0:02:59.82,0:03:03.57,*Default,NTP,0000,0000,0000,,to again manually close the element.
+Dialogue: 0,0:03:04.74,0:03:07.29,*Default,NTP,0000,0000,0000,,But anyway, you see that after some time,
+Dialogue: 0,0:03:07.29,0:03:10.47,*Default,NTP,0000,0000,0000,,It then renders the result down here.
+Dialogue: 0,0:03:10.47,0:03:12.77,*Default,NTP,0000,0000,0000,,So in this results panel basically.
+Dialogue: 0,0:03:13.66,0:03:16.83,*Default,NTP,0000,0000,0000,,You can also change the name of your CodePen.
+Dialogue: 0,0:03:18.43,0:03:21.27,*Default,NTP,0000,0000,0000,,So let's say Challenge #2,
+Dialogue: 0,0:03:21.27,0:03:23.32,*Default,NTP,0000,0000,0000,,which is the name of this lecture.
+Dialogue: 0,0:03:24.81,0:03:28.14,*Default,NTP,0000,0000,0000,,Okay, and then you can also save it.
+Dialogue: 0,0:03:28.14,0:03:31.70,*Default,NTP,0000,0000,0000,,Now, to save it, you will have to create a free account
+Dialogue: 0,0:03:31.70,0:03:34.97,*Default,NTP,0000,0000,0000,,but I would say that it's actually worthwhile to do so.
+Dialogue: 0,0:03:34.97,0:03:38.56,*Default,NTP,0000,0000,0000,,But of course, it's optional and you're not forced
+Dialogue: 0,0:03:38.56,0:03:40.96,*Default,NTP,0000,0000,0000,,to create a new account here
+Dialogue: 0,0:03:40.96,0:03:43.32,*Default,NTP,0000,0000,0000,,but if you do, that is actually very helpful
+Dialogue: 0,0:03:43.32,0:03:46.49,*Default,NTP,0000,0000,0000,,because then you will get a special URL
+Dialogue: 0,0:03:46.49,0:03:48.03,*Default,NTP,0000,0000,0000,,for each CodePen
+Dialogue: 0,0:03:48.03,0:03:51.15,*Default,NTP,0000,0000,0000,,and then you can share that CodePen with others.
+Dialogue: 0,0:03:51.15,0:03:54.75,*Default,NTP,0000,0000,0000,,So if you want to just like create a quick example,
+Dialogue: 0,0:03:54.75,0:03:56.51,*Default,NTP,0000,0000,0000,,a quick demo of something
+Dialogue: 0,0:03:56.51,0:03:58.05,*Default,NTP,0000,0000,0000,,to show it to someone,
+Dialogue: 0,0:03:58.05,0:04:00.77,*Default,NTP,0000,0000,0000,,then you can just come to CodePen,
+Dialogue: 0,0:04:00.77,0:04:02.27,*Default,NTP,0000,0000,0000,,create it right here
+Dialogue: 0,0:04:02.27,0:04:05.36,*Default,NTP,0000,0000,0000,,and then copy, paste the URL from here
+Dialogue: 0,0:04:05.36,0:04:07.19,*Default,NTP,0000,0000,0000,,once you have saved it
+Dialogue: 0,0:04:07.19,0:04:08.18,*Default,NTP,0000,0000,0000,,and by the way,
+Dialogue: 0,0:04:08.18,0:04:11.38,*Default,NTP,0000,0000,0000,,what I just described is actually also the best way
+Dialogue: 0,0:04:11.38,0:04:14.99,*Default,NTP,0000,0000,0000,,of sharing code in the Q&amp;A section on Udemy
+Dialogue: 0,0:04:14.99,0:04:17.20,*Default,NTP,0000,0000,0000,,in case you run into any problems.
+Dialogue: 0,0:04:18.61,0:04:19.44,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:04:19.44,0:04:21.79,*Default,NTP,0000,0000,0000,,So again, it would probably be a good idea
+Dialogue: 0,0:04:21.79,0:04:23.81,*Default,NTP,0000,0000,0000,,to create an account here
+Dialogue: 0,0:04:23.81,0:04:24.97,*Default,NTP,0000,0000,0000,,because it's just useful
+Dialogue: 0,0:04:24.97,0:04:27.68,*Default,NTP,0000,0000,0000,,and many, many programmers use CodePen.
+Dialogue: 0,0:04:27.68,0:04:29.94,*Default,NTP,0000,0000,0000,,It's a very popular tool.
+Dialogue: 0,0:04:29.94,0:04:32.73,*Default,NTP,0000,0000,0000,,But anyway, going back now to the challenge,
+Dialogue: 0,0:04:32.73,0:04:34.79,*Default,NTP,0000,0000,0000,,let me give you a couple of hints.
+Dialogue: 0,0:04:35.63,0:04:38.27,*Default,NTP,0000,0000,0000,,Okay, so this is what the result looks like
+Dialogue: 0,0:04:38.27,0:04:40.31,*Default,NTP,0000,0000,0000,,that I want you to build
+Dialogue: 0,0:04:40.31,0:04:42.22,*Default,NTP,0000,0000,0000,,but to help you a little bit,
+Dialogue: 0,0:04:42.22,0:04:45.64,*Default,NTP,0000,0000,0000,,I will actually need to change here a bit of the code.
+Dialogue: 0,0:04:45.64,0:04:47.27,*Default,NTP,0000,0000,0000,,So here in Change View,
+Dialogue: 0,0:04:47.27,0:04:50.99,*Default,NTP,0000,0000,0000,,we can now switch to the editor view,
+Dialogue: 0,0:04:50.99,0:04:55.34,*Default,NTP,0000,0000,0000,,which will then look just like what I showed you before.
+Dialogue: 0,0:04:57.19,0:05:00.02,*Default,NTP,0000,0000,0000,,All right, so now we have the editors here on top
+Dialogue: 0,0:05:00.02,0:05:01.65,*Default,NTP,0000,0000,0000,,and then the result down here.
+Dialogue: 0,0:05:02.93,0:05:06.03,*Default,NTP,0000,0000,0000,,So there are some things I need to explain
+Dialogue: 0,0:05:06.03,0:05:08.06,*Default,NTP,0000,0000,0000,,before you can get started.
+Dialogue: 0,0:05:08.06,0:05:10.56,*Default,NTP,0000,0000,0000,,So first of all, I want you to wrap all
+Dialogue: 0,0:05:10.56,0:05:14.18,*Default,NTP,0000,0000,0000,,of this content inside an article element.
+Dialogue: 0,0:05:14.18,0:05:15.98,*Default,NTP,0000,0000,0000,,And remember how I mentioned
+Dialogue: 0,0:05:15.98,0:05:18.76,*Default,NTP,0000,0000,0000,,that an article element cannot only be used
+Dialogue: 0,0:05:18.76,0:05:22.12,*Default,NTP,0000,0000,0000,,for something like a written blog post article
+Dialogue: 0,0:05:22.12,0:05:26.06,*Default,NTP,0000,0000,0000,,but also for like really a physical article
+Dialogue: 0,0:05:26.06,0:05:30.12,*Default,NTP,0000,0000,0000,,and so a shoe like this is a perfect example for that.
+Dialogue: 0,0:05:30.12,0:05:31.77,*Default,NTP,0000,0000,0000,,So this is an article
+Dialogue: 0,0:05:31.77,0:05:34.07,*Default,NTP,0000,0000,0000,,and again, coming back to the example
+Dialogue: 0,0:05:34.07,0:05:37.69,*Default,NTP,0000,0000,0000,,of having like an e-commerce store,
+Dialogue: 0,0:05:37.69,0:05:40.58,*Default,NTP,0000,0000,0000,,then each shoe would be a different article
+Dialogue: 0,0:05:40.58,0:05:43.32,*Default,NTP,0000,0000,0000,,and so you would have one article element
+Dialogue: 0,0:05:43.32,0:05:46.51,*Default,NTP,0000,0000,0000,,for each of the shoes, right?
+Dialogue: 0,0:05:47.81,0:05:51.80,*Default,NTP,0000,0000,0000,,Then down here, there's an element that we have never used,
+Dialogue: 0,0:05:51.80,0:05:54.36,*Default,NTP,0000,0000,0000,,which is this clickable button.
+Dialogue: 0,0:05:54.36,0:05:55.76,*Default,NTP,0000,0000,0000,,And so down here,
+Dialogue: 0,0:05:55.76,0:05:59.01,*Default,NTP,0000,0000,0000,,you see that this is simply the button element.
+Dialogue: 0,0:05:59.01,0:06:02.15,*Default,NTP,0000,0000,0000,,And so you can just go ahead and use that.
+Dialogue: 0,0:06:02.15,0:06:04.97,*Default,NTP,0000,0000,0000,,And then finally, there's something else,
+Dialogue: 0,0:06:04.97,0:06:08.46,*Default,NTP,0000,0000,0000,,which is this symbol here, so this arrow here.
+Dialogue: 0,0:06:08.46,0:06:12.52,*Default,NTP,0000,0000,0000,,Now, remember how back in our project,
+Dialogue: 0,0:06:12.52,0:06:16.11,*Default,NTP,0000,0000,0000,,so here, I mentioned that this symbol right here,
+Dialogue: 0,0:06:16.11,0:06:20.15,*Default,NTP,0000,0000,0000,,this copyright symbol is an HTML entity, right?
+Dialogue: 0,0:06:20.15,0:06:23.28,*Default,NTP,0000,0000,0000,,Remember that, and so this arrow here
+Dialogue: 0,0:06:23.28,0:06:26.19,*Default,NTP,0000,0000,0000,,is just another HTML entity.
+Dialogue: 0,0:06:26.19,0:06:27.58,*Default,NTP,0000,0000,0000,,And I also mentioned back then
+Dialogue: 0,0:06:27.58,0:06:29.63,*Default,NTP,0000,0000,0000,,that there is a very handy list
+Dialogue: 0,0:06:29.63,0:06:32.94,*Default,NTP,0000,0000,0000,,on my resources page, which is this one.
+Dialogue: 0,0:06:33.87,0:06:35.93,*Default,NTP,0000,0000,0000,,Now, if you're watching this in the future,
+Dialogue: 0,0:06:35.93,0:06:39.63,*Default,NTP,0000,0000,0000,,then this page probably looks quite different
+Dialogue: 0,0:06:39.63,0:06:42.40,*Default,NTP,0000,0000,0000,,but for now, this is what I have
+Dialogue: 0,0:06:42.40,0:06:46.37,*Default,NTP,0000,0000,0000,,and the HTML entity reference that I meant,
+Dialogue: 0,0:06:46.37,0:06:49.10,*Default,NTP,0000,0000,0000,,so that I mentioned earlier is this one.
+Dialogue: 0,0:06:49.10,0:06:51.74,*Default,NTP,0000,0000,0000,,So let's just open it up actually
+Dialogue: 0,0:06:51.74,0:06:56.74,*Default,NTP,0000,0000,0000,,and then there is a lot of stuff that you can use.
+Dialogue: 0,0:06:56.92,0:06:58.95,*Default,NTP,0000,0000,0000,,So all of these different symbols
+Dialogue: 0,0:06:58.95,0:07:01.26,*Default,NTP,0000,0000,0000,,and here, for example, is the copy symbol
+Dialogue: 0,0:07:01.26,0:07:03.54,*Default,NTP,0000,0000,0000,,that we used before in VS Code.
+Dialogue: 0,0:07:04.66,0:07:06.11,*Default,NTP,0000,0000,0000,,Now, this is a huge list
+Dialogue: 0,0:07:06.11,0:07:08.65,*Default,NTP,0000,0000,0000,,and I'm just going to use a Command
+Dialogue: 0,0:07:08.65,0:07:13.34,*Default,NTP,0000,0000,0000,,or Control + F to search on the page for arrows
+Dialogue: 0,0:07:14.27,0:07:15.48,*Default,NTP,0000,0000,0000,,and here we go.
+Dialogue: 0,0:07:16.36,0:07:18.93,*Default,NTP,0000,0000,0000,,So there are all these different arrows here
+Dialogue: 0,0:07:18.93,0:07:20.96,*Default,NTP,0000,0000,0000,,and the one that I used is this.
+Dialogue: 0,0:07:21.95,0:07:23.63,*Default,NTP,0000,0000,0000,,So to insert this arrow
+Dialogue: 0,0:07:23.63,0:07:25.79,*Default,NTP,0000,0000,0000,,into your own HTML code,
+Dialogue: 0,0:07:25.79,0:07:30.26,*Default,NTP,0000,0000,0000,,all you have to do is to write this HTML entity.
+Dialogue: 0,0:07:30.26,0:07:31.09,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:07:32.04,0:07:35.18,*Default,NTP,0000,0000,0000,,And yeah, I will leave this.
+Dialogue: 0,0:07:35.18,0:07:37.43,*Default,NTP,0000,0000,0000,,Oh, well, actually, we don't need it anymore.
+Dialogue: 0,0:07:38.47,0:07:39.79,*Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:07:39.79,0:07:41.35,*Default,NTP,0000,0000,0000,,Oh, and just one more thing,
+Dialogue: 0,0:07:41.35,0:07:43.22,*Default,NTP,0000,0000,0000,,which is the image.
+Dialogue: 0,0:07:43.22,0:07:45.95,*Default,NTP,0000,0000,0000,,So you cannot really upload images to CodePen
+Dialogue: 0,0:07:45.95,0:07:47.85,*Default,NTP,0000,0000,0000,,unless you have a paid account
+Dialogue: 0,0:07:47.85,0:07:50.36,*Default,NTP,0000,0000,0000,,but that doesn't make sense I think.
+Dialogue: 0,0:07:51.21,0:07:54.59,*Default,NTP,0000,0000,0000,,And so I actually uploaded the image for you
+Dialogue: 0,0:07:54.59,0:07:55.76,*Default,NTP,0000,0000,0000,,onto this URL.
+Dialogue: 0,0:07:57.13,0:07:59.28,*Default,NTP,0000,0000,0000,,So you see that this is actually another way
+Dialogue: 0,0:07:59.28,0:08:01.23,*Default,NTP,0000,0000,0000,,of including images.
+Dialogue: 0,0:08:01.23,0:08:03.49,*Default,NTP,0000,0000,0000,,So essentially, an image that is coming
+Dialogue: 0,0:08:03.49,0:08:04.80,*Default,NTP,0000,0000,0000,,from a certain URL.
+Dialogue: 0,0:08:05.93,0:08:08.78,*Default,NTP,0000,0000,0000,,So in contrast, right here,
+Dialogue: 0,0:08:08.78,0:08:11.16,*Default,NTP,0000,0000,0000,,when we wrote our code before,
+Dialogue: 0,0:08:11.16,0:08:13.29,*Default,NTP,0000,0000,0000,,then the source was always an image
+Dialogue: 0,0:08:13.29,0:08:15.06,*Default,NTP,0000,0000,0000,,on our own computer.
+Dialogue: 0,0:08:15.06,0:08:17.18,*Default,NTP,0000,0000,0000,,So in this case, in the image folder
+Dialogue: 0,0:08:17.18,0:08:19.83,*Default,NTP,0000,0000,0000,,and then this image name.
+Dialogue: 0,0:08:19.83,0:08:22.88,*Default,NTP,0000,0000,0000,,And if you're building this challenge on your own computer,
+Dialogue: 0,0:08:22.88,0:08:26.15,*Default,NTP,0000,0000,0000,,then you can just use this challenge image here.
+Dialogue: 0,0:08:26.15,0:08:27.54,*Default,NTP,0000,0000,0000,,So it's exactly the same.
+Dialogue: 0,0:08:29.17,0:08:30.01,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:08:30.01,0:08:33.20,*Default,NTP,0000,0000,0000,,But if you're building it on CodePen like I'm going to do,
+Dialogue: 0,0:08:33.20,0:08:35.40,*Default,NTP,0000,0000,0000,,then you will need this image
+Dialogue: 0,0:08:35.40,0:08:37.65,*Default,NTP,0000,0000,0000,,that is located at this URL.
+Dialogue: 0,0:08:37.65,0:08:40.99,*Default,NTP,0000,0000,0000,,So we just copy this here somehow from the screen
+Dialogue: 0,0:08:40.99,0:08:43.30,*Default,NTP,0000,0000,0000,,and use it for your own project.
+Dialogue: 0,0:08:44.75,0:08:46.64,*Default,NTP,0000,0000,0000,,Then the dimensions of the image
+Dialogue: 0,0:08:46.64,0:08:49.86,*Default,NTP,0000,0000,0000,,should be 250 by 250.
+Dialogue: 0,0:08:49.86,0:08:52.18,*Default,NTP,0000,0000,0000,,And with this, I think I gave you everything
+Dialogue: 0,0:08:52.18,0:08:53.96,*Default,NTP,0000,0000,0000,,that you need to know.
+Dialogue: 0,0:08:53.96,0:08:55.63,*Default,NTP,0000,0000,0000,,So go ahead and copy this URL
+Dialogue: 0,0:08:56.93,0:08:59.94,*Default,NTP,0000,0000,0000,,and now I will switch to default page view
+Dialogue: 0,0:08:59.94,0:09:03.02,*Default,NTP,0000,0000,0000,,so that you can see everything at once
+Dialogue: 0,0:09:03.02,0:09:05.92,*Default,NTP,0000,0000,0000,,and now I will just leave you to it
+Dialogue: 0,0:09:05.92,0:09:09.54,*Default,NTP,0000,0000,0000,,and come back here in 5 or 10 minutes
+Dialogue: 0,0:09:09.54,0:09:11.16,*Default,NTP,0000,0000,0000,,once you are ready.
+Dialogue: 0,0:09:13.87,0:09:16.19,*Default,NTP,0000,0000,0000,,Okay, here we are back
+Dialogue: 0,0:09:16.19,0:09:20.03,*Default,NTP,0000,0000,0000,,and I hope that it wasn't too much of a challenge for you
+Dialogue: 0,0:09:20.03,0:09:21.72,*Default,NTP,0000,0000,0000,,so that I wasn't too hard.
+Dialogue: 0,0:09:22.60,0:09:23.67,*Default,NTP,0000,0000,0000,,So hopefully you got
+Dialogue: 0,0:09:23.67,0:09:26.58,*Default,NTP,0000,0000,0000,,to practice your skills a little bit more
+Dialogue: 0,0:09:26.58,0:09:29.24,*Default,NTP,0000,0000,0000,,and so now in case you have any doubts
+Dialogue: 0,0:09:29.24,0:09:31.30,*Default,NTP,0000,0000,0000,,or you run into any problem,
+Dialogue: 0,0:09:31.30,0:09:33.45,*Default,NTP,0000,0000,0000,,I will now show you my solution here.
+Dialogue: 0,0:09:36.89,0:09:39.70,*Default,NTP,0000,0000,0000,,So as I mentioned, we are using an article here
+Dialogue: 0,0:09:40.72,0:09:42.50,*Default,NTP,0000,0000,0000,,and now for the heading,
+Dialogue: 0,0:09:42.50,0:09:45.89,*Default,NTP,0000,0000,0000,,I used an h2, actually not an h1
+Dialogue: 0,0:09:45.89,0:09:48.76,*Default,NTP,0000,0000,0000,,because of that idea of this being a component
+Dialogue: 0,0:09:48.76,0:09:51.17,*Default,NTP,0000,0000,0000,,within a bigger page.
+Dialogue: 0,0:09:51.17,0:09:55.01,*Default,NTP,0000,0000,0000,,And so each page should only have one h1
+Dialogue: 0,0:09:55.01,0:09:57.37,*Default,NTP,0000,0000,0000,,and so if we then have multiple articles,
+Dialogue: 0,0:09:57.37,0:10:00.04,*Default,NTP,0000,0000,0000,,then each of them should just be an h2.
+Dialogue: 0,0:10:01.57,0:10:06.57,*Default,NTP,0000,0000,0000,,Converse Chuck Taylor All Star.
+Dialogue: 0,0:10:10.67,0:10:14.45,*Default,NTP,0000,0000,0000,,Well, I could have just copied this from the demo.
+Dialogue: 0,0:10:14.45,0:10:15.31,*Default,NTP,0000,0000,0000,,But anyway.
+Dialogue: 0,0:10:16.72,0:10:17.55,*Default,NTP,0000,0000,0000,,So img
+Dialogue: 0,0:10:21.47,0:10:22.79,*Default,NTP,0000,0000,0000,,and now I will actually go ahead
+Dialogue: 0,0:10:22.79,0:10:25.71,*Default,NTP,0000,0000,0000,,and copy this URL here
+Dialogue: 0,0:10:27.45,0:10:28.58,*Default,NTP,0000,0000,0000,,in the editor view.
+Dialogue: 0,0:10:34.18,0:10:35.01,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:10:38.10,0:10:39.96,*Default,NTP,0000,0000,0000,,Then the alt text is,
+Dialogue: 0,0:10:43.76,0:10:45.27,*Default,NTP,0000,0000,0000,,I'm just copying it now here.
+Dialogue: 0,0:10:46.93,0:10:49.22,*Default,NTP,0000,0000,0000,,This should be enough like this.
+Dialogue: 0,0:10:49.22,0:10:50.31,*Default,NTP,0000,0000,0000,,And then the height
+Dialogue: 0,0:10:53.08,0:10:55.48,*Default,NTP,0000,0000,0000,,and the width at 250.
+Dialogue: 0,0:11:00.93,0:11:02.26,*Default,NTP,0000,0000,0000,,And here it is.
+Dialogue: 0,0:11:02.26,0:11:03.44,*Default,NTP,0000,0000,0000,,Here is our image.
+Dialogue: 0,0:11:04.34,0:11:05.24,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:11:05.24,0:11:07.08,*Default,NTP,0000,0000,0000,,Now let's go back here
+Dialogue: 0,0:11:08.80,0:11:12.32,*Default,NTP,0000,0000,0000,,and actually copy all of this content.
+Dialogue: 0,0:11:12.32,0:11:13.15,*Default,NTP,0000,0000,0000,,Why not?
+Dialogue: 0,0:11:15.35,0:11:17.72,*Default,NTP,0000,0000,0000,,Then we can just, after that,
+Dialogue: 0,0:11:17.72,0:11:20.10,*Default,NTP,0000,0000,0000,,wrap everything into its own element.
+Dialogue: 0,0:11:21.41,0:11:22.96,*Default,NTP,0000,0000,0000,,So here we have the price.
+Dialogue: 0,0:11:22.96,0:11:26.73,*Default,NTP,0000,0000,0000,,And I will keep using a paragraph for each
+Dialogue: 0,0:11:26.73,0:11:28.10,*Default,NTP,0000,0000,0000,,of these elements,
+Dialogue: 0,0:11:28.10,0:11:30.11,*Default,NTP,0000,0000,0000,,so for each of the text elements.
+Dialogue: 0,0:11:31.40,0:11:33.09,*Default,NTP,0000,0000,0000,,Then we have free shipping.
+Dialogue: 0,0:11:39.13,0:11:40.31,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:11:40.31,0:11:41.90,*Default,NTP,0000,0000,0000,,And you see that CodePen
+Dialogue: 0,0:11:41.90,0:11:45.64,*Default,NTP,0000,0000,0000,,actually automatically did some indentation there.
+Dialogue: 0,0:11:45.64,0:11:47.16,*Default,NTP,0000,0000,0000,,So that's quite helpful.
+Dialogue: 0,0:11:50.03,0:11:52.61,*Default,NTP,0000,0000,0000,,Then here there's another paragraph.
+Dialogue: 0,0:12:00.51,0:12:01.75,*Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:12:01.75,0:12:03.93,*Default,NTP,0000,0000,0000,,So we are getting our content formatted,
+Dialogue: 0,0:12:03.93,0:12:06.41,*Default,NTP,0000,0000,0000,,except, of course, for all the content
+Dialogue: 0,0:12:06.41,0:12:09.61,*Default,NTP,0000,0000,0000,,that is not inside any element.
+Dialogue: 0,0:12:09.61,0:12:13.98,*Default,NTP,0000,0000,0000,,So remember how I mentioned that HTML doesn't care
+Dialogue: 0,0:12:13.98,0:12:16.98,*Default,NTP,0000,0000,0000,,about any spacing or about any enters.
+Dialogue: 0,0:12:16.98,0:12:18.45,*Default,NTP,0000,0000,0000,,So like line breaks.
+Dialogue: 0,0:12:18.45,0:12:20.40,*Default,NTP,0000,0000,0000,,Everything is just in the same line
+Dialogue: 0,0:12:20.40,0:12:24.15,*Default,NTP,0000,0000,0000,,and so that's why we need to structure our content
+Dialogue: 0,0:12:24.15,0:12:25.27,*Default,NTP,0000,0000,0000,,in a logical way.
+Dialogue: 0,0:12:26.41,0:12:29.45,*Default,NTP,0000,0000,0000,,Now, here we have that anchor element.
+Dialogue: 0,0:12:33.17,0:12:35.00,*Default,NTP,0000,0000,0000,,And actually, I didn't really tell you
+Dialogue: 0,0:12:35.00,0:12:37.37,*Default,NTP,0000,0000,0000,,where this link should point to.
+Dialogue: 0,0:12:37.37,0:12:39.47,*Default,NTP,0000,0000,0000,,So you could have just created an empty link
+Dialogue: 0,0:12:39.47,0:12:41.47,*Default,NTP,0000,0000,0000,,like this basically,
+Dialogue: 0,0:12:41.47,0:12:44.66,*Default,NTP,0000,0000,0000,,or you could have linked the Converse website.
+Dialogue: 0,0:12:44.66,0:12:46.32,*Default,NTP,0000,0000,0000,,So let me just grab that link.
+Dialogue: 0,0:12:47.28,0:12:51.67,*Default,NTP,0000,0000,0000,,So converse.com probably
+Dialogue: 0,0:12:51.67,0:12:53.51,*Default,NTP,0000,0000,0000,,and I'm doing it like this.
+Dialogue: 0,0:12:53.51,0:12:55.11,*Default,NTP,0000,0000,0000,,You will see in a moment why.
+Dialogue: 0,0:12:56.89,0:13:01.64,*Default,NTP,0000,0000,0000,,And the reason is because we actually need this https://.
+Dialogue: 0,0:13:02.72,0:13:04.33,*Default,NTP,0000,0000,0000,,So the entire URL.
+Dialogue: 0,0:13:07.65,0:13:09.34,*Default,NTP,0000,0000,0000,,This is not necessary here.
+Dialogue: 0,0:13:10.61,0:13:14.75,*Default,NTP,0000,0000,0000,,And now here let's close this.
+Dialogue: 0,0:13:14.75,0:13:17.49,*Default,NTP,0000,0000,0000,,And here, of course, we do not just want this symbol
+Dialogue: 0,0:13:17.49,0:13:19.88,*Default,NTP,0000,0000,0000,,because this is not really correct,
+Dialogue: 0,0:13:19.88,0:13:22.74,*Default,NTP,0000,0000,0000,,so instead, we want that HTML entity
+Dialogue: 0,0:13:22.74,0:13:25.08,*Default,NTP,0000,0000,0000,,that you hopefully used.
+Dialogue: 0,0:13:25.08,0:13:27.79,*Default,NTP,0000,0000,0000,,So that is the right arrow.
+Dialogue: 0,0:13:29.56,0:13:30.93,*Default,NTP,0000,0000,0000,,So this is the abbreviation here,
+Dialogue: 0,0:13:30.93,0:13:32.92,*Default,NTP,0000,0000,0000,,for r stands for right
+Dialogue: 0,0:13:32.92,0:13:34.80,*Default,NTP,0000,0000,0000,,and then arr for arrow
+Dialogue: 0,0:13:34.80,0:13:38.15,*Default,NTP,0000,0000,0000,,and so indeed, this is the result that we got.
+Dialogue: 0,0:13:39.29,0:13:40.35,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:13:40.35,0:13:42.69,*Default,NTP,0000,0000,0000,,So we have all of this part.
+Dialogue: 0,0:13:42.69,0:13:45.56,*Default,NTP,0000,0000,0000,,Now let's take care of this list here
+Dialogue: 0,0:13:45.56,0:13:46.96,*Default,NTP,0000,0000,0000,,and this heading.
+Dialogue: 0,0:13:46.96,0:13:48.92,*Default,NTP,0000,0000,0000,,And finally then also this button.
+Dialogue: 0,0:13:50.52,0:13:55.52,*Default,NTP,0000,0000,0000,,So I have an h2 already up here, right?
+Dialogue: 0,0:13:56.85,0:14:00.10,*Default,NTP,0000,0000,0000,,And so for this one, I'm using an h3 now.
+Dialogue: 0,0:14:02.31,0:14:03.14,*Default,NTP,0000,0000,0000,,H3.
+Dialogue: 0,0:14:04.15,0:14:05.20,*Default,NTP,0000,0000,0000,,And closing it.
+Dialogue: 0,0:14:09.07,0:14:09.90,*Default,NTP,0000,0000,0000,,Nice.
+Dialogue: 0,0:14:09.90,0:14:12.04,*Default,NTP,0000,0000,0000,,And now remember,
+Dialogue: 0,0:14:12.04,0:14:15.91,*Default,NTP,0000,0000,0000,,in order to create a list, which is what we want here,
+Dialogue: 0,0:14:15.91,0:14:17.73,*Default,NTP,0000,0000,0000,,so a bullet-pointed list,
+Dialogue: 0,0:14:17.73,0:14:20.50,*Default,NTP,0000,0000,0000,,we use the unordered element
+Dialogue: 0,0:14:20.50,0:14:23.43,*Default,NTP,0000,0000,0000,,or actually, the unordered list element.
+Dialogue: 0,0:14:25.02,0:14:27.33,*Default,NTP,0000,0000,0000,,And now we just wrap all
+Dialogue: 0,0:14:27.33,0:14:31.89,*Default,NTP,0000,0000,0000,,of these into one li element, right?
+Dialogue: 0,0:14:33.18,0:14:36.10,*Default,NTP,0000,0000,0000,,So I hope that at this point,
+Dialogue: 0,0:14:36.10,0:14:38.90,*Default,NTP,0000,0000,0000,,you already know these elements.
+Dialogue: 0,0:14:40.01,0:14:41.74,*Default,NTP,0000,0000,0000,,So you have practiced a lot
+Dialogue: 0,0:14:41.74,0:14:43.48,*Default,NTP,0000,0000,0000,,and so I'm sure
+Dialogue: 0,0:14:43.48,0:14:48.48,*Default,NTP,0000,0000,0000,,that this is getting a lot more easy for you now.
+Dialogue: 0,0:14:50.23,0:14:52.35,*Default,NTP,0000,0000,0000,,Let's just remove this dot here
+Dialogue: 0,0:14:52.35,0:14:53.71,*Default,NTP,0000,0000,0000,,and we are almost done.
+Dialogue: 0,0:14:54.72,0:14:58.27,*Default,NTP,0000,0000,0000,,So all we need now is that button in the end.
+Dialogue: 0,0:14:58.27,0:15:00.89,*Default,NTP,0000,0000,0000,,And so as I showed you before,
+Dialogue: 0,0:15:00.89,0:15:04.39,*Default,NTP,0000,0000,0000,,for that, we can simply use the button element in HTML.
+Dialogue: 0,0:15:05.95,0:15:07.07,*Default,NTP,0000,0000,0000,,So add to cart.
+Dialogue: 0,0:15:07.95,0:15:09.32,*Default,NTP,0000,0000,0000,,And of course, that button,
+Dialogue: 0,0:15:10.42,0:15:13.32,*Default,NTP,0000,0000,0000,,so clicking that button will not do anything.
+Dialogue: 0,0:15:13.32,0:15:16.09,*Default,NTP,0000,0000,0000,,For that, we would need some JavaScript.
+Dialogue: 0,0:15:16.09,0:15:20.43,*Default,NTP,0000,0000,0000,,But at least it is here visible, okay?
+Dialogue: 0,0:15:20.43,0:15:23.65,*Default,NTP,0000,0000,0000,,And we see here that we have 80 unsaved changes.
+Dialogue: 0,0:15:23.65,0:15:26.31,*Default,NTP,0000,0000,0000,,So if you want to preserve those changes again,
+Dialogue: 0,0:15:26.31,0:15:28.16,*Default,NTP,0000,0000,0000,,you would have to save the CodePen
+Dialogue: 0,0:15:29.21,0:15:31.51,*Default,NTP,0000,0000,0000,,and create a free account in order to do that.
+Dialogue: 0,0:15:32.90,0:15:36.19,*Default,NTP,0000,0000,0000,,Oh and I thought that we were actually done
+Dialogue: 0,0:15:36.19,0:15:37.08,*Default,NTP,0000,0000,0000,,with this challenge
+Dialogue: 0,0:15:37.08,0:15:40.35,*Default,NTP,0000,0000,0000,,but there is one small piece missing.
+Dialogue: 0,0:15:40.35,0:15:44.52,*Default,NTP,0000,0000,0000,,So this text here in the original is actually bold.
+Dialogue: 0,0:15:45.76,0:15:47.83,*Default,NTP,0000,0000,0000,,So that's the only difference.
+Dialogue: 0,0:15:48.87,0:15:50.61,*Default,NTP,0000,0000,0000,,So that's something that we're missing.
+Dialogue: 0,0:15:50.61,0:15:54.49,*Default,NTP,0000,0000,0000,,And so let's simply wrap this value here,
+Dialogue: 0,0:15:54.49,0:15:57.89,*Default,NTP,0000,0000,0000,,so all this text into a strong element.
+Dialogue: 0,0:15:58.73,0:16:01.22,*Default,NTP,0000,0000,0000,,Not string, strong.
+Dialogue: 0,0:16:05.01,0:16:06.98,*Default,NTP,0000,0000,0000,,And you see now at this point,
+Dialogue: 0,0:16:06.98,0:16:09.83,*Default,NTP,0000,0000,0000,,we didn't close this tag,
+Dialogue: 0,0:16:09.83,0:16:11.35,*Default,NTP,0000,0000,0000,,so this strong element
+Dialogue: 0,0:16:11.35,0:16:12.89,*Default,NTP,0000,0000,0000,,and so now all the rest
+Dialogue: 0,0:16:12.89,0:16:16.00,*Default,NTP,0000,0000,0000,,of the content basically became strong.
+Dialogue: 0,0:16:16.00,0:16:17.75,*Default,NTP,0000,0000,0000,,So everything is bold now
+Dialogue: 0,0:16:17.75,0:16:20.39,*Default,NTP,0000,0000,0000,,because this element never ends.
+Dialogue: 0,0:16:20.39,0:16:24.51,*Default,NTP,0000,0000,0000,,But, of course, that would be a mistake.
+Dialogue: 0,0:16:24.51,0:16:26.70,*Default,NTP,0000,0000,0000,,It wouldn't even be valid HTML
+Dialogue: 0,0:16:26.70,0:16:29.52,*Default,NTP,0000,0000,0000,,but the browsers somehow still
+Dialogue: 0,0:16:29.52,0:16:32.17,*Default,NTP,0000,0000,0000,,are able to render it somehow.
+Dialogue: 0,0:16:32.17,0:16:35.54,*Default,NTP,0000,0000,0000,,But anyway, with this, we finished this challenge
+Dialogue: 0,0:16:35.54,0:16:39.86,*Default,NTP,0000,0000,0000,,and actually also the introduction to HTML section.
+Dialogue: 0,0:16:39.86,0:16:42.32,*Default,NTP,0000,0000,0000,,So make sure to review everything
+Dialogue: 0,0:16:42.32,0:16:44.40,*Default,NTP,0000,0000,0000,,that you just learned in the section,
+Dialogue: 0,0:16:44.40,0:16:47.98,*Default,NTP,0000,0000,0000,,all your new skills and then once you are ready,
+Dialogue: 0,0:16:47.98,0:16:51.09,*Default,NTP,0000,0000,0000,,we can together move on to our next section,
+Dialogue: 0,0:16:51.09,0:16:54.02,*Default,NTP,0000,0000,0000,,which will be the fundamentals of CSS.
+Dialogue: 0,0:16:54.02,0:16:56.12,*Default,NTP,0000,0000,0000,,And so there you will finally learn
+Dialogue: 0,0:16:56.12,0:16:58.52,*Default,NTP,0000,0000,0000,,how to actually style your content
+Dialogue: 0,0:16:58.52,0:17:01.17,*Default,NTP,0000,0000,0000,,and make it look a little bit more polished
+Dialogue: 0,0:17:01.17,0:17:02.67,*Default,NTP,0000,0000,0000,,and more beautiful.
+Dialogue: 0,0:17:02.67,0:17:04.76,*Default,NTP,0000,0000,0000,,So that's really, really exciting
+Dialogue: 0,0:17:04.76,0:17:09.01,*Default,NTP,0000,0000,0000,,and so yeah, once you're ready, let's move on there.
+Dialogue: 0,0:17:09.01,0:17:09.84,*Default,NTP,0000,0000,0000,,See you soon.

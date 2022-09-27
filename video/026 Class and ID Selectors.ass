@@ -1,0 +1,592 @@
+[Script Info]
+Title: 026 Class and ID Selectors_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=24&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.49,0:00:04.11,*Default,NTP,0000,0000,0000,,在上一堂课的最后，
+Dialogue: 0,0:00:04.11,0:00:06.25,*Default,NTP,0000,0000,0000,,我们讨论了它会如何
+Dialogue: 0,0:00:06.25,0:00:08.93,*Default,NTP,0000,0000,0000,,能够命名一些元素
+Dialogue: 0,0:00:08.93,0:00:13.21,*Default,NTP,0000,0000,0000,,然后使用这些名称在 CSS 中选择它们。
+Dialogue: 0,0:00:13.21,0:00:14.49,*Default,NTP,0000,0000,0000,,所以在这个视频中，
+Dialogue: 0,0:00:14.49,0:00:19.49,*Default,NTP,0000,0000,0000,,我们将学习使用类和 ID 来做到这一点。
+Dialogue: 0,0:00:21.17,0:00:23.63,*Default,NTP,0000,0000,0000,,所以记得在上一堂课是怎么做的
+Dialogue: 0,0:00:23.63,0:00:28.23,*Default,NTP,0000,0000,0000,,我们只想将这里的文本设置为斜体。
+Dialogue: 0,0:00:28.23,0:00:31.46,*Default,NTP,0000,0000,0000,,所以这个标题里面的这段，
+Dialogue: 0,0:00:31.46,0:00:33.64,*Default,NTP,0000,0000,0000,,但不是这个其他段落
+Dialogue: 0,0:00:33.64,0:00:36.04,*Default,NTP,0000,0000,0000,,这也是标题的内部。
+Dialogue: 0,0:00:36.04,0:00:38.03,*Default,NTP,0000,0000,0000,,所以我们想出了解决方案
+Dialogue: 0,0:00:38.03,0:00:41.88,*Default,NTP,0000,0000,0000,,只选择标题内的段落
+Dialogue: 0,0:00:41.88,0:00:44.46,*Default,NTP,0000,0000,0000,,在文章里面。
+Dialogue: 0,0:00:44.46,0:00:46.03,*Default,NTP,0000,0000,0000,,记住这一点。
+Dialogue: 0,0:00:46.03,0:00:48.67,*Default,NTP,0000,0000,0000,,问题在于，这本质上是
+Dialogue: 0,0:00:48.67,0:00:53.41,*Default,NTP,0000,0000,0000,,将 HTML 结构编码到我们的 CSS 选择器中。
+Dialogue: 0,0:00:53.41,0:00:55.66,*Default,NTP,0000,0000,0000,,这不是一个好主意。
+Dialogue: 0,0:00:55.66,0:01:00.19,*Default,NTP,0000,0000,0000,,因此，我们现在基本上将这里命名为这个元素
+Dialogue: 0,0:01:00.19,0:01:02.61,*Default,NTP,0000,0000,0000,,用一个叫做 ID 的东西。
+Dialogue: 0,0:01:02.61,0:01:03.54,*Default,NTP,0000,0000,0000,,就这样，
+Dialogue: 0,0:01:03.54,0:01:06.13,*Default,NTP,0000,0000,0000,,然后我们可以避免写一个大的
+Dialogue: 0,0:01:06.13,0:01:08.62,*Default,NTP,0000,0000,0000,,和这样的长选择器。
+Dialogue: 0,0:01:10.04,0:01:12.23,*Default,NTP,0000,0000,0000,,所以我们就到这里吧。
+Dialogue: 0,0:01:12.23,0:01:16.11,*Default,NTP,0000,0000,0000,,有问题的段落就是这里的这一段。
+Dialogue: 0,0:01:16.11,0:01:21.11,*Default,NTP,0000,0000,0000,,所以现在我们可以指定一个称为 ID 的特殊属性。
+Dialogue: 0,0:01:21.64,0:01:24.21,*Default,NTP,0000,0000,0000,,所以这个属性叫做ID。
+Dialogue: 0,0:01:24.21,0:01:28.29,*Default,NTP,0000,0000,0000,,现在让我们简单地称其为作者。
+Dialogue: 0,0:01:28.29,0:01:31.20,*Default,NTP,0000,0000,0000,,所以在这里记住这个名字，作者。
+Dialogue: 0,0:01:31.20,0:01:32.92,*Default,NTP,0000,0000,0000,,所以现在这个元素在这里，
+Dialogue: 0,0:01:32.92,0:01:36.40,*Default,NTP,0000,0000,0000,,这一段基本上被称为作者。
+Dialogue: 0,0:01:36.40,0:01:41.40,*Default,NTP,0000,0000,0000,,所以现在在 Or CSS 中，我们可以使用 Hash 选择器。
+Dialogue: 0,0:01:42.33,0:01:46.26,*Default,NTP,0000,0000,0000,,所以这个，其实就是ID选择器。
+Dialogue: 0,0:01:46.26,0:01:50.80,*Default,NTP,0000,0000,0000,,所以哈希，现在是我们刚刚指定的 ID 的名称。
+Dialogue: 0,0:01:51.78,0:01:53.73,*Default,NTP,0000,0000,0000,,现在我们可以，
+Dialogue: 0,0:01:53.73,0:01:58.73,*Default,NTP,0000,0000,0000,,再一次将字体样式设置为斜体，对吧？
+Dialogue: 0,0:02:00.61,0:02:02.96,*Default,NTP,0000,0000,0000,,现在我们可以在这里摆脱这段代码
+Dialogue: 0,0:02:02.96,0:02:05.66,*Default,NTP,0000,0000,0000,,因为不再需要了。
+Dialogue: 0,0:02:05.66,0:02:08.09,*Default,NTP,0000,0000,0000,,现在，与其删除这段代码，
+Dialogue: 0,0:02:08.09,0:02:10.05,*Default,NTP,0000,0000,0000,,我真的想把它留在这里。
+Dialogue: 0,0:02:10.05,0:02:14.18,*Default,NTP,0000,0000,0000,,所以我们可以做一些类似于我们在 HTML 中做的事情，
+Dialogue: 0,0:02:14.18,0:02:16.29,*Default,NTP,0000,0000,0000,,我们写评论的地方。
+Dialogue: 0,0:02:16.29,0:02:17.12,*Default,NTP,0000,0000,0000,,记住这一点。
+Dialogue: 0,0:02:18.01,0:02:22.94,*Default,NTP,0000,0000,0000,,所以在这里我们写了一些 HTML 注释来保留这段代码
+Dialogue: 0,0:02:22.94,0:02:26.26,*Default,NTP,0000,0000,0000,,没有真正活跃，对吧？
+Dialogue: 0,0:02:26.26,0:02:28.56,*Default,NTP,0000,0000,0000,,所以在 HTML 中，我们也可以这样做。
+Dialogue: 0,0:02:29.45,0:02:31.50,*Default,NTP,0000,0000,0000,,它只是以不同的方式工作。
+Dialogue: 0,0:02:31.50,0:02:32.64,*Default,NTP,0000,0000,0000,,所以在 CSS 中，
+Dialogue: 0,0:02:32.64,0:02:36.24,*Default,NTP,0000,0000,0000,,我们先写一个斜线然后是星
+Dialogue: 0,0:02:36.24,0:02:38.50,*Default,NTP,0000,0000,0000,,然后从这个地方开始
+Dialogue: 0,0:02:38.50,0:02:40.81,*Default,NTP,0000,0000,0000,,其他一切都将是评论。
+Dialogue: 0,0:02:40.81,0:02:42.64,*Default,NTP,0000,0000,0000,,所以我们需要关闭这个评论
+Dialogue: 0,0:02:42.64,0:02:45.62,*Default,NTP,0000,0000,0000,,因为我们当然希望此代码处于活动状态。
+Dialogue: 0,0:02:45.62,0:02:48.02,*Default,NTP,0000,0000,0000,,所以我们现在写相反的。
+Dialogue: 0,0:02:48.02,0:02:50.16,*Default,NTP,0000,0000,0000,,所以星和斜线。
+Dialogue: 0,0:02:51.36,0:02:53.16,*Default,NTP,0000,0000,0000,,所以现在只有这个是灰色的
+Dialogue: 0,0:02:53.16,0:02:55.92,*Default,NTP,0000,0000,0000,,所以只有这个是评论。
+Dialogue: 0,0:02:55.92,0:02:58.18,*Default,NTP,0000,0000,0000,,所以如果我现在保存这个，
+Dialogue: 0,0:02:58.18,0:03:01.13,*Default,NTP,0000,0000,0000,,然后你会看到，事实上，只有这个文本，
+Dialogue: 0,0:03:01.13,0:03:05.20,*Default,NTP,0000,0000,0000,,所以只有这一段是斜体，而不是这一段。
+Dialogue: 0,0:03:06.04,0:03:08.84,*Default,NTP,0000,0000,0000,,让我们在这里实际添加另一种样式。
+Dialogue: 0,0:03:08.84,0:03:10.56,*Default,NTP,0000,0000,0000,,所以另一个声明。
+Dialogue: 0,0:03:11.59,0:03:16.59,*Default,NTP,0000,0000,0000,,让我们将字体大小设置为 18 像素。
+Dialogue: 0,0:03:17.71,0:03:19.21,*Default,NTP,0000,0000,0000,,所以让它变小一点
+Dialogue: 0,0:03:19.21,0:03:23.43,*Default,NTP,0000,0000,0000,,因为记住其他段落的大小是 22 像素。
+Dialogue: 0,0:03:24.56,0:03:27.64,*Default,NTP,0000,0000,0000,,事实上，这里的这个变小了
+Dialogue: 0,0:03:27.64,0:03:29.44,*Default,NTP,0000,0000,0000,,和所有其他段落，
+Dialogue: 0,0:03:29.44,0:03:32.69,*Default,NTP,0000,0000,0000,,当然包括这里的这个，保持不变。
+Dialogue: 0,0:03:33.56,0:03:38.21,*Default,NTP,0000,0000,0000,,现在让我们做一些类似于这里的版权文本的事情。
+Dialogue: 0,0:03:38.21,0:03:40.41,*Default,NTP,0000,0000,0000,,所以这个，和那个，\N00:03:40,410--> 00:03:44,570\N然后我们将在此处替换此 CSS 规则。\N\N72
+Dialogue: 0,0:03:44.57,0:03:48.05,*Default,NTP,0000,0000,0000,,所以我们可以再次用我刚才的方式评论它，
+Dialogue: 0,0:03:48.05,0:03:51.58,*Default,NTP,0000,0000,0000,,但实际上让我向您展示一个不错的 VS 代码技巧。
+Dialogue: 0,0:03:51.58,0:03:53.43,*Default,NTP,0000,0000,0000,,所以为了注释代码
+Dialogue: 0,0:03:53.43,0:03:56.12,*Default,NTP,0000,0000,0000,,你以前这样选择的，
+Dialogue: 0,0:03:56.12,0:04:01.07,*Default,NTP,0000,0000,0000,,您所要做的就是按 Command 或 Control + Slash。
+Dialogue: 0,0:04:01.07,0:04:02.89,*Default,NTP,0000,0000,0000,,所以我现在就这么做。
+Dialogue: 0,0:04:02.89,0:04:04.92,*Default,NTP,0000,0000,0000,,所以你会自动看到它
+Dialogue: 0,0:04:04.92,0:04:07.77,*Default,NTP,0000,0000,0000,,在这里编辑这些评论，对吧？
+Dialogue: 0,0:04:07.77,0:04:10.45,*Default,NTP,0000,0000,0000,,如果我然后点击命令或控制
+Dialogue: 0,0:04:10.45,0:04:13.64,*Default,NTP,0000,0000,0000,,再次在 Windows 上加上 Slash，
+Dialogue: 0,0:04:13.64,0:04:15.75,*Default,NTP,0000,0000,0000,,然后它会关闭评论。
+Dialogue: 0,0:04:15.75,0:04:20.32,*Default,NTP,0000,0000,0000,,所以我可以在这两种模式之间来回切换。
+Dialogue: 0,0:04:20.32,0:04:22.37,*Default,NTP,0000,0000,0000,,所以如果我们现在重新加载它，
+Dialogue: 0,0:04:22.37,0:04:25.55,*Default,NTP,0000,0000,0000,,当然它会回到 22 像素。
+Dialogue: 0,0:04:25.55,0:04:29.79,*Default,NTP,0000,0000,0000,,所以让我们转到我们的 HTML 并给它一个名字。
+Dialogue: 0,0:04:30.99,0:04:33.88,*Default,NTP,0000,0000,0000,,所以一个使用ID属性的名字。
+Dialogue: 0,0:04:35.46,0:04:38.94,*Default,NTP,0000,0000,0000,,所以ID，让我们说版权。
+Dialogue: 0,0:04:40.05,0:04:42.18,*Default,NTP,0000,0000,0000,,然后让我们选择这个文本，
+Dialogue: 0,0:04:42.18,0:04:45.47,*Default,NTP,0000,0000,0000,,复制它并粘贴到这里。
+Dialogue: 0,0:04:45.47,0:04:49.13,*Default,NTP,0000,0000,0000,,记住我们像这样使用 ID 选择器，\N00:04:49,130​​ --> 00:04:51,403\N加上我们刚刚指定的名称，\N\N93
+Dialogue: 0,0:04:53.49,0:04:58.10,*Default,NTP,0000,0000,0000,,让我们回到 16 像素的字体大小。
+Dialogue: 0,0:05:00.32,0:05:02.88,*Default,NTP,0000,0000,0000,,就在这里。
+Dialogue: 0,0:05:02.88,0:05:05.24,*Default,NTP,0000,0000,0000,,所以它再次起作用了。
+Dialogue: 0,0:05:05.24,0:05:07.09,*Default,NTP,0000,0000,0000,,现在，除了身份证，
+Dialogue: 0,0:05:07.09,0:05:10.54,*Default,NTP,0000,0000,0000,,实际上还有另一种给元素命名的方法，
+Dialogue: 0,0:05:10.54,0:05:15.29,*Default,NTP,0000,0000,0000,,这是通过使用类而不是 ID。
+Dialogue: 0,0:05:15.29,0:05:19.19,*Default,NTP,0000,0000,0000,,所以我们在这里指定了id属性
+Dialogue: 0,0:05:19.19,0:05:20.97,*Default,NTP,0000,0000,0000,,给这个元素一个名字，
+Dialogue: 0,0:05:20.97,0:05:24.73,*Default,NTP,0000,0000,0000,,但我们也可以使用 Class 属性。
+Dialogue: 0,0:05:24.73,0:05:28.54,*Default,NTP,0000,0000,0000,,现在ID和类之间的巨大区别
+Dialogue: 0,0:05:28.54,0:05:32.77,*Default,NTP,0000,0000,0000,,是我们不允许重复ID名称，
+Dialogue: 0,0:05:32.77,0:05:34.08,*Default,NTP,0000,0000,0000,,或者换句话说，
+Dialogue: 0,0:05:34.08,0:05:38.15,*Default,NTP,0000,0000,0000,,我们只能使用每个 ID 名称一次。
+Dialogue: 0,0:05:38.15,0:05:42.55,*Default,NTP,0000,0000,0000,,所以现在不允许添加版权ID
+Dialogue: 0,0:05:42.55,0:05:44.59,*Default,NTP,0000,0000,0000,,到别的东西。
+Dialogue: 0,0:05:44.59,0:05:47.23,*Default,NTP,0000,0000,0000,,所以我不能，例如，
+Dialogue: 0,0:05:47.23,0:05:52.23,*Default,NTP,0000,0000,0000,,现在去这里添加版权的ID。
+Dialogue: 0,0:05:52.96,0:05:56.79,*Default,NTP,0000,0000,0000,,所以这实际上是无效的 HTML。
+Dialogue: 0,0:05:56.79,0:05:59.29,*Default,NTP,0000,0000,0000,,所以我们不允许这样做。
+Dialogue: 0,0:05:59.29,0:06:03.57,*Default,NTP,0000,0000,0000,,所以如果我们需要多次重用一个名字，
+Dialogue: 0,0:06:03.57,0:06:06.86,*Default,NTP,0000,0000,0000,,那么我们需要为此使用类。
+Dialogue: 0,0:06:06.86,0:06:08.27,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:08.27,0:06:11.37,*Default,NTP,0000,0000,0000,,因此，让我向您展示一个使用类的示例。
+Dialogue: 0,0:06:11.37,0:06:15.68,*Default,NTP,0000,0000,0000,,所以我现在想做的就是在这里给这些作者设置样式
+Dialogue: 0,0:06:15.68,0:06:19.92,*Default,NTP,0000,0000,0000,,这三个相关的帖子以不同的方式。
+Dialogue: 0,0:06:19.92,0:06:23.75,*Default,NTP,0000,0000,0000,,所以基本上这就是这里的P元素
+Dialogue: 0,0:06:23.75,0:06:26.51,*Default,NTP,0000,0000,0000,,还有这个和这个。
+Dialogue: 0,0:06:26.51,0:06:27.59,*Default,NTP,0000,0000,0000,,再说一次，
+Dialogue: 0,0:06:27.59,0:06:32.59,*Default,NTP,0000,0000,0000,,我现在不能使用相关作者的 ID。
+Dialogue: 0,0:06:33.46,0:06:36.47,*Default,NTP,0000,0000,0000,,因此，我需要使用 Class 属性。
+Dialogue: 0,0:06:37.75,0:06:42.75,*Default,NTP,0000,0000,0000,,我们称它为相关作者。
+Dialogue: 0,0:06:42.89,0:06:44.04,*Default,NTP,0000,0000,0000,,所以在 CSS 中，
+Dialogue: 0,0:06:44.04,0:06:48.59,*Default,NTP,0000,0000,0000,,这是一个约定，如果我们有一个类或一个 ID 名称
+Dialogue: 0,0:06:48.59,0:06:50.25,*Default,NTP,0000,0000,0000,,用多个词，
+Dialogue: 0,0:06:50.25,0:06:54.19,*Default,NTP,0000,0000,0000,,我们像这样用破折号分隔这些词。
+Dialogue: 0,0:06:54.19,0:06:57.70,*Default,NTP,0000,0000,0000,,例如，您也可以使用下划线。
+Dialogue: 0,0:06:57.70,0:06:59.32,*Default,NTP,0000,0000,0000,,所以这也是有效的，
+Dialogue: 0,0:06:59.32,0:07:01.66,*Default,NTP,0000,0000,0000,,但这只是 CSS 中的约定
+Dialogue: 0,0:07:01.66,0:07:04.76,*Default,NTP,0000,0000,0000,,总是像这样使用 Dash。
+Dialogue: 0,0:07:04.76,0:07:05.59,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:07:06.78,0:07:08.13,*Default,NTP,0000,0000,0000,,所以无论如何，
+Dialogue: 0,0:07:08.13,0:07:09.63,*Default,NTP,0000,0000,0000,,现在让我们在这里抓住这个
+Dialogue: 0,0:07:09.63,0:07:12.32,*Default,NTP,0000,0000,0000,,并将其粘贴到所有这些段落中。
+Dialogue: 0,0:07:14.52,0:07:17.68,*Default,NTP,0000,0000,0000,,所以相关作者三遍。
+Dialogue: 0,0:07:18.53,0:07:22.26,*Default,NTP,0000,0000,0000,,现在让我们来看看我们的 CSS
+Dialogue: 0,0:07:22.26,0:07:26.29,*Default,NTP,0000,0000,0000,,并为所有具有此类的元素设置样式。
+Dialogue: 0,0:07:26.29,0:07:31.14,*Default,NTP,0000,0000,0000,,所以对于 ID，我们使用 Hash 来选择它们。
+Dialogue: 0,0:07:31.14,0:07:33.86,*Default,NTP,0000,0000,0000,,对于类，我们使用点。
+Dialogue: 0,0:07:33.86,0:07:36.41,*Default,NTP,0000,0000,0000,,所以这是类选择器。
+Dialogue: 0,0:07:36.41,0:07:37.52,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:07:37.52,0:07:40.05,*Default,NTP,0000,0000,0000,,所以相关作者。
+Dialogue: 0,0:07:41.04,0:07:43.34,*Default,NTP,0000,0000,0000,,假设我们想要
+Dialogue: 0,0:07:43.34,0:07:48.34,*Default,NTP,0000,0000,0000,,假设字体大小为 18 像素。
+Dialogue: 0,0:07:49.77,0:07:53.09,*Default,NTP,0000,0000,0000,,我们还要指定一个新的文本属性
+Dialogue: 0,0:07:53.09,0:07:57.05,*Default,NTP,0000,0000,0000,,我们之前没学过的，就是font-weight。
+Dialogue: 0,0:07:58.06,0:08:01.90,*Default,NTP,0000,0000,0000,,例如，我们可以使用这个来使文本变为粗体。
+Dialogue: 0,0:08:02.92,0:08:06.03,*Default,NTP,0000,0000,0000,,如您所见，也许在这里，有多种选择。
+Dialogue: 0,0:08:06.03,0:08:09.75,*Default,NTP,0000,0000,0000,,我们可以使用一些数字，但稍后我们将使用它。
+Dialogue: 0,0:08:09.75,0:08:14.75,*Default,NTP,0000,0000,0000,,现在，让我们只使用一个关键字，即 Bold。
+Dialogue: 0,0:08:14.96,0:08:18.00,*Default,NTP,0000,0000,0000,,所以让我们保存它以查看结果。
+Dialogue: 0,0:08:18.00,0:08:23.00,*Default,NTP,0000,0000,0000,,事实上，现在只有这三个段落不同。
+Dialogue: 0,0:08:24.18,0:08:26.39,*Default,NTP,0000,0000,0000,,所以他们很大胆，他们更小
+Dialogue: 0,0:08:26.39,0:08:27.92,*Default,NTP,0000,0000,0000,,比所有其他段落。
+Dialogue: 0,0:08:28.82,0:08:32.31,*Default,NTP,0000,0000,0000,,所以当然在 HTML 中，它们仍然是段落，
+Dialogue: 0,0:08:32.31,0:08:37.27,*Default,NTP,0000,0000,0000,,但现在他们在这里得到了这些额外的样式，对吧？
+Dialogue: 0,0:08:37.27,0:08:40.21,*Default,NTP,0000,0000,0000,,现在，也许你现在想知道一些事情，
+Dialogue: 0,0:08:40.21,0:08:42.69,*Default,NTP,0000,0000,0000,,那就是我们现在实际上，
+Dialogue: 0,0:08:42.69,0:08:46.99,*Default,NTP,0000,0000,0000,,多次选择这些段落，对吗？
+Dialogue: 0,0:08:46.99,0:08:51.99,*Default,NTP,0000,0000,0000,,所以我们这里选择这一段，其实对吧？
+Dialogue: 0,0:08:52.41,0:08:55.31,*Default,NTP,0000,0000,0000,,但我们也在这里选择它
+Dialogue: 0,0:08:55.31,0:08:59.15,*Default,NTP,0000,0000,0000,,我们实际上也在此处选择它。
+Dialogue: 0,0:08:59.15,0:09:03.61,*Default,NTP,0000,0000,0000,,所以现在我们三度选择了这一段。
+Dialogue: 0,0:09:03.61,0:09:05.01,*Default,NTP,0000,0000,0000,,所以你可能在想
+Dialogue: 0,0:09:05.01,0:09:08.60,*Default,NTP,0000,0000,0000,,其中哪一个得到实际应用。
+Dialogue: 0,0:09:08.60,0:09:12.02,*Default,NTP,0000,0000,0000,,所以这不是某种冲突吗？
+Dialogue: 0,0:09:12.02,0:09:14.19,*Default,NTP,0000,0000,0000,,嗯，简短的回答是
+Dialogue: 0,0:09:14.19,0:09:17.50,*Default,NTP,0000,0000,0000,,实际上所有这些选择器都适用。
+Dialogue: 0,0:09:17.50,0:09:19.48,*Default,NTP,0000,0000,0000,,所以所有这三个规则
+Dialogue: 0,0:09:19.48,0:09:22.87,*Default,NTP,0000,0000,0000,,三个选择器中的一个确实适用。
+Dialogue: 0,0:09:22.87,0:09:26.23,*Default,NTP,0000,0000,0000,,但我将更多地解释所有这些是如何工作的
+Dialogue: 0,0:09:26.23,0:09:29.57,*Default,NTP,0000,0000,0000,,以及为什么它在一个额外的视频中以这种方式工作，
+Dialogue: 0,0:09:29.57,0:09:31.78,*Default,NTP,0000,0000,0000,,因为这是非常重要的事情
+Dialogue: 0,0:09:31.78,0:09:35.98,*Default,NTP,0000,0000,0000,,为了掌握 CSS，您需要了解这些内容。
+Dialogue: 0,0:09:35.98,0:09:40.27,*Default,NTP,0000,0000,0000,,所以这个话题本身就值得专门讲一讲，
+Dialogue: 0,0:09:40.27,0:09:43.53,*Default,NTP,0000,0000,0000,,这将在本节稍后介绍。
+Dialogue: 0,0:09:43.53,0:09:46.99,*Default,NTP,0000,0000,0000,,但现在在这里前进，
+Dialogue: 0,0:09:46.99,0:09:50.19,*Default,NTP,0000,0000,0000,,现在让我给你一个小小的挑战。
+Dialogue: 0,0:09:50.19,0:09:54.35,*Default,NTP,0000,0000,0000,,所以我想做的是删除项目符号
+Dialogue: 0,0:09:54.35,0:09:56.36,*Default,NTP,0000,0000,0000,,这里只有这个列表。
+Dialogue: 0,0:09:57.36,0:10:00.43,*Default,NTP,0000,0000,0000,,所以请记住，我们为此创建了一个列表。
+Dialogue: 0,0:10:00.43,0:10:04.15,*Default,NTP,0000,0000,0000,,所以当然，这个现在有要点。
+Dialogue: 0,0:10:05.02,0:10:08.40,*Default,NTP,0000,0000,0000,,所以我希望你在这里只选择这个列表，
+Dialogue: 0,0:10:08.40,0:10:11.69,*Default,NTP,0000,0000,0000,,只有这个元素并删除它的要点。
+Dialogue: 0,0:10:12.59,0:10:15.88,*Default,NTP,0000,0000,0000,,现在我们从未删除任何项目符号。
+Dialogue: 0,0:10:15.88,0:10:18.11,*Default,NTP,0000,0000,0000,,因此，让我向您展示它是如何工作的。
+Dialogue: 0,0:10:18.11,0:10:20.26,*Default,NTP,0000,0000,0000,,为此，我现在实际上，
+Dialogue: 0,0:10:20.26,0:10:22.39,*Default,NTP,0000,0000,0000,,选择所有无序列表。
+Dialogue: 0,0:10:24.10,0:10:28.65,*Default,NTP,0000,0000,0000,,所以这里我们使用属性列表样式
+Dialogue: 0,0:10:28.65,0:10:31.79,*Default,NTP,0000,0000,0000,,并将其设置为无关键字。
+Dialogue: 0,0:10:33.15,0:10:33.98,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:10:35.26,0:10:38.48,*Default,NTP,0000,0000,0000,,所以项目符号从这个中消失了，
+Dialogue: 0,0:10:38.48,0:10:41.04,*Default,NTP,0000,0000,0000,,也是从这一个。
+Dialogue: 0,0:10:41.04,0:10:42.34,*Default,NTP,0000,0000,0000,,所以，正如我所说，
+Dialogue: 0,0:10:42.34,0:10:45.60,*Default,NTP,0000,0000,0000,,我希望你现在在这里只选择这个元素
+Dialogue: 0,0:10:45.60,0:10:48.23,*Default,NTP,0000,0000,0000,,然后删除那里的项目符号。
+Dialogue: 0,0:10:48.23,0:10:53.23,*Default,NTP,0000,0000,0000,,我希望你通过使用一个名为 Related 的类来做到这一点。
+Dialogue: 0,0:10:53.40,0:10:54.46,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:10:54.46,0:10:56.19,*Default,NTP,0000,0000,0000,,所以让我在这里评论这个。
+Dialogue: 0,0:10:57.30,0:10:59.53,*Default,NTP,0000,0000,0000,,所以是的。
+Dialogue: 0,0:10:59.53,0:11:03.70,*Default,NTP,0000,0000,0000,,在此列表中的此元素上创建一个类
+Dialogue: 0,0:11:03.70,0:11:06.71,*Default,NTP,0000,0000,0000,,然后从这个中删除项目符号点。
+Dialogue: 0,0:11:06.71,0:11:09.85,*Default,NTP,0000,0000,0000,,一旦你完成，我会在一分钟内看到你回来。
+Dialogue: 0,0:11:12.80,0:11:14.01,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:11:14.01,0:11:17.63,*Default,NTP,0000,0000,0000,,因此，让我们从 HTML 开始。
+Dialogue: 0,0:11:17.63,0:11:21.10,*Default,NTP,0000,0000,0000,,然后当然这是 UL208
+Dialogue: 0,0:11:21.10,0:11:22.37,*Default,NTP,0000,0000,0000,,我们要选择的。
+Dialogue: 0,0:11:23.43,0:11:26.62,*Default,NTP,0000,0000,0000,,记住我是如何希望你使用 Class 的。
+Dialogue: 0,0:11:26.62,0:11:29.68,*Default,NTP,0000,0000,0000,,我稍后会解释为什么。
+Dialogue: 0,0:11:29.68,0:11:32.68,*Default,NTP,0000,0000,0000,,所以我们在这里使用了名为Related的类，
+Dialogue: 0,0:11:34.71,0:11:38.88,*Default,NTP,0000,0000,0000,,现在我们去我们的CSS
+Dialogue: 0,0:11:38.88,0:11:43.88,*Default,NTP,0000,0000,0000,,并使用我们刚刚命名的 Class 选择此元素。
+Dialogue: 0,0:11:45.75,0:11:49.24,*Default,NTP,0000,0000,0000,,所以当然，像这样使用 Class 选择器。
+Dialogue: 0,0:11:49.24,0:11:51.40,*Default,NTP,0000,0000,0000,,而现在只有这一个，
+Dialogue: 0,0:11:51.40,0:11:55.62,*Default,NTP,0000,0000,0000,,我们说 list-style 应该是 None。
+Dialogue: 0,0:11:55.62,0:11:57.32,*Default,NTP,0000,0000,0000,,给它一个保存，
+Dialogue: 0,0:11:57.32,0:12:00.98,*Default,NTP,0000,0000,0000,,所以这个仍然有要点
+Dialogue: 0,0:12:00.98,0:12:03.06,*Default,NTP,0000,0000,0000,,而这个没有。
+Dialogue: 0,0:12:03.06,0:12:04.29,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:12:04.29,0:12:08.40,*Default,NTP,0000,0000,0000,,所以我们这样做是因为我们不想要这个列表
+Dialogue: 0,0:12:08.40,0:12:10.84,*Default,NTP,0000,0000,0000,,实际上看起来像一个列表。
+Dialogue: 0,0:12:10.84,0:12:14.67,*Default,NTP,0000,0000,0000,,它应该只是语义上的相关帖子列表。
+Dialogue: 0,0:12:16.99,0:12:20.64,*Default,NTP,0000,0000,0000,,但无论如何，让我们现在回到我们的 HTML
+Dialogue: 0,0:12:20.64,0:12:24.61,*Default,NTP,0000,0000,0000,,并谈谈我们为什么使用 Class
+Dialogue: 0,0:12:24.61,0:12:26.38,*Default,NTP,0000,0000,0000,,而不是身份证。
+Dialogue: 0,0:12:26.38,0:12:27.55,*Default,NTP,0000,0000,0000,,因为事实上，
+Dialogue: 0,0:12:27.55,0:12:32.55,*Default,NTP,0000,0000,0000,,相关帖子只有一个列表元素，对吗？
+Dialogue: 0,0:12:32.62,0:12:37.13,*Default,NTP,0000,0000,0000,,所以我们可以很容易地将其称为 ID，对吧？
+Dialogue: 0,0:12:37.13,0:12:40.38,*Default,NTP,0000,0000,0000,,因为记住ID是四个名字
+Dialogue: 0,0:12:40.38,0:12:42.60,*Default,NTP,0000,0000,0000,,只使用一次，
+Dialogue: 0,0:12:42.60,0:12:43.93,*Default,NTP,0000,0000,0000,,而使用类
+Dialogue: 0,0:12:43.93,0:12:47.47,*Default,NTP,0000,0000,0000,,当我们想给多个元素同名时。
+Dialogue: 0,0:12:47.47,0:12:50.46,*Default,NTP,0000,0000,0000,,所以当我们想要为多个元素设置样式时
+Dialogue: 0,0:12:50.46,0:12:52.79,*Default,NTP,0000,0000,0000,,在 CSS 中也是如此。
+Dialogue: 0,0:12:52.79,0:12:54.45,*Default,NTP,0000,0000,0000,,所以知道了这一点，
+Dialogue: 0,0:12:54.45,0:12:59.35,*Default,NTP,0000,0000,0000,,为什么我告诉你使用 Class 而不是 ID？
+Dialogue: 0,0:12:59.35,0:13:03.31,*Default,NTP,0000,0000,0000,,嗯，原因是通常在现实世界中，
+Dialogue: 0,0:13:03.31,0:13:05.35,*Default,NTP,0000,0000,0000,,我们从不使用 ID。
+Dialogue: 0,0:13:05.35,0:13:08.76,*Default,NTP,0000,0000,0000,,我们总是使用类，因为通过使用类，
+Dialogue: 0,0:13:08.76,0:13:11.24,*Default,NTP,0000,0000,0000,,我们为未来做好了准备。
+Dialogue: 0,0:13:11.24,0:13:15.82,*Default,NTP,0000,0000,0000,,所以想象一下我们实际上使用了一个相关的ID，
+Dialogue: 0,0:13:15.82,0:13:18.62,*Default,NTP,0000,0000,0000,,但在稍后的某个时间点，在页面的某个地方，
+Dialogue: 0,0:13:18.62,0:13:22.13,*Default,NTP,0000,0000,0000,,我们想添加另一个相关帖子列表。
+Dialogue: 0,0:13:22.13,0:13:24.99,*Default,NTP,0000,0000,0000,,也许我们想要一个在侧边栏中
+Dialogue: 0,0:13:24.99,0:13:27.53,*Default,NTP,0000,0000,0000,,我们想要一个在页脚。
+Dialogue: 0,0:13:27.53,0:13:30.40,*Default,NTP,0000,0000,0000,,所以想象一个更复杂的布局。
+Dialogue: 0,0:13:30.40,0:13:33.76,*Default,NTP,0000,0000,0000,,那完全有可能，对吧？
+Dialogue: 0,0:13:33.76,0:13:38.40,*Default,NTP,0000,0000,0000,,但是，如果我们一开始就使用了相关的 ID，
+Dialogue: 0,0:13:38.40,0:13:42.82,*Default,NTP,0000,0000,0000,,我们现在必须返回并将该 ID 更改为 Class
+Dialogue: 0,0:13:42.82,0:13:47.03,*Default,NTP,0000,0000,0000,,这样我们现在就可以添加另一个相关帖子列表。
+Dialogue: 0,0:13:47.03,0:13:49.30,*Default,NTP,0000,0000,0000,,所以这将是错误的来源
+Dialogue: 0,0:13:49.30,0:13:52.38,*Default,NTP,0000,0000,0000,,如果我们出于某种原因忘记了这一点。
+Dialogue: 0,0:13:52.38,0:13:56.06,*Default,NTP,0000,0000,0000,,而且我们还必须去我们的CSS
+Dialogue: 0,0:13:56.06,0:13:57.32,*Default,NTP,0000,0000,0000,,并在那里改变。
+Dialogue: 0,0:13:58.17,0:14:01.94,*Default,NTP,0000,0000,0000,,所以起初它是一个相关的ID，
+Dialogue: 0,0:14:01.94,0:14:06.51,*Default,NTP,0000,0000,0000,,我们现在必须回到这里并将其更改为点。
+Dialogue: 0,0:14:06.51,0:14:08.45,*Default,NTP,0000,0000,0000,,所以对于类选择器。
+Dialogue: 0,0:14:08.45,0:14:11.33,*Default,NTP,0000,0000,0000,,虽然这似乎不是一个大问题，
+Dialogue: 0,0:14:11.33,0:14:13.63,*Default,NTP,0000,0000,0000,,它实际上会导致错误。
+Dialogue: 0,0:14:13.63,0:14:18.29,*Default,NTP,0000,0000,0000,,如果我们有一个非常大的项目，那么代码中的错误也是如此。
+Dialogue: 0,0:14:18.29,0:14:19.72,*Default,NTP,0000,0000,0000,,所以默认情况下，
+Dialogue: 0,0:14:19.72,0:14:22.47,*Default,NTP,0000,0000,0000,,我们只是避免了这个潜在的问题
+Dialogue: 0,0:14:22.47,0:14:25.54,*Default,NTP,0000,0000,0000,,通过简单地总是使用类。
+Dialogue: 0,0:14:25.54,0:14:26.73,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:14:26.73,0:14:30.74,*Default,NTP,0000,0000,0000,,现在，我仍然会为您保留此 ID。
+Dialogue: 0,0:14:30.74,0:14:35.48,*Default,NTP,0000,0000,0000,,所以这个版权ID和这个作者ID，
+Dialogue: 0,0:14:36.46,0:14:40.10,*Default,NTP,0000,0000,0000,,只是为了让您也知道如何使用 ID，
+Dialogue: 0,0:14:40.10,0:14:41.36,*Default,NTP,0000,0000,0000,,但在未来，
+Dialogue: 0,0:14:41.36,0:14:44.07,*Default,NTP,0000,0000,0000,,我实际上将不再使用 ID
+Dialogue: 0,0:14:44.07,0:14:47.40,*Default,NTP,0000,0000,0000,,因为正如我刚才所说，在现实世界中，
+Dialogue: 0,0:14:47.40,0:14:49.74,*Default,NTP,0000,0000,0000,,我们总是使用类，
+Dialogue: 0,0:14:49.74,0:14:52.81,*Default,NTP,0000,0000,0000,,即使我们只使用一次类名。
+Dialogue: 0,0:14:52.81,0:14:54.07,*Default,NTP,0000,0000,0000,,因为这样做，
+Dialogue: 0,0:14:54.07,0:14:56.77,*Default,NTP,0000,0000,0000,,我们正在让我们的代码为未来做好准备
+Dialogue: 0,0:14:56.77,0:14:59.90,*Default,NTP,0000,0000,0000,,和为潜在的变化做好准备。
+Dialogue: 0,0:14:59.90,0:15:01.18,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:15:01.18,0:15:03.83,*Default,NTP,0000,0000,0000,,所以我希望这是有道理的。
+Dialogue: 0,0:15:03.83,0:15:06.14,*Default,NTP,0000,0000,0000,,如果你愿意，你现在可以继续
+Dialogue: 0,0:15:06.14,0:15:08.27,*Default,NTP,0000,0000,0000,,并命名更多元素
+Dialogue: 0,0:15:08.27,0:15:10.24,*Default,NTP,0000,0000,0000,,并以不同的方式设计它们，
+Dialogue: 0,0:15:10.24,0:15:12.07,*Default,NTP,0000,0000,0000,,如果你喜欢的话。
+Dialogue: 0,0:15:12.07,0:15:14.94,*Default,NTP,0000,0000,0000,,所以基本上要练习一下，
+Dialogue: 0,0:15:14.94,0:15:16.21,*Default,NTP,0000,0000,0000,,然后如果你愿意
+Dialogue: 0,0:15:16.21,0:15:18.89,*Default,NTP,0000,0000,0000,,你可以跟我一起看下一个视频
+Dialogue: 0,0:15:18.89,0:15:21.67,*Default,NTP,0000,0000,0000,,我们将开始使用颜色。
+Dialogue: 0,0:00:01.49,0:00:04.11,*Default,NTP,0000,0000,0000,,At the end of the previous lecture,
+Dialogue: 0,0:00:04.11,0:00:06.25,*Default,NTP,0000,0000,0000,,we discussed how it would be nice
+Dialogue: 0,0:00:06.25,0:00:08.93,*Default,NTP,0000,0000,0000,,to be able to name some elements
+Dialogue: 0,0:00:08.93,0:00:13.21,*Default,NTP,0000,0000,0000,,and then use those names to select them in CSS.
+Dialogue: 0,0:00:13.21,0:00:14.49,*Default,NTP,0000,0000,0000,,And so in this video,
+Dialogue: 0,0:00:14.49,0:00:19.49,*Default,NTP,0000,0000,0000,,we will learn to do exactly that using Classes and IDs.
+Dialogue: 0,0:00:21.17,0:00:23.63,*Default,NTP,0000,0000,0000,,So remember how in the last lecture
+Dialogue: 0,0:00:23.63,0:00:28.23,*Default,NTP,0000,0000,0000,,we wanted to style only this text here as italic.
+Dialogue: 0,0:00:28.23,0:00:31.46,*Default,NTP,0000,0000,0000,,So this paragraph that is inside this header,
+Dialogue: 0,0:00:31.46,0:00:33.64,*Default,NTP,0000,0000,0000,,but not this other paragraph
+Dialogue: 0,0:00:33.64,0:00:36.04,*Default,NTP,0000,0000,0000,,that is also inside of a header.
+Dialogue: 0,0:00:36.04,0:00:38.03,*Default,NTP,0000,0000,0000,,So we came up with the solution
+Dialogue: 0,0:00:38.03,0:00:41.88,*Default,NTP,0000,0000,0000,,of selecting only the paragraphs inside of headers
+Dialogue: 0,0:00:41.88,0:00:44.46,*Default,NTP,0000,0000,0000,,that are inside of articles.
+Dialogue: 0,0:00:44.46,0:00:46.03,*Default,NTP,0000,0000,0000,,Remember that.
+Dialogue: 0,0:00:46.03,0:00:48.67,*Default,NTP,0000,0000,0000,,The problem with this is that this essentially
+Dialogue: 0,0:00:48.67,0:00:53.41,*Default,NTP,0000,0000,0000,,encodes the HTML structure into our CSS selector.
+Dialogue: 0,0:00:53.41,0:00:55.66,*Default,NTP,0000,0000,0000,,And that is not a good idea.
+Dialogue: 0,0:00:55.66,0:01:00.19,*Default,NTP,0000,0000,0000,,And so instead we will now basically name this element here
+Dialogue: 0,0:01:00.19,0:01:02.61,*Default,NTP,0000,0000,0000,,with something called an ID.
+Dialogue: 0,0:01:02.61,0:01:03.54,*Default,NTP,0000,0000,0000,,And so with that,
+Dialogue: 0,0:01:03.54,0:01:06.13,*Default,NTP,0000,0000,0000,,we can then avoid writing a big
+Dialogue: 0,0:01:06.13,0:01:08.62,*Default,NTP,0000,0000,0000,,and a long selector like this.
+Dialogue: 0,0:01:10.04,0:01:12.23,*Default,NTP,0000,0000,0000,,So let's go here.
+Dialogue: 0,0:01:12.23,0:01:16.11,*Default,NTP,0000,0000,0000,,And the paragraph in question is this one here.
+Dialogue: 0,0:01:16.11,0:01:21.11,*Default,NTP,0000,0000,0000,,And so now we can specify a special attribute called an ID.
+Dialogue: 0,0:01:21.64,0:01:24.21,*Default,NTP,0000,0000,0000,,So the attribute is called ID.
+Dialogue: 0,0:01:24.21,0:01:28.29,*Default,NTP,0000,0000,0000,,And now let's simply call this one Author.
+Dialogue: 0,0:01:28.29,0:01:31.20,*Default,NTP,0000,0000,0000,,So remember this name here, Author.
+Dialogue: 0,0:01:31.20,0:01:32.92,*Default,NTP,0000,0000,0000,,And so now this element here,
+Dialogue: 0,0:01:32.92,0:01:36.40,*Default,NTP,0000,0000,0000,,this paragraph is basically called Author.
+Dialogue: 0,0:01:36.40,0:01:41.40,*Default,NTP,0000,0000,0000,,And so now in Or CSS, we can use the Hash selector.
+Dialogue: 0,0:01:42.33,0:01:46.26,*Default,NTP,0000,0000,0000,,So this one, which is in fact, the ID selector.
+Dialogue: 0,0:01:46.26,0:01:50.80,*Default,NTP,0000,0000,0000,,So Hash and now the name of the ID that we just specified.
+Dialogue: 0,0:01:51.78,0:01:53.73,*Default,NTP,0000,0000,0000,,And now here we can,
+Dialogue: 0,0:01:53.73,0:01:58.73,*Default,NTP,0000,0000,0000,,one more time set the font style to italic now, right?
+Dialogue: 0,0:02:00.61,0:02:02.96,*Default,NTP,0000,0000,0000,,And now we can get rid of this code here
+Dialogue: 0,0:02:02.96,0:02:05.66,*Default,NTP,0000,0000,0000,,because it's no longer necessary.
+Dialogue: 0,0:02:05.66,0:02:08.09,*Default,NTP,0000,0000,0000,,Now, instead of deleting this code,
+Dialogue: 0,0:02:08.09,0:02:10.05,*Default,NTP,0000,0000,0000,,I actually want to keep it here.
+Dialogue: 0,0:02:10.05,0:02:14.18,*Default,NTP,0000,0000,0000,,And so we can do something similar as we did in HTML,
+Dialogue: 0,0:02:14.18,0:02:16.29,*Default,NTP,0000,0000,0000,,where we wrote comments.
+Dialogue: 0,0:02:16.29,0:02:17.12,*Default,NTP,0000,0000,0000,,Remember that.
+Dialogue: 0,0:02:18.01,0:02:22.94,*Default,NTP,0000,0000,0000,,So here we wrote some HTML comments to keep this code here
+Dialogue: 0,0:02:22.94,0:02:26.26,*Default,NTP,0000,0000,0000,,without being actually active, right?
+Dialogue: 0,0:02:26.26,0:02:28.56,*Default,NTP,0000,0000,0000,,And so in HTML, we can do the same.
+Dialogue: 0,0:02:29.45,0:02:31.50,*Default,NTP,0000,0000,0000,,It just works in a different way.
+Dialogue: 0,0:02:31.50,0:02:32.64,*Default,NTP,0000,0000,0000,,So in CSS,
+Dialogue: 0,0:02:32.64,0:02:36.24,*Default,NTP,0000,0000,0000,,we write a Slash then the Star
+Dialogue: 0,0:02:36.24,0:02:38.50,*Default,NTP,0000,0000,0000,,and then from this place on
+Dialogue: 0,0:02:38.50,0:02:40.81,*Default,NTP,0000,0000,0000,,everything else will be a comment.
+Dialogue: 0,0:02:40.81,0:02:42.64,*Default,NTP,0000,0000,0000,,So we need to close this comment
+Dialogue: 0,0:02:42.64,0:02:45.62,*Default,NTP,0000,0000,0000,,because of course we want this code to be active.
+Dialogue: 0,0:02:45.62,0:02:48.02,*Default,NTP,0000,0000,0000,,And so we write now the opposite.
+Dialogue: 0,0:02:48.02,0:02:50.16,*Default,NTP,0000,0000,0000,,So Star and Slash.
+Dialogue: 0,0:02:51.36,0:02:53.16,*Default,NTP,0000,0000,0000,,So now only this is gray
+Dialogue: 0,0:02:53.16,0:02:55.92,*Default,NTP,0000,0000,0000,,and so only this is the comment.
+Dialogue: 0,0:02:55.92,0:02:58.18,*Default,NTP,0000,0000,0000,,So if I save this now,
+Dialogue: 0,0:02:58.18,0:03:01.13,*Default,NTP,0000,0000,0000,,then you see that in fact, that only this text,
+Dialogue: 0,0:03:01.13,0:03:05.20,*Default,NTP,0000,0000,0000,,so only this paragraph is italic and not this one.
+Dialogue: 0,0:03:06.04,0:03:08.84,*Default,NTP,0000,0000,0000,,Let's actually add another style here.
+Dialogue: 0,0:03:08.84,0:03:10.56,*Default,NTP,0000,0000,0000,,So another declaration.
+Dialogue: 0,0:03:11.59,0:03:16.59,*Default,NTP,0000,0000,0000,,And let's set the font size to 18 pixels.
+Dialogue: 0,0:03:17.71,0:03:19.21,*Default,NTP,0000,0000,0000,,So make it a bit smaller
+Dialogue: 0,0:03:19.21,0:03:23.43,*Default,NTP,0000,0000,0000,,because remember how the other paragraphs are 22 pixels big.
+Dialogue: 0,0:03:24.56,0:03:27.64,*Default,NTP,0000,0000,0000,,And indeed this one here got smaller
+Dialogue: 0,0:03:27.64,0:03:29.44,*Default,NTP,0000,0000,0000,,and all the other paragraphs,
+Dialogue: 0,0:03:29.44,0:03:32.69,*Default,NTP,0000,0000,0000,,including of course this one here, stayed the same.
+Dialogue: 0,0:03:33.56,0:03:38.21,*Default,NTP,0000,0000,0000,,Now let's do something similar to the copyright text here.
+Dialogue: 0,0:03:38.21,0:03:40.41,*Default,NTP,0000,0000,0000,,So this one, and with that,
+Dialogue: 0,0:03:40.41,0:03:44.57,*Default,NTP,0000,0000,0000,,we will then replace this CSS rule right here.
+Dialogue: 0,0:03:44.57,0:03:48.05,*Default,NTP,0000,0000,0000,,So we can again, comment it out the way I just did it,
+Dialogue: 0,0:03:48.05,0:03:51.58,*Default,NTP,0000,0000,0000,,but let me actually show you a nice VS code trick.
+Dialogue: 0,0:03:51.58,0:03:53.43,*Default,NTP,0000,0000,0000,,So in order to comment a code
+Dialogue: 0,0:03:53.43,0:03:56.12,*Default,NTP,0000,0000,0000,,that you previously selected like this,
+Dialogue: 0,0:03:56.12,0:04:01.07,*Default,NTP,0000,0000,0000,,all you have to do is to hit Command or Control + Slash.
+Dialogue: 0,0:04:01.07,0:04:02.89,*Default,NTP,0000,0000,0000,,So I will do that now.
+Dialogue: 0,0:04:02.89,0:04:04.92,*Default,NTP,0000,0000,0000,,And so you see that it automatically
+Dialogue: 0,0:04:04.92,0:04:07.77,*Default,NTP,0000,0000,0000,,edit these comments here, right?
+Dialogue: 0,0:04:07.77,0:04:10.45,*Default,NTP,0000,0000,0000,,And if I then hit Command or Control
+Dialogue: 0,0:04:10.45,0:04:13.64,*Default,NTP,0000,0000,0000,,on windows plus Slash again,
+Dialogue: 0,0:04:13.64,0:04:15.75,*Default,NTP,0000,0000,0000,,then it turns the comment back off.
+Dialogue: 0,0:04:15.75,0:04:20.32,*Default,NTP,0000,0000,0000,,So I can go back and forth between these two modes.
+Dialogue: 0,0:04:20.32,0:04:22.37,*Default,NTP,0000,0000,0000,,So if we reload this now,
+Dialogue: 0,0:04:22.37,0:04:25.55,*Default,NTP,0000,0000,0000,,of course it will be back to 22 pixels.
+Dialogue: 0,0:04:25.55,0:04:29.79,*Default,NTP,0000,0000,0000,,And so let's go to our HTML and give this one a name.
+Dialogue: 0,0:04:30.99,0:04:33.88,*Default,NTP,0000,0000,0000,,So a name using the ID attribute.
+Dialogue: 0,0:04:35.46,0:04:38.94,*Default,NTP,0000,0000,0000,,So ID, let's say copyright.
+Dialogue: 0,0:04:40.05,0:04:42.18,*Default,NTP,0000,0000,0000,,Let's then select this text,
+Dialogue: 0,0:04:42.18,0:04:45.47,*Default,NTP,0000,0000,0000,,copy it and just paste it here.
+Dialogue: 0,0:04:45.47,0:04:49.13,*Default,NTP,0000,0000,0000,,And remember we use the ID selector like this,
+Dialogue: 0,0:04:49.13,0:04:51.40,*Default,NTP,0000,0000,0000,,plus the name that we just specified,
+Dialogue: 0,0:04:53.49,0:04:58.10,*Default,NTP,0000,0000,0000,,and let's go back to a font size of 16 pixels.
+Dialogue: 0,0:05:00.32,0:05:02.88,*Default,NTP,0000,0000,0000,,And here it is.
+Dialogue: 0,0:05:02.88,0:05:05.24,*Default,NTP,0000,0000,0000,,So it worked once again.
+Dialogue: 0,0:05:05.24,0:05:07.09,*Default,NTP,0000,0000,0000,,Now, besides the ID,
+Dialogue: 0,0:05:07.09,0:05:10.54,*Default,NTP,0000,0000,0000,,there's actually another way of giving elements names,
+Dialogue: 0,0:05:10.54,0:05:15.29,*Default,NTP,0000,0000,0000,,which is by using the Class and instead of an ID.
+Dialogue: 0,0:05:15.29,0:05:19.19,*Default,NTP,0000,0000,0000,,So we specified the ID attribute here
+Dialogue: 0,0:05:19.19,0:05:20.97,*Default,NTP,0000,0000,0000,,to give this element a name,
+Dialogue: 0,0:05:20.97,0:05:24.73,*Default,NTP,0000,0000,0000,,but we could also have used the Class attribute.
+Dialogue: 0,0:05:24.73,0:05:28.54,*Default,NTP,0000,0000,0000,,Now the big difference between IDs and Classes
+Dialogue: 0,0:05:28.54,0:05:32.77,*Default,NTP,0000,0000,0000,,is that we are not allowed to repeat ID names,
+Dialogue: 0,0:05:32.77,0:05:34.08,*Default,NTP,0000,0000,0000,,or in other words,
+Dialogue: 0,0:05:34.08,0:05:38.15,*Default,NTP,0000,0000,0000,,we can only use each ID name only once.
+Dialogue: 0,0:05:38.15,0:05:42.55,*Default,NTP,0000,0000,0000,,So it will not be allowed to now add an ID of copyright
+Dialogue: 0,0:05:42.55,0:05:44.59,*Default,NTP,0000,0000,0000,,to something else.
+Dialogue: 0,0:05:44.59,0:05:47.23,*Default,NTP,0000,0000,0000,,So I could not for example,
+Dialogue: 0,0:05:47.23,0:05:52.23,*Default,NTP,0000,0000,0000,,now go here and add the ID of copyright.
+Dialogue: 0,0:05:52.96,0:05:56.79,*Default,NTP,0000,0000,0000,,So this would actually be invalid HTML.
+Dialogue: 0,0:05:56.79,0:05:59.29,*Default,NTP,0000,0000,0000,,So we are not allowed to do that.
+Dialogue: 0,0:05:59.29,0:06:03.57,*Default,NTP,0000,0000,0000,,And so if we need to reuse a name multiple times,
+Dialogue: 0,0:06:03.57,0:06:06.86,*Default,NTP,0000,0000,0000,,then we need to use Classes for that.
+Dialogue: 0,0:06:06.86,0:06:08.27,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:08.27,0:06:11.37,*Default,NTP,0000,0000,0000,,So let me show you an example of using Classes.
+Dialogue: 0,0:06:11.37,0:06:15.68,*Default,NTP,0000,0000,0000,,And so what I want to do now is to style these authors here
+Dialogue: 0,0:06:15.68,0:06:19.92,*Default,NTP,0000,0000,0000,,of these three related posts in a different way.
+Dialogue: 0,0:06:19.92,0:06:23.75,*Default,NTP,0000,0000,0000,,So basically that's this P-element here
+Dialogue: 0,0:06:23.75,0:06:26.51,*Default,NTP,0000,0000,0000,,and this one and this one.
+Dialogue: 0,0:06:26.51,0:06:27.59,*Default,NTP,0000,0000,0000,,And so again,
+Dialogue: 0,0:06:27.59,0:06:32.59,*Default,NTP,0000,0000,0000,,I can now not use the ID of say related author.
+Dialogue: 0,0:06:33.46,0:06:36.47,*Default,NTP,0000,0000,0000,,So instead I need to use the Class attribute.
+Dialogue: 0,0:06:37.75,0:06:42.75,*Default,NTP,0000,0000,0000,,And let's call it related-author.
+Dialogue: 0,0:06:42.89,0:06:44.04,*Default,NTP,0000,0000,0000,,So in CSS,
+Dialogue: 0,0:06:44.04,0:06:48.59,*Default,NTP,0000,0000,0000,,it is a convention that if we have a Class or an ID name
+Dialogue: 0,0:06:48.59,0:06:50.25,*Default,NTP,0000,0000,0000,,with multiple words,
+Dialogue: 0,0:06:50.25,0:06:54.19,*Default,NTP,0000,0000,0000,,we separate these words by Dashes like this.
+Dialogue: 0,0:06:54.19,0:06:57.70,*Default,NTP,0000,0000,0000,,You could also use Underscores for example.
+Dialogue: 0,0:06:57.70,0:06:59.32,*Default,NTP,0000,0000,0000,,So that's also valid,
+Dialogue: 0,0:06:59.32,0:07:01.66,*Default,NTP,0000,0000,0000,,but it's just a convention in CSS
+Dialogue: 0,0:07:01.66,0:07:04.76,*Default,NTP,0000,0000,0000,,to always use Dash like this.
+Dialogue: 0,0:07:04.76,0:07:05.59,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:07:06.78,0:07:08.13,*Default,NTP,0000,0000,0000,,So anyway,
+Dialogue: 0,0:07:08.13,0:07:09.63,*Default,NTP,0000,0000,0000,,let's now grab this here
+Dialogue: 0,0:07:09.63,0:07:12.32,*Default,NTP,0000,0000,0000,,and paste it to all these paragraphs.
+Dialogue: 0,0:07:14.52,0:07:17.68,*Default,NTP,0000,0000,0000,,So related-author three times.
+Dialogue: 0,0:07:18.53,0:07:22.26,*Default,NTP,0000,0000,0000,,And so now let's go to our CSS
+Dialogue: 0,0:07:22.26,0:07:26.29,*Default,NTP,0000,0000,0000,,and style all the elements that have this Class.
+Dialogue: 0,0:07:26.29,0:07:31.14,*Default,NTP,0000,0000,0000,,So for the IDs, we used the Hash to select them.
+Dialogue: 0,0:07:31.14,0:07:33.86,*Default,NTP,0000,0000,0000,,And for Classes, we use the Dot.
+Dialogue: 0,0:07:33.86,0:07:36.41,*Default,NTP,0000,0000,0000,,So this is the Class selector.
+Dialogue: 0,0:07:36.41,0:07:37.52,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:07:37.52,0:07:40.05,*Default,NTP,0000,0000,0000,,So related-author.
+Dialogue: 0,0:07:41.04,0:07:43.34,*Default,NTP,0000,0000,0000,,And let's say that here we want
+Dialogue: 0,0:07:43.34,0:07:48.34,*Default,NTP,0000,0000,0000,,the font size to be 18 pixels, let's say.
+Dialogue: 0,0:07:49.77,0:07:53.09,*Default,NTP,0000,0000,0000,,And let's also specify a new text property
+Dialogue: 0,0:07:53.09,0:07:57.05,*Default,NTP,0000,0000,0000,,that we didn't learn before, which is the font-weight.
+Dialogue: 0,0:07:58.06,0:08:01.90,*Default,NTP,0000,0000,0000,,So this one we can use to make text bold, for example.
+Dialogue: 0,0:08:02.92,0:08:06.03,*Default,NTP,0000,0000,0000,,So as you saw, maybe here, there are multiple options.
+Dialogue: 0,0:08:06.03,0:08:09.75,*Default,NTP,0000,0000,0000,,We can use some numbers, but we will use that later.
+Dialogue: 0,0:08:09.75,0:08:14.75,*Default,NTP,0000,0000,0000,,For now, let's just use a keyword, which is Bold.
+Dialogue: 0,0:08:14.96,0:08:18.00,*Default,NTP,0000,0000,0000,,So let's save it to see the results.
+Dialogue: 0,0:08:18.00,0:08:23.00,*Default,NTP,0000,0000,0000,,And indeed now only these three paragraphs are different.
+Dialogue: 0,0:08:24.18,0:08:26.39,*Default,NTP,0000,0000,0000,,So they are bold and they are smaller
+Dialogue: 0,0:08:26.39,0:08:27.92,*Default,NTP,0000,0000,0000,,than all the other paragraphs.
+Dialogue: 0,0:08:28.82,0:08:32.31,*Default,NTP,0000,0000,0000,,So of course in the HTML, they are still paragraphs,
+Dialogue: 0,0:08:32.31,0:08:37.27,*Default,NTP,0000,0000,0000,,but now they got these additional styles here, right?
+Dialogue: 0,0:08:37.27,0:08:40.21,*Default,NTP,0000,0000,0000,,Now maybe you are wondering something here now,
+Dialogue: 0,0:08:40.21,0:08:42.69,*Default,NTP,0000,0000,0000,,which is that we are now in fact,
+Dialogue: 0,0:08:42.69,0:08:46.99,*Default,NTP,0000,0000,0000,,selecting these paragraphs multiple times, right?
+Dialogue: 0,0:08:46.99,0:08:51.99,*Default,NTP,0000,0000,0000,,So we are selecting this paragraph here, in fact, right?
+Dialogue: 0,0:08:52.41,0:08:55.31,*Default,NTP,0000,0000,0000,,But we are also selecting it here
+Dialogue: 0,0:08:55.31,0:08:59.15,*Default,NTP,0000,0000,0000,,and we are selecting it actually also up here.
+Dialogue: 0,0:08:59.15,0:09:03.61,*Default,NTP,0000,0000,0000,,So three times now we selected this paragraph.
+Dialogue: 0,0:09:03.61,0:09:05.01,*Default,NTP,0000,0000,0000,,So you might be thinking
+Dialogue: 0,0:09:05.01,0:09:08.60,*Default,NTP,0000,0000,0000,,which one of these gets applied actually.
+Dialogue: 0,0:09:08.60,0:09:12.02,*Default,NTP,0000,0000,0000,,So isn't this like some kind of conflict?
+Dialogue: 0,0:09:12.02,0:09:14.19,*Default,NTP,0000,0000,0000,,Well, the short answer is
+Dialogue: 0,0:09:14.19,0:09:17.50,*Default,NTP,0000,0000,0000,,that actually all of these selectors do apply.
+Dialogue: 0,0:09:17.50,0:09:19.48,*Default,NTP,0000,0000,0000,,So all of these three rules
+Dialogue: 0,0:09:19.48,0:09:22.87,*Default,NTP,0000,0000,0000,,of the three selectors do in fact apply.
+Dialogue: 0,0:09:22.87,0:09:26.23,*Default,NTP,0000,0000,0000,,But I will explain more about how all of this works
+Dialogue: 0,0:09:26.23,0:09:29.57,*Default,NTP,0000,0000,0000,,and why it works this way in an extra video,
+Dialogue: 0,0:09:29.57,0:09:31.78,*Default,NTP,0000,0000,0000,,because this is something really important
+Dialogue: 0,0:09:31.78,0:09:35.98,*Default,NTP,0000,0000,0000,,that you will need to understand in order to master CSS.
+Dialogue: 0,0:09:35.98,0:09:40.27,*Default,NTP,0000,0000,0000,,And so this topic deserves a special lecture on itself,
+Dialogue: 0,0:09:40.27,0:09:43.53,*Default,NTP,0000,0000,0000,,which will be a bit later in this section.
+Dialogue: 0,0:09:43.53,0:09:46.99,*Default,NTP,0000,0000,0000,,But now moving forward here,
+Dialogue: 0,0:09:46.99,0:09:50.19,*Default,NTP,0000,0000,0000,,let me now actually give you a small challenge.
+Dialogue: 0,0:09:50.19,0:09:54.35,*Default,NTP,0000,0000,0000,,So what I want to do is to remove the bullet points
+Dialogue: 0,0:09:54.35,0:09:56.36,*Default,NTP,0000,0000,0000,,of only this list here.
+Dialogue: 0,0:09:57.36,0:10:00.43,*Default,NTP,0000,0000,0000,,So remember that we created a list for this.
+Dialogue: 0,0:10:00.43,0:10:04.15,*Default,NTP,0000,0000,0000,,And so of course, this one has bullet points right now.
+Dialogue: 0,0:10:05.02,0:10:08.40,*Default,NTP,0000,0000,0000,,So I want you to select only this list here,
+Dialogue: 0,0:10:08.40,0:10:11.69,*Default,NTP,0000,0000,0000,,only this element and remove it's bullet points.
+Dialogue: 0,0:10:12.59,0:10:15.88,*Default,NTP,0000,0000,0000,,Now we never removed any bullet points.
+Dialogue: 0,0:10:15.88,0:10:18.11,*Default,NTP,0000,0000,0000,,So let me show you how it works.
+Dialogue: 0,0:10:18.11,0:10:20.26,*Default,NTP,0000,0000,0000,,And for that, I will now in fact,
+Dialogue: 0,0:10:20.26,0:10:22.39,*Default,NTP,0000,0000,0000,,select all the unordered lists.
+Dialogue: 0,0:10:24.10,0:10:28.65,*Default,NTP,0000,0000,0000,,So here we use the property list-style
+Dialogue: 0,0:10:28.65,0:10:31.79,*Default,NTP,0000,0000,0000,,and set it to the keyword of None.
+Dialogue: 0,0:10:33.15,0:10:33.98,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:10:35.26,0:10:38.48,*Default,NTP,0000,0000,0000,,So the bullet points disappeared from this one,
+Dialogue: 0,0:10:38.48,0:10:41.04,*Default,NTP,0000,0000,0000,,but also from this one.
+Dialogue: 0,0:10:41.04,0:10:42.34,*Default,NTP,0000,0000,0000,,And so, as I said,
+Dialogue: 0,0:10:42.34,0:10:45.60,*Default,NTP,0000,0000,0000,,I want you to now select only this element here
+Dialogue: 0,0:10:45.60,0:10:48.23,*Default,NTP,0000,0000,0000,,and then remove the bullet points in there.
+Dialogue: 0,0:10:48.23,0:10:53.23,*Default,NTP,0000,0000,0000,,And I want you to do this by using a Class called Related.
+Dialogue: 0,0:10:53.40,0:10:54.46,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:10:54.46,0:10:56.19,*Default,NTP,0000,0000,0000,,So let me comment this one here.
+Dialogue: 0,0:10:57.30,0:10:59.53,*Default,NTP,0000,0000,0000,,And so yeah.
+Dialogue: 0,0:10:59.53,0:11:03.70,*Default,NTP,0000,0000,0000,,Create a Class on this element on this list here
+Dialogue: 0,0:11:03.70,0:11:06.71,*Default,NTP,0000,0000,0000,,and then remove the bullet points from this one.
+Dialogue: 0,0:11:06.71,0:11:09.85,*Default,NTP,0000,0000,0000,,And I will see you back here in a minute, once you are done.
+Dialogue: 0,0:11:12.80,0:11:14.01,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:11:14.01,0:11:17.63,*Default,NTP,0000,0000,0000,,So let's start by going to the HTML.
+Dialogue: 0,0:11:17.63,0:11:21.10,*Default,NTP,0000,0000,0000,,And then of course this here is the UL
+Dialogue: 0,0:11:21.10,0:11:22.37,*Default,NTP,0000,0000,0000,,that we want to select.
+Dialogue: 0,0:11:23.43,0:11:26.62,*Default,NTP,0000,0000,0000,,And remember how I wanted you to use a Class.
+Dialogue: 0,0:11:26.62,0:11:29.68,*Default,NTP,0000,0000,0000,,And I will explain a bit later why.
+Dialogue: 0,0:11:29.68,0:11:32.68,*Default,NTP,0000,0000,0000,,So we used the Class here called Related,
+Dialogue: 0,0:11:34.71,0:11:38.88,*Default,NTP,0000,0000,0000,,and now we go to our CSS
+Dialogue: 0,0:11:38.88,0:11:43.88,*Default,NTP,0000,0000,0000,,and select this element with the Class that we just named.
+Dialogue: 0,0:11:45.75,0:11:49.24,*Default,NTP,0000,0000,0000,,So of course, using the Class selector like this.
+Dialogue: 0,0:11:49.24,0:11:51.40,*Default,NTP,0000,0000,0000,,And now only on this one,
+Dialogue: 0,0:11:51.40,0:11:55.62,*Default,NTP,0000,0000,0000,,we say that list-style should be None.
+Dialogue: 0,0:11:55.62,0:11:57.32,*Default,NTP,0000,0000,0000,,Give it a save,
+Dialogue: 0,0:11:57.32,0:12:00.98,*Default,NTP,0000,0000,0000,,and so this one still has the bullet points
+Dialogue: 0,0:12:00.98,0:12:03.06,*Default,NTP,0000,0000,0000,,and this one doesn't.
+Dialogue: 0,0:12:03.06,0:12:04.29,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:12:04.29,0:12:08.40,*Default,NTP,0000,0000,0000,,So we did this because we don't want this list here
+Dialogue: 0,0:12:08.40,0:12:10.84,*Default,NTP,0000,0000,0000,,to actually look like a list.
+Dialogue: 0,0:12:10.84,0:12:14.67,*Default,NTP,0000,0000,0000,,It should only semantically be a list of related posts.
+Dialogue: 0,0:12:16.99,0:12:20.64,*Default,NTP,0000,0000,0000,,But anyway, let's now go back to our HTML
+Dialogue: 0,0:12:20.64,0:12:24.61,*Default,NTP,0000,0000,0000,,and talk a little bit about why we used a Class
+Dialogue: 0,0:12:24.61,0:12:26.38,*Default,NTP,0000,0000,0000,,and not an ID.
+Dialogue: 0,0:12:26.38,0:12:27.55,*Default,NTP,0000,0000,0000,,Because in fact,
+Dialogue: 0,0:12:27.55,0:12:32.55,*Default,NTP,0000,0000,0000,,there's only one list element of Related posts, right?
+Dialogue: 0,0:12:32.62,0:12:37.13,*Default,NTP,0000,0000,0000,,So we could easily have called this an ID, right?
+Dialogue: 0,0:12:37.13,0:12:40.38,*Default,NTP,0000,0000,0000,,Because remember that the IDs are four names
+Dialogue: 0,0:12:40.38,0:12:42.60,*Default,NTP,0000,0000,0000,,that are only used once,
+Dialogue: 0,0:12:42.60,0:12:43.93,*Default,NTP,0000,0000,0000,,while Classes are used
+Dialogue: 0,0:12:43.93,0:12:47.47,*Default,NTP,0000,0000,0000,,when we want to give multiple elements the same name.
+Dialogue: 0,0:12:47.47,0:12:50.46,*Default,NTP,0000,0000,0000,,So when we want to style multiple elements
+Dialogue: 0,0:12:50.46,0:12:52.79,*Default,NTP,0000,0000,0000,,the same way in CSS.
+Dialogue: 0,0:12:52.79,0:12:54.45,*Default,NTP,0000,0000,0000,,So knowing about that,
+Dialogue: 0,0:12:54.45,0:12:59.35,*Default,NTP,0000,0000,0000,,why did I tell you to use a Class and not an ID?
+Dialogue: 0,0:12:59.35,0:13:03.31,*Default,NTP,0000,0000,0000,,Well, the reason for that is that usually in the real world,
+Dialogue: 0,0:13:03.31,0:13:05.35,*Default,NTP,0000,0000,0000,,we never use IDs.
+Dialogue: 0,0:13:05.35,0:13:08.76,*Default,NTP,0000,0000,0000,,We always use Classes because by using Classes,
+Dialogue: 0,0:13:08.76,0:13:11.24,*Default,NTP,0000,0000,0000,,we are prepared for the future.
+Dialogue: 0,0:13:11.24,0:13:15.82,*Default,NTP,0000,0000,0000,,So imagine that we used in fact, an ID of Related,
+Dialogue: 0,0:13:15.82,0:13:18.62,*Default,NTP,0000,0000,0000,,but then at some point later, somewhere on the page,
+Dialogue: 0,0:13:18.62,0:13:22.13,*Default,NTP,0000,0000,0000,,we wanted to add another list of related posts.
+Dialogue: 0,0:13:22.13,0:13:24.99,*Default,NTP,0000,0000,0000,,Maybe we wanted one in the sidebar
+Dialogue: 0,0:13:24.99,0:13:27.53,*Default,NTP,0000,0000,0000,,and we wanted one in the footer.
+Dialogue: 0,0:13:27.53,0:13:30.40,*Default,NTP,0000,0000,0000,,So imagining a more complex layout.
+Dialogue: 0,0:13:30.40,0:13:33.76,*Default,NTP,0000,0000,0000,,That would completely be possible, right?
+Dialogue: 0,0:13:33.76,0:13:38.40,*Default,NTP,0000,0000,0000,,But then if we had used an ID of Related in the beginning,
+Dialogue: 0,0:13:38.40,0:13:42.82,*Default,NTP,0000,0000,0000,,we would now have to go back and change that ID to a Class
+Dialogue: 0,0:13:42.82,0:13:47.03,*Default,NTP,0000,0000,0000,,so that we could now add another list of related posts.
+Dialogue: 0,0:13:47.03,0:13:49.30,*Default,NTP,0000,0000,0000,,And so that would be a source of error
+Dialogue: 0,0:13:49.30,0:13:52.38,*Default,NTP,0000,0000,0000,,if we've, for some reason, forgot that.
+Dialogue: 0,0:13:52.38,0:13:56.06,*Default,NTP,0000,0000,0000,,And we would also have to go to our CSS
+Dialogue: 0,0:13:56.06,0:13:57.32,*Default,NTP,0000,0000,0000,,and change that there.
+Dialogue: 0,0:13:58.17,0:14:01.94,*Default,NTP,0000,0000,0000,,So at first it was an ID of Related,
+Dialogue: 0,0:14:01.94,0:14:06.51,*Default,NTP,0000,0000,0000,,we would now have to come back here and change it to a Dot.
+Dialogue: 0,0:14:06.51,0:14:08.45,*Default,NTP,0000,0000,0000,,So to the Class selector.
+Dialogue: 0,0:14:08.45,0:14:11.33,*Default,NTP,0000,0000,0000,,And while this doesn't seem to be a big problem,
+Dialogue: 0,0:14:11.33,0:14:13.63,*Default,NTP,0000,0000,0000,,it can actually lead to bugs.
+Dialogue: 0,0:14:13.63,0:14:18.29,*Default,NTP,0000,0000,0000,,So to errors in the code if we have a really big project.
+Dialogue: 0,0:14:18.29,0:14:19.72,*Default,NTP,0000,0000,0000,,And so by default,
+Dialogue: 0,0:14:19.72,0:14:22.47,*Default,NTP,0000,0000,0000,,we simply avoid this potential problem
+Dialogue: 0,0:14:22.47,0:14:25.54,*Default,NTP,0000,0000,0000,,by simply always using Classes.
+Dialogue: 0,0:14:25.54,0:14:26.73,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:14:26.73,0:14:30.74,*Default,NTP,0000,0000,0000,,Now I will still keep this ID here for you.
+Dialogue: 0,0:14:30.74,0:14:35.48,*Default,NTP,0000,0000,0000,,So this ID of copyright and this ID of author,
+Dialogue: 0,0:14:36.46,0:14:40.10,*Default,NTP,0000,0000,0000,,just so you also know how to work with IDs,
+Dialogue: 0,0:14:40.10,0:14:41.36,*Default,NTP,0000,0000,0000,,but in the future,
+Dialogue: 0,0:14:41.36,0:14:44.07,*Default,NTP,0000,0000,0000,,I will actually no longer use IDs
+Dialogue: 0,0:14:44.07,0:14:47.40,*Default,NTP,0000,0000,0000,,because as I just said in the real world,
+Dialogue: 0,0:14:47.40,0:14:49.74,*Default,NTP,0000,0000,0000,,we simply always use Classes,
+Dialogue: 0,0:14:49.74,0:14:52.81,*Default,NTP,0000,0000,0000,,even if we only use the Class name once.
+Dialogue: 0,0:14:52.81,0:14:54.07,*Default,NTP,0000,0000,0000,,Because by doing that,
+Dialogue: 0,0:14:54.07,0:14:56.77,*Default,NTP,0000,0000,0000,,we are making our code ready for the future
+Dialogue: 0,0:14:56.77,0:14:59.90,*Default,NTP,0000,0000,0000,,and ready for potential changes.
+Dialogue: 0,0:14:59.90,0:15:01.18,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:15:01.18,0:15:03.83,*Default,NTP,0000,0000,0000,,So I hope that made sense.
+Dialogue: 0,0:15:03.83,0:15:06.14,*Default,NTP,0000,0000,0000,,And you can now go ahead if you want
+Dialogue: 0,0:15:06.14,0:15:08.27,*Default,NTP,0000,0000,0000,,and name some more elements
+Dialogue: 0,0:15:08.27,0:15:10.24,*Default,NTP,0000,0000,0000,,and style them in different ways,
+Dialogue: 0,0:15:10.24,0:15:12.07,*Default,NTP,0000,0000,0000,,if you feel like it.
+Dialogue: 0,0:15:12.07,0:15:14.94,*Default,NTP,0000,0000,0000,,So basically to practice this a little bit,
+Dialogue: 0,0:15:14.94,0:15:16.21,*Default,NTP,0000,0000,0000,,and then if you'd like,
+Dialogue: 0,0:15:16.21,0:15:18.89,*Default,NTP,0000,0000,0000,,you can come with me to the next video
+Dialogue: 0,0:15:18.89,0:15:21.67,*Default,NTP,0000,0000,0000,,where we will start working with colors.

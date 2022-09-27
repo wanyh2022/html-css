@@ -1,0 +1,448 @@
+[Script Info]
+Title: 004 A High-Level Overview of Web Development_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=2&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.36,0:00:04.00,*Default,NTP,0000,0000,0000,,欢迎来到第一次实际讲座
+Dialogue: 0,0:00:04.00,0:00:05.85,*Default,NTP,0000,0000,0000,,本课程的。
+Dialogue: 0,0:00:05.85,0:00:08.73,*Default,NTP,0000,0000,0000,,现在这个课程很有可能
+Dialogue: 0,0:00:08.73,0:00:11.09,*Default,NTP,0000,0000,0000,,将是你的第一次接触
+Dialogue: 0,0:00:11.09,0:00:13.24,*Default,NTP,0000,0000,0000,,与任何网络开发。
+Dialogue: 0,0:00:13.24,0:00:17.88,*Default,NTP,0000,0000,0000,,所以在我们开始编写 HTML 和 CSS 代码之前，
+Dialogue: 0,0:00:17.88,0:00:20.06,*Default,NTP,0000,0000,0000,,我认为这可能是个好主意
+Dialogue: 0,0:00:20.06,0:00:22.03,*Default,NTP,0000,0000,0000,,真正开始这门课程
+Dialogue: 0,0:00:22.03,0:00:24.52,*Default,NTP,0000,0000,0000,,具有非常高水平的概述
+Dialogue: 0,0:00:24.52,0:00:27.74,*Default,NTP,0000,0000,0000,,Web 开发的这个领域。
+Dialogue: 0,0:00:27.74,0:00:29.84,*Default,NTP,0000,0000,0000,,所以我们将讨论诸如
+Dialogue: 0,0:00:29.84,0:00:34.34,*Default,NTP,0000,0000,0000,,客户端和服务器，前端和后端开发，
+Dialogue: 0,0:00:34.34,0:00:36.90,*Default,NTP,0000,0000,0000,,静态和动态网站。
+Dialogue: 0,0:00:36.90,0:00:39.97,*Default,NTP,0000,0000,0000,,当然还有核心语言
+Dialogue: 0,0:00:39.97,0:00:42.99,*Default,NTP,0000,0000,0000,,和Web开发的核心技术。
+Dialogue: 0,0:00:45.07,0:00:47.30,*Default,NTP,0000,0000,0000,,我要解释这一切
+Dialogue: 0,0:00:47.30,0:00:49.30,*Default,NTP,0000,0000,0000,,围绕发生的过程
+Dialogue: 0,0:00:49.30,0:00:52.92,*Default,NTP,0000,0000,0000,,当我们在浏览器中打开网页时。
+Dialogue: 0,0:00:52.92,0:00:54.76,*Default,NTP,0000,0000,0000,,再一次记住，
+Dialogue: 0,0:00:54.76,0:00:57.57,*Default,NTP,0000,0000,0000,,这只是一个高级概述。
+Dialogue: 0,0:00:57.57,0:01:01.02,*Default,NTP,0000,0000,0000,,所以我会在这里省略很多细节。
+Dialogue: 0,0:01:01.02,0:01:03.41,*Default,NTP,0000,0000,0000,,这真的只是让你熟悉
+Dialogue: 0,0:01:03.41,0:01:05.86,*Default,NTP,0000,0000,0000,,使用其中一些概念和术语
+Dialogue: 0,0:01:05.86,0:01:07.83,*Default,NTP,0000,0000,0000,,所有 Web 开发人员都知道
+Dialogue: 0,0:01:07.83,0:01:11.00,*Default,NTP,0000,0000,0000,,在您开始自己的旅程之前。
+Dialogue: 0,0:01:11.00,0:01:15.00,*Default,NTP,0000,0000,0000,,但无论如何，假设我们正在尝试访问一个网页
+Dialogue: 0,0:01:15.00,0:01:18.84,*Default,NTP,0000,0000,0000,,在我们的浏览器中omnifood.dev
+Dialogue: 0,0:01:18.84,0:01:21.75,*Default,NTP,0000,0000,0000,,顺便说一句，这实际上是网站
+Dialogue: 0,0:01:21.75,0:01:24.69,*Default,NTP,0000,0000,0000,,我们将在整个课程中发展。
+Dialogue: 0,0:01:24.69,0:01:28.36,*Default,NTP,0000,0000,0000,,现在，当我们尝试访问此页面时会发生什么
+Dialogue: 0,0:01:28.36,0:01:32.42,*Default,NTP,0000,0000,0000,,就是我们的浏览器会向服务器发送请求
+Dialogue: 0,0:01:32.42,0:01:35.79,*Default,NTP,0000,0000,0000,,此页面托管在 Internet 上的位置。
+Dialogue: 0,0:01:35.79,0:01:38.48,*Default,NTP,0000,0000,0000,,所以每个网站都被存储
+Dialogue: 0,0:01:38.48,0:01:42.83,*Default,NTP,0000,0000,0000,,在称为服务器的东西上，它基本上是一台计算机
+Dialogue: 0,0:01:42.83,0:01:45.20,*Default,NTP,0000,0000,0000,,连接到互联网的
+Dialogue: 0,0:01:45.20,0:01:48.63,*Default,NTP,0000,0000,0000,,并且能够接收这样的请求。
+Dialogue: 0,0:01:49.54,0:01:53.45,*Default,NTP,0000,0000,0000,,同样，当我们浏览某个网站时，
+Dialogue: 0,0:01:53.45,0:01:57.01,*Default,NTP,0000,0000,0000,,我们的网络浏览器将向服务器发送请求
+Dialogue: 0,0:01:57.01,0:02:01.28,*Default,NTP,0000,0000,0000,,网站的存储位置。\N所以它托管在哪里。\N
+Dialogue: 0,0:02:01.28,0:02:04.02,*Default,NTP,0000,0000,0000,,那么当服务器收到请求时，
+Dialogue: 0,0:02:04.02,0:02:07.52,*Default,NTP,0000,0000,0000,,它将获取构成网站的所有文件
+Dialogue: 0,0:02:07.52,0:02:10.36,*Default,NTP,0000,0000,0000,,并将它们发送回浏览器。
+Dialogue: 0,0:02:10.36,0:02:14.89,*Default,NTP,0000,0000,0000,,所以我们说服务器向浏览器发送响应，
+Dialogue: 0,0:02:14.89,0:02:17.61,*Default,NTP,0000,0000,0000,,它基本上包含所有这些文件
+Dialogue: 0,0:02:17.61,0:02:20.13,*Default,NTP,0000,0000,0000,,该网站是由。
+Dialogue: 0,0:02:20.13,0:02:23.42,*Default,NTP,0000,0000,0000,,现在，从这些文件扩展名中可以看出，
+Dialogue: 0,0:02:23.42,0:02:28.42,*Default,NTP,0000,0000,0000,,我们这里有一些 HTML、CSS 和 JavaScript 代码。
+Dialogue: 0,0:02:28.68,0:02:31.47,*Default,NTP,0000,0000,0000,,而这正是这三种语言
+Dialogue: 0,0:02:31.47,0:02:34.03,*Default,NTP,0000,0000,0000,,浏览器可以理解的。
+Dialogue: 0,0:02:34.03,0:02:36.84,*Default,NTP,0000,0000,0000,,所以这意味着所有的代码
+Dialogue: 0,0:02:36.84,0:02:40.00,*Default,NTP,0000,0000,0000,,组成一个网站的东西总是需要写的
+Dialogue: 0,0:02:40.00,0:02:43.70,*Default,NTP,0000,0000,0000,,在 HTML、CSS 和 JavaScript 中。
+Dialogue: 0,0:02:43.70,0:02:46.53,*Default,NTP,0000,0000,0000,,因为再一次，这些本质上是
+Dialogue: 0,0:02:46.53,0:02:50.56,*Default,NTP,0000,0000,0000,,任何浏览器都能理解的三大核心技术。
+Dialogue: 0,0:02:51.42,0:02:54.63,*Default,NTP,0000,0000,0000,,好的，现在，一旦浏览器收到
+Dialogue: 0,0:02:54.63,0:02:58.34,*Default,NTP,0000,0000,0000,,这些 HTML、CSS 和 JavaScript 文件
+Dialogue: 0,0:02:58.34,0:03:00.43,*Default,NTP,0000,0000,0000,,从服务响应中，
+Dialogue: 0,0:03:00.43,0:03:03.26,*Default,NTP,0000,0000,0000,,它将获取代码并呈现网站
+Dialogue: 0,0:03:03.26,0:03:05.38,*Default,NTP,0000,0000,0000,,我们试图访问。
+Dialogue: 0,0:03:05.38,0:03:08.86,*Default,NTP,0000,0000,0000,,所以基于那个代码，好吧。
+Dialogue: 0,0:03:08.86,0:03:12.23,*Default,NTP,0000,0000,0000,,有了这个，你已经有了很好的理解
+Dialogue: 0,0:03:12.23,0:03:16.02,*Default,NTP,0000,0000,0000,,当我们浏览一个网站时实际发生了什么
+Dialogue: 0,0:03:16.02,0:03:18.18,*Default,NTP,0000,0000,0000,,还有关于技术
+Dialogue: 0,0:03:18.18,0:03:21.09,*Default,NTP,0000,0000,0000,,我们用来建立任何网站
+Dialogue: 0,0:03:21.09,0:03:25.79,*Default,NTP,0000,0000,0000,,以及编写 HTML、CSS 和 JavaScript 代码的过程
+Dialogue: 0,0:03:25.79,0:03:28.22,*Default,NTP,0000,0000,0000,,浏览器可以理解的
+Dialogue: 0,0:03:28.22,0:03:32.57,*Default,NTP,0000,0000,0000,,是一个过程我们称之为前端 Web 开发。
+Dialogue: 0,0:03:32.57,0:03:34.34,*Default,NTP,0000,0000,0000,,所以每当你听到某人
+Dialogue: 0,0:03:34.34,0:03:36.81,*Default,NTP,0000,0000,0000,,谈论前端开发，
+Dialogue: 0,0:03:36.81,0:03:39.46,*Default,NTP,0000,0000,0000,,他们的意思是开发人员编写代码
+Dialogue: 0,0:03:39.46,0:03:41.94,*Default,NTP,0000,0000,0000,,显示在浏览器中，
+Dialogue: 0,0:03:41.94,0:03:45.93,*Default,NTP,0000,0000,0000,,这基本上是网站的前端。
+Dialogue: 0,0:03:45.93,0:03:49.37,*Default,NTP,0000,0000,0000,,事实上，这基本上就是我们要学习的内容
+Dialogue: 0,0:03:49.37,0:03:53.57,*Default,NTP,0000,0000,0000,,在这门课程中，或者至少是非常非常基础的课程
+Dialogue: 0,0:03:53.57,0:03:55.37,*Default,NTP,0000,0000,0000,,前端开发，
+Dialogue: 0,0:03:55.37,0:03:59.47,*Default,NTP,0000,0000,0000,,这是学习HTML和CSS。
+Dialogue: 0,0:03:59.47,0:04:01.78,*Default,NTP,0000,0000,0000,,现在，就像这里的旁注一样，
+Dialogue: 0,0:04:01.78,0:04:04.42,*Default,NTP,0000,0000,0000,,每当组成网站的文件
+Dialogue: 0,0:04:04.42,0:04:06.87,*Default,NTP,0000,0000,0000,,只是存储在网络服务器上
+Dialogue: 0,0:04:06.87,0:04:10.11,*Default,NTP,0000,0000,0000,,然后按原样发送到浏览器，
+Dialogue: 0,0:04:10.11,0:04:13.39,*Default,NTP,0000,0000,0000,,我们说我们有一个静态网站。
+Dialogue: 0,0:04:13.39,0:04:14.69,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:04:14.69,0:04:17.46,*Default,NTP,0000,0000,0000,,这将在一分钟内变得更有意义
+Dialogue: 0,0:04:17.46,0:04:21.41,*Default,NTP,0000,0000,0000,,当我们谈论什么是动态网站时，
+Dialogue: 0,0:04:21.41,0:04:24.93,*Default,NTP,0000,0000,0000,,但现在，请记住，静态网站
+Dialogue: 0,0:04:24.93,0:04:27.61,*Default,NTP,0000,0000,0000,,基本上是一个网站，其中的文件
+Dialogue: 0,0:04:27.61,0:04:31.96,*Default,NTP,0000,0000,0000,,只是简单地从服务器发送到浏览器。
+Dialogue: 0,0:04:31.96,0:04:34.46,*Default,NTP,0000,0000,0000,,所以没有任何转变。
+Dialogue: 0,0:04:34.46,0:04:35.89,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:04:35.89,0:04:37.97,*Default,NTP,0000,0000,0000,,所以我希望由此，
+Dialogue: 0,0:04:37.97,0:04:40.74,*Default,NTP,0000,0000,0000,,你了解了什么是前端开发
+Dialogue: 0,0:04:40.74,0:04:43.72,*Default,NTP,0000,0000,0000,,还有关于三大核心技术
+Dialogue: 0,0:04:43.72,0:04:46.02,*Default,NTP,0000,0000,0000,,构成任何网站。
+Dialogue: 0,0:04:46.02,0:04:48.93,*Default,NTP,0000,0000,0000,,所以现在，让我们更进一步
+Dialogue: 0,0:04:48.93,0:04:52.47,*Default,NTP,0000,0000,0000,,并谈论一个叫做后端开发的东西。
+Dialogue: 0,0:04:52.47,0:04:55.24,*Default,NTP,0000,0000,0000,,所以让我们在这里尝试另一个例子。
+Dialogue: 0,0:04:55.24,0:04:57.67,*Default,NTP,0000,0000,0000,,而这一次，让我们试着去理解
+Dialogue: 0,0:04:57.67,0:04:59.05,*Default,NTP,0000,0000,0000,,会发生什么
+Dialogue: 0,0:04:59.05,0:05:03.49,*Default,NTP,0000,0000,0000,,当我们尝试访问像 udemy.com 这样的网站时
+Dialogue: 0,0:05:03.49,0:05:07.92,*Default,NTP,0000,0000,0000,,所以再一次，第一步是一个请求
+Dialogue: 0,0:05:07.92,0:05:12.92,*Default,NTP,0000,0000,0000,,发送到托管 udemy.com 的 Web 服务器。
+Dialogue: 0,0:05:13.02,0:05:16.02,*Default,NTP,0000,0000,0000,,现在，为什么像 Udemy 这样的网站，
+Dialogue: 0,0:05:16.02,0:05:20.51,*Default,NTP,0000,0000,0000,,与静态 Omnifood 网站之类的网站如此不同
+Dialogue: 0,0:05:20.51,0:05:22.31,*Default,NTP,0000,0000,0000,,我之前给你看的？
+Dialogue: 0,0:05:22.31,0:05:25.72,*Default,NTP,0000,0000,0000,,好吧，像您这样的复杂网站 udemy.com
+Dialogue: 0,0:05:25.72,0:05:29.75,*Default,NTP,0000,0000,0000,,真的和静态网站完全不同，
+Dialogue: 0,0:05:29.75,0:05:31.74,*Default,NTP,0000,0000,0000,,因为内容很多
+Dialogue: 0,0:05:31.74,0:05:34.99,*Default,NTP,0000,0000,0000,,这一直在变化。
+Dialogue: 0,0:05:34.99,0:05:38.08,*Default,NTP,0000,0000,0000,,就像在 Udemy 上一样，总是有新课程
+Dialogue: 0,0:05:38.08,0:05:41.06,*Default,NTP,0000,0000,0000,,和新的评论被添加到网站。
+Dialogue: 0,0:05:41.06,0:05:43.72,*Default,NTP,0000,0000,0000,,新评级和新课程长度
+Dialogue: 0,0:05:43.72,0:05:45.79,*Default,NTP,0000,0000,0000,,例如计算，
+Dialogue: 0,0:05:45.79,0:05:48.77,*Default,NTP,0000,0000,0000,,还有很多类似的东西
+Dialogue: 0,0:05:48.77,0:05:50.49,*Default,NTP,0000,0000,0000,,总是在发生。
+Dialogue: 0,0:05:50.49,0:05:53.78,*Default,NTP,0000,0000,0000,,所以为了让这样的系统工作，
+Dialogue: 0,0:05:53.78,0:05:56.50,*Default,NTP,0000,0000,0000,,udemy.com 需要一个完整的应用程序
+Dialogue: 0,0:05:56.50,0:06:00.86,*Default,NTP,0000,0000,0000,,在服务器上运行，他们还需要一个大数据库，
+Dialogue: 0,0:06:00.86,0:06:03.84,*Default,NTP,0000,0000,0000,,基本上包含了所有的课程
+Dialogue: 0,0:06:03.84,0:06:06.75,*Default,NTP,0000,0000,0000,,以及所有的评论，所有的用户，
+Dialogue: 0,0:06:06.75,0:06:08.70,*Default,NTP,0000,0000,0000,,真的是所有的内容
+Dialogue: 0,0:06:08.70,0:06:11.90,*Default,NTP,0000,0000,0000,,正在他们的网站上显示。
+Dialogue: 0,0:06:11.90,0:06:15.27,*Default,NTP,0000,0000,0000,,现在要做这一切，前端技术
+Dialogue: 0,0:06:15.27,0:06:19.39,*Default,NTP,0000,0000,0000,,像 HTML 和 CSS 是不够的。
+Dialogue: 0,0:06:19.39,0:06:23.11,*Default,NTP,0000,0000,0000,,所以基本上你将在这门课程中学到的东西，
+Dialogue: 0,0:06:23.11,0:06:24.47,*Default,NTP,0000,0000,0000,,你不能
+Dialogue: 0,0:06:24.47,0:06:28.00,*Default,NTP,0000,0000,0000,,构建类似 udemy.com 的东西
+Dialogue: 0,0:06:28.00,0:06:29.01,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:29.01,0:06:31.04,*Default,NTP,0000,0000,0000,,所以要写应用程序
+Dialogue: 0,0:06:31.04,0:06:34.38,*Default,NTP,0000,0000,0000,,实际在 Web 服务器上执行，
+Dialogue: 0,0:06:34.38,0:06:37.50,*Default,NTP,0000,0000,0000,,开发人员使用某种后端语言
+Dialogue: 0,0:06:37.50,0:06:41.37,*Default,NTP,0000,0000,0000,,比如 Node JS、PHP 或 Python。
+Dialogue: 0,0:06:41.37,0:06:46.06,*Default,NTP,0000,0000,0000,,所以这些语言所做的就是从数据库中取出数据
+Dialogue: 0,0:06:46.06,0:06:50.68,*Default,NTP,0000,0000,0000,,并且基本上将这些数据组装到最终文件中
+Dialogue: 0,0:06:50.68,0:06:54.61,*Default,NTP,0000,0000,0000,,然后将其作为响应发送到浏览器。135
+Dialogue: 0,0:06:54.61,0:06:58.52,*Default,NTP,0000,0000,0000,,而这整个过程被称为后端开发，
+Dialogue: 0,0:06:58.52,0:07:03.00,*Default,NTP,0000,0000,0000,,因为这基本上是网站的不可见部分。
+Dialogue: 0,0:07:03.00,0:07:06.26,*Default,NTP,0000,0000,0000,,所以它是网站的后端。
+Dialogue: 0,0:07:06.26,0:07:11.09,*Default,NTP,0000,0000,0000,,现在在这种情况下，我们说我们有一个动态网站
+Dialogue: 0,0:07:11.09,0:07:14.17,*Default,NTP,0000,0000,0000,,因为网站是动态组装的
+Dialogue: 0,0:07:14.17,0:07:16.73,*Default,NTP,0000,0000,0000,,来自服务器上的不同部分。
+Dialogue: 0,0:07:16.73,0:07:21.07,*Default,NTP,0000,0000,0000,,每次有人访问该网站时都会发生这种情况。
+Dialogue: 0,0:07:21.07,0:07:24.43,*Default,NTP,0000,0000,0000,,所以回到udemy.com的例子
+Dialogue: 0,0:07:24.43,0:07:27.97,*Default,NTP,0000,0000,0000,,事实上，每次你访问 Udemy，
+Dialogue: 0,0:07:27.97,0:07:31.35,*Default,NTP,0000,0000,0000,,将生成一个新版本的网站
+Dialogue: 0,0:07:31.35,0:07:35.04,*Default,NTP,0000,0000,0000,,从他们的数据库中并发送到您的浏览器。
+Dialogue: 0,0:07:35.04,0:07:39.18,*Default,NTP,0000,0000,0000,,现在，另一方面，如果 udemy 是一个静态网站，
+Dialogue: 0,0:07:39.18,0:07:41.27,*Default,NTP,0000,0000,0000,,然后是网站文件
+Dialogue: 0,0:07:41.27,0:07:43.41,*Default,NTP,0000,0000,0000,,已经坐在服务器上，
+Dialogue: 0,0:07:43.41,0:07:46.57,*Default,NTP,0000,0000,0000,,只是在等待有人访问它们。
+Dialogue: 0,0:07:46.57,0:07:47.62,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:07:47.62,0:07:51.66,*Default,NTP,0000,0000,0000,,这就是静态和动态之间的最大区别
+Dialogue: 0,0:07:51.66,0:07:54.70,*Default,NTP,0000,0000,0000,,在静态中，文件已经完成
+Dialogue: 0,0:07:54.70,0:07:57.70,*Default,NTP,0000,0000,0000,,在动态中，它们首先需要生成
+Dialogue: 0,0:07:57.70,0:08:01.37,*Default,NTP,0000,0000,0000,,通过在服务器上运行的应用程序。
+Dialogue: 0,0:08:01.37,0:08:02.23,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:02.23,0:08:04.42,*Default,NTP,0000,0000,0000,,但是现在剩下的过程
+Dialogue: 0,0:08:04.42,0:08:06.97,*Default,NTP,0000,0000,0000,,实际上和以前一样。
+Dialogue: 0,0:08:06.97,0:08:10.39,*Default,NTP,0000,0000,0000,,所以这些文件现在可以发送到浏览器了
+Dialogue: 0,0:08:10.39,0:08:13.41,*Default,NTP,0000,0000,0000,,作为响应，然后将其转换
+Dialogue: 0,0:08:13.41,0:08:14.89,*Default,NTP,0000,0000,0000,,到最终网站
+Dialogue: 0,0:08:14.89,0:08:18.16,*Default,NTP,0000,0000,0000,,就像我们在这里看到的 udemy.com 一样。
+Dialogue: 0,0:08:19.10,0:08:21.43,*Default,NTP,0000,0000,0000,,伟大的。现在当然，
+Dialogue: 0,0:08:21.43,0:08:24.47,*Default,NTP,0000,0000,0000,,你不需要记住所有这些名字
+Dialogue: 0,0:08:24.47,0:08:26.02,*Default,NTP,0000,0000,0000,,我在这里提到的，
+Dialogue: 0,0:08:26.02,0:08:30.04,*Default,NTP,0000,0000,0000,,也不需要深入了解这个过程。
+Dialogue: 0,0:08:30.04,0:08:32.66,*Default,NTP,0000,0000,0000,,我只想给你一个概述
+Dialogue: 0,0:08:32.66,0:08:35.93,*Default,NTP,0000,0000,0000,,前端和后端实际上是什么，
+Dialogue: 0,0:08:35.93,0:08:38.33,*Default,NTP,0000,0000,0000,,浏览器和服务器是什么。
+Dialogue: 0,0:08:38.33,0:08:42.06,*Default,NTP,0000,0000,0000,,还有什么是静态和动态网站，
+Dialogue: 0,0:08:42.06,0:08:44.68,*Default,NTP,0000,0000,0000,,因为我真的认为这将是
+Dialogue: 0,0:08:44.68,0:08:48.54,*Default,NTP,0000,0000,0000,,在您开始开发者之旅时非常有帮助。
+Dialogue: 0,0:08:49.43,0:08:52.62,*Default,NTP,0000,0000,0000,,但现在，为了结束，让我们仔细看看
+Dialogue: 0,0:08:52.62,0:08:55.80,*Default,NTP,0000,0000,0000,,在前端的三种语言。
+Dialogue: 0,0:08:55.80,0:09:00.03,*Default,NTP,0000,0000,0000,,所以 HTML、CSS 和 JavaScript。
+Dialogue: 0,0:09:00.03,0:09:02.60,*Default,NTP,0000,0000,0000,,从 HTML 开始，
+Dialogue: 0,0:09:02.60,0:09:07.57,*Default,NTP,0000,0000,0000,,HTML 负责页面的内容。
+Dialogue: 0,0:09:07.57,0:09:11.20,*Default,NTP,0000,0000,0000,,这就是文本、图像、按钮，
+Dialogue: 0,0:09:11.20,0:09:14.89,*Default,NTP,0000,0000,0000,,以及您在网页上看到的所有内容
+Dialogue: 0,0:09:14.89,0:09:18.71,*Default,NTP,0000,0000,0000,,总是写在 HTML 文件中。
+Dialogue: 0,0:09:18.71,0:09:21.07,*Default,NTP,0000,0000,0000,,然后CSS负责
+Dialogue: 0,0:09:21.07,0:09:24.06,*Default,NTP,0000,0000,0000,,用于呈现该内容。
+Dialogue: 0,0:09:24.06,0:09:26.18,*Default,NTP,0000,0000,0000,,所以基本上是为了造型
+Dialogue: 0,0:09:26.18,0:09:29.97,*Default,NTP,0000,0000,0000,,以及在网页上布置元素。
+Dialogue: 0,0:09:29.97,0:09:33.97,*Default,NTP,0000,0000,0000,,现在终于，JavaScript 是真正的编程语言
+Dialogue: 0,0:09:33.97,0:09:35.77,*Default,NTP,0000,0000,0000,,的前端。
+Dialogue: 0,0:09:35.77,0:09:37.99,*Default,NTP,0000,0000,0000,,所以它允许我们添加动态
+Dialogue: 0,0:09:37.99,0:09:41.26,*Default,NTP,0000,0000,0000,,和网页的交互效果。
+Dialogue: 0,0:09:41.26,0:09:45.67,*Default,NTP,0000,0000,0000,,我们还可以使用它来操作内容或 CSS
+Dialogue: 0,0:09:45.67,0:09:48.15,*Default,NTP,0000,0000,0000,,从 Web 服务器加载数据
+Dialogue: 0,0:09:48.15,0:09:51.69,*Default,NTP,0000,0000,0000,,甚至构建整个前端应用程序，
+Dialogue: 0,0:09:51.69,0:09:55.04,*Default,NTP,0000,0000,0000,,然后我们称之为网络应用程序。
+Dialogue: 0,0:09:55.04,0:09:57.02,*Default,NTP,0000,0000,0000,,现在我们也可以使用类比
+Dialogue: 0,0:09:57.02,0:09:59.83,*Default,NTP,0000,0000,0000,,名词、目标和动词
+Dialogue: 0,0:09:59.83,0:10:02.09,*Default,NTP,0000,0000,0000,,在这里进行角色分离
+Dialogue: 0,0:10:02.09,0:10:04.53,*Default,NTP,0000,0000,0000,,更容易理解。
+Dialogue: 0,0:10:04.53,0:10:09.00,*Default,NTP,0000,0000,0000,,所以在这个类比中，\NHTML 代表名词。\N
+Dialogue: 0,0:10:09.00,0:10:13.55,*Default,NTP,0000,0000,0000,,例如，说\NP元素是一个段落。\N
+Dialogue: 0,0:10:13.55,0:10:16.63,*Default,NTP,0000,0000,0000,,所以段落是这里的名词。
+Dialogue: 0,0:10:16.63,0:10:19.28,*Default,NTP,0000,0000,0000,,CSS然后是目标
+Dialogue: 0,0:10:19.28,0:10:22.13,*Default,NTP,0000,0000,0000,,因为它基本上描述了名词。
+Dialogue: 0,0:10:22.13,0:10:24.71,*Default,NTP,0000,0000,0000,,比如像这一段 CSS
+Dialogue: 0,0:10:24.71,0:10:28.23,*Default,NTP,0000,0000,0000,,说段落文本是红色的。
+Dialogue: 0,0:10:28.23,0:10:32.02,*Default,NTP,0000,0000,0000,,所以红色是描述名词的目标。
+Dialogue: 0,0:10:32.02,0:10:33.32,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:10:33.32,0:10:36.41,*Default,NTP,0000,0000,0000,,最后，JavaScript 当然是动词，
+Dialogue: 0,0:10:36.41,0:10:39.20,*Default,NTP,0000,0000,0000,,就像说隐藏段落。
+Dialogue: 0,0:10:39.20,0:10:41.71,*Default,NTP,0000,0000,0000,,所以我们实际上在这里做一些事情。
+Dialogue: 0,0:10:41.71,0:10:43.87,*Default,NTP,0000,0000,0000,,所以我们有一个动词。
+Dialogue: 0,0:10:43.87,0:10:46.64,*Default,NTP,0000,0000,0000,,好的。 那有意义吗？
+Dialogue: 0,0:10:46.64,0:10:48.40,*Default,NTP,0000,0000,0000,,好的。 有了这个，
+Dialogue: 0,0:10:48.40,0:10:51.73,*Default,NTP,0000,0000,0000,,我们完成了对 Web 开发的介绍。
+Dialogue: 0,0:10:51.73,0:10:54.38,*Default,NTP,0000,0000,0000,,所以我们现在已经准备好开始工作了
+Dialogue: 0,0:10:54.38,0:10:58.34,*Default,NTP,0000,0000,0000,,在他的课程中使用 HTML 和 CSS 代码。
+Dialogue: 0,0:00:01.36,0:00:04.00,*Default,NTP,0000,0000,0000,,Welcome to the first actual lecture
+Dialogue: 0,0:00:04.00,0:00:05.85,*Default,NTP,0000,0000,0000,,of this course.
+Dialogue: 0,0:00:05.85,0:00:08.73,*Default,NTP,0000,0000,0000,,Now there is a good chance that this course
+Dialogue: 0,0:00:08.73,0:00:11.09,*Default,NTP,0000,0000,0000,,is going to be your very first contact
+Dialogue: 0,0:00:11.09,0:00:13.24,*Default,NTP,0000,0000,0000,,with any web development.
+Dialogue: 0,0:00:13.24,0:00:17.88,*Default,NTP,0000,0000,0000,,And so before we start writing HTML and CSS code,
+Dialogue: 0,0:00:17.88,0:00:20.06,*Default,NTP,0000,0000,0000,,I think it might be a good idea
+Dialogue: 0,0:00:20.06,0:00:22.03,*Default,NTP,0000,0000,0000,,to actually begin this course
+Dialogue: 0,0:00:22.03,0:00:24.52,*Default,NTP,0000,0000,0000,,with a very high level overview
+Dialogue: 0,0:00:24.52,0:00:27.74,*Default,NTP,0000,0000,0000,,of this field of web development.
+Dialogue: 0,0:00:27.74,0:00:29.84,*Default,NTP,0000,0000,0000,,So we're going to talk about things like
+Dialogue: 0,0:00:29.84,0:00:34.34,*Default,NTP,0000,0000,0000,,clients and servers, front-end and back-end development,
+Dialogue: 0,0:00:34.34,0:00:36.90,*Default,NTP,0000,0000,0000,,static and dynamic websites.
+Dialogue: 0,0:00:36.90,0:00:39.97,*Default,NTP,0000,0000,0000,,And of course about the core languages
+Dialogue: 0,0:00:39.97,0:00:42.99,*Default,NTP,0000,0000,0000,,and core technologies of web development.
+Dialogue: 0,0:00:45.07,0:00:47.30,*Default,NTP,0000,0000,0000,,And I'm going to explain all this
+Dialogue: 0,0:00:47.30,0:00:49.30,*Default,NTP,0000,0000,0000,,around the process that happens
+Dialogue: 0,0:00:49.30,0:00:52.92,*Default,NTP,0000,0000,0000,,when we open up a webpage in a browser.
+Dialogue: 0,0:00:52.92,0:00:54.76,*Default,NTP,0000,0000,0000,,Just keep in mind again,
+Dialogue: 0,0:00:54.76,0:00:57.57,*Default,NTP,0000,0000,0000,,that this is just a high-level overview.
+Dialogue: 0,0:00:57.57,0:01:01.02,*Default,NTP,0000,0000,0000,,And so I'm going to leave out a lot of details here.
+Dialogue: 0,0:01:01.02,0:01:03.41,*Default,NTP,0000,0000,0000,,This is really just so you get familiar
+Dialogue: 0,0:01:03.41,0:01:05.86,*Default,NTP,0000,0000,0000,,with some of these concepts and terms
+Dialogue: 0,0:01:05.86,0:01:07.83,*Default,NTP,0000,0000,0000,,that all web developers know
+Dialogue: 0,0:01:07.83,0:01:11.00,*Default,NTP,0000,0000,0000,,before you start your own journey.
+Dialogue: 0,0:01:11.00,0:01:15.00,*Default,NTP,0000,0000,0000,,But anyway, let's say that we're trying to access a webpage
+Dialogue: 0,0:01:15.00,0:01:18.84,*Default,NTP,0000,0000,0000,,in our browser at omnifood.dev
+Dialogue: 0,0:01:18.84,0:01:21.75,*Default,NTP,0000,0000,0000,,And by the way, this is actually the website
+Dialogue: 0,0:01:21.75,0:01:24.69,*Default,NTP,0000,0000,0000,,that we're going to develop throughout this course.
+Dialogue: 0,0:01:24.69,0:01:28.36,*Default,NTP,0000,0000,0000,,Now what happens as we try to access this page
+Dialogue: 0,0:01:28.36,0:01:32.42,*Default,NTP,0000,0000,0000,,is that our browser will send a request to the server
+Dialogue: 0,0:01:32.42,0:01:35.79,*Default,NTP,0000,0000,0000,,where this page is hosted on the internet.
+Dialogue: 0,0:01:35.79,0:01:38.48,*Default,NTP,0000,0000,0000,,So each and every website is stored
+Dialogue: 0,0:01:38.48,0:01:42.83,*Default,NTP,0000,0000,0000,,on something called a Server, which is basically a computer
+Dialogue: 0,0:01:42.83,0:01:45.20,*Default,NTP,0000,0000,0000,,that is connected to the internet
+Dialogue: 0,0:01:45.20,0:01:48.63,*Default,NTP,0000,0000,0000,,and is able to receive requests like this one.
+Dialogue: 0,0:01:49.54,0:01:53.45,*Default,NTP,0000,0000,0000,,So again, when we browse to a certain website,
+Dialogue: 0,0:01:53.45,0:01:57.01,*Default,NTP,0000,0000,0000,,our web browser will send a request to the server
+Dialogue: 0,0:01:57.01,0:02:01.28,*Default,NTP,0000,0000,0000,,where the website is stored.\NSo where it is hosted.
+Dialogue: 0,0:02:01.28,0:02:04.02,*Default,NTP,0000,0000,0000,,Then when the server receives the request,
+Dialogue: 0,0:02:04.02,0:02:07.52,*Default,NTP,0000,0000,0000,,it will take all the files that make up the website
+Dialogue: 0,0:02:07.52,0:02:10.36,*Default,NTP,0000,0000,0000,,and send them back to the browser.
+Dialogue: 0,0:02:10.36,0:02:14.89,*Default,NTP,0000,0000,0000,,And so we say that the server sends response to the browser,
+Dialogue: 0,0:02:14.89,0:02:17.61,*Default,NTP,0000,0000,0000,,which essentially contains all of these files
+Dialogue: 0,0:02:17.61,0:02:20.13,*Default,NTP,0000,0000,0000,,that the website is made of.
+Dialogue: 0,0:02:20.13,0:02:23.42,*Default,NTP,0000,0000,0000,,Now, as you can see from these file extensions,
+Dialogue: 0,0:02:23.42,0:02:28.42,*Default,NTP,0000,0000,0000,,we have some HTML, CSS, and also a JavaScript code here.
+Dialogue: 0,0:02:28.68,0:02:31.47,*Default,NTP,0000,0000,0000,,And these are precisely the three languages
+Dialogue: 0,0:02:31.47,0:02:34.03,*Default,NTP,0000,0000,0000,,that browsers can understand.
+Dialogue: 0,0:02:34.03,0:02:36.84,*Default,NTP,0000,0000,0000,,So what this means is that all of the code
+Dialogue: 0,0:02:36.84,0:02:40.00,*Default,NTP,0000,0000,0000,,that makes up a website needs to always be written
+Dialogue: 0,0:02:40.00,0:02:43.70,*Default,NTP,0000,0000,0000,,in HTML, CSS, and JavaScript.
+Dialogue: 0,0:02:43.70,0:02:46.53,*Default,NTP,0000,0000,0000,,Because again, these are essentially
+Dialogue: 0,0:02:46.53,0:02:50.56,*Default,NTP,0000,0000,0000,,the three core technologies that any browser can understand.
+Dialogue: 0,0:02:51.42,0:02:54.63,*Default,NTP,0000,0000,0000,,All right, now, once the browser receives
+Dialogue: 0,0:02:54.63,0:02:58.34,*Default,NTP,0000,0000,0000,,these HTML, CSS, and JavaScript files
+Dialogue: 0,0:02:58.34,0:03:00.43,*Default,NTP,0000,0000,0000,,from the service response,
+Dialogue: 0,0:03:00.43,0:03:03.26,*Default,NTP,0000,0000,0000,,it will take the code and render the website
+Dialogue: 0,0:03:03.26,0:03:05.38,*Default,NTP,0000,0000,0000,,that we were trying to access.
+Dialogue: 0,0:03:05.38,0:03:08.86,*Default,NTP,0000,0000,0000,,So based on that code, okay.
+Dialogue: 0,0:03:08.86,0:03:12.23,*Default,NTP,0000,0000,0000,,And with this, you already have a good understanding
+Dialogue: 0,0:03:12.23,0:03:16.02,*Default,NTP,0000,0000,0000,,of what actually happens when we browse to a website
+Dialogue: 0,0:03:16.02,0:03:18.18,*Default,NTP,0000,0000,0000,,and also about the technologies
+Dialogue: 0,0:03:18.18,0:03:21.09,*Default,NTP,0000,0000,0000,,that we use to build any website
+Dialogue: 0,0:03:21.09,0:03:25.79,*Default,NTP,0000,0000,0000,,and that process of writing HTML, CSS, and JavaScript code
+Dialogue: 0,0:03:25.79,0:03:28.22,*Default,NTP,0000,0000,0000,,that the browser can understand
+Dialogue: 0,0:03:28.22,0:03:32.57,*Default,NTP,0000,0000,0000,,is the process that we call Front-End Web Development.
+Dialogue: 0,0:03:32.57,0:03:34.34,*Default,NTP,0000,0000,0000,,So whenever you hear someone
+Dialogue: 0,0:03:34.34,0:03:36.81,*Default,NTP,0000,0000,0000,,talking about Front-End Development,
+Dialogue: 0,0:03:36.81,0:03:39.46,*Default,NTP,0000,0000,0000,,what they mean is developers writing the code
+Dialogue: 0,0:03:39.46,0:03:41.94,*Default,NTP,0000,0000,0000,,that is displayed in a browser,
+Dialogue: 0,0:03:41.94,0:03:45.93,*Default,NTP,0000,0000,0000,,which is basically the front-end of a website.
+Dialogue: 0,0:03:45.93,0:03:49.37,*Default,NTP,0000,0000,0000,,And in fact, this is essentially what we're going to learn
+Dialogue: 0,0:03:49.37,0:03:53.57,*Default,NTP,0000,0000,0000,,in this course, or at least the very, very fundamentals
+Dialogue: 0,0:03:53.57,0:03:55.37,*Default,NTP,0000,0000,0000,,of front-end development,
+Dialogue: 0,0:03:55.37,0:03:59.47,*Default,NTP,0000,0000,0000,,which is learning HTML and CSS.
+Dialogue: 0,0:03:59.47,0:04:01.78,*Default,NTP,0000,0000,0000,,Now, just as a side note here,
+Dialogue: 0,0:04:01.78,0:04:04.42,*Default,NTP,0000,0000,0000,,whenever the files that make up the website
+Dialogue: 0,0:04:04.42,0:04:06.87,*Default,NTP,0000,0000,0000,,are simply stored on a web server
+Dialogue: 0,0:04:06.87,0:04:10.11,*Default,NTP,0000,0000,0000,,and are then sent to the browser as they are,
+Dialogue: 0,0:04:10.11,0:04:13.39,*Default,NTP,0000,0000,0000,,we say that we have a static website.
+Dialogue: 0,0:04:13.39,0:04:14.69,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:14.69,0:04:17.46,*Default,NTP,0000,0000,0000,,And this will make a little bit more sense in a minute
+Dialogue: 0,0:04:17.46,0:04:21.41,*Default,NTP,0000,0000,0000,,when we talk about what a dynamic website is,
+Dialogue: 0,0:04:21.41,0:04:24.93,*Default,NTP,0000,0000,0000,,but for now, just keep in mind that a static website
+Dialogue: 0,0:04:24.93,0:04:27.61,*Default,NTP,0000,0000,0000,,is basically a website where the files
+Dialogue: 0,0:04:27.61,0:04:31.96,*Default,NTP,0000,0000,0000,,are simply sent from the server to the browser as they are.
+Dialogue: 0,0:04:31.96,0:04:34.46,*Default,NTP,0000,0000,0000,,So without any transformation.
+Dialogue: 0,0:04:34.46,0:04:35.89,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:04:35.89,0:04:37.97,*Default,NTP,0000,0000,0000,,So I hope that from this,
+Dialogue: 0,0:04:37.97,0:04:40.74,*Default,NTP,0000,0000,0000,,you learned what front-end development is
+Dialogue: 0,0:04:40.74,0:04:43.72,*Default,NTP,0000,0000,0000,,and also about the three core technologies
+Dialogue: 0,0:04:43.72,0:04:46.02,*Default,NTP,0000,0000,0000,,that make up any website.
+Dialogue: 0,0:04:46.02,0:04:48.93,*Default,NTP,0000,0000,0000,,And so now, let's take it one step further
+Dialogue: 0,0:04:48.93,0:04:52.47,*Default,NTP,0000,0000,0000,,and talk about something called Back-end Development.
+Dialogue: 0,0:04:52.47,0:04:55.24,*Default,NTP,0000,0000,0000,,So let's try another example here.
+Dialogue: 0,0:04:55.24,0:04:57.67,*Default,NTP,0000,0000,0000,,And this time, let's try to understand
+Dialogue: 0,0:04:57.67,0:04:59.05,*Default,NTP,0000,0000,0000,,what would happen
+Dialogue: 0,0:04:59.05,0:05:03.49,*Default,NTP,0000,0000,0000,,when we try to access a website like udemy.com
+Dialogue: 0,0:05:03.49,0:05:07.92,*Default,NTP,0000,0000,0000,,So once again, the first step is that a request
+Dialogue: 0,0:05:07.92,0:05:12.92,*Default,NTP,0000,0000,0000,,is sent to the web server where udemy.com is hosted.
+Dialogue: 0,0:05:13.02,0:05:16.02,*Default,NTP,0000,0000,0000,,Now, why is a website like Udemy,
+Dialogue: 0,0:05:16.02,0:05:20.51,*Default,NTP,0000,0000,0000,,so different from something like the static Omnifood website
+Dialogue: 0,0:05:20.51,0:05:22.31,*Default,NTP,0000,0000,0000,,that I showed you earlier?
+Dialogue: 0,0:05:22.31,0:05:25.72,*Default,NTP,0000,0000,0000,,Well, a complex site like you udemy.com
+Dialogue: 0,0:05:25.72,0:05:29.75,*Default,NTP,0000,0000,0000,,is really completely different from a static site,
+Dialogue: 0,0:05:29.75,0:05:31.74,*Default,NTP,0000,0000,0000,,because there is a lot of content
+Dialogue: 0,0:05:31.74,0:05:34.99,*Default,NTP,0000,0000,0000,,that is always changing all the time.
+Dialogue: 0,0:05:34.99,0:05:38.08,*Default,NTP,0000,0000,0000,,Like on Udemy, there are always new courses
+Dialogue: 0,0:05:38.08,0:05:41.06,*Default,NTP,0000,0000,0000,,and new reviews being added to the site.
+Dialogue: 0,0:05:41.06,0:05:43.72,*Default,NTP,0000,0000,0000,,New ratings and new course length
+Dialogue: 0,0:05:43.72,0:05:45.79,*Default,NTP,0000,0000,0000,,are calculated for example,
+Dialogue: 0,0:05:45.79,0:05:48.77,*Default,NTP,0000,0000,0000,,and really a bunch of other things like that
+Dialogue: 0,0:05:48.77,0:05:50.49,*Default,NTP,0000,0000,0000,,are always happening.
+Dialogue: 0,0:05:50.49,0:05:53.78,*Default,NTP,0000,0000,0000,,And so in order to make a system like this work,
+Dialogue: 0,0:05:53.78,0:05:56.50,*Default,NTP,0000,0000,0000,,udemy.com needs a whole application
+Dialogue: 0,0:05:56.50,0:06:00.86,*Default,NTP,0000,0000,0000,,running on the server, and they also need a big database,
+Dialogue: 0,0:06:00.86,0:06:03.84,*Default,NTP,0000,0000,0000,,which basically contains all the courses
+Dialogue: 0,0:06:03.84,0:06:06.75,*Default,NTP,0000,0000,0000,,and all the reviews, all the users,
+Dialogue: 0,0:06:06.75,0:06:08.70,*Default,NTP,0000,0000,0000,,and really all the content
+Dialogue: 0,0:06:08.70,0:06:11.90,*Default,NTP,0000,0000,0000,,that is being displayed on their website.
+Dialogue: 0,0:06:11.90,0:06:15.27,*Default,NTP,0000,0000,0000,,Now to do all this, front-end technologies
+Dialogue: 0,0:06:15.27,0:06:19.39,*Default,NTP,0000,0000,0000,,like HTML and CSS are simply not enough.
+Dialogue: 0,0:06:19.39,0:06:23.11,*Default,NTP,0000,0000,0000,,So basically with what you're going to learn in this course,
+Dialogue: 0,0:06:23.11,0:06:24.47,*Default,NTP,0000,0000,0000,,you're not going to be able
+Dialogue: 0,0:06:24.47,0:06:28.00,*Default,NTP,0000,0000,0000,,to build something like udemy.com
+Dialogue: 0,0:06:28.00,0:06:29.01,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:06:29.01,0:06:31.04,*Default,NTP,0000,0000,0000,,So to write applications
+Dialogue: 0,0:06:31.04,0:06:34.38,*Default,NTP,0000,0000,0000,,that are actually executed on web servers,
+Dialogue: 0,0:06:34.38,0:06:37.50,*Default,NTP,0000,0000,0000,,developers use some kind of back-end language
+Dialogue: 0,0:06:37.50,0:06:41.37,*Default,NTP,0000,0000,0000,,like Node JS, PHP, or Python.
+Dialogue: 0,0:06:41.37,0:06:46.06,*Default,NTP,0000,0000,0000,,So what these languages do is to take data out of a database
+Dialogue: 0,0:06:46.06,0:06:50.68,*Default,NTP,0000,0000,0000,,and basically assemble that data into the final files
+Dialogue: 0,0:06:50.68,0:06:54.61,*Default,NTP,0000,0000,0000,,that will then be sent to the browser as the response.
+Dialogue: 0,0:06:54.61,0:06:58.52,*Default,NTP,0000,0000,0000,,And this whole process is called Back-end Development,
+Dialogue: 0,0:06:58.52,0:07:03.00,*Default,NTP,0000,0000,0000,,because this is basically the invisible part of a website.
+Dialogue: 0,0:07:03.00,0:07:06.26,*Default,NTP,0000,0000,0000,,And so it's the website's back-end.
+Dialogue: 0,0:07:06.26,0:07:11.09,*Default,NTP,0000,0000,0000,,Now in this situation, we say that we have a dynamic website
+Dialogue: 0,0:07:11.09,0:07:14.17,*Default,NTP,0000,0000,0000,,because the website is dynamically assembled
+Dialogue: 0,0:07:14.17,0:07:16.73,*Default,NTP,0000,0000,0000,,from different pieces on the server.
+Dialogue: 0,0:07:16.73,0:07:21.07,*Default,NTP,0000,0000,0000,,And that happens each time that someone visits the website.
+Dialogue: 0,0:07:21.07,0:07:24.43,*Default,NTP,0000,0000,0000,,So returning to the example of udemy.com
+Dialogue: 0,0:07:24.43,0:07:27.97,*Default,NTP,0000,0000,0000,,In fact, each time that you visit Udemy,
+Dialogue: 0,0:07:27.97,0:07:31.35,*Default,NTP,0000,0000,0000,,a new version of the website is going to be generated
+Dialogue: 0,0:07:31.35,0:07:35.04,*Default,NTP,0000,0000,0000,,from their database and sent to your browser.
+Dialogue: 0,0:07:35.04,0:07:39.18,*Default,NTP,0000,0000,0000,,Now, on the other hand, if udemy was a static website,
+Dialogue: 0,0:07:39.18,0:07:41.27,*Default,NTP,0000,0000,0000,,then the website files
+Dialogue: 0,0:07:41.27,0:07:43.41,*Default,NTP,0000,0000,0000,,would already be sitting on the server,
+Dialogue: 0,0:07:43.41,0:07:46.57,*Default,NTP,0000,0000,0000,,just waiting for someone to access them.
+Dialogue: 0,0:07:46.57,0:07:47.62,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:07:47.62,0:07:51.66,*Default,NTP,0000,0000,0000,,So that's the big difference between static and dynamic
+Dialogue: 0,0:07:51.66,0:07:54.70,*Default,NTP,0000,0000,0000,,In static, the files are already done
+Dialogue: 0,0:07:54.70,0:07:57.70,*Default,NTP,0000,0000,0000,,and in dynamic, they first need to be generated
+Dialogue: 0,0:07:57.70,0:08:01.37,*Default,NTP,0000,0000,0000,,by an application that is running on the server.
+Dialogue: 0,0:08:01.37,0:08:02.23,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:08:02.23,0:08:04.42,*Default,NTP,0000,0000,0000,,But now the rest of the process
+Dialogue: 0,0:08:04.42,0:08:06.97,*Default,NTP,0000,0000,0000,,is actually the same as before.
+Dialogue: 0,0:08:06.97,0:08:10.39,*Default,NTP,0000,0000,0000,,So these files are now ready to be sent to the browser
+Dialogue: 0,0:08:10.39,0:08:13.41,*Default,NTP,0000,0000,0000,,as a response, which will then be converted
+Dialogue: 0,0:08:13.41,0:08:14.89,*Default,NTP,0000,0000,0000,,to the final website
+Dialogue: 0,0:08:14.89,0:08:18.16,*Default,NTP,0000,0000,0000,,like this one we see here of udemy.com.
+Dialogue: 0,0:08:19.10,0:08:21.43,*Default,NTP,0000,0000,0000,,Great. Now of course,
+Dialogue: 0,0:08:21.43,0:08:24.47,*Default,NTP,0000,0000,0000,,there is no need for you to memorize all these names
+Dialogue: 0,0:08:24.47,0:08:26.02,*Default,NTP,0000,0000,0000,,that I mentioned here,
+Dialogue: 0,0:08:26.02,0:08:30.04,*Default,NTP,0000,0000,0000,,and also no need to deeply understand this process.
+Dialogue: 0,0:08:30.04,0:08:32.66,*Default,NTP,0000,0000,0000,,All I want here is to give you an overview
+Dialogue: 0,0:08:32.66,0:08:35.93,*Default,NTP,0000,0000,0000,,of what front-end and back-end actually are,
+Dialogue: 0,0:08:35.93,0:08:38.33,*Default,NTP,0000,0000,0000,,what the browser and the server are.
+Dialogue: 0,0:08:38.33,0:08:42.06,*Default,NTP,0000,0000,0000,,And also what static and dynamic websites are,
+Dialogue: 0,0:08:42.06,0:08:44.68,*Default,NTP,0000,0000,0000,,because I really think that this is going to be
+Dialogue: 0,0:08:44.68,0:08:48.54,*Default,NTP,0000,0000,0000,,extremely helpful as you start your developer journey.
+Dialogue: 0,0:08:49.43,0:08:52.62,*Default,NTP,0000,0000,0000,,But now, just to finish, let's take a closer look
+Dialogue: 0,0:08:52.62,0:08:55.80,*Default,NTP,0000,0000,0000,,at the three languages of the front-end.
+Dialogue: 0,0:08:55.80,0:09:00.03,*Default,NTP,0000,0000,0000,,So HTML, CSS, and JavaScript.
+Dialogue: 0,0:09:00.03,0:09:02.60,*Default,NTP,0000,0000,0000,,And starting with HTML,
+Dialogue: 0,0:09:02.60,0:09:07.57,*Default,NTP,0000,0000,0000,,HTML is responsible for the content of the page.
+Dialogue: 0,0:09:07.57,0:09:11.20,*Default,NTP,0000,0000,0000,,So that's the text, the images, the buttons,
+Dialogue: 0,0:09:11.20,0:09:14.89,*Default,NTP,0000,0000,0000,,and really all the content that you see on a webpage
+Dialogue: 0,0:09:14.89,0:09:18.71,*Default,NTP,0000,0000,0000,,is always written inside an HTML file.
+Dialogue: 0,0:09:18.71,0:09:21.07,*Default,NTP,0000,0000,0000,,Then the CSS is responsible
+Dialogue: 0,0:09:21.07,0:09:24.06,*Default,NTP,0000,0000,0000,,for the presentation of that content.
+Dialogue: 0,0:09:24.06,0:09:26.18,*Default,NTP,0000,0000,0000,,So basically for styling
+Dialogue: 0,0:09:26.18,0:09:29.97,*Default,NTP,0000,0000,0000,,and for laying out the elements on the webpage.
+Dialogue: 0,0:09:29.97,0:09:33.97,*Default,NTP,0000,0000,0000,,Now finally, JavaScript is the actual programming language
+Dialogue: 0,0:09:33.97,0:09:35.77,*Default,NTP,0000,0000,0000,,of the front-end.
+Dialogue: 0,0:09:35.77,0:09:37.99,*Default,NTP,0000,0000,0000,,So it allows us to add dynamic
+Dialogue: 0,0:09:37.99,0:09:41.26,*Default,NTP,0000,0000,0000,,and interactive effects to webpages.
+Dialogue: 0,0:09:41.26,0:09:45.67,*Default,NTP,0000,0000,0000,,We can also use it to manipulate the content or the CSS
+Dialogue: 0,0:09:45.67,0:09:48.15,*Default,NTP,0000,0000,0000,,to load data from web servers
+Dialogue: 0,0:09:48.15,0:09:51.69,*Default,NTP,0000,0000,0000,,and even to build entire front-end applications,
+Dialogue: 0,0:09:51.69,0:09:55.04,*Default,NTP,0000,0000,0000,,which we then call web applications.
+Dialogue: 0,0:09:55.04,0:09:57.02,*Default,NTP,0000,0000,0000,,Now we can also use the analogy
+Dialogue: 0,0:09:57.02,0:09:59.83,*Default,NTP,0000,0000,0000,,of nouns, objectives, and verbs
+Dialogue: 0,0:09:59.83,0:10:02.09,*Default,NTP,0000,0000,0000,,to make the separation of roles here
+Dialogue: 0,0:10:02.09,0:10:04.53,*Default,NTP,0000,0000,0000,,a little bit easier to understand.
+Dialogue: 0,0:10:04.53,0:10:09.00,*Default,NTP,0000,0000,0000,,So in this analogy,\NHTML represents the nouns.
+Dialogue: 0,0:10:09.00,0:10:13.55,*Default,NTP,0000,0000,0000,,For example, saying that\Nthe P element is a paragraph.
+Dialogue: 0,0:10:13.55,0:10:16.63,*Default,NTP,0000,0000,0000,,So paragraph is the noun here.
+Dialogue: 0,0:10:16.63,0:10:19.28,*Default,NTP,0000,0000,0000,,The CSS then is the objective
+Dialogue: 0,0:10:19.28,0:10:22.13,*Default,NTP,0000,0000,0000,,because it basically describes the noun.
+Dialogue: 0,0:10:22.13,0:10:24.71,*Default,NTP,0000,0000,0000,,For example, like this piece of CSS
+Dialogue: 0,0:10:24.71,0:10:28.23,*Default,NTP,0000,0000,0000,,saying that the paragraph text is red.
+Dialogue: 0,0:10:28.23,0:10:32.02,*Default,NTP,0000,0000,0000,,And so red is the objective describing the noun.
+Dialogue: 0,0:10:32.02,0:10:33.32,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:10:33.32,0:10:36.41,*Default,NTP,0000,0000,0000,,Finally, JavaScript is of course the verb,
+Dialogue: 0,0:10:36.41,0:10:39.20,*Default,NTP,0000,0000,0000,,like saying hide the paragraph.
+Dialogue: 0,0:10:39.20,0:10:41.71,*Default,NTP,0000,0000,0000,,So we're actually doing something here.
+Dialogue: 0,0:10:41.71,0:10:43.87,*Default,NTP,0000,0000,0000,,And so we have a verb.
+Dialogue: 0,0:10:43.87,0:10:46.64,*Default,NTP,0000,0000,0000,,Okay. Does that make sense?
+Dialogue: 0,0:10:46.64,0:10:48.40,*Default,NTP,0000,0000,0000,,All right. And with this,
+Dialogue: 0,0:10:48.40,0:10:51.73,*Default,NTP,0000,0000,0000,,we finish our introduction to web development.
+Dialogue: 0,0:10:51.73,0:10:54.38,*Default,NTP,0000,0000,0000,,And so we're now ready to start working
+Dialogue: 0,0:10:54.38,0:10:58.34,*Default,NTP,0000,0000,0000,,with HTML and CSS code in his course.

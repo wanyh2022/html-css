@@ -1,0 +1,312 @@
+[Script Info]
+Title: 018 Installing Additional VS Code Extensions_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=16&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.27,0:00:02.89,*Default,NTP,0000,0000,0000,,欢迎回来。
+Dialogue: 0,0:00:02.89,0:00:06.40,*Default,NTP,0000,0000,0000,,所以我们开始配置我们的 VS 代码编辑器
+Dialogue: 0,0:00:06.40,0:00:09.90,*Default,NTP,0000,0000,0000,,在课程的一开始，但现在，
+Dialogue: 0,0:00:09.90,0:00:13.42,*Default,NTP,0000,0000,0000,,我们准备安装三个额外的扩展
+Dialogue: 0,0:00:13.42,0:00:15.91,*Default,NTP,0000,0000,0000,,这将使我们的生活更轻松
+Dialogue: 0,0:00:15.91,0:00:18.17,*Default,NTP,0000,0000,0000,,当我们编写 HTML 和 CSS 代码时。
+Dialogue: 0,0:00:20.26,0:00:24.76,*Default,NTP,0000,0000,0000,,因此，让我们在这里转到我们的扩展面板。
+Dialogue: 0,0:00:24.76,0:00:27.89,*Default,NTP,0000,0000,0000,,我想在这里安装的第一个扩展
+Dialogue: 0,0:00:27.89,0:00:29.37,*Default,NTP,0000,0000,0000,,被称为，图像
+Dialogue: 0,0:00:30.27,0:00:31.14,*Default,NTP,0000,0000,0000,,预览。
+Dialogue: 0,0:00:32.20,0:00:35.83,*Default,NTP,0000,0000,0000,,所以就是这个，我已经安装了它。
+Dialogue: 0,0:00:35.83,0:00:38.26,*Default,NTP,0000,0000,0000,,所以我只需要点击启用。
+Dialogue: 0,0:00:39.88,0:00:41.22,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:00:41.22,0:00:42.66,*Default,NTP,0000,0000,0000,,所以这是第一个。
+Dialogue: 0,0:00:42.66,0:00:47.36,*Default,NTP,0000,0000,0000,,而这个要做的是在我们的 HTML 中，
+Dialogue: 0,0:00:47.36,0:00:52.36,*Default,NTP,0000,0000,0000,,它现在在这个装订线中显示这个小图像预览
+Dialogue: 0,0:00:52.49,0:00:54.14,*Default,NTP,0000,0000,0000,,因为它被称为。
+Dialogue: 0,0:00:54.14,0:00:56.43,*Default,NTP,0000,0000,0000,,所以这里我们有这个
+Dialogue: 0,0:00:56.43,0:01:00.42,*Default,NTP,0000,0000,0000,,然后这里的这张图片也在这里
+Dialogue: 0,0:01:00.42,0:01:02.23,*Default,NTP,0000,0000,0000,,我们在哪里声明它。
+Dialogue: 0,0:01:02.23,0:01:04.13,*Default,NTP,0000,0000,0000,,所以我们将它包含在我们的代码中，
+Dialogue: 0,0:01:04.13,0:01:07.75,*Default,NTP,0000,0000,0000,,这有时会非常有帮助。
+Dialogue: 0,0:01:07.75,0:01:10.63,*Default,NTP,0000,0000,0000,,所以这就是为什么我真的想给你看这个。
+Dialogue: 0,0:01:13.29,0:01:16.29,*Default,NTP,0000,0000,0000,,我想给你看的下一个叫做
+Dialogue: 0,0:01:16.29,0:01:19.01,*Default,NTP,0000,0000,0000,,颜色荧光笔
+Dialogue: 0,0:01:19.01,0:01:19.91,*Default,NTP,0000,0000,0000,,或突出显示。
+Dialogue: 0,0:01:21.46,0:01:22.93,*Default,NTP,0000,0000,0000,,所以这里就是这个
+Dialogue: 0,0:01:22.93,0:01:25.09,*Default,NTP,0000,0000,0000,,再一次，我已经安装了它。
+Dialogue: 0,0:01:25.09,0:01:26.48,*Default,NTP,0000,0000,0000,,我只是启用它。
+Dialogue: 0,0:01:27.35,0:01:29.98,*Default,NTP,0000,0000,0000,,实际上这个，我还不能给你看
+Dialogue: 0,0:01:29.98,0:01:34.47,*Default,NTP,0000,0000,0000,,它看起来像什么，因为它只与 CSS 相关。
+Dialogue: 0,0:01:34.47,0:01:38.42,*Default,NTP,0000,0000,0000,,但请相信我，这个扩展真的非常有帮助
+Dialogue: 0,0:01:38.42,0:01:40.92,*Default,NTP,0000,0000,0000,,用于在 CSS 中可视化颜色。
+Dialogue: 0,0:01:41.81,0:01:46.64,*Default,NTP,0000,0000,0000,,接下来是一个名为自动重命名的扩展
+Dialogue: 0,0:01:46.64,0:01:47.47,*Default,NTP,0000,0000,0000,,标签
+Dialogue: 0,0:01:48.48,0:01:50.02,*Default,NTP,0000,0000,0000,,所以这个，
+Dialogue: 0,0:01:50.02,0:01:53.97,*Default,NTP,0000,0000,0000,,你看到它又一次非常受欢迎。
+Dialogue: 0,0:01:54.82,0:01:57.72,*Default,NTP,0000,0000,0000,,所以你必须下载它并启用它。
+Dialogue: 0,0:01:57.72,0:02:00.56,*Default,NTP,0000,0000,0000,,然后这里发生的是，
+Dialogue: 0,0:02:02.33,0:02:04.94,*Default,NTP,0000,0000,0000,,当我们改变一个元素的名字时，
+Dialogue: 0,0:02:04.94,0:02:08.93,*Default,NTP,0000,0000,0000,,假设我们实际上想让这个成为一个 div，
+Dialogue: 0,0:02:08.93,0:02:13.09,*Default,NTP,0000,0000,0000,,然后你会看到它自动也改变了关闭一个。
+Dialogue: 0,0:02:13.98,0:02:14.93,*Default,NTP,0000,0000,0000,,所以结束标签。
+Dialogue: 0,0:02:15.77,0:02:16.60,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:16.60,0:02:18.53,*Default,NTP,0000,0000,0000,,这又非常有帮助
+Dialogue: 0,0:02:18.53,0:02:22.78,*Default,NTP,0000,0000,0000,,它使我们编写 HTML 的生活更轻松，
+Dialogue: 0,0:02:22.78,0:02:26.30,*Default,NTP,0000,0000,0000,,因为相信我，我们需要一直这样做，
+Dialogue: 0,0:02:26.30,0:02:28.71,*Default,NTP,0000,0000,0000,,就像更改元素名称一样。
+Dialogue: 0,0:02:29.58,0:02:31.08,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:31.08,0:02:33.59,*Default,NTP,0000,0000,0000,,现在我们需要做的另一件事，
+Dialogue: 0,0:02:33.59,0:02:35.96,*Default,NTP,0000,0000,0000,,或者至少如果我们愿意，我们可以做到，
+Dialogue: 0,0:02:35.96,0:02:40.46,*Default,NTP,0000,0000,0000,,就是回到我们的设置然后转回来
+Dialogue: 0,0:02:40.46,0:02:42.98,*Default,NTP,0000,0000,0000,,在我们停用的这个设置上
+Dialogue: 0,0:02:42.98,0:02:45.33,*Default,NTP,0000,0000,0000,,在本节的开头。
+Dialogue: 0,0:02:45.33,0:02:46.65,*Default,NTP,0000,0000,0000,,那就是汽车，
+Dialogue: 0,0:02:47.87,0:02:50.03,*Default,NTP,0000,0000,0000,,让我们拼写正确。
+Dialogue: 0,0:02:50.03,0:02:52.29,*Default,NTP,0000,0000,0000,,所以自动关闭标签。
+Dialogue: 0,0:02:52.29,0:02:56.28,*Default,NTP,0000,0000,0000,,所以让我们重新启用它，因为我认为在这一点上
+Dialogue: 0,0:02:56.28,0:02:59.51,*Default,NTP,0000,0000,0000,,你不会再犯忘记的错误
+Dialogue: 0,0:02:59.51,0:03:01.01,*Default,NTP,0000,0000,0000,,结束标记。
+Dialogue: 0,0:03:01.01,0:03:05.42,*Default,NTP,0000,0000,0000,,所以现在我们可以让 VS 代码为我们完成这项工作。
+Dialogue: 0,0:03:06.29,0:03:09.77,*Default,NTP,0000,0000,0000,,例如，如果我们想在这里写一个段落。
+Dialogue: 0,0:03:11.07,0:03:12.75,*Default,NTP,0000,0000,0000,,然后现在你看到 HTML
+Dialogue: 0,0:03:12.75,0:03:15.45,*Default,NTP,0000,0000,0000,,自动为我们关闭该元素。
+Dialogue: 0,0:03:17.84,0:03:20.29,*Default,NTP,0000,0000,0000,,好的。但我们不需要这个，
+Dialogue: 0,0:03:20.29,0:03:23.84,*Default,NTP,0000,0000,0000,,现在，我们要安装最重要的
+Dialogue: 0,0:03:23.84,0:03:26.41,*Default,NTP,0000,0000,0000,,也是最有用的一个，
+Dialogue: 0,0:03:26.41,0:03:28.69,*Default,NTP,0000,0000,0000,,这就是所谓的实时服务器。
+Dialogue: 0,0:03:29.80,0:03:31.40,*Default,NTP,0000,0000,0000,,所以这里就是这个
+Dialogue: 0,0:03:32.28,0:03:36.05,*Default,NTP,0000,0000,0000,,拥有近 1200 万次下载的实时服务器
+Dialogue: 0,0:03:36.05,0:03:38.34,*Default,NTP,0000,0000,0000,,这个受欢迎是有原因的。
+Dialogue: 0,0:03:39.37,0:03:42.26,*Default,NTP,0000,0000,0000,,所以，我只是c在这里启用
+Dialogue: 0,0:03:42.26,0:03:43.51,*Default,NTP,0000,0000,0000,,和，
+Dialogue: 0,0:03:44.45,0:03:46.43,*Default,NTP,0000,0000,0000,,所以当我现在去我的 HTML
+Dialogue: 0,0:03:47.36,0:03:50.14,*Default,NTP,0000,0000,0000,,让我们关闭这个。
+Dialogue: 0,0:03:50.14,0:03:52.43,*Default,NTP,0000,0000,0000,,所以关闭侧边栏。
+Dialogue: 0,0:03:52.43,0:03:55.53,*Default,NTP,0000,0000,0000,,现在在这个酒吧里，我们应该有
+Dialogue: 0,0:03:55.53,0:03:58.33,*Default,NTP,0000,0000,0000,,现在这个上线按钮。
+Dialogue: 0,0:03:58.33,0:03:59.28,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:59.28,0:04:02.89,*Default,NTP,0000,0000,0000,,所以希望在安装这个实时服务器扩展之后，
+Dialogue: 0,0:04:02.89,0:04:05.66,*Default,NTP,0000,0000,0000,,你也可以在这里看到这个按钮
+Dialogue: 0,0:04:05.66,0:04:07.88,*Default,NTP,0000,0000,0000,,在这个状态栏中。
+Dialogue: 0,0:04:07.88,0:04:12.38,*Default,NTP,0000,0000,0000,,所以当我现在点击这个，然后它开始
+Dialogue: 0,0:04:12.38,0:04:16.99,*Default,NTP,0000,0000,0000,,我们得到这个服务器启动的消息
+Dialogue: 0,0:04:16.99,0:04:18.14,*Default,NTP,0000,0000,0000,,这个端口号在这里。
+Dialogue: 0,0:04:19.14,0:04:20.93,*Default,NTP,0000,0000,0000,,让我们关闭它。
+Dialogue: 0,0:04:20.93,0:04:23.43,*Default,NTP,0000,0000,0000,,你看，它打开了一个新标签，
+Dialogue: 0,0:04:23.43,0:04:26.89,*Default,NTP,0000,0000,0000,,其中包含我们的页面，对吗？
+Dialogue: 0,0:04:26.89,0:04:29.62,*Default,NTP,0000,0000,0000,,所以基本上看起来完全一样，
+Dialogue: 0,0:04:29.62,0:04:32.02,*Default,NTP,0000,0000,0000,,但有一个很大的区别。
+Dialogue: 0,0:04:33.53,0:04:34.65,*Default,NTP,0000,0000,0000,,所以，
+Dialogue: 0,0:04:34.65,0:04:35.59,*Default,NTP,0000,0000,0000,,让我们，
+Dialogue: 0,0:04:37.24,0:04:39.44,*Default,NTP,0000,0000,0000,,假设我们想在这里改变它。
+Dialogue: 0,0:04:40.67,0:04:42.87,*Default,NTP,0000,0000,0000,,我将称之为 JONAS 代码。
+Dialogue: 0,0:04:42.87,0:04:47.87,*Default,NTP,0000,0000,0000,,现在，当我保存这个文件时，仔细看看这里发生了什么。
+Dialogue: 0,0:04:48.26,0:04:51.85,*Default,NTP,0000,0000,0000,,所以我现在点击命令 S，或者在 Windows 上控制 S。
+Dialogue: 0,0:04:53.01,0:04:55.59,*Default,NTP,0000,0000,0000,,你看看发生了什么。
+Dialogue: 0,0:04:55.59,0:04:58.46,*Default,NTP,0000,0000,0000,,它自动重新加载页面
+Dialogue: 0,0:04:58.46,0:05:00.80,*Default,NTP,0000,0000,0000,,无需我们做任何事情。
+Dialogue: 0,0:05:01.80,0:05:04.09,*Default,NTP,0000,0000,0000,,所以我们所做的只是保存到代码中
+Dialogue: 0,0:05:04.09,0:05:07.59,*Default,NTP,0000,0000,0000,,然后会发生的是这个页面在这里
+Dialogue: 0,0:05:07.59,0:05:10.09,*Default,NTP,0000,0000,0000,,自动更新。
+Dialogue: 0,0:05:10.09,0:05:12.22,*Default,NTP,0000,0000,0000,,所以我们在这里所做的所有改变
+Dialogue: 0,0:05:12.22,0:05:16.00,*Default,NTP,0000,0000,0000,,基本上会被注入这个页面。
+Dialogue: 0,0:05:16.00,0:05:17.55,*Default,NTP,0000,0000,0000,,和，
+Dialogue: 0,0:05:17.55,0:05:19.93,*Default,NTP,0000,0000,0000,,现在，我们可以看到反射
+Dialogue: 0,0:05:19.93,0:05:21.48,*Default,NTP,0000,0000,0000,,我们的变化立即。
+Dialogue: 0,0:05:22.41,0:05:23.68,*Default,NTP,0000,0000,0000,,所以我现在放回去了。
+Dialogue: 0,0:05:23.68,0:05:28.20,*Default,NTP,0000,0000,0000,,我再次点击，命令或控制 S 来保存它
+Dialogue: 0,0:05:28.20,0:05:32.44,*Default,NTP,0000,0000,0000,,你会立即看到它恢复到以前的样子。
+Dialogue: 0,0:05:32.44,0:05:34.99,*Default,NTP,0000,0000,0000,,现在如果我们想停止这种连接，
+Dialogue: 0,0:05:34.99,0:05:36.98,*Default,NTP,0000,0000,0000,,一旦我们完成开发，
+Dialogue: 0,0:05:36.98,0:05:39.83,*Default,NTP,0000,0000,0000,,我们所要做的就是点击这里
+Dialogue: 0,0:05:39.83,0:05:43.56,*Default,NTP,0000,0000,0000,,在此图标上，它显示端口 5500。
+Dialogue: 0,0:05:45.91,0:05:49.07,*Default,NTP,0000,0000,0000,,顺便说一句，这个端口号正是我们所拥有的
+Dialogue: 0,0:05:49.07,0:05:50.49,*Default,NTP,0000,0000,0000,,这里。
+Dialogue: 0,0:05:50.49,0:05:51.39,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:51.39,0:05:53.94,*Default,NTP,0000,0000,0000,,所以只是为了好奇，
+Dialogue: 0,0:05:53.94,0:05:57.66,*Default,NTP,0000,0000,0000,,这里的这个意味着它是一个本地主机服务器。
+Dialogue: 0,0:05:57.66,0:06:00.33,*Default,NTP,0000,0000,0000,,所以基本上就像你现在有一个网络服务器
+Dialogue: 0,0:06:00.33,0:06:02.61,*Default,NTP,0000,0000,0000,,在自己的电脑上运行。
+Dialogue: 0,0:06:02.61,0:06:06.58,*Default,NTP,0000,0000,0000,,然后我们实际上运行了这段代码
+Dialogue: 0,0:06:06.58,0:06:08.22,*Default,NTP,0000,0000,0000,,在这个端口号。
+Dialogue: 0,0:06:08.22,0:06:09.35,*Default,NTP,0000,0000,0000,,所以这个港口，
+Dialogue: 0,0:06:09.35,0:06:13.79,*Default,NTP,0000,0000,0000,,它基本上就像您的网络服务器的子地址。
+Dialogue: 0,0:06:13.79,0:06:16.56,*Default,NTP,0000,0000,0000,,所以本地本地主机服务器，
+Dialogue: 0,0:06:16.56,0:06:18.07,*Default,NTP,0000,0000,0000,,但这并不重要。
+Dialogue: 0,0:06:18.07,0:06:21.17,*Default,NTP,0000,0000,0000,,重要的是这现在有效
+Dialogue: 0,0:06:21.17,0:06:23.58,*Default,NTP,0000,0000,0000,,它真的非常有帮助
+Dialogue: 0,0:06:23.58,0:06:26.07,*Default,NTP,0000,0000,0000,,对于我们的开发工作流程。
+Dialogue: 0,0:06:26.07,0:06:28.99,*Default,NTP,0000,0000,0000,,现在，如果由于某种原因你无法完成这项工作
+Dialogue: 0,0:06:28.99,0:06:32.35,*Default,NTP,0000,0000,0000,,在您的计算机上，那么当然不用担心。
+Dialogue: 0,0:06:32.35,0:06:34.92,*Default,NTP,0000,0000,0000,,所以你仍然可以用旧的方式来做。
+Dialogue: 0,0:06:34.92,0:06:37.89,*Default,NTP,0000,0000,0000,,所以基本上我们一直在做的方式，
+Dialogue: 0,0:06:37.89,0:06:39.41,*Default,NTP,0000,0000,0000,,直到这一点。
+Dialogue: 0,0:06:39.41,0:06:44.41,*Default,NTP,0000,0000,0000,,所以你可以从你的文件系统中打开文件
+Dialogue: 0,0:06:44.50,0:06:47.85,*Default,NTP,0000,0000,0000,,像我们一样，然后继续手动刷新它。
+Dialogue: 0,0:06:48.82,0:06:53.51,*Default,NTP,0000,0000,0000,,对。但是我们，现在，这里不再需要这个标签
+Dialogue: 0,0:06:53.51,0:06:56.04,*Default,NTP,0000,0000,0000,,因为我们现在有了实时连接。
+Dialogue: 0,0:06:56.04,0:07:00.01,*Default,NTP,0000,0000,0000,,所以我们有我们的实时服务器来服务这个页面
+Dialogue: 0,0:07:00.01,0:07:02.14,*Default,NTP,0000,0000,0000,,每当我们进行一些编辑时。
+Dialogue: 0,0:07:02.99,0:07:04.72,*Default,NTP,0000,0000,0000,,好的。有了这个
+Dialogue: 0,0:07:04.72,0:07:06.86,*Default,NTP,0000,0000,0000,,我们现在准备应对
+Dialogue: 0,0:07:06.86,0:07:09.37,*Default,NTP,0000,0000,0000,,或最后少两个编码挑战
+Dialogue: 0,0:07:09.37,0:07:11.85,*Default,NTP,0000,0000,0000,,在这个 HTML 基础部分。
+Dialogue: 0,0:00:01.27,0:00:02.89,*Default,NTP,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:00:02.89,0:00:06.40,*Default,NTP,0000,0000,0000,,So we started configuring our VS code editor
+Dialogue: 0,0:00:06.40,0:00:09.90,*Default,NTP,0000,0000,0000,,in the very beginning of the course, but now at this point,
+Dialogue: 0,0:00:09.90,0:00:13.42,*Default,NTP,0000,0000,0000,,we are ready to install three additional extensions
+Dialogue: 0,0:00:13.42,0:00:15.91,*Default,NTP,0000,0000,0000,,that will make our lives a little bit easier
+Dialogue: 0,0:00:15.91,0:00:18.17,*Default,NTP,0000,0000,0000,,as we code HTML and CSS.
+Dialogue: 0,0:00:20.26,0:00:24.76,*Default,NTP,0000,0000,0000,,And so let's head over to our extensions panel here.
+Dialogue: 0,0:00:24.76,0:00:27.89,*Default,NTP,0000,0000,0000,,And the first extension that I want to install here
+Dialogue: 0,0:00:27.89,0:00:29.37,*Default,NTP,0000,0000,0000,,is called, Image
+Dialogue: 0,0:00:30.27,0:00:31.14,*Default,NTP,0000,0000,0000,,preview.
+Dialogue: 0,0:00:32.20,0:00:35.83,*Default,NTP,0000,0000,0000,,So it's this one and I already have it installed.
+Dialogue: 0,0:00:35.83,0:00:38.26,*Default,NTP,0000,0000,0000,,So I just need to click on enable.
+Dialogue: 0,0:00:39.88,0:00:41.22,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:00:41.22,0:00:42.66,*Default,NTP,0000,0000,0000,,So that's the first one.
+Dialogue: 0,0:00:42.66,0:00:47.36,*Default,NTP,0000,0000,0000,,And what this one is going to do is that here in our HTML,
+Dialogue: 0,0:00:47.36,0:00:52.36,*Default,NTP,0000,0000,0000,,it now displays this small image preview here in this gutter
+Dialogue: 0,0:00:52.49,0:00:54.14,*Default,NTP,0000,0000,0000,,as it's called.
+Dialogue: 0,0:00:54.14,0:00:56.43,*Default,NTP,0000,0000,0000,,So here we have this one
+Dialogue: 0,0:00:56.43,0:01:00.42,*Default,NTP,0000,0000,0000,,and then this image here is also right here
+Dialogue: 0,0:01:00.42,0:01:02.23,*Default,NTP,0000,0000,0000,,where we declare it.
+Dialogue: 0,0:01:02.23,0:01:04.13,*Default,NTP,0000,0000,0000,,So where we include it in our code,
+Dialogue: 0,0:01:04.13,0:01:07.75,*Default,NTP,0000,0000,0000,,and this can be extremely helpful sometimes.
+Dialogue: 0,0:01:07.75,0:01:10.63,*Default,NTP,0000,0000,0000,,So that's why I really wanted to show you this one.
+Dialogue: 0,0:01:13.29,0:01:16.29,*Default,NTP,0000,0000,0000,,The next one that I want to show you is called
+Dialogue: 0,0:01:16.29,0:01:19.01,*Default,NTP,0000,0000,0000,,color highlighter
+Dialogue: 0,0:01:19.01,0:01:19.91,*Default,NTP,0000,0000,0000,,or highlight.
+Dialogue: 0,0:01:21.46,0:01:22.93,*Default,NTP,0000,0000,0000,,So it's this one here
+Dialogue: 0,0:01:22.93,0:01:25.09,*Default,NTP,0000,0000,0000,,and again, I already have it installed.
+Dialogue: 0,0:01:25.09,0:01:26.48,*Default,NTP,0000,0000,0000,,I just enable it.
+Dialogue: 0,0:01:27.35,0:01:29.98,*Default,NTP,0000,0000,0000,,And actually this one, I cannot show you yet
+Dialogue: 0,0:01:29.98,0:01:34.47,*Default,NTP,0000,0000,0000,,what it looks like, because it will only be relevant in CSS.
+Dialogue: 0,0:01:34.47,0:01:38.42,*Default,NTP,0000,0000,0000,,But trust me that this extension is really, really helpful
+Dialogue: 0,0:01:38.42,0:01:40.92,*Default,NTP,0000,0000,0000,,for visualizing colors in CSS.
+Dialogue: 0,0:01:41.81,0:01:46.64,*Default,NTP,0000,0000,0000,,Next up is an extension called auto rename
+Dialogue: 0,0:01:46.64,0:01:47.47,*Default,NTP,0000,0000,0000,,tag
+Dialogue: 0,0:01:48.48,0:01:50.02,*Default,NTP,0000,0000,0000,,So this one,
+Dialogue: 0,0:01:50.02,0:01:53.97,*Default,NTP,0000,0000,0000,,and you see it's an extremely popular one, once again.
+Dialogue: 0,0:01:54.82,0:01:57.72,*Default,NTP,0000,0000,0000,,So you have to download it and enable it.
+Dialogue: 0,0:01:57.72,0:02:00.56,*Default,NTP,0000,0000,0000,,And then what happens here is that,
+Dialogue: 0,0:02:02.33,0:02:04.94,*Default,NTP,0000,0000,0000,,when we changed the name of an element,
+Dialogue: 0,0:02:04.94,0:02:08.93,*Default,NTP,0000,0000,0000,,let's say we actually wanted to make this one a div,
+Dialogue: 0,0:02:08.93,0:02:13.09,*Default,NTP,0000,0000,0000,,then you see it automatically also changes the closing one.
+Dialogue: 0,0:02:13.98,0:02:14.93,*Default,NTP,0000,0000,0000,,So the closing tag.
+Dialogue: 0,0:02:15.77,0:02:16.60,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:02:16.60,0:02:18.53,*Default,NTP,0000,0000,0000,,And this again is extremely helpful
+Dialogue: 0,0:02:18.53,0:02:22.78,*Default,NTP,0000,0000,0000,,it makes our life writing HTML a bit easier,
+Dialogue: 0,0:02:22.78,0:02:26.30,*Default,NTP,0000,0000,0000,,because trust me, we need to do this all the time,
+Dialogue: 0,0:02:26.30,0:02:28.71,*Default,NTP,0000,0000,0000,,like changing the element name.
+Dialogue: 0,0:02:29.58,0:02:31.08,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:02:31.08,0:02:33.59,*Default,NTP,0000,0000,0000,,Now another thing that we need to do,
+Dialogue: 0,0:02:33.59,0:02:35.96,*Default,NTP,0000,0000,0000,,or at least that we can do if we want,
+Dialogue: 0,0:02:35.96,0:02:40.46,*Default,NTP,0000,0000,0000,,is to go back to our settings and then turn back
+Dialogue: 0,0:02:40.46,0:02:42.98,*Default,NTP,0000,0000,0000,,on this setting that we deactivated
+Dialogue: 0,0:02:42.98,0:02:45.33,*Default,NTP,0000,0000,0000,,at the beginning of the section.
+Dialogue: 0,0:02:45.33,0:02:46.65,*Default,NTP,0000,0000,0000,,So that's the auto,
+Dialogue: 0,0:02:47.87,0:02:50.03,*Default,NTP,0000,0000,0000,,let's spell that right.
+Dialogue: 0,0:02:50.03,0:02:52.29,*Default,NTP,0000,0000,0000,,So auto close tag.
+Dialogue: 0,0:02:52.29,0:02:56.28,*Default,NTP,0000,0000,0000,,So let's enable this back because I think at this point
+Dialogue: 0,0:02:56.28,0:02:59.51,*Default,NTP,0000,0000,0000,,you will no longer make the mistake of forgetting
+Dialogue: 0,0:02:59.51,0:03:01.01,*Default,NTP,0000,0000,0000,,a closing tag.
+Dialogue: 0,0:03:01.01,0:03:05.42,*Default,NTP,0000,0000,0000,,And so now we can allow VS code to do that work for us.
+Dialogue: 0,0:03:06.29,0:03:09.77,*Default,NTP,0000,0000,0000,,So for example, if we wanted to write a paragraph here.
+Dialogue: 0,0:03:11.07,0:03:12.75,*Default,NTP,0000,0000,0000,,Then now you see HTML
+Dialogue: 0,0:03:12.75,0:03:15.45,*Default,NTP,0000,0000,0000,,automatically close that element for us.
+Dialogue: 0,0:03:17.84,0:03:20.29,*Default,NTP,0000,0000,0000,,Okay. But this we don't need,
+Dialogue: 0,0:03:20.29,0:03:23.84,*Default,NTP,0000,0000,0000,,and now, we are going to install the most important
+Dialogue: 0,0:03:23.84,0:03:26.41,*Default,NTP,0000,0000,0000,,and the most useful one of all,
+Dialogue: 0,0:03:26.41,0:03:28.69,*Default,NTP,0000,0000,0000,,and that is called live server.
+Dialogue: 0,0:03:29.80,0:03:31.40,*Default,NTP,0000,0000,0000,,So it's this one here,
+Dialogue: 0,0:03:32.28,0:03:36.05,*Default,NTP,0000,0000,0000,,live server with almost 12 million downloads
+Dialogue: 0,0:03:36.05,0:03:38.34,*Default,NTP,0000,0000,0000,,and this one is popular for a reason.
+Dialogue: 0,0:03:39.37,0:03:42.26,*Default,NTP,0000,0000,0000,,So, I just click enable here
+Dialogue: 0,0:03:42.26,0:03:43.51,*Default,NTP,0000,0000,0000,,and,
+Dialogue: 0,0:03:44.45,0:03:46.43,*Default,NTP,0000,0000,0000,,so when I go now to my HTML
+Dialogue: 0,0:03:47.36,0:03:50.14,*Default,NTP,0000,0000,0000,,and let's close this one down.
+Dialogue: 0,0:03:50.14,0:03:52.43,*Default,NTP,0000,0000,0000,,So close down the sidebar.
+Dialogue: 0,0:03:52.43,0:03:55.53,*Default,NTP,0000,0000,0000,,Now down here in this bar, we should have
+Dialogue: 0,0:03:55.53,0:03:58.33,*Default,NTP,0000,0000,0000,,now this go live button.
+Dialogue: 0,0:03:58.33,0:03:59.28,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:59.28,0:04:02.89,*Default,NTP,0000,0000,0000,,So hopefully after installing this live server extension,
+Dialogue: 0,0:04:02.89,0:04:05.66,*Default,NTP,0000,0000,0000,,you can also see this button down here
+Dialogue: 0,0:04:05.66,0:04:07.88,*Default,NTP,0000,0000,0000,,in this status bar.
+Dialogue: 0,0:04:07.88,0:04:12.38,*Default,NTP,0000,0000,0000,,So when I now click this, then it starting
+Dialogue: 0,0:04:12.38,0:04:16.99,*Default,NTP,0000,0000,0000,,and we get this message that server is started at
+Dialogue: 0,0:04:16.99,0:04:18.14,*Default,NTP,0000,0000,0000,,this port number here.
+Dialogue: 0,0:04:19.14,0:04:20.93,*Default,NTP,0000,0000,0000,,Let's close that.
+Dialogue: 0,0:04:20.93,0:04:23.43,*Default,NTP,0000,0000,0000,,And you see it, that it opened a new tab,
+Dialogue: 0,0:04:23.43,0:04:26.89,*Default,NTP,0000,0000,0000,,which contains our page, right?
+Dialogue: 0,0:04:26.89,0:04:29.62,*Default,NTP,0000,0000,0000,,So basically it looks exactly the same,
+Dialogue: 0,0:04:29.62,0:04:32.02,*Default,NTP,0000,0000,0000,,but there is one very big difference.
+Dialogue: 0,0:04:33.53,0:04:34.65,*Default,NTP,0000,0000,0000,,So,
+Dialogue: 0,0:04:34.65,0:04:35.59,*Default,NTP,0000,0000,0000,,let's,
+Dialogue: 0,0:04:37.24,0:04:39.44,*Default,NTP,0000,0000,0000,,let's say we wanted to change this here.
+Dialogue: 0,0:04:40.67,0:04:42.87,*Default,NTP,0000,0000,0000,,I'm going to call it JONAS CODE.
+Dialogue: 0,0:04:42.87,0:04:47.87,*Default,NTP,0000,0000,0000,,And now, look closely what happens here as I save this file.
+Dialogue: 0,0:04:48.26,0:04:51.85,*Default,NTP,0000,0000,0000,,So I hit command S now, or control S on windows.
+Dialogue: 0,0:04:53.01,0:04:55.59,*Default,NTP,0000,0000,0000,,And you see what happened.
+Dialogue: 0,0:04:55.59,0:04:58.46,*Default,NTP,0000,0000,0000,,It automatically reloaded the page
+Dialogue: 0,0:04:58.46,0:05:00.80,*Default,NTP,0000,0000,0000,,without us having to do anything.
+Dialogue: 0,0:05:01.80,0:05:04.09,*Default,NTP,0000,0000,0000,,So all we did was save to code
+Dialogue: 0,0:05:04.09,0:05:07.59,*Default,NTP,0000,0000,0000,,and what will then happen is that this page here
+Dialogue: 0,0:05:07.59,0:05:10.09,*Default,NTP,0000,0000,0000,,gets automatically updated.
+Dialogue: 0,0:05:10.09,0:05:12.22,*Default,NTP,0000,0000,0000,,So all the changes that we did here
+Dialogue: 0,0:05:12.22,0:05:16.00,*Default,NTP,0000,0000,0000,,will basically get injected into this page.
+Dialogue: 0,0:05:16.00,0:05:17.55,*Default,NTP,0000,0000,0000,,And,
+Dialogue: 0,0:05:17.55,0:05:19.93,*Default,NTP,0000,0000,0000,,now, we can then see the reflection
+Dialogue: 0,0:05:19.93,0:05:21.48,*Default,NTP,0000,0000,0000,,of our changes immediately.
+Dialogue: 0,0:05:22.41,0:05:23.68,*Default,NTP,0000,0000,0000,,So I put it back now.
+Dialogue: 0,0:05:23.68,0:05:28.20,*Default,NTP,0000,0000,0000,,I hit again, command or control S to save it
+Dialogue: 0,0:05:28.20,0:05:32.44,*Default,NTP,0000,0000,0000,,and immediately you see it going back to what it was before.
+Dialogue: 0,0:05:32.44,0:05:34.99,*Default,NTP,0000,0000,0000,,Now if we wanted to stop this connection,
+Dialogue: 0,0:05:34.99,0:05:36.98,*Default,NTP,0000,0000,0000,,once we are done developing,
+Dialogue: 0,0:05:36.98,0:05:39.83,*Default,NTP,0000,0000,0000,,all we have to do is to click down here
+Dialogue: 0,0:05:39.83,0:05:43.56,*Default,NTP,0000,0000,0000,,on this icon here where it says port 5500.
+Dialogue: 0,0:05:45.91,0:05:49.07,*Default,NTP,0000,0000,0000,,And by the way, this port number is exactly what we have
+Dialogue: 0,0:05:49.07,0:05:50.49,*Default,NTP,0000,0000,0000,,here.
+Dialogue: 0,0:05:50.49,0:05:51.39,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:51.39,0:05:53.94,*Default,NTP,0000,0000,0000,,So just for the sake of curiosity,
+Dialogue: 0,0:05:53.94,0:05:57.66,*Default,NTP,0000,0000,0000,,this one here means that it's a local host server.
+Dialogue: 0,0:05:57.66,0:06:00.33,*Default,NTP,0000,0000,0000,,So basically it's like you have now a web server
+Dialogue: 0,0:06:00.33,0:06:02.61,*Default,NTP,0000,0000,0000,,on your own computer running.
+Dialogue: 0,0:06:02.61,0:06:06.58,*Default,NTP,0000,0000,0000,,And then we have actually this code running
+Dialogue: 0,0:06:06.58,0:06:08.22,*Default,NTP,0000,0000,0000,,at this port number.
+Dialogue: 0,0:06:08.22,0:06:09.35,*Default,NTP,0000,0000,0000,,And so this port,
+Dialogue: 0,0:06:09.35,0:06:13.79,*Default,NTP,0000,0000,0000,,it's basically like a sub address of your web server.
+Dialogue: 0,0:06:13.79,0:06:16.56,*Default,NTP,0000,0000,0000,,So of the local local host server,
+Dialogue: 0,0:06:16.56,0:06:18.07,*Default,NTP,0000,0000,0000,,but this doesn't really matter.
+Dialogue: 0,0:06:18.07,0:06:21.17,*Default,NTP,0000,0000,0000,,What matters is that this now works
+Dialogue: 0,0:06:21.17,0:06:23.58,*Default,NTP,0000,0000,0000,,and it is really, really helpful
+Dialogue: 0,0:06:23.58,0:06:26.07,*Default,NTP,0000,0000,0000,,for our development workflow.
+Dialogue: 0,0:06:26.07,0:06:28.99,*Default,NTP,0000,0000,0000,,Now, if for some reason you could not make this work
+Dialogue: 0,0:06:28.99,0:06:32.35,*Default,NTP,0000,0000,0000,,on your computer, then of course don't worry.
+Dialogue: 0,0:06:32.35,0:06:34.92,*Default,NTP,0000,0000,0000,,So you can still do it the old way.
+Dialogue: 0,0:06:34.92,0:06:37.89,*Default,NTP,0000,0000,0000,,So basically the way we have been doing it all along,
+Dialogue: 0,0:06:37.89,0:06:39.41,*Default,NTP,0000,0000,0000,,up until this point.
+Dialogue: 0,0:06:39.41,0:06:44.41,*Default,NTP,0000,0000,0000,,So you can just open up the file from your file system
+Dialogue: 0,0:06:44.50,0:06:47.85,*Default,NTP,0000,0000,0000,,like we did, and then keep refreshing it manually.
+Dialogue: 0,0:06:48.82,0:06:53.51,*Default,NTP,0000,0000,0000,,Right. But we, right now, no longer need this tab here
+Dialogue: 0,0:06:53.51,0:06:56.04,*Default,NTP,0000,0000,0000,,because we now have our live connection.
+Dialogue: 0,0:06:56.04,0:07:00.01,*Default,NTP,0000,0000,0000,,So we have our live server serving up this page
+Dialogue: 0,0:07:00.01,0:07:02.14,*Default,NTP,0000,0000,0000,,whenever we do some edits.
+Dialogue: 0,0:07:02.99,0:07:04.72,*Default,NTP,0000,0000,0000,,All right. And with that
+Dialogue: 0,0:07:04.72,0:07:06.86,*Default,NTP,0000,0000,0000,,we are now ready to tackle
+Dialogue: 0,0:07:06.86,0:07:09.37,*Default,NTP,0000,0000,0000,,or final less two coding challenges
+Dialogue: 0,0:07:09.37,0:07:11.85,*Default,NTP,0000,0000,0000,,in this HTML fundamental section.

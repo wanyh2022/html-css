@@ -1,0 +1,418 @@
+[Script Info]
+Title: 028 Pseudo-classes_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=26&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.38,0:00:02.35,*Default,NTP,0000,0000,0000,,现在让我们学习
+Dialogue: 0,0:00:02.35,0:00:05.51,*Default,NTP,0000,0000,0000,,关于所谓的伪类。
+Dialogue: 0,0:00:05.51,0:00:09.01,*Default,NTP,0000,0000,0000,,现在，伪类听起来很奇怪，
+Dialogue: 0,0:00:09.01,0:00:12.00,*Default,NTP,0000,0000,0000,,但它实际上非常简单。
+Dialogue: 0,0:00:13.50,0:00:14.82,*Default,NTP,0000,0000,0000,,作为一个例子，
+Dialogue: 0,0:00:14.82,0:00:17.65,*Default,NTP,0000,0000,0000,,让我们尝试为第一个列表元素设置样式
+Dialogue: 0,0:00:17.65,0:00:20.40,*Default,NTP,0000,0000,0000,,不同于其他的。
+Dialogue: 0,0:00:20.40,0:00:23.82,*Default,NTP,0000,0000,0000,,所以我们有这个列表和这个列表。
+Dialogue: 0,0:00:23.82,0:00:25.80,*Default,NTP,0000,0000,0000,,所以，正如我刚才所说，
+Dialogue: 0,0:00:25.80,0:00:28.47,*Default,NTP,0000,0000,0000,,让我们尝试设置第一个元素的样式
+Dialogue: 0,0:00:28.47,0:00:30.78,*Default,NTP,0000,0000,0000,,每个列表的不同。
+Dialogue: 0,0:00:30.78,0:00:33.33,*Default,NTP,0000,0000,0000,,例如，通过使它们加粗。
+Dialogue: 0,0:00:33.33,0:00:36.43,*Default,NTP,0000,0000,0000,,所以这个元素和这个元素
+Dialogue: 0,0:00:36.43,0:00:38.81,*Default,NTP,0000,0000,0000,,现在直截了当
+Dialogue: 0,0:00:38.81,0:00:42.70,*Default,NTP,0000,0000,0000,,这样做就是为每个人添加一个类
+Dialogue: 0,0:00:42.70,0:00:44.47,*Default,NTP,0000,0000,0000,,然后为它们设计样式。
+Dialogue: 0,0:00:44.47,0:00:45.30,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:00:45.30,0:00:47.76,*Default,NTP,0000,0000,0000,,因此，让我们实际尝试第一个示例。
+Dialogue: 0,0:00:48.66,0:00:50.18,*Default,NTP,0000,0000,0000,,所以这里有一份清单。
+Dialogue: 0,0:00:51.44,0:00:53.71,*Default,NTP,0000,0000,0000,,所以让我们添加一个类
+Dialogue: 0,0:00:55.06,0:00:56.12,*Default,NTP,0000,0000,0000,,第一的
+Dialogue: 0,0:00:56.12,0:00:57.72,*Default,NTP,0000,0000,0000,,李，
+Dialogue: 0,0:00:57.72,0:00:59.74,*Default,NTP,0000,0000,0000,,然后让我们做同样的事情
+Dialogue: 0,0:00:59.74,0:01:02.69,*Default,NTP,0000,0000,0000,,到我们在这里的其他列表。
+Dialogue: 0,0:01:06.65,0:01:09.49,*Default,NTP,0000,0000,0000,,然后回到或CSS，
+Dialogue: 0,0:01:11.11,0:01:14.79,*Default,NTP,0000,0000,0000,,让我们选择第一个 li 类的所有元素。
+Dialogue: 0,0:01:15.99,0:01:18.87,*Default,NTP,0000,0000,0000,,然后记得使文本加粗。
+Dialogue: 0,0:01:18.87,0:01:20.21,*Default,NTP,0000,0000,0000,,我们使用字体粗细
+Dialogue: 0,0:01:21.23,0:01:22.14,*Default,NTP,0000,0000,0000,,设置为粗体，
+Dialogue: 0,0:01:23.08,0:01:25.50,*Default,NTP,0000,0000,0000,,事实上，我们在这里。
+Dialogue: 0,0:01:25.50,0:01:28.49,*Default,NTP,0000,0000,0000,,所以现在这个是大胆的，这个，
+Dialogue: 0,0:01:28.49,0:01:31.39,*Default,NTP,0000,0000,0000,,但我们实际上可以做得比这更好。
+Dialogue: 0,0:01:31.39,0:01:33.53,*Default,NTP,0000,0000,0000,,因此，与其手动执行此操作，
+Dialogue: 0,0:01:33.53,0:01:36.52,*Default,NTP,0000,0000,0000,,我们实际上可以让 CSS 自动计算出来，
+Dialogue: 0,0:01:36.52,0:01:41.52,*Default,NTP,0000,0000,0000,,这是容器内的第一个 li 元素。
+Dialogue: 0,0:01:41.93,0:01:46.93,*Default,NTP,0000,0000,0000,,所以让我们真正做到这一点，我仍然会保持
+Dialogue: 0,0:01:46.95,0:01:51.50,*Default,NTP,0000,0000,0000,,HTML 中的类，只是为了让我们将其作为参考，
+Dialogue: 0,0:01:51.50,0:01:54.92,*Default,NTP,0000,0000,0000,,但现在让我向您展示我们实际上如何才能做得更好。
+Dialogue: 0,0:01:56.94,0:01:58.58,*Default,NTP,0000,0000,0000,,所以我们从使用 li 开始，
+Dialogue: 0,0:01:59.43,0:02:02.64,*Default,NTP,0000,0000,0000,,这将基本上选择所有 li 元素，
+Dialogue: 0,0:02:02.64,0:02:05.04,*Default,NTP,0000,0000,0000,,但是我们使用了一个伪类
+Dialogue: 0,0:02:05.04,0:02:06.39,*Default,NTP,0000,0000,0000,,我们开始一个伪类
+Dialogue: 0,0:02:06.39,0:02:08.11,*Default,NTP,0000,0000,0000,,通过写一个冒号
+Dialogue: 0,0:02:08.11,0:02:09.10,*Default,NTP,0000,0000,0000,,像这样。
+Dialogue: 0,0:02:09.10,0:02:12.25,*Default,NTP,0000,0000,0000,,然后是我们感兴趣的一个
+Dialogue: 0,0:02:12.25,0:02:13.77,*Default,NTP,0000,0000,0000,,被首先调用
+Dialogue: 0,0:02:15.25,0:02:16.48,*Default,NTP,0000,0000,0000,,冲刺孩子。
+Dialogue: 0,0:02:17.66,0:02:18.49,*Default,NTP,0000,0000,0000,,就是这样。
+Dialogue: 0,0:02:19.47,0:02:24.47,*Default,NTP,0000,0000,0000,,现在在这里，我们可以说字体粗细并将其设置为粗体。
+Dialogue: 0,0:02:25.42,0:02:27.22,*Default,NTP,0000,0000,0000,,那么让我们看看。
+Dialogue: 0,0:02:27.22,0:02:31.15,*Default,NTP,0000,0000,0000,,事实上，它现在起作用了，他们又恢复了大胆。
+Dialogue: 0,0:02:31.15,0:02:35.11,*Default,NTP,0000,0000,0000,,所以我们基本上在这里改变了我们的选择器
+Dialogue: 0,0:02:35.11,0:02:36.69,*Default,NTP,0000,0000,0000,,并为其添加了一个伪类。
+Dialogue: 0,0:02:36.69,0:02:40.54,*Default,NTP,0000,0000,0000,,这个第一个子伪类做了什么
+Dialogue: 0,0:02:40.54,0:02:43.08,*Default,NTP,0000,0000,0000,,是它会选择一个li元素，
+Dialogue: 0,0:02:43.08,0:02:47.73,*Default,NTP,0000,0000,0000,,或者实际上是选择了所有 li 元素
+Dialogue: 0,0:02:47.73,0:02:51.50,*Default,NTP,0000,0000,0000,,其父元素的第一个子元素。
+Dialogue: 0,0:02:51.50,0:02:55.65,*Default,NTP,0000,0000,0000,,所以这正是这里和这里的情况。
+Dialogue: 0,0:02:57.41,0:02:58.50,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:02:58.50,0:03:00.17,*Default,NTP,0000,0000,0000,,所以这里的这个 li 元素
+Dialogue: 0,0:03:00.17,0:03:04.26,*Default,NTP,0000,0000,0000,,是其父元素的第一个子元素。
+Dialogue: 0,0:03:04.26,0:03:06.47,*Default,NTP,0000,0000,0000,,所以在这种情况下，Ol 元素，
+Dialogue: 0,0:03:06.47,0:03:08.03,*Default,NTP,0000,0000,0000,,因此这个选择器
+Dialogue: 0,0:03:08.03,0:03:11.34,*Default,NTP,0000,0000,0000,,我们在这里写的将针对该元素。
+Dialogue: 0,0:03:11.34,0:03:13.61,*Default,NTP,0000,0000,0000,,完全相同的事情也是
+Dialogue: 0,0:03:13.61,0:03:16.41,*Default,NTP,0000,0000,0000,,对于此处的其他列表。
+Dialogue: 0,0:03:16.41,0:03:18.32,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:18.32,0:03:21.97,*Default,NTP,0000,0000,0000,,所以让我们再试一次，李。
+Dialogue: 0,0:03:21.97,0:03:25.25,*Default,NTP,0000,0000,0000,,然后我们还有一个叫做last-child。
+Dialogue: 0,0:03:27.56,0:03:29.45,*Default,NTP,0000,0000,0000,,直到让它变成斜体，
+Dialogue: 0,0:03:30.58,0:03:32.10,*Default,NTP,0000,0000,0000,,所以字体样式
+Dialogue: 0,0:03:33.08,0:03:34.56,*Default,NTP,0000,0000,0000,,并将其设置为斜体。
+Dialogue: 0,0:03:35.58,0:03:39.41,*Default,NTP,0000,0000,0000,,事实上，现在最后一个变成了斜体。
+Dialogue: 0,0:03:39.41,0:03:40.97,*Default,NTP,0000,0000,0000,,所以两者都在这里
+Dialogue: 0,0:03:40.97,0:03:42.35,*Default,NTP,0000,0000,0000,,都在这里
+Dialogue: 0,0:03:42.35,0:03:43.67,*Default,NTP,0000,0000,0000,,因为再次，
+Dialogue: 0,0:03:43.67,0:03:48.15,*Default,NTP,0000,0000,0000,,它们都是 li 元素，现在是最后一个孩子
+Dialogue: 0,0:03:48.15,0:03:50.49,*Default,NTP,0000,0000,0000,,在其父容器内。
+Dialogue: 0,0:03:51.84,0:03:56.84,*Default,NTP,0000,0000,0000,,接下来，我们实际上还可以针对特定的孩子。
+Dialogue: 0,0:03:56.84,0:04:00.73,*Default,NTP,0000,0000,0000,,例如，第三个或第二个孩子。
+Dialogue: 0,0:04:00.73,0:04:05.12,*Default,NTP,0000,0000,0000,,所以为此，我们使用 nth-child 伪类，
+Dialogue: 0,0:04:05.12,0:04:07.81,*Default,NTP,0000,0000,0000,,然后在这里我们实际上需要写括号
+Dialogue: 0,0:04:07.81,0:04:12.73,*Default,NTP,0000,0000,0000,,这样我们就可以指定我们想要哪个孩子。
+Dialogue: 0,0:04:12.73,0:04:15.09,*Default,NTP,0000,0000,0000,,所以假设我们想要第二个孩子
+Dialogue: 0,0:04:15.09,0:04:17.12,*Default,NTP,0000,0000,0000,,有一种颜色
+Dialogue: 0,0:04:17.12,0:04:17.95,*Default,NTP,0000,0000,0000,,红色的。
+Dialogue: 0,0:04:19.66,0:04:22.82,*Default,NTP,0000,0000,0000,,所以在这里只使用一个编码的颜色名称，
+Dialogue: 0,0:04:23.70,0:04:25.01,*Default,NTP,0000,0000,0000,,让我们来看看。
+Dialogue: 0,0:04:25.01,0:04:27.08,*Default,NTP,0000,0000,0000,,确实在这里。
+Dialogue: 0,0:04:28.31,0:04:30.40,*Default,NTP,0000,0000,0000,,或者如果我们尝试第三个，
+Dialogue: 0,0:04:30.40,0:04:34.44,*Default,NTP,0000,0000,0000,,那么确实是这里的第三个
+Dialogue: 0,0:04:34.44,0:04:36.22,*Default,NTP,0000,0000,0000,,和这里也是如此。
+Dialogue: 0,0:04:36.22,0:04:37.53,*Default,NTP,0000,0000,0000,,甚至比这更好，
+Dialogue: 0,0:04:37.53,0:04:41.53,*Default,NTP,0000,0000,0000,,是我们实际上可以在这里使用一些关键字。
+Dialogue: 0,0:04:41.53,0:04:44.18,*Default,NTP,0000,0000,0000,,所以我们可以写奇数。
+Dialogue: 0,0:04:44.18,0:04:47.39,*Default,NTP,0000,0000,0000,,现在所有奇怪的元素都会变成红色。
+Dialogue: 0,0:04:47.39,0:04:50.76,*Default,NTP,0000,0000,0000,,所以第一个元素，然后是第二个元素，
+Dialogue: 0,0:04:50.76,0:04:54.73,*Default,NTP,0000,0000,0000,,或者实际上是第三个，这里是第一个元素，
+Dialogue: 0,0:04:54.73,0:04:57.29,*Default,NTP,0000,0000,0000,,第三，第五。
+Dialogue: 0,0:04:57.29,0:04:58.43,*Default,NTP,0000,0000,0000,,如果还有更多，
+Dialogue: 0,0:04:58.43,0:05:01.41,*Default,NTP,0000,0000,0000,,然后它会选择数字七，九，十一
+Dialogue: 0,0:05:01.41,0:05:03.67,*Default,NTP,0000,0000,0000,,等等等等。
+Dialogue: 0,0:05:03.67,0:05:06.92,*Default,NTP,0000,0000,0000,,当然，如果我们能做些奇怪的事，
+Dialogue: 0,0:05:06.92,0:05:08.59,*Default,NTP,0000,0000,0000,,那么我们也可以做到
+Dialogue: 0,0:05:09.75,0:05:12.59,*Default,NTP,0000,0000,0000,,这样我们就可以选择第二个，
+Dialogue: 0,0:05:12.59,0:05:14.45,*Default,NTP,0000,0000,0000,,四、六、八
+Dialogue: 0,0:05:14.45,0:05:16.31,*Default,NTP,0000,0000,0000,,等等等等。
+Dialogue: 0,0:05:16.31,0:05:18.57,*Default,NTP,0000,0000,0000,,所以你看到第二个
+Dialogue: 0,0:05:18.57,0:05:21.40,*Default,NTP,0000,0000,0000,,这里是两个和四个。
+Dialogue: 0,0:05:21.40,0:05:22.23,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:05:22.23,0:05:24.46,*Default,NTP,0000,0000,0000,,所以这个技术非常有用
+Dialogue: 0,0:05:24.46,0:05:26.25,*Default,NTP,0000,0000,0000,,例如，为表格设置样式，
+Dialogue: 0,0:05:26.25,0:05:31.00,*Default,NTP,0000,0000,0000,,这通常具有交替的背景颜色。
+Dialogue: 0,0:05:31.00,0:05:32.67,*Default,NTP,0000,0000,0000,,所以我相信你已经在某个地方看到过。
+Dialogue: 0,0:05:32.67,0:05:36.44,*Default,NTP,0000,0000,0000,,因此，这里的这种技术非常有帮助。
+Dialogue: 0,0:05:36.44,0:05:39.79,*Default,NTP,0000,0000,0000,,现在让我们在这里实际注释掉这个属性
+Dialogue: 0,0:05:39.79,0:05:43.61,*Default,NTP,0000,0000,0000,,因为我们不希望这里的文字是红色的
+Dialogue: 0,0:05:43.61,0:05:45.22,*Default,NTP,0000,0000,0000,,实际上在最后一页。
+Dialogue: 0,0:05:46.34,0:05:48.01,*Default,NTP,0000,0000,0000,,好的，所以这只是为了向您展示
+Dialogue: 0,0:05:48.01,0:05:50.52,*Default,NTP,0000,0000,0000,,我们可以在这里做的一切。
+Dialogue: 0,0:05:50.52,0:05:53.94,*Default,NTP,0000,0000,0000,,最后，让我澄清一个常见的误解
+Dialogue: 0,0:05:53.94,0:05:57.20,*Default,NTP,0000,0000,0000,,周围有伪类。
+Dialogue: 0,0:05:57.20,0:05:58.89,*Default,NTP,0000,0000,0000,,所以假设我们想要选择
+Dialogue: 0,0:05:58.89,0:06:03.67,*Default,NTP,0000,0000,0000,,文章内部的第一个段落元素。
+Dialogue: 0,0:06:03.67,0:06:06.37,*Default,NTP,0000,0000,0000,,所以让我们在我们的标记中检查一下。
+Dialogue: 0,0:06:07.97,0:06:09.84,*Default,NTP,0000,0000,0000,,所以在文章里面，
+Dialogue: 0,0:06:09.84,0:06:14.59,*Default,NTP,0000,0000,0000,,第一段基本上就是这个。
+Dialogue: 0,0:06:14.59,0:06:15.42,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:06:15.42,0:06:18.27,*Default,NTP,0000,0000,0000,,所以让我们看看我们可以在这里做什么。
+Dialogue: 0,0:06:18.27,0:06:20.14,*Default,NTP,0000,0000,0000,,所以我刚才说的
+Dialogue: 0,0:06:20.14,0:06:21.01,*Default,NTP,0000,0000,0000,,基本上是
+Dialogue: 0,0:06:23.44,0:06:25.57,*Default,NTP,0000,0000,0000,,文章然后p。
+Dialogue: 0,0:06:25.57,0:06:28.31,*Default,NTP,0000,0000,0000,,这就是后代选择器。
+Dialogue: 0,0:06:28.31,0:06:29.21,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:06:29.21,0:06:32.98,*Default,NTP,0000,0000,0000,,所以选择文章内部的段落
+Dialogue: 0,0:06:32.98,0:06:36.01,*Default,NTP,0000,0000,0000,,现在选择第一个。
+Dialogue: 0,0:06:38.25,0:06:39.89,*Default,NTP,0000,0000,0000,,所以是第一个孩子。
+Dialogue: 0,0:06:41.44,0:06:43.46,*Default,NTP,0000,0000,0000,,现在假设我们想要颜色。
+Dialogue: 0,0:06:44.69,0:06:47.05,*Default,NTP,0000,0000,0000,,要在这件事情上红起来，
+Dialogue: 0,0:06:47.05,0:06:51.05,*Default,NTP,0000,0000,0000,,但是当我们重新加载并查看我们的页面时，
+Dialogue: 0,0:06:51.05,0:06:53.29,*Default,NTP,0000,0000,0000,,你看什么都没发生。
+Dialogue: 0,0:06:53.29,0:06:56.32,*Default,NTP,0000,0000,0000,,所以实际上没有段落变红。
+Dialogue: 0,0:06:56.32,0:07:00.47,*Default,NTP,0000,0000,0000,,再一次，误解是这里的选择器
+Dialogue: 0,0:07:00.47,0:07:03.05,*Default,NTP,0000,0000,0000,,应该选择第一个 p 元素
+Dialogue: 0,0:07:03.05,0:07:05.21,*Default,NTP,0000,0000,0000,,文章里面。
+Dialogue: 0,0:07:05.21,0:07:08.07,*Default,NTP,0000,0000,0000,,所以这就是这个。
+Dialogue: 0,0:07:08.07,0:07:08.93,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:07:08.93,0:07:12.05,*Default,NTP,0000,0000,0000,,所以正如我们在本段之前看到的那样ct,
+Dialogue: 0,0:07:12.05,0:07:15.23,*Default,NTP,0000,0000,0000,,然而，文章内的第一段，
+Dialogue: 0,0:07:15.23,0:07:19.89,*Default,NTP,0000,0000,0000,,这不是第一个子伪类的实际工作方式。
+Dialogue: 0,0:07:19.89,0:07:24.59,*Default,NTP,0000,0000,0000,,相反，CSS 会选择一个 p 元素
+Dialogue: 0,0:07:24.59,0:07:28.54,*Default,NTP,0000,0000,0000,,那实际上是文章的第一个孩子。
+Dialogue: 0,0:07:30.71,0:07:32.07,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:07:32.07,0:07:35.43,*Default,NTP,0000,0000,0000,,所以p元素是第一个p元素
+Dialogue: 0,0:07:35.43,0:07:36.59,*Default,NTP,0000,0000,0000,,文章里面，
+Dialogue: 0,0:07:36.59,0:07:40.80,*Default,NTP,0000,0000,0000,,但它不是文章的第一个孩子。
+Dialogue: 0,0:07:40.80,0:07:44.59,*Default,NTP,0000,0000,0000,,文章的第一个孩子实际上是标题。
+Dialogue: 0,0:07:44.59,0:07:45.42,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:07:45.42,0:07:47.11,*Default,NTP,0000,0000,0000,,它不是一个段落。
+Dialogue: 0,0:07:47.11,0:07:51.18,*Default,NTP,0000,0000,0000,,因此，这里的选择器在某种程度上不起作用
+Dialogue: 0,0:07:51.18,0:07:53.81,*Default,NTP,0000,0000,0000,,也许我们会认为它会。
+Dialogue: 0,0:07:53.81,0:07:55.79,*Default,NTP,0000,0000,0000,,所以这只适用于段落，
+Dialogue: 0,0:07:55.79,0:08:00.31,*Default,NTP,0000,0000,0000,,实际上是文章的第一个元素。
+Dialogue: 0,0:08:00.31,0:08:02.04,*Default,NTP,0000,0000,0000,,所以让我们这样做。
+Dialogue: 0,0:08:04.38,0:08:09.19,*Default,NTP,0000,0000,0000,,因此，如果我们现在保存，那么我们确实会得到一些红色段落。
+Dialogue: 0,0:08:09.19,0:08:13.26,*Default,NTP,0000,0000,0000,,所以现在这一段是文章的第一个孩子。
+Dialogue: 0,0:08:13.26,0:08:15.82,*Default,NTP,0000,0000,0000,,因此，现在我们的选择器适用。
+Dialogue: 0,0:08:18.20,0:08:19.56,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:08:19.56,0:08:22.88,*Default,NTP,0000,0000,0000,,现在让我们看看我们文章的结尾。
+Dialogue: 0,0:08:24.63,0:08:26.35,*Default,NTP,0000,0000,0000,,所以到此结束
+Dialogue: 0,0:08:26.35,0:08:29.13,*Default,NTP,0000,0000,0000,,我们可以看到一个段落实际上是
+Dialogue: 0,0:08:29.13,0:08:32.68,*Default,NTP,0000,0000,0000,,article 元素的最后一个子元素。
+Dialogue: 0,0:08:32.68,0:08:33.66,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:08:33.66,0:08:36.62,*Default,NTP,0000,0000,0000,,所以这会起作用。
+Dialogue: 0,0:08:39.61,0:08:41.92,*Default,NTP,0000,0000,0000,,那么让我们看看我们的结果。
+Dialogue: 0,0:08:41.92,0:08:44.68,*Default,NTP,0000,0000,0000,,事实上，现在这个文本是红色的。
+Dialogue: 0,0:08:44.68,0:08:46.46,*Default,NTP,0000,0000,0000,,所以这是有道理的。
+Dialogue: 0,0:08:46.46,0:08:47.67,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:08:47.67,0:08:48.97,*Default,NTP,0000,0000,0000,,这再次奏效
+Dialogue: 0,0:08:48.97,0:08:52.97,*Default,NTP,0000,0000,0000,,因为是文章里面的一个p元素
+Dialogue: 0,0:08:52.97,0:08:57.75,*Default,NTP,0000,0000,0000,,它确实是那篇文章的最后一个孩子。
+Dialogue: 0,0:08:57.75,0:09:01.55,*Default,NTP,0000,0000,0000,,因此，然后应用了这个选择器
+Dialogue: 0,0:09:01.55,0:09:04.69,*Default,NTP,0000,0000,0000,,并做了它应该做的事情。
+Dialogue: 0,0:09:04.69,0:09:07.56,*Default,NTP,0000,0000,0000,,所以基本上这意味着
+Dialogue: 0,0:09:07.56,0:09:11.38,*Default,NTP,0000,0000,0000,,当我们在父元素中混合多个元素时，
+Dialogue: 0,0:09:11.38,0:09:14.49,*Default,NTP,0000,0000,0000,,那么伪类就不能很好地工作。
+Dialogue: 0,0:09:14.49,0:09:18.94,*Default,NTP,0000,0000,0000,,然而，它们非常适合这种情况，
+Dialogue: 0,0:09:18.94,0:09:22.15,*Default,NTP,0000,0000,0000,,其中所有子元素都相同。
+Dialogue: 0,0:09:22.15,0:09:26.02,*Default,NTP,0000,0000,0000,,所以在像 ul 或 ol 这样的列表中，所有子元素
+Dialogue: 0,0:09:26.02,0:09:30.18,*Default,NTP,0000,0000,0000,,应该是 li ，所以 dos 伪类，
+Dialogue: 0,0:09:30.18,0:09:35.18,*Default,NTP,0000,0000,0000,,像第一个孩子，最后一个孩子或第n个孩子一样完美。
+Dialogue: 0,0:09:35.95,0:09:36.98,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:09:36.98,0:09:40.58,*Default,NTP,0000,0000,0000,,这就是您使用这些伪类的方式。
+Dialogue: 0,0:09:40.58,0:09:43.43,*Default,NTP,0000,0000,0000,,现在，我们刚刚学习的伪类
+Dialogue: 0,0:09:43.43,0:09:48.38,*Default,NTP,0000,0000,0000,,都是为了匹配现有的 HTML 结构。
+Dialogue: 0,0:09:48.38,0:09:52.17,*Default,NTP,0000,0000,0000,,但是，还有其他类型的伪类。
+Dialogue: 0,0:09:52.17,0:09:54.71,*Default,NTP,0000,0000,0000,,所以让我们在下一个视频中使用其中的一些
+Dialogue: 0,0:09:54.71,0:09:57.90,*Default,NTP,0000,0000,0000,,最终样式或超链接。
+Dialogue: 0,0:00:01.38,0:00:02.35,*Default,NTP,0000,0000,0000,,Let's now learn
+Dialogue: 0,0:00:02.35,0:00:05.51,*Default,NTP,0000,0000,0000,,about something called pseudo classes.
+Dialogue: 0,0:00:05.51,0:00:09.01,*Default,NTP,0000,0000,0000,,Now, pseudo class sounds very strange,
+Dialogue: 0,0:00:09.01,0:00:12.00,*Default,NTP,0000,0000,0000,,but it's actually pretty straightforward.
+Dialogue: 0,0:00:13.50,0:00:14.82,*Default,NTP,0000,0000,0000,,And as an example,
+Dialogue: 0,0:00:14.82,0:00:17.65,*Default,NTP,0000,0000,0000,,let's try to style the first list elements
+Dialogue: 0,0:00:17.65,0:00:20.40,*Default,NTP,0000,0000,0000,,different from the other ones.
+Dialogue: 0,0:00:20.40,0:00:23.82,*Default,NTP,0000,0000,0000,,So we have this list here and this list.
+Dialogue: 0,0:00:23.82,0:00:25.80,*Default,NTP,0000,0000,0000,,And so, as I just said,
+Dialogue: 0,0:00:25.80,0:00:28.47,*Default,NTP,0000,0000,0000,,let's try to style the first element
+Dialogue: 0,0:00:28.47,0:00:30.78,*Default,NTP,0000,0000,0000,,of each of the lists differently.
+Dialogue: 0,0:00:30.78,0:00:33.33,*Default,NTP,0000,0000,0000,,for example, by making them bold.
+Dialogue: 0,0:00:33.33,0:00:36.43,*Default,NTP,0000,0000,0000,,So this element and this element
+Dialogue: 0,0:00:36.43,0:00:38.81,*Default,NTP,0000,0000,0000,,now the straightforward way
+Dialogue: 0,0:00:38.81,0:00:42.70,*Default,NTP,0000,0000,0000,,of doing this would be to add a class to each of them
+Dialogue: 0,0:00:42.70,0:00:44.47,*Default,NTP,0000,0000,0000,,and then style them.
+Dialogue: 0,0:00:44.47,0:00:45.30,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:00:45.30,0:00:47.76,*Default,NTP,0000,0000,0000,,So let's actually try that first example.
+Dialogue: 0,0:00:48.66,0:00:50.18,*Default,NTP,0000,0000,0000,,So here is one list.
+Dialogue: 0,0:00:51.44,0:00:53.71,*Default,NTP,0000,0000,0000,,So let's add a class of
+Dialogue: 0,0:00:55.06,0:00:56.12,*Default,NTP,0000,0000,0000,,first
+Dialogue: 0,0:00:56.12,0:00:57.72,*Default,NTP,0000,0000,0000,,li,
+Dialogue: 0,0:00:57.72,0:00:59.74,*Default,NTP,0000,0000,0000,,and then let's do the same
+Dialogue: 0,0:00:59.74,0:01:02.69,*Default,NTP,0000,0000,0000,,to the other lists that we have up here.
+Dialogue: 0,0:01:06.65,0:01:09.49,*Default,NTP,0000,0000,0000,,And then back in or CSS,
+Dialogue: 0,0:01:11.11,0:01:14.79,*Default,NTP,0000,0000,0000,,let's select all the elements with the first li class.
+Dialogue: 0,0:01:15.99,0:01:18.87,*Default,NTP,0000,0000,0000,,And then remember to make text bold.
+Dialogue: 0,0:01:18.87,0:01:20.21,*Default,NTP,0000,0000,0000,,We use font-weight
+Dialogue: 0,0:01:21.23,0:01:22.14,*Default,NTP,0000,0000,0000,,set to bold,
+Dialogue: 0,0:01:23.08,0:01:25.50,*Default,NTP,0000,0000,0000,,and indeed, here we are.
+Dialogue: 0,0:01:25.50,0:01:28.49,*Default,NTP,0000,0000,0000,,So now this one is bold and this one,
+Dialogue: 0,0:01:28.49,0:01:31.39,*Default,NTP,0000,0000,0000,,but we can actually do better than this.
+Dialogue: 0,0:01:31.39,0:01:33.53,*Default,NTP,0000,0000,0000,,So instead of doing this manually,
+Dialogue: 0,0:01:33.53,0:01:36.52,*Default,NTP,0000,0000,0000,,we can actually have CSS automatically figure out,
+Dialogue: 0,0:01:36.52,0:01:41.52,*Default,NTP,0000,0000,0000,,which is the first li element inside of a container.
+Dialogue: 0,0:01:41.93,0:01:46.93,*Default,NTP,0000,0000,0000,,So let's actually do that and I will still keep
+Dialogue: 0,0:01:46.95,0:01:51.50,*Default,NTP,0000,0000,0000,,the classes in the HTML, just so we keep it as a reference,
+Dialogue: 0,0:01:51.50,0:01:54.92,*Default,NTP,0000,0000,0000,,but now let me show you how we can actually do it better.
+Dialogue: 0,0:01:56.94,0:01:58.58,*Default,NTP,0000,0000,0000,,So we start by using li,
+Dialogue: 0,0:01:59.43,0:02:02.64,*Default,NTP,0000,0000,0000,,which will basically select all the li elements,
+Dialogue: 0,0:02:02.64,0:02:05.04,*Default,NTP,0000,0000,0000,,but then we use a pseudo class
+Dialogue: 0,0:02:05.04,0:02:06.39,*Default,NTP,0000,0000,0000,,and we start a pseudo class
+Dialogue: 0,0:02:06.39,0:02:08.11,*Default,NTP,0000,0000,0000,,by writing a colon
+Dialogue: 0,0:02:08.11,0:02:09.10,*Default,NTP,0000,0000,0000,,like this.
+Dialogue: 0,0:02:09.10,0:02:12.25,*Default,NTP,0000,0000,0000,,And then to one that we're interested in here
+Dialogue: 0,0:02:12.25,0:02:13.77,*Default,NTP,0000,0000,0000,,is called first
+Dialogue: 0,0:02:15.25,0:02:16.48,*Default,NTP,0000,0000,0000,,dash child.
+Dialogue: 0,0:02:17.66,0:02:18.49,*Default,NTP,0000,0000,0000,,And that's it.
+Dialogue: 0,0:02:19.47,0:02:24.47,*Default,NTP,0000,0000,0000,,And now here, we can say font weight and set it to bold.
+Dialogue: 0,0:02:25.42,0:02:27.22,*Default,NTP,0000,0000,0000,,So let's see.
+Dialogue: 0,0:02:27.22,0:02:31.15,*Default,NTP,0000,0000,0000,,And indeed it worked now they are back to being bold.
+Dialogue: 0,0:02:31.15,0:02:35.11,*Default,NTP,0000,0000,0000,,So we basically changed our selector here
+Dialogue: 0,0:02:35.11,0:02:36.69,*Default,NTP,0000,0000,0000,,and added a pseudo class to it.
+Dialogue: 0,0:02:36.69,0:02:40.54,*Default,NTP,0000,0000,0000,,And what this first child pseudo class does
+Dialogue: 0,0:02:40.54,0:02:43.08,*Default,NTP,0000,0000,0000,,is that it will select an li element,
+Dialogue: 0,0:02:43.08,0:02:47.73,*Default,NTP,0000,0000,0000,,or actually it was select all the li elements that are
+Dialogue: 0,0:02:47.73,0:02:51.50,*Default,NTP,0000,0000,0000,,the first child elements of its parent elements.
+Dialogue: 0,0:02:51.50,0:02:55.65,*Default,NTP,0000,0000,0000,,And so that is exactly the case right here and right here.
+Dialogue: 0,0:02:57.41,0:02:58.50,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:02:58.50,0:03:00.17,*Default,NTP,0000,0000,0000,,So this li element here
+Dialogue: 0,0:03:00.17,0:03:04.26,*Default,NTP,0000,0000,0000,,is the first-child element of its parent.
+Dialogue: 0,0:03:04.26,0:03:06.47,*Default,NTP,0000,0000,0000,,So in this case, the Ol element,
+Dialogue: 0,0:03:06.47,0:03:08.03,*Default,NTP,0000,0000,0000,,and therefore this selector
+Dialogue: 0,0:03:08.03,0:03:11.34,*Default,NTP,0000,0000,0000,,that we wrote here will target that element.
+Dialogue: 0,0:03:11.34,0:03:13.61,*Default,NTP,0000,0000,0000,,And the exact same thing is too
+Dialogue: 0,0:03:13.61,0:03:16.41,*Default,NTP,0000,0000,0000,,for this other list down here.
+Dialogue: 0,0:03:16.41,0:03:18.32,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:18.32,0:03:21.97,*Default,NTP,0000,0000,0000,,So let's try another one again, li.
+Dialogue: 0,0:03:21.97,0:03:25.25,*Default,NTP,0000,0000,0000,,and then we also have one called the last-child.
+Dialogue: 0,0:03:27.56,0:03:29.45,*Default,NTP,0000,0000,0000,,Until lets make it italic,
+Dialogue: 0,0:03:30.58,0:03:32.10,*Default,NTP,0000,0000,0000,,so font style
+Dialogue: 0,0:03:33.08,0:03:34.56,*Default,NTP,0000,0000,0000,,and set it to a italic.
+Dialogue: 0,0:03:35.58,0:03:39.41,*Default,NTP,0000,0000,0000,,And indeed, now the last one became italic.
+Dialogue: 0,0:03:39.41,0:03:40.97,*Default,NTP,0000,0000,0000,,So both here
+Dialogue: 0,0:03:40.97,0:03:42.35,*Default,NTP,0000,0000,0000,,and both here
+Dialogue: 0,0:03:42.35,0:03:43.67,*Default,NTP,0000,0000,0000,,because again,
+Dialogue: 0,0:03:43.67,0:03:48.15,*Default,NTP,0000,0000,0000,,both of them are li elements that are now the last-child
+Dialogue: 0,0:03:48.15,0:03:50.49,*Default,NTP,0000,0000,0000,,inside of its parent container.
+Dialogue: 0,0:03:51.84,0:03:56.84,*Default,NTP,0000,0000,0000,,Next up, we can actually also target a specific child.
+Dialogue: 0,0:03:56.84,0:04:00.73,*Default,NTP,0000,0000,0000,,So for example, the third or the second child.
+Dialogue: 0,0:04:00.73,0:04:05.12,*Default,NTP,0000,0000,0000,,So for that, we use the nth-child pseudo class,
+Dialogue: 0,0:04:05.12,0:04:07.81,*Default,NTP,0000,0000,0000,,and then here we actually need to write parenthesis
+Dialogue: 0,0:04:07.81,0:04:12.73,*Default,NTP,0000,0000,0000,,like this so we can specify which of the child that we want.
+Dialogue: 0,0:04:12.73,0:04:15.09,*Default,NTP,0000,0000,0000,,So let's say we want the second child
+Dialogue: 0,0:04:15.09,0:04:17.12,*Default,NTP,0000,0000,0000,,to have a color of
+Dialogue: 0,0:04:17.12,0:04:17.95,*Default,NTP,0000,0000,0000,,red.
+Dialogue: 0,0:04:19.66,0:04:22.82,*Default,NTP,0000,0000,0000,,So using just a coded color name here,
+Dialogue: 0,0:04:23.70,0:04:25.01,*Default,NTP,0000,0000,0000,,let's see.
+Dialogue: 0,0:04:25.01,0:04:27.08,*Default,NTP,0000,0000,0000,,And indeed here it is.
+Dialogue: 0,0:04:28.31,0:04:30.40,*Default,NTP,0000,0000,0000,,Or if we tried the third one,
+Dialogue: 0,0:04:30.40,0:04:34.44,*Default,NTP,0000,0000,0000,,then indeed it would be the third one here
+Dialogue: 0,0:04:34.44,0:04:36.22,*Default,NTP,0000,0000,0000,,and here as well.
+Dialogue: 0,0:04:36.22,0:04:37.53,*Default,NTP,0000,0000,0000,,And even better than that,
+Dialogue: 0,0:04:37.53,0:04:41.53,*Default,NTP,0000,0000,0000,,is that we can actually use some keywords here.
+Dialogue: 0,0:04:41.53,0:04:44.18,*Default,NTP,0000,0000,0000,,so we can write odd.
+Dialogue: 0,0:04:44.18,0:04:47.39,*Default,NTP,0000,0000,0000,,And now all the odd elements will be red.
+Dialogue: 0,0:04:47.39,0:04:50.76,*Default,NTP,0000,0000,0000,,So element number one, then number two,
+Dialogue: 0,0:04:50.76,0:04:54.73,*Default,NTP,0000,0000,0000,,or actually number three, and here it's element number one,
+Dialogue: 0,0:04:54.73,0:04:57.29,*Default,NTP,0000,0000,0000,,number three, and number five.
+Dialogue: 0,0:04:57.29,0:04:58.43,*Default,NTP,0000,0000,0000,,And if there were more,
+Dialogue: 0,0:04:58.43,0:05:01.41,*Default,NTP,0000,0000,0000,,then it would select number seven, nine, eleven
+Dialogue: 0,0:05:01.41,0:05:03.67,*Default,NTP,0000,0000,0000,,and so on and so forth.
+Dialogue: 0,0:05:03.67,0:05:06.92,*Default,NTP,0000,0000,0000,,And of course, if we can do odd,
+Dialogue: 0,0:05:06.92,0:05:08.59,*Default,NTP,0000,0000,0000,,then we can also do even
+Dialogue: 0,0:05:09.75,0:05:12.59,*Default,NTP,0000,0000,0000,,so that we'll then select a number two,
+Dialogue: 0,0:05:12.59,0:05:14.45,*Default,NTP,0000,0000,0000,,four, six, eight
+Dialogue: 0,0:05:14.45,0:05:16.31,*Default,NTP,0000,0000,0000,,and so on and so forth.
+Dialogue: 0,0:05:16.31,0:05:18.57,*Default,NTP,0000,0000,0000,,So you see number two
+Dialogue: 0,0:05:18.57,0:05:21.40,*Default,NTP,0000,0000,0000,,and here two and four.
+Dialogue: 0,0:05:21.40,0:05:22.23,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:05:22.23,0:05:24.46,*Default,NTP,0000,0000,0000,,So this technique is quite useful
+Dialogue: 0,0:05:24.46,0:05:26.25,*Default,NTP,0000,0000,0000,,for example, to style tables,
+Dialogue: 0,0:05:26.25,0:05:31.00,*Default,NTP,0000,0000,0000,,which oftentimes have like alternating background colors.
+Dialogue: 0,0:05:31.00,0:05:32.67,*Default,NTP,0000,0000,0000,,So I'm sure you have seen that somewhere.
+Dialogue: 0,0:05:32.67,0:05:36.44,*Default,NTP,0000,0000,0000,,And so it's very helpful for that this technique here.
+Dialogue: 0,0:05:36.44,0:05:39.79,*Default,NTP,0000,0000,0000,,Now let's actually comment out this property here
+Dialogue: 0,0:05:39.79,0:05:43.61,*Default,NTP,0000,0000,0000,,because we don't want or text here to be red
+Dialogue: 0,0:05:43.61,0:05:45.22,*Default,NTP,0000,0000,0000,,actually in a final page.
+Dialogue: 0,0:05:46.34,0:05:48.01,*Default,NTP,0000,0000,0000,,Alright, So this was just to show you
+Dialogue: 0,0:05:48.01,0:05:50.52,*Default,NTP,0000,0000,0000,,everything that we can do here.
+Dialogue: 0,0:05:50.52,0:05:53.94,*Default,NTP,0000,0000,0000,,Now finally, let me clear up a common misconception
+Dialogue: 0,0:05:53.94,0:05:57.20,*Default,NTP,0000,0000,0000,,that there is around the pseudo classes.
+Dialogue: 0,0:05:57.20,0:05:58.89,*Default,NTP,0000,0000,0000,,So let's say that we wanted to select
+Dialogue: 0,0:05:58.89,0:06:03.67,*Default,NTP,0000,0000,0000,,the first paragraph element that's inside of the article.
+Dialogue: 0,0:06:03.67,0:06:06.37,*Default,NTP,0000,0000,0000,,So let's check that out here in our markup.
+Dialogue: 0,0:06:07.97,0:06:09.84,*Default,NTP,0000,0000,0000,,So inside of the article,
+Dialogue: 0,0:06:09.84,0:06:14.59,*Default,NTP,0000,0000,0000,,the first paragraph would basically be this one here.
+Dialogue: 0,0:06:14.59,0:06:15.42,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:06:15.42,0:06:18.27,*Default,NTP,0000,0000,0000,,So let's see what we can do here.
+Dialogue: 0,0:06:18.27,0:06:20.14,*Default,NTP,0000,0000,0000,,So what I just said
+Dialogue: 0,0:06:20.14,0:06:21.01,*Default,NTP,0000,0000,0000,,is basically
+Dialogue: 0,0:06:23.44,0:06:25.57,*Default,NTP,0000,0000,0000,,article and then p.
+Dialogue: 0,0:06:25.57,0:06:28.31,*Default,NTP,0000,0000,0000,,so that's the descendant selector.
+Dialogue: 0,0:06:28.31,0:06:29.21,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:06:29.21,0:06:32.98,*Default,NTP,0000,0000,0000,,So selecting a paragraph that's inside of the article
+Dialogue: 0,0:06:32.98,0:06:36.01,*Default,NTP,0000,0000,0000,,and now selecting the very first of that.
+Dialogue: 0,0:06:38.25,0:06:39.89,*Default,NTP,0000,0000,0000,,So first-child.
+Dialogue: 0,0:06:41.44,0:06:43.46,*Default,NTP,0000,0000,0000,,And now let's say we want the color.
+Dialogue: 0,0:06:44.69,0:06:47.05,*Default,NTP,0000,0000,0000,,To be red in this one,
+Dialogue: 0,0:06:47.05,0:06:51.05,*Default,NTP,0000,0000,0000,,but as we reload this and check out our page,
+Dialogue: 0,0:06:51.05,0:06:53.29,*Default,NTP,0000,0000,0000,,you see that nothing happened.
+Dialogue: 0,0:06:53.29,0:06:56.32,*Default,NTP,0000,0000,0000,,So no paragraph actually turned red.
+Dialogue: 0,0:06:56.32,0:07:00.47,*Default,NTP,0000,0000,0000,,So again, the misconception is that this selector here
+Dialogue: 0,0:07:00.47,0:07:03.05,*Default,NTP,0000,0000,0000,,should have selected the first p element
+Dialogue: 0,0:07:03.05,0:07:05.21,*Default,NTP,0000,0000,0000,,inside of the article.
+Dialogue: 0,0:07:05.21,0:07:08.07,*Default,NTP,0000,0000,0000,,And so this would be this one.
+Dialogue: 0,0:07:08.07,0:07:08.93,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:07:08.93,0:07:12.05,*Default,NTP,0000,0000,0000,,So as we just saw before this paragraph is in fact,
+Dialogue: 0,0:07:12.05,0:07:15.23,*Default,NTP,0000,0000,0000,,the first paragraph inside of the article however,
+Dialogue: 0,0:07:15.23,0:07:19.89,*Default,NTP,0000,0000,0000,,this is not how the first child pseudo class actually works.
+Dialogue: 0,0:07:19.89,0:07:24.59,*Default,NTP,0000,0000,0000,,Instead, what CSS will do is to select a p element
+Dialogue: 0,0:07:24.59,0:07:28.54,*Default,NTP,0000,0000,0000,,that is actually the first child of the article.
+Dialogue: 0,0:07:30.71,0:07:32.07,*Default,NTP,0000,0000,0000,,Alright?
+Dialogue: 0,0:07:32.07,0:07:35.43,*Default,NTP,0000,0000,0000,,So the p element is the first p element
+Dialogue: 0,0:07:35.43,0:07:36.59,*Default,NTP,0000,0000,0000,,inside of the article,
+Dialogue: 0,0:07:36.59,0:07:40.80,*Default,NTP,0000,0000,0000,,but it is not the first child of article.
+Dialogue: 0,0:07:40.80,0:07:44.59,*Default,NTP,0000,0000,0000,,The first child of article is actually header.
+Dialogue: 0,0:07:44.59,0:07:45.42,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:07:45.42,0:07:47.11,*Default,NTP,0000,0000,0000,,It is not a paragraph.
+Dialogue: 0,0:07:47.11,0:07:51.18,*Default,NTP,0000,0000,0000,,And so therefore this selector here does not work in a way
+Dialogue: 0,0:07:51.18,0:07:53.81,*Default,NTP,0000,0000,0000,,that maybe we might think it would.
+Dialogue: 0,0:07:53.81,0:07:55.79,*Default,NTP,0000,0000,0000,,So this would only work if a paragraph,
+Dialogue: 0,0:07:55.79,0:08:00.31,*Default,NTP,0000,0000,0000,,would actually be to first element of the article.
+Dialogue: 0,0:08:00.31,0:08:02.04,*Default,NTP,0000,0000,0000,,So let's do that.
+Dialogue: 0,0:08:04.38,0:08:09.19,*Default,NTP,0000,0000,0000,,So if we save now then indeed we get some red paragraph.
+Dialogue: 0,0:08:09.19,0:08:13.26,*Default,NTP,0000,0000,0000,,So now this paragraph is the first-child of the article.
+Dialogue: 0,0:08:13.26,0:08:15.82,*Default,NTP,0000,0000,0000,,And so therefore now our selector applies.
+Dialogue: 0,0:08:18.20,0:08:19.56,*Default,NTP,0000,0000,0000,,Alright?
+Dialogue: 0,0:08:19.56,0:08:22.88,*Default,NTP,0000,0000,0000,,now let's see the end of our article.
+Dialogue: 0,0:08:24.63,0:08:26.35,*Default,NTP,0000,0000,0000,,So it ends here
+Dialogue: 0,0:08:26.35,0:08:29.13,*Default,NTP,0000,0000,0000,,and we can see that a paragraph is actually
+Dialogue: 0,0:08:29.13,0:08:32.68,*Default,NTP,0000,0000,0000,,the last-child of the article element.
+Dialogue: 0,0:08:32.68,0:08:33.66,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:08:33.66,0:08:36.62,*Default,NTP,0000,0000,0000,,And so what would work is this.
+Dialogue: 0,0:08:39.61,0:08:41.92,*Default,NTP,0000,0000,0000,,So let's see our result.
+Dialogue: 0,0:08:41.92,0:08:44.68,*Default,NTP,0000,0000,0000,,And indeed, now this text is the red.
+Dialogue: 0,0:08:44.68,0:08:46.46,*Default,NTP,0000,0000,0000,,And so it makes sense.
+Dialogue: 0,0:08:46.46,0:08:47.67,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:08:47.67,0:08:48.97,*Default,NTP,0000,0000,0000,,Again this worked
+Dialogue: 0,0:08:48.97,0:08:52.97,*Default,NTP,0000,0000,0000,,because it is a p element inside of the article
+Dialogue: 0,0:08:52.97,0:08:57.75,*Default,NTP,0000,0000,0000,,and it is indeed the last-child of that article.
+Dialogue: 0,0:08:57.75,0:09:01.55,*Default,NTP,0000,0000,0000,,And so therefore this selector then applied
+Dialogue: 0,0:09:01.55,0:09:04.69,*Default,NTP,0000,0000,0000,,and did exactly what it should do.
+Dialogue: 0,0:09:04.69,0:09:07.56,*Default,NTP,0000,0000,0000,,So basically what this means is that
+Dialogue: 0,0:09:07.56,0:09:11.38,*Default,NTP,0000,0000,0000,,when we mix multiple elements inside of a parent element,
+Dialogue: 0,0:09:11.38,0:09:14.49,*Default,NTP,0000,0000,0000,,then the pseudo classes don't work really well.
+Dialogue: 0,0:09:14.49,0:09:18.94,*Default,NTP,0000,0000,0000,,They are however perfect for situations like this one,
+Dialogue: 0,0:09:18.94,0:09:22.15,*Default,NTP,0000,0000,0000,,where all the child elements are the same.
+Dialogue: 0,0:09:22.15,0:09:26.02,*Default,NTP,0000,0000,0000,,So in a list like ul or ol all the child elements
+Dialogue: 0,0:09:26.02,0:09:30.18,*Default,NTP,0000,0000,0000,,are supposed to be li and so the does pseudo class,
+Dialogue: 0,0:09:30.18,0:09:35.18,*Default,NTP,0000,0000,0000,,like first-child, last-child or nth-child work perfectly.
+Dialogue: 0,0:09:35.95,0:09:36.98,*Default,NTP,0000,0000,0000,,Alright.
+Dialogue: 0,0:09:36.98,0:09:40.58,*Default,NTP,0000,0000,0000,,And this is how you work with these pseudo classes.
+Dialogue: 0,0:09:40.58,0:09:43.43,*Default,NTP,0000,0000,0000,,Now, the pseudo classes that we just learned about
+Dialogue: 0,0:09:43.43,0:09:48.38,*Default,NTP,0000,0000,0000,,are all about matching the existing HTML structure.
+Dialogue: 0,0:09:48.38,0:09:52.17,*Default,NTP,0000,0000,0000,,However, there are also other types of pseudo classes.
+Dialogue: 0,0:09:52.17,0:09:54.71,*Default,NTP,0000,0000,0000,,And so let's use some of them in the next video
+Dialogue: 0,0:09:54.71,0:09:57.90,*Default,NTP,0000,0000,0000,,to finally style or hyperlinks.

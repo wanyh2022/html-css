@@ -1,0 +1,562 @@
+[Script Info]
+Title: 024 Styling Text_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=22&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.78,0:00:02.72,*Default,NTP,0000,0000,0000,,在本次讲座中，
+Dialogue: 0,0:00:02.72,0:00:07.44,*Default,NTP,0000,0000,0000,,我们将学习使用 CSS 设置文本样式的六个属性。
+Dialogue: 0,0:00:09.53,0:00:11.35,*Default,NTP,0000,0000,0000,,让我们快速回顾一下
+Dialogue: 0,0:00:11.35,0:00:13.67,*Default,NTP,0000,0000,0000,,我们在上一节课中做了什么。
+Dialogue: 0,0:00:13.67,0:00:18.32,*Default,NTP,0000,0000,0000,,所以我们在这个 CSS 文件中编写外部 CSS
+Dialogue: 0,0:00:18.32,0:00:23.32,*Default,NTP,0000,0000,0000,,并且 CSS 文件总是由多个 CSS 规则组成。
+Dialogue: 0,0:00:24.31,0:00:27.56,*Default,NTP,0000,0000,0000,,所以现在我们只有一个 CSS 规则，
+Dialogue: 0,0:00:27.56,0:00:31.38,*Default,NTP,0000,0000,0000,,但是，当然，我们现在将开始添加更多。
+Dialogue: 0,0:00:31.38,0:00:35.53,*Default,NTP,0000,0000,0000,,现在，CSS 规则总是以选择器开头。
+Dialogue: 0,0:00:35.53,0:00:39.43,*Default,NTP,0000,0000,0000,,所以在这种情况下，我们选择 h1 元素，
+Dialogue: 0,0:00:39.43,0:00:41.90,*Default,NTP,0000,0000,0000,,但是如果有更多的 h1 元素，
+Dialogue: 0,0:00:41.90,0:00:45.41,*Default,NTP,0000,0000,0000,,那么选择器实际上会选择所有这些。
+Dialogue: 0,0:00:45.41,0:00:48.48,*Default,NTP,0000,0000,0000,,然后我们在这里有这个声明块
+Dialogue: 0,0:00:48.48,0:00:52.03,*Default,NTP,0000,0000,0000,,我们可以在其中写入一个或多个声明
+Dialogue: 0,0:00:52.03,0:00:53.27,*Default,NTP,0000,0000,0000,,像这个
+Dialogue: 0,0:00:53.27,0:00:56.89,*Default,NTP,0000,0000,0000,,每个声明都有这个属性名称。
+Dialogue: 0,0:00:56.89,0:00:58.51,*Default,NTP,0000,0000,0000,,所以在这种情况下，颜色，
+Dialogue: 0,0:00:58.51,0:01:02.20,*Default,NTP,0000,0000,0000,,然后是我们为该属性指定的值，
+Dialogue: 0,0:01:02.20,0:01:05.45,*Default,NTP,0000,0000,0000,,在这种情况下，这是蓝色的这个关键字。
+Dialogue: 0,0:01:07.06,0:01:10.75,*Default,NTP,0000,0000,0000,,所以现在我们将开始在这里添加更多属性。
+Dialogue: 0,0:01:10.75,0:01:14.78,*Default,NTP,0000,0000,0000,,我要使用的第一个是字体大小。
+Dialogue: 0,0:01:16.57,0:01:21.16,*Default,NTP,0000,0000,0000,,所以这里我们基本可以指定文字的大小
+Dialogue: 0,0:01:21.16,0:01:25.46,*Default,NTP,0000,0000,0000,,每个属性可以采用不同类型的值，
+Dialogue: 0,0:01:25.46,0:01:28.50,*Default,NTP,0000,0000,0000,,例如长度或关键字。
+Dialogue: 0,0:01:28.50,0:01:32.01,*Default,NTP,0000,0000,0000,,所以你看到这里的颜色，值是一个关键字，
+Dialogue: 0,0:01:32.01,0:01:36.18,*Default,NTP,0000,0000,0000,,但是现在在字体大小中，我们实际上需要一个长度。
+Dialogue: 0,0:01:36.18,0:01:40.11,*Default,NTP,0000,0000,0000,,所以基本上，在这种情况下，文本的大小。
+Dialogue: 0,0:01:40.11,0:01:44.46,*Default,NTP,0000,0000,0000,,现在我们可以在 CSS 中使用不同的单位来指定长度，
+Dialogue: 0,0:01:44.46,0:01:46.95,*Default,NTP,0000,0000,0000,,但现在不要担心。
+Dialogue: 0,0:01:46.95,0:01:50.50,*Default,NTP,0000,0000,0000,,所以现在，我们将简单地使用最简单的一个，
+Dialogue: 0,0:01:50.50,0:01:53.56,*Default,NTP,0000,0000,0000,,这是屏幕上的像素。
+Dialogue: 0,0:01:53.56,0:01:57.44,*Default,NTP,0000,0000,0000,,所以我们可以指定字体大小，比如26像素，
+Dialogue: 0,0:01:59.21,0:02:01.06,*Default,NTP,0000,0000,0000,,然后在此处添加分号。
+Dialogue: 0,0:02:01.06,0:02:03.34,*Default,NTP,0000,0000,0000,,所以现在屏幕上的文字
+Dialogue: 0,0:02:03.34,0:02:08.34,*Default,NTP,0000,0000,0000,,将恰好是您物理屏幕的 26 像素。
+Dialogue: 0,0:02:08.46,0:02:10.25,*Default,NTP,0000,0000,0000,,所以如果我现在给这个保存，
+Dialogue: 0,0:02:11.40,0:02:14.66,*Default,NTP,0000,0000,0000,,然后你会看到这里的文字减少了。
+Dialogue: 0,0:02:14.66,0:02:17.34,*Default,NTP,0000,0000,0000,,只要记住，以防它没有更新
+Dialogue: 0,0:02:17.34,0:02:21.24,*Default,NTP,0000,0000,0000,,在您的计算机上，您已成功连接
+Dialogue: 0,0:02:21.24,0:02:24.32,*Default,NTP,0000,0000,0000,,到实时服务器，你可以在这里看到，
+Dialogue: 0,0:02:24.32,0:02:28.00,*Default,NTP,0000,0000,0000,,然后只需在此处手动重新加载页面一次。
+Dialogue: 0,0:02:28.00,0:02:31.98,*Default,NTP,0000,0000,0000,,然后在这里成功更新代码，
+Dialogue: 0,0:02:31.98,0:02:35.35,*Default,NTP,0000,0000,0000,,然后它将自动重新加载您的页面。
+Dialogue: 0,0:02:35.35,0:02:39.96,*Default,NTP,0000,0000,0000,,但无论如何，现在让我们开始添加下一个属性，
+Dialogue: 0,0:02:39.96,0:02:43.28,*Default,NTP,0000,0000,0000,,这是字体系列。
+Dialogue: 0,0:02:43.28,0:02:45.47,*Default,NTP,0000,0000,0000,,所以在这里你可以指定
+Dialogue: 0,0:02:45.47,0:02:47.93,*Default,NTP,0000,0000,0000,,您的文本的基本不同的字体。
+Dialogue: 0,0:02:47.93,0:02:50.50,*Default,NTP,0000,0000,0000,,所以就像你可以指定一个字体
+Dialogue: 0,0:02:50.50,0:02:54.98,*Default,NTP,0000,0000,0000,,在 Word 文档或 Google Page 文档之类的文件中，
+Dialogue: 0,0:02:54.98,0:02:57.62,*Default,NTP,0000,0000,0000,,你可以在 CSS 中做同样的事情。
+Dialogue: 0,0:02:57.62,0:03:00.71,*Default,NTP,0000,0000,0000,,但是，在 CSS 的情况下有什么不同
+Dialogue: 0,0:03:00.71,0:03:03.29,*Default,NTP,0000,0000,0000,,是你不能简单地使用字体系列
+Dialogue: 0,0:03:03.29,0:03:05.56,*Default,NTP,0000,0000,0000,,您已在计算机上安装的
+Dialogue: 0,0:03:05.56,0:03:08.57,*Default,NTP,0000,0000,0000,,因为那不适用于所有用户
+Dialogue: 0,0:03:08.57,0:03:11.11,*Default,NTP,0000,0000,0000,,将来会访问您的页面，
+Dialogue: 0,0:03:11.11,0:03:14.68,*Default,NTP,0000,0000,0000,,除非他们还在计算机上安装了该字体。
+Dialogue: 0,0:03:16.10,0:03:17.83,*Default,NTP,0000,0000,0000,,所以有一个解决方案
+Dialogue: 0,0:03:17.83,0:03:19.74,*Default,NTP,0000,0000,0000,,我们稍后会谈到，
+Dialogue: 0,0:03:19.74,0:03:23.13,*Default,NTP,0000,0000,0000,,但现在我们根本不会实际指定
+Dialogue: 0,0:03:23.13,0:03:27.00,*Default,NTP,0000,0000,0000,,一个真正的字体系列，但只使用关键字
+Dialogue: 0,0:03:27.00,0:03:30.04,*Default,NTP,0000,0000,0000,,我们希望浏览器使用任何字体大小
+Dialogue: 0,0:03:30.04,0:03:32.34,*Default,NTP,0000,0000,0000,,那是无衬线字体。
+Dialogue: 0,0:03:32.34,0:03:36.30,*Default,NTP,0000,0000,0000,,还有无衬线字体，我们以后也学一点
+Dialogue: 0,0:03:36.30,0:03:37.77,*Default,NTP,0000,0000,0000,,这实际上意味着什么，
+Dialogue: 0,0:03:37.77,0:03:41.24,*Default,NTP,0000,0000,0000,,所以在本课程的设计部分，
+Dialogue: 0,0:03:41.24,0:03:44.38,*Default,NTP,0000,0000,0000,,但如果我们现在挽救一下，
+Dialogue: 0,0:03:44.38,0:03:47.67,*Default,NTP,0000,0000,0000,,你看到这里的字体完全变了。
+Dialogue: 0,0:03:48.80,0:03:51.19,*Default,NTP,0000,0000,0000,,所以现在看起来更干净了，
+Dialogue: 0,0:03:51.19,0:03:54.78,*Default,NTP,0000,0000,0000,,但重要的是现在当我们更新我们的页面时，
+Dialogue: 0,0:03:54.78,0:03:58.15,*Default,NTP,0000,0000,0000,,事实上，这个标题的字体系列
+Dialogue: 0,0:03:58.15,0:03:59.59,*Default,NTP,0000,0000,0000,,现在看起来很不一样。
+Dialogue: 0,0:04:00.69,0:04:02.87,*Default,NTP,0000,0000,0000,,所以它不再有这些衬线，
+Dialogue: 0,0:04:02.87,0:04:05.32,*Default,NTP,0000,0000,0000,,就像这里的这些小东西
+Dialogue: 0,0:04:05.32,0:04:07.05,*Default,NTP,0000,0000,0000,,在字母的末尾。
+Dialogue: 0,0:04:08.49,0:04:12.12,*Default,NTP,0000,0000,0000,,再一次，稍后，在设计部分，我们将学习
+Dialogue: 0,0:04:12.12,0:04:16.93,*Default,NTP,0000,0000,0000,,我们如何为我们的页面指定特定的字体系列。
+Dialogue: 0,0:04:16.93,0:04:20.11,*Default,NTP,0000,0000,0000,,但是现在让我们来看看我们的下一个属性
+Dialogue: 0,0:04:20.11,0:04:23.29,*Default,NTP,0000,0000,0000,,对于文本，即文本变换。
+Dialogue: 0,0:04:24.92,0:04:26.54,*Default,NTP,0000,0000,0000,,因此，对于文本转换，
+Dialogue: 0,0:04:26.54,0:04:29.98,*Default,NTP,0000,0000,0000,,我们基本上可以将文本转为大写。
+Dialogue: 0,0:04:30.95,0:04:32.81,*Default,NTP,0000,0000,0000,,所以你可以再看一次，
+Dialogue: 0,0:04:32.81,0:04:36.64,*Default,NTP,0000,0000,0000,,VS Code 在这里给了我们很多建议，
+Dialogue: 0,0:04:36.64,0:04:38.16,*Default,NTP,0000,0000,0000,,所以这整个清单。
+Dialogue: 0,0:04:38.16,0:04:41.36,*Default,NTP,0000,0000,0000,,所以这里最常用的实际上是大写的。
+Dialogue: 0,0:04:42.68,0:04:45.53,*Default,NTP,0000,0000,0000,,所以大写，像这样，
+Dialogue: 0,0:04:45.53,0:04:49.21,*Default,NTP,0000,0000,0000,,结果正是您所期望的。
+Dialogue: 0,0:04:49.21,0:04:52.12,*Default,NTP,0000,0000,0000,,所以所有的文字都变成了大写。
+Dialogue: 0,0:04:52.12,0:04:54.18,*Default,NTP,0000,0000,0000,,所以这是一个简单的。
+Dialogue: 0,0:04:54.18,0:04:57.95,*Default,NTP,0000,0000,0000,,现在让我们尝试另一种称为字体样式的方法。
+Dialogue: 0,0:05:00.16,0:05:02.40,*Default,NTP,0000,0000,0000,,在这里，您再次看到这些选项。
+Dialogue: 0,0:05:02.40,0:05:04.61,*Default,NTP,0000,0000,0000,,在这种情况下，最常用的一个，
+Dialogue: 0,0:05:04.61,0:05:06.94,*Default,NTP,0000,0000,0000,,是将一些文本设置为斜体。
+Dialogue: 0,0:05:08.50,0:05:10.48,*Default,NTP,0000,0000,0000,,所以让我们检查一下，
+Dialogue: 0,0:05:10.48,0:05:13.89,*Default,NTP,0000,0000,0000,,事实上，这正是发生的事情。
+Dialogue: 0,0:05:13.89,0:05:17.44,*Default,NTP,0000,0000,0000,,因此，正如预期的那样，文本变成了斜体。
+Dialogue: 0,0:05:17.44,0:05:21.04,*Default,NTP,0000,0000,0000,,太好了，所以我们已经介绍了四个属性
+Dialogue: 0,0:05:21.04,0:05:24.04,*Default,NTP,0000,0000,0000,,以及这里的一些可能值。
+Dialogue: 0,0:05:24.04,0:05:26.02,*Default,NTP,0000,0000,0000,,所以我们正在取得良好的进展。
+Dialogue: 0,0:05:26.02,0:05:29.15,*Default,NTP,0000,0000,0000,,当然，正如我之前提到的，你没有
+Dialogue: 0,0:05:29.15,0:05:32.10,*Default,NTP,0000,0000,0000,,现在开始在这里记住这些属性。
+Dialogue: 0,0:05:32.10,0:05:34.07,*Default,NTP,0000,0000,0000,,随着时间的推移你会习惯它们
+Dialogue: 0,0:05:34.07,0:05:36.54,*Default,NTP,0000,0000,0000,,随着您开始越来越多地使用它们。
+Dialogue: 0,0:05:38.59,0:05:41.50,*Default,NTP,0000,0000,0000,,让我们在这里真正摆脱其中的一个，
+Dialogue: 0,0:05:41.50,0:05:43.73,*Default,NTP,0000,0000,0000,,因为我们实际上会谈论颜色
+Dialogue: 0,0:05:43.73,0:05:44.97,*Default,NTP,0000,0000,0000,,稍晚一些。
+Dialogue: 0,0:05:46.82,0:05:50.98,*Default,NTP,0000,0000,0000,,好的，现在让我们进入下一个标题。
+Dialogue: 0,0:05:50.98,0:05:53.85,*Default,NTP,0000,0000,0000,,所以现在让我们为我们的 h2 元素设置样式。
+Dialogue: 0,0:05:54.78,0:05:59.52,*Default,NTP,0000,0000,0000,,这就是本文的主要标题。
+Dialogue: 0,0:06:01.41,0:06:04.60,*Default,NTP,0000,0000,0000,,所以我们可以使用我们已经学习过的属性。
+Dialogue: 0,0:06:04.60,0:06:07.88,*Default,NTP,0000,0000,0000,,因此，如果您继续输入这些属性名称，
+Dialogue: 0,0:06:07.88,0:06:10.30,*Default,NTP,0000,0000,0000,,他们会开始进入你的大脑。
+Dialogue: 0,0:06:10.30,0:06:14.14,*Default,NTP,0000,0000,0000,,所以这个，让我们实际上让它比h1更大。
+Dialogue: 0,0:06:16.26,0:06:19.42,*Default,NTP,0000,0000,0000,,非常大，像40像素，
+Dialogue: 0,0:06:19.42,0:06:21.51,*Default,NTP,0000,0000,0000,,这完全没有问题。
+Dialogue: 0,0:06:21.51,0:06:25.23,*Default,NTP,0000,0000,0000,,所以仅仅因为 h1 是页面的主标题，
+Dialogue: 0,0:06:25.23,0:06:28.69,*Default,NTP,0000,0000,0000,,这并不意味着它也必须是最大的。
+Dialogue: 0,0:06:28.69,0:06:32.57,*Default,NTP,0000,0000,0000,,所以成为 h1 真的是关于语义，
+Dialogue: 0,0:06:32.57,0:06:34.76,*Default,NTP,0000,0000,0000,,不仅仅是关于它的外观。
+Dialogue: 0,0:06:36.19,0:06:38.91,*Default,NTP,0000,0000,0000,,所以我们有一个很好的大文本
+Dialogue: 0,0:06:38.91,0:06:42.16,*Default,NTP,0000,0000,0000,,现在让我们让它也无衬线，
+Dialogue: 0,0:06:43.19,0:06:45.96,*Default,NTP,0000,0000,0000,,所以给它这种现代的外观和感觉。
+Dialogue: 0,0:06:47.46,0:06:50.26,*Default,NTP,0000,0000,0000,,所以无衬线关键字，
+Dialogue: 0,0:06:52.05,0:06:54.12,*Default,NTP,0000,0000,0000,,现在我们开始。
+Dialogue: 0,0:06:54.12,0:06:57.45,*Default,NTP,0000,0000,0000,,接下来让我们为段落设置样式。
+Dialogue: 0,0:06:58.29,0:07:00.47,*Default,NTP,0000,0000,0000,,所以，正如我之前提到的，
+Dialogue: 0,0:07:00.47,0:07:03.38,*Default,NTP,0000,0000,0000,,通过像这样选择 p 元素，
+Dialogue: 0,0:07:03.38,0:07:05.88,*Default,NTP,0000,0000,0000,,这实际上将选择所有 p 元素
+Dialogue: 0,0:07:05.88,0:07:08.45,*Default,NTP,0000,0000,0000,,在我们的页面上。
+Dialogue: 0,0:07:08.45,0:07:11.83,*Default,NTP,0000,0000,0000,,所以这一段在这里和这个和这个，
+Dialogue: 0,0:07:11.83,0:07:15.44,*Default,NTP,0000,0000,0000,,以及我们在页面上的所有内容。
+Dialogue: 0,0:07:17.91,0:07:20.20,*Default,NTP,0000,0000,0000,,所以让我们再给它一个字体大小，
+Dialogue: 0,0:07:21.47,0:07:24.02,*Default,NTP,0000,0000,0000,,假设是 22 像素。133
+Dialogue: 0,0:07:24.02,0:07:26.17,*Default,NTP,0000,0000,0000,,而现在，所有这些长度，
+Dialogue: 0,0:07:26.17,0:07:28.95,*Default,NTP,0000,0000,0000,,所以我一直在使用的所有这些数字
+Dialogue: 0,0:07:28.95,0:07:30.31,*Default,NTP,0000,0000,0000,,有点随机，
+Dialogue: 0,0:07:30.31,0:07:33.63,*Default,NTP,0000,0000,0000,,但稍后我们还将学习如何使用系统
+Dialogue: 0,0:07:33.63,0:07:36.13,*Default,NTP,0000,0000,0000,,这样我们就可以基本自动
+Dialogue: 0,0:07:36.13,0:07:39.35,*Default,NTP,0000,0000,0000,,找出我们应该使用的字体大小。
+Dialogue: 0,0:07:42.12,0:07:46.91,*Default,NTP,0000,0000,0000,,现在我也想再次更改字体系列，
+Dialogue: 0,0:07:48.87,0:07:51.44,*Default,NTP,0000,0000,0000,,再一次，使用无衬线字体，
+Dialogue: 0,0:07:52.72,0:07:56.02,*Default,NTP,0000,0000,0000,,很好，看起来已经很不错了。
+Dialogue: 0,0:07:56.02,0:07:58.97,*Default,NTP,0000,0000,0000,,如果我们将它与我们的演示进行比较，
+Dialogue: 0,0:07:58.97,0:08:02.97,*Default,NTP,0000,0000,0000,,然后我们可以看到我们开始越来越近
+Dialogue: 0,0:08:02.97,0:08:05.71,*Default,NTP,0000,0000,0000,,到，或者是，到我们的演示页面，
+Dialogue: 0,0:08:05.71,0:08:08.07,*Default,NTP,0000,0000,0000,,所以我们到底想要达到什么。
+Dialogue: 0,0:08:10.93,0:08:13.27,*Default,NTP,0000,0000,0000,,实际上只有一件事
+Dialogue: 0,0:08:13.27,0:08:15.68,*Default,NTP,0000,0000,0000,,我想在这些段落中进行更改，
+Dialogue: 0,0:08:15.68,0:08:19.04,*Default,NTP,0000,0000,0000,,这是指定另一个新属性，
+Dialogue: 0,0:08:19.04,0:08:20.60,*Default,NTP,0000,0000,0000,,这是行高。
+Dialogue: 0,0:08:21.90,0:08:26.04,*Default,NTP,0000,0000,0000,,所以我将首先实际指定它。
+Dialogue: 0,0:08:26.04,0:08:29.59,*Default,NTP,0000,0000,0000,,然后你会看到文字的不同。
+Dialogue: 0,0:08:29.59,0:08:33.22,*Default,NTP,0000,0000,0000,,所以这里我们实际上使用了一个没有单位的值。
+Dialogue: 0,0:08:34.15,0:08:37.25,*Default,NTP,0000,0000,0000,,所以在这种情况下，这个 1.5 只是意味着
+Dialogue: 0,0:08:37.25,0:08:41.45,*Default,NTP,0000,0000,0000,,行高将是字体大小的 1.5 倍。
+Dialogue: 0,0:08:43.25,0:08:46.21,*Default,NTP,0000,0000,0000,,所以默认情况下，行高只是一，
+Dialogue: 0,0:08:46.21,0:08:50.07,*Default,NTP,0000,0000,0000,,但是现在如果我们将其设置为 1.5，那么您应该会看到空间
+Dialogue: 0,0:08:50.07,0:08:52.89,*Default,NTP,0000,0000,0000,,这里的字里行间增加
+Dialogue: 0,0:08:52.89,0:08:55.03,*Default,NTP,0000,0000,0000,,在这里和这里和这里之间。
+Dialogue: 0,0:08:55.03,0:08:57.68,*Default,NTP,0000,0000,0000,,所以仔细看看我现在点击这里
+Dialogue: 0,0:08:57.68,0:08:59.73,*Default,NTP,0000,0000,0000,,重新加载页面，
+Dialogue: 0,0:09:00.99,0:09:03.05,*Default,NTP,0000,0000,0000,,你会发现这真的改变了。
+Dialogue: 0,0:09:05.18,0:09:08.46,*Default,NTP,0000,0000,0000,,当然，我们可以将它设置得更高，
+Dialogue: 0,0:09:08.46,0:09:10.72,*Default,NTP,0000,0000,0000,,然后我们会得到更多的空间，
+Dialogue: 0,0:09:10.72,0:09:12.82,*Default,NTP,0000,0000,0000,,但已经看起来有点太多了。
+Dialogue: 0,0:09:14.17,0:09:17.97,*Default,NTP,0000,0000,0000,,所以让我们回到 1.5，像这样。
+Dialogue: 0,0:09:19.45,0:09:23.01,*Default,NTP,0000,0000,0000,,现在，顺便说一句，这里发生了一件很有趣的事情
+Dialogue: 0,0:09:23.01,0:09:25.11,*Default,NTP,0000,0000,0000,,也许你注意到了。
+Dialogue: 0,0:09:25.11,0:09:29.07,*Default,NTP,0000,0000,0000,,所以记住这些段落的内部
+Dialogue: 0,0:09:29.07,0:09:32.76,*Default,NTP,0000,0000,0000,,我们刚刚设计的，我们有不同的元素
+Dialogue: 0,0:09:32.76,0:09:34.97,*Default,NTP,0000,0000,0000,,比如这个斜体字，
+Dialogue: 0,0:09:34.97,0:09:39.20,*Default,NTP,0000,0000,0000,,哪个是 em 元素，记得吗？
+Dialogue: 0,0:09:39.20,0:09:42.65,*Default,NTP,0000,0000,0000,,所以在这一段中，
+Dialogue: 0,0:09:42.65,0:09:45.63,*Default,NTP,0000,0000,0000,,例如，我们有 em 元素，
+Dialogue: 0,0:09:45.63,0:09:49.77,*Default,NTP,0000,0000,0000,,或者在本段中，我们有强大的元素。
+Dialogue: 0,0:09:51.34,0:09:53.09,*Default,NTP,0000,0000,0000,,或者在这里我们有锚，
+Dialogue: 0,0:09:55.97,0:09:57.79,*Default,NTP,0000,0000,0000,,所以这个元素就在这里。
+Dialogue: 0,0:09:59.35,0:10:02.89,*Default,NTP,0000,0000,0000,,如您所见，页面上的这些元素，
+Dialogue: 0,0:10:02.89,0:10:05.79,*Default,NTP,0000,0000,0000,,例如，这里的锚点
+Dialogue: 0,0:10:05.79,0:10:07.92,*Default,NTP,0000,0000,0000,,不知何故得到了相同的字体大小
+Dialogue: 0,0:10:07.92,0:10:11.29,*Default,NTP,0000,0000,0000,,以及与 p 元素相同的字体系列，
+Dialogue: 0,0:10:11.29,0:10:15.60,*Default,NTP,0000,0000,0000,,即使我们没有指定这些样式
+Dialogue: 0,0:10:15.60,0:10:17.30,*Default,NTP,0000,0000,0000,,对于任何地方的链接。
+Dialogue: 0,0:10:17.30,0:10:21.11,*Default,NTP,0000,0000,0000,,所以我们没有指定字体大小和家族
+Dialogue: 0,0:10:21.11,0:10:24.33,*Default,NTP,0000,0000,0000,,和线高，而不是锚点，
+Dialogue: 0,0:10:24.33,0:10:27.69,*Default,NTP,0000,0000,0000,,不适合强文本，
+Dialogue: 0,0:10:27.69,0:10:29.26,*Default,NTP,0000,0000,0000,,或不适合强元素，
+Dialogue: 0,0:10:29.26,0:10:31.75,*Default,NTP,0000,0000,0000,,也不适用于 em 元素。
+Dialogue: 0,0:10:33.10,0:10:36.55,*Default,NTP,0000,0000,0000,,但是他们仍然以某种方式将这些样式应用于他们。
+Dialogue: 0,0:10:38.04,0:10:39.23,*Default,NTP,0000,0000,0000,,以及这样做的原因
+Dialogue: 0,0:10:39.23,0:10:43.20,*Default,NTP,0000,0000,0000,,是一种非常重要的机制，叫做继承。
+Dialogue: 0,0:10:43.20,0:10:45.99,*Default,NTP,0000,0000,0000,,现在理解起来有点复杂。
+Dialogue: 0,0:10:45.99,0:10:47.98,*Default,NTP,0000,0000,0000,,所以我们会有一个完整的讲座
+Dialogue: 0,0:10:47.98,0:10:50.55,*Default,NTP,0000,0000,0000,,稍后关于继承，
+Dialogue: 0,0:10:50.55,0:10:53.38,*Default,NTP,0000,0000,0000,,但我仍然想向你展示这种效果
+Dialogue: 0,0:10:53.38,0:10:55.64,*Default,NTP,0000,0000,0000,,在这一点上在这里行动。
+Dialogue: 0,0:10:56.65,0:11:01.65,*Default,NTP,0000,0000,0000,,但无论如何，让我们现在继续设计或提醒元素。
+Dialogue: 0,0:11:01.71,0:11:04.40,*Default,NTP,0000,0000,0000,,所以从h3开始，
+Dialogue: 0,0:11:04.40,0:11:08.23,*Default,NTP,0000,0000,0000,,让我们把它放在 h2 之后
+Dialogue: 0,0:11:09.34,0:11:12.76,*Default,NTP,0000,0000,0000,,以合乎逻辑的方式将我们的规则分组。
+Dialogue: 0,0:11:13.77,0:11:18.77,*Default,NTP,0000,0000,0000,,所以这个字体的大小，让我们把它设为 30 像素。
+Dialogue: 0,0:11:19.75,0:11:24.75,*Default,NTP,0000,0000,0000,,所以这将是这个，确切地说。
+Dialogue: 0,0:11:24.91,0:11:26.65,*Default,NTP,0000,0000,0000,,和这个。
+Dialogue: 0,0:11:26.65,0:11:29.64,*Default,NTP,0000,0000,0000,,同样，我们有多个 h3 元素。
+Dialogue: 0,0:11:29.64,0:11:32.50,*Default,NTP,0000,0000,0000,,所以在这里使用 h3 选择器，
+Dialogue: 0,0:11:32.50,0:11:34.20,*Default,NTP,0000,0000,0000,,我们将选择所有这些。
+Dialogue: 0,0:11:36.87,0:11:39.47,*Default,NTP,0000,0000,0000,,现在，又是字体系列，
+Dialogue: 0,0:11:39.47,0:11:43.07,*Default,NTP,0000,0000,0000,,并将其设置为无衬线字体。
+Dialogue: 0,0:11:44.68,0:11:46.21,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:11:46.21,0:11:50.45,*Default,NTP,0000,0000,0000,,现在终于有了 h4 标题。
+Dialogue: 0,0:11:50.45,0:11:51.79,*Default,NTP,0000,0000,0000,,所以这就是这里。
+Dialogue: 0,0:11:55.65,0:12:00.06,*Default,NTP,0000,0000,0000,,所以让我们再次设置字体大小
+Dialogue: 0,0:12:00.06,0:12:01.54,*Default,NTP,0000,0000,0000,,和字体系列，
+Dialogue: 0,0:12:03.22,0:12:04.73,*Default,NTP,0000,0000,0000,,所以20像素
+Dialogue: 0,0:12:07.56,0:12:10.25,*Default,NTP,0000,0000,0000,,这里是无衬线字体。
+Dialogue: 0,0:12:11.23,0:12:15.56,*Default,NTP,0000,0000,0000,,实际上，我们也将这里的文本转为大写。
+Dialogue: 0,0:12:17.83,0:12:22.83,*Default,NTP,0000,0000,0000,,并记住我们如何使用文本转换属性
+Dialogue: 0,0:12:22.96,0:12:23.79,*Default,NTP,0000,0000,0000,,为了那个原因。
+Dialogue: 0,0:12:24.68,0:12:28.28,*Default,NTP,0000,0000,0000,,如果我们像这样将其设置为大写，
+Dialogue: 0,0:12:29.54,0:12:30.63,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:12:30.63,0:12:33.57,*Default,NTP,0000,0000,0000,,现在只有一个最终属性
+Dialogue: 0,0:12:33.57,0:12:37.51,*Default,NTP,0000,0000,0000,,我想向你展示基本的文本样式，
+Dialogue: 0,0:12:37.51,0:12:40.23,*Default,NTP,0000,0000,0000,,也就是说我们也可以对齐文本。
+Dialogue: 0,0:12:40.23,0:12:44.09,*Default,NTP,0000,0000,0000,,再说一次，有点像我们可以在 Microsoft Word 中做的
+Dialogue: 0,0:12:44.09,0:12:47.30,*Default,NTP,0000,0000,0000,,或在谷歌页面或类似的东西。
+Dialogue: 0,0:12:47.30,0:12:51.19,*Default,NTP,0000,0000,0000,,因此，我们使用文本对齐属性。
+Dialogue: 0,0:12:51.19,0:12:53.37,*Default,NTP,0000,0000,0000,,同样，您可以在此处查看选项。
+Dialogue: 0,0:12:56.07,0:12:57.81,*Default,NTP,0000,0000,0000,,我们可以使用的一个有趣的
+Dialogue: 0,0:12:57.81,0:13:00.36,*Default,NTP,0000,0000,0000,,就是让文字居中对齐。
+Dialogue: 0,0:13:00.36,0:13:03.33,*Default,NTP,0000,0000,0000,,那么猜猜当我保存它时会发生什么？
+Dialogue: 0,0:13:05.79,0:13:08.17,*Default,NTP,0000,0000,0000,,好吧，我们需要再去这里
+Dialogue: 0,0:13:08.17,0:13:12.26,*Default,NTP,0000,0000,0000,,你会看到它现在位于页面的中心。
+Dialogue: 0,0:13:12.26,0:13:16.37,*Default,NTP,0000,0000,0000,,从技术上讲，它位于其父元素的中心，
+Dialogue: 0,0:13:16.37,0:13:20.70,*Default,NTP,0000,0000,0000,,但是那个父元素基本上占据了整个页面，
+Dialogue: 0,0:13:20.70,0:13:24.73,*Default,NTP,0000,0000,0000,,因此它现在位于页面的中心。
+Dialogue: 0,0:13:24.73,0:13:25.84,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:13:25.84,0:13:28.68,*Default,NTP,0000,0000,0000,,所以现在我们唯一缺少的东西
+Dialogue: 0,0:13:28.68,0:13:32.13,*Default,NTP,0000,0000,0000,,这些列表项在这里。
+Dialogue: 0,0:13:32.13,0:13:34.62,*Default,NTP,0000,0000,0000,,所以这五个和这三个，
+Dialogue: 0,0:13:35.69,0:13:38.68,*Default,NTP,0000,0000,0000,,还有这些锚点，所以链接，
+Dialogue: 0,0:13:38.68,0:13:41.05,*Default,NTP,0000,0000,0000,,但我们稍后会为链接设置样式
+Dialogue: 0,0:13:41.05,0:13:44.81,*Default,NTP,0000,0000,0000,,因为链接有一些特殊情况。
+Dialogue: 0,0:13:44.81,0:13:46.46,*Default,NTP,0000,0000,0000,,所以让我们结束这个视频
+Dialogue: 0,0:13:46.46,0:13:49.00,*Default,NTP,0000,0000,0000,,通过设置这些 li 元素的样式。
+Dialogue: 0,0:13:49.96,0:13:50.79,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:13:51.64,0:13:52.97,*Default,NTP,0000,0000,0000,,让我们在这里做，
+Dialogue: 0,0:13:54.64,0:13:59.50,*Default,NTP,0000,0000,0000,,并注意我们如何不设置 ol 元素的样式
+Dialogue: 0,0:13:59.50,0:14:01.41,*Default,NTP,0000,0000,0000,,和 ul 元素
+Dialogue: 0,0:14:01.41,0:14:04.65,*Default,NTP,0000,0000,0000,,它们是列表项的父元素。
+Dialogue: 0,0:14:06.53,0:14:11.53,*Default,NTP,0000,0000,0000,,所以请记住，列表本身是一个 ol
+Dialogue: 0,0:14:11.53,0:14:13.30,*Default,NTP,0000,0000,0000,,或者它是一个 ul，
+Dialogue: 0,0:14:13.30,0:14:16.79,*Default,NTP,0000,0000,0000,,但我们确实设置了 li 元素的样式。
+Dialogue: 0,0:14:19.53,0:14:24.52,*Default,NTP,0000,0000,0000,,再一次，让我们设置字体系列，
+Dialogue: 0,0:14:25.44,0:14:27.83,*Default,NTP,0000,0000,0000,,实际上，无衬线字体也是如此。
+Dialogue: 0,0:14:29.56,0:14:31.01,*Default,NTP,0000,0000,0000,,给它一个保存。
+Dialogue: 0,0:14:31.01,0:14:35.14,*Default,NTP,0000,0000,0000,,我们还想再更改一次字体大小。
+Dialogue: 0,0:14:35.14,0:14:38.64,*Default,NTP,0000,0000,0000,,所以默认情况下，我们会得到这里看到的字体大小，
+Dialogue: 0,0:14:38.64,0:14:41.88,*Default,NTP,0000,0000,0000,,默认情况下通常为 16 像素。
+Dialogue: 0,0:14:43.14,0:14:44.57,*Default,NTP,0000,0000,0000,,所以这是很重要的事情
+Dialogue: 0,0:14:44.57,0:14:47.27,*Default,NTP,0000,0000,0000,,我们也需要稍后知道。
+Dialogue: 0,0:14:47.27,0:14:49.49,*Default,NTP,0000,0000,0000,,所以请注意这一点。
+Dialogue: 0,0:14:51.25,0:14:54.29,*Default,NTP,0000,0000,0000,,但当然，我们想让它更大一点。
+Dialogue: 0,0:14:54.29,0:14:58.78,*Default,NTP,0000,0000,0000,,所以我们的段落是 22 像素。
+Dialogue: 0,0:14:58.78,0:15:02.05,*Default,NTP,0000,0000,0000,,所以让我们把它缩小一点。
+Dialogue: 0,0:15:02.05,0:15:04.86,*Default,NTP,0000,0000,0000,,假设是 20 像素。
+Dialogue: 0,0:15:07.36,0:15:10.54,*Default,NTP,0000,0000,0000,,就是这样。美丽的。
+Dialogue: 0,0:15:10.54,0:15:15.54,*Default,NTP,0000,0000,0000,,所以我们完成了页面文本的基本样式，
+Dialogue: 0,0:15:16.00,0:15:20.69,*Default,NTP,0000,0000,0000,,在此过程中，我们了解了六个新的 CSS 属性。
+Dialogue: 0,0:15:20.69,0:15:23.91,*Default,NTP,0000,0000,0000,,所以花点时间回顾一下我们刚刚做了什么，
+Dialogue: 0,0:15:23.91,0:15:26.49,*Default,NTP,0000,0000,0000,,然后让我们继续下一节课
+Dialogue: 0,0:15:26.49,0:15:29.54,*Default,NTP,0000,0000,0000,,我们将在这里学习更多关于选择器的知识。
+Dialogue: 0,0:00:01.78,0:00:02.72,*Default,NTP,0000,0000,0000,,In this lecture,
+Dialogue: 0,0:00:02.72,0:00:07.44,*Default,NTP,0000,0000,0000,,we will learn about six properties to style text with CSS.
+Dialogue: 0,0:00:09.53,0:00:11.35,*Default,NTP,0000,0000,0000,,And let's just quickly recap
+Dialogue: 0,0:00:11.35,0:00:13.67,*Default,NTP,0000,0000,0000,,what we did in the last lecture.
+Dialogue: 0,0:00:13.67,0:00:18.32,*Default,NTP,0000,0000,0000,,So we are writing external CSS in this CSS file
+Dialogue: 0,0:00:18.32,0:00:23.32,*Default,NTP,0000,0000,0000,,and the CSS file is always composed of multiple CSS rules.
+Dialogue: 0,0:00:24.31,0:00:27.56,*Default,NTP,0000,0000,0000,,So right now we only have one CSS rule,
+Dialogue: 0,0:00:27.56,0:00:31.38,*Default,NTP,0000,0000,0000,,but, of course, we will now start adding more of them.
+Dialogue: 0,0:00:31.38,0:00:35.53,*Default,NTP,0000,0000,0000,,Now, a CSS rule always starts with a selector.
+Dialogue: 0,0:00:35.53,0:00:39.43,*Default,NTP,0000,0000,0000,,So in this case, we are selecting the h1 element,
+Dialogue: 0,0:00:39.43,0:00:41.90,*Default,NTP,0000,0000,0000,,but if there were more h1 elements,
+Dialogue: 0,0:00:41.90,0:00:45.41,*Default,NTP,0000,0000,0000,,then the selector would actually select all of them.
+Dialogue: 0,0:00:45.41,0:00:48.48,*Default,NTP,0000,0000,0000,,Then we have this declaration block here
+Dialogue: 0,0:00:48.48,0:00:52.03,*Default,NTP,0000,0000,0000,,into which we can write one or more declarations
+Dialogue: 0,0:00:52.03,0:00:53.27,*Default,NTP,0000,0000,0000,,like this one
+Dialogue: 0,0:00:53.27,0:00:56.89,*Default,NTP,0000,0000,0000,,and each declaration has this property name.
+Dialogue: 0,0:00:56.89,0:00:58.51,*Default,NTP,0000,0000,0000,,So in this case, the color,
+Dialogue: 0,0:00:58.51,0:01:02.20,*Default,NTP,0000,0000,0000,,and then the value that we specify for that property,
+Dialogue: 0,0:01:02.20,0:01:05.45,*Default,NTP,0000,0000,0000,,which in this case is this keyword of blue.
+Dialogue: 0,0:01:07.06,0:01:10.75,*Default,NTP,0000,0000,0000,,And so now we will start adding some more properties here.
+Dialogue: 0,0:01:10.75,0:01:14.78,*Default,NTP,0000,0000,0000,,And the first one that I want to use is the font size.
+Dialogue: 0,0:01:16.57,0:01:21.16,*Default,NTP,0000,0000,0000,,So here we can basically specify the size of the text
+Dialogue: 0,0:01:21.16,0:01:25.46,*Default,NTP,0000,0000,0000,,and each property can take different types of values,
+Dialogue: 0,0:01:25.46,0:01:28.50,*Default,NTP,0000,0000,0000,,such as length or keywords.
+Dialogue: 0,0:01:28.50,0:01:32.01,*Default,NTP,0000,0000,0000,,So you see that here in the color, the value is a keyword,
+Dialogue: 0,0:01:32.01,0:01:36.18,*Default,NTP,0000,0000,0000,,but now here in the font size, we actually need a length.
+Dialogue: 0,0:01:36.18,0:01:40.11,*Default,NTP,0000,0000,0000,,So basically, the size of the text, in this case.
+Dialogue: 0,0:01:40.11,0:01:44.46,*Default,NTP,0000,0000,0000,,Now we can specify length using different units in CSS,
+Dialogue: 0,0:01:44.46,0:01:46.95,*Default,NTP,0000,0000,0000,,but don't worry about that for now.
+Dialogue: 0,0:01:46.95,0:01:50.50,*Default,NTP,0000,0000,0000,,So for now, we will simply use the very simplest one,
+Dialogue: 0,0:01:50.50,0:01:53.56,*Default,NTP,0000,0000,0000,,which is pixels on your screen.
+Dialogue: 0,0:01:53.56,0:01:57.44,*Default,NTP,0000,0000,0000,,So we can specify the font size, for example, 26 pixels,
+Dialogue: 0,0:01:59.21,0:02:01.06,*Default,NTP,0000,0000,0000,,then add a semi-colon here.
+Dialogue: 0,0:02:01.06,0:02:03.34,*Default,NTP,0000,0000,0000,,And so now the text on the screen
+Dialogue: 0,0:02:03.34,0:02:08.34,*Default,NTP,0000,0000,0000,,will be exactly 26 pixels of your physical screen.
+Dialogue: 0,0:02:08.46,0:02:10.25,*Default,NTP,0000,0000,0000,,So if I give this a save now,
+Dialogue: 0,0:02:11.40,0:02:14.66,*Default,NTP,0000,0000,0000,,then you see that the text here decreased.
+Dialogue: 0,0:02:14.66,0:02:17.34,*Default,NTP,0000,0000,0000,,And just remember that in case it didn't update
+Dialogue: 0,0:02:17.34,0:02:21.24,*Default,NTP,0000,0000,0000,,on your computer and you are successfully connected
+Dialogue: 0,0:02:21.24,0:02:24.32,*Default,NTP,0000,0000,0000,,to the live server, as you can see down here,
+Dialogue: 0,0:02:24.32,0:02:28.00,*Default,NTP,0000,0000,0000,,then just manually reload the page here once.
+Dialogue: 0,0:02:28.00,0:02:31.98,*Default,NTP,0000,0000,0000,,And then in the successful updates here of the code,
+Dialogue: 0,0:02:31.98,0:02:35.35,*Default,NTP,0000,0000,0000,,it will then automatically reload your page.
+Dialogue: 0,0:02:35.35,0:02:39.96,*Default,NTP,0000,0000,0000,,But anyway, let's now start adding the next property,
+Dialogue: 0,0:02:39.96,0:02:43.28,*Default,NTP,0000,0000,0000,,which is the font family.
+Dialogue: 0,0:02:43.28,0:02:45.47,*Default,NTP,0000,0000,0000,,And so here you can specify
+Dialogue: 0,0:02:45.47,0:02:47.93,*Default,NTP,0000,0000,0000,,basically different fonts for your text.
+Dialogue: 0,0:02:47.93,0:02:50.50,*Default,NTP,0000,0000,0000,,So just like you can specify a font
+Dialogue: 0,0:02:50.50,0:02:54.98,*Default,NTP,0000,0000,0000,,in something like a Word document or a Google Page document,
+Dialogue: 0,0:02:54.98,0:02:57.62,*Default,NTP,0000,0000,0000,,you can do the same in CSS.
+Dialogue: 0,0:02:57.62,0:03:00.71,*Default,NTP,0000,0000,0000,,However, what's different in the case of CSS
+Dialogue: 0,0:03:00.71,0:03:03.29,*Default,NTP,0000,0000,0000,,is that you cannot simply use a font family
+Dialogue: 0,0:03:03.29,0:03:05.56,*Default,NTP,0000,0000,0000,,that you have installed on your computer
+Dialogue: 0,0:03:05.56,0:03:08.57,*Default,NTP,0000,0000,0000,,because that wouldn't then work for all the users
+Dialogue: 0,0:03:08.57,0:03:11.11,*Default,NTP,0000,0000,0000,,that are going to visit your page in the future,
+Dialogue: 0,0:03:11.11,0:03:14.68,*Default,NTP,0000,0000,0000,,unless they also have that font installed on the computer.
+Dialogue: 0,0:03:16.10,0:03:17.83,*Default,NTP,0000,0000,0000,,So there is a solution for that
+Dialogue: 0,0:03:17.83,0:03:19.74,*Default,NTP,0000,0000,0000,,that we will talk about later,
+Dialogue: 0,0:03:19.74,0:03:23.13,*Default,NTP,0000,0000,0000,,but for now we will simply not actually specify
+Dialogue: 0,0:03:23.13,0:03:27.00,*Default,NTP,0000,0000,0000,,a real font family, but instead just use the keyword
+Dialogue: 0,0:03:27.00,0:03:30.04,*Default,NTP,0000,0000,0000,,that we want the browser to use any font size
+Dialogue: 0,0:03:30.04,0:03:32.34,*Default,NTP,0000,0000,0000,,that is a sans serif.
+Dialogue: 0,0:03:32.34,0:03:36.30,*Default,NTP,0000,0000,0000,,And sans serif, we will also learn a little bit later
+Dialogue: 0,0:03:36.30,0:03:37.77,*Default,NTP,0000,0000,0000,,what that actually means,
+Dialogue: 0,0:03:37.77,0:03:41.24,*Default,NTP,0000,0000,0000,,so in the design section of this course,
+Dialogue: 0,0:03:41.24,0:03:44.38,*Default,NTP,0000,0000,0000,,but if we give this now a save,
+Dialogue: 0,0:03:44.38,0:03:47.67,*Default,NTP,0000,0000,0000,,you see that this font here changed completely.
+Dialogue: 0,0:03:48.80,0:03:51.19,*Default,NTP,0000,0000,0000,,So now it looks more clean,
+Dialogue: 0,0:03:51.19,0:03:54.78,*Default,NTP,0000,0000,0000,,but what matters is that now as we update our page,
+Dialogue: 0,0:03:54.78,0:03:58.15,*Default,NTP,0000,0000,0000,,in fact, the font family here of this heading
+Dialogue: 0,0:03:58.15,0:03:59.59,*Default,NTP,0000,0000,0000,,now looks very different.
+Dialogue: 0,0:04:00.69,0:04:02.87,*Default,NTP,0000,0000,0000,,So it no longer has these serifs,
+Dialogue: 0,0:04:02.87,0:04:05.32,*Default,NTP,0000,0000,0000,,which are like these small things here
+Dialogue: 0,0:04:05.32,0:04:07.05,*Default,NTP,0000,0000,0000,,at the end of the letters.
+Dialogue: 0,0:04:08.49,0:04:12.12,*Default,NTP,0000,0000,0000,,And again, later, in the design section, we will then learn
+Dialogue: 0,0:04:12.12,0:04:16.93,*Default,NTP,0000,0000,0000,,how we can specify specific font families for our pages.
+Dialogue: 0,0:04:16.93,0:04:20.11,*Default,NTP,0000,0000,0000,,But now let's take a look at our next property here
+Dialogue: 0,0:04:20.11,0:04:23.29,*Default,NTP,0000,0000,0000,,for text, which is text transform.
+Dialogue: 0,0:04:24.92,0:04:26.54,*Default,NTP,0000,0000,0000,,And so with text transform,
+Dialogue: 0,0:04:26.54,0:04:29.98,*Default,NTP,0000,0000,0000,,we can basically turn a text uppercase.
+Dialogue: 0,0:04:30.95,0:04:32.81,*Default,NTP,0000,0000,0000,,So you can see, one more time,
+Dialogue: 0,0:04:32.81,0:04:36.64,*Default,NTP,0000,0000,0000,,the VS Code gives us a lot of suggestions here,
+Dialogue: 0,0:04:36.64,0:04:38.16,*Default,NTP,0000,0000,0000,,so this whole list.
+Dialogue: 0,0:04:38.16,0:04:41.36,*Default,NTP,0000,0000,0000,,And so the most used one here is actually uppercase.
+Dialogue: 0,0:04:42.68,0:04:45.53,*Default,NTP,0000,0000,0000,,So uppercase, like this,
+Dialogue: 0,0:04:45.53,0:04:49.21,*Default,NTP,0000,0000,0000,,and the result is exactly what you would expect.
+Dialogue: 0,0:04:49.21,0:04:52.12,*Default,NTP,0000,0000,0000,,So all the text simply turn uppercase.
+Dialogue: 0,0:04:52.12,0:04:54.18,*Default,NTP,0000,0000,0000,,So this is a simple one.
+Dialogue: 0,0:04:54.18,0:04:57.95,*Default,NTP,0000,0000,0000,,And now let's try another one which is called font style.
+Dialogue: 0,0:05:00.16,0:05:02.40,*Default,NTP,0000,0000,0000,,And here again, you see these options.
+Dialogue: 0,0:05:02.40,0:05:04.61,*Default,NTP,0000,0000,0000,,The most used one, in this case,
+Dialogue: 0,0:05:04.61,0:05:06.94,*Default,NTP,0000,0000,0000,,is to set some text to italic.
+Dialogue: 0,0:05:08.50,0:05:10.48,*Default,NTP,0000,0000,0000,,So let's check that out,
+Dialogue: 0,0:05:10.48,0:05:13.89,*Default,NTP,0000,0000,0000,,and indeed, that is just what happened.
+Dialogue: 0,0:05:13.89,0:05:17.44,*Default,NTP,0000,0000,0000,,So the text turned italic, as expected.
+Dialogue: 0,0:05:17.44,0:05:21.04,*Default,NTP,0000,0000,0000,,Great, so we already covered four properties
+Dialogue: 0,0:05:21.04,0:05:24.04,*Default,NTP,0000,0000,0000,,and some of its possible values here.
+Dialogue: 0,0:05:24.04,0:05:26.02,*Default,NTP,0000,0000,0000,,So we're making good progress.
+Dialogue: 0,0:05:26.02,0:05:29.15,*Default,NTP,0000,0000,0000,,And of course, as I mentioned before, you do not have
+Dialogue: 0,0:05:29.15,0:05:32.10,*Default,NTP,0000,0000,0000,,to start memorizing these properties here now.
+Dialogue: 0,0:05:32.10,0:05:34.07,*Default,NTP,0000,0000,0000,,You will get used to them over time
+Dialogue: 0,0:05:34.07,0:05:36.54,*Default,NTP,0000,0000,0000,,as you start using them more and more.
+Dialogue: 0,0:05:38.59,0:05:41.50,*Default,NTP,0000,0000,0000,,And let's actually get rid one of this one here,
+Dialogue: 0,0:05:41.50,0:05:43.73,*Default,NTP,0000,0000,0000,,because we will actually talk about colors
+Dialogue: 0,0:05:43.73,0:05:44.97,*Default,NTP,0000,0000,0000,,a little bit later.
+Dialogue: 0,0:05:46.82,0:05:50.98,*Default,NTP,0000,0000,0000,,Okay, so let's now go to our next headings.
+Dialogue: 0,0:05:50.98,0:05:53.85,*Default,NTP,0000,0000,0000,,So let's now style our h2 element.
+Dialogue: 0,0:05:54.78,0:05:59.52,*Default,NTP,0000,0000,0000,,So that is this basically main heading of this article.
+Dialogue: 0,0:06:01.41,0:06:04.60,*Default,NTP,0000,0000,0000,,And so we can use the properties that we already learned.
+Dialogue: 0,0:06:04.60,0:06:07.88,*Default,NTP,0000,0000,0000,,And so if you keep typing these property names,
+Dialogue: 0,0:06:07.88,0:06:10.30,*Default,NTP,0000,0000,0000,,they will start getting into your brain.
+Dialogue: 0,0:06:10.30,0:06:14.14,*Default,NTP,0000,0000,0000,,So this one, let's actually make it even bigger than the h1.
+Dialogue: 0,0:06:16.26,0:06:19.42,*Default,NTP,0000,0000,0000,,So really big, like 40 pixels,
+Dialogue: 0,0:06:19.42,0:06:21.51,*Default,NTP,0000,0000,0000,,and that's no problem at all.
+Dialogue: 0,0:06:21.51,0:06:25.23,*Default,NTP,0000,0000,0000,,So just because the h1 is the main heading of the page,
+Dialogue: 0,0:06:25.23,0:06:28.69,*Default,NTP,0000,0000,0000,,it doesn't mean that it also needs to be the biggest one.
+Dialogue: 0,0:06:28.69,0:06:32.57,*Default,NTP,0000,0000,0000,,So being the h1 is really all about semantics,
+Dialogue: 0,0:06:32.57,0:06:34.76,*Default,NTP,0000,0000,0000,,not only about what it looks like.
+Dialogue: 0,0:06:36.19,0:06:38.91,*Default,NTP,0000,0000,0000,,So we have a nice big text
+Dialogue: 0,0:06:38.91,0:06:42.16,*Default,NTP,0000,0000,0000,,and now let's just make it also sans serif,
+Dialogue: 0,0:06:43.19,0:06:45.96,*Default,NTP,0000,0000,0000,,so giving it this modern look and feel.
+Dialogue: 0,0:06:47.46,0:06:50.26,*Default,NTP,0000,0000,0000,,So the sans serif keyword,
+Dialogue: 0,0:06:52.05,0:06:54.12,*Default,NTP,0000,0000,0000,,and here we go.
+Dialogue: 0,0:06:54.12,0:06:57.45,*Default,NTP,0000,0000,0000,,Next up let's style our paragraphs.
+Dialogue: 0,0:06:58.29,0:07:00.47,*Default,NTP,0000,0000,0000,,And so, as I mentioned before,
+Dialogue: 0,0:07:00.47,0:07:03.38,*Default,NTP,0000,0000,0000,,by selecting the p element like this,
+Dialogue: 0,0:07:03.38,0:07:05.88,*Default,NTP,0000,0000,0000,,this will actually select all the p elements
+Dialogue: 0,0:07:05.88,0:07:08.45,*Default,NTP,0000,0000,0000,,that are on our page.
+Dialogue: 0,0:07:08.45,0:07:11.83,*Default,NTP,0000,0000,0000,,So this paragraph here and this and this,
+Dialogue: 0,0:07:11.83,0:07:15.44,*Default,NTP,0000,0000,0000,,and really all the ones that we have here on the page.
+Dialogue: 0,0:07:17.91,0:07:20.20,*Default,NTP,0000,0000,0000,,So let's give it again a font size,
+Dialogue: 0,0:07:21.47,0:07:24.02,*Default,NTP,0000,0000,0000,,let's say of 22 pixels.
+Dialogue: 0,0:07:24.02,0:07:26.17,*Default,NTP,0000,0000,0000,,And for now, all of these lengths here,
+Dialogue: 0,0:07:26.17,0:07:28.95,*Default,NTP,0000,0000,0000,,so all of these numbers that I've been using
+Dialogue: 0,0:07:28.95,0:07:30.31,*Default,NTP,0000,0000,0000,,are kind of random,
+Dialogue: 0,0:07:30.31,0:07:33.63,*Default,NTP,0000,0000,0000,,but later we will also learn how we can use a system
+Dialogue: 0,0:07:33.63,0:07:36.13,*Default,NTP,0000,0000,0000,,so that we can basically automatically
+Dialogue: 0,0:07:36.13,0:07:39.35,*Default,NTP,0000,0000,0000,,figure out which font sizes we should use.
+Dialogue: 0,0:07:42.12,0:07:46.91,*Default,NTP,0000,0000,0000,,Now I also want to change the font family again,
+Dialogue: 0,0:07:48.87,0:07:51.44,*Default,NTP,0000,0000,0000,,and once again, using sans serif,
+Dialogue: 0,0:07:52.72,0:07:56.02,*Default,NTP,0000,0000,0000,,and nice, that looks very nice already.
+Dialogue: 0,0:07:56.02,0:07:58.97,*Default,NTP,0000,0000,0000,,And if we compare it with our demo,
+Dialogue: 0,0:07:58.97,0:08:02.97,*Default,NTP,0000,0000,0000,,then we can see that we start getting closer
+Dialogue: 0,0:08:02.97,0:08:05.71,*Default,NTP,0000,0000,0000,,to, or yeah, to our demo page,
+Dialogue: 0,0:08:05.71,0:08:08.07,*Default,NTP,0000,0000,0000,,so what we want to achieve in the end.
+Dialogue: 0,0:08:10.93,0:08:13.27,*Default,NTP,0000,0000,0000,,There is actually just one more thing
+Dialogue: 0,0:08:13.27,0:08:15.68,*Default,NTP,0000,0000,0000,,that I want to change here in the paragraphs,
+Dialogue: 0,0:08:15.68,0:08:19.04,*Default,NTP,0000,0000,0000,,which is to specify yet another new property,
+Dialogue: 0,0:08:19.04,0:08:20.60,*Default,NTP,0000,0000,0000,,which is the line height.
+Dialogue: 0,0:08:21.90,0:08:26.04,*Default,NTP,0000,0000,0000,,So I will first actually specify it.
+Dialogue: 0,0:08:26.04,0:08:29.59,*Default,NTP,0000,0000,0000,,And then you will see the difference in the text.
+Dialogue: 0,0:08:29.59,0:08:33.22,*Default,NTP,0000,0000,0000,,So here we actually use a value without a unit.
+Dialogue: 0,0:08:34.15,0:08:37.25,*Default,NTP,0000,0000,0000,,So in this case, this 1.5 simply means
+Dialogue: 0,0:08:37.25,0:08:41.45,*Default,NTP,0000,0000,0000,,that the line height will be 1.5 times the font size.
+Dialogue: 0,0:08:43.25,0:08:46.21,*Default,NTP,0000,0000,0000,,So by default, the line height is simply one,
+Dialogue: 0,0:08:46.21,0:08:50.07,*Default,NTP,0000,0000,0000,,but now if we set it to 1.5, then you should see the space
+Dialogue: 0,0:08:50.07,0:08:52.89,*Default,NTP,0000,0000,0000,,between the lines here increase
+Dialogue: 0,0:08:52.89,0:08:55.03,*Default,NTP,0000,0000,0000,,between here and here and here.
+Dialogue: 0,0:08:55.03,0:08:57.68,*Default,NTP,0000,0000,0000,,So look closely at that as I now click here
+Dialogue: 0,0:08:57.68,0:08:59.73,*Default,NTP,0000,0000,0000,,to reload the page,
+Dialogue: 0,0:09:00.99,0:09:03.05,*Default,NTP,0000,0000,0000,,and you'll see that really changed.
+Dialogue: 0,0:09:05.18,0:09:08.46,*Default,NTP,0000,0000,0000,,And we could set it even higher, of course,
+Dialogue: 0,0:09:08.46,0:09:10.72,*Default,NTP,0000,0000,0000,,and then we would get even more space,
+Dialogue: 0,0:09:10.72,0:09:12.82,*Default,NTP,0000,0000,0000,,but already looks a bit too much.
+Dialogue: 0,0:09:14.17,0:09:17.97,*Default,NTP,0000,0000,0000,,So let's go back to 1.5, like this.
+Dialogue: 0,0:09:19.45,0:09:23.01,*Default,NTP,0000,0000,0000,,Now, by the way, something quite interesting happened here
+Dialogue: 0,0:09:23.01,0:09:25.11,*Default,NTP,0000,0000,0000,,that maybe you noticed.
+Dialogue: 0,0:09:25.11,0:09:29.07,*Default,NTP,0000,0000,0000,,So remember how inside of these paragraphs
+Dialogue: 0,0:09:29.07,0:09:32.76,*Default,NTP,0000,0000,0000,,that we just styled, we have different elements
+Dialogue: 0,0:09:32.76,0:09:34.97,*Default,NTP,0000,0000,0000,,such as this italic text,
+Dialogue: 0,0:09:34.97,0:09:39.20,*Default,NTP,0000,0000,0000,,which is an em element, remember?
+Dialogue: 0,0:09:39.20,0:09:42.65,*Default,NTP,0000,0000,0000,,So here in this paragraph,
+Dialogue: 0,0:09:42.65,0:09:45.63,*Default,NTP,0000,0000,0000,,for example, we have the em element,
+Dialogue: 0,0:09:45.63,0:09:49.77,*Default,NTP,0000,0000,0000,,or here in this paragraph, we have the strong element.
+Dialogue: 0,0:09:51.34,0:09:53.09,*Default,NTP,0000,0000,0000,,Or down here we have the anchor,
+Dialogue: 0,0:09:55.97,0:09:57.79,*Default,NTP,0000,0000,0000,,so this element right here.
+Dialogue: 0,0:09:59.35,0:10:02.89,*Default,NTP,0000,0000,0000,,And as you can see, these elements here on the page,
+Dialogue: 0,0:10:02.89,0:10:05.79,*Default,NTP,0000,0000,0000,,so for example, this anchor here
+Dialogue: 0,0:10:05.79,0:10:07.92,*Default,NTP,0000,0000,0000,,somehow got the same font size
+Dialogue: 0,0:10:07.92,0:10:11.29,*Default,NTP,0000,0000,0000,,and the same font family as the p element,
+Dialogue: 0,0:10:11.29,0:10:15.60,*Default,NTP,0000,0000,0000,,even though we did not specify these styles
+Dialogue: 0,0:10:15.60,0:10:17.30,*Default,NTP,0000,0000,0000,,for the link anywhere.
+Dialogue: 0,0:10:17.30,0:10:21.11,*Default,NTP,0000,0000,0000,,So we didn't specify the font size and the family
+Dialogue: 0,0:10:21.11,0:10:24.33,*Default,NTP,0000,0000,0000,,and the line height, not for the anchor,
+Dialogue: 0,0:10:24.33,0:10:27.69,*Default,NTP,0000,0000,0000,,not for strong text,
+Dialogue: 0,0:10:27.69,0:10:29.26,*Default,NTP,0000,0000,0000,,or not for strong elements,
+Dialogue: 0,0:10:29.26,0:10:31.75,*Default,NTP,0000,0000,0000,,and also not for the em element.
+Dialogue: 0,0:10:33.10,0:10:36.55,*Default,NTP,0000,0000,0000,,But still they got these styles applied to them somehow.
+Dialogue: 0,0:10:38.04,0:10:39.23,*Default,NTP,0000,0000,0000,,And the reason for this
+Dialogue: 0,0:10:39.23,0:10:43.20,*Default,NTP,0000,0000,0000,,is a very important mechanism called inheritance.
+Dialogue: 0,0:10:43.20,0:10:45.99,*Default,NTP,0000,0000,0000,,Now this is a little bit complex to understand.
+Dialogue: 0,0:10:45.99,0:10:47.98,*Default,NTP,0000,0000,0000,,And so we will have a whole lecture
+Dialogue: 0,0:10:47.98,0:10:50.55,*Default,NTP,0000,0000,0000,,on inheritance a little bit later,
+Dialogue: 0,0:10:50.55,0:10:53.38,*Default,NTP,0000,0000,0000,,but still I wanted to already show you this effect
+Dialogue: 0,0:10:53.38,0:10:55.64,*Default,NTP,0000,0000,0000,,in action here at this point.
+Dialogue: 0,0:10:56.65,0:11:01.65,*Default,NTP,0000,0000,0000,,But anyway, let's now keep styling or reminding elements.
+Dialogue: 0,0:11:01.71,0:11:04.40,*Default,NTP,0000,0000,0000,,So starting with h3,
+Dialogue: 0,0:11:04.40,0:11:08.23,*Default,NTP,0000,0000,0000,,and let's put that here after the h2
+Dialogue: 0,0:11:09.34,0:11:12.76,*Default,NTP,0000,0000,0000,,to group our rules here in a logical way.
+Dialogue: 0,0:11:13.77,0:11:18.77,*Default,NTP,0000,0000,0000,,So the font size in this one, let's make it like 30 pixels.
+Dialogue: 0,0:11:19.75,0:11:24.75,*Default,NTP,0000,0000,0000,,So that's going to be this one here, exactly.
+Dialogue: 0,0:11:24.91,0:11:26.65,*Default,NTP,0000,0000,0000,,And this one.
+Dialogue: 0,0:11:26.65,0:11:29.64,*Default,NTP,0000,0000,0000,,So again, we have multiple h3 elements.
+Dialogue: 0,0:11:29.64,0:11:32.50,*Default,NTP,0000,0000,0000,,And so by using the h3 selector here,
+Dialogue: 0,0:11:32.50,0:11:34.20,*Default,NTP,0000,0000,0000,,we will select all of them.
+Dialogue: 0,0:11:36.87,0:11:39.47,*Default,NTP,0000,0000,0000,,Now, just the font family again,
+Dialogue: 0,0:11:39.47,0:11:43.07,*Default,NTP,0000,0000,0000,,and setting it to sans serif.
+Dialogue: 0,0:11:44.68,0:11:46.21,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:11:46.21,0:11:50.45,*Default,NTP,0000,0000,0000,,And now finally, we have the h4 heading.
+Dialogue: 0,0:11:50.45,0:11:51.79,*Default,NTP,0000,0000,0000,,So that's this one here.
+Dialogue: 0,0:11:55.65,0:12:00.06,*Default,NTP,0000,0000,0000,,So let's again set the font size
+Dialogue: 0,0:12:00.06,0:12:01.54,*Default,NTP,0000,0000,0000,,and the font family,
+Dialogue: 0,0:12:03.22,0:12:04.73,*Default,NTP,0000,0000,0000,,so 20 pixels
+Dialogue: 0,0:12:07.56,0:12:10.25,*Default,NTP,0000,0000,0000,,and here sans serif.
+Dialogue: 0,0:12:11.23,0:12:15.56,*Default,NTP,0000,0000,0000,,And actually, let's also turn the text uppercase here.
+Dialogue: 0,0:12:17.83,0:12:22.83,*Default,NTP,0000,0000,0000,,And remember how we use the text transform property
+Dialogue: 0,0:12:22.96,0:12:23.79,*Default,NTP,0000,0000,0000,,for that.
+Dialogue: 0,0:12:24.68,0:12:28.28,*Default,NTP,0000,0000,0000,,If we set it to uppercase like this,
+Dialogue: 0,0:12:29.54,0:12:30.63,*Default,NTP,0000,0000,0000,,nice.
+Dialogue: 0,0:12:30.63,0:12:33.57,*Default,NTP,0000,0000,0000,,And now there is just one final property
+Dialogue: 0,0:12:33.57,0:12:37.51,*Default,NTP,0000,0000,0000,,that I want to show you to basically style text,
+Dialogue: 0,0:12:37.51,0:12:40.23,*Default,NTP,0000,0000,0000,,which is that we can also align text.
+Dialogue: 0,0:12:40.23,0:12:44.09,*Default,NTP,0000,0000,0000,,So again, a little bit like we can do in Microsoft Word
+Dialogue: 0,0:12:44.09,0:12:47.30,*Default,NTP,0000,0000,0000,,or in Google Pages or something like that.
+Dialogue: 0,0:12:47.30,0:12:51.19,*Default,NTP,0000,0000,0000,,And so for that, we use the text align property.
+Dialogue: 0,0:12:51.19,0:12:53.37,*Default,NTP,0000,0000,0000,,And again, you can see the options here.
+Dialogue: 0,0:12:56.07,0:12:57.81,*Default,NTP,0000,0000,0000,,One interesting one that we can use
+Dialogue: 0,0:12:57.81,0:13:00.36,*Default,NTP,0000,0000,0000,,is to align the text to the center.
+Dialogue: 0,0:13:00.36,0:13:03.33,*Default,NTP,0000,0000,0000,,And so guess what will happen now when I save it?
+Dialogue: 0,0:13:05.79,0:13:08.17,*Default,NTP,0000,0000,0000,,Well, we need to go down here again
+Dialogue: 0,0:13:08.17,0:13:12.26,*Default,NTP,0000,0000,0000,,and you see that now it is in the center of the page.
+Dialogue: 0,0:13:12.26,0:13:16.37,*Default,NTP,0000,0000,0000,,And technically it is in the center of its parent element,
+Dialogue: 0,0:13:16.37,0:13:20.70,*Default,NTP,0000,0000,0000,,but that parent element basically occupies this entire page,
+Dialogue: 0,0:13:20.70,0:13:24.73,*Default,NTP,0000,0000,0000,,and so therefore it is now at the center of the page.
+Dialogue: 0,0:13:24.73,0:13:25.84,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:13:25.84,0:13:28.68,*Default,NTP,0000,0000,0000,,And so now the only thing that we are missing
+Dialogue: 0,0:13:28.68,0:13:32.13,*Default,NTP,0000,0000,0000,,is these list items here.
+Dialogue: 0,0:13:32.13,0:13:34.62,*Default,NTP,0000,0000,0000,,So all of these five and these three,
+Dialogue: 0,0:13:35.69,0:13:38.68,*Default,NTP,0000,0000,0000,,and also these anchors, so the links,
+Dialogue: 0,0:13:38.68,0:13:41.05,*Default,NTP,0000,0000,0000,,but we will style the links a little bit later
+Dialogue: 0,0:13:41.05,0:13:44.81,*Default,NTP,0000,0000,0000,,because there are some special cases for links.
+Dialogue: 0,0:13:44.81,0:13:46.46,*Default,NTP,0000,0000,0000,,So let's just finish this video
+Dialogue: 0,0:13:46.46,0:13:49.00,*Default,NTP,0000,0000,0000,,by styling these li elements.
+Dialogue: 0,0:13:49.96,0:13:50.79,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:13:51.64,0:13:52.97,*Default,NTP,0000,0000,0000,,Let's do that down here,
+Dialogue: 0,0:13:54.64,0:13:59.50,*Default,NTP,0000,0000,0000,,and notice how we do not style the ol element
+Dialogue: 0,0:13:59.50,0:14:01.41,*Default,NTP,0000,0000,0000,,and the ul element
+Dialogue: 0,0:14:01.41,0:14:04.65,*Default,NTP,0000,0000,0000,,that are the parent elements of the list items.
+Dialogue: 0,0:14:06.53,0:14:11.53,*Default,NTP,0000,0000,0000,,So remember that the list itself is an ol
+Dialogue: 0,0:14:11.53,0:14:13.30,*Default,NTP,0000,0000,0000,,or it is a ul,
+Dialogue: 0,0:14:13.30,0:14:16.79,*Default,NTP,0000,0000,0000,,but we do actually style the li elements.
+Dialogue: 0,0:14:19.53,0:14:24.52,*Default,NTP,0000,0000,0000,,And so again, let's set the font family to something,
+Dialogue: 0,0:14:25.44,0:14:27.83,*Default,NTP,0000,0000,0000,,so to sans serif, actually.
+Dialogue: 0,0:14:29.56,0:14:31.01,*Default,NTP,0000,0000,0000,,Give it a save.
+Dialogue: 0,0:14:31.01,0:14:35.14,*Default,NTP,0000,0000,0000,,And we also want to change the font size one more time.
+Dialogue: 0,0:14:35.14,0:14:38.64,*Default,NTP,0000,0000,0000,,So by default, we get this font size that we see here,
+Dialogue: 0,0:14:38.64,0:14:41.88,*Default,NTP,0000,0000,0000,,which is usually 16 pixels by default.
+Dialogue: 0,0:14:43.14,0:14:44.57,*Default,NTP,0000,0000,0000,,So that's an important thing
+Dialogue: 0,0:14:44.57,0:14:47.27,*Default,NTP,0000,0000,0000,,that we also need to know a little bit later.
+Dialogue: 0,0:14:47.27,0:14:49.49,*Default,NTP,0000,0000,0000,,So take note of that.
+Dialogue: 0,0:14:51.25,0:14:54.29,*Default,NTP,0000,0000,0000,,But of course, we want to make it a little bit bigger.
+Dialogue: 0,0:14:54.29,0:14:58.78,*Default,NTP,0000,0000,0000,,So we have our paragraphs at 22 pixels.
+Dialogue: 0,0:14:58.78,0:15:02.05,*Default,NTP,0000,0000,0000,,So let's actually make this a little bit smaller.
+Dialogue: 0,0:15:02.05,0:15:04.86,*Default,NTP,0000,0000,0000,,So let's say, at 20 pixels.
+Dialogue: 0,0:15:07.36,0:15:10.54,*Default,NTP,0000,0000,0000,,And that's it. Beautiful.
+Dialogue: 0,0:15:10.54,0:15:15.54,*Default,NTP,0000,0000,0000,,So we finished the basic styling of our text of our page,
+Dialogue: 0,0:15:16.00,0:15:20.69,*Default,NTP,0000,0000,0000,,and we learned about six new CSS properties along the way.
+Dialogue: 0,0:15:20.69,0:15:23.91,*Default,NTP,0000,0000,0000,,So take some time to review what we just did,
+Dialogue: 0,0:15:23.91,0:15:26.49,*Default,NTP,0000,0000,0000,,and then let's move on to the next lecture
+Dialogue: 0,0:15:26.49,0:15:29.54,*Default,NTP,0000,0000,0000,,where we will learn a little bit more about selectors.

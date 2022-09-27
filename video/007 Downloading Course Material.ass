@@ -1,0 +1,190 @@
+[Script Info]
+Title: 007 Downloading Course Material_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=5&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.66,0:00:03.95,*Default,NTP,0000,0000,0000,,现在，您需要的一件事
+Dialogue: 0,0:00:03.95,0:00:06.50,*Default,NTP,0000,0000,0000,,为了完成这门课程
+Dialogue: 0,0:00:06.50,0:00:09.42,*Default,NTP,0000,0000,0000,,访问一些启动文件
+Dialogue: 0,0:00:09.42,0:00:12.73,*Default,NTP,0000,0000,0000,,对于本课程的每个部分。
+Dialogue: 0,0:00:12.73,0:00:14.06,*Default,NTP,0000,0000,0000,,所以在这个视频中，
+Dialogue: 0,0:00:14.06,0:00:15.88,*Default,NTP,0000,0000,0000,,让我很快告诉你
+Dialogue: 0,0:00:15.88,0:00:18.19,*Default,NTP,0000,0000,0000,,如何访问这些文件。
+Dialogue: 0,0:00:19.60,0:00:21.94,*Default,NTP,0000,0000,0000,,所以整个启动文件，
+Dialogue: 0,0:00:21.94,0:00:24.83,*Default,NTP,0000,0000,0000,,以及每个人的最终文件
+Dialogue: 0,0:00:24.83,0:00:26.89,*Default,NTP,0000,0000,0000,,课程的部分
+Dialogue: 0,0:00:26.89,0:00:31.59,*Default,NTP,0000,0000,0000,,托管在 GitHub 上的这个所谓的存储库中。
+Dialogue: 0,0:00:31.59,0:00:35.20,*Default,NTP,0000,0000,0000,,而GitHub基本上是一个代码平台
+Dialogue: 0,0:00:35.20,0:00:38.50,*Default,NTP,0000,0000,0000,,大多数开发人员将他们的代码上传到的地方，
+Dialogue: 0,0:00:38.50,0:00:41.51,*Default,NTP,0000,0000,0000,,为了分享或合作
+Dialogue: 0,0:00:41.51,0:00:45.17,*Default,NTP,0000,0000,0000,,与其他开发人员或只是存储它。
+Dialogue: 0,0:00:45.17,0:00:48.31,*Default,NTP,0000,0000,0000,,所以存储库基本上是一个文件夹
+Dialogue: 0,0:00:48.31,0:00:52.23,*Default,NTP,0000,0000,0000,,其中包含一堆代码或其他文件。
+Dialogue: 0,0:00:52.23,0:00:56.04,*Default,NTP,0000,0000,0000,,每个存储库都可以通过 URL 访问
+Dialogue: 0,0:00:56.04,0:01:00.44,*Default,NTP,0000,0000,0000,,并且此存储库在此可用，URL 在这里。
+Dialogue: 0,0:01:00.44,0:01:03.76,*Default,NTP,0000,0000,0000,,但别担心，你不必输入它。
+Dialogue: 0,0:01:03.76,0:01:07.93,*Default,NTP,0000,0000,0000,,所以我在这个关于 Udemy 的讲座中加入了这个链接，
+Dialogue: 0,0:01:07.93,0:01:11.57,*Default,NTP,0000,0000,0000,,它也应该在第一次课文中
+Dialogue: 0,0:01:11.57,0:01:13.22,*Default,NTP,0000,0000,0000,,本节的。
+Dialogue: 0,0:01:13.22,0:01:16.46,*Default,NTP,0000,0000,0000,,所以我相信你可以在这里找到这个链接，
+Dialogue: 0,0:01:16.46,0:01:20.25,*Default,NTP,0000,0000,0000,,所以这个 URL，在这个讲座的某个地方。
+Dialogue: 0,0:01:20.25,0:01:23.18,*Default,NTP,0000,0000,0000,,所以只需点击它，然后你就会结束
+Dialogue: 0,0:01:23.18,0:01:26.11,*Default,NTP,0000,0000,0000,,在这个完全相同的存储库上。
+Dialogue: 0,0:01:26.11,0:01:28.55,*Default,NTP,0000,0000,0000,,所以在这个存储库中，正如我提到的，
+Dialogue: 0,0:01:28.55,0:01:30.74,*Default,NTP,0000,0000,0000,,我们有所有的启动文件
+Dialogue: 0,0:01:30.74,0:01:33.85,*Default,NTP,0000,0000,0000,,对于课程的每个部分，
+Dialogue: 0,0:01:33.85,0:01:35.93,*Default,NTP,0000,0000,0000,,有1个文件夹。
+Dialogue: 0,0:01:35.93,0:01:37.60,*Default,NTP,0000,0000,0000,,例如，下一节，
+Dialogue: 0,0:01:37.60,0:01:40.33,*Default,NTP,0000,0000,0000,,这是 HTML 基础知识，
+Dialogue: 0,0:01:40.33,0:01:44.74,*Default,NTP,0000,0000,0000,,包含所有这些图像以及此文本文档。
+Dialogue: 0,0:01:46.45,0:01:51.02,*Default,NTP,0000,0000,0000,,好的，我还包含了最终代码
+Dialogue: 0,0:01:51.02,0:01:52.93,*Default,NTP,0000,0000,0000,,对于每个部分，
+Dialogue: 0,0:01:52.93,0:01:55.81,*Default,NTP,0000,0000,0000,,这样您就可以随时比较自己的代码
+Dialogue: 0,0:01:55.81,0:01:58.56,*Default,NTP,0000,0000,0000,,到我在视频中编写的代码。
+Dialogue: 0,0:01:58.56,0:02:00.47,*Default,NTP,0000,0000,0000,,这将是非常重要的，
+Dialogue: 0,0:02:00.47,0:02:03.42,*Default,NTP,0000,0000,0000,,这样您就可以将您的代码与我的代码进行比较
+Dialogue: 0,0:02:03.42,0:02:06.76,*Default,NTP,0000,0000,0000,,以防您的代码有任何错误。
+Dialogue: 0,0:02:06.76,0:02:09.78,*Default,NTP,0000,0000,0000,,因此，将您的代码与我的代码进行比较，就像这样，
+Dialogue: 0,0:02:09.78,0:02:13.66,*Default,NTP,0000,0000,0000,,将永远是您发现错误的最简单方法，
+Dialogue: 0,0:02:13.66,0:02:17.88,*Default,NTP,0000,0000,0000,,所以发现你可能在你的代码中输入的错误
+Dialogue: 0,0:02:17.88,0:02:20.26,*Default,NTP,0000,0000,0000,,这肯定会发生。
+Dialogue: 0,0:02:20.26,0:02:22.15,*Default,NTP,0000,0000,0000,,它发生在所有初学者身上。
+Dialogue: 0,0:02:22.15,0:02:23.81,*Default,NTP,0000,0000,0000,,所以在那种情况下，
+Dialogue: 0,0:02:23.81,0:02:26.49,*Default,NTP,0000,0000,0000,,您可以访问最终代码。
+Dialogue: 0,0:02:27.60,0:02:31.70,*Default,NTP,0000,0000,0000,,最后，在下面，还有这个书面文件，
+Dialogue: 0,0:02:31.70,0:02:35.71,*Default,NTP,0000,0000,0000,,其中包含这些最常见的问题。
+Dialogue: 0,0:02:35.71,0:02:37.86,*Default,NTP,0000,0000,0000,,所以在真正开始课程之前，
+Dialogue: 0,0:02:37.86,0:02:40.61,*Default,NTP,0000,0000,0000,,快速阅读可能是个好主意
+Dialogue: 0,0:02:40.61,0:02:41.91,*Default,NTP,0000,0000,0000,,通过这些问题。
+Dialogue: 0,0:02:41.91,0:02:44.88,*Default,NTP,0000,0000,0000,,这应该只需要你大约 3 分钟，
+Dialogue: 0,0:02:44.88,0:02:48.04,*Default,NTP,0000,0000,0000,,但我相信它会帮助你消除一些疑虑
+Dialogue: 0,0:02:48.04,0:02:50.77,*Default,NTP,0000,0000,0000,,您在完成课程时可能会得到。
+Dialogue: 0,0:02:52.05,0:02:55.28,*Default,NTP,0000,0000,0000,,但无论如何，我们真正来到这里的目的
+Dialogue: 0,0:02:55.28,0:02:59.00,*Default,NTP,0000,0000,0000,,是实际访问代码，对吗？
+Dialogue: 0,0:02:59.00,0:03:01.83,*Default,NTP,0000,0000,0000,,所以要下载这个代码，
+Dialogue: 0,0:03:01.83,0:03:05.75,*Default,NTP,0000,0000,0000,,我们所要做的就是点击这个绿色按钮
+Dialogue: 0,0:03:05.75,0:03:09.50,*Default,NTP,0000,0000,0000,,然后在此处选择下载 zip 选项。
+Dialogue: 0,0:03:10.55,0:03:12.66,*Default,NTP,0000,0000,0000,,现在这可能需要一些时间
+Dialogue: 0,0:03:12.66,0:03:15.30,*Default,NTP,0000,0000,0000,,因为这里有很多图片。
+Dialogue: 0,0:03:15.30,0:03:18.17,*Default,NTP,0000,0000,0000,,所以让我们等待这个下载完成。
+Dialogue: 0,0:03:19.55,0:03:23.61,*Default,NTP,0000,0000,0000,,好的，下载刚刚完成。
+Dialogue: 0,0:03:23.61,0:03:26.06,*Default,NTP,0000,0000,0000,,现在让我们回到桌面
+Dialogue: 0,0:03:26.06,0:03:28.73,*Default,NTP,0000,0000,0000,,或者你在哪里工作。
+Dialogue: 0,0:03:28.73,0:03:31.15,*Default,NTP,0000,0000,0000,,和T让我们简单地说
+Dialogue: 0,0:03:32.52,0:03:34.69,*Default,NTP,0000,0000,0000,,我们刚刚下载的那些文件。
+Dialogue: 0,0:03:36.26,0:03:41.26,*Default,NTP,0000,0000,0000,,好的，那么我们需要解压这个 zip 存档
+Dialogue: 0,0:03:41.46,0:03:42.29,*Default,NTP,0000,0000,0000,,在 Mac 上，
+Dialogue: 0,0:03:42.29,0:03:45.14,*Default,NTP,0000,0000,0000,,您只需双击该文件
+Dialogue: 0,0:03:45.14,0:03:46.24,*Default,NTP,0000,0000,0000,,在 Windows 上，
+Dialogue: 0,0:03:46.24,0:03:49.42,*Default,NTP,0000,0000,0000,,您只需右键单击然后提取所有内容。
+Dialogue: 0,0:03:50.67,0:03:54.38,*Default,NTP,0000,0000,0000,,好的，所以我们不再需要它了。
+Dialogue: 0,0:03:54.38,0:03:56.67,*Default,NTP,0000,0000,0000,,现在让我们快速打开这个文件夹，
+Dialogue: 0,0:03:56.67,0:03:59.19,*Default,NTP,0000,0000,0000,,这样我们就可以看到它确实是
+Dialogue: 0,0:03:59.19,0:04:03.63,*Default,NTP,0000,0000,0000,,我们刚刚在 GitHub 上看到的完全相同的文件。
+Dialogue: 0,0:04:03.63,0:04:05.96,*Default,NTP,0000,0000,0000,,所以我们有启动文件
+Dialogue: 0,0:04:05.96,0:04:08.64,*Default,NTP,0000,0000,0000,,在这里，下一节的文件，
+Dialogue: 0,0:04:08.64,0:04:11.68,*Default,NTP,0000,0000,0000,,然后还有最终文件。
+Dialogue: 0,0:04:11.68,0:04:14.77,*Default,NTP,0000,0000,0000,,所以现在有了这些启动文件，
+Dialogue: 0,0:04:14.77,0:04:17.86,*Default,NTP,0000,0000,0000,,我们实际上已经准备好开始学习 HTML
+Dialogue: 0,0:04:17.86,0:04:19.17,*Default,NTP,0000,0000,0000,,在下一节中。
+Dialogue: 0,0:00:01.66,0:00:03.95,*Default,NTP,0000,0000,0000,,Now, one of the things that you need
+Dialogue: 0,0:00:03.95,0:00:06.50,*Default,NTP,0000,0000,0000,,in order to go through this course is
+Dialogue: 0,0:00:06.50,0:00:09.42,*Default,NTP,0000,0000,0000,,to get access to some starter files
+Dialogue: 0,0:00:09.42,0:00:12.73,*Default,NTP,0000,0000,0000,,for each of the sections in this course.
+Dialogue: 0,0:00:12.73,0:00:14.06,*Default,NTP,0000,0000,0000,,And so in this video,
+Dialogue: 0,0:00:14.06,0:00:15.88,*Default,NTP,0000,0000,0000,,let me very quickly show you
+Dialogue: 0,0:00:15.88,0:00:18.19,*Default,NTP,0000,0000,0000,,how you can access those files.
+Dialogue: 0,0:00:19.60,0:00:21.94,*Default,NTP,0000,0000,0000,,So the entire starter files,
+Dialogue: 0,0:00:21.94,0:00:24.83,*Default,NTP,0000,0000,0000,,as well as the final files for each
+Dialogue: 0,0:00:24.83,0:00:26.89,*Default,NTP,0000,0000,0000,,of the sections of the course
+Dialogue: 0,0:00:26.89,0:00:31.59,*Default,NTP,0000,0000,0000,,are hosted in this so-called repository on GitHub.
+Dialogue: 0,0:00:31.59,0:00:35.20,*Default,NTP,0000,0000,0000,,And GitHub is basically a code platform
+Dialogue: 0,0:00:35.20,0:00:38.50,*Default,NTP,0000,0000,0000,,where most developers upload their code to,
+Dialogue: 0,0:00:38.50,0:00:41.51,*Default,NTP,0000,0000,0000,,in order to share it or to collaborate
+Dialogue: 0,0:00:41.51,0:00:45.17,*Default,NTP,0000,0000,0000,,with other developers or simply to store it.
+Dialogue: 0,0:00:45.17,0:00:48.31,*Default,NTP,0000,0000,0000,,So a repository is basically a folder
+Dialogue: 0,0:00:48.31,0:00:52.23,*Default,NTP,0000,0000,0000,,which contains a bunch of code or other files.
+Dialogue: 0,0:00:52.23,0:00:56.04,*Default,NTP,0000,0000,0000,,And each repository can be accessed by a URL
+Dialogue: 0,0:00:56.04,0:01:00.44,*Default,NTP,0000,0000,0000,,and this repository is available on this, URL here.
+Dialogue: 0,0:01:00.44,0:01:03.76,*Default,NTP,0000,0000,0000,,But don't worry, you don't have to type that in.
+Dialogue: 0,0:01:03.76,0:01:07.93,*Default,NTP,0000,0000,0000,,So I included this link in this lecture on Udemy,
+Dialogue: 0,0:01:07.93,0:01:11.57,*Default,NTP,0000,0000,0000,,and it should also be in the very first text lecture
+Dialogue: 0,0:01:11.57,0:01:13.22,*Default,NTP,0000,0000,0000,,of this section.
+Dialogue: 0,0:01:13.22,0:01:16.46,*Default,NTP,0000,0000,0000,,So I'm sure that you can find this link here,
+Dialogue: 0,0:01:16.46,0:01:20.25,*Default,NTP,0000,0000,0000,,so this URL, somewhere in this lecture.
+Dialogue: 0,0:01:20.25,0:01:23.18,*Default,NTP,0000,0000,0000,,So just click that and then you will end up
+Dialogue: 0,0:01:23.18,0:01:26.11,*Default,NTP,0000,0000,0000,,on this exact same repository.
+Dialogue: 0,0:01:26.11,0:01:28.55,*Default,NTP,0000,0000,0000,,So in this repository, as I mentioned,
+Dialogue: 0,0:01:28.55,0:01:30.74,*Default,NTP,0000,0000,0000,,we have all the starter files
+Dialogue: 0,0:01:30.74,0:01:33.85,*Default,NTP,0000,0000,0000,,and for each of the sections of the course,
+Dialogue: 0,0:01:33.85,0:01:35.93,*Default,NTP,0000,0000,0000,,there is 1 folder.
+Dialogue: 0,0:01:35.93,0:01:37.60,*Default,NTP,0000,0000,0000,,For example, the next section,
+Dialogue: 0,0:01:37.60,0:01:40.33,*Default,NTP,0000,0000,0000,,which are the HTML Fundamentals,
+Dialogue: 0,0:01:40.33,0:01:44.74,*Default,NTP,0000,0000,0000,,contains all of these images and also this text document.
+Dialogue: 0,0:01:46.45,0:01:51.02,*Default,NTP,0000,0000,0000,,Okay, I also included the final code
+Dialogue: 0,0:01:51.02,0:01:52.93,*Default,NTP,0000,0000,0000,,for each of the sections,
+Dialogue: 0,0:01:52.93,0:01:55.81,*Default,NTP,0000,0000,0000,,so that you can always compare your own code
+Dialogue: 0,0:01:55.81,0:01:58.56,*Default,NTP,0000,0000,0000,,to the code that I'm writing in the videos.
+Dialogue: 0,0:01:58.56,0:02:00.47,*Default,NTP,0000,0000,0000,,And this will be very important,
+Dialogue: 0,0:02:00.47,0:02:03.42,*Default,NTP,0000,0000,0000,,so that you can compare your code to mine
+Dialogue: 0,0:02:03.42,0:02:06.76,*Default,NTP,0000,0000,0000,,in case that you have any mistakes in your code.
+Dialogue: 0,0:02:06.76,0:02:09.78,*Default,NTP,0000,0000,0000,,So comparing your code to mine, like this,
+Dialogue: 0,0:02:09.78,0:02:13.66,*Default,NTP,0000,0000,0000,,will always be your easiest way of finding mistakes,
+Dialogue: 0,0:02:13.66,0:02:17.88,*Default,NTP,0000,0000,0000,,so of finding errors that you are maybe typing in your code
+Dialogue: 0,0:02:17.88,0:02:20.26,*Default,NTP,0000,0000,0000,,and that will happen for sure.
+Dialogue: 0,0:02:20.26,0:02:22.15,*Default,NTP,0000,0000,0000,,It happens to all beginners.
+Dialogue: 0,0:02:22.15,0:02:23.81,*Default,NTP,0000,0000,0000,,And so in that situation,
+Dialogue: 0,0:02:23.81,0:02:26.49,*Default,NTP,0000,0000,0000,,you can just get access to the final code.
+Dialogue: 0,0:02:27.60,0:02:31.70,*Default,NTP,0000,0000,0000,,Finally, down here, there is also this written document,
+Dialogue: 0,0:02:31.70,0:02:35.71,*Default,NTP,0000,0000,0000,,which contains these most frequently asked questions.
+Dialogue: 0,0:02:35.71,0:02:37.86,*Default,NTP,0000,0000,0000,,So before actually starting the course,
+Dialogue: 0,0:02:37.86,0:02:40.61,*Default,NTP,0000,0000,0000,,it might be a good idea to quickly read
+Dialogue: 0,0:02:40.61,0:02:41.91,*Default,NTP,0000,0000,0000,,through these questions.
+Dialogue: 0,0:02:41.91,0:02:44.88,*Default,NTP,0000,0000,0000,,That should only take you like 3 minutes,
+Dialogue: 0,0:02:44.88,0:02:48.04,*Default,NTP,0000,0000,0000,,but I'm sure it will help you clear some doubts
+Dialogue: 0,0:02:48.04,0:02:50.77,*Default,NTP,0000,0000,0000,,that you might get as you go through the course.
+Dialogue: 0,0:02:52.05,0:02:55.28,*Default,NTP,0000,0000,0000,,But anyway, what we really came here to
+Dialogue: 0,0:02:55.28,0:02:59.00,*Default,NTP,0000,0000,0000,,is to actually get access to the code, right?
+Dialogue: 0,0:02:59.00,0:03:01.83,*Default,NTP,0000,0000,0000,,And so to download this code,
+Dialogue: 0,0:03:01.83,0:03:05.75,*Default,NTP,0000,0000,0000,,all we have to do is to click here on this green button
+Dialogue: 0,0:03:05.75,0:03:09.50,*Default,NTP,0000,0000,0000,,and then down here choosing the download zip option.
+Dialogue: 0,0:03:10.55,0:03:12.66,*Default,NTP,0000,0000,0000,,And now this should probably take some time
+Dialogue: 0,0:03:12.66,0:03:15.30,*Default,NTP,0000,0000,0000,,because there are a lot of images here.
+Dialogue: 0,0:03:15.30,0:03:18.17,*Default,NTP,0000,0000,0000,,And so let's just wait for this download to finish.
+Dialogue: 0,0:03:19.55,0:03:23.61,*Default,NTP,0000,0000,0000,,Okay, and that download just finished.
+Dialogue: 0,0:03:23.61,0:03:26.06,*Default,NTP,0000,0000,0000,,Now let's go back to the desktop
+Dialogue: 0,0:03:26.06,0:03:28.73,*Default,NTP,0000,0000,0000,,or wherever you are working.
+Dialogue: 0,0:03:28.73,0:03:31.15,*Default,NTP,0000,0000,0000,,And then let's simply put
+Dialogue: 0,0:03:32.52,0:03:34.69,*Default,NTP,0000,0000,0000,,those files that we just downloaded there.
+Dialogue: 0,0:03:36.26,0:03:41.26,*Default,NTP,0000,0000,0000,,All right, so then we need to extract this zip archive
+Dialogue: 0,0:03:41.46,0:03:42.29,*Default,NTP,0000,0000,0000,,and on a Mac,
+Dialogue: 0,0:03:42.29,0:03:45.14,*Default,NTP,0000,0000,0000,,you just have to double click that file
+Dialogue: 0,0:03:45.14,0:03:46.24,*Default,NTP,0000,0000,0000,,and on Windows,
+Dialogue: 0,0:03:46.24,0:03:49.42,*Default,NTP,0000,0000,0000,,you just right click and then extract all.
+Dialogue: 0,0:03:50.67,0:03:54.38,*Default,NTP,0000,0000,0000,,Okay, so we don't need that anymore.
+Dialogue: 0,0:03:54.38,0:03:56.67,*Default,NTP,0000,0000,0000,,And now let's quickly open up this folder,
+Dialogue: 0,0:03:56.67,0:03:59.19,*Default,NTP,0000,0000,0000,,just so we can see that it is indeed
+Dialogue: 0,0:03:59.19,0:04:03.63,*Default,NTP,0000,0000,0000,,the exact same files that we just saw on GitHub.
+Dialogue: 0,0:04:03.63,0:04:05.96,*Default,NTP,0000,0000,0000,,So we have the starter files
+Dialogue: 0,0:04:05.96,0:04:08.64,*Default,NTP,0000,0000,0000,,and here, the files for the next section,
+Dialogue: 0,0:04:08.64,0:04:11.68,*Default,NTP,0000,0000,0000,,and then also the final files.
+Dialogue: 0,0:04:11.68,0:04:14.77,*Default,NTP,0000,0000,0000,,And so now with these starter files in place,
+Dialogue: 0,0:04:14.77,0:04:17.86,*Default,NTP,0000,0000,0000,,we are actually ready to start learning HTML
+Dialogue: 0,0:04:17.86,0:04:19.17,*Default,NTP,0000,0000,0000,,in the next section.

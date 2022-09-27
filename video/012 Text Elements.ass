@@ -1,0 +1,732 @@
+[Script Info]
+Title: 012 Text Elements_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=10&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.67,0:00:02.51,*Default,NTP,0000,0000,0000,,在本次讲座中，
+Dialogue: 0,0:00:02.51,0:00:06.25,*Default,NTP,0000,0000,0000,,我们将继续学习如何标记文本。
+Dialogue: 0,0:00:06.25,0:00:08.63,*Default,NTP,0000,0000,0000,,所以我们会继续使用一些标题，
+Dialogue: 0,0:00:08.63,0:00:10.07,*Default,NTP,0000,0000,0000,,一些段落，
+Dialogue: 0,0:00:10.07,0:00:14.36,*Default,NTP,0000,0000,0000,,我们还将学习如何使文本变为粗体和斜体。
+Dialogue: 0,0:00:15.95,0:00:19.01,*Default,NTP,0000,0000,0000,,让我们从标题开始。
+Dialogue: 0,0:00:19.01,0:00:21.21,*Default,NTP,0000,0000,0000,,所以通常标题的目标
+Dialogue: 0,0:00:21.21,0:00:24.09,*Default,NTP,0000,0000,0000,,是分解大块文本
+Dialogue: 0,0:00:24.09,0:00:26.58,*Default,NTP,0000,0000,0000,,进入更多逻辑部分，
+Dialogue: 0,0:00:26.58,0:00:31.58,*Default,NTP,0000,0000,0000,,并基本上为每个部分添加标题。
+Dialogue: 0,0:00:31.58,0:00:34.77,*Default,NTP,0000,0000,0000,,现在您已经了解了 h1 标题，
+Dialogue: 0,0:00:34.77,0:00:37.51,*Default,NTP,0000,0000,0000,,但实际上有六个不同的标题。
+Dialogue: 0,0:00:37.51,0:00:39.95,*Default,NTP,0000,0000,0000,,所以有标题的层次结构
+Dialogue: 0,0:00:39.95,0:00:44.14,*Default,NTP,0000,0000,0000,,这样我们就可以在文本中建立层次结构。
+Dialogue: 0,0:00:44.14,0:00:48.72,*Default,NTP,0000,0000,0000,,所以我们可以从h1一路走到h6。
+Dialogue: 0,0:00:48.72,0:00:52.11,*Default,NTP,0000,0000,0000,,所以让我们在这里抓住这段文字
+Dialogue: 0,0:00:52.11,0:00:55.07,*Default,NTP,0000,0000,0000,,并创建所有这六个不同的标题，
+Dialogue: 0,0:00:55.07,0:00:58.27,*Default,NTP,0000,0000,0000,,只是为了让您可以看到它们在视觉上的不同
+Dialogue: 0,0:00:58.27,0:00:59.28,*Default,NTP,0000,0000,0000,,在浏览器中。
+Dialogue: 0,0:01:00.37,0:01:03.83,*Default,NTP,0000,0000,0000,,所以 h1 我们可以称之为“主标题”，
+Dialogue: 0,0:01:03.83,0:01:06.11,*Default,NTP,0000,0000,0000,,然后次要标题是h2。
+Dialogue: 0,0:01:07.68,0:01:11.13,*Default,NTP,0000,0000,0000,,我在这里粘贴完全相同的文本
+Dialogue: 0,0:01:11.13,0:01:14.20,*Default,NTP,0000,0000,0000,,所以我们可以看到它们之间的视觉差异。
+Dialogue: 0,0:01:15.59,0:01:18.07,*Default,NTP,0000,0000,0000,,所以我们有 h1, h2,
+Dialogue: 0,0:01:18.07,0:01:22.20,*Default,NTP,0000,0000,0000,,然后是第三标题
+Dialogue: 0,0:01:22.20,0:01:23.03,*Default,NTP,0000,0000,0000,,我们使用 h3。
+Dialogue: 0,0:01:24.47,0:01:26.62,*Default,NTP,0000,0000,0000,,在那里粘贴相同的文本。
+Dialogue: 0,0:01:29.28,0:01:31.77,*Default,NTP,0000,0000,0000,,现在我们只需要重复所有这些
+Dialogue: 0,0:01:31.77,0:01:34.13,*Default,NTP,0000,0000,0000,,一直到h6。
+Dialogue: 0,0:01:37.65,0:01:38.51,*Default,NTP,0000,0000,0000,,好的，
+Dialogue: 0,0:01:38.51,0:01:41.14,*Default,NTP,0000,0000,0000,,当你输入这个时，
+Dialogue: 0,0:01:41.14,0:01:42.20,*Default,NTP,0000,0000,0000,,这些角色，
+Dialogue: 0,0:01:42.20,0:01:43.58,*Default,NTP,0000,0000,0000,,所以这段代码，
+Dialogue: 0,0:01:43.58,0:01:46.37,*Default,NTP,0000,0000,0000,,所有这一切都会开始进入你的大脑
+Dialogue: 0,0:01:46.37,0:01:49.76,*Default,NTP,0000,0000,0000,,您将开始练习编写 HTML。
+Dialogue: 0,0:01:52.60,0:01:54.16,*Default,NTP,0000,0000,0000,,所以h6，
+Dialogue: 0,0:01:54.16,0:01:56.49,*Default,NTP,0000,0000,0000,,然后让我们保存一下
+Dialogue: 0,0:01:57.49,0:01:59.90,*Default,NTP,0000,0000,0000,,然后重新加载浏览器。
+Dialogue: 0,0:01:59.90,0:02:02.15,*Default,NTP,0000,0000,0000,,所以你可以很好地看到
+Dialogue: 0,0:02:02.15,0:02:06.71,*Default,NTP,0000,0000,0000,,这基本上创造了一个视觉层次
+Dialogue: 0,0:02:06.71,0:02:09.01,*Default,NTP,0000,0000,0000,,这六个标题之间。
+Dialogue: 0,0:02:09.01,0:02:11.83,*Default,NTP,0000,0000,0000,,所以第一个是迄今为止最大的一个，
+Dialogue: 0,0:02:11.83,0:02:13.23,*Default,NTP,0000,0000,0000,,然后是最后一个，
+Dialogue: 0,0:02:13.23,0:02:14.83,*Default,NTP,0000,0000,0000,,这是h6
+Dialogue: 0,0:02:14.83,0:02:16.89,*Default,NTP,0000,0000,0000,,有点小。
+Dialogue: 0,0:02:16.89,0:02:20.48,*Default,NTP,0000,0000,0000,,然后在两者之间，我们有所有这些不同的变化。
+Dialogue: 0,0:02:20.48,0:02:21.53,*Default,NTP,0000,0000,0000,,现在好了。
+Dialogue: 0,0:02:21.53,0:02:25.01,*Default,NTP,0000,0000,0000,,所以现在我们知道了这些不同的标题是如何工作的，
+Dialogue: 0,0:02:25.01,0:02:26.73,*Default,NTP,0000,0000,0000,,但现在让我们来看看
+Dialogue: 0,0:02:26.73,0:02:28.86,*Default,NTP,0000,0000,0000,,实际上在我们的演示页面
+Dialogue: 0,0:02:28.86,0:02:32.53,*Default,NTP,0000,0000,0000,,只是为了看看我们真正需要哪种标题。
+Dialogue: 0,0:02:32.53,0:02:37.19,*Default,NTP,0000,0000,0000,,所以我们基本上有了这个块的名称，
+Dialogue: 0,0:02:37.19,0:02:38.68,*Default,NTP,0000,0000,0000,,所以代码杂志，
+Dialogue: 0,0:02:38.68,0:02:41.13,*Default,NTP,0000,0000,0000,,这是最大的标题。
+Dialogue: 0,0:02:41.13,0:02:45.03,*Default,NTP,0000,0000,0000,,然后在下面我们有文章的名称，
+Dialogue: 0,0:02:45.03,0:02:46.57,*Default,NTP,0000,0000,0000,,所以这个块帖子，
+Dialogue: 0,0:02:46.57,0:02:48.82,*Default,NTP,0000,0000,0000,,而且这个有点小，
+Dialogue: 0,0:02:48.82,0:02:51.09,*Default,NTP,0000,0000,0000,,所以它不再是主要标题，
+Dialogue: 0,0:02:51.09,0:02:52.97,*Default,NTP,0000,0000,0000,,但它是次要标题。
+Dialogue: 0,0:02:53.83,0:02:57.43,*Default,NTP,0000,0000,0000,,然后在这个文本里面，
+Dialogue: 0,0:02:57.43,0:03:00.15,*Default,NTP,0000,0000,0000,,并记得我是如何说那个标题的
+Dialogue: 0,0:03:00.15,0:03:04.95,*Default,NTP,0000,0000,0000,,基本上是将文本分成逻辑部分，对吗？
+Dialogue: 0,0:03:04.95,0:03:06.97,*Default,NTP,0000,0000,0000,,所以在这段文字之间
+Dialogue: 0,0:03:06.97,0:03:08.85,*Default,NTP,0000,0000,0000,,我们还有另一个部分。
+Dialogue: 0,0:03:08.85,0:03:10.52,*Default,NTP,0000,0000,0000,,所以在这里面，
+Dialogue: 0,0:03:10.52,0:03:12.69,*Default,NTP,0000,0000,0000,,比方说阻止帖子，
+Dialogue: 0,0:03:12.69,0:03:14.74,*Default,NTP,0000,0000,0000,,我们还有另一个标题。
+Dialogue: 0,0:03:14.74,0:03:16.96,*Default,NTP,0000,0000,0000,,所以这应该是一个h3。
+Dialogue: 0,0:03:18.80,0:03:19.63,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:19.63,0:03:24.59,*Default,NTP,0000,0000,0000,,所以现在让我们为这种结构创建一个标记。
+Dialogue: 0,0:03:25.62,0:03:29.67,*Default,NTP,0000,0000,0000,,所以我们这里有我们实际需要的所有这些文本。
+Dialogue: 0,0:03:29.67,0:03:32.99,*Default,NTP,0000,0000,0000,,所以我们只需要在这里复制粘贴这段代码，
+Dialogue: 0,0:03:32.99,0:03:33.96,*Default,NTP,0000,0000,0000,,或者本文。
+Dialogue: 0,0:03:36.22,0:03:37.60,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:37.60,0:03:39.95,*Default,NTP,0000,0000,0000,,所以我现在把这个留在这里以供参考。
+Dialogue: 0,0:03:42.59,0:03:43.42,*Default,NTP,0000,0000,0000,,所以，
+Dialogue: 0,0:03:43.42,0:03:46.20,*Default,NTP,0000,0000,0000,,请记住，我们将从主要标题开始。
+Dialogue: 0,0:03:46.20,0:03:47.74,*Default,NTP,0000,0000,0000,,所以我把它贴在这里
+Dialogue: 0,0:03:47.74,0:03:49.29,*Default,NTP,0000,0000,0000,,然后关闭h1。
+Dialogue: 0,0:03:51.38,0:03:52.57,*Default,NTP,0000,0000,0000,,现在好了。
+Dialogue: 0,0:03:52.57,0:03:55.82,*Default,NTP,0000,0000,0000,,然后让我们创建我们的辅助标题。
+Dialogue: 0,0:03:55.82,0:03:58.33,*Default,NTP,0000,0000,0000,,我会再次抓住
+Dialogue: 0,0:03:58.33,0:04:00.51,*Default,NTP,0000,0000,0000,,来自这里的文本。
+Dialogue: 0,0:04:01.54,0:04:02.50,*Default,NTP,0000,0000,0000,,所以那是...
+Dialogue: 0,0:04:03.40,0:04:06.22,*Default,NTP,0000,0000,0000,,嗯，这实际上是我们之前已经拥有的。
+Dialogue: 0,0:04:06.22,0:04:08.52,*Default,NTP,0000,0000,0000,,所以这个和这个完全一样，
+Dialogue: 0,0:04:09.54,0:04:11.35,*Default,NTP,0000,0000,0000,,但这并不重要。
+Dialogue: 0,0:04:11.35,0:04:12.18,*Default,NTP,0000,0000,0000,,没问题。
+Dialogue: 0,0:04:13.84,0:04:15.49,*Default,NTP,0000,0000,0000,,然后让我们得到我们的 h3
+Dialogue: 0,0:04:15.49,0:04:19.13,*Default,NTP,0000,0000,0000,,这就是 HTML。
+Dialogue: 0,0:04:20.03,0:04:21.17,*Default,NTP,0000,0000,0000,,我们就这么写吧。
+Dialogue: 0,0:04:26.41,0:04:30.82,*Default,NTP,0000,0000,0000,,然后让我们看看这是什么样子
+Dialogue: 0,0:04:30.82,0:04:32.22,*Default,NTP,0000,0000,0000,,现在我们开始。
+Dialogue: 0,0:04:33.25,0:04:34.08,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:04:34.08,0:04:35.80,*Default,NTP,0000,0000,0000,,所以这是一种结构
+Dialogue: 0,0:04:35.80,0:04:38.28,*Default,NTP,0000,0000,0000,,我们现在的文字，
+Dialogue: 0,0:04:38.28,0:04:39.96,*Default,NTP,0000,0000,0000,,现在我们只需要把它填满
+Dialogue: 0,0:04:39.96,0:04:42.92,*Default,NTP,0000,0000,0000,,与中间的段落。
+Dialogue: 0,0:04:42.92,0:04:47.02,*Default,NTP,0000,0000,0000,,所以基本上对于这些段落中的每一个
+Dialogue: 0,0:04:47.02,0:04:48.39,*Default,NTP,0000,0000,0000,,我们在文本中
+Dialogue: 0,0:04:48.39,0:04:52.21,*Default,NTP,0000,0000,0000,,我们可以简单地创建一个段落和一个代码。
+Dialogue: 0,0:04:52.21,0:04:53.12,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:04:53.12,0:04:57.02,*Default,NTP,0000,0000,0000,,而且我们之前已经使用了段落元素，
+Dialogue: 0,0:04:57.02,0:04:59.58,*Default,NTP,0000,0000,0000,,所以这是一种通用元素
+Dialogue: 0,0:04:59.58,0:05:03.16,*Default,NTP,0000,0000,0000,,我们用来标记更大的文本块。
+Dialogue: 0,0:05:05.42,0:05:08.76,*Default,NTP,0000,0000,0000,,所以记住那是“p”元素，
+Dialogue: 0,0:05:08.76,0:05:11.66,*Default,NTP,0000,0000,0000,,让我在这里抓取内容。
+Dialogue: 0,0:05:11.66,0:05:12.98,*Default,NTP,0000,0000,0000,,所以我们在这里的第一个
+Dialogue: 0,0:05:12.98,0:05:17.67,*Default,NTP,0000,0000,0000,,由劳拉·琼斯于 6 月 21 日星期一发布。
+Dialogue: 0,0:05:19.11,0:05:20.96,*Default,NTP,0000,0000,0000,,让我复制一下。
+Dialogue: 0,0:05:20.96,0:05:22.26,*Default,NTP,0000,0000,0000,,哦，你现在看到了吗
+Dialogue: 0,0:05:23.24,0:05:26.11,*Default,NTP,0000,0000,0000,,该元素再次自动关闭。
+Dialogue: 0,0:05:27.94,0:05:29.42,*Default,NTP,0000,0000,0000,,让我们在这里保存一下。
+Dialogue: 0,0:05:30.77,0:05:33.45,*Default,NTP,0000,0000,0000,,现在让我们在这里创建一些额外的段落。
+Dialogue: 0,0:05:35.52,0:05:36.37,*Default,NTP,0000,0000,0000,,所以p元素，
+Dialogue: 0,0:05:36.37,0:05:39.27,*Default,NTP,0000,0000,0000,,让我在这里立即关闭它，
+Dialogue: 0,0:05:40.13,0:05:42.34,*Default,NTP,0000,0000,0000,,然后让我们抓取我们的文本。
+Dialogue: 0,0:05:43.69,0:05:45.53,*Default,NTP,0000,0000,0000,,所以这里就是这个。
+Dialogue: 0,0:05:47.26,0:05:48.89,*Default,NTP,0000,0000,0000,,所以复制
+Dialogue: 0,0:05:48.89,0:05:50.30,*Default,NTP,0000,0000,0000,,并粘贴。
+Dialogue: 0,0:05:52.45,0:05:54.72,*Default,NTP,0000,0000,0000,,所以现在我们开始
+Dialogue: 0,0:05:54.72,0:05:58.07,*Default,NTP,0000,0000,0000,,同时建立一个真正的我们的项目
+Dialogue: 0,0:05:58.07,0:06:00.02,*Default,NTP,0000,0000,0000,,作为学习这些元素。
+Dialogue: 0,0:06:01.20,0:06:03.50,*Default,NTP,0000,0000,0000,,所以这里也有这个，
+Dialogue: 0,0:06:03.50,0:06:05.10,*Default,NTP,0000,0000,0000,,所以我再次复制它
+Dialogue: 0,0:06:05.10,0:06:07.96,*Default,NTP,0000,0000,0000,,然后将其粘贴到 p 元素中。
+Dialogue: 0,0:06:09.81,0:06:11.54,*Default,NTP,0000,0000,0000,,所以让我们保存一下
+Dialogue: 0,0:06:11.54,0:06:14.00,*Default,NTP,0000,0000,0000,,并重新加载
+Dialogue: 0,0:06:14.00,0:06:17.01,*Default,NTP,0000,0000,0000,,这看起来已经不错了。
+Dialogue: 0,0:06:17.01,0:06:18.12,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:06:18.12,0:06:19.44,*Default,NTP,0000,0000,0000,,让我们来看看，
+Dialogue: 0,0:06:19.44,0:06:21.99,*Default,NTP,0000,0000,0000,,现在让我们再抓两个，
+Dialogue: 0,0:06:21.99,0:06:24.48,*Default,NTP,0000,0000,0000,,所以这两个段落在这里。
+Dialogue: 0,0:06:24.48,0:06:27.26,*Default,NTP,0000,0000,0000,,所以在我们在这里的h3之后，
+Dialogue: 0,0:06:28.88,0:06:32.45,*Default,NTP,0000,0000,0000,,所以“p”并立即关闭它。
+Dialogue: 0,0:06:35.69,0:06:39.95,*Default,NTP,0000,0000,0000,,所以只需双击选择所有它，
+Dialogue: 0,0:06:39.95,0:06:41.39,*Default,NTP,0000,0000,0000,,只是一个不错的技术。
+Dialogue: 0,0:06:42.81,0:06:46.73,*Default,NTP,0000,0000,0000,,然后让我们添加最后一个。
+Dialogue: 0,0:06:54.86,0:06:56.26,*Default,NTP,0000,0000,0000,,同时你会看到
+Dialogue: 0,0:06:56.26,0:06:57.95,*Default,NTP,0000,0000,0000,,它在这里格式化为代码
+Dialogue: 0,0:06:57.95,0:07:00.17,*Default,NTP,0000,0000,0000,,那是因为自动保存
+Dialogue: 0,0:07:00.17,0:07:01.49,*Default,NTP,0000,0000,0000,,和自动格式。
+Dialogue: 0,0:07:02.69,0:07:03.52,*Default,NTP,0000,0000,0000,,好的，
+Dialogue: 0,0:07:03.52,0:07:05.91,*Default,NTP,0000,0000,0000,,现在我实际上手动保存了它。
+Dialogue: 0,0:07:05.91,0:07:07.51,*Default,NTP,0000,0000,0000,,我们去这里
+Dialogue: 0,0:07:07.51,0:07:10.43,*Default,NTP,0000,0000,0000,,又是我们的内容。
+Dialogue: 0,0:07:10.43,0:07:12.37,*Default,NTP,0000,0000,0000,,现在稍微清理一下
+Dialogue: 0,0:07:12.37,0:07:13.94,*Default,NTP,0000,0000,0000,,现在让我们真正摆脱
+Dialogue: 0,0:07:13.94,0:07:16.65,*Default,NTP,0000,0000,0000,,所有这六个标题在这里。
+Dialogue: 0,0:07:16.65,0:07:19.55,*Default,NTP,0000,0000,0000,,所以现在你已经知道它们是如何工作的
+Dialogue: 0,0:07:19.55,0:07:20.69,*Default,NTP,0000,0000,0000,,并且它们存在。
+Dialogue: 0,0:07:21.60,0:07:24.03,*Default,NTP,0000,0000,0000,,实际上不是摆脱它们，
+Dialogue: 0,0:07:24.03,0:07:27.89,*Default,NTP,0000,0000,0000,,我们可以在 HTML 中使用一种叫做“评论”的东西。
+Dialogue: 0,0:07:27.89,0:07:30.08,*Default,NTP,0000,0000,0000,,所以 HTML 中的注释
+Dialogue: 0,0:07:30.08,0:07:32.35,*Default,NTP,0000,0000,0000,,是一种编写代码的方式
+Dialogue: 0,0:07:32.35,0:07:35.13,*Default,NTP,0000,0000,0000,,这将在浏览器中不可见。
+Dialogue: 0,0:07:35.13,0:07:36.55,*Default,NTP,0000,0000,0000,,这非常有用
+Dialogue: 0,0:07:36.55,0:07:40.33,*Default,NTP,0000,0000,0000,,因为它允许我们写关于我们的代码的注释，
+Dialogue: 0,0:07:40.33,0:07:42.95,*Default,NTP,0000,0000,0000,,或者也简单地隐藏一些代码
+Dialogue: 0,0:07:42.95,0:07:46.23,*Default,NTP,0000,0000,0000,,我们不想在浏览器上呈现。
+Dialogue: 0,0:07:47.38,0:07:48.89,*Default,NTP,0000,0000,0000,,现在写评论
+Dialogue: 0,0:07:48.89,0:07:51.41,*Default,NTP,0000,0000,0000,,这有点奇怪的语法。
+Dialogue: 0,0:07:51.41,0:07:54.86,*Default,NTP,0000,0000,0000,,所以我们再次写小于符号，
+Dialogue: 0,0:07:54.86,0:07:57.35,*Default,NTP,0000,0000,0000,,然后是感叹号，
+Dialogue: 0,0:07:57.35,0:07:59.49,*Default,NTP,0000,0000,0000,,然后破折号，
+Dialogue: 0,0:07:59.49,0:08:02.24,*Default,NTP,0000,0000,0000,,然后关闭评论VS代码
+Dialogue: 0,0:08:02.24,0:08:05.04,*Default,NTP,0000,0000,0000,,已经自动创建，
+Dialogue: 0,0:08:05.04,0:08:07.92,*Default,NTP,0000,0000,0000,,这个破折号关闭部分。
+Dialogue: 0,0:08:07.92,0:08:09.97,*Default,NTP,0000,0000,0000,,所以这会打开一个新评论
+Dialogue: 0,0:08:09.97,0:08:13.60,*Default,NTP,0000,0000,0000,,这将关闭相同的评论。
+Dialogue: 0,0:08:13.60,0:08:16.34,*Default,NTP,0000,0000,0000,,现在让我们在这里删除这部分
+Dialogue: 0,0:08:16.34,0:08:19.43,*Default,NTP,0000,0000,0000,,现在你会看到一切都变灰了。
+Dialogue: 0,0:08:19.43,0:08:21.81,*Default,NTP,0000,0000,0000,,所以现在所有这些都是评论，
+Dialogue: 0,0:08:21.81,0:08:23.41,*Default,NTP,0000,0000,0000,,但我们实际上想要评论
+Dialogue: 0,0:08:23.41,0:08:25.21,*Default,NTP,0000,0000,0000,,到此结束。
+Dialogue: 0,0:08:26.80,0:08:29.70,*Default,NTP,0000,0000,0000,,所以“破折号”并关闭，
+Dialogue: 0,0:08:29.70,0:08:32.20,*Default,NTP,0000,0000,0000,,现在这里只有这部分是灰色的，
+Dialogue: 0,0:08:32.20,0:08:34.36,*Default,NTP,0000,0000,0000,,这意味着这现在是评论
+Dialogue: 0,0:08:34.36,0:08:36.20,*Default,NTP,0000,0000,0000,,现在它不会被渲染。
+Dialogue: 0,0:08:37.19,0:08:39.09,*Default,NTP,0000,0000,0000,,所以让我们检查一下。
+Dialogue: 0,0:08:39.09,0:08:40.85,*Default,NTP,0000,0000,0000,,如果我重新加载，
+Dialogue: 0,0:08:40.85,0:08:43.62,*Default,NTP,0000,0000,0000,,现在它从页面上消失了。
+Dialogue: 0,0:08:43.62,0:08:44.50,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:44.50,0:08:46.99,*Default,NTP,0000,0000,0000,,但是我们仍然可以将其保留在代码中
+Dialogue: 0,0:08:46.99,0:08:51.99,*Default,NTP,0000,0000,0000,,只是为了让你知道 h1、2、3、4、5 和 6 也存在。
+Dialogue: 0,0:08:52.18,0:08:54.68,*Default,NTP,0000,0000,0000,,现在只是我之前没有提到的一件事
+Dialogue: 0,0:08:54.68,0:08:56.68,*Default,NTP,0000,0000,0000,,关于标题
+Dialogue: 0,0:08:56.68,0:08:58.46,*Default,NTP,0000,0000,0000,,是每一页
+Dialogue: 0,0:08:58.46,0:09:01.73,*Default,NTP,0000,0000,0000,,应该只有一个 h1 一个标题。
+Dialogue: 0,0:09:01.73,0:09:03.78,*Default,NTP,0000,0000,0000,,所以只有一个主标题。
+Dialogue: 0,0:09:03.78,0:09:06.09,*Default,NTP,0000,0000,0000,,记住这一点非常重要。
+Dialogue: 0,0:09:06.09,0:09:08.38,*Default,NTP,0000,0000,0000,,这并不是强制性的
+Dialogue: 0,0:09:08.38,0:09:11.23,*Default,NTP,0000,0000,0000,,所以它不会违反任何 HTML 规则
+Dialogue: 0,0:09:11.23,0:09:13.33,*Default,NTP,0000,0000,0000,,如果我们有多个 h1，
+Dialogue: 0,0:09:13.33,0:09:15.16,*Default,NTP,0000,0000,0000,,但这是一个很好的做法
+Dialogue: 0,0:09:15.16,0:09:17.73,*Default,NTP,0000,0000,0000,,总是只有其中一个。
+Dialogue: 0,0:09:17.73,0:09:19.58,*Default,NTP,0000,0000,0000,,现在关于所有其他的，
+Dialogue: 0,0:09:19.58,0:09:22.27,*Default,NTP,0000,0000,0000,,我们当然可以拥有多个。
+Dialogue: 0,0:09:22.27,0:09:23.93,*Default,NTP,0000,0000,0000,,例如，
+Dialogue: 0,0:09:23.93,0:09:25.94,*Default,NTP,0000,0000,0000,,我认为在我们的页面上我们实际上有
+Dialogue: 0,0:09:25.94,0:09:28.30,*Default,NTP,0000,0000,0000,,这些标题中的另一个在这里
+Dialogue: 0,0:09:28.30,0:09:30.31,*Default,NTP,0000,0000,0000,,在我们的文本中间。
+Dialogue: 0,0:09:30.31,0:09:31.65,*Default,NTP,0000,0000,0000,,所以在我们的例子中，
+Dialogue: 0,0:09:31.65,0:09:33.46,*Default,NTP,0000,0000,0000,,这些是 h3 标题。
+Dialogue: 0,0:09:34.64,0:09:36.24,*Default,NTP,0000,0000,0000,,所以你看，
+Dialogue: 0,0:09:36.24,0:09:37.07,*Default,NTP,0000,0000,0000,,这是另一个。
+Dialogue: 0,0:09:37.07,0:09:39.16,*Default,NTP,0000,0000,0000,,所以当然我们也可以在这里添加
+Dialogue: 0,0:09:40.07,0:09:41.05,*Default,NTP,0000,0000,0000,,马上，
+Dialogue: 0,0:09:41.05,0:09:42.54,*Default,NTP,0000,0000,0000,,为什么不？
+Dialogue: 0,0:09:42.54,0:09:43.86,*Default,NTP,0000,0000,0000,,所以h3，
+Dialogue: 0,0:09:43.86,0:09:47.66,*Default,NTP,0000,0000,0000,,"为什么要学习 HTML？",
+Dialogue: 0,0:09:50.23,0:09:53.82,*Default,NTP,0000,0000,0000,,然后当然关闭它。
+Dialogue: 0,0:09:53.82,0:09:54.65,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:09:55.53,0:09:57.62,*Default,NTP,0000,0000,0000,,现在刚刚结束，
+Dialogue: 0,0:09:57.62,0:09:58.50,*Default,NTP,0000,0000,0000,,让我也快速告诉你
+Dialogue: 0,0:09:58.50,0:10:00.23,*Default,NTP,0000,0000,0000,,我们如何创建粗体
+Dialogue: 0,0:10:00.23,0:10:02.64,*Default,NTP,0000,0000,0000,,和斜体文字。
+Dialogue: 0,0:10:02.64,0:10:04.79,*Default,NTP,0000,0000,0000,,所以在我们的演示站点
+Dialogue: 0,0:10:04.79,0:10:07.21,*Default,NTP,0000,0000,0000,,我们有这个作者的名字，
+Dialogue: 0,0:10:07.21,0:10:10.07,*Default,NTP,0000,0000,0000,,这是粗体的“劳拉琼斯”。
+Dialogue: 0,0:10:10.07,0:10:13.44,*Default,NTP,0000,0000,0000,,那么我们如何在 HTML 中做到这一点呢？
+Dialogue: 0,0:10:13.44,0:10:15.95,*Default,NTP,0000,0000,0000,,嗯，有一个特殊的元素，
+Dialogue: 0,0:10:15.95,0:10:18.65,*Default,NTP,0000,0000,0000,,或者实际上是两个元素。
+Dialogue: 0,0:10:18.65,0:10:20.42,*Default,NTP,0000,0000,0000,,让我从一个更简单的开始，
+Dialogue: 0,0:10:20.42,0:10:22.81,*Default,NTP,0000,0000,0000,,简称为“b”。
+Dialogue: 0,0:10:22.81,0:10:24.80,*Default,NTP,0000,0000,0000,,所以B代表“粗体”。
+Dialogue: 0,0:10:24.80,0:10:27.78,*Default,NTP,0000,0000,0000,,所以我们想要大胆的部分，
+Dialogue: 0,0:10:27.78,0:10:29.97,*Default,NTP,0000,0000,0000,,所以“劳拉琼斯”在这种情况下，
+Dialogue: 0,0:10:29.97,0:10:30.94,*Default,NTP,0000,0000,0000,,他们要做的一切
+Dialogue: 0,0:10:31.91,0:10:34.60,*Default,NTP,0000,0000,0000,,就是把它放在一个 b 元素里面。
+Dialogue: 0,0:10:34.60,0:10:36.58,*Default,NTP,0000,0000,0000,,所以我们可以写
+Dialogue: 0,0:10:37.62,0:10:38.91,*Default,NTP,0000,0000,0000,,b 像这样
+Dialogue: 0,0:10:40.02,0:10:40.89,*Default,NTP,0000,0000,0000,,在一开始的时候
+Dialogue: 0,0:10:41.82,0:10:43.16,*Default,NTP,0000,0000,0000,,然后在内容的最后
+Dialogue: 0,0:10:43.16,0:10:44.97,*Default,NTP,0000,0000,0000,,我们只需添加结束标签。
+Dialogue: 0,0:10:45.98,0:10:46.81,*Default,NTP,0000,0000,0000,,所以这是“/ b”，
+Dialogue: 0,0:10:47.88,0:10:49.43,*Default,NTP,0000,0000,0000,,关闭它，
+Dialogue: 0,0:10:49.43,0:10:52.73,*Default,NTP,0000,0000,0000,,现在一旦我们重新加载或拥有页面。
+Dialogue: 0,0:10:53.86,0:10:56.92,*Default,NTP,0000,0000,0000,,所以看看这里的“劳拉琼斯”，
+Dialogue: 0,0:10:56.92,0:10:58.63,*Default,NTP,0000,0000,0000,,如果我们重新加载
+Dialogue: 0,0:10:58.63,0:11:01.11,*Default,NTP,0000,0000,0000,,然后你看到它变成了粗体，
+Dialogue: 0,0:11:01.11,0:11:02.89,*Default,NTP,0000,0000,0000,,很棒。
+Dialogue: 0,0:11:02.89,0:11:04.49,*Default,NTP,0000,0000,0000,,然而现在，
+Dialogue: 0,0:11:04.49,0:11:08.44,*Default,NTP,0000,0000,0000,,使用 b 实际上不是一个好习惯。
+Dialogue: 0,0:11:08.44,0:11:11.73,*Default,NTP,0000,0000,0000,,所以 b 实际上是一个较旧的 HTML 元素
+Dialogue: 0,0:11:11.73,0:11:14.07,*Default,NTP,0000,0000,0000,,从 HTML 5 开始，
+Dialogue: 0,0:11:14.07,0:11:18.16,*Default,NTP,0000,0000,0000,,我们应该始终使用 strong 元素而不是“b”。
+Dialogue: 0,0:11:18.16,0:11:19.18,*Default,NTP,0000,0000,0000,,这样做的原因
+Dialogue: 0,0:11:19.18,0:11:23.73,*Default,NTP,0000,0000,0000,,就是b没有任何所谓的语义，
+Dialogue: 0,0:11:23.73,0:11:27.25,*Default,NTP,0000,0000,0000,,本节稍后会详细介绍。
+Dialogue: 0,0:11:27.25,0:11:29.25,*Default,NTP,0000,0000,0000,,但本质上这意味着什么
+Dialogue: 0,0:11:29.25,0:11:32.01,*Default,NTP,0000,0000,0000,,是 b 只是一个元素，
+Dialogue: 0,0:11:32.01,0:11:34.56,*Default,NTP,0000,0000,0000,,但没有具体含义，
+Dialogue: 0,0:11:34.56,0:11:38.56,*Default,NTP,0000,0000,0000,,而另一方面，强元素意味着
+Dialogue: 0,0:11:38.56,0:11:40.61,*Default,NTP,0000,0000,0000,,这确实是一个重要的元素
+Dialogue: 0,0:11:40.61,0:11:43.05,*Default,NTP,0000,0000,0000,,我们想从页面中脱颖而出。
+Dialogue: 0,0:11:43.96,0:11:48.53,*Default,NTP,0000,0000,0000,,所以如果我们在开始标签上说“强”，
+Dialogue: 0,0:11:48.53,0:11:51.78,*Default,NTP,0000,0000,0000,,然后当然也在结束标签中，
+Dialogue: 0,0:11:51.78,0:11:55.12,*Default,NTP,0000,0000,0000,,那么它将在浏览器中看起来完全一样。
+Dialogue: 0,0:11:55.12,0:11:56.28,*Default,NTP,0000,0000,0000,,所以让我们确认一下。
+Dialogue: 0,0:11:57.14,0:11:58.75,*Default,NTP,0000,0000,0000,,是的，它仍然很大胆，
+Dialogue: 0,0:11:58.75,0:12:00.35,*Default,NTP,0000,0000,0000,,但现在它有了意义
+Dialogue: 0,0:12:00.35,0:12:02.88,*Default,NTP,0000,0000,0000,,这是一个更重要的文本。
+Dialogue: 0,0:12:02.88,0:12:06.98,*Default,NTP,0000,0000,0000,,这本质上就是语义 HTML 的概念。
+Dialogue: 0,0:12:06.98,0:12:07.81,*Default,NTP,0000,0000,0000,,然后再次，
+Dialogue: 0,0:12:07.81,0:12:10.55,*Default,NTP,0000,0000,0000,,我们将更多地讨论语义 HTML
+Dialogue: 0,0:12:10.55,0:12:11.92,*Default,NTP,0000,0000,0000,,在本节结束时。
+Dialogue: 0,0:12:13.09,0:12:16.47,*Default,NTP,0000,0000,0000,,所以现在只知道不要使用“b”，
+Dialogue: 0,0:12:16.47,0:12:19.31,*Default,NTP,0000,0000,0000,,但使用“Strong”使文本变为粗体。
+Dialogue: 0,0:12:20.60,0:12:23.86,*Default,NTP,0000,0000,0000,,现在让我们在这里也让一些文字斜体，
+Dialogue: 0,0:12:23.86,0:12:27.30,*Default,NTP,0000,0000,0000,,让我们在这里选择这个词。
+Dialogue: 0,0:12:27.30,0:12:29.48,*Default,NTP,0000,0000,0000,,所以只是基本的。
+Dialogue: 0,0:12:29.48,0:12:30.93,*Default,NTP,0000,0000,0000,,就像“b”一样，
+Dialogue: 0,0:12:30.93,0:12:33.32,*Default,NTP,0000,0000,0000,,实际上有两种方法。
+Dialogue: 0,0:12:33.32,0:12:34.24,*Default,NTP,0000,0000,0000,,年纪大的
+Dialogue: 0,0:12:34.24,0:12:35.87,*Default,NTP,0000,0000,0000,,是“i”元素。
+Dialogue: 0,0:12:36.88,0:12:40.17,*Default,NTP,0000,0000,0000,,所以包装我们想要的文本的任何部分
+Dialogue: 0,0:12:40.17,0:12:43.43,*Default,NTP,0000,0000,0000,,在 i 元素内为斜体。
+Dialogue: 0,0:12:44.96,0:12:47.16,*Default,NTP,0000,0000,0000,,“i”只代表斜体，
+Dialogue: 0,0:12:48.05,0:12:49.68,*Default,NTP,0000,0000,0000,,事实上，
+Dialogue: 0,0:12:49.68,0:12:51.81,*Default,NTP,0000,0000,0000,,你看现在它变了，
+Dialogue: 0,0:12:51.81,0:12:56.43,*Default,NTP,0000,0000,0000,,但是再一次为了使它成为语义 HTML，
+Dialogue: 0,0:12:56.43,0:12:58.76,*Default,NTP,0000,0000,0000,,我们不应该再使用“i”元素，
+Dialogue: 0,0:12:58.76,0:13:01.18,*Default,NTP,0000,0000,0000,,但是“em”元素，
+Dialogue: 0,0:13:01.18,0:13:03.96,*Default,NTP,0000,0000,0000,,代表“强调”。
+Dialogue: 0,0:13:03.96,0:13:06.89,*Default,NTP,0000,0000,0000,,所以我们要在这里强调这段文字
+Dialogue: 0,0:13:06.89,0:13:09.56,*Default,NTP,0000,0000,0000,,这就是我们将其设为斜体的原因。
+Dialogue: 0,0:13:09.56,0:13:12.46,*Default,NTP,0000,0000,0000,,所以这也是浏览器的原因
+Dialogue: 0,0:13:12.46,0:13:14.68,*Default,NTP,0000,0000,0000,,然后显示为斜体，
+Dialogue: 0,0:13:16.06,0:13:16.89,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:13:16.89,0:13:19.81,*Default,NTP,0000,0000,0000,,所以如果我们重新加载它仍然是斜体，
+Dialogue: 0,0:13:19.81,0:13:22.56,*Default,NTP,0000,0000,0000,,但现在我们基本上给了它意义
+Dialogue: 0,0:13:22.56,0:13:25.32,*Default,NTP,0000,0000,0000,,强调的文本。
+Dialogue: 0,0:13:25.32,0:13:26.64,*Default,NTP,0000,0000,0000,,现在好了，太好了。
+Dialogue: 0,0:13:26.64,0:13:28.69,*Default,NTP,0000,0000,0000,,这是一个很大的进步。
+Dialogue: 0,0:13:28.69,0:13:31.89,*Default,NTP,0000,0000,0000,,到目前为止，你做得很好。
+Dialogue: 0,0:13:31.89,0:13:34.02,*Default,NTP,0000,0000,0000,,现在只是为了结束这个讲座，
+Dialogue: 0,0:13:34.02,0:13:35.96,*Default,NTP,0000,0000,0000,,其实我已经想给你了
+Dialogue: 0,0:13:35.96,0:13:39.06,*Default,NTP,0000,0000,0000,,你的第一个小编码挑战。
+Dialogue: 0,0:13:39.06,0:13:41.14,*Default,NTP,0000,0000,0000,,所以我想让你做什么
+Dialogue: 0,0:13:41.14,0:13:43.81,*Default,NTP,0000,0000,0000,,基本上就是这个。
+Dialogue: 0,0:13:43.81,0:13:46.02,*Default,NTP,0000,0000,0000,,让我在这里给你看。
+Dialogue: 0,0:13:46.02,0:13:51.02,*Default,NTP,0000,0000,0000,,所以我想让你把这些词的第一个字母，
+Dialogue: 0,0:13:51.40,0:13:54.72,*Default,NTP,0000,0000,0000,,所以“超文本标记语言”，
+Dialogue: 0,0:13:54.72,0:13:59.12,*Default,NTP,0000,0000,0000,,我想让你把 H、T、M 和 L 加粗。
+Dialogue: 0,0:14:00.28,0:14:01.23,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:14:01.23,0:14:04.80,*Default,NTP,0000,0000,0000,,所以基本上这就是这里的文本。
+Dialogue: 0,0:14:06.08,0:14:07.71,*Default,NTP,0000,0000,0000,,所以这个H，
+Dialogue: 0,0:14:07.71,0:14:09.00,*Default,NTP,0000,0000,0000,,这个T，
+Dialogue: 0,0:14:09.00,0:14:10.04,*Default,NTP,0000,0000,0000,,这个M，
+Dialogue: 0,0:14:10.04,0:14:11.16,*Default,NTP,0000,0000,0000,,而这个 L，
+Dialogue: 0,0:14:11.16,0:14:12.78,*Default,NTP,0000,0000,0000,,他们都应该是大胆的。
+Dialogue: 0,0:14:12.78,0:14:16.06,*Default,NTP,0000,0000,0000,,所以他们应该在这里以粗体显示
+Dialogue: 0,0:14:16.06,0:14:19.06,*Default,NTP,0000,0000,0000,,就像我在演示页面中一样。
+Dialogue: 0,0:14:19.06,0:14:21.88,*Default,NTP,0000,0000,0000,,所以你认为你能做到吗
+Dialogue: 0,0:14:21.88,0:14:24.83,*Default,NTP,0000,0000,0000,,并自己编写一些 HTML 代码
+Dialogue: 0,0:14:24.83,0:14:27.08,*Default,NTP,0000,0000,0000,,第一次？
+Dialogue: 0,0:14:27.08,0:14:29.53,*Default,NTP,0000,0000,0000,,好吧，我真的希望你尝试一下
+Dialogue: 0,0:14:29.53,0:14:31.80,*Default,NTP,0000,0000,0000,,因为正如我之前所说，
+Dialogue: 0,0:14:31.80,0:14:32.94,*Default,NTP,0000,0000,0000,,这些编码挑战
+Dialogue: 0,0:14:32.94,0:14:35.00,*Default,NTP,0000,0000,0000,,对你来说真的很重要
+Dialogue: 0,0:14:35.00,0:14:37.51,*Default,NTP,0000,0000,0000,,开始练习你的技能，
+Dialogue: 0,0:14:37.51,0:14:41.31,*Default,NTP,0000,0000,0000,,即使它只是像这样非常简单的事情。
+Dialogue: 0,0:14:41.31,0:14:42.45,*Default,NTP,0000,0000,0000,,所以请继续
+Dialogue: 0,0:14:42.45,0:14:44.33,*Default,NTP,0000,0000,0000,,并立即暂停视频
+Dialogue: 0,0:14:44.33,0:14:47.15,*Default,NTP,0000,0000,0000,,并将这四个字母中的每一个都加粗，
+Dialogue: 0,0:14:47.15,0:14:49.67,*Default,NTP,0000,0000,0000,,我马上就会和你一起回来
+Dialogue: 0,0:14:49.67,0:14:51.65,*Default,NTP,0000,0000,0000,,向您展示它是如何完成的。
+Dialogue: 0,0:14:54.17,0:14:56.89,*Default,NTP,0000,0000,0000,,那么你做到了吗？
+Dialogue: 0,0:14:57.73,0:15:00.56,*Default,NTP,0000,0000,0000,,嗯，这就是它的工作原理。
+Dialogue: 0,0:15:00.56,0:15:02.01,*Default,NTP,0000,0000,0000,,所以再一次，
+Dialogue: 0,0:15:02.01,0:15:04.94,*Default,NTP,0000,0000,0000,,我们只需要包装零件
+Dialogue: 0,0:15:04.94,0:15:08.30,*Default,NTP,0000,0000,0000,,我们希望被标记为粗体，
+Dialogue: 0,0:15:08.30,0:15:10.83,*Default,NTP,0000,0000,0000,,化为强元素。
+Dialogue: 0,0:15:10.83,0:15:11.87,*Default,NTP,0000,0000,0000,,在这种情况下，
+Dialogue: 0,0:15:11.87,0:15:13.48,*Default,NTP,0000,0000,0000,,那只是“h”
+Dialogue: 0,0:15:14.46,0:15:15.91,*Default,NTP,0000,0000,0000,,所以这就是我们关闭的原因
+Dialogue: 0,0:15:15.91,0:15:17.93,*Default,NTP,0000,0000,0000,,这个强大的元素就在这里
+Dialogue: 0,0:15:17.93,0:15:19.86,*Default,NTP,0000,0000,0000,,在单词的中间。
+Dialogue: 0,0:15:21.02,0:15:24.12,*Default,NTP,0000,0000,0000,,然后在这里我们想要“T”等等，
+Dialogue: 0,0:15:25.44,0:15:26.43,*Default,NTP,0000,0000,0000,,我们写...
+Dialogue: 0,0:15:30.60,0:15:31.63,*Default,NTP,0000,0000,0000,,再说一次，
+Dialogue: 0,0:15:31.63,0:15:34.36,*Default,NTP,0000,0000,0000,,这里有一个强大的元素。
+Dialogue: 0,0:15:34.36,0:15:35.80,*Default,NTP,0000,0000,0000,,所以开始标签，
+Dialogue: 0,0:15:36.69,0:15:38.66,*Default,NTP,0000,0000,0000,,然后另一个就在这里。
+Dialogue: 0,0:15:43.61,0:15:46.70,*Default,NTP,0000,0000,0000,,当然，其他两个字母也是如此。
+Dialogue: 0,0:15:58.12,0:15:59.64,*Default,NTP,0000,0000,0000,,现在好了。
+Dialogue: 0,0:15:59.64,0:16:02.38,*Default,NTP,0000,0000,0000,,所以希望我没有在那里犯任何错误。
+Dialogue: 0,0:16:02.38,0:16:04.31,*Default,NTP,0000,0000,0000,,让我们重新加载
+Dialogue: 0,0:16:04.31,0:16:06.26,*Default,NTP,0000,0000,0000,,你去吧。
+Dialogue: 0,0:16:06.26,0:16:08.76,*Default,NTP,0000,0000,0000,,HTML 现在以粗体标记。
+Dialogue: 0,0:16:09.75,0:16:10.72,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:16:10.72,0:16:11.55,*Default,NTP,0000,0000,0000,,再说一次，
+Dialogue: 0,0:16:11.55,0:16:14.36,*Default,NTP,0000,0000,0000,,我希望你能自己做到这一点
+Dialogue: 0,0:16:14.36,0:16:17.67,*Default,NTP,0000,0000,0000,,因为这对您的学习过程非常重要。
+Dialogue: 0,0:00:01.67,0:00:02.51,*Default,NTP,0000,0000,0000,,In this lecture,
+Dialogue: 0,0:00:02.51,0:00:06.25,*Default,NTP,0000,0000,0000,,we will continue learning how to markup text.
+Dialogue: 0,0:00:06.25,0:00:08.63,*Default,NTP,0000,0000,0000,,So we will keep using some headings,
+Dialogue: 0,0:00:08.63,0:00:10.07,*Default,NTP,0000,0000,0000,,some paragraphs,
+Dialogue: 0,0:00:10.07,0:00:14.36,*Default,NTP,0000,0000,0000,,and we will also learn how to make text bold and italic.
+Dialogue: 0,0:00:15.95,0:00:19.01,*Default,NTP,0000,0000,0000,,And let's actually start with headings.
+Dialogue: 0,0:00:19.01,0:00:21.21,*Default,NTP,0000,0000,0000,,So usually the goal of headings
+Dialogue: 0,0:00:21.21,0:00:24.09,*Default,NTP,0000,0000,0000,,is to break up big blocks of text
+Dialogue: 0,0:00:24.09,0:00:26.58,*Default,NTP,0000,0000,0000,,into more logical sections,
+Dialogue: 0,0:00:26.58,0:00:31.58,*Default,NTP,0000,0000,0000,,and to basically add a title to each of the sections.
+Dialogue: 0,0:00:31.58,0:00:34.77,*Default,NTP,0000,0000,0000,,Now you already learned about the h1 heading,
+Dialogue: 0,0:00:34.77,0:00:37.51,*Default,NTP,0000,0000,0000,,but there are actually six different headings.
+Dialogue: 0,0:00:37.51,0:00:39.95,*Default,NTP,0000,0000,0000,,So there's a hierarchy of headings
+Dialogue: 0,0:00:39.95,0:00:44.14,*Default,NTP,0000,0000,0000,,so that we can establish a hierarchy in our text.
+Dialogue: 0,0:00:44.14,0:00:48.72,*Default,NTP,0000,0000,0000,,So we can go all the way from h1 to h6.
+Dialogue: 0,0:00:48.72,0:00:52.11,*Default,NTP,0000,0000,0000,,So let's grab this text here
+Dialogue: 0,0:00:52.11,0:00:55.07,*Default,NTP,0000,0000,0000,,and create all of these six different headings,
+Dialogue: 0,0:00:55.07,0:00:58.27,*Default,NTP,0000,0000,0000,,just so you can see how they look different visually
+Dialogue: 0,0:00:58.27,0:00:59.28,*Default,NTP,0000,0000,0000,,in the browser.
+Dialogue: 0,0:01:00.37,0:01:03.83,*Default,NTP,0000,0000,0000,,So the h1 we can call the "Primary heading",
+Dialogue: 0,0:01:03.83,0:01:06.11,*Default,NTP,0000,0000,0000,,and then the secondary heading is the h2.
+Dialogue: 0,0:01:07.68,0:01:11.13,*Default,NTP,0000,0000,0000,,And I'm pasting the exact same text here
+Dialogue: 0,0:01:11.13,0:01:14.20,*Default,NTP,0000,0000,0000,,so we can see the visual difference between them.
+Dialogue: 0,0:01:15.59,0:01:18.07,*Default,NTP,0000,0000,0000,,So we have h1, h2,
+Dialogue: 0,0:01:18.07,0:01:22.20,*Default,NTP,0000,0000,0000,,and then for the tertiary heading
+Dialogue: 0,0:01:22.20,0:01:23.03,*Default,NTP,0000,0000,0000,,we use h3.
+Dialogue: 0,0:01:24.47,0:01:26.62,*Default,NTP,0000,0000,0000,,Pasting the same text there.
+Dialogue: 0,0:01:29.28,0:01:31.77,*Default,NTP,0000,0000,0000,,And now we just have to repeat all of this
+Dialogue: 0,0:01:31.77,0:01:34.13,*Default,NTP,0000,0000,0000,,all the way down to h6.
+Dialogue: 0,0:01:37.65,0:01:38.51,*Default,NTP,0000,0000,0000,,All right,
+Dialogue: 0,0:01:38.51,0:01:41.14,*Default,NTP,0000,0000,0000,,and as you're typing this,
+Dialogue: 0,0:01:41.14,0:01:42.20,*Default,NTP,0000,0000,0000,,these characters,
+Dialogue: 0,0:01:42.20,0:01:43.58,*Default,NTP,0000,0000,0000,,so this code,
+Dialogue: 0,0:01:43.58,0:01:46.37,*Default,NTP,0000,0000,0000,,all of this will start getting into your brain
+Dialogue: 0,0:01:46.37,0:01:49.76,*Default,NTP,0000,0000,0000,,and you will start getting practice writing HTML.
+Dialogue: 0,0:01:52.60,0:01:54.16,*Default,NTP,0000,0000,0000,,So h6,
+Dialogue: 0,0:01:54.16,0:01:56.49,*Default,NTP,0000,0000,0000,,and then let's give it a save
+Dialogue: 0,0:01:57.49,0:01:59.90,*Default,NTP,0000,0000,0000,,and then reloading the browser.
+Dialogue: 0,0:01:59.90,0:02:02.15,*Default,NTP,0000,0000,0000,,And so you can see very nicely
+Dialogue: 0,0:02:02.15,0:02:06.71,*Default,NTP,0000,0000,0000,,that this really created a visual hierarchy basically
+Dialogue: 0,0:02:06.71,0:02:09.01,*Default,NTP,0000,0000,0000,,between these six headings.
+Dialogue: 0,0:02:09.01,0:02:11.83,*Default,NTP,0000,0000,0000,,So the first one is the biggest one by far,
+Dialogue: 0,0:02:11.83,0:02:13.23,*Default,NTP,0000,0000,0000,,and then this last one,
+Dialogue: 0,0:02:13.23,0:02:14.83,*Default,NTP,0000,0000,0000,,which is the h6
+Dialogue: 0,0:02:14.83,0:02:16.89,*Default,NTP,0000,0000,0000,,is kind of small.
+Dialogue: 0,0:02:16.89,0:02:20.48,*Default,NTP,0000,0000,0000,,And then in between we have all these different variations.
+Dialogue: 0,0:02:20.48,0:02:21.53,*Default,NTP,0000,0000,0000,,Now okay.
+Dialogue: 0,0:02:21.53,0:02:25.01,*Default,NTP,0000,0000,0000,,So now we know how these different headings work,
+Dialogue: 0,0:02:25.01,0:02:26.73,*Default,NTP,0000,0000,0000,,but now let's take a look
+Dialogue: 0,0:02:26.73,0:02:28.86,*Default,NTP,0000,0000,0000,,at our demo page actually
+Dialogue: 0,0:02:28.86,0:02:32.53,*Default,NTP,0000,0000,0000,,just to see which kind of headings we actually need.
+Dialogue: 0,0:02:32.53,0:02:37.19,*Default,NTP,0000,0000,0000,,So we have basically the name of this block,
+Dialogue: 0,0:02:37.19,0:02:38.68,*Default,NTP,0000,0000,0000,,so the code magazine,
+Dialogue: 0,0:02:38.68,0:02:41.13,*Default,NTP,0000,0000,0000,,and this is the biggest heading.
+Dialogue: 0,0:02:41.13,0:02:45.03,*Default,NTP,0000,0000,0000,,Then below that we have the name of the article,
+Dialogue: 0,0:02:45.03,0:02:46.57,*Default,NTP,0000,0000,0000,,so of this block post,
+Dialogue: 0,0:02:46.57,0:02:48.82,*Default,NTP,0000,0000,0000,,and this one is a little bit smaller,
+Dialogue: 0,0:02:48.82,0:02:51.09,*Default,NTP,0000,0000,0000,,so it's not a primary heading anymore,
+Dialogue: 0,0:02:51.09,0:02:52.97,*Default,NTP,0000,0000,0000,,but it is a secondary heading.
+Dialogue: 0,0:02:53.83,0:02:57.43,*Default,NTP,0000,0000,0000,,Then inside of this text here,
+Dialogue: 0,0:02:57.43,0:03:00.15,*Default,NTP,0000,0000,0000,,and remembered how I said that heading
+Dialogue: 0,0:03:00.15,0:03:04.95,*Default,NTP,0000,0000,0000,,is basically to break up texts into logical sections, right?
+Dialogue: 0,0:03:04.95,0:03:06.97,*Default,NTP,0000,0000,0000,,And so here in between this text
+Dialogue: 0,0:03:06.97,0:03:08.85,*Default,NTP,0000,0000,0000,,we have another section.
+Dialogue: 0,0:03:08.85,0:03:10.52,*Default,NTP,0000,0000,0000,,And so here inside this,
+Dialogue: 0,0:03:10.52,0:03:12.69,*Default,NTP,0000,0000,0000,,let's say block post,
+Dialogue: 0,0:03:12.69,0:03:14.74,*Default,NTP,0000,0000,0000,,and we have another heading.
+Dialogue: 0,0:03:14.74,0:03:16.96,*Default,NTP,0000,0000,0000,,And so this should probably be an h3.
+Dialogue: 0,0:03:18.80,0:03:19.63,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:03:19.63,0:03:24.59,*Default,NTP,0000,0000,0000,,And so let's now create a markup for this kind of structure.
+Dialogue: 0,0:03:25.62,0:03:29.67,*Default,NTP,0000,0000,0000,,So we have all these texts that we need actually here.
+Dialogue: 0,0:03:29.67,0:03:32.99,*Default,NTP,0000,0000,0000,,So we just need to copy paste this code here,
+Dialogue: 0,0:03:32.99,0:03:33.96,*Default,NTP,0000,0000,0000,,or this text.
+Dialogue: 0,0:03:36.22,0:03:37.60,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:03:37.60,0:03:39.95,*Default,NTP,0000,0000,0000,,So I'm leaving this here for now for reference.
+Dialogue: 0,0:03:42.59,0:03:43.42,*Default,NTP,0000,0000,0000,,And so,
+Dialogue: 0,0:03:43.42,0:03:46.20,*Default,NTP,0000,0000,0000,,remember we are going to start with the primary heading.
+Dialogue: 0,0:03:46.20,0:03:47.74,*Default,NTP,0000,0000,0000,,So I'll just paste this here
+Dialogue: 0,0:03:47.74,0:03:49.29,*Default,NTP,0000,0000,0000,,and then close the h1.
+Dialogue: 0,0:03:51.38,0:03:52.57,*Default,NTP,0000,0000,0000,,Now okay.
+Dialogue: 0,0:03:52.57,0:03:55.82,*Default,NTP,0000,0000,0000,,Then let's create our secondary heading.
+Dialogue: 0,0:03:55.82,0:03:58.33,*Default,NTP,0000,0000,0000,,And again I will grab
+Dialogue: 0,0:03:58.33,0:04:00.51,*Default,NTP,0000,0000,0000,,the texts from here.
+Dialogue: 0,0:04:01.54,0:04:02.50,*Default,NTP,0000,0000,0000,,And so that's...
+Dialogue: 0,0:04:03.40,0:04:06.22,*Default,NTP,0000,0000,0000,,Well that's actually the one that we already had before.
+Dialogue: 0,0:04:06.22,0:04:08.52,*Default,NTP,0000,0000,0000,,So this one is exactly the same as this one,
+Dialogue: 0,0:04:09.54,0:04:11.35,*Default,NTP,0000,0000,0000,,but that doesn't really matter.
+Dialogue: 0,0:04:11.35,0:04:12.18,*Default,NTP,0000,0000,0000,,It's no problem.
+Dialogue: 0,0:04:13.84,0:04:15.49,*Default,NTP,0000,0000,0000,,And then let's get our h3
+Dialogue: 0,0:04:15.49,0:04:19.13,*Default,NTP,0000,0000,0000,,which is what is HTML.
+Dialogue: 0,0:04:20.03,0:04:21.17,*Default,NTP,0000,0000,0000,,Let's just write that.
+Dialogue: 0,0:04:26.41,0:04:30.82,*Default,NTP,0000,0000,0000,,And then let's check out what this looks like
+Dialogue: 0,0:04:30.82,0:04:32.22,*Default,NTP,0000,0000,0000,,and here we go.
+Dialogue: 0,0:04:33.25,0:04:34.08,*Default,NTP,0000,0000,0000,,Nice.
+Dialogue: 0,0:04:34.08,0:04:35.80,*Default,NTP,0000,0000,0000,,So this is kind of the structure
+Dialogue: 0,0:04:35.80,0:04:38.28,*Default,NTP,0000,0000,0000,,of our text right now,
+Dialogue: 0,0:04:38.28,0:04:39.96,*Default,NTP,0000,0000,0000,,and now we just need to fill it up
+Dialogue: 0,0:04:39.96,0:04:42.92,*Default,NTP,0000,0000,0000,,with the paragraphs in between.
+Dialogue: 0,0:04:42.92,0:04:47.02,*Default,NTP,0000,0000,0000,,So basically for each of these paragraphs
+Dialogue: 0,0:04:47.02,0:04:48.39,*Default,NTP,0000,0000,0000,,that we have in the text
+Dialogue: 0,0:04:48.39,0:04:52.21,*Default,NTP,0000,0000,0000,,we can simply create a paragraph and a code.
+Dialogue: 0,0:04:52.21,0:04:53.12,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:04:53.12,0:04:57.02,*Default,NTP,0000,0000,0000,,And we already used the paragraph element before,
+Dialogue: 0,0:04:57.02,0:04:59.58,*Default,NTP,0000,0000,0000,,and so that's kind of a generic element
+Dialogue: 0,0:04:59.58,0:05:03.16,*Default,NTP,0000,0000,0000,,that we use to mark up bigger blocks of text.
+Dialogue: 0,0:05:05.42,0:05:08.76,*Default,NTP,0000,0000,0000,,So remember that's the "p" element,
+Dialogue: 0,0:05:08.76,0:05:11.66,*Default,NTP,0000,0000,0000,,and let me just grab the content here.
+Dialogue: 0,0:05:11.66,0:05:12.98,*Default,NTP,0000,0000,0000,,So the first one that we have here
+Dialogue: 0,0:05:12.98,0:05:17.67,*Default,NTP,0000,0000,0000,,is posted by Laura Jones on Monday, June 21st.
+Dialogue: 0,0:05:19.11,0:05:20.96,*Default,NTP,0000,0000,0000,,Let me copy it.
+Dialogue: 0,0:05:20.96,0:05:22.26,*Default,NTP,0000,0000,0000,,Oh and do you see that now
+Dialogue: 0,0:05:23.24,0:05:26.11,*Default,NTP,0000,0000,0000,,this element was again closed automatically.
+Dialogue: 0,0:05:27.94,0:05:29.42,*Default,NTP,0000,0000,0000,,Let's give it a save here.
+Dialogue: 0,0:05:30.77,0:05:33.45,*Default,NTP,0000,0000,0000,,And now let's create some additional paragraphs here.
+Dialogue: 0,0:05:35.52,0:05:36.37,*Default,NTP,0000,0000,0000,,So the p element,
+Dialogue: 0,0:05:36.37,0:05:39.27,*Default,NTP,0000,0000,0000,,and let me actually close it immediately here,
+Dialogue: 0,0:05:40.13,0:05:42.34,*Default,NTP,0000,0000,0000,,and then let's grab our text.
+Dialogue: 0,0:05:43.69,0:05:45.53,*Default,NTP,0000,0000,0000,,So it's this one here.
+Dialogue: 0,0:05:47.26,0:05:48.89,*Default,NTP,0000,0000,0000,,So copy
+Dialogue: 0,0:05:48.89,0:05:50.30,*Default,NTP,0000,0000,0000,,and paste.
+Dialogue: 0,0:05:52.45,0:05:54.72,*Default,NTP,0000,0000,0000,,And so by now we are starting
+Dialogue: 0,0:05:54.72,0:05:58.07,*Default,NTP,0000,0000,0000,,to build a really our project at the same time
+Dialogue: 0,0:05:58.07,0:06:00.02,*Default,NTP,0000,0000,0000,,as learning about these elements.
+Dialogue: 0,0:06:01.20,0:06:03.50,*Default,NTP,0000,0000,0000,,So this one here as well,
+Dialogue: 0,0:06:03.50,0:06:05.10,*Default,NTP,0000,0000,0000,,so I'm copying it again
+Dialogue: 0,0:06:05.10,0:06:07.96,*Default,NTP,0000,0000,0000,,and then pasting it inside of the p element.
+Dialogue: 0,0:06:09.81,0:06:11.54,*Default,NTP,0000,0000,0000,,So let's give it a save
+Dialogue: 0,0:06:11.54,0:06:14.00,*Default,NTP,0000,0000,0000,,and reload it again
+Dialogue: 0,0:06:14.00,0:06:17.01,*Default,NTP,0000,0000,0000,,and that's looking nice already.
+Dialogue: 0,0:06:17.01,0:06:18.12,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:06:18.12,0:06:19.44,*Default,NTP,0000,0000,0000,,Let's take a look,
+Dialogue: 0,0:06:19.44,0:06:21.99,*Default,NTP,0000,0000,0000,,and now let's just grab two more,
+Dialogue: 0,0:06:21.99,0:06:24.48,*Default,NTP,0000,0000,0000,,so these two paragraphs here.
+Dialogue: 0,0:06:24.48,0:06:27.26,*Default,NTP,0000,0000,0000,,So after the h3 that we have down here,
+Dialogue: 0,0:06:28.88,0:06:32.45,*Default,NTP,0000,0000,0000,,so "p" and closing it immediately as well.
+Dialogue: 0,0:06:35.69,0:06:39.95,*Default,NTP,0000,0000,0000,,So just double clicking to selecting all of it,
+Dialogue: 0,0:06:39.95,0:06:41.39,*Default,NTP,0000,0000,0000,,just a nice technique.
+Dialogue: 0,0:06:42.81,0:06:46.73,*Default,NTP,0000,0000,0000,,And then let's just add the final one.
+Dialogue: 0,0:06:54.86,0:06:56.26,*Default,NTP,0000,0000,0000,,And you'll see that in the meantime
+Dialogue: 0,0:06:56.26,0:06:57.95,*Default,NTP,0000,0000,0000,,it formatted to code here
+Dialogue: 0,0:06:57.95,0:07:00.17,*Default,NTP,0000,0000,0000,,and that's because of the auto save
+Dialogue: 0,0:07:00.17,0:07:01.49,*Default,NTP,0000,0000,0000,,and the auto format.
+Dialogue: 0,0:07:02.69,0:07:03.52,*Default,NTP,0000,0000,0000,,Okay,
+Dialogue: 0,0:07:03.52,0:07:05.91,*Default,NTP,0000,0000,0000,,now I saved it manually actually.
+Dialogue: 0,0:07:05.91,0:07:07.51,*Default,NTP,0000,0000,0000,,Let's go here
+Dialogue: 0,0:07:07.51,0:07:10.43,*Default,NTP,0000,0000,0000,,and there is our content again.
+Dialogue: 0,0:07:10.43,0:07:12.37,*Default,NTP,0000,0000,0000,,Now to clean this up a little bit
+Dialogue: 0,0:07:12.37,0:07:13.94,*Default,NTP,0000,0000,0000,,let's now actually get rid
+Dialogue: 0,0:07:13.94,0:07:16.65,*Default,NTP,0000,0000,0000,,of all of these six headings here.
+Dialogue: 0,0:07:16.65,0:07:19.55,*Default,NTP,0000,0000,0000,,So now you already know how they work
+Dialogue: 0,0:07:19.55,0:07:20.69,*Default,NTP,0000,0000,0000,,and that they exist.
+Dialogue: 0,0:07:21.60,0:07:24.03,*Default,NTP,0000,0000,0000,,And actually instead of getting rid of them,
+Dialogue: 0,0:07:24.03,0:07:27.89,*Default,NTP,0000,0000,0000,,we can use something called "Comments" in HTML.
+Dialogue: 0,0:07:27.89,0:07:30.08,*Default,NTP,0000,0000,0000,,So a comment in HTML
+Dialogue: 0,0:07:30.08,0:07:32.35,*Default,NTP,0000,0000,0000,,is a way of writing some code
+Dialogue: 0,0:07:32.35,0:07:35.13,*Default,NTP,0000,0000,0000,,that will not be visible in the browser.
+Dialogue: 0,0:07:35.13,0:07:36.55,*Default,NTP,0000,0000,0000,,And this is very useful
+Dialogue: 0,0:07:36.55,0:07:40.33,*Default,NTP,0000,0000,0000,,because it allows us to write comments about our code,
+Dialogue: 0,0:07:40.33,0:07:42.95,*Default,NTP,0000,0000,0000,,or also to simply hide some code
+Dialogue: 0,0:07:42.95,0:07:46.23,*Default,NTP,0000,0000,0000,,that we do not want to be rendered on the browser.
+Dialogue: 0,0:07:47.38,0:07:48.89,*Default,NTP,0000,0000,0000,,Now to write a comment
+Dialogue: 0,0:07:48.89,0:07:51.41,*Default,NTP,0000,0000,0000,,it's a little bit of a weird syntax.
+Dialogue: 0,0:07:51.41,0:07:54.86,*Default,NTP,0000,0000,0000,,So again we write the less than symbol,
+Dialogue: 0,0:07:54.86,0:07:57.35,*Default,NTP,0000,0000,0000,,then an exclamation mark,
+Dialogue: 0,0:07:57.35,0:07:59.49,*Default,NTP,0000,0000,0000,,then dash dash,
+Dialogue: 0,0:07:59.49,0:08:02.24,*Default,NTP,0000,0000,0000,,and then to close the comment VS code
+Dialogue: 0,0:08:02.24,0:08:05.04,*Default,NTP,0000,0000,0000,,already automatically created,
+Dialogue: 0,0:08:05.04,0:08:07.92,*Default,NTP,0000,0000,0000,,this dash dash closing part.
+Dialogue: 0,0:08:07.92,0:08:09.97,*Default,NTP,0000,0000,0000,,So this opens a new comment
+Dialogue: 0,0:08:09.97,0:08:13.60,*Default,NTP,0000,0000,0000,,and this closes that same comment.
+Dialogue: 0,0:08:13.60,0:08:16.34,*Default,NTP,0000,0000,0000,,Now let's remove this part here
+Dialogue: 0,0:08:16.34,0:08:19.43,*Default,NTP,0000,0000,0000,,and now you'll see that everything turned gray.
+Dialogue: 0,0:08:19.43,0:08:21.81,*Default,NTP,0000,0000,0000,,So all of this is a comment now,
+Dialogue: 0,0:08:21.81,0:08:23.41,*Default,NTP,0000,0000,0000,,but we actually want the comment
+Dialogue: 0,0:08:23.41,0:08:25.21,*Default,NTP,0000,0000,0000,,to end right here.
+Dialogue: 0,0:08:26.80,0:08:29.70,*Default,NTP,0000,0000,0000,,So "dash dash" and close,
+Dialogue: 0,0:08:29.70,0:08:32.20,*Default,NTP,0000,0000,0000,,and now only this part here is gray,
+Dialogue: 0,0:08:32.20,0:08:34.36,*Default,NTP,0000,0000,0000,,which means that this is now the comment
+Dialogue: 0,0:08:34.36,0:08:36.20,*Default,NTP,0000,0000,0000,,and it will now not be rendered.
+Dialogue: 0,0:08:37.19,0:08:39.09,*Default,NTP,0000,0000,0000,,So let's check that out.
+Dialogue: 0,0:08:39.09,0:08:40.85,*Default,NTP,0000,0000,0000,,And if I reload,
+Dialogue: 0,0:08:40.85,0:08:43.62,*Default,NTP,0000,0000,0000,,now it is gone from the page.
+Dialogue: 0,0:08:43.62,0:08:44.50,*Default,NTP,0000,0000,0000,,Nice.
+Dialogue: 0,0:08:44.50,0:08:46.99,*Default,NTP,0000,0000,0000,,But we can still keep it here in the code
+Dialogue: 0,0:08:46.99,0:08:51.99,*Default,NTP,0000,0000,0000,,just so you know that h1, 2, 3, 4, 5, and six also exist.
+Dialogue: 0,0:08:52.18,0:08:54.68,*Default,NTP,0000,0000,0000,,Now just one thing that I didn't mention earlier
+Dialogue: 0,0:08:54.68,0:08:56.68,*Default,NTP,0000,0000,0000,,about the headings
+Dialogue: 0,0:08:56.68,0:08:58.46,*Default,NTP,0000,0000,0000,,is that each and every page
+Dialogue: 0,0:08:58.46,0:09:01.73,*Default,NTP,0000,0000,0000,,should only have one h1 one heading.
+Dialogue: 0,0:09:01.73,0:09:03.78,*Default,NTP,0000,0000,0000,,So only one primary heading.
+Dialogue: 0,0:09:03.78,0:09:06.09,*Default,NTP,0000,0000,0000,,That it's very important to keep in mind.
+Dialogue: 0,0:09:06.09,0:09:08.38,*Default,NTP,0000,0000,0000,,This is not really mandatory
+Dialogue: 0,0:09:08.38,0:09:11.23,*Default,NTP,0000,0000,0000,,so it doesn't violate any HTML rules
+Dialogue: 0,0:09:11.23,0:09:13.33,*Default,NTP,0000,0000,0000,,if we have multiple h1's,
+Dialogue: 0,0:09:13.33,0:09:15.16,*Default,NTP,0000,0000,0000,,but it is a very good practice
+Dialogue: 0,0:09:15.16,0:09:17.73,*Default,NTP,0000,0000,0000,,to always just have one of them.
+Dialogue: 0,0:09:17.73,0:09:19.58,*Default,NTP,0000,0000,0000,,Now about all the other ones,
+Dialogue: 0,0:09:19.58,0:09:22.27,*Default,NTP,0000,0000,0000,,we can have of course multiple of them.
+Dialogue: 0,0:09:22.27,0:09:23.93,*Default,NTP,0000,0000,0000,,So for example,
+Dialogue: 0,0:09:23.93,0:09:25.94,*Default,NTP,0000,0000,0000,,I think on our page we actually have
+Dialogue: 0,0:09:25.94,0:09:28.30,*Default,NTP,0000,0000,0000,,another of these headings here
+Dialogue: 0,0:09:28.30,0:09:30.31,*Default,NTP,0000,0000,0000,,in the middle of our text.
+Dialogue: 0,0:09:30.31,0:09:31.65,*Default,NTP,0000,0000,0000,,And so in our case,
+Dialogue: 0,0:09:31.65,0:09:33.46,*Default,NTP,0000,0000,0000,,these are h3 headings.
+Dialogue: 0,0:09:34.64,0:09:36.24,*Default,NTP,0000,0000,0000,,So you see,
+Dialogue: 0,0:09:36.24,0:09:37.07,*Default,NTP,0000,0000,0000,,here is another one.
+Dialogue: 0,0:09:37.07,0:09:39.16,*Default,NTP,0000,0000,0000,,So of course we can also add that here
+Dialogue: 0,0:09:40.07,0:09:41.05,*Default,NTP,0000,0000,0000,,right away,
+Dialogue: 0,0:09:41.05,0:09:42.54,*Default,NTP,0000,0000,0000,,why not?
+Dialogue: 0,0:09:42.54,0:09:43.86,*Default,NTP,0000,0000,0000,,So h3,
+Dialogue: 0,0:09:43.86,0:09:47.66,*Default,NTP,0000,0000,0000,,"Why should you learn HTML?",
+Dialogue: 0,0:09:50.23,0:09:53.82,*Default,NTP,0000,0000,0000,,and then of course closing it.
+Dialogue: 0,0:09:53.82,0:09:54.65,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:55.53,0:09:57.62,*Default,NTP,0000,0000,0000,,Now just to finish,
+Dialogue: 0,0:09:57.62,0:09:58.50,*Default,NTP,0000,0000,0000,,let me also quickly show you
+Dialogue: 0,0:09:58.50,0:10:00.23,*Default,NTP,0000,0000,0000,,how we can create bold
+Dialogue: 0,0:10:00.23,0:10:02.64,*Default,NTP,0000,0000,0000,,and a italic text.
+Dialogue: 0,0:10:02.64,0:10:04.79,*Default,NTP,0000,0000,0000,,So here in our demo site
+Dialogue: 0,0:10:04.79,0:10:07.21,*Default,NTP,0000,0000,0000,,we have this name of the author,
+Dialogue: 0,0:10:07.21,0:10:10.07,*Default,NTP,0000,0000,0000,,which is "Laura Jones" in bold.
+Dialogue: 0,0:10:10.07,0:10:13.44,*Default,NTP,0000,0000,0000,,So how can we do that in HTML?
+Dialogue: 0,0:10:13.44,0:10:15.95,*Default,NTP,0000,0000,0000,,Well there is a special element for that,
+Dialogue: 0,0:10:15.95,0:10:18.65,*Default,NTP,0000,0000,0000,,or actually two elements.
+Dialogue: 0,0:10:18.65,0:10:20.42,*Default,NTP,0000,0000,0000,,And let me start with a simpler one,
+Dialogue: 0,0:10:20.42,0:10:22.81,*Default,NTP,0000,0000,0000,,which is simply called "b".
+Dialogue: 0,0:10:22.81,0:10:24.80,*Default,NTP,0000,0000,0000,,So B stands for "Bold".
+Dialogue: 0,0:10:24.80,0:10:27.78,*Default,NTP,0000,0000,0000,,And so the part that we want to be bold,
+Dialogue: 0,0:10:27.78,0:10:29.97,*Default,NTP,0000,0000,0000,,so "Laura Jones" in this case,
+Dialogue: 0,0:10:29.97,0:10:30.94,*Default,NTP,0000,0000,0000,,all they have to do
+Dialogue: 0,0:10:31.91,0:10:34.60,*Default,NTP,0000,0000,0000,,is to put it inside of a b element.
+Dialogue: 0,0:10:34.60,0:10:36.58,*Default,NTP,0000,0000,0000,,So we can just write
+Dialogue: 0,0:10:37.62,0:10:38.91,*Default,NTP,0000,0000,0000,,b like this
+Dialogue: 0,0:10:40.02,0:10:40.89,*Default,NTP,0000,0000,0000,,in the beginning
+Dialogue: 0,0:10:41.82,0:10:43.16,*Default,NTP,0000,0000,0000,,and then at the end of the content
+Dialogue: 0,0:10:43.16,0:10:44.97,*Default,NTP,0000,0000,0000,,we simply add our closing tag.
+Dialogue: 0,0:10:45.98,0:10:46.81,*Default,NTP,0000,0000,0000,,So that's "/b",
+Dialogue: 0,0:10:47.88,0:10:49.43,*Default,NTP,0000,0000,0000,,close it,
+Dialogue: 0,0:10:49.43,0:10:52.73,*Default,NTP,0000,0000,0000,,and now once we reload or own page.
+Dialogue: 0,0:10:53.86,0:10:56.92,*Default,NTP,0000,0000,0000,,So take a look here at "Laura Jones",
+Dialogue: 0,0:10:56.92,0:10:58.63,*Default,NTP,0000,0000,0000,,if we reload that
+Dialogue: 0,0:10:58.63,0:11:01.11,*Default,NTP,0000,0000,0000,,then you see that it turned bold,
+Dialogue: 0,0:11:01.11,0:11:02.89,*Default,NTP,0000,0000,0000,,and great.
+Dialogue: 0,0:11:02.89,0:11:04.49,*Default,NTP,0000,0000,0000,,Now however,
+Dialogue: 0,0:11:04.49,0:11:08.44,*Default,NTP,0000,0000,0000,,the use of b is actually not a good practice.
+Dialogue: 0,0:11:08.44,0:11:11.73,*Default,NTP,0000,0000,0000,,So b is actually an older HTML element
+Dialogue: 0,0:11:11.73,0:11:14.07,*Default,NTP,0000,0000,0000,,and starting in HTML five,
+Dialogue: 0,0:11:14.07,0:11:18.16,*Default,NTP,0000,0000,0000,,we should always use the strong element instead of "b".
+Dialogue: 0,0:11:18.16,0:11:19.18,*Default,NTP,0000,0000,0000,,The reason for that
+Dialogue: 0,0:11:19.18,0:11:23.73,*Default,NTP,0000,0000,0000,,is that b doesn't have any so-called semantic meaning,
+Dialogue: 0,0:11:23.73,0:11:27.25,*Default,NTP,0000,0000,0000,,and more about that a little bit later in this section.
+Dialogue: 0,0:11:27.25,0:11:29.25,*Default,NTP,0000,0000,0000,,But essentially what this means
+Dialogue: 0,0:11:29.25,0:11:32.01,*Default,NTP,0000,0000,0000,,is that b is simply an element,
+Dialogue: 0,0:11:32.01,0:11:34.56,*Default,NTP,0000,0000,0000,,but without a specific meaning,
+Dialogue: 0,0:11:34.56,0:11:38.56,*Default,NTP,0000,0000,0000,,while on the other hand the strong element means that
+Dialogue: 0,0:11:38.56,0:11:40.61,*Default,NTP,0000,0000,0000,,this is really an important element
+Dialogue: 0,0:11:40.61,0:11:43.05,*Default,NTP,0000,0000,0000,,that we want to stand out from the page.
+Dialogue: 0,0:11:43.96,0:11:48.53,*Default,NTP,0000,0000,0000,,So if we say "Strong" on the opening tag,
+Dialogue: 0,0:11:48.53,0:11:51.78,*Default,NTP,0000,0000,0000,,and then of course also in the closing tag,
+Dialogue: 0,0:11:51.78,0:11:55.12,*Default,NTP,0000,0000,0000,,then it will look exactly the same in the browser.
+Dialogue: 0,0:11:55.12,0:11:56.28,*Default,NTP,0000,0000,0000,,So let's confirm.
+Dialogue: 0,0:11:57.14,0:11:58.75,*Default,NTP,0000,0000,0000,,Yeah it's still bold,
+Dialogue: 0,0:11:58.75,0:12:00.35,*Default,NTP,0000,0000,0000,,but now it has a meaning
+Dialogue: 0,0:12:00.35,0:12:02.88,*Default,NTP,0000,0000,0000,,that it is a more important text.
+Dialogue: 0,0:12:02.88,0:12:06.98,*Default,NTP,0000,0000,0000,,And that is essentially the idea of semantic HTML.
+Dialogue: 0,0:12:06.98,0:12:07.81,*Default,NTP,0000,0000,0000,,And again,
+Dialogue: 0,0:12:07.81,0:12:10.55,*Default,NTP,0000,0000,0000,,we will talk more about semantic HTML
+Dialogue: 0,0:12:10.55,0:12:11.92,*Default,NTP,0000,0000,0000,,by the end of this section.
+Dialogue: 0,0:12:13.09,0:12:16.47,*Default,NTP,0000,0000,0000,,So for now just know that don't use "b",
+Dialogue: 0,0:12:16.47,0:12:19.31,*Default,NTP,0000,0000,0000,,but use "Strong" to make text bold.
+Dialogue: 0,0:12:20.60,0:12:23.86,*Default,NTP,0000,0000,0000,,Now let's also make some text italic here,
+Dialogue: 0,0:12:23.86,0:12:27.30,*Default,NTP,0000,0000,0000,,and let's choose this word here.
+Dialogue: 0,0:12:27.30,0:12:29.48,*Default,NTP,0000,0000,0000,,So just fundamental.
+Dialogue: 0,0:12:29.48,0:12:30.93,*Default,NTP,0000,0000,0000,,And just like with "b",
+Dialogue: 0,0:12:30.93,0:12:33.32,*Default,NTP,0000,0000,0000,,there are actually two ways of doing it.
+Dialogue: 0,0:12:33.32,0:12:34.24,*Default,NTP,0000,0000,0000,,The older one
+Dialogue: 0,0:12:34.24,0:12:35.87,*Default,NTP,0000,0000,0000,,is the "i" element.
+Dialogue: 0,0:12:36.88,0:12:40.17,*Default,NTP,0000,0000,0000,,So wrapping whatever part of the text we want
+Dialogue: 0,0:12:40.17,0:12:43.43,*Default,NTP,0000,0000,0000,,to be italic inside of the i element.
+Dialogue: 0,0:12:44.96,0:12:47.16,*Default,NTP,0000,0000,0000,,"i" just stands for italic,
+Dialogue: 0,0:12:48.05,0:12:49.68,*Default,NTP,0000,0000,0000,,and indeed,
+Dialogue: 0,0:12:49.68,0:12:51.81,*Default,NTP,0000,0000,0000,,you see that now it changed,
+Dialogue: 0,0:12:51.81,0:12:56.43,*Default,NTP,0000,0000,0000,,but one more time in order to make this a semantic HTML,
+Dialogue: 0,0:12:56.43,0:12:58.76,*Default,NTP,0000,0000,0000,,we should no longer use the "i" element,
+Dialogue: 0,0:12:58.76,0:13:01.18,*Default,NTP,0000,0000,0000,,but the "em" element,
+Dialogue: 0,0:13:01.18,0:13:03.96,*Default,NTP,0000,0000,0000,,which stands for "Emphasize".
+Dialogue: 0,0:13:03.96,0:13:06.89,*Default,NTP,0000,0000,0000,,So we want to emphasize this text here
+Dialogue: 0,0:13:06.89,0:13:09.56,*Default,NTP,0000,0000,0000,,and that is the reason why we make it italic.
+Dialogue: 0,0:13:09.56,0:13:12.46,*Default,NTP,0000,0000,0000,,So that's also the reason why the browser
+Dialogue: 0,0:13:12.46,0:13:14.68,*Default,NTP,0000,0000,0000,,then shows it as italic,
+Dialogue: 0,0:13:16.06,0:13:16.89,*Default,NTP,0000,0000,0000,,right?
+Dialogue: 0,0:13:16.89,0:13:19.81,*Default,NTP,0000,0000,0000,,So if we reload it is still italic,
+Dialogue: 0,0:13:19.81,0:13:22.56,*Default,NTP,0000,0000,0000,,but now we basically gave it the meaning
+Dialogue: 0,0:13:22.56,0:13:25.32,*Default,NTP,0000,0000,0000,,of an emphasized text.
+Dialogue: 0,0:13:25.32,0:13:26.64,*Default,NTP,0000,0000,0000,,Now okay, great.
+Dialogue: 0,0:13:26.64,0:13:28.69,*Default,NTP,0000,0000,0000,,This is great progress.
+Dialogue: 0,0:13:28.69,0:13:31.89,*Default,NTP,0000,0000,0000,,You're doing really well up until this point.
+Dialogue: 0,0:13:31.89,0:13:34.02,*Default,NTP,0000,0000,0000,,Now just to finish this lecture,
+Dialogue: 0,0:13:34.02,0:13:35.96,*Default,NTP,0000,0000,0000,,I actually already want to give you
+Dialogue: 0,0:13:35.96,0:13:39.06,*Default,NTP,0000,0000,0000,,your very first small coding challenge.
+Dialogue: 0,0:13:39.06,0:13:41.14,*Default,NTP,0000,0000,0000,,So what I want you to do
+Dialogue: 0,0:13:41.14,0:13:43.81,*Default,NTP,0000,0000,0000,,is basically this.
+Dialogue: 0,0:13:43.81,0:13:46.02,*Default,NTP,0000,0000,0000,,Let me show it to you here.
+Dialogue: 0,0:13:46.02,0:13:51.02,*Default,NTP,0000,0000,0000,,So I want you to make the first letter of these words,
+Dialogue: 0,0:13:51.40,0:13:54.72,*Default,NTP,0000,0000,0000,,so "Hyper Text Markup Language",
+Dialogue: 0,0:13:54.72,0:13:59.12,*Default,NTP,0000,0000,0000,,I want you to make the H, T, M, and L bold.
+Dialogue: 0,0:14:00.28,0:14:01.23,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:14:01.23,0:14:04.80,*Default,NTP,0000,0000,0000,,So basically that is this text right here.
+Dialogue: 0,0:14:06.08,0:14:07.71,*Default,NTP,0000,0000,0000,,So this H,
+Dialogue: 0,0:14:07.71,0:14:09.00,*Default,NTP,0000,0000,0000,,this T,
+Dialogue: 0,0:14:09.00,0:14:10.04,*Default,NTP,0000,0000,0000,,this M,
+Dialogue: 0,0:14:10.04,0:14:11.16,*Default,NTP,0000,0000,0000,,and this L,
+Dialogue: 0,0:14:11.16,0:14:12.78,*Default,NTP,0000,0000,0000,,they should all be bold.
+Dialogue: 0,0:14:12.78,0:14:16.06,*Default,NTP,0000,0000,0000,,So they should be displayed here in bold
+Dialogue: 0,0:14:16.06,0:14:19.06,*Default,NTP,0000,0000,0000,,just like I have it in the demo page.
+Dialogue: 0,0:14:19.06,0:14:21.88,*Default,NTP,0000,0000,0000,,So do you think that you can do that
+Dialogue: 0,0:14:21.88,0:14:24.83,*Default,NTP,0000,0000,0000,,and write some HTML code on your own
+Dialogue: 0,0:14:24.83,0:14:27.08,*Default,NTP,0000,0000,0000,,for the very first time?
+Dialogue: 0,0:14:27.08,0:14:29.53,*Default,NTP,0000,0000,0000,,Well I really hope that you try it
+Dialogue: 0,0:14:29.53,0:14:31.80,*Default,NTP,0000,0000,0000,,because as I said before,
+Dialogue: 0,0:14:31.80,0:14:32.94,*Default,NTP,0000,0000,0000,,these coding challenges
+Dialogue: 0,0:14:32.94,0:14:35.00,*Default,NTP,0000,0000,0000,,are really really important for you
+Dialogue: 0,0:14:35.00,0:14:37.51,*Default,NTP,0000,0000,0000,,to start practicing your skills,
+Dialogue: 0,0:14:37.51,0:14:41.31,*Default,NTP,0000,0000,0000,,even if it's just something really simple like this.
+Dialogue: 0,0:14:41.31,0:14:42.45,*Default,NTP,0000,0000,0000,,So please go ahead
+Dialogue: 0,0:14:42.45,0:14:44.33,*Default,NTP,0000,0000,0000,,and pause the video right now
+Dialogue: 0,0:14:44.33,0:14:47.15,*Default,NTP,0000,0000,0000,,and make each of these four letters bold,
+Dialogue: 0,0:14:47.15,0:14:49.67,*Default,NTP,0000,0000,0000,,and I will be back here in a second with you
+Dialogue: 0,0:14:49.67,0:14:51.65,*Default,NTP,0000,0000,0000,,to show you how it's done.
+Dialogue: 0,0:14:54.17,0:14:56.89,*Default,NTP,0000,0000,0000,,So did you manage to do this?
+Dialogue: 0,0:14:57.73,0:15:00.56,*Default,NTP,0000,0000,0000,,Well this is how it works.
+Dialogue: 0,0:15:00.56,0:15:02.01,*Default,NTP,0000,0000,0000,,So once again,
+Dialogue: 0,0:15:02.01,0:15:04.94,*Default,NTP,0000,0000,0000,,we just need to wrap the parts
+Dialogue: 0,0:15:04.94,0:15:08.30,*Default,NTP,0000,0000,0000,,that we want to be marked as bold,
+Dialogue: 0,0:15:08.30,0:15:10.83,*Default,NTP,0000,0000,0000,,into a strong element.
+Dialogue: 0,0:15:10.83,0:15:11.87,*Default,NTP,0000,0000,0000,,And in this case,
+Dialogue: 0,0:15:11.87,0:15:13.48,*Default,NTP,0000,0000,0000,,that is just the "h"
+Dialogue: 0,0:15:14.46,0:15:15.91,*Default,NTP,0000,0000,0000,,and so that's why we're closing
+Dialogue: 0,0:15:15.91,0:15:17.93,*Default,NTP,0000,0000,0000,,this strong element right here
+Dialogue: 0,0:15:17.93,0:15:19.86,*Default,NTP,0000,0000,0000,,in the middle of the word.
+Dialogue: 0,0:15:21.02,0:15:24.12,*Default,NTP,0000,0000,0000,,Then here we want the "T" and so again,
+Dialogue: 0,0:15:25.44,0:15:26.43,*Default,NTP,0000,0000,0000,,we write...
+Dialogue: 0,0:15:30.60,0:15:31.63,*Default,NTP,0000,0000,0000,,And so again,
+Dialogue: 0,0:15:31.63,0:15:34.36,*Default,NTP,0000,0000,0000,,a strong element here.
+Dialogue: 0,0:15:34.36,0:15:35.80,*Default,NTP,0000,0000,0000,,So the opening tag,
+Dialogue: 0,0:15:36.69,0:15:38.66,*Default,NTP,0000,0000,0000,,and then the other one right here.
+Dialogue: 0,0:15:43.61,0:15:46.70,*Default,NTP,0000,0000,0000,,And of course then the same for the other two letters.
+Dialogue: 0,0:15:58.12,0:15:59.64,*Default,NTP,0000,0000,0000,,Now okay.
+Dialogue: 0,0:15:59.64,0:16:02.38,*Default,NTP,0000,0000,0000,,So hopefully I didn't do any mistake there.
+Dialogue: 0,0:16:02.38,0:16:04.31,*Default,NTP,0000,0000,0000,,Let's reload
+Dialogue: 0,0:16:04.31,0:16:06.26,*Default,NTP,0000,0000,0000,,and there you go.
+Dialogue: 0,0:16:06.26,0:16:08.76,*Default,NTP,0000,0000,0000,,HTML is now marked in bold.
+Dialogue: 0,0:16:09.75,0:16:10.72,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:16:10.72,0:16:11.55,*Default,NTP,0000,0000,0000,,So again,
+Dialogue: 0,0:16:11.55,0:16:14.36,*Default,NTP,0000,0000,0000,,I hope that you manage to do this on your own
+Dialogue: 0,0:16:14.36,0:16:17.67,*Default,NTP,0000,0000,0000,,as this is really important for your learning process.

@@ -1,0 +1,42 @@
+[Script Info]
+Title: 009 Section Intro_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=7&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.45,0:00:06.56,*Default,NTP,0000,0000,0000,,欢迎来到课程的第一部分。
+Dialogue: 0,0:00:06.56,0:00:10.07,*Default,NTP,0000,0000,0000,,因此，在本节中，我们将学习基础语言
+Dialogue: 0,0:00:10.07,0:00:13.93,*Default,NTP,0000,0000,0000,,Web 开发，即 HTML。
+Dialogue: 0,0:00:13.93,0:00:16.46,*Default,NTP,0000,0000,0000,,我们将通过构建来学习 HTML
+Dialogue: 0,0:00:16.46,0:00:19.99,*Default,NTP,0000,0000,0000,,一个非常小的示例项目，您将在其中学习
+Dialogue: 0,0:00:19.99,0:00:23.45,*Default,NTP,0000,0000,0000,,所有关于最重要的 HTML 元素。
+Dialogue: 0,0:00:23.45,0:00:27.26,*Default,NTP,0000,0000,0000,,因此，对于诸如创建标题、段落、
+Dialogue: 0,0:00:27.26,0:00:30.73,*Default,NTP,0000,0000,0000,,列表、图像、链接等。
+Dialogue: 0,0:00:31.61,0:00:35.58,*Default,NTP,0000,0000,0000,,好的，让我们现在就开始这段旅程吧。
+Dialogue: 0,0:00:35.58,0:00:38.25,*Default,NTP,0000,0000,0000,,（欢快的音乐）
+Dialogue: 0,0:00:02.45,0:00:06.56,*Default,NTP,0000,0000,0000,,Welcome to the first big section of the course.
+Dialogue: 0,0:00:06.56,0:00:10.07,*Default,NTP,0000,0000,0000,,So, in this section, we will learn the fundamental language
+Dialogue: 0,0:00:10.07,0:00:13.93,*Default,NTP,0000,0000,0000,,of web development, which is HTML.
+Dialogue: 0,0:00:13.93,0:00:16.46,*Default,NTP,0000,0000,0000,,And we're gonna learn HTML by building
+Dialogue: 0,0:00:16.46,0:00:19.99,*Default,NTP,0000,0000,0000,,a very small example project where you will learn
+Dialogue: 0,0:00:19.99,0:00:23.45,*Default,NTP,0000,0000,0000,,all about the most important HTML elements.
+Dialogue: 0,0:00:23.45,0:00:27.26,*Default,NTP,0000,0000,0000,,So, for things like creating headings, paragraphs,
+Dialogue: 0,0:00:27.26,0:00:30.73,*Default,NTP,0000,0000,0000,,lists, images, links, and more.
+Dialogue: 0,0:00:31.61,0:00:35.58,*Default,NTP,0000,0000,0000,,Okay, so let's go start this journey right now.
+Dialogue: 0,0:00:35.58,0:00:38.25,*Default,NTP,0000,0000,0000,,(upbeat music)

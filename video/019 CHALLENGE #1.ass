@@ -1,0 +1,423 @@
+[Script Info]
+Title: 019 CHALLENGE #1_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=17&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.54,0:00:04.90,*Default,NTP,0000,0000,0000,,现在是第一个大型编码挑战的时候了
+Dialogue: 0,0:00:04.90,0:00:08.08,*Default,NTP,0000,0000,0000,,在本课程中，让我们开始吧。
+Dialogue: 0,0:00:09.57,0:00:12.74,*Default,NTP,0000,0000,0000,,现在，在我们开始真正的挑战之前，
+Dialogue: 0,0:00:12.74,0:00:16.51,*Default,NTP,0000,0000,0000,,我想首先对文件结构进行一些更改
+Dialogue: 0,0:00:16.51,0:00:19.10,*Default,NTP,0000,0000,0000,,我们现在在这个项目中。
+Dialogue: 0,0:00:19.10,0:00:21.41,*Default,NTP,0000,0000,0000,,特别是，我想做什么
+Dialogue: 0,0:00:21.41,0:00:24.87,*Default,NTP,0000,0000,0000,,就是把所有的图片放到一个文件夹里，
+Dialogue: 0,0:00:24.87,0:00:29.75,*Default,NTP,0000,0000,0000,,这样我就可以向您展示我们如何包含图像，
+Dialogue: 0,0:00:29.75,0:00:34.62,*Default,NTP,0000,0000,0000,,像这样，当它们位于特定文件夹中时。
+Dialogue: 0,0:00:34.62,0:00:38.72,*Default,NTP,0000,0000,0000,,所以现在他们都是，正如我们在这里看到的，
+Dialogue: 0,0:00:38.72,0:00:41.57,*Default,NTP,0000,0000,0000,,它们都在同一个、完全相同的文件夹中
+Dialogue: 0,0:00:41.57,0:00:43.96,*Default,NTP,0000,0000,0000,,作为 index.html。
+Dialogue: 0,0:00:43.96,0:00:46.65,*Default,NTP,0000,0000,0000,,这就是为什么我们要做的一切
+Dialogue: 0,0:00:46.65,0:00:48.80,*Default,NTP,0000,0000,0000,,就是在这里声明名字，
+Dialogue: 0,0:00:48.80,0:00:51.05,*Default,NTP,0000,0000,0000,,然后浏览器会找到它们
+Dialogue: 0,0:00:51.05,0:00:54.19,*Default,NTP,0000,0000,0000,,基本上与 HTML 文档在同一个文件夹中。
+Dialogue: 0,0:00:55.32,0:00:59.76,*Default,NTP,0000,0000,0000,,但是现在让我们通过点击这个图标来创建一个新文件夹，
+Dialogue: 0,0:00:59.76,0:01:02.81,*Default,NTP,0000,0000,0000,,我会称它为IMG，
+Dialogue: 0,0:01:02.81,0:01:06.09,*Default,NTP,0000,0000,0000,,然后我将把所有的图像放在那里。
+Dialogue: 0,0:01:09.71,0:01:12.97,*Default,NTP,0000,0000,0000,,所以只是像这样拖放它们。
+Dialogue: 0,0:01:15.24,0:01:16.42,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:16.42,0:01:19.06,*Default,NTP,0000,0000,0000,,所以现在如果我们重新加载页面，
+Dialogue: 0,0:01:19.06,0:01:22.01,*Default,NTP,0000,0000,0000,,而不是这个，这是我们的演示，
+Dialogue: 0,0:01:22.01,0:01:23.62,*Default,NTP,0000,0000,0000,,但我们正在研究的那个。
+Dialogue: 0,0:01:26.65,0:01:29.13,*Default,NTP,0000,0000,0000,,顺便说一句，这一次我不得不实际上\N00:01:29,130​​ --> 00:01:31,200\N手动重新加载页面，\N\N27
+Dialogue: 0,0:01:31.20,0:01:35.36,*Default,NTP,0000,0000,0000,,因为我在此期间关闭了计算机。
+Dialogue: 0,0:01:35.36,0:01:37.01,*Default,NTP,0000,0000,0000,,所以每当你这样做时，
+Dialogue: 0,0:01:37.01,0:01:38.64,*Default,NTP,0000,0000,0000,,第一次回来，
+Dialogue: 0,0:01:38.64,0:01:42.15,*Default,NTP,0000,0000,0000,,您将不得不在此处手动重新加载页面，
+Dialogue: 0,0:01:42.15,0:01:45.22,*Default,NTP,0000,0000,0000,,当您运行实时服务器扩展时。
+Dialogue: 0,0:01:45.22,0:01:49.12,*Default,NTP,0000,0000,0000,,好的，请记住我们在上一个视频中安装了它，
+Dialogue: 0,0:01:49.12,0:01:52.35,*Default,NTP,0000,0000,0000,,所以如果我现在在这里做一些改变，
+Dialogue: 0,0:01:52.35,0:01:57.35,*Default,NTP,0000,0000,0000,,那么这可能应该只是在之前工作。
+Dialogue: 0,0:01:58.55,0:02:02.22,*Default,NTP,0000,0000,0000,,所以你看到有一些变化，它就出现了。
+Dialogue: 0,0:02:03.13,0:02:06.60,*Default,NTP,0000,0000,0000,,但无论如何，你看，现在我们有
+Dialogue: 0,0:02:06.60,0:02:09.89,*Default,NTP,0000,0000,0000,,这些图像在 IMG 文件夹中，
+Dialogue: 0,0:02:09.89,0:02:14.89,*Default,NTP,0000,0000,0000,,它们不再与 index.html 位于同一文件夹中。
+Dialogue: 0,0:02:15.09,0:02:17.65,*Default,NTP,0000,0000,0000,,所以这就是他们没有出现在这里的原因。
+Dialogue: 0,0:02:19.10,0:02:20.79,*Default,NTP,0000,0000,0000,,所以我们需要在这里做的
+Dialogue: 0,0:02:20.79,0:02:24.29,*Default,NTP,0000,0000,0000,,是现在改变图像的路径，
+Dialogue: 0,0:02:24.29,0:02:26.68,*Default,NTP,0000,0000,0000,,这不是一个难题。
+Dialogue: 0,0:02:26.68,0:02:29.45,*Default,NTP,0000,0000,0000,,我们所要做的就是开始新的道路
+Dialogue: 0,0:02:29.45,0:02:31.57,*Default,NTP,0000,0000,0000,,与文件夹的名称。
+Dialogue: 0,0:02:31.57,0:02:36.57,*Default,NTP,0000,0000,0000,,这就是IMG。然后斜线，所以我们开始了。
+Dialogue: 0,0:02:37.94,0:02:42.04,*Default,NTP,0000,0000,0000,,所以你看到图像现在再次出现在这里，在这个排水沟中。
+Dialogue: 0,0:02:43.75,0:02:46.69,*Default,NTP,0000,0000,0000,,所以让我们在这里做同样的事情，
+Dialogue: 0,0:02:46.69,0:02:50.27,*Default,NTP,0000,0000,0000,,给它一个保存，这是我们的图像。
+Dialogue: 0,0:02:51.42,0:02:52.25,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:52.25,0:02:55.76,*Default,NTP,0000,0000,0000,,所以通常我们总是将图像放在一个单独的文件夹中。
+Dialogue: 0,0:02:55.76,0:02:58.74,*Default,NTP,0000,0000,0000,,所以我认为向你展示这一点很重要，
+Dialogue: 0,0:02:58.74,0:03:01.08,*Default,NTP,0000,0000,0000,,尤其是在这个挑战之前，
+Dialogue: 0,0:03:01.08,0:03:03.49,*Default,NTP,0000,0000,0000,,我们将在其中使用更多图像。
+Dialogue: 0,0:03:04.55,0:03:07.87,*Default,NTP,0000,0000,0000,,所以关于挑战，在这里，
+Dialogue: 0,0:03:07.87,0:03:09.88,*Default,NTP,0000,0000,0000,,回到演示页面，
+Dialogue: 0,0:03:09.88,0:03:12.31,*Default,NTP,0000,0000,0000,,所以本质上我想让你做的
+Dialogue: 0,0:03:12.31,0:03:15.52,*Default,NTP,0000,0000,0000,,是在这里自己编写这部分代码。
+Dialogue: 0,0:03:16.85,0:03:19.35,*Default,NTP,0000,0000,0000,,好吧，让我实际告诉你
+Dialogue: 0,0:03:19.35,0:03:23.56,*Default,NTP,0000,0000,0000,,这应该在我们的标记中，所以在我们的 HTML 中，
+Dialogue: 0,0:03:24.78,0:03:28.38,*Default,NTP,0000,0000,0000,,它就在文章之后。
+Dialogue: 0,0:03:29.36,0:03:30.22,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:03:30.22,0:03:32.83,*Default,NTP,0000,0000,0000,,所以这个部分在这里关于相关的帖子
+Dialogue: 0,0:03:32.83,0:03:36.02,*Default,NTP,0000,0000,0000,,不再是文章的一部分。
+Dialogue: 0,0:03:36.02,0:03:38.47,*Default,NTP,0000,0000,0000,,它也不是页脚的一部分，
+Dialogue: 0,0:03:38.47,0:03:41.46,*Default,NTP,0000,0000,0000,,所以在这里我们需要另一个元素。
+Dialogue: 0,0:03:41.46,0:03:44.19,*Default,NTP,0000,0000,0000,,而这个我实际上会为你写。
+Dialogue: 0,0:03:44.19,0:03:48.51,*Default,NTP,0000,0000,0000,,所以在这里我们将使用side元素，
+Dialogue: 0,0:03:51.00,0:03:51.10,*Default,NTP,0000,0000,0000,,并且通常使用side元素
+Dialogue: 0,0:03:51.10,0:03:53.64,*Default,NTP,0000,0000,0000,,对于一些次要信息
+Dialogue: 0,0:03:53.64,0:03:55.77,*Default,NTP,0000,0000,0000,,补充信息
+Dialogue: 0,0:03:55.77,0:03:58.27,*Default,NTP,0000,0000,0000,,在页面的主要部分。
+Dialogue: 0,0:03:58.27,0:04:01.67,*Default,NTP,0000,0000,0000,,所以在这种情况下，页面的主要部分是文章。
+Dialogue: 0,0:04:01.67,0:04:04.90,*Default,NTP,0000,0000,0000,,然后是旁白，这是次要信息
+Dialogue: 0,0:04:04.90,0:04:06.91,*Default,NTP,0000,0000,0000,,基本上是一些相关的帖子
+Dialogue: 0,0:04:06.91,0:04:11.30,*Default,NTP,0000,0000,0000,,与文章相关的，所以主要部分。
+Dialogue: 0,0:04:11.30,0:04:12.30,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:04:12.30,0:04:15.42,*Default,NTP,0000,0000,0000,,现在在视觉上很多时候我们使用了side元素
+Dialogue: 0,0:04:15.42,0:04:17.12,*Default,NTP,0000,0000,0000,,作为侧边栏，
+Dialogue: 0,0:04:17.12,0:04:19.48,*Default,NTP,0000,0000,0000,,但不一定是这样。
+Dialogue: 0,0:04:19.48,0:04:23.26,*Default,NTP,0000,0000,0000,,好的，但现在关于挑战本身。
+Dialogue: 0,0:04:23.26,0:04:27.02,*Default,NTP,0000,0000,0000,,所以你看到它从这个标题开始。
+Dialogue: 0,0:04:27.02,0:04:30.47,*Default,NTP,0000,0000,0000,,所以你可以在这里试验哪个标题最好。
+Dialogue: 0,0:04:30.47,0:04:35.17,*Default,NTP,0000,0000,0000,,所以标题之一，H1，二，三，四，五，六，
+Dialogue: 0,0:04:35.17,0:04:37.99,*Default,NTP,0000,0000,0000,,记住，然后在这里你看到
+Dialogue: 0,0:04:37.99,0:04:40.61,*Default,NTP,0000,0000,0000,,这实际上是一个列表，对吧？
+Dialogue: 0,0:04:40.61,0:04:43.76,*Default,NTP,0000,0000,0000,,由于这些要点，您可以看到这一点。
+Dialogue: 0,0:04:43.76,0:04:48.28,*Default,NTP,0000,0000,0000,,因此，对于这一部分，您可能应该使用一个列表。
+Dialogue: 0,0:04:48.28,0:04:52.39,*Default,NTP,0000,0000,0000,,现在，我们以前没有做的是拥有多个元素
+Dialogue: 0,0:04:52.39,0:04:54.52,*Default,NTP,0000,0000,0000,,在一个列表项内。
+Dialogue: 0,0:04:55.49,0:04:57.90,*Default,NTP,0000,0000,0000,,所以在这里，例如，我们有列表项，
+Dialogue: 0,0:04:57.90,0:05:00.60,*Default,NTP,0000,0000,0000,,里面只有一些文字，
+Dialogue: 0,0:05:00.60,0:05:03.52,*Default,NTP,0000,0000,0000,,但你会看到，在每个项目中，都有一个图像，
+Dialogue: 0,0:05:03.52,0:05:07.60,*Default,NTP,0000,0000,0000,,一个链接，然后在此处添加更多文本。
+Dialogue: 0,0:05:07.60,0:05:09.32,*Default,NTP,0000,0000,0000,,这完全没有问题。
+Dialogue: 0,0:05:09.32,0:05:11.75,*Default,NTP,0000,0000,0000,,所以在每个列表元素内部，
+Dialogue: 0,0:05:11.75,0:05:16.51,*Default,NTP,0000,0000,0000,,可以有多个其他子元素，对吗？
+Dialogue: 0,0:05:16.51,0:05:18.41,*Default,NTP,0000,0000,0000,,有了这些信息，
+Dialogue: 0,0:05:18.41,0:05:21.38,*Default,NTP,0000,0000,0000,,我认为您现在可以构建它。
+Dialogue: 0,0:05:21.38,0:05:23.80,*Default,NTP,0000,0000,0000,,现在，最后，关于这里的图像，
+Dialogue: 0,0:05:23.80,0:05:26.32,*Default,NTP,0000,0000,0000,,有些是您需要的信息。
+Dialogue: 0,0:05:26.32,0:05:28.92,*Default,NTP,0000,0000,0000,,它们也在这个文件夹中，
+Dialogue: 0,0:05:28.92,0:05:32.10,*Default,NTP,0000,0000,0000,,它们被称为related-1、2和3。
+Dialogue: 0,0:05:32.10,0:05:37.10,*Default,NTP,0000,0000,0000,,你要给它们的尺寸是 75 x 75 像素。
+Dialogue: 0,0:05:38.09,0:05:40.02,*Default,NTP,0000,0000,0000,,现在我想我给了你一切，
+Dialogue: 0,0:05:40.02,0:05:42.63,*Default,NTP,0000,0000,0000,,所以请现在暂停视频，
+Dialogue: 0,0:05:42.63,0:05:46.29,*Default,NTP,0000,0000,0000,,花几分钟，10，15分钟，也许，
+Dialogue: 0,0:05:46.29,0:05:49.37,*Default,NTP,0000,0000,0000,,编写本节的 HTML。
+Dialogue: 0,0:05:49.37,0:05:52.91,*Default,NTP,0000,0000,0000,,祝你好运，一旦你准备好了，我会见到你的。
+Dialogue: 0,0:05:55.40,0:05:56.38,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:57.26,0:06:01.73,*Default,NTP,0000,0000,0000,,所以希望你做得很好。
+Dialogue: 0,0:06:03.00,0:06:05.05,*Default,NTP,0000,0000,0000,,所以让我告诉你我是怎么做到的。
+Dialogue: 0,0:06:07.86,0:06:11.12,*Default,NTP,0000,0000,0000,,我希望你开始看到它有多大帮助
+Dialogue: 0,0:06:11.12,0:06:14.34,*Default,NTP,0000,0000,0000,,VSCode 现在会自动关闭
+Dialogue: 0,0:06:14.34,0:06:17.19,*Default,NTP,0000,0000,0000,,我们的 HTML 元素，对吧？
+Dialogue: 0,0:06:19.42,0:06:24.42,*Default,NTP,0000,0000,0000,,所以这里的源码在IMG文件夹下，然后是related-1。
+Dialogue: 0,0:06:27.55,0:06:31.45,*Default,NTP,0000,0000,0000,,然后是替代文本，让我们说，
+Dialogue: 0,0:06:31.45,0:06:34.43,*Default,NTP,0000,0000,0000,,这是一个人编程。
+Dialogue: 0,0:06:36.63,0:06:38.76,*Default,NTP,0000,0000,0000,,当然，你的替代文字
+Dialogue: 0,0:06:38.76,0:06:40.96,*Default,NTP,0000,0000,0000,,不必和我的完全一样。
+Dialogue: 0,0:06:42.10,0:06:44.88,*Default,NTP,0000,0000,0000,,所以如果你的替代文字有点不同，
+Dialogue: 0,0:06:44.88,0:06:46.85,*Default,NTP,0000,0000,0000,,这根本不是问题。
+Dialogue: 0,0:06:48.38,0:06:50.42,*Default,NTP,0000,0000,0000,,现在我们也需要关闭它。
+Dialogue: 0,0:06:52.21,0:06:55.35,*Default,NTP,0000,0000,0000,,这就是图像部分。
+Dialogue: 0,0:06:55.35,0:06:59.86,*Default,NTP,0000,0000,0000,,接下来，我们有一个超链接，所以一个锚标签，
+Dialogue: 0,0:06:59.86,0:07:04.86,*Default,NTP,0000,0000,0000,,这里是href，这是我没有提到的，
+Dialogue: 0,0:07:05.36,0:07:07.55,*Default,NTP,0000,0000,0000,,但希望你能明白，
+Dialogue: 0,0:07:07.55,0:07:09.04,*Default,NTP,0000,0000,0000,,这是链接之一
+Dialogue: 0,0:07:09.04,0:07:11.43,*Default,NTP,0000,0000,0000,,现在不应该指向任何地方。
+Dialogue: 0,0:07:13.44,0:07:17.49,*Default,NTP,0000,0000,0000,,那么如何学习Web开发。
+Dialogue: 0,0:07:20.78,0:07:24.35,*Default,NTP,0000,0000,0000,,现在终于有一些文字与作者那里，
+Dialogue: 0,0:07:24.35,0:07:28.00,*Default,NTP,0000,0000,0000,,所以我们可以为此使用一个段落。
+Dialogue: 0,0:07:29.00,0:07:31.42,*Default,NTP,0000,0000,0000,,所以由乔纳斯施梅特曼。
+Dialogue: 0,0:07:32.72,0:07:34.92,*Default,NTP,0000,0000,0000,,好吧，给它一个保存。
+Dialogue: 0,0:07:34.92,0:07:39.22,*Default,NTP,0000,0000,0000,,现在很好ely 格式，它应该出现在这里。
+Dialogue: 0,0:07:39.22,0:07:41.36,*Default,NTP,0000,0000,0000,,确实在这里。
+Dialogue: 0,0:07:42.38,0:07:46.31,*Default,NTP,0000,0000,0000,,太好了，哦，实际上我只是在这里缺少标题。
+Dialogue: 0,0:07:47.20,0:07:49.90,*Default,NTP,0000,0000,0000,,所以让我回去，把那个
+Dialogue: 0,0:07:49.90,0:07:54.90,*Default,NTP,0000,0000,0000,,甚至在无序列表之前，所以我为此使用了 h4。
+Dialogue: 0,0:08:01.99,0:08:05.35,*Default,NTP,0000,0000,0000,,但无论如何，让我们现在继续在这里建立我们的列表
+Dialogue: 0,0:08:05.35,0:08:07.36,*Default,NTP,0000,0000,0000,,与下一个列表项。
+Dialogue: 0,0:08:11.16,0:08:13.71,*Default,NTP,0000,0000,0000,,顺便说一句，如果你做了你的代码
+Dialogue: 0,0:08:13.71,0:08:15.36,*Default,NTP,0000,0000,0000,,和我的有点不一样
+Dialogue: 0,0:08:16.72,0:08:18.94,*Default,NTP,0000,0000,0000,,这真的不是问题。
+Dialogue: 0,0:08:18.94,0:08:20.80,*Default,NTP,0000,0000,0000,,这里重要的是你
+Dialogue: 0,0:08:20.80,0:08:22.67,*Default,NTP,0000,0000,0000,,尝试自己编写代码。
+Dialogue: 0,0:08:26.69,0:08:29.01,*Default,NTP,0000,0000,0000,,这真的是最重要的
+Dialogue: 0,0:08:29.01,0:08:30.83,*Default,NTP,0000,0000,0000,,我期待你在这里做的。
+Dialogue: 0,0:08:32.29,0:08:37.07,*Default,NTP,0000,0000,0000,,所以宽度为 75，高度也为 75。
+Dialogue: 0,0:08:41.50,0:08:44.08,*Default,NTP,0000,0000,0000,,（按键）
+Dialogue: 0,0:08:46.23,0:08:49.77,*Default,NTP,0000,0000,0000,,再一次，一个链接指向无处。
+Dialogue: 0,0:08:49.77,0:08:54.73,*Default,NTP,0000,0000,0000,,这个是 CSS 的未知力量，
+Dialogue: 0,0:08:59.76,0:09:02.95,*Default,NTP,0000,0000,0000,,和吉姆狄龙。
+Dialogue: 0,0:09:02.95,0:09:07.62,*Default,NTP,0000,0000,0000,,我还不打算检查结果，
+Dialogue: 0,0:09:07.62,0:09:09.49,*Default,NTP,0000,0000,0000,,让我们完成它。
+Dialogue: 0,0:09:11.02,0:09:12.43,*Default,NTP,0000,0000,0000,,于是换了一张图。
+Dialogue: 0,0:09:14.16,0:09:16.60,*Default,NTP,0000,0000,0000,,所以这部分的目标真的是
+Dialogue: 0,0:09:16.60,0:09:20.73,*Default,NTP,0000,0000,0000,,让你基本上练习编写相同的代码，
+Dialogue: 0,0:09:20.73,0:09:24.07,*Default,NTP,0000,0000,0000,,或者一遍又一遍的非常相似的代码，
+Dialogue: 0,0:09:24.07,0:09:25.63,*Default,NTP,0000,0000,0000,,因为这是唯一的方法
+Dialogue: 0,0:09:25.63,0:09:29.16,*Default,NTP,0000,0000,0000,,这些东西真的会进入你的大脑。
+Dialogue: 0,0:09:31.85,0:09:35.25,*Default,NTP,0000,0000,0000,,所以让我们在屏幕上调用这个 JavaScript 代码，
+Dialogue: 0,0:09:37.10,0:09:42.10,*Default,NTP,0000,0000,0000,,再次，宽度为 75，高度为 75。
+Dialogue: 0,0:09:45.07,0:09:46.70,*Default,NTP,0000,0000,0000,,你注意到我在写这个
+Dialogue: 0,0:09:46.70,0:09:48.97,*Default,NTP,0000,0000,0000,,现在稍微快一点
+Dialogue: 0,0:09:50.77,0:09:53.61,*Default,NTP,0000,0000,0000,,因为我们不想浪费很多时间
+Dialogue: 0,0:09:53.61,0:09:55.86,*Default,NTP,0000,0000,0000,,写这个重复的代码。
+Dialogue: 0,0:09:55.86,0:10:00.23,*Default,NTP,0000,0000,0000,,这真的只是给你练习的，太棒了。
+Dialogue: 0,0:10:03.56,0:10:04.89,*Default,NTP,0000,0000,0000,,最后一段，
+Dialogue: 0,0:10:08.44,0:10:12.91,*Default,NTP,0000,0000,0000,,给它一个保存，美丽。
+Dialogue: 0,0:10:16.21,0:10:18.70,*Default,NTP,0000,0000,0000,,所以这看起来就像在我们的演示中一样，
+Dialogue: 0,0:10:18.70,0:10:20.61,*Default,NTP,0000,0000,0000,,我们现在拥有所有这些内容
+Dialogue: 0,0:10:20.61,0:10:23.92,*Default,NTP,0000,0000,0000,,我们想在这里显示
+Dialogue: 0,0:10:23.92,0:10:26.32,*Default,NTP,0000,0000,0000,,以一种非常合乎逻辑的方式。
+Dialogue: 0,0:10:26.32,0:10:28.54,*Default,NTP,0000,0000,0000,,所以你可能想知道为什么我们使用
+Dialogue: 0,0:10:28.54,0:10:31.27,*Default,NTP,0000,0000,0000,,在这种情况下，这里有一个列表。
+Dialogue: 0,0:10:31.27,0:10:32.52,*Default,NTP,0000,0000,0000,,以及这样做的原因
+Dialogue: 0,0:10:32.52,0:10:36.00,*Default,NTP,0000,0000,0000,,基本上是语义HTML背后的想法，
+Dialogue: 0,0:10:36.00,0:10:38.57,*Default,NTP,0000,0000,0000,,我之前解释过一点。
+Dialogue: 0,0:10:38.57,0:10:41.25,*Default,NTP,0000,0000,0000,,因此，如果我们考虑这些相关的帖子，
+Dialogue: 0,0:10:41.25,0:10:42.79,*Default,NTP,0000,0000,0000,,我们可以很容易地争论
+Dialogue: 0,0:10:42.79,0:10:47.39,*Default,NTP,0000,0000,0000,,它本质上是一个相关帖子的列表，对吗？
+Dialogue: 0,0:10:47.39,0:10:51.77,*Default,NTP,0000,0000,0000,,所以如果它是一个列表，我们应该在我们的 HTML 中标记它，
+Dialogue: 0,0:10:51.77,0:10:55.63,*Default,NTP,0000,0000,0000,,所以我们应该把我们的 HTML 写成一个列表。
+Dialogue: 0,0:10:55.63,0:10:58.11,*Default,NTP,0000,0000,0000,,这就是我们所做的。
+Dialogue: 0,0:10:58.11,0:11:01.71,*Default,NTP,0000,0000,0000,,稍后使用 CSS，我们将删除这些要点，
+Dialogue: 0,0:11:01.71,0:11:04.63,*Default,NTP,0000,0000,0000,,因为它们在这种情况下没有多大意义，
+Dialogue: 0,0:11:04.63,0:11:07.00,*Default,NTP,0000,0000,0000,,但即使去掉了要点，
+Dialogue: 0,0:11:07.00,0:11:10.42,*Default,NTP,0000,0000,0000,,我们仍然想要这个元素的含义，
+Dialogue: 0,0:11:10.42,0:11:13.87,*Default,NTP,0000,0000,0000,,所以这里的所有这些都是一个列表。
+Dialogue: 0,0:11:13.87,0:11:17.17,*Default,NTP,0000,0000,0000,,但无论如何，这对这个视频来说已经足够了。
+Dialogue: 0,0:11:17.17,0:11:20.67,*Default,NTP,0000,0000,0000,,所以我真的希望你完成了这个挑战，
+Dialogue: 0,0:11:20.67,0:11:24.75,*Default,NTP,0000,0000,0000,,并且你喜欢这样做，即使需要一些时间，
+Dialogue: 0,0:11:24.75,0:11:27.43,*Default,NTP,0000,0000,0000,,即使你不得不复习一些概念
+Dialogue: 0,0:11:27.43,0:11:29.45,*Default,NTP,0000,0000,0000,,从以前的讲座。
+Dialogue: 0,0:11:29.45,0:11:30.77,*Default,NTP,0000,0000,0000,,这完全正常，
+Dialogue: 0,0:11:30.77,0:11:34.39,*Default,NTP,0000,0000,0000,,这正是它实际上应该是的样子。
+Dialogue: 0,0:11:34.39,0:11:37.64,*Default,NTP,0000,0000,0000,,现在为了练得更均匀一点，
+Dialogue: 0,0:11:37.64,0:11:40.24,*Default,NTP,0000,0000,0000,,还有另一个编码挑战即将到来，
+Dialogue: 0,0:11:40.24,0:11:44.40,*Default,NTP,0000,0000,0000,,它完全脱离了这个项目，
+Dialogue: 0,0:11:44.40,0:11:46.38,*Default,NTP,0000,0000,0000,,但这真的很令人兴奋。
+Dialogue: 0,0:11:46.38,0:11:48.37,*Default,NTP,0000,0000,0000,,所以我希望很快能在那里见到你。
+Dialogue: 0,0:00:01.54,0:00:04.90,*Default,NTP,0000,0000,0000,,Now it's time for the first big coding challenge
+Dialogue: 0,0:00:04.90,0:00:08.08,*Default,NTP,0000,0000,0000,,in this course, so let's get started.
+Dialogue: 0,0:00:09.57,0:00:12.74,*Default,NTP,0000,0000,0000,,Now, before we start with the actual challenge,
+Dialogue: 0,0:00:12.74,0:00:16.51,*Default,NTP,0000,0000,0000,,I want to first make some changes to the file structure
+Dialogue: 0,0:00:16.51,0:00:19.10,*Default,NTP,0000,0000,0000,,that we have in this project right now.
+Dialogue: 0,0:00:19.10,0:00:21.41,*Default,NTP,0000,0000,0000,,And in particular, what I want to do
+Dialogue: 0,0:00:21.41,0:00:24.87,*Default,NTP,0000,0000,0000,,is to put all the images into one folder,
+Dialogue: 0,0:00:24.87,0:00:29.75,*Default,NTP,0000,0000,0000,,so that I can then show you how we can include the images,
+Dialogue: 0,0:00:29.75,0:00:34.62,*Default,NTP,0000,0000,0000,,like this, when they are located in a specific folder.
+Dialogue: 0,0:00:34.62,0:00:38.72,*Default,NTP,0000,0000,0000,,So right now they are all, as we can see here,
+Dialogue: 0,0:00:38.72,0:00:41.57,*Default,NTP,0000,0000,0000,,they are all in the same, exact same folder
+Dialogue: 0,0:00:41.57,0:00:43.96,*Default,NTP,0000,0000,0000,,as the index.html.
+Dialogue: 0,0:00:43.96,0:00:46.65,*Default,NTP,0000,0000,0000,,And so that's why all we have to do
+Dialogue: 0,0:00:46.65,0:00:48.80,*Default,NTP,0000,0000,0000,,is to declare the name here,
+Dialogue: 0,0:00:48.80,0:00:51.05,*Default,NTP,0000,0000,0000,,and the browser will then find them
+Dialogue: 0,0:00:51.05,0:00:54.19,*Default,NTP,0000,0000,0000,,basically in the same folder as the HTML document.
+Dialogue: 0,0:00:55.32,0:00:59.76,*Default,NTP,0000,0000,0000,,But now let's create a new folder by clicking this icon,
+Dialogue: 0,0:00:59.76,0:01:02.81,*Default,NTP,0000,0000,0000,,and I'm gonna call it IMG,
+Dialogue: 0,0:01:02.81,0:01:06.09,*Default,NTP,0000,0000,0000,,and then I'm going to put all of the images there.
+Dialogue: 0,0:01:09.71,0:01:12.97,*Default,NTP,0000,0000,0000,,So just dragging and dropping them like this.
+Dialogue: 0,0:01:15.24,0:01:16.42,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:01:16.42,0:01:19.06,*Default,NTP,0000,0000,0000,,And so now if we reload the page,
+Dialogue: 0,0:01:19.06,0:01:22.01,*Default,NTP,0000,0000,0000,,and not this one, which is our demo,
+Dialogue: 0,0:01:22.01,0:01:23.62,*Default,NTP,0000,0000,0000,,but the one we're working on.
+Dialogue: 0,0:01:26.65,0:01:29.13,*Default,NTP,0000,0000,0000,,And by the way, this time I had to actually
+Dialogue: 0,0:01:29.13,0:01:31.20,*Default,NTP,0000,0000,0000,,manually reload the page,
+Dialogue: 0,0:01:31.20,0:01:35.36,*Default,NTP,0000,0000,0000,,because I had my computer turned off in the meantime.
+Dialogue: 0,0:01:35.36,0:01:37.01,*Default,NTP,0000,0000,0000,,And so whenever you do that,
+Dialogue: 0,0:01:37.01,0:01:38.64,*Default,NTP,0000,0000,0000,,the very first time you come back,
+Dialogue: 0,0:01:38.64,0:01:42.15,*Default,NTP,0000,0000,0000,,you will have to manually reload the page here,
+Dialogue: 0,0:01:42.15,0:01:45.22,*Default,NTP,0000,0000,0000,,when you are running the live server extension.
+Dialogue: 0,0:01:45.22,0:01:49.12,*Default,NTP,0000,0000,0000,,Okay, so remember that we installed that in the last video,
+Dialogue: 0,0:01:49.12,0:01:52.35,*Default,NTP,0000,0000,0000,,and so if I do some change here now,
+Dialogue: 0,0:01:52.35,0:01:57.35,*Default,NTP,0000,0000,0000,,then that should probably just work just before.
+Dialogue: 0,0:01:58.55,0:02:02.22,*Default,NTP,0000,0000,0000,,So you see there is some change, and there it appears.
+Dialogue: 0,0:02:03.13,0:02:06.60,*Default,NTP,0000,0000,0000,,But anyway, you see that now that we have
+Dialogue: 0,0:02:06.60,0:02:09.89,*Default,NTP,0000,0000,0000,,these images inside of the IMG folder,
+Dialogue: 0,0:02:09.89,0:02:14.89,*Default,NTP,0000,0000,0000,,they are no longer found in the same folder as index.html.
+Dialogue: 0,0:02:15.09,0:02:17.65,*Default,NTP,0000,0000,0000,,So that's why they don't appear up here.
+Dialogue: 0,0:02:19.10,0:02:20.79,*Default,NTP,0000,0000,0000,,So what we need to do here
+Dialogue: 0,0:02:20.79,0:02:24.29,*Default,NTP,0000,0000,0000,,is to change the path to the image now,
+Dialogue: 0,0:02:24.29,0:02:26.68,*Default,NTP,0000,0000,0000,,and that's not a difficult problem.
+Dialogue: 0,0:02:26.68,0:02:29.45,*Default,NTP,0000,0000,0000,,All we have to do is to start a new path
+Dialogue: 0,0:02:29.45,0:02:31.57,*Default,NTP,0000,0000,0000,,with the name of the folder.
+Dialogue: 0,0:02:31.57,0:02:36.57,*Default,NTP,0000,0000,0000,,So that's IMG. and then slash, and so here we go.
+Dialogue: 0,0:02:37.94,0:02:42.04,*Default,NTP,0000,0000,0000,,So you see the image appears here now again, in this gutter.
+Dialogue: 0,0:02:43.75,0:02:46.69,*Default,NTP,0000,0000,0000,,And so let's do the same thing here,
+Dialogue: 0,0:02:46.69,0:02:50.27,*Default,NTP,0000,0000,0000,,give it a save, and here are our images back.
+Dialogue: 0,0:02:51.42,0:02:52.25,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:02:52.25,0:02:55.76,*Default,NTP,0000,0000,0000,,So usually we always put the images in a separate folder.
+Dialogue: 0,0:02:55.76,0:02:58.74,*Default,NTP,0000,0000,0000,,And so I thought that was important to show you,
+Dialogue: 0,0:02:58.74,0:03:01.08,*Default,NTP,0000,0000,0000,,especially now before this challenge,
+Dialogue: 0,0:03:01.08,0:03:03.49,*Default,NTP,0000,0000,0000,,where we are going to use some more images.
+Dialogue: 0,0:03:04.55,0:03:07.87,*Default,NTP,0000,0000,0000,,So about the challenge, and being here,
+Dialogue: 0,0:03:07.87,0:03:09.88,*Default,NTP,0000,0000,0000,,back in the demo page,
+Dialogue: 0,0:03:09.88,0:03:12.31,*Default,NTP,0000,0000,0000,,and so essentially what I want you to do
+Dialogue: 0,0:03:12.31,0:03:15.52,*Default,NTP,0000,0000,0000,,is to code on your own this part here.
+Dialogue: 0,0:03:16.85,0:03:19.35,*Default,NTP,0000,0000,0000,,All right, and let me actually show you
+Dialogue: 0,0:03:19.35,0:03:23.56,*Default,NTP,0000,0000,0000,,where that should be in our markup, so in our HTML,
+Dialogue: 0,0:03:24.78,0:03:28.38,*Default,NTP,0000,0000,0000,,and it is right here after the article.
+Dialogue: 0,0:03:29.36,0:03:30.22,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:03:30.22,0:03:32.83,*Default,NTP,0000,0000,0000,,So this section here about the related posts
+Dialogue: 0,0:03:32.83,0:03:36.02,*Default,NTP,0000,0000,0000,,is no longer part of the article.
+Dialogue: 0,0:03:36.02,0:03:38.47,*Default,NTP,0000,0000,0000,,It's also not part of the footer,
+Dialogue: 0,0:03:38.47,0:03:41.46,*Default,NTP,0000,0000,0000,,and so here we will need another element.
+Dialogue: 0,0:03:41.46,0:03:44.19,*Default,NTP,0000,0000,0000,,And this one I will actually write for you.
+Dialogue: 0,0:03:44.19,0:03:48.51,*Default,NTP,0000,0000,0000,,So here we are going to use the aside element,
+Dialogue: 0,0:03:48.51,0:03:51.10,*Default,NTP,0000,0000,0000,,and the aside element is usually used
+Dialogue: 0,0:03:51.10,0:03:53.64,*Default,NTP,0000,0000,0000,,for some secondary information
+Dialogue: 0,0:03:53.64,0:03:55.77,*Default,NTP,0000,0000,0000,,that compliments the information
+Dialogue: 0,0:03:55.77,0:03:58.27,*Default,NTP,0000,0000,0000,,in the main part of the page.
+Dialogue: 0,0:03:58.27,0:04:01.67,*Default,NTP,0000,0000,0000,,So in this case, the main part of the page is the article.
+Dialogue: 0,0:04:01.67,0:04:04.90,*Default,NTP,0000,0000,0000,,And then the aside, which is secondary information
+Dialogue: 0,0:04:04.90,0:04:06.91,*Default,NTP,0000,0000,0000,,is basically some related posts
+Dialogue: 0,0:04:06.91,0:04:11.30,*Default,NTP,0000,0000,0000,,that are related to the article, so to the main part.
+Dialogue: 0,0:04:11.30,0:04:12.30,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:04:12.30,0:04:15.42,*Default,NTP,0000,0000,0000,,Now visually many times we use the aside element
+Dialogue: 0,0:04:15.42,0:04:17.12,*Default,NTP,0000,0000,0000,,as a sidebar,
+Dialogue: 0,0:04:17.12,0:04:19.48,*Default,NTP,0000,0000,0000,,but it doesn't have to be that way.
+Dialogue: 0,0:04:19.48,0:04:23.26,*Default,NTP,0000,0000,0000,,Okay, but now about the challenge itself.
+Dialogue: 0,0:04:23.26,0:04:27.02,*Default,NTP,0000,0000,0000,,So you see that it starts here with this heading.
+Dialogue: 0,0:04:27.02,0:04:30.47,*Default,NTP,0000,0000,0000,,So you can experiment which heading is best here.
+Dialogue: 0,0:04:30.47,0:04:35.17,*Default,NTP,0000,0000,0000,,So one of the headings, H1, two, three, four, five, and six,
+Dialogue: 0,0:04:35.17,0:04:37.99,*Default,NTP,0000,0000,0000,,remember, and then here you see
+Dialogue: 0,0:04:37.99,0:04:40.61,*Default,NTP,0000,0000,0000,,that this is actually a list, right?
+Dialogue: 0,0:04:40.61,0:04:43.76,*Default,NTP,0000,0000,0000,,You can see that because of these bullet points.
+Dialogue: 0,0:04:43.76,0:04:48.28,*Default,NTP,0000,0000,0000,,And so here for this part, you should probably use a list.
+Dialogue: 0,0:04:48.28,0:04:52.39,*Default,NTP,0000,0000,0000,,Now, what we didn't do before was to have multiple elements
+Dialogue: 0,0:04:52.39,0:04:54.52,*Default,NTP,0000,0000,0000,,inside of one list item.
+Dialogue: 0,0:04:55.49,0:04:57.90,*Default,NTP,0000,0000,0000,,So up here, for example, we have the list item,
+Dialogue: 0,0:04:57.90,0:05:00.60,*Default,NTP,0000,0000,0000,,and in there there's only some text,
+Dialogue: 0,0:05:00.60,0:05:03.52,*Default,NTP,0000,0000,0000,,but you see that here in each item, there is an image,
+Dialogue: 0,0:05:03.52,0:05:07.60,*Default,NTP,0000,0000,0000,,a link, and then some more texts here.
+Dialogue: 0,0:05:07.60,0:05:09.32,*Default,NTP,0000,0000,0000,,And that's no problem at all.
+Dialogue: 0,0:05:09.32,0:05:11.75,*Default,NTP,0000,0000,0000,,So inside of each list element,
+Dialogue: 0,0:05:11.75,0:05:16.51,*Default,NTP,0000,0000,0000,,there can be multiple other child elements, right?
+Dialogue: 0,0:05:16.51,0:05:18.41,*Default,NTP,0000,0000,0000,,And so with that information,
+Dialogue: 0,0:05:18.41,0:05:21.38,*Default,NTP,0000,0000,0000,,I think you are now able to build this.
+Dialogue: 0,0:05:21.38,0:05:23.80,*Default,NTP,0000,0000,0000,,Now, finally, just about the images here,
+Dialogue: 0,0:05:23.80,0:05:26.32,*Default,NTP,0000,0000,0000,,that some are information that you need.
+Dialogue: 0,0:05:26.32,0:05:28.92,*Default,NTP,0000,0000,0000,,They are also in this folder,
+Dialogue: 0,0:05:28.92,0:05:32.10,*Default,NTP,0000,0000,0000,,and they are called related-1, two, and three.
+Dialogue: 0,0:05:32.10,0:05:37.10,*Default,NTP,0000,0000,0000,,And the dimensions want you to give them is 75 by 75 pixels.
+Dialogue: 0,0:05:38.09,0:05:40.02,*Default,NTP,0000,0000,0000,,And now I think I gave you everything,
+Dialogue: 0,0:05:40.02,0:05:42.63,*Default,NTP,0000,0000,0000,,so please pause the video now,
+Dialogue: 0,0:05:42.63,0:05:46.29,*Default,NTP,0000,0000,0000,,and take a couple of minutes, 10, 15 minutes maybe,
+Dialogue: 0,0:05:46.29,0:05:49.37,*Default,NTP,0000,0000,0000,,to write up the HTML for this section.
+Dialogue: 0,0:05:49.37,0:05:52.91,*Default,NTP,0000,0000,0000,,So good luck with that, and I'll see you once you're ready.
+Dialogue: 0,0:05:55.40,0:05:56.38,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:05:57.26,0:06:01.73,*Default,NTP,0000,0000,0000,,So hopefully you did this just fine.
+Dialogue: 0,0:06:03.00,0:06:05.05,*Default,NTP,0000,0000,0000,,So let me show you how I did it.
+Dialogue: 0,0:06:07.86,0:06:11.12,*Default,NTP,0000,0000,0000,,And I hope that you start to see how helpful it is
+Dialogue: 0,0:06:11.12,0:06:14.34,*Default,NTP,0000,0000,0000,,that VSCode now automatically closes
+Dialogue: 0,0:06:14.34,0:06:17.19,*Default,NTP,0000,0000,0000,,our HTML elements, right?
+Dialogue: 0,0:06:19.42,0:06:24.42,*Default,NTP,0000,0000,0000,,So the source here is in the IMG folder, and then related-1.
+Dialogue: 0,0:06:27.55,0:06:31.45,*Default,NTP,0000,0000,0000,,Then the alt text, let's just say,
+Dialogue: 0,0:06:31.45,0:06:34.43,*Default,NTP,0000,0000,0000,,that this is a person programming.
+Dialogue: 0,0:06:36.63,0:06:38.76,*Default,NTP,0000,0000,0000,,And of course, your alt text
+Dialogue: 0,0:06:38.76,0:06:40.96,*Default,NTP,0000,0000,0000,,doesn't have to be exactly the same as mine.
+Dialogue: 0,0:06:42.10,0:06:44.88,*Default,NTP,0000,0000,0000,,So if your alt text is a bit different,
+Dialogue: 0,0:06:44.88,0:06:46.85,*Default,NTP,0000,0000,0000,,that is not a problem at all.
+Dialogue: 0,0:06:48.38,0:06:50.42,*Default,NTP,0000,0000,0000,,And now we need to close it as well.
+Dialogue: 0,0:06:52.21,0:06:55.35,*Default,NTP,0000,0000,0000,,And so that's the image part.
+Dialogue: 0,0:06:55.35,0:06:59.86,*Default,NTP,0000,0000,0000,,Next, we have a hyperlink, so an anchor tag,
+Dialogue: 0,0:06:59.86,0:07:04.86,*Default,NTP,0000,0000,0000,,and here the href, which is something that I didn't mention,
+Dialogue: 0,0:07:05.36,0:07:07.55,*Default,NTP,0000,0000,0000,,but hopefully you figured it out,
+Dialogue: 0,0:07:07.55,0:07:09.04,*Default,NTP,0000,0000,0000,,that this is one of the links
+Dialogue: 0,0:07:09.04,0:07:11.43,*Default,NTP,0000,0000,0000,,that should not point anywhere for now.
+Dialogue: 0,0:07:13.44,0:07:17.49,*Default,NTP,0000,0000,0000,,So How to Learn Web Development.
+Dialogue: 0,0:07:20.78,0:07:24.35,*Default,NTP,0000,0000,0000,,And now finally there's some text with the author there,
+Dialogue: 0,0:07:24.35,0:07:28.00,*Default,NTP,0000,0000,0000,,and so we can use a paragraph for that.
+Dialogue: 0,0:07:29.00,0:07:31.42,*Default,NTP,0000,0000,0000,,So by Jonas Schmedtmann.
+Dialogue: 0,0:07:32.72,0:07:34.92,*Default,NTP,0000,0000,0000,,Okay, giving it a save.
+Dialogue: 0,0:07:34.92,0:07:39.22,*Default,NTP,0000,0000,0000,,Now it's nicely formatted, and it should appear down here.
+Dialogue: 0,0:07:39.22,0:07:41.36,*Default,NTP,0000,0000,0000,,And indeed here it is.
+Dialogue: 0,0:07:42.38,0:07:46.31,*Default,NTP,0000,0000,0000,,Great, oh, I'm just missing here the heading actually.
+Dialogue: 0,0:07:47.20,0:07:49.90,*Default,NTP,0000,0000,0000,,So let me go back, and put that
+Dialogue: 0,0:07:49.90,0:07:54.90,*Default,NTP,0000,0000,0000,,even before the unordered list, so I'm using an h4 for that.
+Dialogue: 0,0:08:01.99,0:08:05.35,*Default,NTP,0000,0000,0000,,But anyway, let's continue now building our list here
+Dialogue: 0,0:08:05.35,0:08:07.36,*Default,NTP,0000,0000,0000,,with the next list item.
+Dialogue: 0,0:08:11.16,0:08:13.71,*Default,NTP,0000,0000,0000,,And by the way, if you did your code
+Dialogue: 0,0:08:13.71,0:08:15.36,*Default,NTP,0000,0000,0000,,a little bit different from mine,
+Dialogue: 0,0:08:16.72,0:08:18.94,*Default,NTP,0000,0000,0000,,that's really not a problem.
+Dialogue: 0,0:08:18.94,0:08:20.80,*Default,NTP,0000,0000,0000,,What matters here is that you
+Dialogue: 0,0:08:20.80,0:08:22.67,*Default,NTP,0000,0000,0000,,tried writing the code on your own.
+Dialogue: 0,0:08:26.69,0:08:29.01,*Default,NTP,0000,0000,0000,,That is really the most important thing
+Dialogue: 0,0:08:29.01,0:08:30.83,*Default,NTP,0000,0000,0000,,that I was expecting you to do here.
+Dialogue: 0,0:08:32.29,0:08:37.07,*Default,NTP,0000,0000,0000,,So width of 75, the height also 75.
+Dialogue: 0,0:08:41.50,0:08:44.08,*Default,NTP,0000,0000,0000,,(keys tapping)
+Dialogue: 0,0:08:46.23,0:08:49.77,*Default,NTP,0000,0000,0000,,Then again, a link pointing nowhere.
+Dialogue: 0,0:08:49.77,0:08:54.73,*Default,NTP,0000,0000,0000,,And this one is The Unknown Powers of CSS,
+Dialogue: 0,0:08:59.76,0:09:02.95,*Default,NTP,0000,0000,0000,,and by Jim Dillon.
+Dialogue: 0,0:09:02.95,0:09:07.62,*Default,NTP,0000,0000,0000,,And I'm not going to check out the result just yet,
+Dialogue: 0,0:09:07.62,0:09:09.49,*Default,NTP,0000,0000,0000,,let's just finish it.
+Dialogue: 0,0:09:11.02,0:09:12.43,*Default,NTP,0000,0000,0000,,So another image.
+Dialogue: 0,0:09:14.16,0:09:16.60,*Default,NTP,0000,0000,0000,,So the goal of this part here was really
+Dialogue: 0,0:09:16.60,0:09:20.73,*Default,NTP,0000,0000,0000,,to have you practice writing this same code basically,
+Dialogue: 0,0:09:20.73,0:09:24.07,*Default,NTP,0000,0000,0000,,or very similar code over and over again,
+Dialogue: 0,0:09:24.07,0:09:25.63,*Default,NTP,0000,0000,0000,,'cause this is the only way
+Dialogue: 0,0:09:25.63,0:09:29.16,*Default,NTP,0000,0000,0000,,that this stuff really gets into your brain.
+Dialogue: 0,0:09:31.85,0:09:35.25,*Default,NTP,0000,0000,0000,,So let's call this one JavaScript code on a screen,
+Dialogue: 0,0:09:37.10,0:09:42.10,*Default,NTP,0000,0000,0000,,and again, the width of 75, and the height of 75.
+Dialogue: 0,0:09:45.07,0:09:46.70,*Default,NTP,0000,0000,0000,,And you notice I'm writing this
+Dialogue: 0,0:09:46.70,0:09:48.97,*Default,NTP,0000,0000,0000,,a little bit faster right now,
+Dialogue: 0,0:09:50.77,0:09:53.61,*Default,NTP,0000,0000,0000,,because we don't want to waste a lot of time
+Dialogue: 0,0:09:53.61,0:09:55.86,*Default,NTP,0000,0000,0000,,writing this repetitive code.
+Dialogue: 0,0:09:55.86,0:10:00.23,*Default,NTP,0000,0000,0000,,This was really just for you to practice, is awesome.
+Dialogue: 0,0:10:03.56,0:10:04.89,*Default,NTP,0000,0000,0000,,Finally the paragraph,
+Dialogue: 0,0:10:08.44,0:10:12.91,*Default,NTP,0000,0000,0000,,give it a save, and beautiful.
+Dialogue: 0,0:10:16.21,0:10:18.70,*Default,NTP,0000,0000,0000,,So this looks just like in our demo,
+Dialogue: 0,0:10:18.70,0:10:20.61,*Default,NTP,0000,0000,0000,,and we have now all this content
+Dialogue: 0,0:10:20.61,0:10:23.92,*Default,NTP,0000,0000,0000,,that we want to display here nicely marked up
+Dialogue: 0,0:10:23.92,0:10:26.32,*Default,NTP,0000,0000,0000,,in a very logical way.
+Dialogue: 0,0:10:26.32,0:10:28.54,*Default,NTP,0000,0000,0000,,So you might be wondering why we used
+Dialogue: 0,0:10:28.54,0:10:31.27,*Default,NTP,0000,0000,0000,,a list here in this case.
+Dialogue: 0,0:10:31.27,0:10:32.52,*Default,NTP,0000,0000,0000,,And the reason for that
+Dialogue: 0,0:10:32.52,0:10:36.00,*Default,NTP,0000,0000,0000,,is basically the idea behind Semantic HTML,
+Dialogue: 0,0:10:36.00,0:10:38.57,*Default,NTP,0000,0000,0000,,that I explained a little bit earlier.
+Dialogue: 0,0:10:38.57,0:10:41.25,*Default,NTP,0000,0000,0000,,So if we think about these related posts,
+Dialogue: 0,0:10:41.25,0:10:42.79,*Default,NTP,0000,0000,0000,,we can very easily argue
+Dialogue: 0,0:10:42.79,0:10:47.39,*Default,NTP,0000,0000,0000,,that it is essentially a list of related posts, right?
+Dialogue: 0,0:10:47.39,0:10:51.77,*Default,NTP,0000,0000,0000,,And so if it is a list, we should mark it up in our HTML,
+Dialogue: 0,0:10:51.77,0:10:55.63,*Default,NTP,0000,0000,0000,,so we should write our HTML as a list.
+Dialogue: 0,0:10:55.63,0:10:58.11,*Default,NTP,0000,0000,0000,,And so that's just what we did.
+Dialogue: 0,0:10:58.11,0:11:01.71,*Default,NTP,0000,0000,0000,,Later with CSS, we will then remove these bullet points,
+Dialogue: 0,0:11:01.71,0:11:04.63,*Default,NTP,0000,0000,0000,,because they don't make a lot of sense in this context,
+Dialogue: 0,0:11:04.63,0:11:07.00,*Default,NTP,0000,0000,0000,,but even with the bullet points removed,
+Dialogue: 0,0:11:07.00,0:11:10.42,*Default,NTP,0000,0000,0000,,we still want a meaning of this element,
+Dialogue: 0,0:11:10.42,0:11:13.87,*Default,NTP,0000,0000,0000,,So of all of this here to be a list.
+Dialogue: 0,0:11:13.87,0:11:17.17,*Default,NTP,0000,0000,0000,,But anyway, that's enough for this video.
+Dialogue: 0,0:11:17.17,0:11:20.67,*Default,NTP,0000,0000,0000,,So I really hoped that you completed this challenge,
+Dialogue: 0,0:11:20.67,0:11:24.75,*Default,NTP,0000,0000,0000,,and that you enjoyed doing it, even if it took some time,
+Dialogue: 0,0:11:24.75,0:11:27.43,*Default,NTP,0000,0000,0000,,and even if you had to review some concepts
+Dialogue: 0,0:11:27.43,0:11:29.45,*Default,NTP,0000,0000,0000,,from the previous lectures.
+Dialogue: 0,0:11:29.45,0:11:30.77,*Default,NTP,0000,0000,0000,,That's completely normal,
+Dialogue: 0,0:11:30.77,0:11:34.39,*Default,NTP,0000,0000,0000,,and that's exactly how it should be actually.
+Dialogue: 0,0:11:34.39,0:11:37.64,*Default,NTP,0000,0000,0000,,Now in order to practice a little bit more even,
+Dialogue: 0,0:11:37.64,0:11:40.24,*Default,NTP,0000,0000,0000,,there is another coding challenge coming up,
+Dialogue: 0,0:11:40.24,0:11:44.40,*Default,NTP,0000,0000,0000,,which is completely detached from this project,
+Dialogue: 0,0:11:44.40,0:11:46.38,*Default,NTP,0000,0000,0000,,but it's a really exciting one.
+Dialogue: 0,0:11:46.38,0:11:48.37,*Default,NTP,0000,0000,0000,,So I hope to see you there soon.

@@ -1,0 +1,358 @@
+[Script Info]
+Title: 025 Combining Selectors_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=23&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.62,0:00:04.21,*Default,NTP,0000,0000,0000,,现在让我们制作 CSS 代码
+Dialogue: 0,0:00:04.21,0:00:06.81,*Default,NTP,0000,0000,0000,,我们只是写得更好一点
+Dialogue: 0,0:00:06.81,0:00:09.68,*Default,NTP,0000,0000,0000,,通过组合一些选择器。
+Dialogue: 0,0:00:11.15,0:00:12.95,*Default,NTP,0000,0000,0000,,所以你可能已经注意到
+Dialogue: 0,0:00:12.95,0:00:15.96,*Default,NTP,0000,0000,0000,,我们应用了完全相同的字体系列
+Dialogue: 0,0:00:15.96,0:00:19.62,*Default,NTP,0000,0000,0000,,到我们这里的所有元素，对吧？
+Dialogue: 0,0:00:19.62,0:00:24.32,*Default,NTP,0000,0000,0000,,所以我们在这里拥有的所有这六个 CSS 规则，
+Dialogue: 0,0:00:24.32,0:00:26.83,*Default,NTP,0000,0000,0000,,它们都有字体样式，
+Dialogue: 0,0:00:26.83,0:00:31.10,*Default,NTP,0000,0000,0000,,或者实际上将字体系列设置为无衬线字体。
+Dialogue: 0,0:00:32.51,0:00:35.70,*Default,NTP,0000,0000,0000,,你会看到 VS Code 实际上突出显示
+Dialogue: 0,0:00:35.70,0:00:38.54,*Default,NTP,0000,0000,0000,,这些出现在所有规则中。
+Dialogue: 0,0:00:39.41,0:00:43.47,*Default,NTP,0000,0000,0000,,所以这样做有点重复，对吧？
+Dialogue: 0,0:00:43.47,0:00:45.94,*Default,NTP,0000,0000,0000,,这也不是一个好习惯
+Dialogue: 0,0:00:45.94,0:00:48.49,*Default,NTP,0000,0000,0000,,因为让我们说一下子
+Dialogue: 0,0:00:48.49,0:00:52.53,*Default,NTP,0000,0000,0000,,我们想将字体系列更改为其他内容。
+Dialogue: 0,0:00:52.53,0:00:54.32,*Default,NTP,0000,0000,0000,,然后我们将不得不经历所有
+Dialogue: 0,0:00:54.32,0:00:58.25,*Default,NTP,0000,0000,0000,,这些不同的规则，然后设置字体系列
+Dialogue: 0,0:00:58.25,0:01:00.20,*Default,NTP,0000,0000,0000,,到那里的别的东西。
+Dialogue: 0,0:01:00.20,0:01:01.32,*Default,NTP,0000,0000,0000,,所以与其，
+Dialogue: 0,0:01:01.32,0:01:05.98,*Default,NTP,0000,0000,0000,,我们可以做的是创建一个选择器列表
+Dialogue: 0,0:01:05.98,0:01:08.39,*Default,NTP,0000,0000,0000,,为了选择多个元素
+Dialogue: 0,0:01:08.39,0:01:13.14,*Default,NTP,0000,0000,0000,,然后基本上将此字体系列应用于该列表。
+Dialogue: 0,0:01:14.92,0:01:17.17,*Default,NTP,0000,0000,0000,,所以让我告诉你我们如何做到这一点
+Dialogue: 0,0:01:17.17,0:01:19.77,*Default,NTP,0000,0000,0000,,实际上，让我们先在这里做。
+Dialogue: 0,0:01:19.77,0:01:23.95,*Default,NTP,0000,0000,0000,,所以我们要做的是选择h1元素
+Dialogue: 0,0:01:23.95,0:01:26.09,*Default,NTP,0000,0000,0000,,和 h2 元素
+Dialogue: 0,0:01:26.09,0:01:28.36,*Default,NTP,0000,0000,0000,,和 h3 元素。
+Dialogue: 0,0:01:28.36,0:01:31.41,*Default,NTP,0000,0000,0000,,如你所见，我们写它的方式
+Dialogue: 0,0:01:31.41,0:01:33.42,*Default,NTP,0000,0000,0000,,是通过使用这些逗号。
+Dialogue: 0,0:01:34.41,0:01:35.24,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:01:36.10,0:01:37.28,*Default,NTP,0000,0000,0000,,再说一次，
+Dialogue: 0,0:01:37.28,0:01:40.33,*Default,NTP,0000,0000,0000,,在这里，我们将选择 h1 元素
+Dialogue: 0,0:01:40.33,0:01:44.88,*Default,NTP,0000,0000,0000,,和 h2 元素和 h3 元素
+Dialogue: 0,0:01:44.88,0:01:46.98,*Default,NTP,0000,0000,0000,,和 h4 元素
+Dialogue: 0,0:01:46.98,0:01:48.62,*Default,NTP,0000,0000,0000,,和ps，
+Dialogue: 0,0:01:48.62,0:01:53.13,*Default,NTP,0000,0000,0000,,还有所有的 li 元素。
+Dialogue: 0,0:01:55.77,0:01:56.77,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:56.77,0:02:00.91,*Default,NTP,0000,0000,0000,,现在我们可以在这里抓取这个文本并剪切它
+Dialogue: 0,0:02:02.00,0:02:03.13,*Default,NTP,0000,0000,0000,,并将其粘贴在这里。
+Dialogue: 0,0:02:04.14,0:02:08.68,*Default,NTP,0000,0000,0000,,现在我们可以将它从所有其他选择器中删除。
+Dialogue: 0,0:02:13.15,0:02:14.11,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:14.11,0:02:16.15,*Default,NTP,0000,0000,0000,,如果我现在拯救它，
+Dialogue: 0,0:02:16.15,0:02:19.09,*Default,NTP,0000,0000,0000,,页面应该基本上看起来完全一样。
+Dialogue: 0,0:02:20.18,0:02:21.05,*Default,NTP,0000,0000,0000,,它确实如此。
+Dialogue: 0,0:02:22.38,0:02:27.38,*Default,NTP,0000,0000,0000,,好的，现在 Prettier 在这里像这样格式化了我们的 CSS 代码，
+Dialogue: 0,0:02:27.61,0:02:30.44,*Default,NTP,0000,0000,0000,,所以每一行都有一个元素，
+Dialogue: 0,0:02:30.44,0:02:32.24,*Default,NTP,0000,0000,0000,,所以这更容易阅读。
+Dialogue: 0,0:02:33.68,0:02:36.98,*Default,NTP,0000,0000,0000,,所以现在，如果我们想改变字体系列，
+Dialogue: 0,0:02:36.98,0:02:41.33,*Default,NTP,0000,0000,0000,,让我们说衬线，这实际上是默认值。
+Dialogue: 0,0:02:41.33,0:02:43.30,*Default,NTP,0000,0000,0000,,所以如果我现在保存这个，
+Dialogue: 0,0:02:43.30,0:02:46.96,*Default,NTP,0000,0000,0000,,然后您会看到所有元素同时发生了变化。
+Dialogue: 0,0:02:48.86,0:02:52.30,*Default,NTP,0000,0000,0000,,所以他们现在都有衬线文本。
+Dialogue: 0,0:02:52.30,0:02:55.06,*Default,NTP,0000,0000,0000,,当然，如果我们把它放回这里，
+Dialogue: 0,0:02:55.06,0:02:58.43,*Default,NTP,0000,0000,0000,,那么他们都会改变，对吗？
+Dialogue: 0,0:02:58.43,0:03:00.97,*Default,NTP,0000,0000,0000,,所以现在我们到处都有衬线文本。
+Dialogue: 0,0:03:02.36,0:03:05.64,*Default,NTP,0000,0000,0000,,好吧，实际上，除了在页脚中。
+Dialogue: 0,0:03:05.64,0:03:08.61,*Default,NTP,0000,0000,0000,,所以这是我们需要解决的问题。
+Dialogue: 0,0:03:08.61,0:03:11.17,*Default,NTP,0000,0000,0000,,为了在这里更容易，
+Dialogue: 0,0:03:11.17,0:03:14.38,*Default,NTP,0000,0000,0000,,让我们把这段文字简单地包装在这里
+Dialogue: 0,0:03:15.28,0:03:18.00,*Default,NTP,0000,0000,0000,,段内。
+Dialogue: 0,0:03:18.00,0:03:20.52,*Default,NTP,0000,0000,0000,,所以让我们来到我们的HTML。
+Dialogue: 0,0:03:20.52,0:03:22.77,*Default,NTP,0000,0000,0000,,所以你这样做真的很重要。
+Dialogue: 0,0:03:24.75,0:03:27.17,*Default,NTP,0000,0000,0000,,所以在这里创建一个新元素
+Dialogue: 0,0:03:28.87,0:03:30.98,*Default,NTP,0000,0000,0000,,它会自动关闭它。
+Dialogue: 0,0:03:30.98,0:03:35.60,*Default,NTP,0000,0000,0000,,因此，让我们抓住这段文字并将其粘贴到此处。
+Dialogue: 0,0:03:36.89,0:03:39.25,*Default,NTP,0000,0000,0000,,你看现在这一段看起来
+Dialogue: 0,0:03:39.25,0:03:40.76,*Default,NTP,0000,0000,0000,,就像所有其他人一样。
+Dialogue: 0,0:03:42.46,0:03:44.58,*Default,NTP,0000,0000,0000,,好的？所以不要跳过这一步。
+Dialogue: 0,0:03:44.58,0:03:47.28,*Default,NTP,0000,0000,0000,,请这样做，因为我们现在需要它
+Dialogue: 0,0:03:47.28,0:03:49.30,*Default,NTP,0000,0000,0000,,再举一个例子。
+Dialogue: 0,0:03:49.30,0:03:53.00,*Default,NTP,0000,0000,0000,,事实上，让我们马上来看这个例子。
+Dialogue: 0,0:03:54.13,0:03:59.13,*Default,NTP,0000,0000,0000,,所以大小我们的段落是 22 像素。
+Dialogue: 0,0:03:59.20,0:04:02.53,*Default,NTP,0000,0000,0000,,当然，现在页脚中的段落，
+Dialogue: 0,0:04:02.53,0:04:05.71,*Default,NTP,0000,0000,0000,,所以这个，也是22像素。
+Dialogue: 0,0:04:05.71,0:04:08.19,*Default,NTP,0000,0000,0000,,但是，页脚中的文本
+Dialogue: 0,0:04:08.19,0:04:11.88,*Default,NTP,0000,0000,0000,,通常比文本的其余部分小很多
+Dialogue: 0,0:04:11.88,0:04:15.04,*Default,NTP,0000,0000,0000,,因为这只是一些次要信息
+Dialogue: 0,0:04:15.04,0:04:16.85,*Default,NTP,0000,0000,0000,,这并不重要。
+Dialogue: 0,0:04:16.85,0:04:19.80,*Default,NTP,0000,0000,0000,,因此，我们实际上应该使这个文本
+Dialogue: 0,0:04:19.80,0:04:23.17,*Default,NTP,0000,0000,0000,,在此段落中，此处小于文本
+Dialogue: 0,0:04:23.17,0:04:25.10,*Default,NTP,0000,0000,0000,,在其他段落中。
+Dialogue: 0,0:04:25.10,0:04:30.06,*Default,NTP,0000,0000,0000,,我们可以做到这一点的一种方法是组合选择器
+Dialogue: 0,0:04:30.06,0:04:31.08,*Default,NTP,0000,0000,0000,,用另一种方式。
+Dialogue: 0,0:04:32.74,0:04:37.10,*Default,NTP,0000,0000,0000,,回顾一下，这里我们结合了这六个选择器
+Dialogue: 0,0:04:37.10,0:04:38.63,*Default,NTP,0000,0000,0000,,到一个列表中。
+Dialogue: 0,0:04:38.63,0:04:43.63,*Default,NTP,0000,0000,0000,,所以我们说这里的选择器现在是一个列表选择器。
+Dialogue: 0,0:04:43.64,0:04:46.66,*Default,NTP,0000,0000,0000,,所以这里仍然是一个选择器，
+Dialogue: 0,0:04:46.66,0:04:49.61,*Default,NTP,0000,0000,0000,,但它是一个列表选择器，好吗？
+Dialogue: 0,0:04:49.61,0:04:52.46,*Default,NTP,0000,0000,0000,,所以这是组合选择器的一种方式，
+Dialogue: 0,0:04:52.46,0:04:56.70,*Default,NTP,0000,0000,0000,,但现在我会给你另一种组合选择器的方法
+Dialogue: 0,0:04:56.70,0:05:00.15,*Default,NTP,0000,0000,0000,,正如我们刚刚讨论的那样，其目标是
+Dialogue: 0,0:05:00.15,0:05:02.32,*Default,NTP,0000,0000,0000,,在这里减小字体大小。
+Dialogue: 0,0:05:03.40,0:05:06.99,*Default,NTP,0000,0000,0000,,所以我们现在将使用所谓的后代选择器，
+Dialogue: 0,0:05:06.99,0:05:09.47,*Default,NTP,0000,0000,0000,,也就是写这样的东西。
+Dialogue: 0,0:05:10.58,0:05:13.39,*Default,NTP,0000,0000,0000,,所以我们选择页脚元素，
+Dialogue: 0,0:05:13.39,0:05:18.19,*Default,NTP,0000,0000,0000,,然后是空格，然后是 p 选择器。
+Dialogue: 0,0:05:18.19,0:05:19.77,*Default,NTP,0000,0000,0000,,那么这会做什么
+Dialogue: 0,0:05:19.77,0:05:22.51,*Default,NTP,0000,0000,0000,,是否会选择所有 p 元素
+Dialogue: 0,0:05:22.51,0:05:26.27,*Default,NTP,0000,0000,0000,,在页脚元素内部。
+Dialogue: 0,0:05:26.27,0:05:29.54,*Default,NTP,0000,0000,0000,,这就是为什么这被称为后代选择器。
+Dialogue: 0,0:05:29.54,0:05:32.50,*Default,NTP,0000,0000,0000,,因为p元素是子元素
+Dialogue: 0,0:05:32.50,0:05:35.04,*Default,NTP,0000,0000,0000,,在我们的 HTML 中的页脚。
+Dialogue: 0,0:05:35.04,0:05:37.58,*Default,NTP,0000,0000,0000,,因此，这里的选择器
+Dialogue: 0,0:05:37.58,0:05:40.08,*Default,NTP,0000,0000,0000,,然后将选择所有这些段落
+Dialogue: 0,0:05:40.08,0:05:43.37,*Default,NTP,0000,0000,0000,,是页脚元素的子元素。
+Dialogue: 0,0:05:43.37,0:05:45.80,*Default,NTP,0000,0000,0000,,所以如果我们现在在这里设置字体大小
+Dialogue: 0,0:05:45.80,0:05:47.11,*Default,NTP,0000,0000,0000,,到更小的东西，
+Dialogue: 0,0:05:48.21,0:05:50.65,*Default,NTP,0000,0000,0000,,比方说16像素，
+Dialogue: 0,0:05:52.22,0:05:56.67,*Default,NTP,0000,0000,0000,,然后你看到所有其他的ps，他们还是正常的，
+Dialogue: 0,0:05:56.67,0:06:00.63,*Default,NTP,0000,0000,0000,,但实际上，在页脚里面的这段
+Dialogue: 0,0:06:01.70,0:06:04.68,*Default,NTP,0000,0000,0000,,现在只有 16 像素小。
+Dialogue: 0,0:06:04.68,0:06:08.04,*Default,NTP,0000,0000,0000,,希望你能看到它有多么有用
+Dialogue: 0,0:06:08.04,0:06:10.82,*Default,NTP,0000,0000,0000,,像这里这样的后代选择器是。
+Dialogue: 0,0:06:10.82,0:06:13.76,*Default,NTP,0000,0000,0000,,所以实际上一直使用它。
+Dialogue: 0,0:06:13.76,0:06:18.22,*Default,NTP,0000,0000,0000,,但是，在这种情况下，这实际上不是很健壮
+Dialogue: 0,0:06:18.22,0:06:20.41,*Default,NTP,0000,0000,0000,,因为，像这样，
+Dialogue: 0,0:06:20.41,0:06:24.13,*Default,NTP,0000,0000,0000,,选择器基本上反映了 HTML 结构，
+Dialogue: 0,0:06:24.13,0:06:26.47,*Default,NTP,0000,0000,0000,,这可能会导致问题。
+Dialogue: 0,0:06:26.47,0:06:28.11,*Default,NTP,0000,0000,0000,,为了向你展示，
+Dialogue: 0,0:06:28.11,0:06:31.02,*Default,NTP,0000,0000,0000,,让我们再写一个后代选择器。
+Dialogue: 0,0:06:31.02,0:06:31.86,*Default,NTP,0000,0000,0000,,所以在这种情况下，
+Dialogue: 0,0:06:31.86,0:06:35.65,*Default,NTP,0000,0000,0000,,假设我们要在这里选择这一段
+Dialogue: 0,0:06:35.65,0:06:37.23,*Default,NTP,0000,0000,0000,,那是标题的内部。
+Dialogue: 0,0:06:38.52,0:06:41.79,*Default,NTP,0000,0000,0000,,所以请记住，我们在文章中有一个标题，
+Dialogue: 0,0:06:43.73,0:06:46.02,*Default,NTP,0000,0000,0000,,所以这个在这里，我们有一个p。
+Dialogue: 0,0:06:46.96,0:06:50.50,*Default,NTP,0000,0000,0000,,假设我们想要设置斜体的样式，
+Dialogue: 0,0:06:50.50,0:06:52.33,*Default,NTP,0000,0000,0000,,所以让文字斜体。
+Dialogue: 0,0:06:52.33,0:06:57.33,*Default,NTP,0000,0000,0000,,所以使用我们刚刚学到的，我们可以说标题，
+Dialogue: 0,0:06:57.80,0:07:00.62,*Default,NTP,0000,0000,0000,,然后是里面的 p，
+Dialogue: 0,0:07:03.26,0:07:07.92,*Default,NTP,0000,0000,0000,,然后说字体样式并将其设置为斜体。
+Dialogue: 0,0:07:09.38,0:07:13.05,*Default,NTP,0000,0000,0000,,好的，所以这工作得很好。
+Dialogue: 0,0:07:13.05,0:07:15.11,*Default,NTP,0000,0000,0000,,但现在想象一下，出于某种原因，
+Dialogue: 0,0:07:15.11,0:07:18.92,*Default,NTP,0000,0000,0000,,我们还在这个标题元素中添加了一个段落
+Dialogue: 0,0:07:18.92,0:07:20.38,*Default,NTP,0000,0000,0000,,这是在页面中。
+Dialogue: 0,0:07:21.81,0:07:23.56,*Default,NTP,0000,0000,0000,,所以让我们试试吧。
+Dialogue: 0,0:07:23.56,0:07:27.95,*Default,NTP,0000,0000,0000,,请记住，这里还有另一个标题，对吧？
+Dialogue: 0,0:07:27.95,0:07:31.62,*Default,NTP,0000,0000,0000,,所以正如我刚才所说，让我们在这里添加一个 p，
+Dialogue: 0,0:07:32.67,0:07:35.05,*Default,NTP,0000,0000,0000,,测试段，
+Dialogue: 0,0:07:36.04,0:07:39.96,*Default,NTP,0000,0000,0000,,你会看到这个现在也是斜体。
+Dialogue: 0,0:07:39.96,0:07:43.45,*Default,NTP,0000,0000,0000,,然而，我们想要的只是这里的这一段
+Dialogue: 0,0:07:43.45,0:07:48.45,*Default,NTP,0000,0000,0000,,是斜体而不是这个，对吧？
+Dialogue: 0,0:07:48.48,0:07:51.07,*Default,NTP,0000,0000,0000,,所以我们需要以某种方式解决这个问题。
+Dialogue: 0,0:07:51.07,0:07:53.13,*Default,NTP,0000,0000,0000,,实际上我们可以解决它。
+Dialogue: 0,0:07:53.13,0:07:54.40,*Default,NTP,0000,0000,0000,,这不是太难。
+Dialogue: 0,0:07:55.24,0:07:56.90,*Default,NTP,0000,0000,0000,,好吧，至少在这种情况下，
+Dialogue: 0,0:07:56.90,0:08:01.90,*Default,NTP,0000,0000,0000,,因为这里的标题在文章里面
+Dialogue: 0,0:08:01.92,0:08:05.00,*Default,NTP,0000,0000,0000,,而这个不是，对吧？
+Dialogue: 0,0:08:05.00,0:08:10.00,*Default,NTP,0000,0000,0000,,所以我们实际上可以创建一个嵌套的后代选择器。
+Dialogue: 0,0:08:10.10,0:08:14.27,*Default,NTP,0000,0000,0000,,所以我们可以在后代中有一个后代。
+Dialogue: 0,0:08:14.27,0:08:16.57,*Default,NTP,0000,0000,0000,,所以我的意思基本上是写这个。
+Dialogue: 0,0:08:17.52,0:08:21.74,*Default,NTP,0000,0000,0000,,所以我们只想要标题内的段落，
+Dialogue: 0,0:08:21.74,0:08:26.15,*Default,NTP,0000,0000,0000,,这是在文章的内部，是斜体。
+Dialogue: 0,0:08:26.15,0:08:27.69,*Default,NTP,0000,0000,0000,,所以让我们来拯救它。
+Dialogue: 0,0:08:27.69,0:08:29.78,*Default,NTP,0000,0000,0000,,现在只有这个是斜体的
+Dialogue: 0,0:08:29.78,0:08:32.16,*Default,NTP,0000,0000,0000,,而这个在这里，不再是。
+Dialogue: 0,0:08:32.16,0:08:33.98,*Default,NTP,0000,0000,0000,,所以这实际上有效，
+Dialogue: 0,0:08:33.98,0:08:38.25,*Default,NTP,0000,0000,0000,,但我们现在对 HTML 结构进行了更多编码
+Dialogue: 0,0:08:38.25,0:08:40.72,*Default,NTP,0000,0000,0000,,进入我们的 CSS 选择器，
+Dialogue: 0,0:08:40.72,0:08:44.65,*Default,NTP,0000,0000,0000,,这会使我们的代码在未来难以维护
+Dialogue: 0,0:08:44.65,0:08:47.07,*Default,NTP,0000,0000,0000,,如果我们改变了我们的 HTML。
+Dialogue: 0,0:08:47.07,0:08:49.23,*Default,NTP,0000,0000,0000,,所以这不是一个好主意。
+Dialogue: 0,0:08:49.23,0:08:51.23,*Default,NTP,0000,0000,0000,,因此，如果我们考虑这一点，
+Dialogue: 0,0:08:51.23,0:08:55.24,*Default,NTP,0000,0000,0000,,如果我们有办法真的会好很多吗
+Dialogue: 0,0:08:55.24,0:08:58.40,*Default,NTP,0000,0000,0000,,基本上给一些元素名称
+Dialogue: 0,0:08:58.40,0:09:01.18,*Default,NTP,0000,0000,0000,,然后使用这些名称来选择它们？
+Dialogue: 0,0:09:02.04,0:09:04.45,*Default,NTP,0000,0000,0000,,好吧，我们实际上可以做到这一点，
+Dialogue: 0,0:09:04.45,0:09:08.47,*Default,NTP,0000,0000,0000,,这正是下一节课的主题。
+Dialogue: 0,0:09:08.47,0:09:10.47,*Default,NTP,0000,0000,0000,,所以我们现在就去那里。
+Dialogue: 0,0:00:01.62,0:00:04.21,*Default,NTP,0000,0000,0000,,Let's now make the CSS code
+Dialogue: 0,0:00:04.21,0:00:06.81,*Default,NTP,0000,0000,0000,,that we just wrote a little bit better
+Dialogue: 0,0:00:06.81,0:00:09.68,*Default,NTP,0000,0000,0000,,by combining some of the selectors.
+Dialogue: 0,0:00:11.15,0:00:12.95,*Default,NTP,0000,0000,0000,,So you might've noticed
+Dialogue: 0,0:00:12.95,0:00:15.96,*Default,NTP,0000,0000,0000,,that we applied the exact same font family
+Dialogue: 0,0:00:15.96,0:00:19.62,*Default,NTP,0000,0000,0000,,to all of our elements here, right?
+Dialogue: 0,0:00:19.62,0:00:24.32,*Default,NTP,0000,0000,0000,,So all these six CSS rules that we have here,
+Dialogue: 0,0:00:24.32,0:00:26.83,*Default,NTP,0000,0000,0000,,all of them have font-style,
+Dialogue: 0,0:00:26.83,0:00:31.10,*Default,NTP,0000,0000,0000,,or actually have font-family set to sans-serif.
+Dialogue: 0,0:00:32.51,0:00:35.70,*Default,NTP,0000,0000,0000,,And you see that VS Code actually highlights
+Dialogue: 0,0:00:35.70,0:00:38.54,*Default,NTP,0000,0000,0000,,these occurrences here in all of the rules.
+Dialogue: 0,0:00:39.41,0:00:43.47,*Default,NTP,0000,0000,0000,,So doing that is a little bit repetitive, right?
+Dialogue: 0,0:00:43.47,0:00:45.94,*Default,NTP,0000,0000,0000,,And it's also not a good practice
+Dialogue: 0,0:00:45.94,0:00:48.49,*Default,NTP,0000,0000,0000,,because let's say that all of a sudden
+Dialogue: 0,0:00:48.49,0:00:52.53,*Default,NTP,0000,0000,0000,,we wanted to change the font-family to something else.
+Dialogue: 0,0:00:52.53,0:00:54.32,*Default,NTP,0000,0000,0000,,Then we would have to go through all
+Dialogue: 0,0:00:54.32,0:00:58.25,*Default,NTP,0000,0000,0000,,of these different rules and set the font-family then
+Dialogue: 0,0:00:58.25,0:01:00.20,*Default,NTP,0000,0000,0000,,to something else there.
+Dialogue: 0,0:01:00.20,0:01:01.32,*Default,NTP,0000,0000,0000,,So instead,
+Dialogue: 0,0:01:01.32,0:01:05.98,*Default,NTP,0000,0000,0000,,what we can do is to create a list of selectors
+Dialogue: 0,0:01:05.98,0:01:08.39,*Default,NTP,0000,0000,0000,,in order to select multiple elements
+Dialogue: 0,0:01:08.39,0:01:13.14,*Default,NTP,0000,0000,0000,,and then apply this font-family to that list, essentially.
+Dialogue: 0,0:01:14.92,0:01:17.17,*Default,NTP,0000,0000,0000,,So let me show you how we can do that
+Dialogue: 0,0:01:17.17,0:01:19.77,*Default,NTP,0000,0000,0000,,and let's do it first here, actually.
+Dialogue: 0,0:01:19.77,0:01:23.95,*Default,NTP,0000,0000,0000,,So what we want to do is to select the h1 element
+Dialogue: 0,0:01:23.95,0:01:26.09,*Default,NTP,0000,0000,0000,,and the h2 element
+Dialogue: 0,0:01:26.09,0:01:28.36,*Default,NTP,0000,0000,0000,,and the h3 element.
+Dialogue: 0,0:01:28.36,0:01:31.41,*Default,NTP,0000,0000,0000,,And so as you see, the way we write that
+Dialogue: 0,0:01:31.41,0:01:33.42,*Default,NTP,0000,0000,0000,,is by using these commas.
+Dialogue: 0,0:01:34.41,0:01:35.24,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:01:36.10,0:01:37.28,*Default,NTP,0000,0000,0000,,So again,
+Dialogue: 0,0:01:37.28,0:01:40.33,*Default,NTP,0000,0000,0000,,here, we are going to select the h1 elements
+Dialogue: 0,0:01:40.33,0:01:44.88,*Default,NTP,0000,0000,0000,,and the h2 elements and the h3 elements
+Dialogue: 0,0:01:44.88,0:01:46.98,*Default,NTP,0000,0000,0000,,and the h4 elements
+Dialogue: 0,0:01:46.98,0:01:48.62,*Default,NTP,0000,0000,0000,,and the ps,
+Dialogue: 0,0:01:48.62,0:01:53.13,*Default,NTP,0000,0000,0000,,and also all the li elements.
+Dialogue: 0,0:01:55.77,0:01:56.77,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:01:56.77,0:02:00.91,*Default,NTP,0000,0000,0000,,And now we can grab this text here and cut it
+Dialogue: 0,0:02:02.00,0:02:03.13,*Default,NTP,0000,0000,0000,,and paste it here.
+Dialogue: 0,0:02:04.14,0:02:08.68,*Default,NTP,0000,0000,0000,,And now we can remove it from all of these other selectors.
+Dialogue: 0,0:02:13.15,0:02:14.11,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:02:14.11,0:02:16.15,*Default,NTP,0000,0000,0000,,And if I give it a save now,
+Dialogue: 0,0:02:16.15,0:02:19.09,*Default,NTP,0000,0000,0000,,the page should basically look exactly the same.
+Dialogue: 0,0:02:20.18,0:02:21.05,*Default,NTP,0000,0000,0000,,And it does.
+Dialogue: 0,0:02:22.38,0:02:27.38,*Default,NTP,0000,0000,0000,,Okay, now Prettier formatted our CSS code here like this,
+Dialogue: 0,0:02:27.61,0:02:30.44,*Default,NTP,0000,0000,0000,,so having one element for each line,
+Dialogue: 0,0:02:30.44,0:02:32.24,*Default,NTP,0000,0000,0000,,and so this is a bit easier to read.
+Dialogue: 0,0:02:33.68,0:02:36.98,*Default,NTP,0000,0000,0000,,And so now, if we wanted to change the font-family,
+Dialogue: 0,0:02:36.98,0:02:41.33,*Default,NTP,0000,0000,0000,,let's say to serif, which is actually the default.
+Dialogue: 0,0:02:41.33,0:02:43.30,*Default,NTP,0000,0000,0000,,So if I save this now,
+Dialogue: 0,0:02:43.30,0:02:46.96,*Default,NTP,0000,0000,0000,,then you see that all of the elements changed at once.
+Dialogue: 0,0:02:48.86,0:02:52.30,*Default,NTP,0000,0000,0000,,So all of them now have the serif text.
+Dialogue: 0,0:02:52.30,0:02:55.06,*Default,NTP,0000,0000,0000,,Then of course, if we set it back here,
+Dialogue: 0,0:02:55.06,0:02:58.43,*Default,NTP,0000,0000,0000,,then all of them will change, right?
+Dialogue: 0,0:02:58.43,0:03:00.97,*Default,NTP,0000,0000,0000,,So now we have serif text everywhere.
+Dialogue: 0,0:03:02.36,0:03:05.64,*Default,NTP,0000,0000,0000,,Well, actually, except for in the footer.
+Dialogue: 0,0:03:05.64,0:03:08.61,*Default,NTP,0000,0000,0000,,So that's something that we need to fix.
+Dialogue: 0,0:03:08.61,0:03:11.17,*Default,NTP,0000,0000,0000,,And to make it easier here,
+Dialogue: 0,0:03:11.17,0:03:14.38,*Default,NTP,0000,0000,0000,,let's actually simply wrap this text here
+Dialogue: 0,0:03:15.28,0:03:18.00,*Default,NTP,0000,0000,0000,,inside a paragraph.
+Dialogue: 0,0:03:18.00,0:03:20.52,*Default,NTP,0000,0000,0000,,So let's come here to our HTML.
+Dialogue: 0,0:03:20.52,0:03:22.77,*Default,NTP,0000,0000,0000,,So this is really important that you do this.
+Dialogue: 0,0:03:24.75,0:03:27.17,*Default,NTP,0000,0000,0000,,And so create a new element here
+Dialogue: 0,0:03:28.87,0:03:30.98,*Default,NTP,0000,0000,0000,,and it automatically closed it.
+Dialogue: 0,0:03:30.98,0:03:35.60,*Default,NTP,0000,0000,0000,,So let's just then grab this text and paste it here.
+Dialogue: 0,0:03:36.89,0:03:39.25,*Default,NTP,0000,0000,0000,,And you see that now this paragraph looks
+Dialogue: 0,0:03:39.25,0:03:40.76,*Default,NTP,0000,0000,0000,,just like all the others.
+Dialogue: 0,0:03:42.46,0:03:44.58,*Default,NTP,0000,0000,0000,,Okay? So don't skip this step.
+Dialogue: 0,0:03:44.58,0:03:47.28,*Default,NTP,0000,0000,0000,,Please do this because we will now need it
+Dialogue: 0,0:03:47.28,0:03:49.30,*Default,NTP,0000,0000,0000,,for another example.
+Dialogue: 0,0:03:49.30,0:03:53.00,*Default,NTP,0000,0000,0000,,And in fact, let's look at that example right away.
+Dialogue: 0,0:03:54.13,0:03:59.13,*Default,NTP,0000,0000,0000,,So the size of our paragraphs is 22 pixels.
+Dialogue: 0,0:03:59.20,0:04:02.53,*Default,NTP,0000,0000,0000,,And so of course, now the paragraph that's in the footer,
+Dialogue: 0,0:04:02.53,0:04:05.71,*Default,NTP,0000,0000,0000,,so this one, is also 22 pixels.
+Dialogue: 0,0:04:05.71,0:04:08.19,*Default,NTP,0000,0000,0000,,However, the text that's in the footer
+Dialogue: 0,0:04:08.19,0:04:11.88,*Default,NTP,0000,0000,0000,,is usually a lot smaller than the rest of the text
+Dialogue: 0,0:04:11.88,0:04:15.04,*Default,NTP,0000,0000,0000,,because this is just some secondary information
+Dialogue: 0,0:04:15.04,0:04:16.85,*Default,NTP,0000,0000,0000,,that is not really important.
+Dialogue: 0,0:04:16.85,0:04:19.80,*Default,NTP,0000,0000,0000,,And so therefore we should actually make this text
+Dialogue: 0,0:04:19.80,0:04:23.17,*Default,NTP,0000,0000,0000,,in this paragraph here smaller than the text
+Dialogue: 0,0:04:23.17,0:04:25.10,*Default,NTP,0000,0000,0000,,in the other paragraphs.
+Dialogue: 0,0:04:25.10,0:04:30.06,*Default,NTP,0000,0000,0000,,And one way in which we can do this is to combine selectors
+Dialogue: 0,0:04:30.06,0:04:31.08,*Default,NTP,0000,0000,0000,,in another way.
+Dialogue: 0,0:04:32.74,0:04:37.10,*Default,NTP,0000,0000,0000,,So just to recap, here we combined these six selectors
+Dialogue: 0,0:04:37.10,0:04:38.63,*Default,NTP,0000,0000,0000,,into one list.
+Dialogue: 0,0:04:38.63,0:04:43.63,*Default,NTP,0000,0000,0000,,So we say that the selector here is now a list selector.
+Dialogue: 0,0:04:43.64,0:04:46.66,*Default,NTP,0000,0000,0000,,So this here is still one selector,
+Dialogue: 0,0:04:46.66,0:04:49.61,*Default,NTP,0000,0000,0000,,but it is a list selector, okay?
+Dialogue: 0,0:04:49.61,0:04:52.46,*Default,NTP,0000,0000,0000,,So this is one way of combining selectors,
+Dialogue: 0,0:04:52.46,0:04:56.70,*Default,NTP,0000,0000,0000,,but now I will give you another way of combining selectors
+Dialogue: 0,0:04:56.70,0:05:00.15,*Default,NTP,0000,0000,0000,,and the goal of that is, as we just discussed,
+Dialogue: 0,0:05:00.15,0:05:02.32,*Default,NTP,0000,0000,0000,,to decrease the font size in here.
+Dialogue: 0,0:05:03.40,0:05:06.99,*Default,NTP,0000,0000,0000,,So we will now use the so-called descendant selector,
+Dialogue: 0,0:05:06.99,0:05:09.47,*Default,NTP,0000,0000,0000,,which is to write something like this.
+Dialogue: 0,0:05:10.58,0:05:13.39,*Default,NTP,0000,0000,0000,,So we select the footer element,
+Dialogue: 0,0:05:13.39,0:05:18.19,*Default,NTP,0000,0000,0000,,then a space, and then the p selector.
+Dialogue: 0,0:05:18.19,0:05:19.77,*Default,NTP,0000,0000,0000,,And so what this will do
+Dialogue: 0,0:05:19.77,0:05:22.51,*Default,NTP,0000,0000,0000,,is it will select all the p elements
+Dialogue: 0,0:05:22.51,0:05:26.27,*Default,NTP,0000,0000,0000,,that are inside of footer elements.
+Dialogue: 0,0:05:26.27,0:05:29.54,*Default,NTP,0000,0000,0000,,And so that's why this is called the descendant selector.
+Dialogue: 0,0:05:29.54,0:05:32.50,*Default,NTP,0000,0000,0000,,Because the p element is a child element
+Dialogue: 0,0:05:32.50,0:05:35.04,*Default,NTP,0000,0000,0000,,of the footer in our HTML.
+Dialogue: 0,0:05:35.04,0:05:37.58,*Default,NTP,0000,0000,0000,,And so therefore, this selector here
+Dialogue: 0,0:05:37.58,0:05:40.08,*Default,NTP,0000,0000,0000,,will then select all of these paragraphs
+Dialogue: 0,0:05:40.08,0:05:43.37,*Default,NTP,0000,0000,0000,,that are children of footer elements.
+Dialogue: 0,0:05:43.37,0:05:45.80,*Default,NTP,0000,0000,0000,,And so if we now set the font size here
+Dialogue: 0,0:05:45.80,0:05:47.11,*Default,NTP,0000,0000,0000,,to something smaller,
+Dialogue: 0,0:05:48.21,0:05:50.65,*Default,NTP,0000,0000,0000,,let's say 16 pixels,
+Dialogue: 0,0:05:52.22,0:05:56.67,*Default,NTP,0000,0000,0000,,then you see that all the other ps, they are still normal,
+Dialogue: 0,0:05:56.67,0:06:00.63,*Default,NTP,0000,0000,0000,,but in fact, this paragraph that is inside the footer
+Dialogue: 0,0:06:01.70,0:06:04.68,*Default,NTP,0000,0000,0000,,is now only 16 pixels small.
+Dialogue: 0,0:06:04.68,0:06:08.04,*Default,NTP,0000,0000,0000,,And hopefully you can see how useful
+Dialogue: 0,0:06:08.04,0:06:10.82,*Default,NTP,0000,0000,0000,,the descendant selector, like this here, is.
+Dialogue: 0,0:06:10.82,0:06:13.76,*Default,NTP,0000,0000,0000,,So actually use this all the time.
+Dialogue: 0,0:06:13.76,0:06:18.22,*Default,NTP,0000,0000,0000,,However, in this case, this actually isn't very robust
+Dialogue: 0,0:06:18.22,0:06:20.41,*Default,NTP,0000,0000,0000,,because, like this,
+Dialogue: 0,0:06:20.41,0:06:24.13,*Default,NTP,0000,0000,0000,,the selector basically reflects the HTML structure,
+Dialogue: 0,0:06:24.13,0:06:26.47,*Default,NTP,0000,0000,0000,,which can lead to problems.
+Dialogue: 0,0:06:26.47,0:06:28.11,*Default,NTP,0000,0000,0000,,And to show that to you,
+Dialogue: 0,0:06:28.11,0:06:31.02,*Default,NTP,0000,0000,0000,,let's write another descendant selector.
+Dialogue: 0,0:06:31.02,0:06:31.86,*Default,NTP,0000,0000,0000,,So in this case,
+Dialogue: 0,0:06:31.86,0:06:35.65,*Default,NTP,0000,0000,0000,,let's say that we want to select this paragraph here
+Dialogue: 0,0:06:35.65,0:06:37.23,*Default,NTP,0000,0000,0000,,that's inside of the header.
+Dialogue: 0,0:06:38.52,0:06:41.79,*Default,NTP,0000,0000,0000,,So remember that we have a header here in the article,
+Dialogue: 0,0:06:43.73,0:06:46.02,*Default,NTP,0000,0000,0000,,so this one here, and we have a p.
+Dialogue: 0,0:06:46.96,0:06:50.50,*Default,NTP,0000,0000,0000,,So let's say we wanted to style that italic,
+Dialogue: 0,0:06:50.50,0:06:52.33,*Default,NTP,0000,0000,0000,,so make the text italic.
+Dialogue: 0,0:06:52.33,0:06:57.33,*Default,NTP,0000,0000,0000,,And so using what we just learned, we could say header,
+Dialogue: 0,0:06:57.80,0:07:00.62,*Default,NTP,0000,0000,0000,,and then the p that is inside there,
+Dialogue: 0,0:07:03.26,0:07:07.92,*Default,NTP,0000,0000,0000,,and then say font-style and set it to italic.
+Dialogue: 0,0:07:09.38,0:07:13.05,*Default,NTP,0000,0000,0000,,Okay, so this worked just fine.
+Dialogue: 0,0:07:13.05,0:07:15.11,*Default,NTP,0000,0000,0000,,But now imagine that, for some reason,
+Dialogue: 0,0:07:15.11,0:07:18.92,*Default,NTP,0000,0000,0000,,we also added a paragraph to this header element
+Dialogue: 0,0:07:18.92,0:07:20.38,*Default,NTP,0000,0000,0000,,that is up here in the page.
+Dialogue: 0,0:07:21.81,0:07:23.56,*Default,NTP,0000,0000,0000,,So let's try that.
+Dialogue: 0,0:07:23.56,0:07:27.95,*Default,NTP,0000,0000,0000,,And remember that here we have another header, right?
+Dialogue: 0,0:07:27.95,0:07:31.62,*Default,NTP,0000,0000,0000,,So as I was just saying, let's add a p here,
+Dialogue: 0,0:07:32.67,0:07:35.05,*Default,NTP,0000,0000,0000,,Test paragraph,
+Dialogue: 0,0:07:36.04,0:07:39.96,*Default,NTP,0000,0000,0000,,and you see that this one is now also italic.
+Dialogue: 0,0:07:39.96,0:07:43.45,*Default,NTP,0000,0000,0000,,However, what we wanted was only this paragraph here
+Dialogue: 0,0:07:43.45,0:07:48.45,*Default,NTP,0000,0000,0000,,to be italic and not this one, right?
+Dialogue: 0,0:07:48.48,0:07:51.07,*Default,NTP,0000,0000,0000,,So we need to solve this somehow.
+Dialogue: 0,0:07:51.07,0:07:53.13,*Default,NTP,0000,0000,0000,,And actually we can solve it.
+Dialogue: 0,0:07:53.13,0:07:54.40,*Default,NTP,0000,0000,0000,,It is not too hard.
+Dialogue: 0,0:07:55.24,0:07:56.90,*Default,NTP,0000,0000,0000,,Well, at least in this case,
+Dialogue: 0,0:07:56.90,0:08:01.90,*Default,NTP,0000,0000,0000,,because this header here is inside of the article
+Dialogue: 0,0:08:01.92,0:08:05.00,*Default,NTP,0000,0000,0000,,and this one is not, right?
+Dialogue: 0,0:08:05.00,0:08:10.00,*Default,NTP,0000,0000,0000,,And so we can actually create a nested descendant selector.
+Dialogue: 0,0:08:10.10,0:08:14.27,*Default,NTP,0000,0000,0000,,So we can have a descendant inside a descendant.
+Dialogue: 0,0:08:14.27,0:08:16.57,*Default,NTP,0000,0000,0000,,So what I mean is basically writing this.
+Dialogue: 0,0:08:17.52,0:08:21.74,*Default,NTP,0000,0000,0000,,So we only want the paragraphs that are inside of headers,
+Dialogue: 0,0:08:21.74,0:08:26.15,*Default,NTP,0000,0000,0000,,which are inside of articles, to be italic.
+Dialogue: 0,0:08:26.15,0:08:27.69,*Default,NTP,0000,0000,0000,,So let's give it a save.
+Dialogue: 0,0:08:27.69,0:08:29.78,*Default,NTP,0000,0000,0000,,And now only this one is italic
+Dialogue: 0,0:08:29.78,0:08:32.16,*Default,NTP,0000,0000,0000,,and this one here, not anymore.
+Dialogue: 0,0:08:32.16,0:08:33.98,*Default,NTP,0000,0000,0000,,So this actually works,
+Dialogue: 0,0:08:33.98,0:08:38.25,*Default,NTP,0000,0000,0000,,but we are now even more encoding the HTML structure
+Dialogue: 0,0:08:38.25,0:08:40.72,*Default,NTP,0000,0000,0000,,into our CSS selectors,
+Dialogue: 0,0:08:40.72,0:08:44.65,*Default,NTP,0000,0000,0000,,and that can make our code hard to maintain in the future
+Dialogue: 0,0:08:44.65,0:08:47.07,*Default,NTP,0000,0000,0000,,if we ever change our HTML.
+Dialogue: 0,0:08:47.07,0:08:49.23,*Default,NTP,0000,0000,0000,,And so that's not a good idea.
+Dialogue: 0,0:08:49.23,0:08:51.23,*Default,NTP,0000,0000,0000,,So if we think about this,
+Dialogue: 0,0:08:51.23,0:08:55.24,*Default,NTP,0000,0000,0000,,wouldn't it actually be a lot better if we had a way
+Dialogue: 0,0:08:55.24,0:08:58.40,*Default,NTP,0000,0000,0000,,to basically give some elements names
+Dialogue: 0,0:08:58.40,0:09:01.18,*Default,NTP,0000,0000,0000,,and then use these names to select them?
+Dialogue: 0,0:09:02.04,0:09:04.45,*Default,NTP,0000,0000,0000,,Well, we actually can do that,
+Dialogue: 0,0:09:04.45,0:09:08.47,*Default,NTP,0000,0000,0000,,and it is exactly the subject of the next lecture.
+Dialogue: 0,0:09:08.47,0:09:10.47,*Default,NTP,0000,0000,0000,,So let's go there right now.

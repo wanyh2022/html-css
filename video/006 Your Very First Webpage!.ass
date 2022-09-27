@@ -1,0 +1,498 @@
+[Script Info]
+Title: 006 Your Very First Webpage!_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=4&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.76,0:00:03.43,*Default,NTP,0000,0000,0000,,欢迎回来。
+Dialogue: 0,0:00:03.43,0:00:06.88,*Default,NTP,0000,0000,0000,,现在让我们编写我们的第一行代码
+Dialogue: 0,0:00:06.88,0:00:09.39,*Default,NTP,0000,0000,0000,,并建立我们的第一个
+Dialogue: 0,0:00:09.39,0:00:11.74,*Default,NTP,0000,0000,0000,,和非常小的网页。
+Dialogue: 0,0:00:13.67,0:00:16.48,*Default,NTP,0000,0000,0000,,所以我们回到 VS Code，
+Dialogue: 0,0:00:16.48,0:00:19.41,*Default,NTP,0000,0000,0000,,现在让我们结束这一切，
+Dialogue: 0,0:00:19.41,0:00:22.43,*Default,NTP,0000,0000,0000,,然后我们将转到第一个选项卡。
+Dialogue: 0,0:00:22.43,0:00:23.97,*Default,NTP,0000,0000,0000,,所以这个资源管理器选项卡。
+Dialogue: 0,0:00:25.09,0:00:26.36,*Default,NTP,0000,0000,0000,,所以在 VS Code 中，
+Dialogue: 0,0:00:26.36,0:00:29.62,*Default,NTP,0000,0000,0000,,我们总是需要在某个文件夹中。
+Dialogue: 0,0:00:29.62,0:00:32.86,*Default,NTP,0000,0000,0000,,该文件夹称为项目文件夹。
+Dialogue: 0,0:00:32.86,0:00:34.41,*Default,NTP,0000,0000,0000,,现在，现在我们没有
+Dialogue: 0,0:00:34.41,0:00:36.35,*Default,NTP,0000,0000,0000,,任何文件夹都开始了。
+Dialogue: 0,0:00:36.35,0:00:39.12,*Default,NTP,0000,0000,0000,,所以让我们开始吧
+Dialogue: 0,0:00:39.12,0:00:41.10,*Default,NTP,0000,0000,0000,,我将创建一个文件夹
+Dialogue: 0,0:00:41.10,0:00:42.83,*Default,NTP,0000,0000,0000,,就在我的桌面上。
+Dialogue: 0,0:00:43.75,0:00:45.73,*Default,NTP,0000,0000,0000,,所以基本上我会做所有的，
+Dialogue: 0,0:00:45.73,0:00:47.57,*Default,NTP,0000,0000,0000,,所有的编码都会发生
+Dialogue: 0,0:00:47.57,0:00:49.22,*Default,NTP,0000,0000,0000,,在我的桌面上，
+Dialogue: 0,0:00:49.22,0:00:51.00,*Default,NTP,0000,0000,0000,,但当然你也可以这样做
+Dialogue: 0,0:00:51.00,0:00:53.91,*Default,NTP,0000,0000,0000,,在您计算机上的任何其他位置。
+Dialogue: 0,0:00:53.91,0:00:55.50,*Default,NTP,0000,0000,0000,,这个其实无所谓
+Dialogue: 0,0:00:55.50,0:00:56.80,*Default,NTP,0000,0000,0000,,对我来说，这更容易
+Dialogue: 0,0:00:56.80,0:00:59.89,*Default,NTP,0000,0000,0000,,把它放在桌面上。
+Dialogue: 0,0:00:59.89,0:01:01.49,*Default,NTP,0000,0000,0000,,我在这里调用这个文件夹
+Dialogue: 0,0:01:02.44,0:01:04.91,*Default,NTP,0000,0000,0000,,01 和测试。
+Dialogue: 0,0:01:06.65,0:01:07.95,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:07.95,0:01:09.03,*Default,NTP,0000,0000,0000,,所以让我们回到这里
+Dialogue: 0,0:01:09.03,0:01:11.50,*Default,NTP,0000,0000,0000,,现在点击打开文件夹。
+Dialogue: 0,0:01:12.43,0:01:14.65,*Default,NTP,0000,0000,0000,,所以去我的桌面，
+Dialogue: 0,0:01:14.65,0:01:16.75,*Default,NTP,0000,0000,0000,,我现在将选择此文件夹
+Dialogue: 0,0:01:16.75,0:01:18.66,*Default,NTP,0000,0000,0000,,我刚刚创建的。
+Dialogue: 0,0:01:18.66,0:01:23.66,*Default,NTP,0000,0000,0000,,所以这个 01 Test 现在是我们的项目文件夹。
+Dialogue: 0,0:01:25.06,0:01:25.89,*Default,NTP,0000,0000,0000,,所以你看，
+Dialogue: 0,0:01:25.89,0:01:27.85,*Default,NTP,0000,0000,0000,,我们得到一个新的欢迎屏幕
+Dialogue: 0,0:01:27.85,0:01:30.57,*Default,NTP,0000,0000,0000,,在这里我们可以点击新文件
+Dialogue: 0,0:01:30.57,0:01:34.15,*Default,NTP,0000,0000,0000,,将我们的第一个文件添加到项目中。
+Dialogue: 0,0:01:34.15,0:01:35.71,*Default,NTP,0000,0000,0000,,或者我们也可以这样做
+Dialogue: 0,0:01:35.71,0:01:38.71,*Default,NTP,0000,0000,0000,,将鼠标悬停在此左侧边栏上
+Dialogue: 0,0:01:38.71,0:01:42.39,*Default,NTP,0000,0000,0000,,并单击此处的新文件图标。
+Dialogue: 0,0:01:42.39,0:01:43.87,*Default,NTP,0000,0000,0000,,所以这是两种不同的方式
+Dialogue: 0,0:01:43.87,0:01:47.19,*Default,NTP,0000,0000,0000,,在项目文件夹中创建新文件。
+Dialogue: 0,0:01:47.19,0:01:50.65,*Default,NTP,0000,0000,0000,,我实际上更喜欢这里的这个。
+Dialogue: 0,0:01:50.65,0:01:52.41,*Default,NTP,0000,0000,0000,,所以我们要创建
+Dialogue: 0,0:01:52.41,0:01:54.79,*Default,NTP,0000,0000,0000,,我们的第一个网页
+Dialogue: 0,0:01:54.79,0:01:58.78,*Default,NTP,0000,0000,0000,,网页基本上只是一个 HTML 文件，
+Dialogue: 0,0:01:59.65,0:02:03.89,*Default,NTP,0000,0000,0000,,我们称之为 index.html。
+Dialogue: 0,0:02:03.89,0:02:06.10,*Default,NTP,0000,0000,0000,,所以它基本上只是文件
+Dialogue: 0,0:02:06.10,0:02:09.56,*Default,NTP,0000,0000,0000,,带有 HTML 文件扩展名。
+Dialogue: 0,0:02:09.56,0:02:11.32,*Default,NTP,0000,0000,0000,,我们称之为索引
+Dialogue: 0,0:02:11.32,0:02:13.92,*Default,NTP,0000,0000,0000,,因为这是默认名称
+Dialogue: 0,0:02:13.92,0:02:17.17,*Default,NTP,0000,0000,0000,,任何网站的第一页。
+Dialogue: 0,0:02:17.17,0:02:19.40,*Default,NTP,0000,0000,0000,,所以索引基本上总是
+Dialogue: 0,0:02:19.40,0:02:22.04,*Default,NTP,0000,0000,0000,,任何网站的入口点。
+Dialogue: 0,0:02:22.04,0:02:23.82,*Default,NTP,0000,0000,0000,,所以所有的网络项目
+Dialogue: 0,0:02:23.82,0:02:26.82,*Default,NTP,0000,0000,0000,,总是需要有一个 index.html。
+Dialogue: 0,0:02:27.94,0:02:29.89,*Default,NTP,0000,0000,0000,,好的。所以记住这一点，
+Dialogue: 0,0:02:29.89,0:02:34.89,*Default,NTP,0000,0000,0000,,始终调用您的第一页 index.html。
+Dialogue: 0,0:02:35.10,0:02:38.07,*Default,NTP,0000,0000,0000,,现在我这次讲座的目标还没有
+Dialogue: 0,0:02:38.07,0:02:40.49,*Default,NTP,0000,0000,0000,,真正教你HTML。
+Dialogue: 0,0:02:40.49,0:02:41.32,*Default,NTP,0000,0000,0000,,现在，
+Dialogue: 0,0:02:41.32,0:02:44.57,*Default,NTP,0000,0000,0000,,我要做的就是创建这个文件
+Dialogue: 0,0:02:44.57,0:02:47.32,*Default,NTP,0000,0000,0000,,并为其添加一点代码
+Dialogue: 0,0:02:47.32,0:02:49.87,*Default,NTP,0000,0000,0000,,然后在浏览器中查看结果。
+Dialogue: 0,0:02:49.87,0:02:51.39,*Default,NTP,0000,0000,0000,,只是为了让你写作
+Dialogue: 0,0:02:51.39,0:02:53.13,*Default,NTP,0000,0000,0000,,你的第一行代码
+Dialogue: 0,0:02:53.13,0:02:55.30,*Default,NTP,0000,0000,0000,,并且能够看到结果
+Dialogue: 0,0:02:55.30,0:02:58.74,*Default,NTP,0000,0000,0000,,在真正的网络浏览器中编写该代码。
+Dialogue: 0,0:02:58.74,0:03:01.95,*Default,NTP,0000,0000,0000,,再说一次，我并没有真正开始教 HTML
+Dialogue: 0,0:03:01.95,0:03:03.15,*Default,NTP,0000,0000,0000,,刚刚。
+Dialogue: 0,0:03:03.15,0:03:06.84,*Default,NTP,0000,0000,0000,,所以不是写一个完整的页面结构，
+Dialogue: 0,0:03:06.84,0:03:08.55,*Default,NTP,0000,0000,0000,,正如我们通常需要的那样，
+Dialogue: 0,0:03:08.55,0:03:10.82,*Default,NTP,0000,0000,0000,,我们将使用一个小作弊
+Dialogue: 0,0:03:10.82,0:03:13.04,*Default,NTP,0000,0000,0000,,我们可以在 VS Code 中使用。
+Dialogue: 0,0:03:13.04,0:03:16.22,*Default,NTP,0000,0000,0000,,所以要做到这一点，只需写一个感叹号。
+Dialogue: 0,0:03:17.26,0:03:18.71,*Default,NTP,0000,0000,0000,,所以就这样，
+Dialogue: 0,0:03:18.71,0:03:21.68,*Default,NTP,0000,0000,0000,,然后你可以点击你的标签键盘，
+Dialogue: 0,0:03:21.68,0:03:24.36,*Default,NTP,0000,0000,0000,,或者您也可以单击此处。
+Dialogue: 0,0:03:25.61,0:03:26.44,*Default,NTP,0000,0000,0000,,有了这个，
+Dialogue: 0,0:03:26.44,0:03:28.22,*Default,NTP,0000,0000,0000,,我们得到了这个非常基本的
+Dialogue: 0,0:03:28.22,0:03:31.70,*Default,NTP,0000,0000,0000,,和几乎空的 HTML 结构。
+Dialogue: 0,0:03:31.70,0:03:35.37,*Default,NTP,0000,0000,0000,,所以它有一个头，它有一个身体。
+Dialogue: 0,0:03:35.37,0:03:36.20,*Default,NTP,0000,0000,0000,,但再一次，
+Dialogue: 0,0:03:36.20,0:03:37.79,*Default,NTP,0000,0000,0000,,我们将了解这一切
+Dialogue: 0,0:03:37.79,0:03:39.21,*Default,NTP,0000,0000,0000,,稍晚一些。
+Dialogue: 0,0:03:39.21,0:03:41.09,*Default,NTP,0000,0000,0000,,现在，我感兴趣的都在这里
+Dialogue: 0,0:03:41.09,0:03:45.38,*Default,NTP,0000,0000,0000,,现在是网页的这个标题。
+Dialogue: 0,0:03:45.38,0:03:47.15,*Default,NTP,0000,0000,0000,,所以让我们在这里更改内容
+Dialogue: 0,0:03:47.15,0:03:49.92,*Default,NTP,0000,0000,0000,,例如，这个标题
+Dialogue: 0,0:03:49.92,0:03:52.89,*Default,NTP,0000,0000,0000,,“我的第一个网页。”
+Dialogue: 0,0:03:52.89,0:03:54.95,*Default,NTP,0000,0000,0000,,但是当然你也可以写
+Dialogue: 0,0:03:54.95,0:03:56.52,*Default,NTP,0000,0000,0000,,这里有别的东西
+Dialogue: 0,0:03:56.52,0:03:59.59,*Default,NTP,0000,0000,0000,,然后让我们进入身体内部。
+Dialogue: 0,0:03:59.59,0:04:01.13,*Default,NTP,0000,0000,0000,,所以这实际上是部分
+Dialogue: 0,0:04:01.13,0:04:02.61,*Default,NTP,0000,0000,0000,,我们将能够看到
+Dialogue: 0,0:04:02.61,0:04:04.05,*Default,NTP,0000,0000,0000,,在浏览器中。
+Dialogue: 0,0:04:04.05,0:04:08.87,*Default,NTP,0000,0000,0000,,在这里，只需写下这个小于号。
+Dialogue: 0,0:04:08.87,0:04:12.55,*Default,NTP,0000,0000,0000,,然后是H1，代表标题一
+Dialogue: 0,0:04:12.55,0:04:15.02,*Default,NTP,0000,0000,0000,,然后是大于符号。
+Dialogue: 0,0:04:15.02,0:04:17.99,*Default,NTP,0000,0000,0000,,所以就像这里的这个，
+Dialogue: 0,0:04:17.99,0:04:20.28,*Default,NTP,0000,0000,0000,,然后你会看到 VS Code
+Dialogue: 0,0:04:20.28,0:04:22.58,*Default,NTP,0000,0000,0000,,实际上是自动放置的
+Dialogue: 0,0:04:22.58,0:04:25.27,*Default,NTP,0000,0000,0000,,这另一部分在这里。
+Dialogue: 0,0:04:25.27,0:04:28.52,*Default,NTP,0000,0000,0000,,所以基本上关闭了H1。
+Dialogue: 0,0:04:28.52,0:04:29.35,*Default,NTP,0000,0000,0000,,但又一次，
+Dialogue: 0,0:04:29.35,0:04:31.03,*Default,NTP,0000,0000,0000,,现在这并不重要。
+Dialogue: 0,0:04:31.03,0:04:33.68,*Default,NTP,0000,0000,0000,,让我们在这里写一些文本内容
+Dialogue: 0,0:04:33.68,0:04:36.42,*Default,NTP,0000,0000,0000,,我在写，“你好，世界！”
+Dialogue: 0,0:04:36.42,0:04:38.20,*Default,NTP,0000,0000,0000,,有一种标准
+Dialogue: 0,0:04:38.20,0:04:41.17,*Default,NTP,0000,0000,0000,,当您编写第一行代码时
+Dialogue: 0,0:04:41.17,0:04:43.59,*Default,NTP,0000,0000,0000,,在任何编程语言中。
+Dialogue: 0,0:04:43.59,0:04:45.57,*Default,NTP,0000,0000,0000,,所以你好世界真的
+Dialogue: 0,0:04:45.57,0:04:48.06,*Default,NTP,0000,0000,0000,,悠久的传统。
+Dialogue: 0,0:04:48.06,0:04:50.43,*Default,NTP,0000,0000,0000,,接下来让我们尝试另一个。
+Dialogue: 0,0:04:50.43,0:04:53.69,*Default,NTP,0000,0000,0000,,再说一次，这个小于符号。
+Dialogue: 0,0:04:53.69,0:04:57.81,*Default,NTP,0000,0000,0000,,现在让我们试试代表段落的 P。
+Dialogue: 0,0:04:57.81,0:04:58.64,*Default,NTP,0000,0000,0000,,然后再一次，
+Dialogue: 0,0:04:58.64,0:05:00.86,*Default,NTP,0000,0000,0000,,VS Code 自动关闭
+Dialogue: 0,0:05:00.86,0:05:02.10,*Default,NTP,0000,0000,0000,,我们的段落。
+Dialogue: 0,0:05:03.36,0:05:06.09,*Default,NTP,0000,0000,0000,,所以让我们说，“我的名字是乔纳斯。”
+Dialogue: 0,0:05:06.09,0:05:09.35,*Default,NTP,0000,0000,0000,,你当然会用你自己的名字，
+Dialogue: 0,0:05:09.35,0:05:13.57,*Default,NTP,0000,0000,0000,,“这是我的第一次
+Dialogue: 0,0:05:15.65,0:05:17.07,*Default,NTP,0000,0000,0000,,网页。”
+Dialogue: 0,0:05:18.01,0:05:19.06,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:19.06,0:05:20.56,*Default,NTP,0000,0000,0000,,现在我们可以给它一个保存
+Dialogue: 0,0:05:20.56,0:05:23.18,*Default,NTP,0000,0000,0000,,通过点击命令或控制 S
+Dialogue: 0,0:05:24.04,0:05:28.12,*Default,NTP,0000,0000,0000,,或者您也可以转到此处的文件菜单。
+Dialogue: 0,0:05:28.12,0:05:31.15,*Default,NTP,0000,0000,0000,,我们还启用了自动保存功能。
+Dialogue: 0,0:05:31.15,0:05:34.11,*Default,NTP,0000,0000,0000,,所以如果我们只是离开这个选项卡，例如，
+Dialogue: 0,0:05:34.11,0:05:35.97,*Default,NTP,0000,0000,0000,,点击此处外部，
+Dialogue: 0,0:05:35.97,0:05:39.41,*Default,NTP,0000,0000,0000,,然后它也会自动保存文件。
+Dialogue: 0,0:05:39.41,0:05:41.02,*Default,NTP,0000,0000,0000,,所以让我们实际尝试一下。
+Dialogue: 0,0:05:42.54,0:05:43.73,*Default,NTP,0000,0000,0000,,现在我们开始。
+Dialogue: 0,0:05:44.78,0:05:46.97,*Default,NTP,0000,0000,0000,,所以现在文件已经保存了，
+Dialogue: 0,0:05:46.97,0:05:48.66,*Default,NTP,0000,0000,0000,,也许你也注意到了
+Dialogue: 0,0:05:48.66,0:05:50.30,*Default,NTP,0000,0000,0000,,格式已更改
+Dialogue: 0,0:05:50.30,0:05:51.51,*Default,NTP,0000,0000,0000,,这里一点点，
+Dialogue: 0,0:05:51.51,0:05:53.04,*Default,NTP,0000,0000,0000,,发生这种情况是因为
+Dialogue: 0,0:05:53.04,0:05:54.79,*Default,NTP,0000,0000,0000,,Prettier 扩展的
+Dialogue: 0,0:05:54.79,0:05:56.89,*Default,NTP,0000,0000,0000,,我们在上一个视频中安装。
+Dialogue: 0,0:05:56.89,0:05:59.37,*Default,NTP,0000,0000,0000,,所以请记住 Prettier 扩展
+Dialogue: 0,0:05:59.37,0:06:01.59,*Default,NTP,0000,0000,0000,,是自动格式化或编码
+Dialogue: 0,0:06:01.59,0:06:03.68,*Default,NTP,0000,0000,0000,,每当我们保存它。
+Dialogue: 0,0:06:03.68,0:06:06.74,*Default,NTP,0000,0000,0000,,这正是刚刚发生的事情。
+Dialogue: 0,0:06:06.74,0:06:09.84,*Default,NTP,0000,0000,0000,,所以让我们在这里添加一些空格
+Dialogue: 0,0:06:09.84,0:06:14.32,*Default,NTP,0000,0000,0000,,现在如果我再次点击命令或控制 S，
+Dialogue: 0,0:06:14.32,0:06:16.25,*Default,NTP,0000,0000,0000,,然后你会看到它把它放回去
+Dialogue: 0,0:06:16.25,0:06:17.72,*Default,NTP,0000,0000,0000,,在正确的地方。
+Dialogue: 0,0:06:18.80,0:06:19.72,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:19.72,0:06:21.70,*Default,NTP,0000,0000,0000,,这就是 Prettier 的力量
+Dialogue: 0,0:06:21.70,0:06:24.13,*Default,NTP,0000,0000,0000,,它将确保您的代码
+Dialogue: 0,0:06:24.13,0:06:25.46,*Default,NTP,0000,0000,0000,,应该总是一样的
+Dialogue: 0,0:06:25.46,0:06:27.59,*Default,NTP,0000,0000,0000,,正如视频中的这段代码。
+Dialogue: 0,0:06:27.59,0:06:28.42,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:06:28.42,0:06:31.96,*Default,NTP,0000,0000,0000,,所以我们只写了我们的第一行代码，
+Dialogue: 0,0:06:31.96,0:06:35.10,*Default,NTP,0000,0000,0000,,或者实际上，我们的前两行代码。
+Dialogue: 0,0:06:35.10,0:06:38.46,*Default,NTP,0000,0000,0000,,所以现在我们有了这个 index.html 文件
+Dialogue: 0,0:06:38.46,0:06:41.71,*Default,NTP,0000,0000,0000,,我们可以在浏览器中打开它。
+Dialogue: 0,0:06:41.71,0:06:43.73,*Default,NTP,0000,0000,0000,,所以让我们去我们的项目文件夹
+Dialogue: 0,0:06:43.73,0:06:46.41,*Default,NTP,0000,0000,0000,,该文件所在的位置。
+Dialogue: 0,0:06:46.41,0:06:49.20,*Default,NTP,0000,0000,0000,,就我而言，请记住，那是在桌面上。
+Dialogue: 0,0:06:50.57,0:06:52.36,*Default,NTP,0000,0000,0000,,所以我只能打开它。
+Dialogue: 0,0:06:52.36,0:06:55.35,*Default,NTP,0000,0000,0000,,现在我们有了 index.html 文件
+Dialogue: 0,0:06:55.35,0:06:58.75,*Default,NTP,0000,0000,0000,,我们之前在 VS Code 中创建的。
+Dialogue: 0,0:06:58.75,0:07:01.53,*Default,NTP,0000,0000,0000,,现在在谷歌浏览器中打开它
+Dialogue: 0,0:07:01.53,0:07:03.29,*Default,NTP,0000,0000,0000,,或在任何其他浏览器中，
+Dialogue: 0,0:07:03.29,0:07:05.66,*Default,NTP,0000,0000,0000,,我们只需要双击文件，
+Dialogue: 0,0:07:05.66,0:07:08.02,*Default,NTP,0000,0000,0000,,或者我们也可以，点击它
+Dialogue: 0,0:07:08.02,0:07:10.88,*Default,NTP,0000,0000,0000,,然后用谷歌浏览器打开。
+Dialogue: 0,0:07:10.88,0:07:12.37,*Default,NTP,0000,0000,0000,,所以让我们这样做。
+Dialogue: 0,0:07:12.37,0:07:14.22,*Default,NTP,0000,0000,0000,,在这里，
+Dialogue: 0,0:07:14.22,0:07:17.02,*Default,NTP,0000,0000,0000,,这是我们的第一个网页
+Dialogue: 0,0:07:17.02,0:07:20.83,*Default,NTP,0000,0000,0000,,我们刚刚在 VS Code 中手动创建的。
+Dialogue: 0,0:07:20.83,0:07:21.90,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:07:21.90,0:07:24.68,*Default,NTP,0000,0000,0000,,如果你问我，那真的很神奇，
+Dialogue: 0,0:07:24.68,0:07:27.46,*Default,NTP,0000,0000,0000,,恭喜你，干得好
+Dialogue: 0,0:07:27.46,0:07:29.85,*Default,NTP,0000,0000,0000,,在您的第一个网页上。
+Dialogue: 0,0:07:30.88,0:07:33.44,*Default,NTP,0000,0000,0000,,让我们把它推到一边
+Dialogue: 0,0:07:33.44,0:07:37.29,*Default,NTP,0000,0000,0000,,一点点，然后 VS Code 到另一边。
+Dialogue: 0,0:07:38.29,0:07:40.08,*Default,NTP,0000,0000,0000,,所以从现在开始，我们将永远拥有，
+Dialogue: 0,0:07:40.08,0:07:42.08,*Default,NTP,0000,0000,0000,,我们的代码在左边
+Dialogue: 0,0:07:42.08,0:07:43.88,*Default,NTP,0000,0000,0000,,然后在右侧的浏览器
+Dialogue: 0,0:07:43.88,0:07:46.46,*Default,NTP,0000,0000,0000,,这样我们就可以看到我们的变化。
+Dialogue: 0,0:07:46.46,0:07:48.62,*Default,NTP,0000,0000,0000,,为了给我们更多的空间，
+Dialogue: 0,0:07:48.62,0:07:49.82,*Default,NTP,0000,0000,0000,,我们可以再次，
+Dialogue: 0,0:07:49.82,0:07:51.87,*Default,NTP,0000,0000,0000,,单击此处的此选项卡
+Dialogue: 0,0:07:51.87,0:07:53.32,*Default,NTP,0000,0000,0000,,然后就会崩溃
+Dialogue: 0,0:07:53.32,0:07:55.67,*Default,NTP,0000,0000,0000,,侧边栏并给我们更多空间
+Dialogue: 0,0:07:55.67,0:07:56.93,*Default,NTP,0000,0000,0000,,对于我们的实际代码。
+Dialogue: 0,0:07:57.82,0:07:59.72,*Default,NTP,0000,0000,0000,,所以你在这里看到，
+Dialogue: 0,0:07:59.72,0:08:03.97,*Default,NTP,0000,0000,0000,,我们有这个大而粗体的hello world。
+Dialogue: 0,0:08:03.97,0:08:08.38,*Default,NTP,0000,0000,0000,,所以这对应于这个 H1 元素，
+Dialogue: 0,0:08:08.38,0:08:11.09,*Default,NTP,0000,0000,0000,,然后在下面我们有这一段，
+Dialogue: 0,0:08:11.09,0:08:13.28,*Default,NTP,0000,0000,0000,,在这里翻译
+Dialogue: 0,0:08:13.28,0:08:15.40,*Default,NTP,0000,0000,0000,,进入这个视觉元素。
+Dialogue: 0,0:08:15.40,0:08:17.67,*Default,NTP,0000,0000,0000,,我们也有实际的标题
+Dialogue: 0,0:08:17.67,0:08:21.53,*Default,NTP,0000,0000,0000,,在此选项卡的标题中的页面。
+Dialogue: 0,0:08:21.53,0:08:24.83,*Default,NTP,0000,0000,0000,,所以“我的第一个网页”就是我们这里的内容，
+Dialogue: 0,0:08:24.83,0:08:27.48,*Default,NTP,0000,0000,0000,,这正是我们在这里输入的
+Dialogue: 0,0:08:27.48,0:08:29.64,*Default,NTP,0000,0000,0000,,进入标题元素。
+Dialogue: 0,0:08:29.64,0:08:30.69,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:08:30.69,0:08:32.15,*Default,NTP,0000,0000,0000,,再一次，
+Dialogue: 0,0:08:32.15,0:08:33.87,*Default,NTP,0000,0000,0000,,我们在这里写的代码
+Dialogue: 0,0:08:33.87,0:08:35.88,*Default,NTP,0000,0000,0000,,在我们的 HTML 文档中
+Dialogue: 0,0:08:35.88,0:08:38.38,*Default,NTP,0000,0000,0000,,现在反映在现实世界中
+Dialogue: 0,0:08:38.38,0:08:40.36,*Default,NTP,0000,0000,0000,,在这个真正的网络浏览器中。
+Dialogue: 0,0:08:41.28,0:08:43.72,*Default,NTP,0000,0000,0000,,说到网络浏览器，
+Dialogue: 0,0:08:43.72,0:08:45.95,*Default,NTP,0000,0000,0000,,我正在使用谷歌浏览器进行测试
+Dialogue: 0,0:08:45.95,0:08:47.92,*Default,NTP,0000,0000,0000,,我们要写的所有代码
+Dialogue: 0,0:08:47.92,0:08:49.59,*Default,NTP,0000,0000,0000,,在整个课程中。
+Dialogue: 0,0:08:49.59,0:08:50.95,*Default,NTP,0000,0000,0000,,所以我真的建议你
+Dialogue: 0,0:08:50.95,0:08:53.06,*Default,NTP,0000,0000,0000,,也使用谷歌浏览器
+Dialogue: 0,0:08:53.06,0:08:56.35,*Default,NTP,0000,0000,0000,,始终测试您正在编写的代码。
+Dialogue: 0,0:08:56.35,0:08:57.21,*Default,NTP,0000,0000,0000,,所以这将再次，
+Dialogue: 0,0:08:57.21,0:08:59.40,*Default,NTP,0000,0000,0000,,确保您有准确的
+Dialogue: 0,0:08:59.40,0:09:01.35,*Default,NTP,0000,0000,0000,,与您看到的结果相同
+Dialogue: 0,0:09:01.35,0:09:03.21,*Default,NTP,0000,0000,0000,,在课程视频中。
+Dialogue: 0,0:09:03.21,0:09:04.76,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:09:04.76,0:09:06.84,*Default,NTP,0000,0000,0000,,这实际上就足够了
+Dialogue: 0,0:09:06.84,0:09:09.75,*Default,NTP,0000,0000,0000,,对于第一个编码视频。
+Dialogue: 0,0:09:09.75,0:09:11.81,*Default,NTP,0000,0000,0000,,我希望你真的会得到
+Dialogue: 0,0:09:11.81,0:09:14.15,*Default,NTP,0000,0000,0000,,我想向你展示的想法
+Dialogue: 0,0:09:14.15,0:09:15.57,*Default,NTP,0000,0000,0000,,在本次讲座中。
+Dialogue: 0,0:09:15.57,0:09:18.10,*Default,NTP,0000,0000,0000,,所以基本上从创造开始
+Dialogue: 0,0:09:18.10,0:09:19.82,*Default,NTP,0000,0000,0000,,一个项目文件夹，
+Dialogue: 0,0:09:19.82,0:09:23.55,*Default,NTP,0000,0000,0000,,然后在 VS Code 中打开该项目文件夹。
+Dialogue: 0,0:09:23.55,0:09:27.29,*Default,NTP,0000,0000,0000,,所以这里的这个文件夹是test文件夹，
+Dialogue: 0,0:09:27.29,0:09:28.69,*Default,NTP,0000,0000,0000,,然后在里面，
+Dialogue: 0,0:09:28.69,0:09:31.38,*Default,NTP,0000,0000,0000,,创建一个 HTML 文件，
+Dialogue: 0,0:09:31.38,0:09:34.63,*Default,NTP,0000,0000,0000,,然后添加一些代码文件
+Dialogue: 0,0:09:34.63,0:09:36.32,*Default,NTP,0000,0000,0000,,最后打开
+Dialogue: 0,0:09:36.32,0:09:39.44,*Default,NTP,0000,0000,0000,,真实浏览器中的 HTML 文档，
+Dialogue: 0,0:09:39.44,0:09:40.96,*Default,NTP,0000,0000,0000,,比如谷歌浏览器，
+Dialogue: 0,0:09:40.96,0:09:43.60,*Default,NTP,0000,0000,0000,,然后我们看到这个结果。
+Dialogue: 0,0:09:43.60,0:09:46.47,*Default,NTP,0000,0000,0000,,所以基本上我们代码的翻译
+Dialogue: 0,0:09:46.47,0:09:48.55,*Default,NTP,0000,0000,0000,,到视觉效果。
+Dialogue: 0,0:09:48.55,0:09:51.38,*Default,NTP,0000,0000,0000,,所以我希望你玩得开心
+Dialogue: 0,0:09:51.38,0:09:53.65,*Default,NTP,0000,0000,0000,,我会在下一个视频中见到你。
+Dialogue: 0,0:00:01.76,0:00:03.43,*Default,NTP,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:00:03.43,0:00:06.88,*Default,NTP,0000,0000,0000,,Let's now write our very first line of code
+Dialogue: 0,0:00:06.88,0:00:09.39,*Default,NTP,0000,0000,0000,,and build our very first
+Dialogue: 0,0:00:09.39,0:00:11.74,*Default,NTP,0000,0000,0000,,and very small webpage.
+Dialogue: 0,0:00:13.67,0:00:16.48,*Default,NTP,0000,0000,0000,,So here we are back in VS Code,
+Dialogue: 0,0:00:16.48,0:00:19.41,*Default,NTP,0000,0000,0000,,and let's now close all of this up,
+Dialogue: 0,0:00:19.41,0:00:22.43,*Default,NTP,0000,0000,0000,,and then we're going here to this first tab.
+Dialogue: 0,0:00:22.43,0:00:23.97,*Default,NTP,0000,0000,0000,,So this Explorer tab.
+Dialogue: 0,0:00:25.09,0:00:26.36,*Default,NTP,0000,0000,0000,,So in VS Code,
+Dialogue: 0,0:00:26.36,0:00:29.62,*Default,NTP,0000,0000,0000,,we always need to be inside of some folder.
+Dialogue: 0,0:00:29.62,0:00:32.86,*Default,NTP,0000,0000,0000,,And that folder is called the project folder.
+Dialogue: 0,0:00:32.86,0:00:34.41,*Default,NTP,0000,0000,0000,,Now, right now we don't have
+Dialogue: 0,0:00:34.41,0:00:36.35,*Default,NTP,0000,0000,0000,,any folders started yet.
+Dialogue: 0,0:00:36.35,0:00:39.12,*Default,NTP,0000,0000,0000,,And so let's actually start by doing that
+Dialogue: 0,0:00:39.12,0:00:41.10,*Default,NTP,0000,0000,0000,,and I will create a folder
+Dialogue: 0,0:00:41.10,0:00:42.83,*Default,NTP,0000,0000,0000,,right here on my desktop.
+Dialogue: 0,0:00:43.75,0:00:45.73,*Default,NTP,0000,0000,0000,,So basically I will do all the,
+Dialogue: 0,0:00:45.73,0:00:47.57,*Default,NTP,0000,0000,0000,,all the coding will always happen
+Dialogue: 0,0:00:47.57,0:00:49.22,*Default,NTP,0000,0000,0000,,here on my desktop,
+Dialogue: 0,0:00:49.22,0:00:51.00,*Default,NTP,0000,0000,0000,,but of course you can also do it
+Dialogue: 0,0:00:51.00,0:00:53.91,*Default,NTP,0000,0000,0000,,in any other place on your computer.
+Dialogue: 0,0:00:53.91,0:00:55.50,*Default,NTP,0000,0000,0000,,This one doesn't really matter,
+Dialogue: 0,0:00:55.50,0:00:56.80,*Default,NTP,0000,0000,0000,,for me, it's just easier
+Dialogue: 0,0:00:56.80,0:00:59.89,*Default,NTP,0000,0000,0000,,to have it on the desktop.
+Dialogue: 0,0:00:59.89,0:01:01.49,*Default,NTP,0000,0000,0000,,And I'm calling this folder here
+Dialogue: 0,0:01:02.44,0:01:04.91,*Default,NTP,0000,0000,0000,,01 and Test.
+Dialogue: 0,0:01:06.65,0:01:07.95,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:01:07.95,0:01:09.03,*Default,NTP,0000,0000,0000,,So let's go back here
+Dialogue: 0,0:01:09.03,0:01:11.50,*Default,NTP,0000,0000,0000,,and now click on open folder.
+Dialogue: 0,0:01:12.43,0:01:14.65,*Default,NTP,0000,0000,0000,,And so going to my desktop,
+Dialogue: 0,0:01:14.65,0:01:16.75,*Default,NTP,0000,0000,0000,,I will now select this folder
+Dialogue: 0,0:01:16.75,0:01:18.66,*Default,NTP,0000,0000,0000,,that I just created.
+Dialogue: 0,0:01:18.66,0:01:23.66,*Default,NTP,0000,0000,0000,,And so this 01 Test is now our project folder.
+Dialogue: 0,0:01:25.06,0:01:25.89,*Default,NTP,0000,0000,0000,,So you see,
+Dialogue: 0,0:01:25.89,0:01:27.85,*Default,NTP,0000,0000,0000,,we get a new welcome screen
+Dialogue: 0,0:01:27.85,0:01:30.57,*Default,NTP,0000,0000,0000,,and here we can click on new file
+Dialogue: 0,0:01:30.57,0:01:34.15,*Default,NTP,0000,0000,0000,,to add our very first file to the project.
+Dialogue: 0,0:01:34.15,0:01:35.71,*Default,NTP,0000,0000,0000,,Or we could also do this
+Dialogue: 0,0:01:35.71,0:01:38.71,*Default,NTP,0000,0000,0000,,by hovering here over this left sidebar
+Dialogue: 0,0:01:38.71,0:01:42.39,*Default,NTP,0000,0000,0000,,and clicking here on the new file icon.
+Dialogue: 0,0:01:42.39,0:01:43.87,*Default,NTP,0000,0000,0000,,So these are two different ways
+Dialogue: 0,0:01:43.87,0:01:47.19,*Default,NTP,0000,0000,0000,,of creating new files in the project folder.
+Dialogue: 0,0:01:47.19,0:01:50.65,*Default,NTP,0000,0000,0000,,And I actually prefer this one here.
+Dialogue: 0,0:01:50.65,0:01:52.41,*Default,NTP,0000,0000,0000,,So we are about to create
+Dialogue: 0,0:01:52.41,0:01:54.79,*Default,NTP,0000,0000,0000,,our very first webpage
+Dialogue: 0,0:01:54.79,0:01:58.78,*Default,NTP,0000,0000,0000,,and a webpage is basically just an HTML file,
+Dialogue: 0,0:01:59.65,0:02:03.89,*Default,NTP,0000,0000,0000,,and let's call it index.html.
+Dialogue: 0,0:02:03.89,0:02:06.10,*Default,NTP,0000,0000,0000,,So it's basically just the file
+Dialogue: 0,0:02:06.10,0:02:09.56,*Default,NTP,0000,0000,0000,,with the HTML file extension.
+Dialogue: 0,0:02:09.56,0:02:11.32,*Default,NTP,0000,0000,0000,,And we are calling it index
+Dialogue: 0,0:02:11.32,0:02:13.92,*Default,NTP,0000,0000,0000,,because that is the default name
+Dialogue: 0,0:02:13.92,0:02:17.17,*Default,NTP,0000,0000,0000,,of the first page of any website.
+Dialogue: 0,0:02:17.17,0:02:19.40,*Default,NTP,0000,0000,0000,,So index is basically always
+Dialogue: 0,0:02:19.40,0:02:22.04,*Default,NTP,0000,0000,0000,,the entry point to any website.
+Dialogue: 0,0:02:22.04,0:02:23.82,*Default,NTP,0000,0000,0000,,And so all web projects
+Dialogue: 0,0:02:23.82,0:02:26.82,*Default,NTP,0000,0000,0000,,always need to have an index.html.
+Dialogue: 0,0:02:27.94,0:02:29.89,*Default,NTP,0000,0000,0000,,All right. So keep that in mind,
+Dialogue: 0,0:02:29.89,0:02:34.89,*Default,NTP,0000,0000,0000,,always call your very first page index.html.
+Dialogue: 0,0:02:35.10,0:02:38.07,*Default,NTP,0000,0000,0000,,Now my goal in this lecture is not yet
+Dialogue: 0,0:02:38.07,0:02:40.49,*Default,NTP,0000,0000,0000,,to really teach you HTML.
+Dialogue: 0,0:02:40.49,0:02:41.32,*Default,NTP,0000,0000,0000,,Right now,
+Dialogue: 0,0:02:41.32,0:02:44.57,*Default,NTP,0000,0000,0000,,all I want to do is to create this file
+Dialogue: 0,0:02:44.57,0:02:47.32,*Default,NTP,0000,0000,0000,,and to add a little bit of code to it
+Dialogue: 0,0:02:47.32,0:02:49.87,*Default,NTP,0000,0000,0000,,and then see the results in the browser.
+Dialogue: 0,0:02:49.87,0:02:51.39,*Default,NTP,0000,0000,0000,,Just so you get to write
+Dialogue: 0,0:02:51.39,0:02:53.13,*Default,NTP,0000,0000,0000,,your first line of code
+Dialogue: 0,0:02:53.13,0:02:55.30,*Default,NTP,0000,0000,0000,,and are able to see the results
+Dialogue: 0,0:02:55.30,0:02:58.74,*Default,NTP,0000,0000,0000,,of writing that code in a real web browser.
+Dialogue: 0,0:02:58.74,0:03:01.95,*Default,NTP,0000,0000,0000,,So again, I'm not really starting to teach HTML
+Dialogue: 0,0:03:01.95,0:03:03.15,*Default,NTP,0000,0000,0000,,just yet.
+Dialogue: 0,0:03:03.15,0:03:06.84,*Default,NTP,0000,0000,0000,,And so instead of writing a whole page structure,
+Dialogue: 0,0:03:06.84,0:03:08.55,*Default,NTP,0000,0000,0000,,as we usually need to,
+Dialogue: 0,0:03:08.55,0:03:10.82,*Default,NTP,0000,0000,0000,,we are going to use a small cheat
+Dialogue: 0,0:03:10.82,0:03:13.04,*Default,NTP,0000,0000,0000,,that we can use in VS Code.
+Dialogue: 0,0:03:13.04,0:03:16.22,*Default,NTP,0000,0000,0000,,So to do that, just write an exclamation mark.
+Dialogue: 0,0:03:17.26,0:03:18.71,*Default,NTP,0000,0000,0000,,So just like this,
+Dialogue: 0,0:03:18.71,0:03:21.68,*Default,NTP,0000,0000,0000,,and then you can hit tab on your keyboard,
+Dialogue: 0,0:03:21.68,0:03:24.36,*Default,NTP,0000,0000,0000,,or you can also just click here.
+Dialogue: 0,0:03:25.61,0:03:26.44,*Default,NTP,0000,0000,0000,,And with that,
+Dialogue: 0,0:03:26.44,0:03:28.22,*Default,NTP,0000,0000,0000,,we get this very basic
+Dialogue: 0,0:03:28.22,0:03:31.70,*Default,NTP,0000,0000,0000,,and almost empty HTML structure.
+Dialogue: 0,0:03:31.70,0:03:35.37,*Default,NTP,0000,0000,0000,,So it has a head and it has a body.
+Dialogue: 0,0:03:35.37,0:03:36.20,*Default,NTP,0000,0000,0000,,But once again,
+Dialogue: 0,0:03:36.20,0:03:37.79,*Default,NTP,0000,0000,0000,,we will learn all about that
+Dialogue: 0,0:03:37.79,0:03:39.21,*Default,NTP,0000,0000,0000,,a little bit later.
+Dialogue: 0,0:03:39.21,0:03:41.09,*Default,NTP,0000,0000,0000,,For now, all I'm interested here
+Dialogue: 0,0:03:41.09,0:03:45.38,*Default,NTP,0000,0000,0000,,is for now this title of the webpage.
+Dialogue: 0,0:03:45.38,0:03:47.15,*Default,NTP,0000,0000,0000,,So let's change the content here
+Dialogue: 0,0:03:47.15,0:03:49.92,*Default,NTP,0000,0000,0000,,of this title to, for example,
+Dialogue: 0,0:03:49.92,0:03:52.89,*Default,NTP,0000,0000,0000,,"My first webpage."
+Dialogue: 0,0:03:52.89,0:03:54.95,*Default,NTP,0000,0000,0000,,But of course you can also write
+Dialogue: 0,0:03:54.95,0:03:56.52,*Default,NTP,0000,0000,0000,,something else here
+Dialogue: 0,0:03:56.52,0:03:59.59,*Default,NTP,0000,0000,0000,,and then let's go inside of the body.
+Dialogue: 0,0:03:59.59,0:04:01.13,*Default,NTP,0000,0000,0000,,So this is actually the part
+Dialogue: 0,0:04:01.13,0:04:02.61,*Default,NTP,0000,0000,0000,,that we will be able to see
+Dialogue: 0,0:04:02.61,0:04:04.05,*Default,NTP,0000,0000,0000,,in the browser.
+Dialogue: 0,0:04:04.05,0:04:08.87,*Default,NTP,0000,0000,0000,,And here, just write this less than sign.
+Dialogue: 0,0:04:08.87,0:04:12.55,*Default,NTP,0000,0000,0000,,Then H1, which stands for heading one
+Dialogue: 0,0:04:12.55,0:04:15.02,*Default,NTP,0000,0000,0000,,and then the greater than symbol.
+Dialogue: 0,0:04:15.02,0:04:17.99,*Default,NTP,0000,0000,0000,,So just like this one here,
+Dialogue: 0,0:04:17.99,0:04:20.28,*Default,NTP,0000,0000,0000,,and you see that then VS Code
+Dialogue: 0,0:04:20.28,0:04:22.58,*Default,NTP,0000,0000,0000,,actually automatically placed
+Dialogue: 0,0:04:22.58,0:04:25.27,*Default,NTP,0000,0000,0000,,this other part here.
+Dialogue: 0,0:04:25.27,0:04:28.52,*Default,NTP,0000,0000,0000,,So closing the H1 basically.
+Dialogue: 0,0:04:28.52,0:04:29.35,*Default,NTP,0000,0000,0000,,But again,
+Dialogue: 0,0:04:29.35,0:04:31.03,*Default,NTP,0000,0000,0000,,that doesn't really matter for now.
+Dialogue: 0,0:04:31.03,0:04:33.68,*Default,NTP,0000,0000,0000,,Let's just write some text content in here
+Dialogue: 0,0:04:33.68,0:04:36.42,*Default,NTP,0000,0000,0000,,and I'm writing, "Hello, world!"
+Dialogue: 0,0:04:36.42,0:04:38.20,*Default,NTP,0000,0000,0000,,which has kind of a standard
+Dialogue: 0,0:04:38.20,0:04:41.17,*Default,NTP,0000,0000,0000,,when you write your very first line of code
+Dialogue: 0,0:04:41.17,0:04:43.59,*Default,NTP,0000,0000,0000,,in any programming language.
+Dialogue: 0,0:04:43.59,0:04:45.57,*Default,NTP,0000,0000,0000,,So hello world is really
+Dialogue: 0,0:04:45.57,0:04:48.06,*Default,NTP,0000,0000,0000,,a long standing tradition.
+Dialogue: 0,0:04:48.06,0:04:50.43,*Default,NTP,0000,0000,0000,,Next let's try another one.
+Dialogue: 0,0:04:50.43,0:04:53.69,*Default,NTP,0000,0000,0000,,So again, this less than symbol.
+Dialogue: 0,0:04:53.69,0:04:57.81,*Default,NTP,0000,0000,0000,,Now let's try P which stands for paragraph.
+Dialogue: 0,0:04:57.81,0:04:58.64,*Default,NTP,0000,0000,0000,,And then again,
+Dialogue: 0,0:04:58.64,0:05:00.86,*Default,NTP,0000,0000,0000,,VS Code automatically closes
+Dialogue: 0,0:05:00.86,0:05:02.10,*Default,NTP,0000,0000,0000,,the paragraph for us.
+Dialogue: 0,0:05:03.36,0:05:06.09,*Default,NTP,0000,0000,0000,,So let's say, "My name is Jonas."
+Dialogue: 0,0:05:06.09,0:05:09.35,*Default,NTP,0000,0000,0000,,And you will of course use your own name,
+Dialogue: 0,0:05:09.35,0:05:13.57,*Default,NTP,0000,0000,0000,,"And this is my very first
+Dialogue: 0,0:05:15.65,0:05:17.07,*Default,NTP,0000,0000,0000,,webpage."
+Dialogue: 0,0:05:18.01,0:05:19.06,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:19.06,0:05:20.56,*Default,NTP,0000,0000,0000,,Now we can give it a save
+Dialogue: 0,0:05:20.56,0:05:23.18,*Default,NTP,0000,0000,0000,,by hitting command or control S
+Dialogue: 0,0:05:24.04,0:05:28.12,*Default,NTP,0000,0000,0000,,or you can go here to the file menu as well.
+Dialogue: 0,0:05:28.12,0:05:31.15,*Default,NTP,0000,0000,0000,,And we also have the auto save active.
+Dialogue: 0,0:05:31.15,0:05:34.11,*Default,NTP,0000,0000,0000,,So if we just leave this tab, so for example,
+Dialogue: 0,0:05:34.11,0:05:35.97,*Default,NTP,0000,0000,0000,,by clicking outside here,
+Dialogue: 0,0:05:35.97,0:05:39.41,*Default,NTP,0000,0000,0000,,then it will also automatically save the file.
+Dialogue: 0,0:05:39.41,0:05:41.02,*Default,NTP,0000,0000,0000,,So let's actually try that.
+Dialogue: 0,0:05:42.54,0:05:43.73,*Default,NTP,0000,0000,0000,,And here we go.
+Dialogue: 0,0:05:44.78,0:05:46.97,*Default,NTP,0000,0000,0000,,So now the file has been saved,
+Dialogue: 0,0:05:46.97,0:05:48.66,*Default,NTP,0000,0000,0000,,and maybe you also noticed
+Dialogue: 0,0:05:48.66,0:05:50.30,*Default,NTP,0000,0000,0000,,that the formatting has changed
+Dialogue: 0,0:05:50.30,0:05:51.51,*Default,NTP,0000,0000,0000,,here a little bit,
+Dialogue: 0,0:05:51.51,0:05:53.04,*Default,NTP,0000,0000,0000,,and this happened because
+Dialogue: 0,0:05:53.04,0:05:54.79,*Default,NTP,0000,0000,0000,,of the Prettier extension that
+Dialogue: 0,0:05:54.79,0:05:56.89,*Default,NTP,0000,0000,0000,,we installed in the last video.
+Dialogue: 0,0:05:56.89,0:05:59.37,*Default,NTP,0000,0000,0000,,So remember that the Prettier extension
+Dialogue: 0,0:05:59.37,0:06:01.59,*Default,NTP,0000,0000,0000,,is to format or code automatically
+Dialogue: 0,0:06:01.59,0:06:03.68,*Default,NTP,0000,0000,0000,,whenever we save it.
+Dialogue: 0,0:06:03.68,0:06:06.74,*Default,NTP,0000,0000,0000,,And so that is exactly what just happened.
+Dialogue: 0,0:06:06.74,0:06:09.84,*Default,NTP,0000,0000,0000,,So let's just add some spaces here
+Dialogue: 0,0:06:09.84,0:06:14.32,*Default,NTP,0000,0000,0000,,and now if I hit command or control S again,
+Dialogue: 0,0:06:14.32,0:06:16.25,*Default,NTP,0000,0000,0000,,then you'll see it put it back
+Dialogue: 0,0:06:16.25,0:06:17.72,*Default,NTP,0000,0000,0000,,in the correct place.
+Dialogue: 0,0:06:18.80,0:06:19.72,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:06:19.72,0:06:21.70,*Default,NTP,0000,0000,0000,,And so that's the power of Prettier
+Dialogue: 0,0:06:21.70,0:06:24.13,*Default,NTP,0000,0000,0000,,and it will ensure that your code
+Dialogue: 0,0:06:24.13,0:06:25.46,*Default,NTP,0000,0000,0000,,should always look the same
+Dialogue: 0,0:06:25.46,0:06:27.59,*Default,NTP,0000,0000,0000,,as this code in the video.
+Dialogue: 0,0:06:27.59,0:06:28.42,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:06:28.42,0:06:31.96,*Default,NTP,0000,0000,0000,,So we just wrote our very first line of code,
+Dialogue: 0,0:06:31.96,0:06:35.10,*Default,NTP,0000,0000,0000,,or actually, our first two lines of code.
+Dialogue: 0,0:06:35.10,0:06:38.46,*Default,NTP,0000,0000,0000,,And so now we have this index.html file
+Dialogue: 0,0:06:38.46,0:06:41.71,*Default,NTP,0000,0000,0000,,and we can open it up in a browser.
+Dialogue: 0,0:06:41.71,0:06:43.73,*Default,NTP,0000,0000,0000,,So let's go to our project folder
+Dialogue: 0,0:06:43.73,0:06:46.41,*Default,NTP,0000,0000,0000,,where this file is located.
+Dialogue: 0,0:06:46.41,0:06:49.20,*Default,NTP,0000,0000,0000,,And in my case, remember, that's on the desktop.
+Dialogue: 0,0:06:50.57,0:06:52.36,*Default,NTP,0000,0000,0000,,So I can just open it.
+Dialogue: 0,0:06:52.36,0:06:55.35,*Default,NTP,0000,0000,0000,,And now here we have that index.html file
+Dialogue: 0,0:06:55.35,0:06:58.75,*Default,NTP,0000,0000,0000,,that we created previously in VS Code.
+Dialogue: 0,0:06:58.75,0:07:01.53,*Default,NTP,0000,0000,0000,,And to now open it up in Google Chrome
+Dialogue: 0,0:07:01.53,0:07:03.29,*Default,NTP,0000,0000,0000,,or in any other browser,
+Dialogue: 0,0:07:03.29,0:07:05.66,*Default,NTP,0000,0000,0000,,we just need to double click the file,
+Dialogue: 0,0:07:05.66,0:07:08.02,*Default,NTP,0000,0000,0000,,or we can just also right, click it
+Dialogue: 0,0:07:08.02,0:07:10.88,*Default,NTP,0000,0000,0000,,and then open with a Google Chrome.
+Dialogue: 0,0:07:10.88,0:07:12.37,*Default,NTP,0000,0000,0000,,So let's do that.
+Dialogue: 0,0:07:12.37,0:07:14.22,*Default,NTP,0000,0000,0000,,And here it is,
+Dialogue: 0,0:07:14.22,0:07:17.02,*Default,NTP,0000,0000,0000,,here is our very first webpage
+Dialogue: 0,0:07:17.02,0:07:20.83,*Default,NTP,0000,0000,0000,,that we just created manually in VS Code.
+Dialogue: 0,0:07:20.83,0:07:21.90,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:07:21.90,0:07:24.68,*Default,NTP,0000,0000,0000,,And that's really amazing if you ask me,
+Dialogue: 0,0:07:24.68,0:07:27.46,*Default,NTP,0000,0000,0000,,so congratulations and well done
+Dialogue: 0,0:07:27.46,0:07:29.85,*Default,NTP,0000,0000,0000,,on your very first web page here.
+Dialogue: 0,0:07:30.88,0:07:33.44,*Default,NTP,0000,0000,0000,,Let's just push it to the side here
+Dialogue: 0,0:07:33.44,0:07:37.29,*Default,NTP,0000,0000,0000,,a little bit and then VS Code to the other side.
+Dialogue: 0,0:07:38.29,0:07:40.08,*Default,NTP,0000,0000,0000,,So from now on, we will always have,
+Dialogue: 0,0:07:40.08,0:07:42.08,*Default,NTP,0000,0000,0000,,our code here on the left side
+Dialogue: 0,0:07:42.08,0:07:43.88,*Default,NTP,0000,0000,0000,,and then on the right side the browser
+Dialogue: 0,0:07:43.88,0:07:46.46,*Default,NTP,0000,0000,0000,,so that we can see our changes.
+Dialogue: 0,0:07:46.46,0:07:48.62,*Default,NTP,0000,0000,0000,,And to give us a bit more space here,
+Dialogue: 0,0:07:48.62,0:07:49.82,*Default,NTP,0000,0000,0000,,we can, again,
+Dialogue: 0,0:07:49.82,0:07:51.87,*Default,NTP,0000,0000,0000,,click on this tab here
+Dialogue: 0,0:07:51.87,0:07:53.32,*Default,NTP,0000,0000,0000,,and that will then collapse
+Dialogue: 0,0:07:53.32,0:07:55.67,*Default,NTP,0000,0000,0000,,the sidebar and give us more space
+Dialogue: 0,0:07:55.67,0:07:56.93,*Default,NTP,0000,0000,0000,,for our actual code.
+Dialogue: 0,0:07:57.82,0:07:59.72,*Default,NTP,0000,0000,0000,,So you see that here,
+Dialogue: 0,0:07:59.72,0:08:03.97,*Default,NTP,0000,0000,0000,,we have this hello world in big and bold text.
+Dialogue: 0,0:08:03.97,0:08:08.38,*Default,NTP,0000,0000,0000,,And so that corresponds here to this H1 element,
+Dialogue: 0,0:08:08.38,0:08:11.09,*Default,NTP,0000,0000,0000,,and then below that we have this paragraph,
+Dialogue: 0,0:08:11.09,0:08:13.28,*Default,NTP,0000,0000,0000,,which is translated here
+Dialogue: 0,0:08:13.28,0:08:15.40,*Default,NTP,0000,0000,0000,,into this visual element.
+Dialogue: 0,0:08:15.40,0:08:17.67,*Default,NTP,0000,0000,0000,,We also have the actual title
+Dialogue: 0,0:08:17.67,0:08:21.53,*Default,NTP,0000,0000,0000,,of the page here in the title of this tab.
+Dialogue: 0,0:08:21.53,0:08:24.83,*Default,NTP,0000,0000,0000,,So "My first webpage" is what we have here,
+Dialogue: 0,0:08:24.83,0:08:27.48,*Default,NTP,0000,0000,0000,,and that is exactly what we typed here
+Dialogue: 0,0:08:27.48,0:08:29.64,*Default,NTP,0000,0000,0000,,into the title element.
+Dialogue: 0,0:08:29.64,0:08:30.69,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:08:30.69,0:08:32.15,*Default,NTP,0000,0000,0000,,And so one more time,
+Dialogue: 0,0:08:32.15,0:08:33.87,*Default,NTP,0000,0000,0000,,the code that we wrote here
+Dialogue: 0,0:08:33.87,0:08:35.88,*Default,NTP,0000,0000,0000,,in our HTML document
+Dialogue: 0,0:08:35.88,0:08:38.38,*Default,NTP,0000,0000,0000,,is now reflected in the real world
+Dialogue: 0,0:08:38.38,0:08:40.36,*Default,NTP,0000,0000,0000,,in this real web browser.
+Dialogue: 0,0:08:41.28,0:08:43.72,*Default,NTP,0000,0000,0000,,And speaking of the web browser,
+Dialogue: 0,0:08:43.72,0:08:45.95,*Default,NTP,0000,0000,0000,,I'm using Google Chrome to test
+Dialogue: 0,0:08:45.95,0:08:47.92,*Default,NTP,0000,0000,0000,,all the codes that we're gonna write
+Dialogue: 0,0:08:47.92,0:08:49.59,*Default,NTP,0000,0000,0000,,throughout this course.
+Dialogue: 0,0:08:49.59,0:08:50.95,*Default,NTP,0000,0000,0000,,And so I really advise you
+Dialogue: 0,0:08:50.95,0:08:53.06,*Default,NTP,0000,0000,0000,,to also use Google Chrome
+Dialogue: 0,0:08:53.06,0:08:56.35,*Default,NTP,0000,0000,0000,,to always test the code that you are writing.
+Dialogue: 0,0:08:56.35,0:08:57.21,*Default,NTP,0000,0000,0000,,So that will, again,
+Dialogue: 0,0:08:57.21,0:08:59.40,*Default,NTP,0000,0000,0000,,ensure that you have the exact
+Dialogue: 0,0:08:59.40,0:09:01.35,*Default,NTP,0000,0000,0000,,same results as you are seeing
+Dialogue: 0,0:09:01.35,0:09:03.21,*Default,NTP,0000,0000,0000,,in the course videos.
+Dialogue: 0,0:09:03.21,0:09:04.76,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:04.76,0:09:06.84,*Default,NTP,0000,0000,0000,,And this is actually enough
+Dialogue: 0,0:09:06.84,0:09:09.75,*Default,NTP,0000,0000,0000,,for this very first coding video.
+Dialogue: 0,0:09:09.75,0:09:11.81,*Default,NTP,0000,0000,0000,,And I hope that you will really get
+Dialogue: 0,0:09:11.81,0:09:14.15,*Default,NTP,0000,0000,0000,,the ideas that I wanted to show you
+Dialogue: 0,0:09:14.15,0:09:15.57,*Default,NTP,0000,0000,0000,,in this lecture.
+Dialogue: 0,0:09:15.57,0:09:18.10,*Default,NTP,0000,0000,0000,,So basically starting from creating
+Dialogue: 0,0:09:18.10,0:09:19.82,*Default,NTP,0000,0000,0000,,a project folder,
+Dialogue: 0,0:09:19.82,0:09:23.55,*Default,NTP,0000,0000,0000,,then opening up that project folder in VS Code.
+Dialogue: 0,0:09:23.55,0:09:27.29,*Default,NTP,0000,0000,0000,,So this folder here to test folder,
+Dialogue: 0,0:09:27.29,0:09:28.69,*Default,NTP,0000,0000,0000,,then inside of that,
+Dialogue: 0,0:09:28.69,0:09:31.38,*Default,NTP,0000,0000,0000,,creating an HTML file,
+Dialogue: 0,0:09:31.38,0:09:34.63,*Default,NTP,0000,0000,0000,,then adding some code to that file
+Dialogue: 0,0:09:34.63,0:09:36.32,*Default,NTP,0000,0000,0000,,and finally opening up
+Dialogue: 0,0:09:36.32,0:09:39.44,*Default,NTP,0000,0000,0000,,the HTML document in a real browser,
+Dialogue: 0,0:09:39.44,0:09:40.96,*Default,NTP,0000,0000,0000,,such as Google Chrome,
+Dialogue: 0,0:09:40.96,0:09:43.60,*Default,NTP,0000,0000,0000,,where we then see this result.
+Dialogue: 0,0:09:43.60,0:09:46.47,*Default,NTP,0000,0000,0000,,So basically the translation of our code
+Dialogue: 0,0:09:46.47,0:09:48.55,*Default,NTP,0000,0000,0000,,to a visual result.
+Dialogue: 0,0:09:48.55,0:09:51.38,*Default,NTP,0000,0000,0000,,So I hope that you had some fun doing this,
+Dialogue: 0,0:09:51.38,0:09:53.65,*Default,NTP,0000,0000,0000,,and I see you in the next video.
