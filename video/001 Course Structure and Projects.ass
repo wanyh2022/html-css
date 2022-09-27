@@ -1,0 +1,230 @@
+[Script Info]
+Title: 【Udemy排名第一的 HTML5+CSS3 课程】使用 HTML 和 CSS 构建响应式真实世界网站（中英文字幕）_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.63,0:00:02.34,*Default,NTP,0000,0000,0000,,（欢快的音乐）
+Dialogue: 0,0:00:02.34,0:00:05.85,*Default,NTP,0000,0000,0000,,您好，欢迎来到您全新的课程，
+Dialogue: 0,0:00:05.85,0:00:10.62,*Default,NTP,0000,0000,0000,,使用 HTML 和 CSS 构建响应式真实世界的网站。
+Dialogue: 0,0:00:11.87,0:00:15.06,*Default,NTP,0000,0000,0000,,如果这是你的第一次接触
+Dialogue: 0,0:00:15.06,0:00:18.90,*Default,NTP,0000,0000,0000,,使用任何 HTML 或 CSS 编码，
+Dialogue: 0,0:00:18.90,0:00:20.74,*Default,NTP,0000,0000,0000,,那么让我也欢迎你
+Dialogue: 0,0:00:20.74,0:00:24.13,*Default,NTP,0000,0000,0000,,到令人兴奋的 Web 开发世界。
+Dialogue: 0,0:00:24.13,0:00:26.77,*Default,NTP,0000,0000,0000,,我相信你会喜欢的。
+Dialogue: 0,0:00:26.77,0:00:29.81,*Default,NTP,0000,0000,0000,,现在正如课程名称所说，
+Dialogue: 0,0:00:29.81,0:00:34.81,*Default,NTP,0000,0000,0000,,本课程是关于使用 HTML 和 CSS 的语言
+Dialogue: 0,0:00:35.66,0:00:40.66,*Default,NTP,0000,0000,0000,,构建美观、响应迅速且真实世界的网站。
+Dialogue: 0,0:00:41.97,0:00:46.20,*Default,NTP,0000,0000,0000,,所以这门课程基本上涵盖了四大主题，
+Dialogue: 0,0:00:46.20,0:00:49.57,*Default,NTP,0000,0000,0000,,网页设计、HTML 和 CSS，当然，
+Dialogue: 0,0:00:49.57,0:00:51.13,*Default,NTP,0000,0000,0000,,和响应式设计。
+Dialogue: 0,0:00:52.07,0:00:54.52,*Default,NTP,0000,0000,0000,,在我看来，这门课程，
+Dialogue: 0,0:00:54.52,0:00:57.60,*Default,NTP,0000,0000,0000,,学习这一切的最好方法
+Dialogue: 0,0:00:57.60,0:00:59.73,*Default,NTP,0000,0000,0000,,你会在任何地方找到。
+Dialogue: 0,0:00:59.73,0:01:04.56,*Default,NTP,0000,0000,0000,,所以你真的来对地方了。
+Dialogue: 0,0:01:04.56,0:01:06.48,*Default,NTP,0000,0000,0000,,现在，在我们开始学习之前，
+Dialogue: 0,0:01:06.48,0:01:10.10,*Default,NTP,0000,0000,0000,,让我们花几分钟时间快速了解一下
+Dialogue: 0,0:01:10.10,0:01:13.75,*Default,NTP,0000,0000,0000,,课程的组织和结构，
+Dialogue: 0,0:01:13.75,0:01:17.47,*Default,NTP,0000,0000,0000,,以及我们将共同建设的项目。
+Dialogue: 0,0:01:17.47,0:01:20.27,*Default,NTP,0000,0000,0000,,所以基本上你知道
+Dialogue: 0,0:01:20.27,0:01:22.05,*Default,NTP,0000,0000,0000,,这门课程将如何运作。
+Dialogue: 0,0:01:23.08,0:01:27.07,*Default,NTP,0000,0000,0000,,所以本课程分为九个部分
+Dialogue: 0,0:01:27.07,0:01:31.49,*Default,NTP,0000,0000,0000,,总共 35 小时的视频内容。
+Dialogue: 0,0:01:31.49,0:01:34.54,*Default,NTP,0000,0000,0000,,它从第一节开始
+Dialogue: 0,0:01:34.54,0:01:37.22,*Default,NTP,0000,0000,0000,,您将在其中获得高级概述
+Dialogue: 0,0:01:37.22,0:01:40.84,*Default,NTP,0000,0000,0000,,Web 开发的一般，它也将构建
+Dialogue: 0,0:01:40.84,0:01:44.74,*Default,NTP,0000,0000,0000,,您非常快速但非常简单的网页，
+Dialogue: 0,0:01:44.74,0:01:48.18,*Default,NTP,0000,0000,0000,,只是为了让您对即将发生的事情感到兴奋。
+Dialogue: 0,0:01:48.18,0:01:50.70,*Default,NTP,0000,0000,0000,,然后在第二部分，我们要搬家
+Dialogue: 0,0:01:50.70,0:01:54.14,*Default,NTP,0000,0000,0000,,HTML 语言的基础知识
+Dialogue: 0,0:01:54.14,0:01:56.16,*Default,NTP,0000,0000,0000,,通过构建一个小项目，
+Dialogue: 0,0:01:56.16,0:02:00.66,*Default,NTP,0000,0000,0000,,为您接下来的课程打下坚实的基础。
+Dialogue: 0,0:02:00.66,0:02:03.44,*Default,NTP,0000,0000,0000,,在第三节之后，
+Dialogue: 0,0:02:03.44,0:02:06.41,*Default,NTP,0000,0000,0000,,你将学习 CSS 的基础。
+Dialogue: 0,0:02:06.41,0:02:10.91,*Default,NTP,0000,0000,0000,,所以像样式文本、CSS 框模型、
+Dialogue: 0,0:02:10.91,0:02:13.90,*Default,NTP,0000,0000,0000,,以及尺寸和定位元素。
+Dialogue: 0,0:02:13.90,0:02:17.01,*Default,NTP,0000,0000,0000,,我们甚至会讨论一些开发人员的技能
+Dialogue: 0,0:02:17.01,0:02:20.40,*Default,NTP,0000,0000,0000,,比如阅读文档和调试。
+Dialogue: 0,0:02:21.30,0:02:24.81,*Default,NTP,0000,0000,0000,,继续前进，第四部分是关于
+Dialogue: 0,0:02:24.81,0:02:27.49,*Default,NTP,0000,0000,0000,,使用 CSS 构建布局。
+Dialogue: 0,0:02:27.49,0:02:30.98,*Default,NTP,0000,0000,0000,,所以基本上是关于如何排列元素
+Dialogue: 0,0:02:30.98,0:02:33.59,*Default,NTP,0000,0000,0000,,以合乎逻辑的方式在页面上。
+Dialogue: 0,0:02:33.59,0:02:37.43,*Default,NTP,0000,0000,0000,,我们可以在 CSS 中以多种方式做到这一点。
+Dialogue: 0,0:02:37.43,0:02:39.84,*Default,NTP,0000,0000,0000,,所以我们将学习所有这些，
+Dialogue: 0,0:02:39.84,0:02:43.22,*Default,NTP,0000,0000,0000,,但实际上更多地关注现代技术
+Dialogue: 0,0:02:43.22,0:02:46.66,*Default,NTP,0000,0000,0000,,称为 Flexbox 和 CSS 网格。
+Dialogue: 0,0:02:46.66,0:02:48.53,*Default,NTP,0000,0000,0000,,然后在第五节，
+Dialogue: 0,0:02:48.53,0:02:51.66,*Default,NTP,0000,0000,0000,,我们从 Web 开发中稍作休息
+Dialogue: 0,0:02:51.66,0:02:54.21,*Default,NTP,0000,0000,0000,,并继续进行网页设计。
+Dialogue: 0,0:02:54.21,0:02:58.01,*Default,NTP,0000,0000,0000,,这实际上是一个非常特别的部分，
+Dialogue: 0,0:02:58.01,0:03:02.12,*Default,NTP,0000,0000,0000,,这实际上可能是一个完整的课程。
+Dialogue: 0,0:03:02.12,0:03:05.63,*Default,NTP,0000,0000,0000,,所以在这里我教你无数好用的设计法则
+Dialogue: 0,0:03:05.63,0:03:07.56,*Default,NTP,0000,0000,0000,,和设计指南，
+Dialogue: 0,0:03:07.56,0:03:10.44,*Default,NTP,0000,0000,0000,,这样您不仅可以构建接口，
+Dialogue: 0,0:03:10.44,0:03:13.10,*Default,NTP,0000,0000,0000,,但也知道如何让它们变得美丽
+Dialogue: 0,0:03:13.10,0:03:15.10,*Default,NTP,0000,0000,0000,,和专业的外观。
+Dialogue: 0,0:03:15.10,0:03:17.54,*Default,NTP,0000,0000,0000,,而且人其实并不多
+Dialogue: 0,0:03:17.54,0:03:21.67,*Default,NTP,0000,0000,0000,,同时擅长开发和设计的人。
+Dialogue: 0,0:03:21.67,0:03:23.69,*Default,NTP,0000,0000,0000,,所以这部分课程
+Dialogue: 0,0:03:23.69,0:03:26.34,*Default,NTP,0000,0000,0000,,对你来说将是一个很好的机会。
+Dialogue: 0,0:03:27.20,0:03:29.37,*Default,NTP,0000,0000,0000,,接下来是第六节，
+Dialogue: 0,0:03:29.37,0:03:32.79,*Default,NTP,0000,0000,0000,,我们将在这里学习所有常见的网站组件
+Dialogue: 0,0:03:32.79,0:03:36.98,*Default,NTP,0000,0000,0000,,以及许多网站使用的常见布局模式，
+Dialogue: 0,0:03:36.98,0:03:40.43,*Default,NTP,0000,0000,0000,,这样你就可以n 将来建立自己的网站
+Dialogue: 0,0:03:40.43,0:03:42.43,*Default,NTP,0000,0000,0000,,也使用这些模式。
+Dialogue: 0,0:03:42.43,0:03:46.20,*Default,NTP,0000,0000,0000,,我们将通过查看大量示例来做到这一点
+Dialogue: 0,0:03:46.20,0:03:48.54,*Default,NTP,0000,0000,0000,,并且还通过构建一些组件
+Dialogue: 0,0:03:48.54,0:03:51.43,*Default,NTP,0000,0000,0000,,我们自己使用 HTML 和 CSS。
+Dialogue: 0,0:03:52.27,0:03:55.69,*Default,NTP,0000,0000,0000,,最后，第七、八、九节
+Dialogue: 0,0:03:55.69,0:03:58.96,*Default,NTP,0000,0000,0000,,都是关于建筑或大型课程项目，
+Dialogue: 0,0:03:58.96,0:04:01.43,*Default,NTP,0000,0000,0000,,这就是所谓的Omnifood。
+Dialogue: 0,0:04:01.43,0:04:05.79,*Default,NTP,0000,0000,0000,,所以在这里，我们最终将构建那个漂亮的、响应式的
+Dialogue: 0,0:04:05.79,0:04:10.24,*Default,NTP,0000,0000,0000,,和本课程所涉及的真实世界网站。
+Dialogue: 0,0:04:10.24,0:04:13.35,*Default,NTP,0000,0000,0000,,要做到这一点，你将使用所有的技能
+Dialogue: 0,0:04:13.35,0:04:16.40,*Default,NTP,0000,0000,0000,,你已经积累到这一点。
+Dialogue: 0,0:04:16.40,0:04:19.70,*Default,NTP,0000,0000,0000,,当然也学到了很多新东西
+Dialogue: 0,0:04:19.70,0:04:23.02,*Default,NTP,0000,0000,0000,,例如如何规划和绘制一个网站，
+Dialogue: 0,0:04:23.02,0:04:25.01,*Default,NTP,0000,0000,0000,,如何让它响应
+Dialogue: 0,0:04:25.01,0:04:28.49,*Default,NTP,0000,0000,0000,,以及真正如何处理这么大的项目
+Dialogue: 0,0:04:28.49,0:04:30.58,*Default,NTP,0000,0000,0000,,从开始到结束。
+Dialogue: 0,0:04:30.58,0:04:34.46,*Default,NTP,0000,0000,0000,,所以只要看看这个美丽的项目就在这里。
+Dialogue: 0,0:04:34.46,0:04:35.79,*Default,NTP,0000,0000,0000,,在课程结束时，
+Dialogue: 0,0:04:35.79,0:04:38.30,*Default,NTP,0000,0000,0000,,你将能够设计和建造
+Dialogue: 0,0:04:38.30,0:04:41.32,*Default,NTP,0000,0000,0000,,像这样的事情你自己。
+Dialogue: 0,0:04:41.32,0:04:44.91,*Default,NTP,0000,0000,0000,,这真是太神奇了，对吧？
+Dialogue: 0,0:04:44.91,0:04:46.60,*Default,NTP,0000,0000,0000,,现在，除了这一切，
+Dialogue: 0,0:04:46.60,0:04:49.29,*Default,NTP,0000,0000,0000,,还有许多编码挑战
+Dialogue: 0,0:04:49.29,0:04:51.28,*Default,NTP,0000,0000,0000,,以及其他机会
+Dialogue: 0,0:04:51.28,0:04:55.90,*Default,NTP,0000,0000,0000,,为您练习 HTML 和 CSS 技能
+Dialogue: 0,0:04:55.90,0:05:00.18,*Default,NTP,0000,0000,0000,,您在本课程中不断获得的
+Dialogue: 0,0:05:00.18,0:05:02.69,*Default,NTP,0000,0000,0000,,因为练习实际上是
+Dialogue: 0,0:05:02.69,0:05:05.46,*Default,NTP,0000,0000,0000,,最重要的事情
+Dialogue: 0,0:05:05.46,0:05:09.27,*Default,NTP,0000,0000,0000,,为了学习编码，您确实需要这样做。
+Dialogue: 0,0:05:10.53,0:05:14.62,*Default,NTP,0000,0000,0000,,好吧，所以我希望你会玩得开心
+Dialogue: 0,0:05:14.62,0:05:17.16,*Default,NTP,0000,0000,0000,,现在你将成为这门课程
+Dialogue: 0,0:05:17.16,0:05:19.60,*Default,NTP,0000,0000,0000,,准备建立自己的网站
+Dialogue: 0,0:05:19.60,0:05:22.70,*Default,NTP,0000,0000,0000,,并且你将有一个成功的开始
+Dialogue: 0,0:05:22.70,0:05:25.39,*Default,NTP,0000,0000,0000,,进入您的 Web 开发生涯。
+Dialogue: 0,0:05:25.39,0:05:27.12,*Default,NTP,0000,0000,0000,,话虽如此，
+Dialogue: 0,0:05:27.12,0:05:29.35,*Default,NTP,0000,0000,0000,,让我们现在终于开始了。
+Dialogue: 0,0:05:29.35,0:05:31.94,*Default,NTP,0000,0000,0000,,（欢快的音乐）
+Dialogue: 0,0:00:00.63,0:00:02.34,*Default,NTP,0000,0000,0000,,(upbeat music)
+Dialogue: 0,0:00:02.34,0:00:05.85,*Default,NTP,0000,0000,0000,,Hello, and welcome to your brand new course,
+Dialogue: 0,0:00:05.85,0:00:10.62,*Default,NTP,0000,0000,0000,,build responsive real-world websites with HTML and CSS.
+Dialogue: 0,0:00:11.87,0:00:15.06,*Default,NTP,0000,0000,0000,,And if this is your very first contact
+Dialogue: 0,0:00:15.06,0:00:18.90,*Default,NTP,0000,0000,0000,,with any coding of HTML or CSS,
+Dialogue: 0,0:00:18.90,0:00:20.74,*Default,NTP,0000,0000,0000,,then let me also welcome you
+Dialogue: 0,0:00:20.74,0:00:24.13,*Default,NTP,0000,0000,0000,,to the exciting world of web development.
+Dialogue: 0,0:00:24.13,0:00:26.77,*Default,NTP,0000,0000,0000,,I'm sure that you're gonna love it.
+Dialogue: 0,0:00:26.77,0:00:29.81,*Default,NTP,0000,0000,0000,,Now as the name of the course says,
+Dialogue: 0,0:00:29.81,0:00:34.81,*Default,NTP,0000,0000,0000,,this course is all about using the languages of HTML and CSS
+Dialogue: 0,0:00:35.66,0:00:40.66,*Default,NTP,0000,0000,0000,,to build beautiful, responsive, and also real world website.
+Dialogue: 0,0:00:41.97,0:00:46.20,*Default,NTP,0000,0000,0000,,And so this course basically covers four big topics,
+Dialogue: 0,0:00:46.20,0:00:49.57,*Default,NTP,0000,0000,0000,,web design, HTML, and CSS, of course,
+Dialogue: 0,0:00:49.57,0:00:51.13,*Default,NTP,0000,0000,0000,,and responsive design.
+Dialogue: 0,0:00:52.07,0:00:54.52,*Default,NTP,0000,0000,0000,,And this course is in my opinion,
+Dialogue: 0,0:00:54.52,0:00:57.60,*Default,NTP,0000,0000,0000,,the very best way of learning all this
+Dialogue: 0,0:00:57.60,0:00:59.73,*Default,NTP,0000,0000,0000,,that you will find anywhere.
+Dialogue: 0,0:00:59.73,0:01:04.56,*Default,NTP,0000,0000,0000,,And so really you have come to the right place here.
+Dialogue: 0,0:01:04.56,0:01:06.48,*Default,NTP,0000,0000,0000,,Now, before we start learning,
+Dialogue: 0,0:01:06.48,0:01:10.10,*Default,NTP,0000,0000,0000,,let's take a couple of minutes to get a quick overview
+Dialogue: 0,0:01:10.10,0:01:13.75,*Default,NTP,0000,0000,0000,,of how the course is organized and structured,
+Dialogue: 0,0:01:13.75,0:01:17.47,*Default,NTP,0000,0000,0000,,and also the projects that we're going to build together.
+Dialogue: 0,0:01:17.47,0:01:20.27,*Default,NTP,0000,0000,0000,,So basically that, you know exactly
+Dialogue: 0,0:01:20.27,0:01:22.05,*Default,NTP,0000,0000,0000,,how this course is gonna work.
+Dialogue: 0,0:01:23.08,0:01:27.07,*Default,NTP,0000,0000,0000,,So this course is divided into nine sections
+Dialogue: 0,0:01:27.07,0:01:31.49,*Default,NTP,0000,0000,0000,,with a total of 35 hours of video content.
+Dialogue: 0,0:01:31.49,0:01:34.54,*Default,NTP,0000,0000,0000,,And it starts right here in section one
+Dialogue: 0,0:01:34.54,0:01:37.22,*Default,NTP,0000,0000,0000,,where you will get a high-level overview
+Dialogue: 0,0:01:37.22,0:01:40.84,*Default,NTP,0000,0000,0000,,of web development general, and it will also build
+Dialogue: 0,0:01:40.84,0:01:44.74,*Default,NTP,0000,0000,0000,,your very fast, but extremely simple webpage,
+Dialogue: 0,0:01:44.74,0:01:48.18,*Default,NTP,0000,0000,0000,,just to get you excited for what's ahead.
+Dialogue: 0,0:01:48.18,0:01:50.70,*Default,NTP,0000,0000,0000,,Then in section two, we're gonna move
+Dialogue: 0,0:01:50.70,0:01:54.14,*Default,NTP,0000,0000,0000,,to the very basics of the HTML language
+Dialogue: 0,0:01:54.14,0:01:56.16,*Default,NTP,0000,0000,0000,,by building a small project,
+Dialogue: 0,0:01:56.16,0:02:00.66,*Default,NTP,0000,0000,0000,,to give you a solid foundation for the rest of the course.
+Dialogue: 0,0:02:00.66,0:02:03.44,*Default,NTP,0000,0000,0000,,After that in section number three,
+Dialogue: 0,0:02:03.44,0:02:06.41,*Default,NTP,0000,0000,0000,,you're gonna learn the foundations of CSS.
+Dialogue: 0,0:02:06.41,0:02:10.91,*Default,NTP,0000,0000,0000,,So things like styling text, the CSS box model,
+Dialogue: 0,0:02:10.91,0:02:13.90,*Default,NTP,0000,0000,0000,,and sizing and positioning elements.
+Dialogue: 0,0:02:13.90,0:02:17.01,*Default,NTP,0000,0000,0000,,And we will even talk about some developer skills
+Dialogue: 0,0:02:17.01,0:02:20.40,*Default,NTP,0000,0000,0000,,such as reading documentation and debugging.
+Dialogue: 0,0:02:21.30,0:02:24.81,*Default,NTP,0000,0000,0000,,Moving on, section number four is all about
+Dialogue: 0,0:02:24.81,0:02:27.49,*Default,NTP,0000,0000,0000,,building layouts using CSS.
+Dialogue: 0,0:02:27.49,0:02:30.98,*Default,NTP,0000,0000,0000,,So basically it's about how to arrange elements
+Dialogue: 0,0:02:30.98,0:02:33.59,*Default,NTP,0000,0000,0000,,on the page in a logical way.
+Dialogue: 0,0:02:33.59,0:02:37.43,*Default,NTP,0000,0000,0000,,And we can do that in multiple ways in CSS.
+Dialogue: 0,0:02:37.43,0:02:39.84,*Default,NTP,0000,0000,0000,,And so we will learn all of them,
+Dialogue: 0,0:02:39.84,0:02:43.22,*Default,NTP,0000,0000,0000,,but actually focus more on modern technologies
+Dialogue: 0,0:02:43.22,0:02:46.66,*Default,NTP,0000,0000,0000,,called Flexbox and CSS grid.
+Dialogue: 0,0:02:46.66,0:02:48.53,*Default,NTP,0000,0000,0000,,Then in section five,
+Dialogue: 0,0:02:48.53,0:02:51.66,*Default,NTP,0000,0000,0000,,we take a small break from web development
+Dialogue: 0,0:02:51.66,0:02:54.21,*Default,NTP,0000,0000,0000,,and move on to web design.
+Dialogue: 0,0:02:54.21,0:02:58.01,*Default,NTP,0000,0000,0000,,And this is actually a really special section,
+Dialogue: 0,0:02:58.01,0:03:02.12,*Default,NTP,0000,0000,0000,,which could infact be an entire course on its own.
+Dialogue: 0,0:03:02.12,0:03:05.63,*Default,NTP,0000,0000,0000,,So here I teach you countless easy to use design rules
+Dialogue: 0,0:03:05.63,0:03:07.56,*Default,NTP,0000,0000,0000,,and design guidelines,
+Dialogue: 0,0:03:07.56,0:03:10.44,*Default,NTP,0000,0000,0000,,so that you can not only build interfaces,
+Dialogue: 0,0:03:10.44,0:03:13.10,*Default,NTP,0000,0000,0000,,but also know how to make them beautiful
+Dialogue: 0,0:03:13.10,0:03:15.10,*Default,NTP,0000,0000,0000,,and professional looking.
+Dialogue: 0,0:03:15.10,0:03:17.54,*Default,NTP,0000,0000,0000,,And there are actually not many people
+Dialogue: 0,0:03:17.54,0:03:21.67,*Default,NTP,0000,0000,0000,,who are good at development and design at the same time.
+Dialogue: 0,0:03:21.67,0:03:23.69,*Default,NTP,0000,0000,0000,,And so this part of the course
+Dialogue: 0,0:03:23.69,0:03:26.34,*Default,NTP,0000,0000,0000,,is gonna be a great opportunity for you.
+Dialogue: 0,0:03:27.20,0:03:29.37,*Default,NTP,0000,0000,0000,,Next up is section six,
+Dialogue: 0,0:03:29.37,0:03:32.79,*Default,NTP,0000,0000,0000,,where we will learn all about common website components
+Dialogue: 0,0:03:32.79,0:03:36.98,*Default,NTP,0000,0000,0000,,and common layout patterns that many websites out there use,
+Dialogue: 0,0:03:36.98,0:03:40.43,*Default,NTP,0000,0000,0000,,so that then you can build your own websites in the future
+Dialogue: 0,0:03:40.43,0:03:42.43,*Default,NTP,0000,0000,0000,,using these patterns too.
+Dialogue: 0,0:03:42.43,0:03:46.20,*Default,NTP,0000,0000,0000,,And we will do this by looking at a ton of examples
+Dialogue: 0,0:03:46.20,0:03:48.54,*Default,NTP,0000,0000,0000,,and also by building some components
+Dialogue: 0,0:03:48.54,0:03:51.43,*Default,NTP,0000,0000,0000,,with HTML and CSS ourselves.
+Dialogue: 0,0:03:52.27,0:03:55.69,*Default,NTP,0000,0000,0000,,Finally, section seven, eight, and nine
+Dialogue: 0,0:03:55.69,0:03:58.96,*Default,NTP,0000,0000,0000,,are all about building or big course project,
+Dialogue: 0,0:03:58.96,0:04:01.43,*Default,NTP,0000,0000,0000,,which is called Omnifood.
+Dialogue: 0,0:04:01.43,0:04:05.79,*Default,NTP,0000,0000,0000,,So here we will finally build that beautiful, responsive
+Dialogue: 0,0:04:05.79,0:04:10.24,*Default,NTP,0000,0000,0000,,and real world website that this course is all about.
+Dialogue: 0,0:04:10.24,0:04:13.35,*Default,NTP,0000,0000,0000,,And to do this, you're gonna use all the skills
+Dialogue: 0,0:04:13.35,0:04:16.40,*Default,NTP,0000,0000,0000,,that you have accumulated up until this point.
+Dialogue: 0,0:04:16.40,0:04:19.70,*Default,NTP,0000,0000,0000,,And of course also learn a lot of new stuff
+Dialogue: 0,0:04:19.70,0:04:23.02,*Default,NTP,0000,0000,0000,,such as how to plan and sketch a website,
+Dialogue: 0,0:04:23.02,0:04:25.01,*Default,NTP,0000,0000,0000,,how to make it responsive
+Dialogue: 0,0:04:25.01,0:04:28.49,*Default,NTP,0000,0000,0000,,and really how to handle such a big project
+Dialogue: 0,0:04:28.49,0:04:30.58,*Default,NTP,0000,0000,0000,,from start to finish.
+Dialogue: 0,0:04:30.58,0:04:34.46,*Default,NTP,0000,0000,0000,,So just look at this beautiful project right here.
+Dialogue: 0,0:04:34.46,0:04:35.79,*Default,NTP,0000,0000,0000,,By the end of the course,
+Dialogue: 0,0:04:35.79,0:04:38.30,*Default,NTP,0000,0000,0000,,you will be able to design and build
+Dialogue: 0,0:04:38.30,0:04:41.32,*Default,NTP,0000,0000,0000,,something just like this on your own.
+Dialogue: 0,0:04:41.32,0:04:44.91,*Default,NTP,0000,0000,0000,,And that is just amazing, right?
+Dialogue: 0,0:04:44.91,0:04:46.60,*Default,NTP,0000,0000,0000,,Now, besides all this,
+Dialogue: 0,0:04:46.60,0:04:49.29,*Default,NTP,0000,0000,0000,,there are also many coding challenges
+Dialogue: 0,0:04:49.29,0:04:51.28,*Default,NTP,0000,0000,0000,,and also other opportunities
+Dialogue: 0,0:04:51.28,0:04:55.90,*Default,NTP,0000,0000,0000,,for you to practice the HTML and CSS skills
+Dialogue: 0,0:04:55.90,0:05:00.18,*Default,NTP,0000,0000,0000,,that you keep acquiring over the course of this course
+Dialogue: 0,0:05:00.18,0:05:02.69,*Default,NTP,0000,0000,0000,,because practicing is actually
+Dialogue: 0,0:05:02.69,0:05:05.46,*Default,NTP,0000,0000,0000,,the single most important thing
+Dialogue: 0,0:05:05.46,0:05:09.27,*Default,NTP,0000,0000,0000,,that you really need to do in order to learn coding.
+Dialogue: 0,0:05:10.53,0:05:14.62,*Default,NTP,0000,0000,0000,,All right, so I hope that you're gonna have a ton of fun
+Dialogue: 0,0:05:14.62,0:05:17.16,*Default,NTP,0000,0000,0000,,with this course now that you'll become
+Dialogue: 0,0:05:17.16,0:05:19.60,*Default,NTP,0000,0000,0000,,ready to build your own websites
+Dialogue: 0,0:05:19.60,0:05:22.70,*Default,NTP,0000,0000,0000,,and that you will have a successful start
+Dialogue: 0,0:05:22.70,0:05:25.39,*Default,NTP,0000,0000,0000,,into your web development career.
+Dialogue: 0,0:05:25.39,0:05:27.12,*Default,NTP,0000,0000,0000,,And with that being said,
+Dialogue: 0,0:05:27.12,0:05:29.35,*Default,NTP,0000,0000,0000,,let's now finally get started.
+Dialogue: 0,0:05:29.35,0:05:31.94,*Default,NTP,0000,0000,0000,,(upbeat music)

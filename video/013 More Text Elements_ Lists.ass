@@ -1,0 +1,412 @@
+[Script Info]
+Title: 013 More Text Elements_ Lists_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=11&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.77,0:00:04.25,*Default,NTP,0000,0000,0000,,让我们继续处理文本。
+Dialogue: 0,0:00:04.25,0:00:07.40,*Default,NTP,0000,0000,0000,,在本次讲座中，我们将学习如何创建列表
+Dialogue: 0,0:00:07.40,0:00:10.74,*Default,NTP,0000,0000,0000,,带有要点和数字。
+Dialogue: 0,0:00:12.23,0:00:15.33,*Default,NTP,0000,0000,0000,,我所说的列表基本上是
+Dialogue: 0,0:00:15.33,0:00:18.93,*Default,NTP,0000,0000,0000,,就像我们在这里的项目符号列表一样，
+Dialogue: 0,0:00:18.93,0:00:22.30,*Default,NTP,0000,0000,0000,,也像一个带数字的有序列表，
+Dialogue: 0,0:00:22.30,0:00:27.02,*Default,NTP,0000,0000,0000,,就像这里有 1、2、3 个有序元素。
+Dialogue: 0,0:00:27.02,0:00:30.60,*Default,NTP,0000,0000,0000,,好的。所以这在 HTML 中很容易做到。
+Dialogue: 0,0:00:30.60,0:00:32.83,*Default,NTP,0000,0000,0000,,那么让我们看看如何。
+Dialogue: 0,0:00:32.83,0:00:37.63,*Default,NTP,0000,0000,0000,,所以从编号列表开始，这里是这个，
+Dialogue: 0,0:00:37.63,0:00:42.36,*Default,NTP,0000,0000,0000,,它在我们文本这一部分的末尾。
+Dialogue: 0,0:00:42.36,0:00:44.66,*Default,NTP,0000,0000,0000,,所以在什么是 HTML 部分。
+Dialogue: 0,0:00:45.89,0:00:49.52,*Default,NTP,0000,0000,0000,,所以我们有这个段落，然后我们有这个段落，
+Dialogue: 0,0:00:49.52,0:00:52.02,*Default,NTP,0000,0000,0000,,然后我们实际上还有另一段
+Dialogue: 0,0:00:52.02,0:00:53.90,*Default,NTP,0000,0000,0000,,我们错过了。
+Dialogue: 0,0:00:53.90,0:00:55.80,*Default,NTP,0000,0000,0000,,在那之后，我们有了清单。
+Dialogue: 0,0:00:56.70,0:00:59.52,*Default,NTP,0000,0000,0000,,因此，让我们获取所有这些内容。
+Dialogue: 0,0:01:00.56,0:01:02.78,*Default,NTP,0000,0000,0000,,这是三个列表项，
+Dialogue: 0,0:01:02.78,0:01:04.48,*Default,NTP,0000,0000,0000,,这就是缺失的段落。
+Dialogue: 0,0:01:06.77,0:01:08.31,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:08.31,0:01:10.57,*Default,NTP,0000,0000,0000,,只需将所有内容粘贴到此处即可。
+Dialogue: 0,0:01:11.82,0:01:16.68,*Default,NTP,0000,0000,0000,,现在我将简单地将这个元素包装在 p 中。
+Dialogue: 0,0:01:21.14,0:01:23.16,*Default,NTP,0000,0000,0000,,所以我们有这个段落。
+Dialogue: 0,0:01:24.10,0:01:27.36,*Default,NTP,0000,0000,0000,,所以我们这里的一切结构都很好，
+Dialogue: 0,0:01:27.36,0:01:29.65,*Default,NTP,0000,0000,0000,,现在让我们开始列表。
+Dialogue: 0,0:01:30.76,0:01:34.35,*Default,NTP,0000,0000,0000,,所以开始一个有序列表的元素，
+Dialogue: 0,0:01:34.35,0:01:37.65,*Default,NTP,0000,0000,0000,,这就是所谓的带有数字的列表，
+Dialogue: 0,0:01:37.65,0:01:40.50,*Default,NTP,0000,0000,0000,,我们使用 ol 元素。
+Dialogue: 0,0:01:40.50,0:01:42.05,*Default,NTP,0000,0000,0000,,所以像这样。
+Dialogue: 0,0:01:42.05,0:01:46.20,*Default,NTP,0000,0000,0000,,所以 ol 代表有序列表。
+Dialogue: 0,0:01:46.20,0:01:47.88,*Default,NTP,0000,0000,0000,,我们打开它，当然，
+Dialogue: 0,0:01:47.88,0:01:50.09,*Default,NTP,0000,0000,0000,,我们还需要关闭元素。
+Dialogue: 0,0:01:51.91,0:01:53.19,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:53.19,0:01:56.36,*Default,NTP,0000,0000,0000,,现在让我们在这里给我们一些空间，因为实际上
+Dialogue: 0,0:01:56.36,0:01:59.63,*Default,NTP,0000,0000,0000,,对于列表中的每个元素，
+Dialogue: 0,0:01:59.63,0:02:04.20,*Default,NTP,0000,0000,0000,,我们需要在有序列表中创建一个元素。
+Dialogue: 0,0:02:04.20,0:02:07.83,*Default,NTP,0000,0000,0000,,因此，我们使用 li 元素，
+Dialogue: 0,0:02:07.83,0:02:09.71,*Default,NTP,0000,0000,0000,,代表列表项。
+Dialogue: 0,0:02:10.79,0:02:12.73,*Default,NTP,0000,0000,0000,,所以列出项目，
+Dialogue: 0,0:02:12.73,0:02:13.92,*Default,NTP,0000,0000,0000,,打开它，
+Dialogue: 0,0:02:13.92,0:02:15.93,*Default,NTP,0000,0000,0000,,并关闭它，
+Dialogue: 0,0:02:16.77,0:02:19.50,*Default,NTP,0000,0000,0000,,然后让我们抓取这个内容。
+Dialogue: 0,0:02:19.50,0:02:22.96,*Default,NTP,0000,0000,0000,,所以开始标签，让我们实际剪掉它。
+Dialogue: 0,0:02:24.76,0:02:25.88,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:25.88,0:02:28.40,*Default,NTP,0000,0000,0000,,那我也要剪这两个
+Dialogue: 0,0:02:28.40,0:02:30.08,*Default,NTP,0000,0000,0000,,并将它们粘贴在这里。
+Dialogue: 0,0:02:31.03,0:02:36.03,*Default,NTP,0000,0000,0000,,然后简单地将它包装在更多的 li 元素中。
+Dialogue: 0,0:02:36.89,0:02:40.78,*Default,NTP,0000,0000,0000,,再说一次，li 代表列表项，
+Dialogue: 0,0:02:43.74,0:02:46.60,*Default,NTP,0000,0000,0000,,而 ol 代表有序列表。
+Dialogue: 0,0:02:46.60,0:02:50.42,*Default,NTP,0000,0000,0000,,在这里，我使用 tab 键给它一些缩进
+Dialogue: 0,0:02:50.42,0:02:55.37,*Default,NTP,0000,0000,0000,,只是为了让它们在视觉上都作为子元素对齐
+Dialogue: 0,0:02:55.37,0:02:56.76,*Default,NTP,0000,0000,0000,,的有序列表。
+Dialogue: 0,0:02:59.32,0:03:02.41,*Default,NTP,0000,0000,0000,,所以也许你注意到我是如何使用这些术语的
+Dialogue: 0,0:03:02.41,0:03:05.13,*Default,NTP,0000,0000,0000,,子元素和父元素。
+Dialogue: 0,0:03:05.13,0:03:08.20,*Default,NTP,0000,0000,0000,,因此，每当我们在另一个元素中包含一个元素时，
+Dialogue: 0,0:03:09.24,0:03:12.94,*Default,NTP,0000,0000,0000,,基本上另一个元素的容器是父元素。
+Dialogue: 0,0:03:12.94,0:03:15.23,*Default,NTP,0000,0000,0000,,所以在这种情况下，这就是有序列表。
+Dialogue: 0,0:03:15.23,0:03:18.54,*Default,NTP,0000,0000,0000,,然后是父级内部的元素
+Dialogue: 0,0:03:18.54,0:03:20.23,*Default,NTP,0000,0000,0000,,是子元素。
+Dialogue: 0,0:03:21.84,0:03:26.17,*Default,NTP,0000,0000,0000,,好吧，但让我们回到这里重新加载它。
+Dialogue: 0,0:03:26.17,0:03:30.51,*Default,NTP,0000,0000,0000,,确实有我们的有序列表。
+Dialogue: 0,0:03:30.51,0:03:31.71,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:31.71,0:03:34.85,*Default,NTP,0000,0000,0000,,所以谷歌Chrome浏览器理解我们的代码
+Dialogue: 0,0:03:34.85,0:03:36.95,*Default,NTP,0000,0000,0000,,并且知道它应该渲染它
+Dialogue: 0,0:03:36.95,0:03:39.56,*Default,NTP,0000,0000,0000,,作为有序数字的列表。
+Dialogue: 0,0:03:39.56,0:03:41.23,*Default,NTP,0000,0000,0000,,所以1、2、3。
+Dialogue: 0,0:03:41.23,0:03:44.40,*Default,NTP,0000,0000,0000,,当然，它会自动应用这些数字
+Dialogue: 0,0:03:44.40,0:03:46.91,*Default,NTP,0000,0000,0000,,无需我们做任何事情。
+Dialogue: 0,0:03:46.91,0:03:49.33,*Default,NTP,0000,0000,0000,,如果我们添加另一个元素，
+Dialogue: 0,0:03:49.33,0:03:52.40,*Default,NTP,0000,0000,0000,,假设我们甚至会在开头添加它，
+Dialogue: 0,0:03:52.40,0:03:54.81,*Default,NTP,0000,0000,0000,,那将成为第一个元素.
+Dialogue: 0,0:03:55.75,0:03:56.59,*Default,NTP,0000,0000,0000,,哦对不起。
+Dialogue: 0,0:04:00.10,0:04:02.97,*Default,NTP,0000,0000,0000,,那么，正如我所说，
+Dialogue: 0,0:04:02.97,0:04:04.50,*Default,NTP,0000,0000,0000,,成为第一个元素。
+Dialogue: 0,0:04:09.81,0:04:12.15,*Default,NTP,0000,0000,0000,,事实上，现在我们有四个
+Dialogue: 0,0:04:12.15,0:04:13.55,*Default,NTP,0000,0000,0000,,这是第一个，
+Dialogue: 0,0:04:14.47,0:04:17.31,*Default,NTP,0000,0000,0000,,但是这个我们不想要，让我们摆脱它。
+Dialogue: 0,0:04:18.26,0:04:19.88,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:04:19.88,0:04:22.04,*Default,NTP,0000,0000,0000,,这就是清单之一。
+Dialogue: 0,0:04:23.84,0:04:26.90,*Default,NTP,0000,0000,0000,,然后另一个是这里的这个，
+Dialogue: 0,0:04:26.90,0:04:29.84,*Default,NTP,0000,0000,0000,,为什么要学习 HTML 部分。
+Dialogue: 0,0:04:29.84,0:04:33.46,*Default,NTP,0000,0000,0000,,再说一次，这里还有一些其他的内容，
+Dialogue: 0,0:04:33.46,0:04:35.77,*Default,NTP,0000,0000,0000,,所以让我们继续抓住这一切
+Dialogue: 0,0:04:36.81,0:04:38.46,*Default,NTP,0000,0000,0000,,从这里的内容文件。
+Dialogue: 0,0:04:39.67,0:04:42.08,*Default,NTP,0000,0000,0000,,所以这是标题，
+Dialogue: 0,0:04:42.08,0:04:43.50,*Default,NTP,0000,0000,0000,,现在我们需要所有这些。
+Dialogue: 0,0:04:45.19,0:04:46.57,*Default,NTP,0000,0000,0000,,复制和粘贴。
+Dialogue: 0,0:04:50.90,0:04:52.92,*Default,NTP,0000,0000,0000,,所以再一次，
+Dialogue: 0,0:04:52.92,0:04:55.45,*Default,NTP,0000,0000,0000,,我将从将这些包装成段落开始。
+Dialogue: 0,0:04:56.74,0:04:59.89,*Default,NTP,0000,0000,0000,,所以也许你开始看到
+Dialogue: 0,0:04:59.89,0:05:03.32,*Default,NTP,0000,0000,0000,,我们真的在创造一个漂亮整洁的结构
+Dialogue: 0,0:05:03.32,0:05:06.85,*Default,NTP,0000,0000,0000,,其中每条内容都在某个元素内。
+Dialogue: 0,0:05:09.29,0:05:12.31,*Default,NTP,0000,0000,0000,,所以我们没有任何文字漂浮在周围
+Dialogue: 0,0:05:12.31,0:05:17.08,*Default,NTP,0000,0000,0000,,只是在身体内部而不是在一个元素中，对吧？
+Dialogue: 0,0:05:17.08,0:05:21.12,*Default,NTP,0000,0000,0000,,我们总是在创造一个很好的结构，其中每个元素
+Dialogue: 0,0:05:21.12,0:05:22.92,*Default,NTP,0000,0000,0000,,具有一定的意义。
+Dialogue: 0,0:05:22.92,0:05:26.17,*Default,NTP,0000,0000,0000,,例如，所有这些当然都是段落，
+Dialogue: 0,0:05:26.17,0:05:28.16,*Default,NTP,0000,0000,0000,,这就是我们使用 p 元素的原因。
+Dialogue: 0,0:05:29.32,0:05:32.01,*Default,NTP,0000,0000,0000,,而这里的这段内容是一个列表
+Dialogue: 0,0:05:32.01,0:05:34.71,*Default,NTP,0000,0000,0000,,这就是我们使用有序列表元素的原因。
+Dialogue: 0,0:05:35.57,0:05:38.39,*Default,NTP,0000,0000,0000,,所以这本质上是为了赋予一些意义
+Dialogue: 0,0:05:38.39,0:05:42.29,*Default,NTP,0000,0000,0000,,内容并以合乎逻辑的方式对其进行结构化。
+Dialogue: 0,0:05:42.29,0:05:45.87,*Default,NTP,0000,0000,0000,,所以这允许网络浏览器显示它
+Dialogue: 0,0:05:45.87,0:05:48.07,*Default,NTP,0000,0000,0000,,以一种有意义的方式。
+Dialogue: 0,0:05:48.07,0:05:50.95,*Default,NTP,0000,0000,0000,,但无论如何，现在我们这里有这个内容，
+Dialogue: 0,0:05:50.95,0:05:53.55,*Default,NTP,0000,0000,0000,,你想要在这种列表中，
+Dialogue: 0,0:05:53.55,0:05:55.80,*Default,NTP,0000,0000,0000,,就像这里的要点一样。
+Dialogue: 0,0:05:55.80,0:06:00.80,*Default,NTP,0000,0000,0000,,所以我们使用的元素是 ul。
+Dialogue: 0,0:06:00.83,0:06:05.33,*Default,NTP,0000,0000,0000,,ul，也许你可以猜到，代表无序列表。
+Dialogue: 0,0:06:06.31,0:06:09.81,*Default,NTP,0000,0000,0000,,好吧，让我们在这里关闭它，
+Dialogue: 0,0:06:12.70,0:06:13.53,*Default,NTP,0000,0000,0000,,ul。
+Dialogue: 0,0:06:14.50,0:06:19.38,*Default,NTP,0000,0000,0000,,所以一个带有数字的有序列表是 ol，
+Dialogue: 0,0:06:19.38,0:06:21.06,*Default,NTP,0000,0000,0000,,和一个没有数字的，
+Dialogue: 0,0:06:21.06,0:06:24.10,*Default,NTP,0000,0000,0000,,我们说它是无序的，因为顺序
+Dialogue: 0,0:06:24.10,0:06:26.61,*Default,NTP,0000,0000,0000,,元素无关紧要，
+Dialogue: 0,0:06:26.61,0:06:31.56,*Default,NTP,0000,0000,0000,,所以这被称为 ul，它代表无序列表。
+Dialogue: 0,0:06:31.56,0:06:34.23,*Default,NTP,0000,0000,0000,,但是在列表本身的内部，
+Dialogue: 0,0:06:34.23,0:06:36.78,*Default,NTP,0000,0000,0000,,我们仍然必须使用 li 元素
+Dialogue: 0,0:06:36.78,0:06:39.05,*Default,NTP,0000,0000,0000,,对于个别项目。
+Dialogue: 0,0:06:39.05,0:06:42.08,*Default,NTP,0000,0000,0000,,所以就像以前一样，我们需要包装所有
+Dialogue: 0,0:06:42.08,0:06:46.60,*Default,NTP,0000,0000,0000,,将这些不同的内容组成一个 li 元素。
+Dialogue: 0,0:06:46.60,0:06:48.71,*Default,NTP,0000,0000,0000,,所以我们之前已经这样做了，
+Dialogue: 0,0:06:48.71,0:06:51.04,*Default,NTP,0000,0000,0000,,所以我相信你知道该怎么做。
+Dialogue: 0,0:06:51.04,0:06:53.67,*Default,NTP,0000,0000,0000,,也许你看到了它的到来
+Dialogue: 0,0:06:53.67,0:06:57.53,*Default,NTP,0000,0000,0000,,对您来说是另一个非常小的编码挑战。
+Dialogue: 0,0:06:57.53,0:07:02.02,*Default,NTP,0000,0000,0000,,所以现在暂停视频并做同样的事情
+Dialogue: 0,0:07:02.02,0:07:03.40,*Default,NTP,0000,0000,0000,,我们在这里做的。
+Dialogue: 0,0:07:03.40,0:07:08.40,*Default,NTP,0000,0000,0000,,因此，将这些项目中的每一个都包装在一个实际的 li 元素中。
+Dialogue: 0,0:07:08.53,0:07:11.67,*Default,NTP,0000,0000,0000,,像这样，你可以继续练习写作
+Dialogue: 0,0:07:11.67,0:07:13.31,*Default,NTP,0000,0000,0000,,你自己的一些HTML。
+Dialogue: 0,0:07:15.95,0:07:20.06,*Default,NTP,0000,0000,0000,,好的。所以我希望这是一个简单的挑战。
+Dialogue: 0,0:07:20.06,0:07:23.16,*Default,NTP,0000,0000,0000,,所以让我们在这里快速完成。
+Dialogue: 0,0:07:26.95,0:07:27.90,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:30.51,0:07:33.39,*Default,NTP,0000,0000,0000,,所以这里的这个实际上有多行。
+Dialogue: 0,0:07:33.39,0:07:35.07,*Default,NTP,0000,0000,0000,,所以到此结束。
+Dialogue: 0,0:07:39.89,0:07:43.39,*Default,NTP,0000,0000,0000,,而且你看到这里的格式是完全错误的，
+Dialogue: 0,0:07:43.39,0:07:46.46,*Default,NTP,0000,0000,0000,,但我不担心，因为为此，
+Dialogue: 0,0:07:46.46,0:07:51.29,*Default,NTP,0000,0000,0000,,我们有 Prettier 的辅助工具，对吧？
+Dialogue: 0,0:07:51.29,0:07:55.19,*Default,NTP,0000,0000,0000,,所以 Prettier 照顾f 我们所有的格式，
+Dialogue: 0,0:07:55.19,0:07:58.55,*Default,NTP,0000,0000,0000,,但希望你看到没有这种格式，
+Dialogue: 0,0:07:58.55,0:08:01.71,*Default,NTP,0000,0000,0000,,这看起来一团糟，对吧？
+Dialogue: 0,0:08:01.71,0:08:03.33,*Default,NTP,0000,0000,0000,,这很难理解。
+Dialogue: 0,0:08:04.25,0:08:07.75,*Default,NTP,0000,0000,0000,,所以比如说这里的这个元素不是子元素
+Dialogue: 0,0:08:07.75,0:08:10.96,*Default,NTP,0000,0000,0000,,p，所以这里应该对齐。
+Dialogue: 0,0:08:10.96,0:08:13.08,*Default,NTP,0000,0000,0000,,当然，我们可以手动完成，
+Dialogue: 0,0:08:13.08,0:08:16.35,*Default,NTP,0000,0000,0000,,只需删除这个空间，
+Dialogue: 0,0:08:16.35,0:08:18.89,*Default,NTP,0000,0000,0000,,但我们也可以把它留给 Prettier
+Dialogue: 0,0:08:18.89,0:08:20.48,*Default,NTP,0000,0000,0000,,一旦我们保存文件。
+Dialogue: 0,0:08:22.13,0:08:22.96,*Default,NTP,0000,0000,0000,,对不起。
+Dialogue: 0,0:08:26.17,0:08:29.92,*Default,NTP,0000,0000,0000,,在这里，我错过了结束斜线。
+Dialogue: 0,0:08:29.92,0:08:33.93,*Default,NTP,0000,0000,0000,,现在，正如我所说，当我保存文件时，
+Dialogue: 0,0:08:33.93,0:08:36.67,*Default,NTP,0000,0000,0000,,然后 Prettier 施展魔法
+Dialogue: 0,0:08:36.67,0:08:40.81,*Default,NTP,0000,0000,0000,,并且在这里很好地格式化了我们的元素。
+Dialogue: 0,0:08:40.81,0:08:45.81,*Default,NTP,0000,0000,0000,,由于某种原因，现在我们这里也有这个空段落，
+Dialogue: 0,0:08:46.15,0:08:49.31,*Default,NTP,0000,0000,0000,,所以也许我之前在这里犯了一些错误，
+Dialogue: 0,0:08:50.43,0:08:53.98,*Default,NTP,0000,0000,0000,,所以让我们删除它并再次保存它。
+Dialogue: 0,0:08:53.98,0:08:58.98,*Default,NTP,0000,0000,0000,,现在，当我们来到我们的页面时，确实，
+Dialogue: 0,0:08:59.17,0:09:02.85,*Default,NTP,0000,0000,0000,,我们在这里有我们漂亮的无序列表。
+Dialogue: 0,0:09:02.85,0:09:04.15,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:09:04.15,0:09:09.15,*Default,NTP,0000,0000,0000,,所以创建列表是编写 HTML 的另一个重要部分。
+Dialogue: 0,0:09:09.28,0:09:11.06,*Default,NTP,0000,0000,0000,,我们一直在使用它。
+Dialogue: 0,0:09:11.06,0:09:14.14,*Default,NTP,0000,0000,0000,,所以我希望你在这次讲座中玩得开心
+Dialogue: 0,0:09:14.14,0:09:17.36,*Default,NTP,0000,0000,0000,,因为这是一件非常重要的事情。
+Dialogue: 0,0:09:17.36,0:09:18.92,*Default,NTP,0000,0000,0000,,所以在你继续之前，
+Dialogue: 0,0:09:18.92,0:09:22.51,*Default,NTP,0000,0000,0000,,请务必查看我们刚刚在这里所做的事情。
+Dialogue: 0,0:09:22.51,0:09:24.67,*Default,NTP,0000,0000,0000,,也想了一些
+Dialogue: 0,0:09:24.67,0:09:26.54,*Default,NTP,0000,0000,0000,,我之前说的那些，
+Dialogue: 0,0:09:26.54,0:09:30.56,*Default,NTP,0000,0000,0000,,比如每个元素都有不同的含义，
+Dialogue: 0,0:09:30.56,0:09:34.10,*Default,NTP,0000,0000,0000,,而且我们需要使用这些元素
+Dialogue: 0,0:09:34.10,0:09:36.42,*Default,NTP,0000,0000,0000,,构建我们的内容。
+Dialogue: 0,0:09:36.42,0:09:39.92,*Default,NTP,0000,0000,0000,,所以我们不能简单地把我们所有的文字都转储到这里
+Dialogue: 0,0:09:39.92,0:09:42.82,*Default,NTP,0000,0000,0000,,进入正文并收工。
+Dialogue: 0,0:09:43.68,0:09:44.80,*Default,NTP,0000,0000,0000,,如果我们这样做了，
+Dialogue: 0,0:09:44.80,0:09:47.83,*Default,NTP,0000,0000,0000,,根本没有结构和逻辑。
+Dialogue: 0,0:09:49.14,0:09:52.61,*Default,NTP,0000,0000,0000,,所以我只是在这里删除了一些空白段落。
+Dialogue: 0,0:09:52.61,0:09:54.54,*Default,NTP,0000,0000,0000,,我只是想告诉你会发生什么
+Dialogue: 0,0:09:54.54,0:09:56.53,*Default,NTP,0000,0000,0000,,如果我选择所有这些。
+Dialogue: 0,0:09:56.53,0:09:59.95,*Default,NTP,0000,0000,0000,,所以基本上在这里复制粘贴。
+Dialogue: 0,0:09:59.95,0:10:03.44,*Default,NTP,0000,0000,0000,,所以如果我把它贴在这里。
+Dialogue: 0,0:10:03.44,0:10:06.03,*Default,NTP,0000,0000,0000,,所以给它一个保存，
+Dialogue: 0,0:10:07.15,0:10:11.51,*Default,NTP,0000,0000,0000,,好吧，你看到它现在都是一大块文本
+Dialogue: 0,0:10:11.51,0:10:15.54,*Default,NTP,0000,0000,0000,,而 HTML 并不真正关心任何空白。
+Dialogue: 0,0:10:15.54,0:10:18.05,*Default,NTP,0000,0000,0000,,所以这里的任何换行符，
+Dialogue: 0,0:10:18.05,0:10:20.56,*Default,NTP,0000,0000,0000,,它们都与 HTML 无关。
+Dialogue: 0,0:10:20.56,0:10:23.30,*Default,NTP,0000,0000,0000,,所以如果我们尝试加载这个，
+Dialogue: 0,0:10:23.30,0:10:27.40,*Default,NTP,0000,0000,0000,,你看（笑）根本没有结构。
+Dialogue: 0,0:10:27.40,0:10:32.09,*Default,NTP,0000,0000,0000,,所以一切都只是一大行文字，是的，
+Dialogue: 0,0:10:32.09,0:10:34.80,*Default,NTP,0000,0000,0000,,就是这样，没有结构，没有意义。
+Dialogue: 0,0:10:35.87,0:10:38.03,*Default,NTP,0000,0000,0000,,基本上什么都没有。
+Dialogue: 0,0:10:38.03,0:10:41.84,*Default,NTP,0000,0000,0000,,所以我希望这个小例子能告诉你
+Dialogue: 0,0:10:41.84,0:10:46.20,*Default,NTP,0000,0000,0000,,基本上包裹所有部分的重要性
+Dialogue: 0,0:10:46.20,0:10:49.07,*Default,NTP,0000,0000,0000,,元素内部的内容
+Dialogue: 0,0:10:49.07,0:10:52.94,*Default,NTP,0000,0000,0000,,这实际上赋予了该内容一些意义，好吗？
+Dialogue: 0,0:10:52.94,0:10:54.91,*Default,NTP,0000,0000,0000,,但这样一来，我就要离开你了
+Dialogue: 0,0:10:54.91,0:10:57.48,*Default,NTP,0000,0000,0000,,我很快就会在下一个视频中见到你。
+Dialogue: 0,0:00:01.77,0:00:04.25,*Default,NTP,0000,0000,0000,,Let's keep working with text.
+Dialogue: 0,0:00:04.25,0:00:07.40,*Default,NTP,0000,0000,0000,,And in this lecture, we will learn how to create lists
+Dialogue: 0,0:00:07.40,0:00:10.74,*Default,NTP,0000,0000,0000,,with bullet points and also with numbers.
+Dialogue: 0,0:00:12.23,0:00:15.33,*Default,NTP,0000,0000,0000,,And what I mean by list is basically
+Dialogue: 0,0:00:15.33,0:00:18.93,*Default,NTP,0000,0000,0000,,like a list of bullet points, like we have here,
+Dialogue: 0,0:00:18.93,0:00:22.30,*Default,NTP,0000,0000,0000,,and also like an ordered list with numbers,
+Dialogue: 0,0:00:22.30,0:00:27.02,*Default,NTP,0000,0000,0000,,like here with 1, 2, 3 ordered elements.
+Dialogue: 0,0:00:27.02,0:00:30.60,*Default,NTP,0000,0000,0000,,All right. So that is very easy to do in HTML.
+Dialogue: 0,0:00:30.60,0:00:32.83,*Default,NTP,0000,0000,0000,,So let's see how.
+Dialogue: 0,0:00:32.83,0:00:37.63,*Default,NTP,0000,0000,0000,,So starting with the numbered list, so this one here,
+Dialogue: 0,0:00:37.63,0:00:42.36,*Default,NTP,0000,0000,0000,,it is here at the end of this section of our text.
+Dialogue: 0,0:00:42.36,0:00:44.66,*Default,NTP,0000,0000,0000,,So in the What is HTML part.
+Dialogue: 0,0:00:45.89,0:00:49.52,*Default,NTP,0000,0000,0000,,So we have this paragraph, then we have this paragraph,
+Dialogue: 0,0:00:49.52,0:00:52.02,*Default,NTP,0000,0000,0000,,and then we actually have another paragraph there
+Dialogue: 0,0:00:52.02,0:00:53.90,*Default,NTP,0000,0000,0000,,that we missed.
+Dialogue: 0,0:00:53.90,0:00:55.80,*Default,NTP,0000,0000,0000,,And then after that, we have the list.
+Dialogue: 0,0:00:56.70,0:00:59.52,*Default,NTP,0000,0000,0000,,So let's get all of this content.
+Dialogue: 0,0:01:00.56,0:01:02.78,*Default,NTP,0000,0000,0000,,So these are the three list items,
+Dialogue: 0,0:01:02.78,0:01:04.48,*Default,NTP,0000,0000,0000,,and that is the missing paragraph.
+Dialogue: 0,0:01:06.77,0:01:08.31,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:01:08.31,0:01:10.57,*Default,NTP,0000,0000,0000,,Just paste all of that here.
+Dialogue: 0,0:01:11.82,0:01:16.68,*Default,NTP,0000,0000,0000,,And now I will simply wrap this element inside of a p.
+Dialogue: 0,0:01:21.14,0:01:23.16,*Default,NTP,0000,0000,0000,,And so there we have the paragraph.
+Dialogue: 0,0:01:24.10,0:01:27.36,*Default,NTP,0000,0000,0000,,So we have everything nicely structured here,
+Dialogue: 0,0:01:27.36,0:01:29.65,*Default,NTP,0000,0000,0000,,and now let's start the list.
+Dialogue: 0,0:01:30.76,0:01:34.35,*Default,NTP,0000,0000,0000,,So the element to start a ordered list,
+Dialogue: 0,0:01:34.35,0:01:37.65,*Default,NTP,0000,0000,0000,,which is what a list with numbers is called,
+Dialogue: 0,0:01:37.65,0:01:40.50,*Default,NTP,0000,0000,0000,,we use the ol element.
+Dialogue: 0,0:01:40.50,0:01:42.05,*Default,NTP,0000,0000,0000,,So like this.
+Dialogue: 0,0:01:42.05,0:01:46.20,*Default,NTP,0000,0000,0000,,And so ol stands for ordered list.
+Dialogue: 0,0:01:46.20,0:01:47.88,*Default,NTP,0000,0000,0000,,And we open it, so of course,
+Dialogue: 0,0:01:47.88,0:01:50.09,*Default,NTP,0000,0000,0000,,we also need to close the element.
+Dialogue: 0,0:01:51.91,0:01:53.19,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:01:53.19,0:01:56.36,*Default,NTP,0000,0000,0000,,Now let's give us some space here because actually
+Dialogue: 0,0:01:56.36,0:01:59.63,*Default,NTP,0000,0000,0000,,for each of the elements of the list,
+Dialogue: 0,0:01:59.63,0:02:04.20,*Default,NTP,0000,0000,0000,,we need to create an element inside of the ordered list.
+Dialogue: 0,0:02:04.20,0:02:07.83,*Default,NTP,0000,0000,0000,,And so for that, we use the li element,
+Dialogue: 0,0:02:07.83,0:02:09.71,*Default,NTP,0000,0000,0000,,which stands for list item.
+Dialogue: 0,0:02:10.79,0:02:12.73,*Default,NTP,0000,0000,0000,,So list item,
+Dialogue: 0,0:02:12.73,0:02:13.92,*Default,NTP,0000,0000,0000,,open it,
+Dialogue: 0,0:02:13.92,0:02:15.93,*Default,NTP,0000,0000,0000,,and close it,
+Dialogue: 0,0:02:16.77,0:02:19.50,*Default,NTP,0000,0000,0000,,and then let's grab this content.
+Dialogue: 0,0:02:19.50,0:02:22.96,*Default,NTP,0000,0000,0000,,So the opening tag, let's cut it actually.
+Dialogue: 0,0:02:24.76,0:02:25.88,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:02:25.88,0:02:28.40,*Default,NTP,0000,0000,0000,,Then I'm going to cut these two as well
+Dialogue: 0,0:02:28.40,0:02:30.08,*Default,NTP,0000,0000,0000,,and paste them down here.
+Dialogue: 0,0:02:31.03,0:02:36.03,*Default,NTP,0000,0000,0000,,And then simply wrap it inside some more li elements.
+Dialogue: 0,0:02:36.89,0:02:40.78,*Default,NTP,0000,0000,0000,,So again, li stands for list item,
+Dialogue: 0,0:02:43.74,0:02:46.60,*Default,NTP,0000,0000,0000,,while ol stands for ordered list.
+Dialogue: 0,0:02:46.60,0:02:50.42,*Default,NTP,0000,0000,0000,,Here, I'm giving it some indentation using the tab key
+Dialogue: 0,0:02:50.42,0:02:55.37,*Default,NTP,0000,0000,0000,,just so that they are visually all aligned as child elements
+Dialogue: 0,0:02:55.37,0:02:56.76,*Default,NTP,0000,0000,0000,,of the ordered list.
+Dialogue: 0,0:02:59.32,0:03:02.41,*Default,NTP,0000,0000,0000,,So maybe you noticed how I'm using the terms
+Dialogue: 0,0:03:02.41,0:03:05.13,*Default,NTP,0000,0000,0000,,child elements and parent elements.
+Dialogue: 0,0:03:05.13,0:03:08.20,*Default,NTP,0000,0000,0000,,So whenever we have an element inside of another,
+Dialogue: 0,0:03:09.24,0:03:12.94,*Default,NTP,0000,0000,0000,,basically the container of another element is the parent.
+Dialogue: 0,0:03:12.94,0:03:15.23,*Default,NTP,0000,0000,0000,,So in this case, that's the ordered list.
+Dialogue: 0,0:03:15.23,0:03:18.54,*Default,NTP,0000,0000,0000,,And then the elements that are inside the parent
+Dialogue: 0,0:03:18.54,0:03:20.23,*Default,NTP,0000,0000,0000,,are the child elements.
+Dialogue: 0,0:03:21.84,0:03:26.17,*Default,NTP,0000,0000,0000,,All right, but let's go back here and reload it.
+Dialogue: 0,0:03:26.17,0:03:30.51,*Default,NTP,0000,0000,0000,,And indeed there is our ordered list.
+Dialogue: 0,0:03:30.51,0:03:31.71,*Default,NTP,0000,0000,0000,,Nice.
+Dialogue: 0,0:03:31.71,0:03:34.85,*Default,NTP,0000,0000,0000,,So the Google Chrome browser understands our code
+Dialogue: 0,0:03:34.85,0:03:36.95,*Default,NTP,0000,0000,0000,,and knows that it should render it
+Dialogue: 0,0:03:36.95,0:03:39.56,*Default,NTP,0000,0000,0000,,as a list of ordered numbers.
+Dialogue: 0,0:03:39.56,0:03:41.23,*Default,NTP,0000,0000,0000,,So 1, 2, 3.
+Dialogue: 0,0:03:41.23,0:03:44.40,*Default,NTP,0000,0000,0000,,And of course, it then automatically applies these numbers
+Dialogue: 0,0:03:44.40,0:03:46.91,*Default,NTP,0000,0000,0000,,without us having to do anything.
+Dialogue: 0,0:03:46.91,0:03:49.33,*Default,NTP,0000,0000,0000,,And if we added another element,
+Dialogue: 0,0:03:49.33,0:03:52.40,*Default,NTP,0000,0000,0000,,let's say we would even add it here at the beginning,
+Dialogue: 0,0:03:52.40,0:03:54.81,*Default,NTP,0000,0000,0000,,that would then become the first element.
+Dialogue: 0,0:03:55.75,0:03:56.59,*Default,NTP,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:04:00.10,0:04:02.97,*Default,NTP,0000,0000,0000,,So that would then, as I was saying,
+Dialogue: 0,0:04:02.97,0:04:04.50,*Default,NTP,0000,0000,0000,,become the first element.
+Dialogue: 0,0:04:09.81,0:04:12.15,*Default,NTP,0000,0000,0000,,And indeed, now we have four of them
+Dialogue: 0,0:04:12.15,0:04:13.55,*Default,NTP,0000,0000,0000,,and this one is the first,
+Dialogue: 0,0:04:14.47,0:04:17.31,*Default,NTP,0000,0000,0000,,but this one we don't want, let's get rid of it.
+Dialogue: 0,0:04:18.26,0:04:19.88,*Default,NTP,0000,0000,0000,,Nice.
+Dialogue: 0,0:04:19.88,0:04:22.04,*Default,NTP,0000,0000,0000,,So that is one of the lists.
+Dialogue: 0,0:04:23.84,0:04:26.90,*Default,NTP,0000,0000,0000,,And then the other one is this one here in the,
+Dialogue: 0,0:04:26.90,0:04:29.84,*Default,NTP,0000,0000,0000,,Why should you learn HTML part.
+Dialogue: 0,0:04:29.84,0:04:33.46,*Default,NTP,0000,0000,0000,,And again, there is some other content here,
+Dialogue: 0,0:04:33.46,0:04:35.77,*Default,NTP,0000,0000,0000,,so let's go ahead and grab all of this
+Dialogue: 0,0:04:36.81,0:04:38.46,*Default,NTP,0000,0000,0000,,from this content file here.
+Dialogue: 0,0:04:39.67,0:04:42.08,*Default,NTP,0000,0000,0000,,So this is the heading,
+Dialogue: 0,0:04:42.08,0:04:43.50,*Default,NTP,0000,0000,0000,,and now we need all of this.
+Dialogue: 0,0:04:45.19,0:04:46.57,*Default,NTP,0000,0000,0000,,Copy and paste.
+Dialogue: 0,0:04:50.90,0:04:52.92,*Default,NTP,0000,0000,0000,,And so once again,
+Dialogue: 0,0:04:52.92,0:04:55.45,*Default,NTP,0000,0000,0000,,I will start by wrapping these into paragraphs.
+Dialogue: 0,0:04:56.74,0:04:59.89,*Default,NTP,0000,0000,0000,,And so maybe you are starting to see
+Dialogue: 0,0:04:59.89,0:05:03.32,*Default,NTP,0000,0000,0000,,that we are really creating a nice and tidy structure
+Dialogue: 0,0:05:03.32,0:05:06.85,*Default,NTP,0000,0000,0000,,where each piece of content is inside of some element.
+Dialogue: 0,0:05:09.29,0:05:12.31,*Default,NTP,0000,0000,0000,,So we don't have like any text floating around
+Dialogue: 0,0:05:12.31,0:05:17.08,*Default,NTP,0000,0000,0000,,just inside of the body without being in an element, right?
+Dialogue: 0,0:05:17.08,0:05:21.12,*Default,NTP,0000,0000,0000,,We always are creating a nice structure where each element
+Dialogue: 0,0:05:21.12,0:05:22.92,*Default,NTP,0000,0000,0000,,has a certain meaning.
+Dialogue: 0,0:05:22.92,0:05:26.17,*Default,NTP,0000,0000,0000,,So for example, all of these are of course paragraphs,
+Dialogue: 0,0:05:26.17,0:05:28.16,*Default,NTP,0000,0000,0000,,and that's why we use the p element.
+Dialogue: 0,0:05:29.32,0:05:32.01,*Default,NTP,0000,0000,0000,,And this piece of content here is a list
+Dialogue: 0,0:05:32.01,0:05:34.71,*Default,NTP,0000,0000,0000,,and that's why we use the ordered list element.
+Dialogue: 0,0:05:35.57,0:05:38.39,*Default,NTP,0000,0000,0000,,And so that is essentially to assign some meaning
+Dialogue: 0,0:05:38.39,0:05:42.29,*Default,NTP,0000,0000,0000,,to the content and to structure it in a logical way.
+Dialogue: 0,0:05:42.29,0:05:45.87,*Default,NTP,0000,0000,0000,,And so this then allows web browsers to display it
+Dialogue: 0,0:05:45.87,0:05:48.07,*Default,NTP,0000,0000,0000,,in a way that makes sense.
+Dialogue: 0,0:05:48.07,0:05:50.95,*Default,NTP,0000,0000,0000,,But anyway, now we have this content here,
+Dialogue: 0,0:05:50.95,0:05:53.55,*Default,NTP,0000,0000,0000,,which you want in this kind of list,
+Dialogue: 0,0:05:53.55,0:05:55.80,*Default,NTP,0000,0000,0000,,like bullet points here.
+Dialogue: 0,0:05:55.80,0:06:00.80,*Default,NTP,0000,0000,0000,,And so the element that we use for that is ul.
+Dialogue: 0,0:06:00.83,0:06:05.33,*Default,NTP,0000,0000,0000,,And ul, maybe you can guess, stands for unordered list.
+Dialogue: 0,0:06:06.31,0:06:09.81,*Default,NTP,0000,0000,0000,,All right, let's close it down here,
+Dialogue: 0,0:06:12.70,0:06:13.53,*Default,NTP,0000,0000,0000,,ul.
+Dialogue: 0,0:06:14.50,0:06:19.38,*Default,NTP,0000,0000,0000,,And so an ordered list with the numbers is ol,
+Dialogue: 0,0:06:19.38,0:06:21.06,*Default,NTP,0000,0000,0000,,and the one without numbers,
+Dialogue: 0,0:06:21.06,0:06:24.10,*Default,NTP,0000,0000,0000,,which we say is unordered because the order
+Dialogue: 0,0:06:24.10,0:06:26.61,*Default,NTP,0000,0000,0000,,of the elements does not matter,
+Dialogue: 0,0:06:26.61,0:06:31.56,*Default,NTP,0000,0000,0000,,so that is then called ul, which stands for unordered list.
+Dialogue: 0,0:06:31.56,0:06:34.23,*Default,NTP,0000,0000,0000,,But then inside of the list itself,
+Dialogue: 0,0:06:34.23,0:06:36.78,*Default,NTP,0000,0000,0000,,we still have to use the li element
+Dialogue: 0,0:06:36.78,0:06:39.05,*Default,NTP,0000,0000,0000,,for the individual items.
+Dialogue: 0,0:06:39.05,0:06:42.08,*Default,NTP,0000,0000,0000,,So just like before, we need to wrap all
+Dialogue: 0,0:06:42.08,0:06:46.60,*Default,NTP,0000,0000,0000,,of these different pieces of content into an li element.
+Dialogue: 0,0:06:46.60,0:06:48.71,*Default,NTP,0000,0000,0000,,So we already did that before,
+Dialogue: 0,0:06:48.71,0:06:51.04,*Default,NTP,0000,0000,0000,,so I'm sure you know how to do it.
+Dialogue: 0,0:06:51.04,0:06:53.67,*Default,NTP,0000,0000,0000,,And maybe you saw it coming that this
+Dialogue: 0,0:06:53.67,0:06:57.53,*Default,NTP,0000,0000,0000,,is another very small coding challenge for you.
+Dialogue: 0,0:06:57.53,0:07:02.02,*Default,NTP,0000,0000,0000,,So pause the video now and do exactly the same thing
+Dialogue: 0,0:07:02.02,0:07:03.40,*Default,NTP,0000,0000,0000,,that we did up here.
+Dialogue: 0,0:07:03.40,0:07:08.40,*Default,NTP,0000,0000,0000,,So wrap each of these items in an actual li element.
+Dialogue: 0,0:07:08.53,0:07:11.67,*Default,NTP,0000,0000,0000,,and so like this, you can keep practicing writing
+Dialogue: 0,0:07:11.67,0:07:13.31,*Default,NTP,0000,0000,0000,,some HTML on your own.
+Dialogue: 0,0:07:15.95,0:07:20.06,*Default,NTP,0000,0000,0000,,Okay. So I hope that was a simple challenge.
+Dialogue: 0,0:07:20.06,0:07:23.16,*Default,NTP,0000,0000,0000,,And so let's quickly do it here.
+Dialogue: 0,0:07:26.95,0:07:27.90,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:07:30.51,0:07:33.39,*Default,NTP,0000,0000,0000,,So this one here actually has multiple lines.
+Dialogue: 0,0:07:33.39,0:07:35.07,*Default,NTP,0000,0000,0000,,So it ends here.
+Dialogue: 0,0:07:39.89,0:07:43.39,*Default,NTP,0000,0000,0000,,And you see that the formatting here is completely wrong,
+Dialogue: 0,0:07:43.39,0:07:46.46,*Default,NTP,0000,0000,0000,,but I'm not worrying about that because for that,
+Dialogue: 0,0:07:46.46,0:07:51.29,*Default,NTP,0000,0000,0000,,we have the helper tool of Prettier, right?
+Dialogue: 0,0:07:51.29,0:07:55.19,*Default,NTP,0000,0000,0000,,So Prettier takes care of all our formatting,
+Dialogue: 0,0:07:55.19,0:07:58.55,*Default,NTP,0000,0000,0000,,but hopefully you see that without that formatting,
+Dialogue: 0,0:07:58.55,0:08:01.71,*Default,NTP,0000,0000,0000,,this looks like a complete mess, right?
+Dialogue: 0,0:08:01.71,0:08:03.33,*Default,NTP,0000,0000,0000,,It's very hard to understand.
+Dialogue: 0,0:08:04.25,0:08:07.75,*Default,NTP,0000,0000,0000,,So for example, this element here is not a child element
+Dialogue: 0,0:08:07.75,0:08:10.96,*Default,NTP,0000,0000,0000,,of p, so it should be aligned here.
+Dialogue: 0,0:08:10.96,0:08:13.08,*Default,NTP,0000,0000,0000,,And we could do that manually, of course,
+Dialogue: 0,0:08:13.08,0:08:16.35,*Default,NTP,0000,0000,0000,,simply by deleting this space,
+Dialogue: 0,0:08:16.35,0:08:18.89,*Default,NTP,0000,0000,0000,,but we can also just leave it to Prettier
+Dialogue: 0,0:08:18.89,0:08:20.48,*Default,NTP,0000,0000,0000,,once we save the file.
+Dialogue: 0,0:08:22.13,0:08:22.96,*Default,NTP,0000,0000,0000,,Sorry.
+Dialogue: 0,0:08:26.17,0:08:29.92,*Default,NTP,0000,0000,0000,,And here I'm missing the closing slash.
+Dialogue: 0,0:08:29.92,0:08:33.93,*Default,NTP,0000,0000,0000,,And now, as I was saying, as I save the file,
+Dialogue: 0,0:08:33.93,0:08:36.67,*Default,NTP,0000,0000,0000,,then Prettier does its magic
+Dialogue: 0,0:08:36.67,0:08:40.81,*Default,NTP,0000,0000,0000,,and nicely formatted here our elements.
+Dialogue: 0,0:08:40.81,0:08:45.81,*Default,NTP,0000,0000,0000,,Now we also have this empty paragraph here for some reason,
+Dialogue: 0,0:08:46.15,0:08:49.31,*Default,NTP,0000,0000,0000,,so maybe I did some mistake here earlier,
+Dialogue: 0,0:08:50.43,0:08:53.98,*Default,NTP,0000,0000,0000,,so let's just delete it and save it again.
+Dialogue: 0,0:08:53.98,0:08:58.98,*Default,NTP,0000,0000,0000,,And now as we come here to our page, then, indeed,
+Dialogue: 0,0:08:59.17,0:09:02.85,*Default,NTP,0000,0000,0000,,we have our nice unordered list down here.
+Dialogue: 0,0:09:02.85,0:09:04.15,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:09:04.15,0:09:09.15,*Default,NTP,0000,0000,0000,,So creating lists is another important part of writing HTML.
+Dialogue: 0,0:09:09.28,0:09:11.06,*Default,NTP,0000,0000,0000,,We use this all the time.
+Dialogue: 0,0:09:11.06,0:09:14.14,*Default,NTP,0000,0000,0000,,And so I hope that you had fun with this lecture
+Dialogue: 0,0:09:14.14,0:09:17.36,*Default,NTP,0000,0000,0000,,because it was quite an important one.
+Dialogue: 0,0:09:17.36,0:09:18.92,*Default,NTP,0000,0000,0000,,So before you move on,
+Dialogue: 0,0:09:18.92,0:09:22.51,*Default,NTP,0000,0000,0000,,please make sure to review what we just did here.
+Dialogue: 0,0:09:22.51,0:09:24.67,*Default,NTP,0000,0000,0000,,And also think a little bit about some
+Dialogue: 0,0:09:24.67,0:09:26.54,*Default,NTP,0000,0000,0000,,of the things I said earlier,
+Dialogue: 0,0:09:26.54,0:09:30.56,*Default,NTP,0000,0000,0000,,such as the fact that each element has a different meaning,
+Dialogue: 0,0:09:30.56,0:09:34.10,*Default,NTP,0000,0000,0000,,and also that we need to use these elements
+Dialogue: 0,0:09:34.10,0:09:36.42,*Default,NTP,0000,0000,0000,,to structure our content.
+Dialogue: 0,0:09:36.42,0:09:39.92,*Default,NTP,0000,0000,0000,,So we cannot simply just dump all of our text here
+Dialogue: 0,0:09:39.92,0:09:42.82,*Default,NTP,0000,0000,0000,,into the body text and call it a day.
+Dialogue: 0,0:09:43.68,0:09:44.80,*Default,NTP,0000,0000,0000,,If we did that,
+Dialogue: 0,0:09:44.80,0:09:47.83,*Default,NTP,0000,0000,0000,,there would be no structure and no logic at all.
+Dialogue: 0,0:09:49.14,0:09:52.61,*Default,NTP,0000,0000,0000,,So I just deleted some empty paragraph here.
+Dialogue: 0,0:09:52.61,0:09:54.54,*Default,NTP,0000,0000,0000,,I just wanted to show you what happens
+Dialogue: 0,0:09:54.54,0:09:56.53,*Default,NTP,0000,0000,0000,,if I select all of this.
+Dialogue: 0,0:09:56.53,0:09:59.95,*Default,NTP,0000,0000,0000,,So copy paste here, basically.
+Dialogue: 0,0:09:59.95,0:10:03.44,*Default,NTP,0000,0000,0000,,So if I take it and just paste it down here.
+Dialogue: 0,0:10:03.44,0:10:06.03,*Default,NTP,0000,0000,0000,,So give it a save and,
+Dialogue: 0,0:10:07.15,0:10:11.51,*Default,NTP,0000,0000,0000,,well, you see that it's now all one big blob of text
+Dialogue: 0,0:10:11.51,0:10:15.54,*Default,NTP,0000,0000,0000,,and HTML doesn't really care about any white space.
+Dialogue: 0,0:10:15.54,0:10:18.05,*Default,NTP,0000,0000,0000,,So any of these line breaks here,
+Dialogue: 0,0:10:18.05,0:10:20.56,*Default,NTP,0000,0000,0000,,they're all irrelevant to HTML.
+Dialogue: 0,0:10:20.56,0:10:23.30,*Default,NTP,0000,0000,0000,,So if we try to load this,
+Dialogue: 0,0:10:23.30,0:10:27.40,*Default,NTP,0000,0000,0000,,you see (laughs) that there is no structure at all.
+Dialogue: 0,0:10:27.40,0:10:32.09,*Default,NTP,0000,0000,0000,,So everything is just one huge line of text and yeah,
+Dialogue: 0,0:10:32.09,0:10:34.80,*Default,NTP,0000,0000,0000,,that's it, there is no structure, there is no meaning.
+Dialogue: 0,0:10:35.87,0:10:38.03,*Default,NTP,0000,0000,0000,,There is nothing basically.
+Dialogue: 0,0:10:38.03,0:10:41.84,*Default,NTP,0000,0000,0000,,And so I hope that this small example showed you
+Dialogue: 0,0:10:41.84,0:10:46.20,*Default,NTP,0000,0000,0000,,the importance of basically wrapping all pieces
+Dialogue: 0,0:10:46.20,0:10:49.07,*Default,NTP,0000,0000,0000,,of content inside of an element
+Dialogue: 0,0:10:49.07,0:10:52.94,*Default,NTP,0000,0000,0000,,that actually gives that content some meaning, okay?
+Dialogue: 0,0:10:52.94,0:10:54.91,*Default,NTP,0000,0000,0000,,But with that, I'm leaving you
+Dialogue: 0,0:10:54.91,0:10:57.48,*Default,NTP,0000,0000,0000,,and I see you soon in the next video.
