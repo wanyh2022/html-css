@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  border: 5px solid black;
+}
+
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.free-shipping {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.Add-Button {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.Add-Button:hover {
+  color: black;
+  background-color: white;
+}
+
+ul {
+  list-style: square;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
