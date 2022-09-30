@@ -1,0 +1,535 @@
+[Script Info]
+Title: 032 CSS Theory #2_ Inheritance and the Universal Selector_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=30&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.49,0:00:04.10,*Default,NTP,0000,0000,0000,,有一个非常强大的机制
+Dialogue: 0,0:00:04.10,0:00:07.13,*Default,NTP,0000,0000,0000,,在 CSS 中称为继承。
+Dialogue: 0,0:00:07.13,0:00:10.30,*Default,NTP,0000,0000,0000,,所以现在让我们学习所有关于继承的知识。
+Dialogue: 0,0:00:11.61,0:00:15.93,*Default,NTP,0000,0000,0000,,实际上，我们之前已经看到了继承的作用。
+Dialogue: 0,0:00:15.93,0:00:19.49,*Default,NTP,0000,0000,0000,,所以，记得回到本节的开头，
+Dialogue: 0,0:00:19.49,0:00:23.04,*Default,NTP,0000,0000,0000,,我提到过，例如，这里的这个元素，
+Dialogue: 0,0:00:23.04,0:00:26.47,*Default,NTP,0000,0000,0000,,所以这个强元素的劳拉·琼斯，
+Dialogue: 0,0:00:26.47,0:00:29.72,*Default,NTP,0000,0000,0000,,仍然获取段落元素的样式
+Dialogue: 0,0:00:29.72,0:00:33.85,*Default,NTP,0000,0000,0000,,它位于其中，对吗？
+Dialogue: 0,0:00:33.85,0:00:36.83,*Default,NTP,0000,0000,0000,,所以让我们在这里检查这个元素。
+Dialogue: 0,0:00:37.67,0:00:41.39,*Default,NTP,0000,0000,0000,,所以当然它是一个强大的元素，
+Dialogue: 0,0:00:41.39,0:00:43.80,*Default,NTP,0000,0000,0000,,所以作为默认样式，
+Dialogue: 0,0:00:43.80,0:00:47.35,*Default,NTP,0000,0000,0000,,所以这就是用户代理样式表还记得吗？
+Dialogue: 0,0:00:47.35,0:00:52.24,*Default,NTP,0000,0000,0000,,所以默认情况下，它的字体粗细是粗体，对吧？
+Dialogue: 0,0:00:52.24,0:00:55.99,*Default,NTP,0000,0000,0000,,但是在这里我们看到它也被继承了
+Dialogue: 0,0:00:55.99,0:01:00.69,*Default,NTP,0000,0000,0000,,来自段落，因此来自其父元素。
+Dialogue: 0,0:01:00.69,0:01:05.69,*Default,NTP,0000,0000,0000,,所以这里它得到斜体，字体大小的 18 像素
+Dialogue: 0,0:01:05.69,0:01:07.73,*Default,NTP,0000,0000,0000,,以及 1.5 的行高。
+Dialogue: 0,0:01:08.78,0:01:12.27,*Default,NTP,0000,0000,0000,,所以基本上这意味着继承
+Dialogue: 0,0:01:12.27,0:01:15.43,*Default,NTP,0000,0000,0000,,是一种机制，通过它某些样式
+Dialogue: 0,0:01:15.43,0:01:18.75,*Default,NTP,0000,0000,0000,,所以有些属性会继承它们的值
+Dialogue: 0,0:01:18.75,0:01:22.15,*Default,NTP,0000,0000,0000,,从父元素到子元素。
+Dialogue: 0,0:01:22.15,0:01:27.15,*Default,NTP,0000,0000,0000,,所以现在让我们大范围地使用它
+Dialogue: 0,0:01:27.74,0:01:31.79,*Default,NTP,0000,0000,0000,,通过在 body 元素上设置一些样式。
+Dialogue: 0,0:01:32.80,0:01:36.33,*Default,NTP,0000,0000,0000,,所以，我们使用body元素来设置一些样式
+Dialogue: 0,0:01:36.33,0:01:39.34,*Default,NTP,0000,0000,0000,,因为body元素是父元素
+Dialogue: 0,0:01:39.34,0:01:43.11,*Default,NTP,0000,0000,0000,,我们的 HTML 文档中的所有其他元素。
+Dialogue: 0,0:01:43.11,0:01:46.80,*Default,NTP,0000,0000,0000,,因此，如果我们在主体中设置某些属性，
+Dialogue: 0,0:01:46.80,0:01:49.17,*Default,NTP,0000,0000,0000,,那么它们的值将被继承
+Dialogue: 0,0:01:49.17,0:01:52.26,*Default,NTP,0000,0000,0000,,到他们所有的子元素。
+Dialogue: 0,0:01:52.26,0:01:55.83,*Default,NTP,0000,0000,0000,,现在并不是所有的属性都被继承了
+Dialogue: 0,0:01:55.83,0:01:58.98,*Default,NTP,0000,0000,0000,,它主要是关于文本的。
+Dialogue: 0,0:01:58.98,0:02:02.16,*Default,NTP,0000,0000,0000,,所以让我们从一个非常简单的开始，
+Dialogue: 0,0:02:02.16,0:02:06.35,*Default,NTP,0000,0000,0000,,所以颜色，让我们将颜色设置为红色。
+Dialogue: 0,0:02:07.43,0:02:11.07,*Default,NTP,0000,0000,0000,,现在你认为在这种情况下会发生什么
+Dialogue: 0,0:02:11.07,0:02:13.74,*Default,NTP,0000,0000,0000,,假设我们实际设置了颜色
+Dialogue: 0,0:02:13.74,0:02:17.67,*Default,NTP,0000,0000,0000,,大部分这些元素已经在这里了吗？
+Dialogue: 0,0:02:18.69,0:02:20.19,*Default,NTP,0000,0000,0000,,走着瞧，
+Dialogue: 0,0:02:21.59,0:02:25.67,*Default,NTP,0000,0000,0000,,因此，当我们重新加载时，这里并没有真正改变。
+Dialogue: 0,0:02:25.67,0:02:29.13,*Default,NTP,0000,0000,0000,,原因是，虽然这种红色\N00:02:29,130​​ --> 00:02:30,880\N还是被继承了，\N\N42
+Dialogue: 0,0:02:30.88,0:02:33.74,*Default,NTP,0000,0000,0000,,这个有色属性就在这条规则中
+Dialogue: 0,0:02:33.74,0:02:37.83,*Default,NTP,0000,0000,0000,,确实覆盖了继承的样式，好吗？
+Dialogue: 0,0:02:37.83,0:02:40.86,*Default,NTP,0000,0000,0000,,所以继承的样式很容易被覆盖
+Dialogue: 0,0:02:40.86,0:02:43.04,*Default,NTP,0000,0000,0000,,每当有任何规则
+Dialogue: 0,0:02:43.04,0:02:46.22,*Default,NTP,0000,0000,0000,,这适用于相同的财产。
+Dialogue: 0,0:02:46.22,0:02:49.89,*Default,NTP,0000,0000,0000,,所以继承的属性很容易被覆盖
+Dialogue: 0,0:02:49.89,0:02:54.20,*Default,NTP,0000,0000,0000,,根据任何规则，该规则具有相同属性的值。
+Dialogue: 0,0:02:54.20,0:02:57.61,*Default,NTP,0000,0000,0000,,所以在某种意义上，我们可以说继承的价值观
+Dialogue: 0,0:02:57.61,0:03:00.72,*Default,NTP,0000,0000,0000,,是那些优先级最低的。
+Dialogue: 0,0:03:00.72,0:03:03.61,*Default,NTP,0000,0000,0000,,但无论如何，如果我们现在从这里移除颜色
+Dialogue: 0,0:03:04.64,0:03:06.89,*Default,NTP,0000,0000,0000,,让我们把它注释掉，
+Dialogue: 0,0:03:06.89,0:03:09.61,*Default,NTP,0000,0000,0000,,然后，好吧，所有的文本
+Dialogue: 0,0:03:09.61,0:03:13.81,*Default,NTP,0000,0000,0000,,没有声明颜色的将变为红色。
+Dialogue: 0,0:03:13.81,0:03:17.10,*Default,NTP,0000,0000,0000,,所以，这里的这个，所有的，
+Dialogue: 0,0:03:17.10,0:03:18.57,*Default,NTP,0000,0000,0000,,现在这个还是蓝色的
+Dialogue: 0,0:03:18.57,0:03:21.47,*Default,NTP,0000,0000,0000,,因为我们在这里覆盖它，对吧？
+Dialogue: 0,0:03:21.47,0:03:24.43,*Default,NTP,0000,0000,0000,,但是其他一切都是红色的。
+Dialogue: 0,0:03:24.43,0:03:29.14,*Default,NTP,0000,0000,0000,,所以现在我们可以做的是设置文本颜色
+Dialogue: 0,0:03:29.14,0:03:32.08,*Default,NTP,0000,0000,0000,,我们实际上对这里的身体感兴趣。
+Dialogue: 0,0:03:33.07,0:03:36.85,*Default,NTP,0000,0000,0000,,所以现在所有的文字都是灰色的，就像以前一样，
+Dialogue: 0,0:03:36.85,0:03:41.54,*Default,NTP,0000,0000,0000,,但我们所要做的就是在 body 中声明这个值，
+Dialogue: 0,0:03:41.54,0:03:46.21,*Default,NTP,0000,0000,0000,,然后这个值 444 被继承为颜色
+Dialogue: 0,0:03:46.21,0:03:50.05,*Default,NTP,0000,0000,0000,,对于所有没有颜色声明的规则。
+Dialogue: 0,0:03:51.81,0:03:55.68,*Default,NTP,0000,0000,0000,,现在让我们对字体系列做同样的事情。
+Dialogue: 0,0:03:55.68,0:03:59.23,*Default,NTP,0000,0000,0000,,所以我们实际上将它从这里剪切并粘贴到这里
+Dialogue: 0,0:04:00.76,0:04:02.42,*Default,NTP,0000,0000,0000,,这个也一样。
+Dialogue: 0,0:04:03.89,0:04:06.51,*Default,NTP,0000,0000,0000,,所以再一次，所有的元素
+Dialogue: 0,0:04:06.51,0:04:10.00,*Default,NTP,0000,0000,0000,,继承了这里的无衬线值
+Dialogue: 0,0:04:10.00,0:04:13.81,*Default,NTP,0000,0000,0000,,对于字体家族财产，好吗？
+Dialogue: 0,0:04:13.81,0:04:17.43,*Default,NTP,0000,0000,0000,,实际上，如果我们回到这里一步，
+Dialogue: 0,0:04:19.04,0:04:21.25,*Default,NTP,0000,0000,0000,,所以我只是把它放回去。
+Dialogue: 0,0:04:21.25,0:04:24.36,*Default,NTP,0000,0000,0000,,所以你在这里看到它们实际上仍然存在的链接
+Dialogue: 0,0:04:24.36,0:04:27.80,*Default,NTP,0000,0000,0000,,在衬线样式中，因为在我们的代码中没有，
+Dialogue: 0,0:04:27.80,0:04:32.31,*Default,NTP,0000,0000,0000,,我们为他们编辑无衬线字体系列，对吧？
+Dialogue: 0,0:04:33.15,0:04:36.11,*Default,NTP,0000,0000,0000,,所以现在我又在这里做，
+Dialogue: 0,0:04:37.25,0:04:40.87,*Default,NTP,0000,0000,0000,,把它贴在这里看看现在发生了什么？
+Dialogue: 0,0:04:40.87,0:04:43.54,*Default,NTP,0000,0000,0000,,你现在看到它们就像
+Dialogue: 0,0:04:43.54,0:04:46.64,*Default,NTP,0000,0000,0000,,无衬线文本的其余部分。
+Dialogue: 0,0:04:46.64,0:04:50.87,*Default,NTP,0000,0000,0000,,所以实际上我们在这里不再需要这个选择器，
+Dialogue: 0,0:04:50.87,0:04:52.17,*Default,NTP,0000,0000,0000,,我们可以摆脱它。
+Dialogue: 0,0:04:53.07,0:04:54.60,*Default,NTP,0000,0000,0000,,可以肯定的是，
+Dialogue: 0,0:04:54.60,0:04:58.11,*Default,NTP,0000,0000,0000,,我真的想在这里再澄清一次。
+Dialogue: 0,0:04:58.11,0:05:01.54,*Default,NTP,0000,0000,0000,,所以这真的是元素继承值
+Dialogue: 0,0:05:01.54,0:05:05.01,*Default,NTP,0000,0000,0000,,对于彼此的某些属性。
+Dialogue: 0,0:05:05.01,0:05:08.09,*Default,NTP,0000,0000,0000,,所以这不是冲突的选择器
+Dialogue: 0,0:05:08.09,0:05:11.10,*Default,NTP,0000,0000,0000,,或者换句话说，这里的主体选择器
+Dialogue: 0,0:05:11.10,0:05:15.06,*Default,NTP,0000,0000,0000,,不是选择所有这些元素，好吗？
+Dialogue: 0,0:05:15.06,0:05:18.08,*Default,NTP,0000,0000,0000,,它不适用于所有元素
+Dialogue: 0,0:05:18.08,0:05:21.27,*Default,NTP,0000,0000,0000,,相反，我们所做的是声明值
+Dialogue: 0,0:05:21.27,0:05:23.20,*Default,NTP,0000,0000,0000,,对于这里的这些属性，
+Dialogue: 0,0:05:23.20,0:05:25.89,*Default,NTP,0000,0000,0000,,例如颜色和字体系列。
+Dialogue: 0,0:05:25.89,0:05:28.26,*Default,NTP,0000,0000,0000,,然后他们只是被传下来
+Dialogue: 0,0:05:28.26,0:05:30.20,*Default,NTP,0000,0000,0000,,对所有子元素
+Dialogue: 0,0:05:30.20,0:05:32.75,*Default,NTP,0000,0000,0000,,包含在体内的东西。
+Dialogue: 0,0:05:32.75,0:05:35.05,*Default,NTP,0000,0000,0000,,这就是我们使用这项技术的原因
+Dialogue: 0,0:05:35.05,0:05:38.28,*Default,NTP,0000,0000,0000,,将这些与文本相关的属性
+Dialogue: 0,0:05:38.28,0:05:40.89,*Default,NTP,0000,0000,0000,,和身体，好吗？
+Dialogue: 0,0:05:40.89,0:05:42.12,*Default,NTP,0000,0000,0000,,因为这些是
+Dialogue: 0,0:05:42.12,0:05:46.35,*Default,NTP,0000,0000,0000,,然后我们希望页面上的所有元素都具有。
+Dialogue: 0,0:05:46.35,0:05:47.70,*Default,NTP,0000,0000,0000,,现在，正如我之前所说，
+Dialogue: 0,0:05:47.70,0:05:51.06,*Default,NTP,0000,0000,0000,,许多风格实际上并没有得到继承，
+Dialogue: 0,0:05:51.06,0:05:53.59,*Default,NTP,0000,0000,0000,,因为那将是非常不切实际的
+Dialogue: 0,0:05:53.59,0:05:56.13,*Default,NTP,0000,0000,0000,,对于大多数属性。
+Dialogue: 0,0:05:56.13,0:06:00.00,*Default,NTP,0000,0000,0000,,例如，假设边框顶部，
+Dialogue: 0,0:06:00.00,0:06:04.01,*Default,NTP,0000,0000,0000,,所以如果我们声明一个 10 像素的边框顶部
+Dialogue: 0,0:06:04.01,0:06:08.41,*Default,NTP,0000,0000,0000,,和我们身体的蓝色相得益彰，
+Dialogue: 0,0:06:08.41,0:06:10.01,*Default,NTP,0000,0000,0000,,让我们看看会发生什么。
+Dialogue: 0,0:06:10.92,0:06:14.73,*Default,NTP,0000,0000,0000,,事实上，它只是简单地编辑了这个蓝色边框
+Dialogue: 0,0:06:14.73,0:06:17.13,*Default,NTP,0000,0000,0000,,到我们身体元素的顶部，
+Dialogue: 0,0:06:17.13,0:06:21.93,*Default,NTP,0000,0000,0000,,但它并没有对所有子元素都这样做，对吧？
+Dialogue: 0,0:06:21.93,0:06:25.98,*Default,NTP,0000,0000,0000,,因为再一次，那将是非常非常不切实际的。
+Dialogue: 0,0:06:25.98,0:06:27.94,*Default,NTP,0000,0000,0000,,现在让我们快速浏览一下
+Dialogue: 0,0:06:27.94,0:06:31.12,*Default,NTP,0000,0000,0000,,在继承的图形表示
+Dialogue: 0,0:06:31.12,0:06:33.02,*Default,NTP,0000,0000,0000,,真正让它一清二楚。
+Dialogue: 0,0:06:34.22,0:06:37.53,*Default,NTP,0000,0000,0000,,所以这里我们有一个非常简单的网页示例，
+Dialogue: 0,0:06:37.53,0:06:42.53,*Default,NTP,0000,0000,0000,,它只包含一个导航、一个 H1 和一个 P 元素。
+Dialogue: 0,0:06:43.04,0:06:44.31,*Default,NTP,0000,0000,0000,,而在右边，
+Dialogue: 0,0:06:44.31,0:06:47.50,*Default,NTP,0000,0000,0000,,我们也有一些body元素的样式
+Dialogue: 0,0:06:47.50,0:06:51.08,*Default,NTP,0000,0000,0000,,特别是颜色、字体大小、字体系列、
+Dialogue: 0,0:06:51.08,0:06:52.95,*Default,NTP,0000,0000,0000,,和边框顶部。
+Dialogue: 0,0:06:52.95,0:06:55.23,*Default,NTP,0000,0000,0000,,现在当然是body元素
+Dialogue: 0,0:06:55.23,0:06:59.28,*Default,NTP,0000,0000,0000,,是所有其他三个元素的父元素。
+Dialogue: 0,0:06:59.28,0:07:02.27,*Default,NTP,0000,0000,0000,,因此，多亏了继承
+Dialogue: 0,0:07:02.27,0:07:05.24,*Default,NTP,0000,0000,0000,,所有这三个元素，基本上都可以访问
+Dialogue: 0,0:07:05.24,0:07:09.31,*Default,NTP,0000,0000,0000,,到这三个继承的属性。
+Dialogue: 0,0:07:09.31,0:07:11.48,*Default,NTP,0000,0000,0000,,再一次，所有这三个属性
+Dialogue: 0,0:07:11.48,0:07:13.73,*Default,NTP,0000,0000,0000,,基本上与文字有关，
+Dialogue: 0,0:07:13.73,0:07:14.95,*Default,NTP,0000,0000,0000,,而另一方面，
+Dialogue: 0,0:07:14.95,0:07:18.86,*Default,NTP,0000,0000,0000,,边框属性不会被继承。
+Dialogue: 0,0:07:18.86,0:07:22.53,*Default,NTP,0000,0000,0000,,所以并不是所有的属性都会被继承，
+Dialogue: 0,0:07:22.53,0:07:25.77,*Default,NTP,0000,0000,0000,,但它主要是与文本相关的。
+Dialogue: 0,0:07:25.77,0:07:28.80,*Default,NTP,0000,0000,0000,,他们有很多属性的大清单
+Dialogue: 0,0:07:28.80,0:07:30.66,*Default,NTP,0000,0000,0000,,确实会被继承，
+Dialogue: 0,0:07:30.66,0:07:34.35,*Default,NTP,0000,0000,0000,,因此，如果您愿意，可以查看它们。
+Dialogue: 0,0:07:34.35,0:07:37.72,*Default,NTP,0000,0000,0000,,但不管怎样，别说我们也有规矩
+Dialogue: 0,0:07:37.72,0:07:39.89,*Default,NTP,0000,0000,0000,,对于 H1 元素。
+Dialogue: 0,0:07:39.89,0:07:43.17,*Default,NTP,0000,0000,0000,,所以它基本上声明了一种新颜色
+Dialogue: 0,0:07:43.17,0:07:45.08,*Default,NTP,0000,0000,0000,,和新的字体大小。
+Dialogue: 0,0:07:45.08,0:07:48.03,*Default,NTP,0000,0000,0000,,所以它更大，它是蓝色的。
+Dialogue: 0,0:07:48.03,0:07:51.64,*Default,NTP,0000,0000,0000,,所以现在发生的是这两个声明
+Dialogue: 0,0:07:51.64,0:07:55.39,*Default,NTP,0000,0000,0000,,确实会覆盖继承的样式。
+Dialogue: 0,0:07:55.39,0:07:59.76,*Default,NTP,0000,0000,0000,,因此对于H1，颜色不再是灰色
+Dialogue: 0,0:07:59.76,0:08:02.85,*Default,NTP,0000,0000,0000,,并且字体大小不再是 16 像素，
+Dialogue: 0,0:08:02.85,0:08:06.83,*Default,NTP,0000,0000,0000,,但它现在是蓝色和 32 像素。
+Dialogue: 0,0:08:06.83,0:08:11.29,*Default,NTP,0000,0000,0000,,所以这是继承的视觉表现，
+Dialogue: 0,0:08:11.29,0:08:14.14,*Default,NTP,0000,0000,0000,,我希望让它更清楚一点
+Dialogue: 0,0:08:14.14,0:08:16.93,*Default,NTP,0000,0000,0000,,这样你才能真正理解它是如何工作的。
+Dialogue: 0,0:08:16.93,0:08:19.24,*Default,NTP,0000,0000,0000,,所以也许需要更多时间看看这个
+Dialogue: 0,0:08:19.24,0:08:21.69,*Default,NTP,0000,0000,0000,,再多研究一下这个例子，
+Dialogue: 0,0:08:21.69,0:08:24.39,*Default,NTP,0000,0000,0000,,然后我们实际上会再得到一次
+Dialogue: 0,0:08:24.39,0:08:25.65,*Default,NTP,0000,0000,0000,,回到我们的代码。
+Dialogue: 0,0:08:27.16,0:08:30.05,*Default,NTP,0000,0000,0000,,我现在想向你展示的是继承
+Dialogue: 0,0:08:30.05,0:08:33.69,*Default,NTP,0000,0000,0000,,实际上也适用于更小的规模，
+Dialogue: 0,0:08:33.69,0:08:36.70,*Default,NTP,0000,0000,0000,,这也是我们一直在做的事情。
+Dialogue: 0,0:08:36.70,0:08:40.41,*Default,NTP,0000,0000,0000,,所以继承不仅有助于放置样式
+Dialogue: 0,0:08:40.41,0:08:43.92,*Default,NTP,0000,0000,0000,,进入体内，也可以在其他情况下。
+Dialogue: 0,0:08:43.92,0:08:45.75,*Default,NTP,0000,0000,0000,,所以假设我们想要改变
+Dialogue: 0,0:08:45.75,0:08:48.68,*Default,NTP,0000,0000,0000,,这四个链接的大小在这里。
+Dialogue: 0,0:08:49.54,0:08:51.65,*Default,NTP,0000,0000,0000,,这实际上很容易，
+Dialogue: 0,0:08:51.65,0:08:56.65,*Default,NTP,0000,0000,0000,,我们所要做的就是让我们去那里。
+Dialogue: 0,0:08:56.86,0:08:59.89,*Default,NTP,0000,0000,0000,,所以会给他们上课
+Dialogue: 0,0:08:59.89,0:09:04.89,*Default,NTP,0000,0000,0000,,然后根据班级选择这些链接，对吗？
+Dialogue: 0,0:09:04.94,0:09:09.93,*Default,NTP,0000,0000,0000,,或者我们也可以做这样的事情，
+Dialogue: 0,0:09:09.93,0:09:13.52,*Default,NTP,0000,0000,0000,,所以我们可以做 nav 然后选择
+Dialogue: 0,0:09:13.52,0:09:15.93,*Default,NTP,0000,0000,0000,,里面的八种元素
+Dialogue: 0,0:09:15.93,0:09:20.25,*Default,NTP,0000,0000,0000,,与伪类关闭链接，对吗？
+Dialogue: 0,0:09:20.25,0:09:24.83,*Default,NTP,0000,0000,0000,,假设我们希望字体大小为 18 像素，
+Dialogue: 0,0:09:28.74,0:09:31.63,*Default,NTP,0000,0000,0000,,所以你看到这确实有效。
+Dialogue: 0,0:09:32.60,0:09:33.81,*Default,NTP,0000,0000,0000,,但现在让我们说，
+Dialogue: 0,0:09:33.81,0:09:36.83,*Default,NTP,0000,0000,0000,,出于某种原因，这里也有一段
+Dialogue: 0,0:09:36.83,0:09:41.37,*Default,NTP,0000,0000,0000,,说这是导航。
+Dialogue: 0,0:09:42.42,0:09:46.05,*Default,NTP,0000,0000,0000,,所以这现在可能是 22 像素大。
+Dialogue: 0,0:09:47.16,0:09:49.36,*Default,NTP,0000,0000,0000,,让我们看看，是的，因为这是默认设置
+Dialogue: 0,0:09:49.36,0:09:51.78,*Default,NTP,0000,0000,0000,,我们为段落设置的，
+Dialogue: 0,0:09:51.78,0:09:54.41,*Default,NTP,0000,0000,0000,,但我们也希望这是 18 像素，
+Dialogue: 0,0:09:54.41,0:09:56.74,*Default,NTP,0000,0000,0000,,就像我们导航中的所有内容一样。
+Dialogue: 0,0:09:58.38,0:10:00.16,*Default,NTP,0000,0000,0000,,那么，我们怎么能这样做呢？
+Dialogue: 0,0:10:00.16,0:10:04.57,*Default,NTP,0000,0000,0000,,好吧，当然我们可以像这样在这里添加
+Dialogue: 0,0:10:06.17,0:10:09.87,*Default,NTP,0000,0000,0000,,它会再次起作用，对吗？
+Dialogue: 0,0:10:09.87,0:10:12.67,*Default,NTP,0000,0000,0000,,但我们也可以以更好的方式做到这一点。
+Dialogue: 0,0:10:13.53,0:10:15.71,*Default,NTP,0000,0000,0000,,所以我们不需要所有这些，
+Dialogue: 0,0:10:16.80,0:10:19.65,*Default,NTP,0000,0000,0000,,我们需要做的就是说导航
+Dialogue: 0,0:10:20.84,0:10:25.84,*Default,NTP,0000,0000,0000,,然后在这里设置字体大小为18像素，
+Dialogue: 0,0:10:27.62,0:10:31.37,*Default,NTP,0000,0000,0000,,然后所有其余的都应该继承这些样式。
+Dialogue: 0,0:10:32.33,0:10:35.81,*Default,NTP,0000,0000,0000,,现在实际上这里的段落并没有继承它
+Dialogue: 0,0:10:35.81,0:10:39.64,*Default,NTP,0000,0000,0000,,因为我们特意设置了字体大小为22
+Dialogue: 0,0:10:39.64,0:10:42.14,*Default,NTP,0000,0000,0000,,已经为这些段落了。
+Dialogue: 0,0:10:42.14,0:10:44.99,*Default,NTP,0000,0000,0000,,所以这可能不是一个很好的例子，
+Dialogue: 0,0:10:44.99,0:10:48.15,*Default,NTP,0000,0000,0000,,让我们在这里使用一个强元素。
+Dialogue: 0,0:10:49.72,0:10:53.52,*Default,NTP,0000,0000,0000,,好的，所以现在应该是 18 像素
+Dialogue: 0,0:10:54.84,0:10:57.17,*Default,NTP,0000,0000,0000,,就像这里指定的那样。
+Dialogue: 0,0:10:57.17,0:11:02.17,*Default,NTP,0000,0000,0000,,所以如果我们把它拿回来，那么让我们看看我们得到了什么。
+Dialogue: 0,0:11:05.22,0:11:08.03,*Default,NTP,0000,0000,0000,,好吧，真的没什么，
+Dialogue: 0,0:11:08.03,0:11:11.51,*Default,NTP,0000,0000,0000,,但是现在如果这里打开了，
+Dialogue: 0,0:11:11.51,0:11:16.24,*Default,NTP,0000,0000,0000,,因此，如果我们将导航中的字体大小设置为 18 像素，
+Dialogue: 0,0:11:16.24,0:11:19.33,*Default,NTP,0000,0000,0000,,那么现在我们可以看到这里的强元素
+Dialogue: 0,0:11:19.33,0:11:24.33,*Default,NTP,0000,0000,0000,,从导航继承了18个像素，好吗？
+Dialogue: 0,0:11:24.43,0:11:27.18,*Default,NTP,0000,0000,0000,,所以现在这里的一切都是 18 像素
+Dialogue: 0,0:11:27.18,0:11:31.91,*Default,NTP,0000,0000,0000,,这要归功于继承，好吗？
+Dialogue: 0,0:11:31.91,0:11:35.08,*Default,NTP,0000,0000,0000,,所以这是我们一直使用的技术，
+Dialogue: 0,0:11:35.08,0:11:38.43,*Default,NTP,0000,0000,0000,,但让我们不要真正摆脱这里的强者。
+Dialogue: 0,0:11:38.43,0:11:41.49,*Default,NTP,0000,0000,0000,,再说一次，我实际上可以注释掉这段代码
+Dialogue: 0,0:11:41.49,0:11:43.68,*Default,NTP,0000,0000,0000,,就像我们之前在 CSS 中所做的一样
+Dialogue: 0,0:11:43.68,0:11:47.88,*Default,NTP,0000,0000,0000,,通过点击命令或控制斜线，好吗？
+Dialogue: 0,0:11:49.94,0:11:51.46,*Default,NTP,0000,0000,0000,,现在刚刚结束，
+Dialogue: 0,0:11:51.46,0:11:53.24,*Default,NTP,0000,0000,0000,,实际上还有另一种方式
+Dialogue: 0,0:11:53.24,0:11:57.34,*Default,NTP,0000,0000,0000,,为所有元素添加一些样式。
+Dialogue: 0,0:11:57.34,0:12:01.72,*Default,NTP,0000,0000,0000,,所以让我们回到这里，我会把它放在这里。
+Dialogue: 0,0:12:01.72,0:12:05.40,*Default,NTP,0000,0000,0000,,我说的是通用选择器
+Dialogue: 0,0:12:05.40,0:12:09.73,*Default,NTP,0000,0000,0000,,我在幻灯片中提到的关于冲突选择器的内容。
+Dialogue: 0,0:12:12.52,0:12:15.13,*Default,NTP,0000,0000,0000,,所以基本上是通用选择器
+Dialogue: 0,0:12:15.13,0:12:19.01,*Default,NTP,0000,0000,0000,,只需选择页面上的每个元素。
+Dialogue: 0,0:12:19.01,0:12:21.78,*Default,NTP,0000,0000,0000,,所以如果我们真的想要，这很有用
+Dialogue: 0,0:12:21.78,0:12:24.82,*Default,NTP,0000,0000,0000,,应用于所有元素的某个属性，
+Dialogue: 0,0:12:24.82,0:12:27.36,*Default,NTP,0000,0000,0000,,但它不会被继承。
+Dialogue: 0,0:12:28.22,0:12:32.28,*Default,NTP,0000,0000,0000,,例如，我们想要的所有元素的颜色，
+Dialogue: 0,0:12:32.28,0:12:34.30,*Default,NTP,0000,0000,0000,,但是颜色会被继承，
+Dialogue: 0,0:12:34.30,0:12:38.32,*Default,NTP,0000,0000,0000,,所以我们可以简单地把它放在身体里，对吧？
+Dialogue: 0,0:12:38.32,0:12:41.11,*Default,NTP,0000,0000,0000,,但是，现在想象一下我们想要
+Dialogue: 0,0:12:41.11,0:12:46.11,*Default,NTP,0000,0000,0000,,所有元素的边框顶部，例如这个。
+Dialogue: 0,0:12:46.53,0:12:50.14,*Default,NTP,0000,0000,0000,,我们可以将其粘贴在这里，然后重新加载
+Dialogue: 0,0:12:50.14,0:12:53.38,*Default,NTP,0000,0000,0000,,我们会得到这个美丽的结果。
+Dialogue: 0,0:12:53.38,0:12:55.78,*Default,NTP,0000,0000,0000,,所以你看到每一个元素
+Dialogue: 0,0:12:55.78,0:13:00.23,*Default,NTP,0000,0000,0000,,这包括像这里的新兴市场和强者。
+Dialogue: 0,0:13:00.23,0:13:05.23,*Default,NTP,0000,0000,0000,,所以他们现在都有这个边框顶部，对吧？
+Dialogue: 0,0:13:05.52,0:13:09.12,*Default,NTP,0000,0000,0000,,所以不是很有帮助，但它有助于证明
+Dialogue: 0,0:13:09.12,0:13:11.55,*Default,NTP,0000,0000,0000,,我们真的可以应用某种风格
+Dialogue: 0,0:13:11.55,0:13:14.77,*Default,NTP,0000,0000,0000,,到页面上的每个元素。
+Dialogue: 0,0:13:14.77,0:13:17.26,*Default,NTP,0000,0000,0000,,请记住，这个选择器
+Dialogue: 0,0:13:17.26,0:13:20.03,*Default,NTP,0000,0000,0000,,实际上是优先级最低的那个。
+Dialogue: 0,0:13:20.03,0:13:24.73,*Default,NTP,0000,0000,0000,,所以很容易简单地覆盖它，好吗？
+Dialogue: 0,0:13:24.73,0:13:28.57,*Default,NTP,0000,0000,0000,,假设我们的身体上有红色，
+Dialogue: 0,0:13:28.57,0:13:30.87,*Default,NTP,0000,0000,0000,,然后这个会是红色的
+Dialogue: 0,0:13:30.87,0:13:33.33,*Default,NTP,0000,0000,0000,,只有所有其他的都是蓝色的。
+Dialogue: 0,0:13:33.33,0:13:35.97,*Default,NTP,0000,0000,0000,,再一次，因为这是一个元素选择器
+Dialogue: 0,0:13:35.97,0:13:40.54,*Default,NTP,0000,0000,0000,,因此它比通用选择器具有更高的优先级。
+Dialogue: 0,0:13:41.99,0:13:43.67,*Default,NTP,0000,0000,0000,,但是让我们把它放回去
+Dialogue: 0,0:13:43.67,0:13:47.41,*Default,NTP,0000,0000,0000,,实际上让我们在这里关闭它。
+Dialogue: 0,0:13:47.41,0:13:51.47,*Default,NTP,0000,0000,0000,,所以通用选择器其实是相当重要的
+Dialogue: 0,0:13:51.47,0:13:54.31,*Default,NTP,0000,0000,0000,,现在我们还没有一个大的用例，
+Dialogue: 0,0:13:54.31,0:13:58.54,*Default,NTP,0000,0000,0000,,但我们很快就会，然后我会再解释一下。
+Dialogue: 0,0:13:58.54,0:14:00.77,*Default,NTP,0000,0000,0000,,但现在，我想让你明白的
+Dialogue: 0,0:14:00.77,0:14:02.72,*Default,NTP,0000,0000,0000,,是不是有很大的不同
+Dialogue: 0,0:14:02.72,0:14:04.74,*Default,NTP,0000,0000,0000,,通用选择器之间
+Dialogue: 0,0:14:04.74,0:14:06.81,*Default,NTP,0000,0000,0000,,和身体选择器。
+Dialogue: 0,0:14:06.81,0:14:09.43,*Default,NTP,0000,0000,0000,,所以通用选择器只适用
+Dialogue: 0,0:14:09.43,0:14:11.22,*Default,NTP,0000,0000,0000,,对所有元素，
+Dialogue: 0,0:14:11.22,0:14:14.27,*Default,NTP,0000,0000,0000,,并且不涉及继承。
+Dialogue: 0,0:14:14.27,0:14:16.15,*Default,NTP,0000,0000,0000,,因此，这是完美的
+Dialogue: 0,0:14:16.15,0:14:19.01,*Default,NTP,0000,0000,0000,,如果你想申请某个属性，
+Dialogue: 0,0:14:19.01,0:14:21.65,*Default,NTP,0000,0000,0000,,不会自动继承的
+Dialogue: 0,0:14:21.65,0:14:23.70,*Default,NTP,0000,0000,0000,,到所有元素。
+Dialogue: 0,0:14:23.70,0:14:24.71,*Default,NTP,0000,0000,0000,,另一方面，
+Dialogue: 0,0:14:24.71,0:14:28.52,*Default,NTP,0000,0000,0000,,我们在 body 中放置的任何样式都会被继承。
+Dialogue: 0,0:14:28.52,0:14:31.69,*Default,NTP,0000,0000,0000,,所以这只是一个完全不同的机制
+Dialogue: 0,0:14:31.69,0:14:33.68,*Default,NTP,0000,0000,0000,,而不是使用通用选择器。
+Dialogue: 0,0:00:01.49,0:00:04.10,*Default,NTP,0000,0000,0000,,There is an extremely powerful mechanism
+Dialogue: 0,0:00:04.10,0:00:07.13,*Default,NTP,0000,0000,0000,,in CSS called inheritance.
+Dialogue: 0,0:00:07.13,0:00:10.30,*Default,NTP,0000,0000,0000,,And so let's now learn all about inheritance.
+Dialogue: 0,0:00:11.61,0:00:15.93,*Default,NTP,0000,0000,0000,,And actually we already saw inheritance in action before.
+Dialogue: 0,0:00:15.93,0:00:19.49,*Default,NTP,0000,0000,0000,,So, remember back at the beginning of the section,
+Dialogue: 0,0:00:19.49,0:00:23.04,*Default,NTP,0000,0000,0000,,I mentioned that for example, this element here,
+Dialogue: 0,0:00:23.04,0:00:26.47,*Default,NTP,0000,0000,0000,,so this Laura Jones, which is a strong element,
+Dialogue: 0,0:00:26.47,0:00:29.72,*Default,NTP,0000,0000,0000,,still gets the styles of the paragraph element
+Dialogue: 0,0:00:29.72,0:00:33.85,*Default,NTP,0000,0000,0000,,inside of which it is located, right?
+Dialogue: 0,0:00:33.85,0:00:36.83,*Default,NTP,0000,0000,0000,,So let's inspect this element here.
+Dialogue: 0,0:00:37.67,0:00:41.39,*Default,NTP,0000,0000,0000,,And so of course it is a strong element,
+Dialogue: 0,0:00:41.39,0:00:43.80,*Default,NTP,0000,0000,0000,,and so as a default style,
+Dialogue: 0,0:00:43.80,0:00:47.35,*Default,NTP,0000,0000,0000,,and so that's the user agent style sheet remember?
+Dialogue: 0,0:00:47.35,0:00:52.24,*Default,NTP,0000,0000,0000,,So as a default, it gets the font weight of bold, right?
+Dialogue: 0,0:00:52.24,0:00:55.99,*Default,NTP,0000,0000,0000,,But then here we see that also it gets inherited
+Dialogue: 0,0:00:55.99,0:01:00.69,*Default,NTP,0000,0000,0000,,from the paragraph, so from its parent element.
+Dialogue: 0,0:01:00.69,0:01:05.69,*Default,NTP,0000,0000,0000,,So here it gets the italic, the 18 pixels of a font size
+Dialogue: 0,0:01:05.69,0:01:07.73,*Default,NTP,0000,0000,0000,,and also the line height of 1.5.
+Dialogue: 0,0:01:08.78,0:01:12.27,*Default,NTP,0000,0000,0000,,And so basically what this means is that inheritance
+Dialogue: 0,0:01:12.27,0:01:15.43,*Default,NTP,0000,0000,0000,,is a mechanism by which some styles
+Dialogue: 0,0:01:15.43,0:01:18.75,*Default,NTP,0000,0000,0000,,so some properties get their values inherited
+Dialogue: 0,0:01:18.75,0:01:22.15,*Default,NTP,0000,0000,0000,,from parent elements to child elements.
+Dialogue: 0,0:01:22.15,0:01:27.15,*Default,NTP,0000,0000,0000,,So let's now use this in a big way
+Dialogue: 0,0:01:27.74,0:01:31.79,*Default,NTP,0000,0000,0000,,by setting some styles onto the body element.
+Dialogue: 0,0:01:32.80,0:01:36.33,*Default,NTP,0000,0000,0000,,So, we use the body elements to set some styles
+Dialogue: 0,0:01:36.33,0:01:39.34,*Default,NTP,0000,0000,0000,,because the body element is the parent element
+Dialogue: 0,0:01:39.34,0:01:43.11,*Default,NTP,0000,0000,0000,,of all the other elements in our HTML document.
+Dialogue: 0,0:01:43.11,0:01:46.80,*Default,NTP,0000,0000,0000,,And so if we set certain properties in the body,
+Dialogue: 0,0:01:46.80,0:01:49.17,*Default,NTP,0000,0000,0000,,then their values will get inherited
+Dialogue: 0,0:01:49.17,0:01:52.26,*Default,NTP,0000,0000,0000,,to all of their child elements.
+Dialogue: 0,0:01:52.26,0:01:55.83,*Default,NTP,0000,0000,0000,,Now not all properties do actually get inherited
+Dialogue: 0,0:01:55.83,0:01:58.98,*Default,NTP,0000,0000,0000,,it is mostly the ones that are about text.
+Dialogue: 0,0:01:58.98,0:02:02.16,*Default,NTP,0000,0000,0000,,So let's start with a very simple one,
+Dialogue: 0,0:02:02.16,0:02:06.35,*Default,NTP,0000,0000,0000,,so the color, and let's set the color to red.
+Dialogue: 0,0:02:07.43,0:02:11.07,*Default,NTP,0000,0000,0000,,Now what do you think is going to happen in this situation
+Dialogue: 0,0:02:11.07,0:02:13.74,*Default,NTP,0000,0000,0000,,given that we actually set the color
+Dialogue: 0,0:02:13.74,0:02:17.67,*Default,NTP,0000,0000,0000,,on most of these elements here already, down here?
+Dialogue: 0,0:02:18.69,0:02:20.19,*Default,NTP,0000,0000,0000,,Well, let's see,
+Dialogue: 0,0:02:21.59,0:02:25.67,*Default,NTP,0000,0000,0000,,and so, as we reload nothing really changed here.
+Dialogue: 0,0:02:25.67,0:02:29.13,*Default,NTP,0000,0000,0000,,And the reason for that is that while this red color
+Dialogue: 0,0:02:29.13,0:02:30.88,*Default,NTP,0000,0000,0000,,is still got inherited,
+Dialogue: 0,0:02:30.88,0:02:33.74,*Default,NTP,0000,0000,0000,,this colored property right here in this rule
+Dialogue: 0,0:02:33.74,0:02:37.83,*Default,NTP,0000,0000,0000,,did override the inherited style, okay?
+Dialogue: 0,0:02:37.83,0:02:40.86,*Default,NTP,0000,0000,0000,,So the inherited styles are easily overwritten
+Dialogue: 0,0:02:40.86,0:02:43.04,*Default,NTP,0000,0000,0000,,whenever there is any rule
+Dialogue: 0,0:02:43.04,0:02:46.22,*Default,NTP,0000,0000,0000,,that applies for the same property.
+Dialogue: 0,0:02:46.22,0:02:49.89,*Default,NTP,0000,0000,0000,,So an inherited property is very easily overwritten
+Dialogue: 0,0:02:49.89,0:02:54.20,*Default,NTP,0000,0000,0000,,by any rule, which has a value for that same property.
+Dialogue: 0,0:02:54.20,0:02:57.61,*Default,NTP,0000,0000,0000,,So in a sense, we can say that inherited values
+Dialogue: 0,0:02:57.61,0:03:00.72,*Default,NTP,0000,0000,0000,,are the ones who have the lowest priority.
+Dialogue: 0,0:03:00.72,0:03:03.61,*Default,NTP,0000,0000,0000,,But anyway if we now removed the color from here
+Dialogue: 0,0:03:04.64,0:03:06.89,*Default,NTP,0000,0000,0000,,and let's just comment it out,
+Dialogue: 0,0:03:06.89,0:03:09.61,*Default,NTP,0000,0000,0000,,then, well, all the texts
+Dialogue: 0,0:03:09.61,0:03:13.81,*Default,NTP,0000,0000,0000,,which does not have a color declared will become red.
+Dialogue: 0,0:03:13.81,0:03:17.10,*Default,NTP,0000,0000,0000,,So, this one here, all of this,
+Dialogue: 0,0:03:17.10,0:03:18.57,*Default,NTP,0000,0000,0000,,now this one is still blue
+Dialogue: 0,0:03:18.57,0:03:21.47,*Default,NTP,0000,0000,0000,,because we're overriding it here, right?
+Dialogue: 0,0:03:21.47,0:03:24.43,*Default,NTP,0000,0000,0000,,But then everything else is red.
+Dialogue: 0,0:03:24.43,0:03:29.14,*Default,NTP,0000,0000,0000,,And so now what we can do is to set the text color
+Dialogue: 0,0:03:29.14,0:03:32.08,*Default,NTP,0000,0000,0000,,that we're actually interested in here in the body.
+Dialogue: 0,0:03:33.07,0:03:36.85,*Default,NTP,0000,0000,0000,,And so now all the text is gray, such as before,
+Dialogue: 0,0:03:36.85,0:03:41.54,*Default,NTP,0000,0000,0000,,but all we have to do is to declare that value in the body,
+Dialogue: 0,0:03:41.54,0:03:46.21,*Default,NTP,0000,0000,0000,,and then this value 444 gets inherited for the color
+Dialogue: 0,0:03:46.21,0:03:50.05,*Default,NTP,0000,0000,0000,,for all of the rules, which do not have a color declaration.
+Dialogue: 0,0:03:51.81,0:03:55.68,*Default,NTP,0000,0000,0000,,And now let's actually do the same with the font family.
+Dialogue: 0,0:03:55.68,0:03:59.23,*Default,NTP,0000,0000,0000,,So we'll actually cut it from here and paste it here
+Dialogue: 0,0:04:00.76,0:04:02.42,*Default,NTP,0000,0000,0000,,the same for this one.
+Dialogue: 0,0:04:03.89,0:04:06.51,*Default,NTP,0000,0000,0000,,And so once again, all the elements
+Dialogue: 0,0:04:06.51,0:04:10.00,*Default,NTP,0000,0000,0000,,got the sans-serif value here inherited
+Dialogue: 0,0:04:10.00,0:04:13.81,*Default,NTP,0000,0000,0000,,for the font family property, all right?
+Dialogue: 0,0:04:13.81,0:04:17.43,*Default,NTP,0000,0000,0000,,And actually, if we go back here one step,
+Dialogue: 0,0:04:19.04,0:04:21.25,*Default,NTP,0000,0000,0000,,so I'm just putting it back.
+Dialogue: 0,0:04:21.25,0:04:24.36,*Default,NTP,0000,0000,0000,,So you see that here the links they're actually still
+Dialogue: 0,0:04:24.36,0:04:27.80,*Default,NTP,0000,0000,0000,,in the serif style, because nowhere in our code,
+Dialogue: 0,0:04:27.80,0:04:32.31,*Default,NTP,0000,0000,0000,,we edit the font family of sans-serif to them, right?
+Dialogue: 0,0:04:33.15,0:04:36.11,*Default,NTP,0000,0000,0000,,So now I'm doing it again here,
+Dialogue: 0,0:04:37.25,0:04:40.87,*Default,NTP,0000,0000,0000,,pasting it here and take a look what happens now?
+Dialogue: 0,0:04:40.87,0:04:43.54,*Default,NTP,0000,0000,0000,,And you see now they are just like
+Dialogue: 0,0:04:43.54,0:04:46.64,*Default,NTP,0000,0000,0000,,the rest of the text in sans-serif.
+Dialogue: 0,0:04:46.64,0:04:50.87,*Default,NTP,0000,0000,0000,,And so actually we no longer need this selector here,
+Dialogue: 0,0:04:50.87,0:04:52.17,*Default,NTP,0000,0000,0000,,we can just get rid of it.
+Dialogue: 0,0:04:53.07,0:04:54.60,*Default,NTP,0000,0000,0000,,And just to be sure,
+Dialogue: 0,0:04:54.60,0:04:58.11,*Default,NTP,0000,0000,0000,,I really want to clarify something here one more time.
+Dialogue: 0,0:04:58.11,0:05:01.54,*Default,NTP,0000,0000,0000,,So this is really elements inheriting values
+Dialogue: 0,0:05:01.54,0:05:05.01,*Default,NTP,0000,0000,0000,,for certain properties from one another.
+Dialogue: 0,0:05:05.01,0:05:08.09,*Default,NTP,0000,0000,0000,,So this is not conflicting selectors
+Dialogue: 0,0:05:08.09,0:05:11.10,*Default,NTP,0000,0000,0000,,or in other words this body selector here
+Dialogue: 0,0:05:11.10,0:05:15.06,*Default,NTP,0000,0000,0000,,is not selecting all of these elements, okay?
+Dialogue: 0,0:05:15.06,0:05:18.08,*Default,NTP,0000,0000,0000,,It does not apply to all the elements
+Dialogue: 0,0:05:18.08,0:05:21.27,*Default,NTP,0000,0000,0000,,instead, what we do is to declare values
+Dialogue: 0,0:05:21.27,0:05:23.20,*Default,NTP,0000,0000,0000,,for these properties here,
+Dialogue: 0,0:05:23.20,0:05:25.89,*Default,NTP,0000,0000,0000,,such as color and font family.
+Dialogue: 0,0:05:25.89,0:05:28.26,*Default,NTP,0000,0000,0000,,And then they simply get passed down
+Dialogue: 0,0:05:28.26,0:05:30.20,*Default,NTP,0000,0000,0000,,to all the child elements
+Dialogue: 0,0:05:30.20,0:05:32.75,*Default,NTP,0000,0000,0000,,that are contained within the body.
+Dialogue: 0,0:05:32.75,0:05:35.05,*Default,NTP,0000,0000,0000,,And so that's why we use the technique
+Dialogue: 0,0:05:35.05,0:05:38.28,*Default,NTP,0000,0000,0000,,of putting these properties that are related to text
+Dialogue: 0,0:05:38.28,0:05:40.89,*Default,NTP,0000,0000,0000,,and to the body, okay?
+Dialogue: 0,0:05:40.89,0:05:42.12,*Default,NTP,0000,0000,0000,,Because these are the ones
+Dialogue: 0,0:05:42.12,0:05:46.35,*Default,NTP,0000,0000,0000,,that we then want all of the elements on the page to have.
+Dialogue: 0,0:05:46.35,0:05:47.70,*Default,NTP,0000,0000,0000,,Now, as I said before,
+Dialogue: 0,0:05:47.70,0:05:51.06,*Default,NTP,0000,0000,0000,,many styles do actually not get inherited,
+Dialogue: 0,0:05:51.06,0:05:53.59,*Default,NTP,0000,0000,0000,,because that would be very impractical
+Dialogue: 0,0:05:53.59,0:05:56.13,*Default,NTP,0000,0000,0000,,for most of the properties.
+Dialogue: 0,0:05:56.13,0:06:00.00,*Default,NTP,0000,0000,0000,,For example, let's say border top,
+Dialogue: 0,0:06:00.00,0:06:04.01,*Default,NTP,0000,0000,0000,,so if we declare a border top of 10 pixels
+Dialogue: 0,0:06:04.01,0:06:08.41,*Default,NTP,0000,0000,0000,,and solid with our blue color to the body,
+Dialogue: 0,0:06:08.41,0:06:10.01,*Default,NTP,0000,0000,0000,,let's see what happens then.
+Dialogue: 0,0:06:10.92,0:06:14.73,*Default,NTP,0000,0000,0000,,And indeed it simply edit this blue border
+Dialogue: 0,0:06:14.73,0:06:17.13,*Default,NTP,0000,0000,0000,,to the top of our body element,
+Dialogue: 0,0:06:17.13,0:06:21.93,*Default,NTP,0000,0000,0000,,but it did not do so to all of the child elements, right?
+Dialogue: 0,0:06:21.93,0:06:25.98,*Default,NTP,0000,0000,0000,,Because again, that would be very, very impractical.
+Dialogue: 0,0:06:25.98,0:06:27.94,*Default,NTP,0000,0000,0000,,And now let's take a quick look
+Dialogue: 0,0:06:27.94,0:06:31.12,*Default,NTP,0000,0000,0000,,at a graphical representation of inheritance
+Dialogue: 0,0:06:31.12,0:06:33.02,*Default,NTP,0000,0000,0000,,to really make it crystal clear.
+Dialogue: 0,0:06:34.22,0:06:37.53,*Default,NTP,0000,0000,0000,,So here we have a very simple example of a webpage,
+Dialogue: 0,0:06:37.53,0:06:42.53,*Default,NTP,0000,0000,0000,,which simply contains a navigation, an H1, and a P element.
+Dialogue: 0,0:06:43.04,0:06:44.31,*Default,NTP,0000,0000,0000,,And on the right side,
+Dialogue: 0,0:06:44.31,0:06:47.50,*Default,NTP,0000,0000,0000,,we also have some styles for the body element
+Dialogue: 0,0:06:47.50,0:06:51.08,*Default,NTP,0000,0000,0000,,and in particular, the color, font size, font family,
+Dialogue: 0,0:06:51.08,0:06:52.95,*Default,NTP,0000,0000,0000,,and border top.
+Dialogue: 0,0:06:52.95,0:06:55.23,*Default,NTP,0000,0000,0000,,Now of course the body element here
+Dialogue: 0,0:06:55.23,0:06:59.28,*Default,NTP,0000,0000,0000,,is the parent element of all these other three elements.
+Dialogue: 0,0:06:59.28,0:07:02.27,*Default,NTP,0000,0000,0000,,And so therefore, thanks to inheritance
+Dialogue: 0,0:07:02.27,0:07:05.24,*Default,NTP,0000,0000,0000,,all of these three elements, basically get access
+Dialogue: 0,0:07:05.24,0:07:09.31,*Default,NTP,0000,0000,0000,,to these three properties that are inherited.
+Dialogue: 0,0:07:09.31,0:07:11.48,*Default,NTP,0000,0000,0000,,And again, all these three properties
+Dialogue: 0,0:07:11.48,0:07:13.73,*Default,NTP,0000,0000,0000,,are basically related to text,
+Dialogue: 0,0:07:13.73,0:07:14.95,*Default,NTP,0000,0000,0000,,while on the other hand,
+Dialogue: 0,0:07:14.95,0:07:18.86,*Default,NTP,0000,0000,0000,,the border property does not get inherited.
+Dialogue: 0,0:07:18.86,0:07:22.53,*Default,NTP,0000,0000,0000,,So not all of the properties do get inherited,
+Dialogue: 0,0:07:22.53,0:07:25.77,*Default,NTP,0000,0000,0000,,but it is mostly the ones related to text.
+Dialogue: 0,0:07:25.77,0:07:28.80,*Default,NTP,0000,0000,0000,,And they have a big list of many of the properties
+Dialogue: 0,0:07:28.80,0:07:30.66,*Default,NTP,0000,0000,0000,,that do get inherited,
+Dialogue: 0,0:07:30.66,0:07:34.35,*Default,NTP,0000,0000,0000,,so you can take a look at them if you'd like.
+Dialogue: 0,0:07:34.35,0:07:37.72,*Default,NTP,0000,0000,0000,,But anyway, let's not say that we also have a rule
+Dialogue: 0,0:07:37.72,0:07:39.89,*Default,NTP,0000,0000,0000,,for the H1 element.
+Dialogue: 0,0:07:39.89,0:07:43.17,*Default,NTP,0000,0000,0000,,And so it declares basically a new color
+Dialogue: 0,0:07:43.17,0:07:45.08,*Default,NTP,0000,0000,0000,,and a new font size.
+Dialogue: 0,0:07:45.08,0:07:48.03,*Default,NTP,0000,0000,0000,,So it's bigger and it is blue.
+Dialogue: 0,0:07:48.03,0:07:51.64,*Default,NTP,0000,0000,0000,,And so what happens now is that these two declarations
+Dialogue: 0,0:07:51.64,0:07:55.39,*Default,NTP,0000,0000,0000,,do actually overwrite the inherited styles.
+Dialogue: 0,0:07:55.39,0:07:59.76,*Default,NTP,0000,0000,0000,,Therefore for the H1, the color is no longer gray
+Dialogue: 0,0:07:59.76,0:08:02.85,*Default,NTP,0000,0000,0000,,and the font size is no longer 16 pixels,
+Dialogue: 0,0:08:02.85,0:08:06.83,*Default,NTP,0000,0000,0000,,but instead it is now blue and 32 pixels.
+Dialogue: 0,0:08:06.83,0:08:11.29,*Default,NTP,0000,0000,0000,,So this is a visual representation of inheritance in action,
+Dialogue: 0,0:08:11.29,0:08:14.14,*Default,NTP,0000,0000,0000,,which I hope makes it a little bit more clear
+Dialogue: 0,0:08:14.14,0:08:16.93,*Default,NTP,0000,0000,0000,,so that you can really understand how it works.
+Dialogue: 0,0:08:16.93,0:08:19.24,*Default,NTP,0000,0000,0000,,So maybe take some more time looking at this
+Dialogue: 0,0:08:19.24,0:08:21.69,*Default,NTP,0000,0000,0000,,and studying this example a little bit more,
+Dialogue: 0,0:08:21.69,0:08:24.39,*Default,NTP,0000,0000,0000,,and then we will actually get one more time
+Dialogue: 0,0:08:24.39,0:08:25.65,*Default,NTP,0000,0000,0000,,back to our code.
+Dialogue: 0,0:08:27.16,0:08:30.05,*Default,NTP,0000,0000,0000,,And what I want to show you now is that inheritance
+Dialogue: 0,0:08:30.05,0:08:33.69,*Default,NTP,0000,0000,0000,,actually also works on a much smaller scale,
+Dialogue: 0,0:08:33.69,0:08:36.70,*Default,NTP,0000,0000,0000,,which is something that we also do all the time.
+Dialogue: 0,0:08:36.70,0:08:40.41,*Default,NTP,0000,0000,0000,,So inheritance is not only helpful by putting styles
+Dialogue: 0,0:08:40.41,0:08:43.92,*Default,NTP,0000,0000,0000,,into the body, but also in other situations.
+Dialogue: 0,0:08:43.92,0:08:45.75,*Default,NTP,0000,0000,0000,,So let's say that we wanted to change
+Dialogue: 0,0:08:45.75,0:08:48.68,*Default,NTP,0000,0000,0000,,the size of these four links here.
+Dialogue: 0,0:08:49.54,0:08:51.65,*Default,NTP,0000,0000,0000,,That would actually be very easy,
+Dialogue: 0,0:08:51.65,0:08:56.65,*Default,NTP,0000,0000,0000,,all we would have to do is to let's go there.
+Dialogue: 0,0:08:56.86,0:08:59.89,*Default,NTP,0000,0000,0000,,So would be to put a class on them
+Dialogue: 0,0:08:59.89,0:09:04.89,*Default,NTP,0000,0000,0000,,and then select these links based on the class, right?
+Dialogue: 0,0:09:04.94,0:09:09.93,*Default,NTP,0000,0000,0000,,Or we could also do something like this,
+Dialogue: 0,0:09:09.93,0:09:13.52,*Default,NTP,0000,0000,0000,,so we could do nav and then select
+Dialogue: 0,0:09:13.52,0:09:15.93,*Default,NTP,0000,0000,0000,,the eight elements in there
+Dialogue: 0,0:09:15.93,0:09:20.25,*Default,NTP,0000,0000,0000,,with the pseudo class off link, right?
+Dialogue: 0,0:09:20.25,0:09:24.83,*Default,NTP,0000,0000,0000,,Let's say we wanted the font size to be 18 pixels,
+Dialogue: 0,0:09:28.74,0:09:31.63,*Default,NTP,0000,0000,0000,,and so you see that that actually worked.
+Dialogue: 0,0:09:32.60,0:09:33.81,*Default,NTP,0000,0000,0000,,But now let's say that we,
+Dialogue: 0,0:09:33.81,0:09:36.83,*Default,NTP,0000,0000,0000,,for some reason also had a paragraph in here
+Dialogue: 0,0:09:36.83,0:09:41.37,*Default,NTP,0000,0000,0000,,saying this is the navigation.
+Dialogue: 0,0:09:42.42,0:09:46.05,*Default,NTP,0000,0000,0000,,And so this is now probably 22 pixels big.
+Dialogue: 0,0:09:47.16,0:09:49.36,*Default,NTP,0000,0000,0000,,Let's see, yeah, because that's the default
+Dialogue: 0,0:09:49.36,0:09:51.78,*Default,NTP,0000,0000,0000,,that we set for the paragraphs,
+Dialogue: 0,0:09:51.78,0:09:54.41,*Default,NTP,0000,0000,0000,,but we also want this to be 18 pixels,
+Dialogue: 0,0:09:54.41,0:09:56.74,*Default,NTP,0000,0000,0000,,just like everything here in our navigation.
+Dialogue: 0,0:09:58.38,0:10:00.16,*Default,NTP,0000,0000,0000,,So, how could we do that?
+Dialogue: 0,0:10:00.16,0:10:04.57,*Default,NTP,0000,0000,0000,,Well, of course we could add that here like this
+Dialogue: 0,0:10:06.17,0:10:09.87,*Default,NTP,0000,0000,0000,,and it would work again, right?
+Dialogue: 0,0:10:09.87,0:10:12.67,*Default,NTP,0000,0000,0000,,But we could also do it in a much better way.
+Dialogue: 0,0:10:13.53,0:10:15.71,*Default,NTP,0000,0000,0000,,So we don't need all of this,
+Dialogue: 0,0:10:16.80,0:10:19.65,*Default,NTP,0000,0000,0000,,all we need to do is to say nav
+Dialogue: 0,0:10:20.84,0:10:25.84,*Default,NTP,0000,0000,0000,,and then set the font size to 18 pixels in here,
+Dialogue: 0,0:10:27.62,0:10:31.37,*Default,NTP,0000,0000,0000,,and then all of the rest should inherit those styles.
+Dialogue: 0,0:10:32.33,0:10:35.81,*Default,NTP,0000,0000,0000,,Now actually the paragraph here does not inherit it
+Dialogue: 0,0:10:35.81,0:10:39.64,*Default,NTP,0000,0000,0000,,because we specifically set a font size of 22
+Dialogue: 0,0:10:39.64,0:10:42.14,*Default,NTP,0000,0000,0000,,for the paragraphs already.
+Dialogue: 0,0:10:42.14,0:10:44.99,*Default,NTP,0000,0000,0000,,So that might not be such a good example,
+Dialogue: 0,0:10:44.99,0:10:48.15,*Default,NTP,0000,0000,0000,,let's use a strong element here.
+Dialogue: 0,0:10:49.72,0:10:53.52,*Default,NTP,0000,0000,0000,,Okay, and so now this should be 18 pixels
+Dialogue: 0,0:10:54.84,0:10:57.17,*Default,NTP,0000,0000,0000,,just as specified here.
+Dialogue: 0,0:10:57.17,0:11:02.17,*Default,NTP,0000,0000,0000,,So if we took this back, then let's see what we got there.
+Dialogue: 0,0:11:05.22,0:11:08.03,*Default,NTP,0000,0000,0000,,All right, so nothing really,
+Dialogue: 0,0:11:08.03,0:11:11.51,*Default,NTP,0000,0000,0000,,but now if this was here turned on,
+Dialogue: 0,0:11:11.51,0:11:16.24,*Default,NTP,0000,0000,0000,,so if we set the font size in the navigation to 18 pixels,
+Dialogue: 0,0:11:16.24,0:11:19.33,*Default,NTP,0000,0000,0000,,then now we could see that the strong element here
+Dialogue: 0,0:11:19.33,0:11:24.33,*Default,NTP,0000,0000,0000,,got the 18 pixels inherited from nav, okay?
+Dialogue: 0,0:11:24.43,0:11:27.18,*Default,NTP,0000,0000,0000,,And so now everything here is 18 pixels
+Dialogue: 0,0:11:27.18,0:11:31.91,*Default,NTP,0000,0000,0000,,and that's thanks to inheritance, okay?
+Dialogue: 0,0:11:31.91,0:11:35.08,*Default,NTP,0000,0000,0000,,So this is a technique that we use all the time,
+Dialogue: 0,0:11:35.08,0:11:38.43,*Default,NTP,0000,0000,0000,,but let's not actually get rid of the strong here.
+Dialogue: 0,0:11:38.43,0:11:41.49,*Default,NTP,0000,0000,0000,,And again, I can actually comment out this code
+Dialogue: 0,0:11:41.49,0:11:43.68,*Default,NTP,0000,0000,0000,,just like we did in CSS before
+Dialogue: 0,0:11:43.68,0:11:47.88,*Default,NTP,0000,0000,0000,,by hitting command or control slash, all right?
+Dialogue: 0,0:11:49.94,0:11:51.46,*Default,NTP,0000,0000,0000,,And now just to finish,
+Dialogue: 0,0:11:51.46,0:11:53.24,*Default,NTP,0000,0000,0000,,there is actually another way
+Dialogue: 0,0:11:53.24,0:11:57.34,*Default,NTP,0000,0000,0000,,of adding some styles to all of the elements.
+Dialogue: 0,0:11:57.34,0:12:01.72,*Default,NTP,0000,0000,0000,,So let's go back up here actually, and I will put it here.
+Dialogue: 0,0:12:01.72,0:12:05.40,*Default,NTP,0000,0000,0000,,And what I'm talking about is the universal selector
+Dialogue: 0,0:12:05.40,0:12:09.73,*Default,NTP,0000,0000,0000,,that I mentioned in the slide about conflicting selectors.
+Dialogue: 0,0:12:12.52,0:12:15.13,*Default,NTP,0000,0000,0000,,So basically the universal selector
+Dialogue: 0,0:12:15.13,0:12:19.01,*Default,NTP,0000,0000,0000,,simply select every single element on the page.
+Dialogue: 0,0:12:19.01,0:12:21.78,*Default,NTP,0000,0000,0000,,And so this is useful if we actually want
+Dialogue: 0,0:12:21.78,0:12:24.82,*Default,NTP,0000,0000,0000,,a certain property applied to all elements,
+Dialogue: 0,0:12:24.82,0:12:27.36,*Default,NTP,0000,0000,0000,,but which does not get inherited.
+Dialogue: 0,0:12:28.22,0:12:32.28,*Default,NTP,0000,0000,0000,,So for example, the color we want on all the elements,
+Dialogue: 0,0:12:32.28,0:12:34.30,*Default,NTP,0000,0000,0000,,but the color gets inherited,
+Dialogue: 0,0:12:34.30,0:12:38.32,*Default,NTP,0000,0000,0000,,and so we can simply put it here in the body, right?
+Dialogue: 0,0:12:38.32,0:12:41.11,*Default,NTP,0000,0000,0000,,However, now imagine that we wanted
+Dialogue: 0,0:12:41.11,0:12:46.11,*Default,NTP,0000,0000,0000,,the border top on all the elements, so this for example.
+Dialogue: 0,0:12:46.53,0:12:50.14,*Default,NTP,0000,0000,0000,,We could paste this here and as we reload
+Dialogue: 0,0:12:50.14,0:12:53.38,*Default,NTP,0000,0000,0000,,we would get this beautiful result.
+Dialogue: 0,0:12:53.38,0:12:55.78,*Default,NTP,0000,0000,0000,,So you see every single elements
+Dialogue: 0,0:12:55.78,0:13:00.23,*Default,NTP,0000,0000,0000,,and that includes like the EM here and the strong.
+Dialogue: 0,0:13:00.23,0:13:05.23,*Default,NTP,0000,0000,0000,,So all of them now have this border top, right?
+Dialogue: 0,0:13:05.52,0:13:09.12,*Default,NTP,0000,0000,0000,,So not really helpful, but it helps demonstrate
+Dialogue: 0,0:13:09.12,0:13:11.55,*Default,NTP,0000,0000,0000,,that we really can apply a certain style
+Dialogue: 0,0:13:11.55,0:13:14.77,*Default,NTP,0000,0000,0000,,to every single element on the page.
+Dialogue: 0,0:13:14.77,0:13:17.26,*Default,NTP,0000,0000,0000,,Just keep in mind that this selector
+Dialogue: 0,0:13:17.26,0:13:20.03,*Default,NTP,0000,0000,0000,,is actually the one with the lowest priority.
+Dialogue: 0,0:13:20.03,0:13:24.73,*Default,NTP,0000,0000,0000,,So it would be very easy to simply overwrite this, okay?
+Dialogue: 0,0:13:24.73,0:13:28.57,*Default,NTP,0000,0000,0000,,Let's say that here we had red on the body,
+Dialogue: 0,0:13:28.57,0:13:30.87,*Default,NTP,0000,0000,0000,,and then this one would be red
+Dialogue: 0,0:13:30.87,0:13:33.33,*Default,NTP,0000,0000,0000,,and only all the other ones would be blue.
+Dialogue: 0,0:13:33.33,0:13:35.97,*Default,NTP,0000,0000,0000,,And again, because this is an element selector
+Dialogue: 0,0:13:35.97,0:13:40.54,*Default,NTP,0000,0000,0000,,and so it has a higher priority than the universal selector.
+Dialogue: 0,0:13:41.99,0:13:43.67,*Default,NTP,0000,0000,0000,,But let's put it back
+Dialogue: 0,0:13:43.67,0:13:47.41,*Default,NTP,0000,0000,0000,,and actually let's turn this one off right here.
+Dialogue: 0,0:13:47.41,0:13:51.47,*Default,NTP,0000,0000,0000,,So the universal selector is actually quite important
+Dialogue: 0,0:13:51.47,0:13:54.31,*Default,NTP,0000,0000,0000,,for now we don't have a big use case for it yet,
+Dialogue: 0,0:13:54.31,0:13:58.54,*Default,NTP,0000,0000,0000,,but we will soon and then I'll explain it a little bit more.
+Dialogue: 0,0:13:58.54,0:14:00.77,*Default,NTP,0000,0000,0000,,But for now, what I want you to understand
+Dialogue: 0,0:14:00.77,0:14:02.72,*Default,NTP,0000,0000,0000,,is that there is a big difference
+Dialogue: 0,0:14:02.72,0:14:04.74,*Default,NTP,0000,0000,0000,,between the universal selector
+Dialogue: 0,0:14:04.74,0:14:06.81,*Default,NTP,0000,0000,0000,,and the body selector.
+Dialogue: 0,0:14:06.81,0:14:09.43,*Default,NTP,0000,0000,0000,,So the universal selector simply applies
+Dialogue: 0,0:14:09.43,0:14:11.22,*Default,NTP,0000,0000,0000,,to all the elements,
+Dialogue: 0,0:14:11.22,0:14:14.27,*Default,NTP,0000,0000,0000,,and there is no inheritance involved.
+Dialogue: 0,0:14:14.27,0:14:16.15,*Default,NTP,0000,0000,0000,,And therefore, this is perfect
+Dialogue: 0,0:14:16.15,0:14:19.01,*Default,NTP,0000,0000,0000,,if you want to apply a certain property,
+Dialogue: 0,0:14:19.01,0:14:21.65,*Default,NTP,0000,0000,0000,,that does not automatically get inherited
+Dialogue: 0,0:14:21.65,0:14:23.70,*Default,NTP,0000,0000,0000,,to all the elements.
+Dialogue: 0,0:14:23.70,0:14:24.71,*Default,NTP,0000,0000,0000,,On the other hand,
+Dialogue: 0,0:14:24.71,0:14:28.52,*Default,NTP,0000,0000,0000,,any style that we put here in the body gets inherited.
+Dialogue: 0,0:14:28.52,0:14:31.69,*Default,NTP,0000,0000,0000,,And so that's simply a completely different mechanism
+Dialogue: 0,0:14:31.69,0:14:33.68,*Default,NTP,0000,0000,0000,,than using the universal selector.

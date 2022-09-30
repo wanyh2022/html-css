@@ -1,0 +1,417 @@
+[Script Info]
+Title: 030 Using Chrome DevTools_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=28&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.43,0:00:03.06,*Default,NTP,0000,0000,0000,,所以每一个现代浏览器
+Dialogue: 0,0:00:03.06,0:00:05.27,*Default,NTP,0000,0000,0000,,包含一组工具，
+Dialogue: 0,0:00:05.27,0:00:09.26,*Default,NTP,0000,0000,0000,,这使我们作为开发人员的生活变得更加轻松。
+Dialogue: 0,0:00:09.26,0:00:11.79,*Default,NTP,0000,0000,0000,,我们将这些工具统称为
+Dialogue: 0,0:00:11.79,0:00:15.52,*Default,NTP,0000,0000,0000,,开发人员工具或简称开发工具。
+Dialogue: 0,0:00:15.52,0:00:16.95,*Default,NTP,0000,0000,0000,,所以在这次讲座中，
+Dialogue: 0,0:00:16.95,0:00:18.70,*Default,NTP,0000,0000,0000,,让我们学习如何使用
+Dialogue: 0,0:00:18.70,0:00:20.68,*Default,NTP,0000,0000,0000,,谷歌浏览器开发工具。
+Dialogue: 0,0:00:22.11,0:00:23.79,*Default,NTP,0000,0000,0000,,让我们给自己
+Dialogue: 0,0:00:23.79,0:00:26.05,*Default,NTP,0000,0000,0000,,这里有更多的空间开始。
+Dialogue: 0,0:00:26.05,0:00:27.93,*Default,NTP,0000,0000,0000,,现在有三种方式
+Dialogue: 0,0:00:27.93,0:00:30.50,*Default,NTP,0000,0000,0000,,打开开发者工具。
+Dialogue: 0,0:00:30.50,0:00:32.02,*Default,NTP,0000,0000,0000,,所以首先，你可以右键单击
+Dialogue: 0,0:00:32.02,0:00:33.52,*Default,NTP,0000,0000,0000,,页面上的任何位置
+Dialogue: 0,0:00:33.52,0:00:37.22,*Default,NTP,0000,0000,0000,,然后单击检查或检查元素。
+Dialogue: 0,0:00:38.44,0:00:40.40,*Default,NTP,0000,0000,0000,,所以这些是开发工具，
+Dialogue: 0,0:00:40.40,0:00:43.04,*Default,NTP,0000,0000,0000,,但让我首先向您展示另外两种方式。
+Dialogue: 0,0:00:43.04,0:00:45.72,*Default,NTP,0000,0000,0000,,第二种方式是来这里
+Dialogue: 0,0:00:45.72,0:00:49.21,*Default,NTP,0000,0000,0000,,到视图菜单，然后是开发人员，
+Dialogue: 0,0:00:49.21,0:00:51.09,*Default,NTP,0000,0000,0000,,然后是这里的开发者工具。
+Dialogue: 0,0:00:52.83,0:00:54.41,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:00:54.41,0:00:57.01,*Default,NTP,0000,0000,0000,,或者第三种方式是捷径
+Dialogue: 0,0:00:57.01,0:01:00.34,*Default,NTP,0000,0000,0000,,在键盘上，那是选项命令
+Dialogue: 0,0:01:00.34,0:01:03.00,*Default,NTP,0000,0000,0000,,或 Windows I 上的选项控制。
+Dialogue: 0,0:01:04.56,0:01:05.79,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:05.79,0:01:07.44,*Default,NTP,0000,0000,0000,,然后我们会想来这里
+Dialogue: 0,0:01:07.44,0:01:11.00,*Default,NTP,0000,0000,0000,,到第一个标签，上面写着元素。
+Dialogue: 0,0:01:12.18,0:01:15.30,*Default,NTP,0000,0000,0000,,把它放大一点
+Dialogue: 0,0:01:15.30,0:01:16.78,*Default,NTP,0000,0000,0000,,所以你实际上可以看到它。
+Dialogue: 0,0:01:18.50,0:01:19.89,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:19.89,0:01:22.34,*Default,NTP,0000,0000,0000,,所以我们可以在这里看到的第一件事
+Dialogue: 0,0:01:22.34,0:01:25.21,*Default,NTP,0000,0000,0000,,在元素选项卡中是确切的 HTML
+Dialogue: 0,0:01:25.21,0:01:29.04,*Default,NTP,0000,0000,0000,,我们在 HTML 文档中编写的。
+Dialogue: 0,0:01:29.04,0:01:30.19,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:01:30.19,0:01:32.32,*Default,NTP,0000,0000,0000,,所以在这里我们可以打开每个元素
+Dialogue: 0,0:01:32.32,0:01:33.83,*Default,NTP,0000,0000,0000,,通过点击它们。
+Dialogue: 0,0:01:33.83,0:01:37.42,*Default,NTP,0000,0000,0000,,然后当我们悬停它们时，
+Dialogue: 0,0:01:37.42,0:01:39.43,*Default,NTP,0000,0000,0000,,他们实际上在这里突出显示
+Dialogue: 0,0:01:39.43,0:01:42.63,*Default,NTP,0000,0000,0000,,在页面上，或者它可能非常有帮助。
+Dialogue: 0,0:01:42.63,0:01:43.73,*Default,NTP,0000,0000,0000,,所以你会看到，例如，
+Dialogue: 0,0:01:43.73,0:01:46.33,*Default,NTP,0000,0000,0000,,我们的标题是整个盒子
+Dialogue: 0,0:01:46.33,0:01:48.95,*Default,NTP,0000,0000,0000,,我们在此处以蓝色突出显示。
+Dialogue: 0,0:01:48.95,0:01:50.26,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:01:50.26,0:01:53.67,*Default,NTP,0000,0000,0000,,就是这样，然后导航就是这一切。
+Dialogue: 0,0:01:53.67,0:01:55.14,*Default,NTP,0000,0000,0000,,如果我们打开它，
+Dialogue: 0,0:01:55.14,0:01:57.45,*Default,NTP,0000,0000,0000,,然后每个链接
+Dialogue: 0,0:01:57.45,0:02:00.56,*Default,NTP,0000,0000,0000,,就是这个很小的盒子吗
+Dialogue: 0,0:02:00.56,0:02:02.96,*Default,NTP,0000,0000,0000,,并肩坐在这里，
+Dialogue: 0,0:02:02.96,0:02:04.63,*Default,NTP,0000,0000,0000,,正如我们所见。
+Dialogue: 0,0:02:04.63,0:02:05.46,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:02:07.82,0:02:09.32,*Default,NTP,0000,0000,0000,,所以这是第一件事
+Dialogue: 0,0:02:09.32,0:02:11.08,*Default,NTP,0000,0000,0000,,我们可以在这里探索。
+Dialogue: 0,0:02:11.08,0:02:12.68,*Default,NTP,0000,0000,0000,,然后第二件事，
+Dialogue: 0,0:02:12.68,0:02:14.52,*Default,NTP,0000,0000,0000,,更重要的是，
+Dialogue: 0,0:02:14.52,0:02:17.74,*Default,NTP,0000,0000,0000,,是左侧的样式选项卡。
+Dialogue: 0,0:02:18.63,0:02:21.20,*Default,NTP,0000,0000,0000,,所以在这里我们可以看到所有的样式
+Dialogue: 0,0:02:21.20,0:02:23.57,*Default,NTP,0000,0000,0000,,已应用于特定元素。
+Dialogue: 0,0:02:24.70,0:02:28.34,*Default,NTP,0000,0000,0000,,所以让我们以H1为例，在这里，
+Dialogue: 0,0:02:28.34,0:02:30.82,*Default,NTP,0000,0000,0000,,然后我们可以点击它。
+Dialogue: 0,0:02:30.82,0:02:32.65,*Default,NTP,0000,0000,0000,,然后在左边，
+Dialogue: 0,0:02:32.65,0:02:34.57,*Default,NTP,0000,0000,0000,,当前的所有样式
+Dialogue: 0,0:02:34.57,0:02:38.02,*Default,NTP,0000,0000,0000,,应用于我们的 CSS 文件中的这个元素
+Dialogue: 0,0:02:38.02,0:02:39.11,*Default,NTP,0000,0000,0000,,在这里显示。
+Dialogue: 0,0:02:40.26,0:02:43.44,*Default,NTP,0000,0000,0000,,所以我们在代码的某个地方有这个规则，
+Dialogue: 0,0:02:43.44,0:02:45.51,*Default,NTP,0000,0000,0000,,将字体设置为 26
+Dialogue: 0,0:02:45.51,0:02:47.37,*Default,NTP,0000,0000,0000,,并完成所有这些。
+Dialogue: 0,0:02:47.37,0:02:48.20,*Default,NTP,0000,0000,0000,,对。
+Dialogue: 0,0:02:48.20,0:02:50.09,*Default,NTP,0000,0000,0000,,然后我们在某个地方也有这个规则，
+Dialogue: 0,0:02:50.09,0:02:51.45,*Default,NTP,0000,0000,0000,,设置颜色。
+Dialogue: 0,0:02:52.40,0:02:56.73,*Default,NTP,0000,0000,0000,,事实上，这里就是这个。
+Dialogue: 0,0:02:56.73,0:02:58.06,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:02:58.06,0:03:00.42,*Default,NTP,0000,0000,0000,,所以第一个就是这个。
+Dialogue: 0,0:03:01.47,0:03:03.68,*Default,NTP,0000,0000,0000,,然后在这里我们得到这个。
+Dialogue: 0,0:03:03.68,0:03:07.28,*Default,NTP,0000,0000,0000,,最后，这里还有这个。
+Dialogue: 0,0:03:08.35,0:03:09.18,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:03:09.18,0:03:11.48,*Default,NTP,0000,0000,0000,,所以这正是这个。
+Dialogue: 0,0:03:13.27,0:03:14.10,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:14.95,0:03:17.11,*Default,NTP,0000,0000,0000,,现在也许你以前想知道
+Dialogue: 0,0:03:17.11,0:03:20.18,*Default,NTP,0000,0000,0000,,为什么这里的文字实际上是粗体的\N00:03:20,180 -->00:03:21,960\N在这个 H1 元素中，\N\N81
+Dialogue: 0,0:03:21.96,0:03:23.50,*Default,NTP,0000,0000,0000,,以及这样做的原因
+Dialogue: 0,0:03:23.50,0:03:26.54,*Default,NTP,0000,0000,0000,,基本上是默认样式。
+Dialogue: 0,0:03:26.54,0:03:30.01,*Default,NTP,0000,0000,0000,,所以H1的那些默认样式
+Dialogue: 0,0:03:30.01,0:03:32.71,*Default,NTP,0000,0000,0000,,是此规则中显示的内容
+Dialogue: 0,0:03:32.71,0:03:35.53,*Default,NTP,0000,0000,0000,,用户代理样式表。
+Dialogue: 0,0:03:35.53,0:03:37.68,*Default,NTP,0000,0000,0000,,所以这只是一个花哨的词
+Dialogue: 0,0:03:37.68,0:03:40.66,*Default,NTP,0000,0000,0000,,基本上是默认样式。
+Dialogue: 0,0:03:40.66,0:03:41.74,*Default,NTP,0000,0000,0000,,而在这里，
+Dialogue: 0,0:03:41.74,0:03:43.72,*Default,NTP,0000,0000,0000,,我们可以看到字体粗细
+Dialogue: 0,0:03:43.72,0:03:46.00,*Default,NTP,0000,0000,0000,,默认设置为粗体。
+Dialogue: 0,0:03:47.28,0:03:48.88,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:48.88,0:03:50.39,*Default,NTP,0000,0000,0000,,那么这里的这个是东西
+Dialogue: 0,0:03:50.39,0:03:53.30,*Default,NTP,0000,0000,0000,,我们很快就会知道。
+Dialogue: 0,0:03:53.30,0:03:56.28,*Default,NTP,0000,0000,0000,,所以暂时不用担心。
+Dialogue: 0,0:03:56.28,0:03:57.47,*Default,NTP,0000,0000,0000,,然后在这里，让我们看看，
+Dialogue: 0,0:03:57.47,0:03:59.13,*Default,NTP,0000,0000,0000,,例如，这些链接。
+Dialogue: 0,0:04:01.12,0:04:03.73,*Default,NTP,0000,0000,0000,,所以这里是他们的代码。
+Dialogue: 0,0:04:03.73,0:04:07.27,*Default,NTP,0000,0000,0000,,所以我们已经应用到它们的 CSS，
+Dialogue: 0,0:04:07.27,0:04:10.53,*Default,NTP,0000,0000,0000,,所以颜色和文字装饰。
+Dialogue: 0,0:04:10.53,0:04:11.43,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:04:11.43,0:04:13.42,*Default,NTP,0000,0000,0000,,但是现在如果我们真的想要
+Dialogue: 0,0:04:13.42,0:04:15.93,*Default,NTP,0000,0000,0000,,在此处添加更多样式。
+Dialogue: 0,0:04:15.93,0:04:18.12,*Default,NTP,0000,0000,0000,,所以我们实际上可以这样做。
+Dialogue: 0,0:04:18.12,0:04:20.61,*Default,NTP,0000,0000,0000,,所以当然只是为了测试目的，
+Dialogue: 0,0:04:20.61,0:04:23.88,*Default,NTP,0000,0000,0000,,我们现在可以添加一个字体大小，比方说，
+Dialogue: 0,0:04:25.89,0:04:28.48,*Default,NTP,0000,0000,0000,,30像素，
+Dialogue: 0,0:04:28.48,0:04:31.52,*Default,NTP,0000,0000,0000,,然后立即在页面上的所有链接。
+Dialogue: 0,0:04:31.52,0:04:33.13,*Default,NTP,0000,0000,0000,,所以不只是这个，
+Dialogue: 0,0:04:33.13,0:04:36.37,*Default,NTP,0000,0000,0000,,还有这个和其他的，
+Dialogue: 0,0:04:36.37,0:04:38.66,*Default,NTP,0000,0000,0000,,它们现在都将具有字体大小，
+Dialogue: 0,0:04:38.66,0:04:40.39,*Default,NTP,0000,0000,0000,,全部 30 个像素。
+Dialogue: 0,0:04:40.39,0:04:44.26,*Default,NTP,0000,0000,0000,,为了测试它，我们可以打开和关闭它。
+Dialogue: 0,0:04:44.26,0:04:45.84,*Default,NTP,0000,0000,0000,,当然我们也可以
+Dialogue: 0,0:04:45.84,0:04:48.65,*Default,NTP,0000,0000,0000,,打开和关闭其他样式
+Dialogue: 0,0:04:48.65,0:04:49.89,*Default,NTP,0000,0000,0000,,只需点击这里。
+Dialogue: 0,0:04:51.63,0:04:53.04,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:04:53.04,0:04:56.10,*Default,NTP,0000,0000,0000,,当然，我们在这里指定的这些值，
+Dialogue: 0,0:04:56.10,0:04:58.95,*Default,NTP,0000,0000,0000,,它们不会影响最终网站。
+Dialogue: 0,0:04:58.95,0:05:01.24,*Default,NTP,0000,0000,0000,,所以我们的代码不会改变
+Dialogue: 0,0:05:01.24,0:05:02.71,*Default,NTP,0000,0000,0000,,如果我们这样做
+Dialogue: 0,0:05:02.71,0:05:05.02,*Default,NTP,0000,0000,0000,,我们可以很容易地证明
+Dialogue: 0,0:05:05.02,0:05:06.38,*Default,NTP,0000,0000,0000,,重新加载页面
+Dialogue: 0,0:05:06.38,0:05:09.41,*Default,NTP,0000,0000,0000,,然后一切恢复正常。
+Dialogue: 0,0:05:09.41,0:05:10.24,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:12.38,0:05:13.89,*Default,NTP,0000,0000,0000,,但这实际上是在探索
+Dialogue: 0,0:05:13.89,0:05:15.54,*Default,NTP,0000,0000,0000,,链接多一点，
+Dialogue: 0,0:05:15.54,0:05:18.41,*Default,NTP,0000,0000,0000,,因为我们可以做一些很酷的事情。
+Dialogue: 0,0:05:18.41,0:05:20.78,*Default,NTP,0000,0000,0000,,所以现在只有
+Dialogue: 0,0:05:20.78,0:05:23.00,*Default,NTP,0000,0000,0000,,此处应用了此 CSS 规则。
+Dialogue: 0,0:05:23.00,0:05:26.72,*Default,NTP,0000,0000,0000,,所以只有一个具有链接伪类的。
+Dialogue: 0,0:05:26.72,0:05:28.23,*Default,NTP,0000,0000,0000,,那是因为现在，
+Dialogue: 0,0:05:28.23,0:05:32.02,*Default,NTP,0000,0000,0000,,链接未悬停或未激活。
+Dialogue: 0,0:05:32.02,0:05:33.39,*Default,NTP,0000,0000,0000,,因此，
+Dialogue: 0,0:05:33.39,0:05:35.39,*Default,NTP,0000,0000,0000,,该样式不适用。
+Dialogue: 0,0:05:36.34,0:05:38.33,*Default,NTP,0000,0000,0000,,然而，点击这里，
+Dialogue: 0,0:05:38.33,0:05:41.69,*Default,NTP,0000,0000,0000,,我们基本上可以伪造这些状态之一。
+Dialogue: 0,0:05:41.69,0:05:43.08,*Default,NTP,0000,0000,0000,,所以我们可以，例如，
+Dialogue: 0,0:05:43.08,0:05:46.97,*Default,NTP,0000,0000,0000,,假装链接当前被悬停。
+Dialogue: 0,0:05:46.97,0:05:49.51,*Default,NTP,0000,0000,0000,,因此，如果我们在悬停时单击此处，
+Dialogue: 0,0:05:49.51,0:05:51.58,*Default,NTP,0000,0000,0000,,然后你看到现在这个规则在这里
+Dialogue: 0,0:05:51.58,0:05:54.65,*Default,NTP,0000,0000,0000,,正在申请，因为现在 A
+Dialogue: 0,0:05:54.65,0:05:57.45,*Default,NTP,0000,0000,0000,,与伪类悬停确实存在。
+Dialogue: 0,0:05:58.46,0:06:00.10,*Default,NTP,0000,0000,0000,,所以让我们在页面上看到它。
+Dialogue: 0,0:06:00.10,0:06:03.30,*Default,NTP,0000,0000,0000,,应该有状态的那个
+Dialogue: 0,0:06:03.30,0:06:06.37,*Default,NTP,0000,0000,0000,,是我在这里实际选择的那个。
+Dialogue: 0,0:06:06.37,0:06:08.23,*Default,NTP,0000,0000,0000,,所以这是我选择的，
+Dialogue: 0,0:06:08.23,0:06:09.48,*Default,NTP,0000,0000,0000,,所以这是一个
+Dialogue: 0,0:06:09.48,0:06:12.21,*Default,NTP,0000,0000,0000,,现在看起来好像它正在盘旋，
+Dialogue: 0,0:06:12.21,0:06:14.07,*Default,NTP,0000,0000,0000,,即使不是。
+Dialogue: 0,0:06:14.07,0:06:15.24,*Default,NTP,0000,0000,0000,,所以这很棒。
+Dialogue: 0,0:06:15.24,0:06:17.30,*Default,NTP,0000,0000,0000,,所以我们可以测试我们的网页
+Dialogue: 0,0:06:17.30,0:06:20.03,*Default,NTP,0000,0000,0000,,实际上不必手动去那里
+Dialogue: 0,0:06:20.03,0:06:21.59,*Default,NTP,0000,0000,0000,,并将鼠标悬停在链接上。
+Dialogue: 0,0:06:23.27,0:06:24.10,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:24.10,0:06:27.89,*Default,NTP,0000,0000,0000,,当然，我们可以在这里为这个做同样的事情.
+Dialogue: 0,0:06:27.89,0:06:31.15,*Default,NTP,0000,0000,0000,,我们可以继续在这里搜索
+Dialogue: 0,0:06:31.15,0:06:32.85,*Default,NTP,0000,0000,0000,,在 HTML 树中，
+Dialogue: 0,0:06:32.85,0:06:35.21,*Default,NTP,0000,0000,0000,,但我发现简单地右键单击更容易
+Dialogue: 0,0:06:35.21,0:06:39.25,*Default,NTP,0000,0000,0000,,在我想要的元素上然后检查。
+Dialogue: 0,0:06:39.25,0:06:42.17,*Default,NTP,0000,0000,0000,,然后自动移动到那里。
+Dialogue: 0,0:06:42.17,0:06:44.33,*Default,NTP,0000,0000,0000,,所以如果我现在点击悬停，
+Dialogue: 0,0:06:44.33,0:06:46.90,*Default,NTP,0000,0000,0000,,然后它自动变成悬停，
+Dialogue: 0,0:06:46.90,0:06:48.74,*Default,NTP,0000,0000,0000,,即使它不是真的。
+Dialogue: 0,0:06:48.74,0:06:51.60,*Default,NTP,0000,0000,0000,,当然，对于主动来说也是如此。
+Dialogue: 0,0:06:53.23,0:06:54.06,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:06:54.06,0:06:55.32,*Default,NTP,0000,0000,0000,,所以它是活跃的，
+Dialogue: 0,0:06:55.32,0:06:57.48,*Default,NTP,0000,0000,0000,,但我们也希望它看起来
+Dialogue: 0,0:06:57.48,0:06:59.46,*Default,NTP,0000,0000,0000,,就像它同时盘旋一样，
+Dialogue: 0,0:06:59.46,0:07:01.18,*Default,NTP,0000,0000,0000,,因为通常当它处于活动状态时，
+Dialogue: 0,0:07:01.18,0:07:02.80,*Default,NTP,0000,0000,0000,,它也悬停。
+Dialogue: 0,0:07:02.80,0:07:03.63,*Default,NTP,0000,0000,0000,,但无论如何，
+Dialogue: 0,0:07:03.63,0:07:05.15,*Default,NTP,0000,0000,0000,,重要的是现在我们有了
+Dialogue: 0,0:07:05.15,0:07:08.73,*Default,NTP,0000,0000,0000,,所有这些规则都适用于这一刻。
+Dialogue: 0,0:07:08.73,0:07:10.21,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:10.21,0:07:13.28,*Default,NTP,0000,0000,0000,,但现在让我们再次将其关闭。
+Dialogue: 0,0:07:14.41,0:07:16.02,*Default,NTP,0000,0000,0000,,是的，
+Dialogue: 0,0:07:16.02,0:07:18.49,*Default,NTP,0000,0000,0000,,我想这实际上就是我必须向你展示的全部内容
+Dialogue: 0,0:07:18.49,0:07:19.75,*Default,NTP,0000,0000,0000,,在此刻。
+Dialogue: 0,0:07:19.75,0:07:21.40,*Default,NTP,0000,0000,0000,,所以我们将使用开发工具
+Dialogue: 0,0:07:21.40,0:07:23.74,*Default,NTP,0000,0000,0000,,在整个课程的剩余时间里，
+Dialogue: 0,0:07:23.74,0:07:26.10,*Default,NTP,0000,0000,0000,,因为这些是绝对必要的
+Dialogue: 0,0:07:26.10,0:07:29.56,*Default,NTP,0000,0000,0000,,以有效的方式创建网站。
+Dialogue: 0,0:07:29.56,0:07:31.70,*Default,NTP,0000,0000,0000,,所以我真的很兴奋
+Dialogue: 0,0:07:31.70,0:07:33.21,*Default,NTP,0000,0000,0000,,当我发现自己
+Dialogue: 0,0:07:33.21,0:07:34.97,*Default,NTP,0000,0000,0000,,关于这些工具
+Dialogue: 0,0:07:34.97,0:07:36.97,*Default,NTP,0000,0000,0000,,我希望你也喜欢它们。
+Dialogue: 0,0:07:36.97,0:07:39.46,*Default,NTP,0000,0000,0000,,而你，也许继续尝试
+Dialogue: 0,0:07:39.46,0:07:42.11,*Default,NTP,0000,0000,0000,,现在有点左右。
+Dialogue: 0,0:07:42.11,0:07:44.73,*Default,NTP,0000,0000,0000,,所以你可以点击任何元素
+Dialogue: 0,0:07:44.73,0:07:46.87,*Default,NTP,0000,0000,0000,,你喜欢和实验的
+Dialogue: 0,0:07:46.87,0:07:48.87,*Default,NTP,0000,0000,0000,,也许有点转弯
+Dialogue: 0,0:07:48.87,0:07:50.57,*Default,NTP,0000,0000,0000,,这些风格的开启和关闭，
+Dialogue: 0,0:07:50.57,0:07:52.64,*Default,NTP,0000,0000,0000,,也许添加一些其他的。
+Dialogue: 0,0:07:52.64,0:07:54.24,*Default,NTP,0000,0000,0000,,它真的有点分析
+Dialogue: 0,0:07:54.24,0:07:55.46,*Default,NTP,0000,0000,0000,,这里发生了什么
+Dialogue: 0,0:07:55.46,0:07:58.33,*Default,NTP,0000,0000,0000,,应用所有这些不同的规则。
+Dialogue: 0,0:07:58.33,0:07:59.91,*Default,NTP,0000,0000,0000,,所以玩得开心点。
+Dialogue: 0,0:07:59.91,0:08:02.20,*Default,NTP,0000,0000,0000,,我很快就会在下一个视频中见到你。
+Dialogue: 0,0:00:01.43,0:00:03.06,*Default,NTP,0000,0000,0000,,So every modern browser
+Dialogue: 0,0:00:03.06,0:00:05.27,*Default,NTP,0000,0000,0000,,contains a set of tools,
+Dialogue: 0,0:00:05.27,0:00:09.26,*Default,NTP,0000,0000,0000,,which makes our lives as developers a lot easier.
+Dialogue: 0,0:00:09.26,0:00:11.79,*Default,NTP,0000,0000,0000,,And we call these tools collectively
+Dialogue: 0,0:00:11.79,0:00:15.52,*Default,NTP,0000,0000,0000,,developer tools or for short dev tools.
+Dialogue: 0,0:00:15.52,0:00:16.95,*Default,NTP,0000,0000,0000,,And so in this lecture,
+Dialogue: 0,0:00:16.95,0:00:18.70,*Default,NTP,0000,0000,0000,,let's learn how to use
+Dialogue: 0,0:00:18.70,0:00:20.68,*Default,NTP,0000,0000,0000,,the Google Chrome Dev Tools.
+Dialogue: 0,0:00:22.11,0:00:23.79,*Default,NTP,0000,0000,0000,,And let's give ourselves
+Dialogue: 0,0:00:23.79,0:00:26.05,*Default,NTP,0000,0000,0000,,some more space here to start.
+Dialogue: 0,0:00:26.05,0:00:27.93,*Default,NTP,0000,0000,0000,,And now there are three ways
+Dialogue: 0,0:00:27.93,0:00:30.50,*Default,NTP,0000,0000,0000,,to open up the developer tools.
+Dialogue: 0,0:00:30.50,0:00:32.02,*Default,NTP,0000,0000,0000,,So first, you can right click
+Dialogue: 0,0:00:32.02,0:00:33.52,*Default,NTP,0000,0000,0000,,anywhere on the page
+Dialogue: 0,0:00:33.52,0:00:37.22,*Default,NTP,0000,0000,0000,,and then click inspect or inspect element.
+Dialogue: 0,0:00:38.44,0:00:40.40,*Default,NTP,0000,0000,0000,,So these are the dev tools,
+Dialogue: 0,0:00:40.40,0:00:43.04,*Default,NTP,0000,0000,0000,,but let me first show you two other ways.
+Dialogue: 0,0:00:43.04,0:00:45.72,*Default,NTP,0000,0000,0000,,The second way is to come here
+Dialogue: 0,0:00:45.72,0:00:49.21,*Default,NTP,0000,0000,0000,,to the view menu, then developer,
+Dialogue: 0,0:00:49.21,0:00:51.09,*Default,NTP,0000,0000,0000,,and then here developer tools.
+Dialogue: 0,0:00:52.83,0:00:54.41,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:00:54.41,0:00:57.01,*Default,NTP,0000,0000,0000,,Or the third way is a shortcut
+Dialogue: 0,0:00:57.01,0:01:00.34,*Default,NTP,0000,0000,0000,,on the keyboard and that is option command
+Dialogue: 0,0:01:00.34,0:01:03.00,*Default,NTP,0000,0000,0000,,or option control on Windows I.
+Dialogue: 0,0:01:04.56,0:01:05.79,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:01:05.79,0:01:07.44,*Default,NTP,0000,0000,0000,,And then we will want to come here
+Dialogue: 0,0:01:07.44,0:01:11.00,*Default,NTP,0000,0000,0000,,to the very first tab, which says, elements.
+Dialogue: 0,0:01:12.18,0:01:15.30,*Default,NTP,0000,0000,0000,,Just make this a bit bigger
+Dialogue: 0,0:01:15.30,0:01:16.78,*Default,NTP,0000,0000,0000,,so you can actually see it.
+Dialogue: 0,0:01:18.50,0:01:19.89,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:01:19.89,0:01:22.34,*Default,NTP,0000,0000,0000,,So the first thing that we can see here
+Dialogue: 0,0:01:22.34,0:01:25.21,*Default,NTP,0000,0000,0000,,in the elements tab is the exact HTML
+Dialogue: 0,0:01:25.21,0:01:29.04,*Default,NTP,0000,0000,0000,,that we wrote in our HTML documents.
+Dialogue: 0,0:01:29.04,0:01:30.19,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:01:30.19,0:01:32.32,*Default,NTP,0000,0000,0000,,So here we can open up each element
+Dialogue: 0,0:01:32.32,0:01:33.83,*Default,NTP,0000,0000,0000,,by clicking on them.
+Dialogue: 0,0:01:33.83,0:01:37.42,*Default,NTP,0000,0000,0000,,And then as we hover them,
+Dialogue: 0,0:01:37.42,0:01:39.43,*Default,NTP,0000,0000,0000,,they actually get highlighted here
+Dialogue: 0,0:01:39.43,0:01:42.63,*Default,NTP,0000,0000,0000,,on the page or it can be very helpful.
+Dialogue: 0,0:01:42.63,0:01:43.73,*Default,NTP,0000,0000,0000,,So you'll see, for example,
+Dialogue: 0,0:01:43.73,0:01:46.33,*Default,NTP,0000,0000,0000,,that our header is this entire box
+Dialogue: 0,0:01:46.33,0:01:48.95,*Default,NTP,0000,0000,0000,,that we see highlighted here in blue.
+Dialogue: 0,0:01:48.95,0:01:50.26,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:01:50.26,0:01:53.67,*Default,NTP,0000,0000,0000,,So that's this then the navigation is all this.
+Dialogue: 0,0:01:53.67,0:01:55.14,*Default,NTP,0000,0000,0000,,And if we open it,
+Dialogue: 0,0:01:55.14,0:01:57.45,*Default,NTP,0000,0000,0000,,then each of these links
+Dialogue: 0,0:01:57.45,0:02:00.56,*Default,NTP,0000,0000,0000,,is just this very small box here
+Dialogue: 0,0:02:00.56,0:02:02.96,*Default,NTP,0000,0000,0000,,and there sitting here side by side,
+Dialogue: 0,0:02:02.96,0:02:04.63,*Default,NTP,0000,0000,0000,,as we can see.
+Dialogue: 0,0:02:04.63,0:02:05.46,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:02:07.82,0:02:09.32,*Default,NTP,0000,0000,0000,,So that is the first thing
+Dialogue: 0,0:02:09.32,0:02:11.08,*Default,NTP,0000,0000,0000,,that we can explore here.
+Dialogue: 0,0:02:11.08,0:02:12.68,*Default,NTP,0000,0000,0000,,And then the second thing,
+Dialogue: 0,0:02:12.68,0:02:14.52,*Default,NTP,0000,0000,0000,,and even more important,
+Dialogue: 0,0:02:14.52,0:02:17.74,*Default,NTP,0000,0000,0000,,is the style tab here on the left side.
+Dialogue: 0,0:02:18.63,0:02:21.20,*Default,NTP,0000,0000,0000,,So here we can see all the styles
+Dialogue: 0,0:02:21.20,0:02:23.57,*Default,NTP,0000,0000,0000,,that have been applied to a certain element.
+Dialogue: 0,0:02:24.70,0:02:28.34,*Default,NTP,0000,0000,0000,,So let's go to the H1 for example, here,
+Dialogue: 0,0:02:28.34,0:02:30.82,*Default,NTP,0000,0000,0000,,and then we can click it.
+Dialogue: 0,0:02:30.82,0:02:32.65,*Default,NTP,0000,0000,0000,,And then here on the left side,
+Dialogue: 0,0:02:32.65,0:02:34.57,*Default,NTP,0000,0000,0000,,all the styles that are currently
+Dialogue: 0,0:02:34.57,0:02:38.02,*Default,NTP,0000,0000,0000,,applied to this element in our CSS file
+Dialogue: 0,0:02:38.02,0:02:39.11,*Default,NTP,0000,0000,0000,,are displayed here.
+Dialogue: 0,0:02:40.26,0:02:43.44,*Default,NTP,0000,0000,0000,,So we have this rule somewhere in our code,
+Dialogue: 0,0:02:43.44,0:02:45.51,*Default,NTP,0000,0000,0000,,which sets the font of 26
+Dialogue: 0,0:02:45.51,0:02:47.37,*Default,NTP,0000,0000,0000,,and does all of this.
+Dialogue: 0,0:02:47.37,0:02:48.20,*Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:02:48.20,0:02:50.09,*Default,NTP,0000,0000,0000,,Then we also have this rule somewhere,
+Dialogue: 0,0:02:50.09,0:02:51.45,*Default,NTP,0000,0000,0000,,which sets the color.
+Dialogue: 0,0:02:52.40,0:02:56.73,*Default,NTP,0000,0000,0000,,And in fact it is this one here.
+Dialogue: 0,0:02:56.73,0:02:58.06,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:02:58.06,0:03:00.42,*Default,NTP,0000,0000,0000,,So this first one is this.
+Dialogue: 0,0:03:01.47,0:03:03.68,*Default,NTP,0000,0000,0000,,Then here we get this one.
+Dialogue: 0,0:03:03.68,0:03:07.28,*Default,NTP,0000,0000,0000,,And finally, there's also this one here.
+Dialogue: 0,0:03:08.35,0:03:09.18,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:03:09.18,0:03:11.48,*Default,NTP,0000,0000,0000,,And so that is exactly this one.
+Dialogue: 0,0:03:13.27,0:03:14.10,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:14.95,0:03:17.11,*Default,NTP,0000,0000,0000,,Now maybe you had wondered before
+Dialogue: 0,0:03:17.11,0:03:20.18,*Default,NTP,0000,0000,0000,,why the text here is actually bold
+Dialogue: 0,0:03:20.18,0:03:21.96,*Default,NTP,0000,0000,0000,,in this H1 element,
+Dialogue: 0,0:03:21.96,0:03:23.50,*Default,NTP,0000,0000,0000,,and the reason for that
+Dialogue: 0,0:03:23.50,0:03:26.54,*Default,NTP,0000,0000,0000,,is basically the default style.
+Dialogue: 0,0:03:26.54,0:03:30.01,*Default,NTP,0000,0000,0000,,So those default styles for the H1
+Dialogue: 0,0:03:30.01,0:03:32.71,*Default,NTP,0000,0000,0000,,are what are displayed here in this rule
+Dialogue: 0,0:03:32.71,0:03:35.53,*Default,NTP,0000,0000,0000,,of the user agent style sheet.
+Dialogue: 0,0:03:35.53,0:03:37.68,*Default,NTP,0000,0000,0000,,So that's just a fancy word
+Dialogue: 0,0:03:37.68,0:03:40.66,*Default,NTP,0000,0000,0000,,for basically the default style.
+Dialogue: 0,0:03:40.66,0:03:41.74,*Default,NTP,0000,0000,0000,,And down here,
+Dialogue: 0,0:03:41.74,0:03:43.72,*Default,NTP,0000,0000,0000,,we can see that the font weight
+Dialogue: 0,0:03:43.72,0:03:46.00,*Default,NTP,0000,0000,0000,,is set to bold by default.
+Dialogue: 0,0:03:47.28,0:03:48.88,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:48.88,0:03:50.39,*Default,NTP,0000,0000,0000,,Then this one here is something
+Dialogue: 0,0:03:50.39,0:03:53.30,*Default,NTP,0000,0000,0000,,that we will learn about very soon.
+Dialogue: 0,0:03:53.30,0:03:56.28,*Default,NTP,0000,0000,0000,,So don't worry about it for now.
+Dialogue: 0,0:03:56.28,0:03:57.47,*Default,NTP,0000,0000,0000,,And then here, let's see,
+Dialogue: 0,0:03:57.47,0:03:59.13,*Default,NTP,0000,0000,0000,,for example, these links.
+Dialogue: 0,0:04:01.12,0:04:03.73,*Default,NTP,0000,0000,0000,,And so here is the code for them.
+Dialogue: 0,0:04:03.73,0:04:07.27,*Default,NTP,0000,0000,0000,,So the CSS that we had applied to them already,
+Dialogue: 0,0:04:07.27,0:04:10.53,*Default,NTP,0000,0000,0000,,so the color and the text decoration.
+Dialogue: 0,0:04:10.53,0:04:11.43,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:04:11.43,0:04:13.42,*Default,NTP,0000,0000,0000,,But now what if we actually wanted
+Dialogue: 0,0:04:13.42,0:04:15.93,*Default,NTP,0000,0000,0000,,to add some more styles here.
+Dialogue: 0,0:04:15.93,0:04:18.12,*Default,NTP,0000,0000,0000,,So we could actually do that.
+Dialogue: 0,0:04:18.12,0:04:20.61,*Default,NTP,0000,0000,0000,,So just for testing purposes of course,
+Dialogue: 0,0:04:20.61,0:04:23.88,*Default,NTP,0000,0000,0000,,we could now add a font size, let's say,
+Dialogue: 0,0:04:25.89,0:04:28.48,*Default,NTP,0000,0000,0000,,of 30 pixels,
+Dialogue: 0,0:04:28.48,0:04:31.52,*Default,NTP,0000,0000,0000,,and then immediately all the links on the page.
+Dialogue: 0,0:04:31.52,0:04:33.13,*Default,NTP,0000,0000,0000,,So not just this one,
+Dialogue: 0,0:04:33.13,0:04:36.37,*Default,NTP,0000,0000,0000,,but also this one and the other ones,
+Dialogue: 0,0:04:36.37,0:04:38.66,*Default,NTP,0000,0000,0000,,all of them will now have the font size,
+Dialogue: 0,0:04:38.66,0:04:40.39,*Default,NTP,0000,0000,0000,,all 30 pixels.
+Dialogue: 0,0:04:40.39,0:04:44.26,*Default,NTP,0000,0000,0000,,And to test that, we can then turn it on and off.
+Dialogue: 0,0:04:44.26,0:04:45.84,*Default,NTP,0000,0000,0000,,And of course we can also
+Dialogue: 0,0:04:45.84,0:04:48.65,*Default,NTP,0000,0000,0000,,turn the other styles on and off
+Dialogue: 0,0:04:48.65,0:04:49.89,*Default,NTP,0000,0000,0000,,simply by clicking here.
+Dialogue: 0,0:04:51.63,0:04:53.04,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:04:53.04,0:04:56.10,*Default,NTP,0000,0000,0000,,And of course these values that we specify here,
+Dialogue: 0,0:04:56.10,0:04:58.95,*Default,NTP,0000,0000,0000,,they will not affect the final website.
+Dialogue: 0,0:04:58.95,0:05:01.24,*Default,NTP,0000,0000,0000,,So our code does not get changed
+Dialogue: 0,0:05:01.24,0:05:02.71,*Default,NTP,0000,0000,0000,,if we do this
+Dialogue: 0,0:05:02.71,0:05:05.02,*Default,NTP,0000,0000,0000,,and we can prove that by very easily
+Dialogue: 0,0:05:05.02,0:05:06.38,*Default,NTP,0000,0000,0000,,reload the page
+Dialogue: 0,0:05:06.38,0:05:09.41,*Default,NTP,0000,0000,0000,,and then everything is back to normal.
+Dialogue: 0,0:05:09.41,0:05:10.24,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:05:12.38,0:05:13.89,*Default,NTP,0000,0000,0000,,But that's actually exploring
+Dialogue: 0,0:05:13.89,0:05:15.54,*Default,NTP,0000,0000,0000,,links a little bit more,
+Dialogue: 0,0:05:15.54,0:05:18.41,*Default,NTP,0000,0000,0000,,because there's something cool that we can do.
+Dialogue: 0,0:05:18.41,0:05:20.78,*Default,NTP,0000,0000,0000,,So right now, there is only
+Dialogue: 0,0:05:20.78,0:05:23.00,*Default,NTP,0000,0000,0000,,this CSS rule here applied.
+Dialogue: 0,0:05:23.00,0:05:26.72,*Default,NTP,0000,0000,0000,,So only the one that has the link pseudo class.
+Dialogue: 0,0:05:26.72,0:05:28.23,*Default,NTP,0000,0000,0000,,And that's because of right now,
+Dialogue: 0,0:05:28.23,0:05:32.02,*Default,NTP,0000,0000,0000,,the link is not being hovered or it's not active.
+Dialogue: 0,0:05:32.02,0:05:33.39,*Default,NTP,0000,0000,0000,,And so therefore,
+Dialogue: 0,0:05:33.39,0:05:35.39,*Default,NTP,0000,0000,0000,,the style for that does not apply.
+Dialogue: 0,0:05:36.34,0:05:38.33,*Default,NTP,0000,0000,0000,,However, by clicking here,
+Dialogue: 0,0:05:38.33,0:05:41.69,*Default,NTP,0000,0000,0000,,we can basically fake one of these states.
+Dialogue: 0,0:05:41.69,0:05:43.08,*Default,NTP,0000,0000,0000,,So we can, for example,
+Dialogue: 0,0:05:43.08,0:05:46.97,*Default,NTP,0000,0000,0000,,fake that the link is currently being hovered.
+Dialogue: 0,0:05:46.97,0:05:49.51,*Default,NTP,0000,0000,0000,,So if we click here on hover,
+Dialogue: 0,0:05:49.51,0:05:51.58,*Default,NTP,0000,0000,0000,,then you see that now this rule here
+Dialogue: 0,0:05:51.58,0:05:54.65,*Default,NTP,0000,0000,0000,,is applying, because now A
+Dialogue: 0,0:05:54.65,0:05:57.45,*Default,NTP,0000,0000,0000,,with the pseudo class hover does actually exist.
+Dialogue: 0,0:05:58.46,0:06:00.10,*Default,NTP,0000,0000,0000,,So let's see that on the page.
+Dialogue: 0,0:06:00.10,0:06:03.30,*Default,NTP,0000,0000,0000,,And the one that should have the state
+Dialogue: 0,0:06:03.30,0:06:06.37,*Default,NTP,0000,0000,0000,,is the one that I actually have selected here.
+Dialogue: 0,0:06:06.37,0:06:08.23,*Default,NTP,0000,0000,0000,,So this is the one that I selected,
+Dialogue: 0,0:06:08.23,0:06:09.48,*Default,NTP,0000,0000,0000,,and so this is the one
+Dialogue: 0,0:06:09.48,0:06:12.21,*Default,NTP,0000,0000,0000,,that now looks as if it is being hovered,
+Dialogue: 0,0:06:12.21,0:06:14.07,*Default,NTP,0000,0000,0000,,even though it is not.
+Dialogue: 0,0:06:14.07,0:06:15.24,*Default,NTP,0000,0000,0000,,And so this is great.
+Dialogue: 0,0:06:15.24,0:06:17.30,*Default,NTP,0000,0000,0000,,So we can test our webpage
+Dialogue: 0,0:06:17.30,0:06:20.03,*Default,NTP,0000,0000,0000,,without actually having to manually go there
+Dialogue: 0,0:06:20.03,0:06:21.59,*Default,NTP,0000,0000,0000,,and hover over the links.
+Dialogue: 0,0:06:23.27,0:06:24.10,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:24.10,0:06:27.89,*Default,NTP,0000,0000,0000,,Of course we can do the same for this one here.
+Dialogue: 0,0:06:27.89,0:06:31.15,*Default,NTP,0000,0000,0000,,And we could go ahead and search that here
+Dialogue: 0,0:06:31.15,0:06:32.85,*Default,NTP,0000,0000,0000,,in the HTML tree,
+Dialogue: 0,0:06:32.85,0:06:35.21,*Default,NTP,0000,0000,0000,,but I find it easier to simply right click
+Dialogue: 0,0:06:35.21,0:06:39.25,*Default,NTP,0000,0000,0000,,on the element that I want and then inspect.
+Dialogue: 0,0:06:39.25,0:06:42.17,*Default,NTP,0000,0000,0000,,And so that then automatically moves there.
+Dialogue: 0,0:06:42.17,0:06:44.33,*Default,NTP,0000,0000,0000,,So if I click on hover now,
+Dialogue: 0,0:06:44.33,0:06:46.90,*Default,NTP,0000,0000,0000,,then it automatically becomes hover,
+Dialogue: 0,0:06:46.90,0:06:48.74,*Default,NTP,0000,0000,0000,,even though it's not really.
+Dialogue: 0,0:06:48.74,0:06:51.60,*Default,NTP,0000,0000,0000,,And the same of course, for active.
+Dialogue: 0,0:06:53.23,0:06:54.06,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:06:54.06,0:06:55.32,*Default,NTP,0000,0000,0000,,So it's active,
+Dialogue: 0,0:06:55.32,0:06:57.48,*Default,NTP,0000,0000,0000,,but we also want it to look
+Dialogue: 0,0:06:57.48,0:06:59.46,*Default,NTP,0000,0000,0000,,like it's hovered at the same time,
+Dialogue: 0,0:06:59.46,0:07:01.18,*Default,NTP,0000,0000,0000,,because usually when it's active,
+Dialogue: 0,0:07:01.18,0:07:02.80,*Default,NTP,0000,0000,0000,,it is also hovered.
+Dialogue: 0,0:07:02.80,0:07:03.63,*Default,NTP,0000,0000,0000,,But anyway,
+Dialogue: 0,0:07:03.63,0:07:05.15,*Default,NTP,0000,0000,0000,,what matters is that now we have
+Dialogue: 0,0:07:05.15,0:07:08.73,*Default,NTP,0000,0000,0000,,all these rules here applying in this moment.
+Dialogue: 0,0:07:08.73,0:07:10.21,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:07:10.21,0:07:13.28,*Default,NTP,0000,0000,0000,,But now let's turn it off again.
+Dialogue: 0,0:07:14.41,0:07:16.02,*Default,NTP,0000,0000,0000,,And yeah,
+Dialogue: 0,0:07:16.02,0:07:18.49,*Default,NTP,0000,0000,0000,,I think that's actually all I had to show you
+Dialogue: 0,0:07:18.49,0:07:19.75,*Default,NTP,0000,0000,0000,,at this point.
+Dialogue: 0,0:07:19.75,0:07:21.40,*Default,NTP,0000,0000,0000,,So we're going to use the dev tools
+Dialogue: 0,0:07:21.40,0:07:23.74,*Default,NTP,0000,0000,0000,,all the time throughout the rest of the course,
+Dialogue: 0,0:07:23.74,0:07:26.10,*Default,NTP,0000,0000,0000,,because these are absolutely essential
+Dialogue: 0,0:07:26.10,0:07:29.56,*Default,NTP,0000,0000,0000,,to create a website in an efficient way.
+Dialogue: 0,0:07:29.56,0:07:31.70,*Default,NTP,0000,0000,0000,,So I was actually really excited
+Dialogue: 0,0:07:31.70,0:07:33.21,*Default,NTP,0000,0000,0000,,when I found out myself
+Dialogue: 0,0:07:33.21,0:07:34.97,*Default,NTP,0000,0000,0000,,about these tools
+Dialogue: 0,0:07:34.97,0:07:36.97,*Default,NTP,0000,0000,0000,,and I hope you liked them as well.
+Dialogue: 0,0:07:36.97,0:07:39.46,*Default,NTP,0000,0000,0000,,And that you, maybe go ahead and experiment
+Dialogue: 0,0:07:39.46,0:07:42.11,*Default,NTP,0000,0000,0000,,around a little bit with this now.
+Dialogue: 0,0:07:42.11,0:07:44.73,*Default,NTP,0000,0000,0000,,So you can just click on any element
+Dialogue: 0,0:07:44.73,0:07:46.87,*Default,NTP,0000,0000,0000,,that you'd like and experiment
+Dialogue: 0,0:07:46.87,0:07:48.87,*Default,NTP,0000,0000,0000,,maybe a little bit with turning
+Dialogue: 0,0:07:48.87,0:07:50.57,*Default,NTP,0000,0000,0000,,these styles on and off,
+Dialogue: 0,0:07:50.57,0:07:52.64,*Default,NTP,0000,0000,0000,,maybe adding some other ones.
+Dialogue: 0,0:07:52.64,0:07:54.24,*Default,NTP,0000,0000,0000,,And it's really analyzing a bit
+Dialogue: 0,0:07:54.24,0:07:55.46,*Default,NTP,0000,0000,0000,,what happens here
+Dialogue: 0,0:07:55.46,0:07:58.33,*Default,NTP,0000,0000,0000,,with all these different rules being applied.
+Dialogue: 0,0:07:58.33,0:07:59.91,*Default,NTP,0000,0000,0000,,So have some fun with that.
+Dialogue: 0,0:07:59.91,0:08:02.20,*Default,NTP,0000,0000,0000,,And I see you soon in the next video.

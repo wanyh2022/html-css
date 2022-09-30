@@ -1,0 +1,362 @@
+[Script Info]
+Title: 029 Styling Hyperlinks_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=27&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.31,0:00:03.80,*Default,NTP,0000,0000,0000,,好的。在本次讲座中，
+Dialogue: 0,0:00:03.80,0:00:08.42,*Default,NTP,0000,0000,0000,,我们将学习如何使用伪类来设置超链接的样式，
+Dialogue: 0,0:00:09.92,0:00:14.31,*Default,NTP,0000,0000,0000,,但让我们先在这里快速修复这个红色文本
+Dialogue: 0,0:00:14.31,0:00:16.22,*Default,NTP,0000,0000,0000,,我们不想要的。
+Dialogue: 0,0:00:16.22,0:00:19.71,*Default,NTP,0000,0000,0000,,实际上我在这里要做的就是把它放回去
+Dialogue: 0,0:00:19.71,0:00:21.36,*Default,NTP,0000,0000,0000,,对第一个孩子，
+Dialogue: 0,0:00:21.36,0:00:24.97,*Default,NTP,0000,0000,0000,,记住这不起作用，然后我会发表评论
+Dialogue: 0,0:00:24.97,0:00:29.34,*Default,NTP,0000,0000,0000,,这里使用命令或控制斜杠。
+Dialogue: 0,0:00:29.34,0:00:34.09,*Default,NTP,0000,0000,0000,,然后我会简单地写下这就是误解
+Dialogue: 0,0:00:34.09,0:00:36.16,*Default,NTP,0000,0000,0000,,我们在上一个视频中谈到的。
+Dialogue: 0,0:00:37.11,0:00:41.19,*Default,NTP,0000,0000,0000,,所以这行不通。
+Dialogue: 0,0:00:41.19,0:00:42.65,*Default,NTP,0000,0000,0000,,好的。所以有了这个，
+Dialogue: 0,0:00:42.65,0:00:46.22,*Default,NTP,0000,0000,0000,,我们开始稍微记录一下我们的代码。
+Dialogue: 0,0:00:47.74,0:00:51.32,*Default,NTP,0000,0000,0000,,所以现在我将在这里添加另一条评论
+Dialogue: 0,0:00:51.32,0:00:56.32,*Default,NTP,0000,0000,0000,,在这里，我们现在将设置链接或超链接的样式。
+Dialogue: 0,0:00:57.34,0:01:01.47,*Default,NTP,0000,0000,0000,,现在我们可以认为这就是我们样式链接的方式。
+Dialogue: 0,0:01:01.47,0:01:04.41,*Default,NTP,0000,0000,0000,,所以我们只写A。
+Dialogue: 0,0:01:04.41,0:01:08.39,*Default,NTP,0000,0000,0000,,所以选择页面上的所有锚元素
+Dialogue: 0,0:01:08.39,0:01:11.67,*Default,NTP,0000,0000,0000,,然后我们可以，例如，设计他们的颜色。
+Dialogue: 0,0:01:13.00,0:01:14.64,*Default,NTP,0000,0000,0000,,而且，让我们这么说
+Dialogue: 0,0:01:14.64,0:01:17.96,*Default,NTP,0000,0000,0000,,我们想在这里使用同样的蓝色。
+Dialogue: 0,0:01:17.96,0:01:22.47,*Default,NTP,0000,0000,0000,,然后当我们重新加载它实际上这个链接
+Dialogue: 0,0:01:22.47,0:01:24.20,*Default,NTP,0000,0000,0000,,看起来已经不错了。
+Dialogue: 0,0:01:24.20,0:01:29.10,*Default,NTP,0000,0000,0000,,所以这个变成了蓝色，而这些在下面
+Dialogue: 0,0:01:29.10,0:01:31.32,*Default,NTP,0000,0000,0000,,可能还有这些。
+Dialogue: 0,0:01:31.32,0:01:32.63,*Default,NTP,0000,0000,0000,,是的，对。
+Dialogue: 0,0:01:32.63,0:01:37.32,*Default,NTP,0000,0000,0000,,然而，简单地这样做，实际上并不是一个好的做法。
+Dialogue: 0,0:01:37.32,0:01:41.25,*Default,NTP,0000,0000,0000,,所以我们不应该简单地选择锚并设置它的样式。
+Dialogue: 0,0:01:41.25,0:01:45.14,*Default,NTP,0000,0000,0000,,相反，我们应该设置锚的伪类
+Dialogue: 0,0:01:45.14,0:01:48.98,*Default,NTP,0000,0000,0000,,因为这将使我们能够针对不同的状态。
+Dialogue: 0,0:01:48.98,0:01:51.29,*Default,NTP,0000,0000,0000,,所以我们要设置样式的第一个
+Dialogue: 0,0:01:51.29,0:01:53.42,*Default,NTP,0000,0000,0000,,是链接伪类。
+Dialogue: 0,0:01:54.58,0:01:58.12,*Default,NTP,0000,0000,0000,,所以这基本上会针对所有的锚元素
+Dialogue: 0,0:01:58.12,0:02:00.70,*Default,NTP,0000,0000,0000,,具有 href 属性的，
+Dialogue: 0,0:02:00.70,0:02:04.57,*Default,NTP,0000,0000,0000,,因为请记住，我们实际上可以指定锚点，
+Dialogue: 0,0:02:04.57,0:02:08.37,*Default,NTP,0000,0000,0000,,所以 A 元素没有 href 属性。
+Dialogue: 0,0:02:08.37,0:02:11.49,*Default,NTP,0000,0000,0000,,因此，他们将成为我们拥有的代码的目标
+Dialogue: 0,0:02:11.49,0:02:15.14,*Default,NTP,0000,0000,0000,,之前，即使它们不是真正的链接。
+Dialogue: 0,0:02:15.14,0:02:16.43,*Default,NTP,0000,0000,0000,,但有了这个，
+Dialogue: 0,0:02:16.43,0:02:19.86,*Default,NTP,0000,0000,0000,,所以通过指定链接伪类，
+Dialogue: 0,0:02:19.86,0:02:22.98,*Default,NTP,0000,0000,0000,,这将只针对实际链接。
+Dialogue: 0,0:02:22.98,0:02:26.16,*Default,NTP,0000,0000,0000,,因此，如果我们重新加载，它仍然看起来不错。
+Dialogue: 0,0:02:26.16,0:02:28.46,*Default,NTP,0000,0000,0000,,让我很快地向你展示这一点。
+Dialogue: 0,0:02:29.77,0:02:32.19,*Default,NTP,0000,0000,0000,,所以在这里，如果我们不得不涂成红色，
+Dialogue: 0,0:02:33.70,0:02:36.97,*Default,NTP,0000,0000,0000,,然后如果我在这里的某个地方指定一个 A 元素，
+Dialogue: 0,0:02:40.92,0:02:45.38,*Default,NTP,0000,0000,0000,,一个测试A，所以这里的某个地方。
+Dialogue: 0,0:02:45.38,0:02:49.17,*Default,NTP,0000,0000,0000,,所以你会看到这个现在实际上是红色的。
+Dialogue: 0,0:02:49.17,0:02:51.90,*Default,NTP,0000,0000,0000,,这就是来自这里的这种风格，
+Dialogue: 0,0:02:51.90,0:02:54.06,*Default,NTP,0000,0000,0000,,但不是从这个。然后再次，
+Dialogue: 0,0:02:54.06,0:02:57.86,*Default,NTP,0000,0000,0000,,那是因为这个只针对一个元素
+Dialogue: 0,0:02:57.86,0:03:02.54,*Default,NTP,0000,0000,0000,,实际上有 href 属性，而这个没有。
+Dialogue: 0,0:03:04.45,0:03:08.82,*Default,NTP,0000,0000,0000,,因此，让我们在这里摆脱它以及这条规则。
+Dialogue: 0,0:03:10.82,0:03:11.96,*Default,NTP,0000,0000,0000,,是的，
+Dialogue: 0,0:03:11.96,0:03:14.63,*Default,NTP,0000,0000,0000,,所以现在你知道应该这样做了。
+Dialogue: 0,0:03:15.62,0:03:18.82,*Default,NTP,0000,0000,0000,,让我们在这里继续查看这些链接。
+Dialogue: 0,0:03:18.82,0:03:20.98,*Default,NTP,0000,0000,0000,,现在，另一件事要做
+Dialogue: 0,0:03:20.98,0:03:24.83,*Default,NTP,0000,0000,0000,,当我们对链接进行样式设置时，就是去掉下划线。
+Dialogue: 0,0:03:24.83,0:03:28.52,*Default,NTP,0000,0000,0000,,所以这是另一个用于设置文本样式的 CSS 属性，
+Dialogue: 0,0:03:28.52,0:03:31.01,*Default,NTP,0000,0000,0000,,这是文本装饰，
+Dialogue: 0,0:03:32.61,0:03:35.61,*Default,NTP,0000,0000,0000,,在这种情况下，我们可以将其设置为无。
+Dialogue: 0,0:03:35.61,0:03:38.40,*Default,NTP,0000,0000,0000,,但是我将向您展示许多其他值
+Dialogue: 0,0:03:38.40,0:03:39.61,*Default,NTP,0000,0000,0000,,在一秒钟内，
+Dialogue: 0,0:03:39.61,0:03:42.82,*Default,NTP,0000,0000,0000,,但现在我们只想摆脱下划线。
+Dialogue: 0,0:03:42.82,0:03:46.16,*Default,NTP,0000,0000,0000,,所以在这些情况下，它在倍数中很常见
+Dialogue: 0,0:03:46.16,0:03:49.66,*Default,NTP,0000,0000,0000,,CSS 属性使用值为 none。
+Dialogue: 0,0:03:51.18,0:03:53.33,*Default,NTP,0000,0000,0000,,确实没有w 没了。
+Dialogue: 0,0:03:54.58,0:03:56.78,*Default,NTP,0000,0000,0000,,当然，同样的，在这里。
+Dialogue: 0,0:03:56.78,0:04:00.45,*Default,NTP,0000,0000,0000,,伟大的。接下来我们有访问过的伪类。
+Dialogue: 0,0:04:01.84,0:04:04.98,*Default,NTP,0000,0000,0000,,如此多的网站实际上以不同的方式显示链接
+Dialogue: 0,0:04:04.98,0:04:07.04,*Default,NTP,0000,0000,0000,,如果他们之前被点击过。
+Dialogue: 0,0:04:07.04,0:04:09.97,*Default,NTP,0000,0000,0000,,一个很好的例子就是谷歌
+Dialogue: 0,0:04:09.97,0:04:13.66,*Default,NTP,0000,0000,0000,,在 CSS 中，这真的很容易做到。
+Dialogue: 0,0:04:13.66,0:04:17.48,*Default,NTP,0000,0000,0000,,我们所要做的就是选择锚点
+Dialogue: 0,0:04:17.48,0:04:20.28,*Default,NTP,0000,0000,0000,,与访问的伪类。
+Dialogue: 0,0:04:21.63,0:04:24.69,*Default,NTP,0000,0000,0000,,所以在这里我们可以给他们一个不同的颜色。
+Dialogue: 0,0:04:24.69,0:04:28.86,*Default,NTP,0000,0000,0000,,让我们说像浅灰色，像这样的东西。
+Dialogue: 0,0:04:29.84,0:04:33.89,*Default,NTP,0000,0000,0000,,好的。但在实践中，我们实际上从未这样做过。
+Dialogue: 0,0:04:33.89,0:04:35.71,*Default,NTP,0000,0000,0000,,所以在普通页面上，
+Dialogue: 0,0:04:35.71,0:04:38.78,*Default,NTP,0000,0000,0000,,通常我们总是只给出访问过的链接，
+Dialogue: 0,0:04:38.78,0:04:42.93,*Default,NTP,0000,0000,0000,,与链接伪类上的颜色相同。
+Dialogue: 0,0:04:44.04,0:04:45.17,*Default,NTP,0000,0000,0000,,所以就是这样做
+Dialogue: 0,0:04:47.61,0:04:49.23,*Default,NTP,0000,0000,0000,,并收工。
+Dialogue: 0,0:04:50.57,0:04:54.00,*Default,NTP,0000,0000,0000,,而这两条规则现在实际上非常相似。
+Dialogue: 0,0:04:54.00,0:04:57.66,*Default,NTP,0000,0000,0000,,所以通常我们实际上将它们组合在一起，
+Dialogue: 0,0:04:59.61,0:05:03.51,*Default,NTP,0000,0000,0000,,但现在让我们不要那样做，好好地保持一切
+Dialogue: 0,0:05:03.51,0:05:06.37,*Default,NTP,0000,0000,0000,,分开只是为了在这里学习。
+Dialogue: 0,0:05:08.74,0:05:13.44,*Default,NTP,0000,0000,0000,,不管怎样，现在让我们进入下一个关于锚点的伪类，
+Dialogue: 0,0:05:13.44,0:05:16.10,*Default,NTP,0000,0000,0000,,这是我要说的最重要的一个，
+Dialogue: 0,0:05:16.10,0:05:17.89,*Default,NTP,0000,0000,0000,,那就是悬停。
+Dialogue: 0,0:05:17.89,0:05:19.79,*Default,NTP,0000,0000,0000,,所以在悬停伪类中，
+Dialogue: 0,0:05:19.79,0:05:23.23,*Default,NTP,0000,0000,0000,,我们可以定义我们想要应用到的任何样式
+Dialogue: 0,0:05:23.23,0:05:27.45,*Default,NTP,0000,0000,0000,,一旦元素被鼠标悬停，就锚定。
+Dialogue: 0,0:05:28.41,0:05:30.78,*Default,NTP,0000,0000,0000,,例如，假设在这种情况下，
+Dialogue: 0,0:05:30.78,0:05:32.37,*Default,NTP,0000,0000,0000,,我们想改变颜色
+Dialogue: 0,0:05:33.62,0:05:36.44,*Default,NTP,0000,0000,0000,,像橙红色，
+Dialogue: 0,0:05:36.44,0:05:39.20,*Default,NTP,0000,0000,0000,,这是这些颜色名称之一
+Dialogue: 0,0:05:39.20,0:05:41.47,*Default,NTP,0000,0000,0000,,我其实有点喜欢。
+Dialogue: 0,0:05:41.47,0:05:44.39,*Default,NTP,0000,0000,0000,,然后假设我们也想改变
+Dialogue: 0,0:05:44.39,0:05:47.39,*Default,NTP,0000,0000,0000,,字体粗体。
+Dialogue: 0,0:05:47.39,0:05:50.56,*Default,NTP,0000,0000,0000,,这里有点疯狂的风格。
+Dialogue: 0,0:05:50.56,0:05:54.43,*Default,NTP,0000,0000,0000,,让我们实际上也带回下划线。
+Dialogue: 0,0:05:54.43,0:05:57.56,*Default,NTP,0000,0000,0000,,所以文字装饰，
+Dialogue: 0,0:05:57.56,0:06:01.06,*Default,NTP,0000,0000,0000,,而这个是这些速记属性中的另一个
+Dialogue: 0,0:06:01.06,0:06:04.00,*Default,NTP,0000,0000,0000,,我们可以定义多个值。
+Dialogue: 0,0:06:04.00,0:06:07.50,*Default,NTP,0000,0000,0000,,所以在这种情况下，我们可以定义 text-decoration 行，
+Dialogue: 0,0:06:07.50,0:06:11.57,*Default,NTP,0000,0000,0000,,文本装饰样式和文本装饰颜色。
+Dialogue: 0,0:06:11.57,0:06:13.92,*Default,NTP,0000,0000,0000,,我们可以说下划线，
+Dialogue: 0,0:06:14.96,0:06:17.69,*Default,NTP,0000,0000,0000,,然后我们可以定义下划线的样式，
+Dialogue: 0,0:06:17.69,0:06:21.20,*Default,NTP,0000,0000,0000,,这与边框的样式非常相似。
+Dialogue: 0,0:06:21.20,0:06:24.18,*Default,NTP,0000,0000,0000,,所以我们说点，例如，
+Dialogue: 0,0:06:24.18,0:06:26.31,*Default,NTP,0000,0000,0000,,最后是颜色。
+Dialogue: 0,0:06:26.31,0:06:28.33,*Default,NTP,0000,0000,0000,,所以说它也适用于橙红色。
+Dialogue: 0,0:06:29.52,0:06:33.44,*Default,NTP,0000,0000,0000,,让我们看看当我们悬停这个链接时会发生什么
+Dialogue: 0,0:06:34.62,0:06:37.09,*Default,NTP,0000,0000,0000,,它奏效了。
+Dialogue: 0,0:06:37.09,0:06:38.74,*Default,NTP,0000,0000,0000,,于是颜色变了，
+Dialogue: 0,0:06:38.74,0:06:43.20,*Default,NTP,0000,0000,0000,,字体粗细和文本装饰也发生了变化。
+Dialogue: 0,0:06:44.36,0:06:49.36,*Default,NTP,0000,0000,0000,,让我们尝试另一种类似波浪的，这也很有趣。
+Dialogue: 0,0:06:50.11,0:06:52.13,*Default,NTP,0000,0000,0000,,然后它看起来像这样。
+Dialogue: 0,0:06:53.17,0:06:55.97,*Default,NTP,0000,0000,0000,,再说一次，有点疯狂的风格。
+Dialogue: 0,0:06:55.97,0:06:59.27,*Default,NTP,0000,0000,0000,,如果我们想让它不那么疯狂，
+Dialogue: 0,0:06:59.27,0:07:01.90,*Default,NTP,0000,0000,0000,,我们实际上可以省略第二个
+Dialogue: 0,0:07:01.90,0:07:05.04,*Default,NTP,0000,0000,0000,,然后 CSS 会自动发现
+Dialogue: 0,0:07:05.04,0:07:06.89,*Default,NTP,0000,0000,0000,,这里的第二个现在是颜色。
+Dialogue: 0,0:07:07.76,0:07:12.76,*Default,NTP,0000,0000,0000,,所以这看起来有点正常，对吧？
+Dialogue: 0,0:07:12.81,0:07:14.90,*Default,NTP,0000,0000,0000,,所以让我们保持这样。
+Dialogue: 0,0:07:15.98,0:07:16.81,*Default,NTP,0000,0000,0000,,最后，
+Dialogue: 0,0:07:16.81,0:07:20.02,*Default,NTP,0000,0000,0000,,我们还可以指定第四个伪类和
+Dialogue: 0,0:07:20.02,0:07:24.12,*Default,NTP,0000,0000,0000,,这个是活动的伪类，
+Dialogue: 0,0:07:24.12,0:07:27.30,*Default,NTP,0000,0000,0000,,这就是我们实际点击的状态。
+Dialogue: 0,0:07:28.14,0:07:30.82,*Default,NTP,0000,0000,0000,,所以当我们真的点击一个链接时，
+Dialogue: 0,0:07:30.82,0:07:34.51,*Default,NTP,0000,0000,0000,,然后伪类的行为被编辑到元素
+Dialogue: 0,0:07:34.51,0:07:37.59,*Default,NTP,0000,0000,0000,,然后我们可以像这样在这里选择它。
+Dialogue: 0,0:07:37.59,0:07:42.05,*Default,NTP,0000,0000,0000,,所以就像我们对所有其他四种链接状态所做的那样，
+Dialogue: 0,0:07:43.11,0:07:46.44,*Default,NTP,0000,0000,0000,,所以让我们在这里继续添加一些疯狂的样式，
+Dialogue: 0,0:07:46.44,0:07:49.99,*Default,NTP,0000,0000,0000,,就像将背景颜色设置为黑色
+Dialogue: 0,0:07:49.99,0:07:51.46,*Default,NTP,0000,0000,0000,,在那些情况下
+Dialogue: 0,0:07:53.31,0:07:57.19,*Default,NTP,0000,0000,0000,,甚至让我们将字体样式设为斜体。
+Dialogue: 0,0:08:01.82,0:08:03.40,*Default,NTP,0000,0000,0000,,好的，就是这样。
+Dialogue: 0,0:08:05.13,0:08:06.90,*Default,NTP,0000,0000,0000,,所以悬停状态看起来是一样的，
+Dialogue: 0,0:08:06.90,0:08:09.00,*Default,NTP,0000,0000,0000,,但现在我要点击。
+Dialogue: 0,0:08:09.00,0:08:10.89,*Default,NTP,0000,0000,0000,,所以这就是它的样子
+Dialogue: 0,0:08:10.89,0:08:13.65,*Default,NTP,0000,0000,0000,,在点击期间。
+Dialogue: 0,0:08:13.65,0:08:16.74,*Default,NTP,0000,0000,0000,,现在，如果我搬出去放手，
+Dialogue: 0,0:08:16.74,0:08:19.64,*Default,NTP,0000,0000,0000,,然后它回到正常状态。
+Dialogue: 0,0:08:19.64,0:08:20.59,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:20.59,0:08:23.29,*Default,NTP,0000,0000,0000,,我认为实际上就是这样，
+Dialogue: 0,0:08:23.29,0:08:26.81,*Default,NTP,0000,0000,0000,,这里重要的是这四种状态总是
+Dialogue: 0,0:08:26.81,0:08:29.33,*Default,NTP,0000,0000,0000,,以这个确切的顺序定义。
+Dialogue: 0,0:08:29.33,0:08:34.33,*Default,NTP,0000,0000,0000,,所以总是链接，访问，悬停和活跃。
+Dialogue: 0,0:08:34.70,0:08:38.36,*Default,NTP,0000,0000,0000,,所以如果你更容易记住
+Dialogue: 0,0:08:38.36,0:08:42.46,*Default,NTP,0000,0000,0000,,L V H A，好的。
+Dialogue: 0,0:08:42.46,0:08:46.06,*Default,NTP,0000,0000,0000,,但当然，我们会继续这样做几次
+Dialogue: 0,0:08:46.06,0:08:47.85,*Default,NTP,0000,0000,0000,,在接下来的课程中，
+Dialogue: 0,0:08:47.85,0:08:50.72,*Default,NTP,0000,0000,0000,,然后事情对你来说会变得更容易。
+Dialogue: 0,0:08:51.79,0:08:53.18,*Default,NTP,0000,0000,0000,,现在有了这个，
+Dialogue: 0,0:08:53.18,0:08:57.57,*Default,NTP,0000,0000,0000,,我们实际上已经到了一些基础知识的末尾
+Dialogue: 0,0:08:57.57,0:09:00.81,*Default,NTP,0000,0000,0000,,使用 CSS 的简单视觉样式。
+Dialogue: 0,0:09:00.81,0:09:02.06,*Default,NTP,0000,0000,0000,,现在当然有，
+Dialogue: 0,0:09:02.06,0:09:06.84,*Default,NTP,0000,0000,0000,,很多其他视觉的东西，比如边界收音机，阴影，
+Dialogue: 0,0:09:06.84,0:09:10.11,*Default,NTP,0000,0000,0000,,渐变、背景图像等，
+Dialogue: 0,0:09:10.11,0:09:13.02,*Default,NTP,0000,0000,0000,,但我们稍后再讨论，
+Dialogue: 0,0:09:13.02,0:09:15.99,*Default,NTP,0000,0000,0000,,但是现在我们将在这一点上留下它。
+Dialogue: 0,0:09:15.99,0:09:18.64,*Default,NTP,0000,0000,0000,,而这已经是很大的进步。
+Dialogue: 0,0:09:18.64,0:09:22.20,*Default,NTP,0000,0000,0000,,恭喜你走到了这一步。
+Dialogue: 0,0:09:22.20,0:09:26.50,*Default,NTP,0000,0000,0000,,并且已经学习了所有的 CSS。
+Dialogue: 0,0:09:26.50,0:09:30.29,*Default,NTP,0000,0000,0000,,接下来，我们将学习一些有关浏览器的知识。
+Dialogue: 0,0:09:30.29,0:09:33.23,*Default,NTP,0000,0000,0000,,所以最后是一个非常有用的工具，我们当然会，
+Dialogue: 0,0:09:33.23,0:09:37.34,*Default,NTP,0000,0000,0000,,通过学习一些理论和知识来继续学习 CSS 基础知识
+Dialogue: 0,0:09:37.34,0:09:39.11,*Default,NTP,0000,0000,0000,,然后学习更多的属性
+Dialogue: 0,0:09:39.11,0:09:41.45,*Default,NTP,0000,0000,0000,,与其他一些东西有关。
+Dialogue: 0,0:00:02.31,0:00:03.80,*Default,NTP,0000,0000,0000,,All right. In this lecture,
+Dialogue: 0,0:00:03.80,0:00:08.42,*Default,NTP,0000,0000,0000,,we will learn how to style hyperlinks using pseudo classes,
+Dialogue: 0,0:00:09.92,0:00:14.31,*Default,NTP,0000,0000,0000,,but let's start by quickly fixing this red text here
+Dialogue: 0,0:00:14.31,0:00:16.22,*Default,NTP,0000,0000,0000,,that we don't want.
+Dialogue: 0,0:00:16.22,0:00:19.71,*Default,NTP,0000,0000,0000,,And actually what I will do here is to put this back
+Dialogue: 0,0:00:19.71,0:00:21.36,*Default,NTP,0000,0000,0000,,to first child,
+Dialogue: 0,0:00:21.36,0:00:24.97,*Default,NTP,0000,0000,0000,,which remember doesn't work and then I will place a comment
+Dialogue: 0,0:00:24.97,0:00:29.34,*Default,NTP,0000,0000,0000,,here using command or control slash.
+Dialogue: 0,0:00:29.34,0:00:34.09,*Default,NTP,0000,0000,0000,,And then I will simply write that this is that misconception
+Dialogue: 0,0:00:34.09,0:00:36.16,*Default,NTP,0000,0000,0000,,that we talked about in the last video.
+Dialogue: 0,0:00:37.11,0:00:41.19,*Default,NTP,0000,0000,0000,,So this won't work.
+Dialogue: 0,0:00:41.19,0:00:42.65,*Default,NTP,0000,0000,0000,,Okay. And so with this,
+Dialogue: 0,0:00:42.65,0:00:46.22,*Default,NTP,0000,0000,0000,,we are starting to document our code just a little bit.
+Dialogue: 0,0:00:47.74,0:00:51.32,*Default,NTP,0000,0000,0000,,And so now I will actually add another comment here to say
+Dialogue: 0,0:00:51.32,0:00:56.32,*Default,NTP,0000,0000,0000,,that here we will now be styling links or hyperlinks.
+Dialogue: 0,0:00:57.34,0:01:01.47,*Default,NTP,0000,0000,0000,,Now we could think that this is how we style links.
+Dialogue: 0,0:01:01.47,0:01:04.41,*Default,NTP,0000,0000,0000,,So we just write the A.
+Dialogue: 0,0:01:04.41,0:01:08.39,*Default,NTP,0000,0000,0000,,So selecting all the anchor elements on the page
+Dialogue: 0,0:01:08.39,0:01:11.67,*Default,NTP,0000,0000,0000,,and then we could, for example, style their color.
+Dialogue: 0,0:01:13.00,0:01:14.64,*Default,NTP,0000,0000,0000,,And, let's say that
+Dialogue: 0,0:01:14.64,0:01:17.96,*Default,NTP,0000,0000,0000,,we wanted to go with this same blue color here.
+Dialogue: 0,0:01:17.96,0:01:22.47,*Default,NTP,0000,0000,0000,,And then as we reload it actually this links
+Dialogue: 0,0:01:22.47,0:01:24.20,*Default,NTP,0000,0000,0000,,look already nice.
+Dialogue: 0,0:01:24.20,0:01:29.10,*Default,NTP,0000,0000,0000,,So this one turned blue and these ones down here and
+Dialogue: 0,0:01:29.10,0:01:31.32,*Default,NTP,0000,0000,0000,,probably also these ones.
+Dialogue: 0,0:01:31.32,0:01:32.63,*Default,NTP,0000,0000,0000,,Yeah, right.
+Dialogue: 0,0:01:32.63,0:01:37.32,*Default,NTP,0000,0000,0000,,However, doing simply this, is actually not a good practice.
+Dialogue: 0,0:01:37.32,0:01:41.25,*Default,NTP,0000,0000,0000,,So we shouldn't simply select the anchor and style it.
+Dialogue: 0,0:01:41.25,0:01:45.14,*Default,NTP,0000,0000,0000,,Instead we should style a pseudo class of the anchor
+Dialogue: 0,0:01:45.14,0:01:48.98,*Default,NTP,0000,0000,0000,,because that will then allow us to target different states.
+Dialogue: 0,0:01:48.98,0:01:51.29,*Default,NTP,0000,0000,0000,,So the first one that we want to style
+Dialogue: 0,0:01:51.29,0:01:53.42,*Default,NTP,0000,0000,0000,,is the link pseudo class.
+Dialogue: 0,0:01:54.58,0:01:58.12,*Default,NTP,0000,0000,0000,,So this will basically target all the anchor elements
+Dialogue: 0,0:01:58.12,0:02:00.70,*Default,NTP,0000,0000,0000,,that have an href attribute,
+Dialogue: 0,0:02:00.70,0:02:04.57,*Default,NTP,0000,0000,0000,,because remember that we can actually specify anchors,
+Dialogue: 0,0:02:04.57,0:02:08.37,*Default,NTP,0000,0000,0000,,so A elements without the href attribute.
+Dialogue: 0,0:02:08.37,0:02:11.49,*Default,NTP,0000,0000,0000,,And so they will then be targeted with the code that we had
+Dialogue: 0,0:02:11.49,0:02:15.14,*Default,NTP,0000,0000,0000,,before, even though they are not really a link.
+Dialogue: 0,0:02:15.14,0:02:16.43,*Default,NTP,0000,0000,0000,,But with this,
+Dialogue: 0,0:02:16.43,0:02:19.86,*Default,NTP,0000,0000,0000,,so by specifying the link pseudo class,
+Dialogue: 0,0:02:19.86,0:02:22.98,*Default,NTP,0000,0000,0000,,this will then only target actual links.
+Dialogue: 0,0:02:22.98,0:02:26.16,*Default,NTP,0000,0000,0000,,So if we reload, it still looks nice.
+Dialogue: 0,0:02:26.16,0:02:28.46,*Default,NTP,0000,0000,0000,,Let me actually show that to you very quickly.
+Dialogue: 0,0:02:29.77,0:02:32.19,*Default,NTP,0000,0000,0000,,So here, if we had to color of red,
+Dialogue: 0,0:02:33.70,0:02:36.97,*Default,NTP,0000,0000,0000,,and if I then specify an A element somewhere here,
+Dialogue: 0,0:02:40.92,0:02:45.38,*Default,NTP,0000,0000,0000,,a test A, so that's somewhere here.
+Dialogue: 0,0:02:45.38,0:02:49.17,*Default,NTP,0000,0000,0000,,And so you'll see that this one is now actually red.
+Dialogue: 0,0:02:49.17,0:02:51.90,*Default,NTP,0000,0000,0000,,And so that's coming from this style here,
+Dialogue: 0,0:02:51.90,0:02:54.06,*Default,NTP,0000,0000,0000,,but not from this. And again,
+Dialogue: 0,0:02:54.06,0:02:57.86,*Default,NTP,0000,0000,0000,,that's because this one only targets A element that do
+Dialogue: 0,0:02:57.86,0:03:02.54,*Default,NTP,0000,0000,0000,,actually have href attribute, which this one does not.
+Dialogue: 0,0:03:04.45,0:03:08.82,*Default,NTP,0000,0000,0000,,So let's get rid of it and also of this rule here.
+Dialogue: 0,0:03:10.82,0:03:11.96,*Default,NTP,0000,0000,0000,,And yeah,
+Dialogue: 0,0:03:11.96,0:03:14.63,*Default,NTP,0000,0000,0000,,so now you know that this is how it should be done.
+Dialogue: 0,0:03:15.62,0:03:18.82,*Default,NTP,0000,0000,0000,,Let's actually keep looking at these links here.
+Dialogue: 0,0:03:18.82,0:03:20.98,*Default,NTP,0000,0000,0000,,Now, another thing that's coming to do
+Dialogue: 0,0:03:20.98,0:03:24.83,*Default,NTP,0000,0000,0000,,when we style links is to get rid of the underline.
+Dialogue: 0,0:03:24.83,0:03:28.52,*Default,NTP,0000,0000,0000,,So here is another CSS property to style text,
+Dialogue: 0,0:03:28.52,0:03:31.01,*Default,NTP,0000,0000,0000,,which is text-decoration,
+Dialogue: 0,0:03:32.61,0:03:35.61,*Default,NTP,0000,0000,0000,,which we can set in this case to none.
+Dialogue: 0,0:03:35.61,0:03:38.40,*Default,NTP,0000,0000,0000,,But there are a bunch of other values that I will show you
+Dialogue: 0,0:03:38.40,0:03:39.61,*Default,NTP,0000,0000,0000,,in a second,
+Dialogue: 0,0:03:39.61,0:03:42.82,*Default,NTP,0000,0000,0000,,but for now we just want to get rid of the underline.
+Dialogue: 0,0:03:42.82,0:03:46.16,*Default,NTP,0000,0000,0000,,And so in these situations, it's very common in multiples
+Dialogue: 0,0:03:46.16,0:03:49.66,*Default,NTP,0000,0000,0000,,CSS properties to use the value of none.
+Dialogue: 0,0:03:51.18,0:03:53.33,*Default,NTP,0000,0000,0000,,And indeed now it's gone.
+Dialogue: 0,0:03:54.58,0:03:56.78,*Default,NTP,0000,0000,0000,,And the same of course, down here.
+Dialogue: 0,0:03:56.78,0:04:00.45,*Default,NTP,0000,0000,0000,,Great. Next up we have the visited pseudo class.
+Dialogue: 0,0:04:01.84,0:04:04.98,*Default,NTP,0000,0000,0000,,So many sites actually display links differently
+Dialogue: 0,0:04:04.98,0:04:07.04,*Default,NTP,0000,0000,0000,,if they have been clicked before.
+Dialogue: 0,0:04:07.04,0:04:09.97,*Default,NTP,0000,0000,0000,,And one good example of that is Google
+Dialogue: 0,0:04:09.97,0:04:13.66,*Default,NTP,0000,0000,0000,,and in CSS that would be really easy to do.
+Dialogue: 0,0:04:13.66,0:04:17.48,*Default,NTP,0000,0000,0000,,All we had to do was to select the anchors
+Dialogue: 0,0:04:17.48,0:04:20.28,*Default,NTP,0000,0000,0000,,with the visited pseudo class.
+Dialogue: 0,0:04:21.63,0:04:24.69,*Default,NTP,0000,0000,0000,,So here we could them give them a different color.
+Dialogue: 0,0:04:24.69,0:04:28.86,*Default,NTP,0000,0000,0000,,Let's say like a light gray, something like this.
+Dialogue: 0,0:04:29.84,0:04:33.89,*Default,NTP,0000,0000,0000,,Okay. But in practice, we never do that actually.
+Dialogue: 0,0:04:33.89,0:04:35.71,*Default,NTP,0000,0000,0000,,So on normal pages,
+Dialogue: 0,0:04:35.71,0:04:38.78,*Default,NTP,0000,0000,0000,,usually we always just give the visited links,
+Dialogue: 0,0:04:38.78,0:04:42.93,*Default,NTP,0000,0000,0000,,the same color as on the link pseudo class.
+Dialogue: 0,0:04:44.04,0:04:45.17,*Default,NTP,0000,0000,0000,,So that's just do that
+Dialogue: 0,0:04:47.61,0:04:49.23,*Default,NTP,0000,0000,0000,,and call it a day.
+Dialogue: 0,0:04:50.57,0:04:54.00,*Default,NTP,0000,0000,0000,,And these two rules are actually now very similar.
+Dialogue: 0,0:04:54.00,0:04:57.66,*Default,NTP,0000,0000,0000,,And so usually we actually group them together,
+Dialogue: 0,0:04:59.61,0:05:03.51,*Default,NTP,0000,0000,0000,,but now let's not do that and keep everything just nicely
+Dialogue: 0,0:05:03.51,0:05:06.37,*Default,NTP,0000,0000,0000,,separated just for the purpose of learning here.
+Dialogue: 0,0:05:08.74,0:05:13.44,*Default,NTP,0000,0000,0000,,Anyway, let's now go to our next pseudo class for anchors,
+Dialogue: 0,0:05:13.44,0:05:16.10,*Default,NTP,0000,0000,0000,,which is the most important one I would say,
+Dialogue: 0,0:05:16.10,0:05:17.89,*Default,NTP,0000,0000,0000,,and that is hover.
+Dialogue: 0,0:05:17.89,0:05:19.79,*Default,NTP,0000,0000,0000,,So in the hover pseudo class,
+Dialogue: 0,0:05:19.79,0:05:23.23,*Default,NTP,0000,0000,0000,,we can define any styles that we want to be applied to the
+Dialogue: 0,0:05:23.23,0:05:27.45,*Default,NTP,0000,0000,0000,,anchor as soon as the element is hovered by the mouse.
+Dialogue: 0,0:05:28.41,0:05:30.78,*Default,NTP,0000,0000,0000,,So for example, let's say that in this situation,
+Dialogue: 0,0:05:30.78,0:05:32.37,*Default,NTP,0000,0000,0000,,we wanted to change the color
+Dialogue: 0,0:05:33.62,0:05:36.44,*Default,NTP,0000,0000,0000,,to something like orange red,
+Dialogue: 0,0:05:36.44,0:05:39.20,*Default,NTP,0000,0000,0000,,and which is one of these color names that
+Dialogue: 0,0:05:39.20,0:05:41.47,*Default,NTP,0000,0000,0000,,I actually like a little bit.
+Dialogue: 0,0:05:41.47,0:05:44.39,*Default,NTP,0000,0000,0000,,And then let's say that we also wanted to change
+Dialogue: 0,0:05:44.39,0:05:47.39,*Default,NTP,0000,0000,0000,,the font-weight to bold.
+Dialogue: 0,0:05:47.39,0:05:50.56,*Default,NTP,0000,0000,0000,,So kind of a bit of a crazy style here.
+Dialogue: 0,0:05:50.56,0:05:54.43,*Default,NTP,0000,0000,0000,,And let's actually also bring back the underline.
+Dialogue: 0,0:05:54.43,0:05:57.56,*Default,NTP,0000,0000,0000,,So text-decoration,
+Dialogue: 0,0:05:57.56,0:06:01.06,*Default,NTP,0000,0000,0000,,and this one is another one of these shorthand properties
+Dialogue: 0,0:06:01.06,0:06:04.00,*Default,NTP,0000,0000,0000,,where we can define multiple values.
+Dialogue: 0,0:06:04.00,0:06:07.50,*Default,NTP,0000,0000,0000,,So in this case, we can define the text-decoration line,
+Dialogue: 0,0:06:07.50,0:06:11.57,*Default,NTP,0000,0000,0000,,text-decoration style, and text-decoration color.
+Dialogue: 0,0:06:11.57,0:06:13.92,*Default,NTP,0000,0000,0000,,We can say underline,
+Dialogue: 0,0:06:14.96,0:06:17.69,*Default,NTP,0000,0000,0000,,then we can define the style of the underline,
+Dialogue: 0,0:06:17.69,0:06:21.20,*Default,NTP,0000,0000,0000,,which is very similar to the style of the border.
+Dialogue: 0,0:06:21.20,0:06:24.18,*Default,NTP,0000,0000,0000,,So let's say dotted, for example,
+Dialogue: 0,0:06:24.18,0:06:26.31,*Default,NTP,0000,0000,0000,,and then finally the color.
+Dialogue: 0,0:06:26.31,0:06:28.33,*Default,NTP,0000,0000,0000,,So that said it also to orange red.
+Dialogue: 0,0:06:29.52,0:06:33.44,*Default,NTP,0000,0000,0000,,And let's see what now happens as we hover this link
+Dialogue: 0,0:06:34.62,0:06:37.09,*Default,NTP,0000,0000,0000,,and it worked.
+Dialogue: 0,0:06:37.09,0:06:38.74,*Default,NTP,0000,0000,0000,,So the color changed,
+Dialogue: 0,0:06:38.74,0:06:43.20,*Default,NTP,0000,0000,0000,,the font-weight also changed and also the text-decoration.
+Dialogue: 0,0:06:44.36,0:06:49.36,*Default,NTP,0000,0000,0000,,Let's try another one like wavy, which is also fun.
+Dialogue: 0,0:06:50.11,0:06:52.13,*Default,NTP,0000,0000,0000,,And then it looks like, like this.
+Dialogue: 0,0:06:53.17,0:06:55.97,*Default,NTP,0000,0000,0000,,So again, a little bit of a crazy style.
+Dialogue: 0,0:06:55.97,0:06:59.27,*Default,NTP,0000,0000,0000,,And if we want it to be a bit less crazy,
+Dialogue: 0,0:06:59.27,0:07:01.90,*Default,NTP,0000,0000,0000,,we can actually omit the second one
+Dialogue: 0,0:07:01.90,0:07:05.04,*Default,NTP,0000,0000,0000,,and CSS will then automatically figure out that
+Dialogue: 0,0:07:05.04,0:07:06.89,*Default,NTP,0000,0000,0000,,the second one here is now the color.
+Dialogue: 0,0:07:07.76,0:07:12.76,*Default,NTP,0000,0000,0000,,And so this looks a little bit more normal, right?
+Dialogue: 0,0:07:12.81,0:07:14.90,*Default,NTP,0000,0000,0000,,And so let's keep it like this.
+Dialogue: 0,0:07:15.98,0:07:16.81,*Default,NTP,0000,0000,0000,,Finally,
+Dialogue: 0,0:07:16.81,0:07:20.02,*Default,NTP,0000,0000,0000,,we can also specify a fourth pseudo class and
+Dialogue: 0,0:07:20.02,0:07:24.12,*Default,NTP,0000,0000,0000,,this one is the active pseudo class,
+Dialogue: 0,0:07:24.12,0:07:27.30,*Default,NTP,0000,0000,0000,,and this is the state in which we are actually clicking.
+Dialogue: 0,0:07:28.14,0:07:30.82,*Default,NTP,0000,0000,0000,,So when we do actually click on a link,
+Dialogue: 0,0:07:30.82,0:07:34.51,*Default,NTP,0000,0000,0000,,then the act of pseudo class is edited to the element
+Dialogue: 0,0:07:34.51,0:07:37.59,*Default,NTP,0000,0000,0000,,and we can then select that here like this.
+Dialogue: 0,0:07:37.59,0:07:42.05,*Default,NTP,0000,0000,0000,,So just like we did with all these other four link states,
+Dialogue: 0,0:07:43.11,0:07:46.44,*Default,NTP,0000,0000,0000,,so let's keep adding some crazy styles here,
+Dialogue: 0,0:07:46.44,0:07:49.99,*Default,NTP,0000,0000,0000,,like setting the background color to black
+Dialogue: 0,0:07:49.99,0:07:51.46,*Default,NTP,0000,0000,0000,,in those situations
+Dialogue: 0,0:07:53.31,0:07:57.19,*Default,NTP,0000,0000,0000,,and let's even make the font style italic.
+Dialogue: 0,0:08:01.82,0:08:03.40,*Default,NTP,0000,0000,0000,,Okay, so that's it.
+Dialogue: 0,0:08:05.13,0:08:06.90,*Default,NTP,0000,0000,0000,,So the hover state looks the same,
+Dialogue: 0,0:08:06.90,0:08:09.00,*Default,NTP,0000,0000,0000,,but now I'm going to click.
+Dialogue: 0,0:08:09.00,0:08:10.89,*Default,NTP,0000,0000,0000,,And so this is what it looks like
+Dialogue: 0,0:08:10.89,0:08:13.65,*Default,NTP,0000,0000,0000,,during the duration of the click.
+Dialogue: 0,0:08:13.65,0:08:16.74,*Default,NTP,0000,0000,0000,,Now, if I move out here and let it go,
+Dialogue: 0,0:08:16.74,0:08:19.64,*Default,NTP,0000,0000,0000,,then it goes back to the normal state.
+Dialogue: 0,0:08:19.64,0:08:20.59,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:08:20.59,0:08:23.29,*Default,NTP,0000,0000,0000,,And I think that's actually it,
+Dialogue: 0,0:08:23.29,0:08:26.81,*Default,NTP,0000,0000,0000,,what matters here is that these four states are always
+Dialogue: 0,0:08:26.81,0:08:29.33,*Default,NTP,0000,0000,0000,,defined in this exact order.
+Dialogue: 0,0:08:29.33,0:08:34.33,*Default,NTP,0000,0000,0000,,So always link, visited, hover and active.
+Dialogue: 0,0:08:34.70,0:08:38.36,*Default,NTP,0000,0000,0000,,So that is if it's easier to memorize for you
+Dialogue: 0,0:08:38.36,0:08:42.46,*Default,NTP,0000,0000,0000,,L V H A, all right.
+Dialogue: 0,0:08:42.46,0:08:46.06,*Default,NTP,0000,0000,0000,,But of course we will keep doing this a couple of more times
+Dialogue: 0,0:08:46.06,0:08:47.85,*Default,NTP,0000,0000,0000,,throughout the rest of the course,
+Dialogue: 0,0:08:47.85,0:08:50.72,*Default,NTP,0000,0000,0000,,and then things will become even easier for you.
+Dialogue: 0,0:08:51.79,0:08:53.18,*Default,NTP,0000,0000,0000,,And now with this,
+Dialogue: 0,0:08:53.18,0:08:57.57,*Default,NTP,0000,0000,0000,,we actually reached the end of the very basics of some
+Dialogue: 0,0:08:57.57,0:09:00.81,*Default,NTP,0000,0000,0000,,simple visual styling with CSS.
+Dialogue: 0,0:09:00.81,0:09:02.06,*Default,NTP,0000,0000,0000,,Now there is of course,
+Dialogue: 0,0:09:02.06,0:09:06.84,*Default,NTP,0000,0000,0000,,a lot of other visual stuff like border radios, shadows,
+Dialogue: 0,0:09:06.84,0:09:10.11,*Default,NTP,0000,0000,0000,,gradients, background images, and more,
+Dialogue: 0,0:09:10.11,0:09:13.02,*Default,NTP,0000,0000,0000,,but we will leave that for a bit later,
+Dialogue: 0,0:09:13.02,0:09:15.99,*Default,NTP,0000,0000,0000,,but for now we will leave it at this point.
+Dialogue: 0,0:09:15.99,0:09:18.64,*Default,NTP,0000,0000,0000,,And this is already great progress.
+Dialogue: 0,0:09:18.64,0:09:22.20,*Default,NTP,0000,0000,0000,,So congratulations for making it this far.
+Dialogue: 0,0:09:22.20,0:09:26.50,*Default,NTP,0000,0000,0000,,And for already having learned all of the CSS.
+Dialogue: 0,0:09:26.50,0:09:30.29,*Default,NTP,0000,0000,0000,,Next up, we will learn something about the browser.
+Dialogue: 0,0:09:30.29,0:09:33.23,*Default,NTP,0000,0000,0000,,So a very helpful tool at the end, we will, of course,
+Dialogue: 0,0:09:33.23,0:09:37.34,*Default,NTP,0000,0000,0000,,keep learning CSS fundamentals by learning some theory and
+Dialogue: 0,0:09:37.34,0:09:39.11,*Default,NTP,0000,0000,0000,,then learn some more properties
+Dialogue: 0,0:09:39.11,0:09:41.45,*Default,NTP,0000,0000,0000,,that are related to some other stuff.
