@@ -1,6 +1,8 @@
-/* * {
-  border-top: 10px solid #1098ad; 
-} */
+* {
+  /* border-top: 10px solid #1098ad; */
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font-family: sans-serif;
@@ -71,6 +73,10 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
 }
 
 aside {
@@ -79,7 +85,7 @@ aside {
   border-bottom: 5px solid #1098ad;
 }
 
-li:first-child {
+/* li:first-child {
   font-weight: bold;
 }
 
@@ -89,7 +95,7 @@ li:last-child {
 
 li:nth-child(2) {
   color: red;
-}
+} */
 
 a:link {
   color: #1098ad;
