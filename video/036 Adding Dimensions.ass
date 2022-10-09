@@ -1,0 +1,310 @@
+[Script Info]
+Title: 036 Adding Dimensions_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=34&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.44,0:00:04.39,*Default,NTP,0000,0000,0000,,所以现在让我很快地告诉你
+Dialogue: 0,0:00:04.39,0:00:08.31,*Default,NTP,0000,0000,0000,,我们如何在 CSS 中为元素添加尺寸
+Dialogue: 0,0:00:08.31,0:00:10.83,*Default,NTP,0000,0000,0000,,使用高度和宽度属性。
+Dialogue: 0,0:00:12.40,0:00:17.24,*Default,NTP,0000,0000,0000,,让我们再一次，从这里的侧元素开始
+Dialogue: 0,0:00:17.24,0:00:20.78,*Default,NTP,0000,0000,0000,,稍后将成为我们的侧边栏。
+Dialogue: 0,0:00:20.78,0:00:23.52,*Default,NTP,0000,0000,0000,,所以它不应该那么宽
+Dialogue: 0,0:00:23.52,0:00:27.51,*Default,NTP,0000,0000,0000,,相反，我们只想要 500 像素宽。
+Dialogue: 0,0:00:28.50,0:00:31.69,*Default,NTP,0000,0000,0000,,所以我们可以简单地来到我们的元素
+Dialogue: 0,0:00:31.69,0:00:36.69,*Default,NTP,0000,0000,0000,,并将宽度指定为 500 像素。
+Dialogue: 0,0:00:38.07,0:00:39.58,*Default,NTP,0000,0000,0000,,就这样，
+Dialogue: 0,0:00:40.89,0:00:45.84,*Default,NTP,0000,0000,0000,,现在我们的侧边元素只有 500 像素宽。
+Dialogue: 0,0:00:45.84,0:00:50.12,*Default,NTP,0000,0000,0000,,所以比页面的其余部分窄得多。
+Dialogue: 0,0:00:50.12,0:00:51.33,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:00:51.33,0:00:54.52,*Default,NTP,0000,0000,0000,,非常简单，非常简单。
+Dialogue: 0,0:00:54.52,0:00:57.06,*Default,NTP,0000,0000,0000,,那就是宽度属性。
+Dialogue: 0,0:00:57.06,0:00:58.99,*Default,NTP,0000,0000,0000,,让我们尝试另一个。
+Dialogue: 0,0:00:59.95,0:01:03.31,*Default,NTP,0000,0000,0000,,所以实际上让我们现在试试高度。
+Dialogue: 0,0:01:03.31,0:01:07.75,*Default,NTP,0000,0000,0000,,我在主标题中这样做。
+Dialogue: 0,0:01:07.75,0:01:10.66,*Default,NTP,0000,0000,0000,,所以在这里，让我们设置高度
+Dialogue: 0,0:01:10.66,0:01:13.25,*Default,NTP,0000,0000,0000,,比方说80像素。
+Dialogue: 0,0:01:15.49,0:01:16.67,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:01:16.67,0:01:20.85,*Default,NTP,0000,0000,0000,,现在你看到它是如何在这里增加的，对吧？
+Dialogue: 0,0:01:22.03,0:01:24.96,*Default,NTP,0000,0000,0000,,现在让我们在这里实际检查这个标题。
+Dialogue: 0,0:01:27.50,0:01:32.50,*Default,NTP,0000,0000,0000,,所以不是链接，而是整个标题元素，对吗？
+Dialogue: 0,0:01:32.50,0:01:35.54,*Default,NTP,0000,0000,0000,,如果我们在这里查看盒子模型，
+Dialogue: 0,0:01:36.82,0:01:39.03,*Default,NTP,0000,0000,0000,,所以这有点小
+Dialogue: 0,0:01:40.87,0:01:42.59,*Default,NTP,0000,0000,0000,,但是没关系。
+Dialogue: 0,0:01:42.59,0:01:46.23,*Default,NTP,0000,0000,0000,,所以你可以看到这里我们实际上有 80 个像素
+Dialogue: 0,0:01:46.23,0:01:48.77,*Default,NTP,0000,0000,0000,,我们刚刚指定的，对吧？
+Dialogue: 0,0:01:48.77,0:01:50.13,*Default,NTP,0000,0000,0000,,然后最重要的是，
+Dialogue: 0,0:01:50.13,0:01:54.40,*Default,NTP,0000,0000,0000,,我们在顶部和底部有 20 个像素。
+Dialogue: 0,0:01:54.40,0:01:57.77,*Default,NTP,0000,0000,0000,,所以元素的完整最终大小
+Dialogue: 0,0:01:57.77,0:02:01.75,*Default,NTP,0000,0000,0000,,其实不是我们这里指定的80像素，
+Dialogue: 0,0:02:01.75,0:02:06.75,*Default,NTP,0000,0000,0000,,但它是80加20加20，也就是120像素。
+Dialogue: 0,0:02:07.73,0:02:11.74,*Default,NTP,0000,0000,0000,,所以这正是盒子模型的默认行为
+Dialogue: 0,0:02:11.74,0:02:13.34,*Default,NTP,0000,0000,0000,,我之前提到的
+Dialogue: 0,0:02:13.34,0:02:17.65,*Default,NTP,0000,0000,0000,,在我看来，这根本没有任何意义。
+Dialogue: 0,0:02:17.65,0:02:20.55,*Default,NTP,0000,0000,0000,,但同样，我们稍后会解决这个问题。
+Dialogue: 0,0:02:20.55,0:02:21.75,*Default,NTP,0000,0000,0000,,现在很重要
+Dialogue: 0,0:02:21.75,0:02:25.80,*Default,NTP,0000,0000,0000,,了解盒子模型最初是如何工作的。
+Dialogue: 0,0:02:25.80,0:02:28.87,*Default,NTP,0000,0000,0000,,同样是这个元素的真实高度
+Dialogue: 0,0:02:28.87,0:02:31.91,*Default,NTP,0000,0000,0000,,不是我们这里指定的80，
+Dialogue: 0,0:02:31.91,0:02:34.33,*Default,NTP,0000,0000,0000,,但是我们必须添加填充
+Dialogue: 0,0:02:34.33,0:02:35.59,*Default,NTP,0000,0000,0000,,到顶部和底部。
+Dialogue: 0,0:02:36.48,0:02:37.71,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:37.71,0:02:41.61,*Default,NTP,0000,0000,0000,,现在，您也可能在这里注意到的一件事是
+Dialogue: 0,0:02:41.61,0:02:44.68,*Default,NTP,0000,0000,0000,,内容，所以这里的文字，
+Dialogue: 0,0:02:44.68,0:02:48.56,*Default,NTP,0000,0000,0000,,不只是神奇地垂直居中
+Dialogue: 0,0:02:48.56,0:02:50.36,*Default,NTP,0000,0000,0000,,这个标题元素。
+Dialogue: 0,0:02:50.36,0:02:53.96,*Default,NTP,0000,0000,0000,,所以它实际上之前是垂直居中的，
+Dialogue: 0,0:02:53.96,0:02:57.55,*Default,NTP,0000,0000,0000,,但这仅仅是因为我们应用了相同的填充
+Dialogue: 0,0:02:57.55,0:02:59.75,*Default,NTP,0000,0000,0000,,到双方。
+Dialogue: 0,0:02:59.75,0:03:02.07,*Default,NTP,0000,0000,0000,,但现在没有了。
+Dialogue: 0,0:03:02.07,0:03:05.89,*Default,NTP,0000,0000,0000,,我的意思是，我们仍然在两边有相同的填充，
+Dialogue: 0,0:03:05.89,0:03:08.42,*Default,NTP,0000,0000,0000,,但现在我们在这里有了另一个高度。
+Dialogue: 0,0:03:08.42,0:03:10.20,*Default,NTP,0000,0000,0000,,所以现在底部的空间
+Dialogue: 0,0:03:10.20,0:03:13.50,*Default,NTP,0000,0000,0000,,不再是顶部的空间。
+Dialogue: 0,0:03:13.50,0:03:16.55,*Default,NTP,0000,0000,0000,,实际上，这并不是很简单
+Dialogue: 0,0:03:16.55,0:03:18.68,*Default,NTP,0000,0000,0000,,将其垂直居中，
+Dialogue: 0,0:03:18.68,0:03:21.59,*Default,NTP,0000,0000,0000,,当然，我们稍后会学习如何。
+Dialogue: 0,0:03:22.63,0:03:23.89,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:23.89,0:03:25.16,*Default,NTP,0000,0000,0000,,所以让我们关闭它。
+Dialogue: 0,0:03:25.16,0:03:29.31,*Default,NTP,0000,0000,0000,,现在让我们最后真正谈谈这张图片。
+Dialogue: 0,0:03:29.31,0:03:33.60,*Default,NTP,0000,0000,0000,,所以到目前为止，它一直原封不动地坐在这里，
+Dialogue: 0,0:03:33.60,0:03:38.60,*Default,NTP,0000,0000,0000,,但现在让我们选择它并实际调整它的大小。
+Dialogue: 0,0:03:38.66,0:03:39.88,*Default,NTP,0000,0000,0000,,为此，
+Dialogue: 0,0:03:39.88,0:03:42.85,*Default,NTP,0000,0000,0000,,让我们给它一个类，以便我们可以选择它。
+Dialogue: 0,0:03:44.34,0:03:46.19,*Default,NTP,0000,0000,0000,,所以...
+Dialogue: 0,0:03:46.19,0:03:47.74,*Default,NTP,0000,0000,0000,,这里就是这个。
+Dialogue: 0,0:03:48.67,0:03:53.67,*Default,NTP,0000,0000,0000,,所以类'帖子图像'让我们说。
+Dialogue: 0,0:03:55.83,0:03:59.04,*Default,NTP,0000,0000,0000,,复制它然后...
+Dialogue: 0,0:03:59.04,0:04:00.88,*Default,NTP,0000,0000,0000,,好吧，让我们说...
+Dialogue: 0,0:04:04.10,0:04:06.78,*Default,NTP,0000,0000,0000,,实际上在最底层的某个地方。
+Dialogue: 0,0:04:10.17,0:04:14.52,*Default,NTP,0000,0000,0000,,所以这只是一个演示，所以我把它放在这里。
+Dialogue: 0,0:04:14.52,0:04:17.20,*Default,NTP,0000,0000,0000,,现在让我们在这里指定宽度。
+Dialogue: 0,0:04:18.63,0:04:20.65,*Default,NTP,0000,0000,0000,,所以其实很常见
+Dialogue: 0,0:04:20.65,0:04:25.65,*Default,NTP,0000,0000,0000,,在 CSS 中而不是在 HTML 中调整图像大小，就像我们所做的那样。
+Dialogue: 0,0:04:25.89,0:04:29.24,*Default,NTP,0000,0000,0000,,实际上很多时候，我们甚至从不指定宽度
+Dialogue: 0,0:04:29.24,0:04:33.22,*Default,NTP,0000,0000,0000,,HTML 中的图像，但仅在 CSS 中。
+Dialogue: 0,0:04:33.22,0:04:35.03,*Default,NTP,0000,0000,0000,,现在第一次来这里，
+Dialogue: 0,0:04:35.03,0:04:38.08,*Default,NTP,0000,0000,0000,,我不会使用像素长度。
+Dialogue: 0,0:04:38.08,0:04:39.34,*Default,NTP,0000,0000,0000,,我的意思是，我可以。
+Dialogue: 0,0:04:39.34,0:04:44.34,*Default,NTP,0000,0000,0000,,现在，假设为 800 像素。
+Dialogue: 0,0:04:45.19,0:04:46.40,*Default,NTP,0000,0000,0000,,所以...
+Dialogue: 0,0:04:46.40,0:04:51.16,*Default,NTP,0000,0000,0000,,好吧，看起来它实际上是错误的图像
+Dialogue: 0,0:04:51.16,0:04:52.40,*Default,NTP,0000,0000,0000,,我们在这里选择的。
+Dialogue: 0,0:04:53.87,0:04:57.23,*Default,NTP,0000,0000,0000,,所以这门课当然应该是这个。
+Dialogue: 0,0:04:58.65,0:05:00.91,*Default,NTP,0000,0000,0000,,所以现在看起来是正确的。
+Dialogue: 0,0:05:00.91,0:05:03.76,*Default,NTP,0000,0000,0000,,这就是我们在那里指定的 800
+Dialogue: 0,0:05:03.76,0:05:07.17,*Default,NTP,0000,0000,0000,,现在确实覆盖了这 500 个。
+Dialogue: 0,0:05:07.17,0:05:10.79,*Default,NTP,0000,0000,0000,,但是，这里的这 200 个仍然存在。
+Dialogue: 0,0:05:10.79,0:05:13.45,*Default,NTP,0000,0000,0000,,这就是为什么宽高比现在是
+Dialogue: 0,0:05:13.45,0:05:16.11,*Default,NTP,0000,0000,0000,,就像完全坏了一样，对吧？
+Dialogue: 0,0:05:16.11,0:05:18.07,*Default,NTP,0000,0000,0000,,所以这看起来不再正确了。
+Dialogue: 0,0:05:18.07,0:05:22.01,*Default,NTP,0000,0000,0000,,它被拉伸到宽度。
+Dialogue: 0,0:05:22.01,0:05:24.20,*Default,NTP,0000,0000,0000,,所以为了解决这个问题，
+Dialogue: 0,0:05:24.20,0:05:27.97,*Default,NTP,0000,0000,0000,,如果我们必须在 HTML 中指定高度，
+Dialogue: 0,0:05:27.97,0:05:32.97,*Default,NTP,0000,0000,0000,,我们需要做的是将高度设置为“自动”。
+Dialogue: 0,0:05:34.09,0:05:35.96,*Default,NTP,0000,0000,0000,,这样就可以解决它
+Dialogue: 0,0:05:35.96,0:05:39.37,*Default,NTP,0000,0000,0000,,我们将把纵横比放回原来的样子。
+Dialogue: 0,0:05:40.21,0:05:41.04,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:41.04,0:05:44.06,*Default,NTP,0000,0000,0000,,但同样，指定高度
+Dialogue: 0,0:05:44.06,0:05:47.48,*Default,NTP,0000,0000,0000,,并将其设置为 auto 只是必要的
+Dialogue: 0,0:05:47.48,0:05:52.06,*Default,NTP,0000,0000,0000,,如果之前已经在 HTML 中指定了该高度。
+Dialogue: 0,0:05:52.06,0:05:54.11,*Default,NTP,0000,0000,0000,,如果我们不这样做，
+Dialogue: 0,0:05:54.11,0:05:58.35,*Default,NTP,0000,0000,0000,,所以如果我们没有在 HTML 中指定任何图像尺寸，
+Dialogue: 0,0:05:58.35,0:06:02.60,*Default,NTP,0000,0000,0000,,那么如果我们使用 CSS 设置高度或宽度，
+Dialogue: 0,0:06:02.60,0:06:05.58,*Default,NTP,0000,0000,0000,,另一个会按顺序自动适应
+Dialogue: 0,0:06:05.58,0:06:10.20,*Default,NTP,0000,0000,0000,,考虑图像的原始纵横比。
+Dialogue: 0,0:06:10.20,0:06:13.58,*Default,NTP,0000,0000,0000,,例如，如果我们将其设置为 300，
+Dialogue: 0,0:06:13.58,0:06:16.25,*Default,NTP,0000,0000,0000,,那么它会变得非常小，对吗？
+Dialogue: 0,0:06:17.18,0:06:18.55,*Default,NTP,0000,0000,0000,,但现在，正如我所说，
+Dialogue: 0,0:06:18.55,0:06:22.18,*Default,NTP,0000,0000,0000,,让我们第一次真正远离像素
+Dialogue: 0,0:06:22.18,0:06:24.30,*Default,NTP,0000,0000,0000,,并使用百分比。
+Dialogue: 0,0:06:24.30,0:06:28.51,*Default,NTP,0000,0000,0000,,所以我可以这样说宽度，
+Dialogue: 0,0:06:28.51,0:06:30.48,*Default,NTP,0000,0000,0000,,所以'100%'。
+Dialogue: 0,0:06:30.48,0:06:34.09,*Default,NTP,0000,0000,0000,,通常对于这样的宽度测量，
+Dialogue: 0,0:06:34.09,0:06:37.17,*Default,NTP,0000,0000,0000,,百分比通常是百分比
+Dialogue: 0,0:06:37.17,0:06:39.62,*Default,NTP,0000,0000,0000,,父容器的宽度。
+Dialogue: 0,0:06:40.70,0:06:44.62,*Default,NTP,0000,0000,0000,,所以帖子图片的父级是标题
+Dialogue: 0,0:06:44.62,0:06:49.23,*Default,NTP,0000,0000,0000,,这个标题基本上是页面的整个宽度。
+Dialogue: 0,0:06:49.23,0:06:50.06,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:06:50.06,0:06:52.97,*Default,NTP,0000,0000,0000,,所以如果我说 100%
+Dialogue: 0,0:06:52.97,0:06:57.07,*Default,NTP,0000,0000,0000,,那么这个图像现在应该是整个页面的宽度。
+Dialogue: 0,0:06:57.07,0:07:01.01,*Default,NTP,0000,0000,0000,,事实上，这正是我们得到的。
+Dialogue: 0,0:07:01.01,0:07:03.68,*Default,NTP,0000,0000,0000,,所以这件事的特别之处在于 现在
+Dialogue: 0,0:07:03.68,0:07:06.88,*Default,NTP,0000,0000,0000,,当我们改变窗口的大小时，
+Dialogue: 0,0:07:06.88,0:07:11.78,*Default,NTP,0000,0000,0000,,那么图像的大小将始终保持在 100%。
+Dialogue: 0,0:07:12.80,0:07:13.63,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:13.63,0:07:17.05,*Default,NTP,0000,0000,0000,,因为那总是父容器的大小。
+Dialogue: 0,0:07:18.21,0:07:20.90,*Default,NTP,0000,0000,0000,,当然，我们可以将其设置为其他内容，
+Dialogue: 0,0:07:20.90,0:07:24.02,*Default,NTP,0000,0000,0000,,像父容器大小的一半。
+Dialogue: 0,0:07:25.17,0:07:27.04,*Default,NTP,0000,0000,0000,,仍然会发生的是
+Dialogue: 0,0:07:27.04,0:07:31.03,*Default,NTP,0000,0000,0000,,当我们改变父容器的大小时，
+Dialogue: 0,0:07:31.03,0:07:34.64,*Default,NTP,0000,0000,0000,,那么图像的大小也会适应。
+Dialogue: 0,0:07:34.64,0:07:35.63,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:35.63,0:07:38.90,*Default,NTP,0000,0000,0000,,这将变得非常非常重要
+Dialogue: 0,0:07:38.90,0:07:42.97,*Default,NTP,0000,0000,0000,,一旦我们开始谈论构建响应式网站，
+Dialogue: 0,0:07:42.97,0:07:46.42,*Default,NTP,0000,0000,0000,,所以适应屏幕宽度的网站。
+Dialogue: 0,0:07:47.38,0:07:48.35,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:48.35,0:07:51.00,*Default,NTP,0000,0000,0000,,但是让我们把它放回100%，
+Dialogue: 0,0:07:51.00,0:07:53.85,*Default,NTP,0000,0000,0000,,这是我们最初想要的。
+Dialogue: 0,0:07:53.85,0:07:56.74,*Default,NTP,0000,0000,0000,,有了这个，我认为我们实际上已经完成了
+Dialogue: 0,0:07:56.74,0:08:00.68,*Default,NTP,0000,0000,0000,,设置一些高度和一些宽度，至少现在是这样。
+Dialogue: 0,0:00:01.44,0:00:04.39,*Default,NTP,0000,0000,0000,,So now let me just very quickly show you
+Dialogue: 0,0:00:04.39,0:00:08.31,*Default,NTP,0000,0000,0000,,how we can add dimensions to elements in CSS
+Dialogue: 0,0:00:08.31,0:00:10.83,*Default,NTP,0000,0000,0000,,using the height and the width property.
+Dialogue: 0,0:00:12.40,0:00:17.24,*Default,NTP,0000,0000,0000,,And let's once again, start with our side element down here
+Dialogue: 0,0:00:17.24,0:00:20.78,*Default,NTP,0000,0000,0000,,which at some point later will be our sidebar.
+Dialogue: 0,0:00:20.78,0:00:23.52,*Default,NTP,0000,0000,0000,,And so it shouldn't be as wide
+Dialogue: 0,0:00:23.52,0:00:27.51,*Default,NTP,0000,0000,0000,,and instead we only wanted to be 500 pixels wide.
+Dialogue: 0,0:00:28.50,0:00:31.69,*Default,NTP,0000,0000,0000,,So we can simply come here to our element
+Dialogue: 0,0:00:31.69,0:00:36.69,*Default,NTP,0000,0000,0000,,and specify the width as 500 pixels.
+Dialogue: 0,0:00:38.07,0:00:39.58,*Default,NTP,0000,0000,0000,,And just like that,
+Dialogue: 0,0:00:40.89,0:00:45.84,*Default,NTP,0000,0000,0000,,now our side element is only 500 pixels wide.
+Dialogue: 0,0:00:45.84,0:00:50.12,*Default,NTP,0000,0000,0000,,So a lot more narrow than the rest of the page.
+Dialogue: 0,0:00:50.12,0:00:51.33,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:00:51.33,0:00:54.52,*Default,NTP,0000,0000,0000,,So very easy, very straightforward.
+Dialogue: 0,0:00:54.52,0:00:57.06,*Default,NTP,0000,0000,0000,,That is the width property.
+Dialogue: 0,0:00:57.06,0:00:58.99,*Default,NTP,0000,0000,0000,,Let's try another one.
+Dialogue: 0,0:00:59.95,0:01:03.31,*Default,NTP,0000,0000,0000,,So actually let's try height now.
+Dialogue: 0,0:01:03.31,0:01:07.75,*Default,NTP,0000,0000,0000,,And I'm doing that here in the main header.
+Dialogue: 0,0:01:07.75,0:01:10.66,*Default,NTP,0000,0000,0000,,So here, let's set the height
+Dialogue: 0,0:01:10.66,0:01:13.25,*Default,NTP,0000,0000,0000,,to let's say 80 pixels.
+Dialogue: 0,0:01:15.49,0:01:16.67,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:01:16.67,0:01:20.85,*Default,NTP,0000,0000,0000,,And now you saw how it increased here, right?
+Dialogue: 0,0:01:22.03,0:01:24.96,*Default,NTP,0000,0000,0000,,Now let's actually inspect this header here.
+Dialogue: 0,0:01:27.50,0:01:32.50,*Default,NTP,0000,0000,0000,,So not the link, but the entire header element, right?
+Dialogue: 0,0:01:32.50,0:01:35.54,*Default,NTP,0000,0000,0000,,And if we check out the box model down here,
+Dialogue: 0,0:01:36.82,0:01:39.03,*Default,NTP,0000,0000,0000,,so this is all a bit small
+Dialogue: 0,0:01:40.87,0:01:42.59,*Default,NTP,0000,0000,0000,,but nevermind.
+Dialogue: 0,0:01:42.59,0:01:46.23,*Default,NTP,0000,0000,0000,,So you can see that here we actually have the 80 pixels
+Dialogue: 0,0:01:46.23,0:01:48.77,*Default,NTP,0000,0000,0000,,that we just specified, right?
+Dialogue: 0,0:01:48.77,0:01:50.13,*Default,NTP,0000,0000,0000,,And then top of that,
+Dialogue: 0,0:01:50.13,0:01:54.40,*Default,NTP,0000,0000,0000,,we have the 20 pixels to the top and to the bottom.
+Dialogue: 0,0:01:54.40,0:01:57.77,*Default,NTP,0000,0000,0000,,And so the complete final size of the element
+Dialogue: 0,0:01:57.77,0:02:01.75,*Default,NTP,0000,0000,0000,,is actually not the 80 pixels that we specified here,
+Dialogue: 0,0:02:01.75,0:02:06.75,*Default,NTP,0000,0000,0000,,but it is 80 plus 20 plus 20, which is 120 pixels.
+Dialogue: 0,0:02:07.73,0:02:11.74,*Default,NTP,0000,0000,0000,,So that is exactly that default behavior of the box model
+Dialogue: 0,0:02:11.74,0:02:13.34,*Default,NTP,0000,0000,0000,,that I mentioned before
+Dialogue: 0,0:02:13.34,0:02:17.65,*Default,NTP,0000,0000,0000,,and that in my opinion, doesn't make any sense at all.
+Dialogue: 0,0:02:17.65,0:02:20.55,*Default,NTP,0000,0000,0000,,But again, we will fix that a little bit later.
+Dialogue: 0,0:02:20.55,0:02:21.75,*Default,NTP,0000,0000,0000,,For now it is important
+Dialogue: 0,0:02:21.75,0:02:25.80,*Default,NTP,0000,0000,0000,,to learn how the box model actually works originally.
+Dialogue: 0,0:02:25.80,0:02:28.87,*Default,NTP,0000,0000,0000,,And so again the real height of this element
+Dialogue: 0,0:02:28.87,0:02:31.91,*Default,NTP,0000,0000,0000,,is not the 80 that we specified here,
+Dialogue: 0,0:02:31.91,0:02:34.33,*Default,NTP,0000,0000,0000,,but we would then have to add the padding
+Dialogue: 0,0:02:34.33,0:02:35.59,*Default,NTP,0000,0000,0000,,to the top and bottom.
+Dialogue: 0,0:02:36.48,0:02:37.71,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:02:37.71,0:02:41.61,*Default,NTP,0000,0000,0000,,Now, one thing that you also might have noticed here is
+Dialogue: 0,0:02:41.61,0:02:44.68,*Default,NTP,0000,0000,0000,,that the content, so the text here,
+Dialogue: 0,0:02:44.68,0:02:48.56,*Default,NTP,0000,0000,0000,,doesn't just magically get vertically centered inside
+Dialogue: 0,0:02:48.56,0:02:50.36,*Default,NTP,0000,0000,0000,,of this header element.
+Dialogue: 0,0:02:50.36,0:02:53.96,*Default,NTP,0000,0000,0000,,So it actually was vertically centered before,
+Dialogue: 0,0:02:53.96,0:02:57.55,*Default,NTP,0000,0000,0000,,but that was simply because we had applied the same padding
+Dialogue: 0,0:02:57.55,0:02:59.75,*Default,NTP,0000,0000,0000,,to both of the sides.
+Dialogue: 0,0:02:59.75,0:03:02.07,*Default,NTP,0000,0000,0000,,But now not anymore.
+Dialogue: 0,0:03:02.07,0:03:05.89,*Default,NTP,0000,0000,0000,,I mean, we still do have the same padding on both sides,
+Dialogue: 0,0:03:05.89,0:03:08.42,*Default,NTP,0000,0000,0000,,but now we have this other height here.
+Dialogue: 0,0:03:08.42,0:03:10.20,*Default,NTP,0000,0000,0000,,And so now the space that's at the bottom
+Dialogue: 0,0:03:10.20,0:03:13.50,*Default,NTP,0000,0000,0000,,is no longer the space that's at the top.
+Dialogue: 0,0:03:13.50,0:03:16.55,*Default,NTP,0000,0000,0000,,And actually, it's not really straightforward
+Dialogue: 0,0:03:16.55,0:03:18.68,*Default,NTP,0000,0000,0000,,to center this vertically,
+Dialogue: 0,0:03:18.68,0:03:21.59,*Default,NTP,0000,0000,0000,,but of course we will learn how a little bit later.
+Dialogue: 0,0:03:22.63,0:03:23.89,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:23.89,0:03:25.16,*Default,NTP,0000,0000,0000,,So let's close it.
+Dialogue: 0,0:03:25.16,0:03:29.31,*Default,NTP,0000,0000,0000,,And now let's actually finally talk about this image.
+Dialogue: 0,0:03:29.31,0:03:33.60,*Default,NTP,0000,0000,0000,,So up until this point, it has been sitting here untouched,
+Dialogue: 0,0:03:33.60,0:03:38.60,*Default,NTP,0000,0000,0000,,but now let's select it and let's actually size it.
+Dialogue: 0,0:03:38.66,0:03:39.88,*Default,NTP,0000,0000,0000,,And for that,
+Dialogue: 0,0:03:39.88,0:03:42.85,*Default,NTP,0000,0000,0000,,let's give it a class so that we can then select it.
+Dialogue: 0,0:03:44.34,0:03:46.19,*Default,NTP,0000,0000,0000,,So...
+Dialogue: 0,0:03:46.19,0:03:47.74,*Default,NTP,0000,0000,0000,,It is this one here.
+Dialogue: 0,0:03:48.67,0:03:53.67,*Default,NTP,0000,0000,0000,,So class of 'posts-image' let's say.
+Dialogue: 0,0:03:55.83,0:03:59.04,*Default,NTP,0000,0000,0000,,Copy it and then...
+Dialogue: 0,0:03:59.04,0:04:00.88,*Default,NTP,0000,0000,0000,,Well, let's say...
+Dialogue: 0,0:04:04.10,0:04:06.78,*Default,NTP,0000,0000,0000,,somewhere here at the very bottom actually.
+Dialogue: 0,0:04:10.17,0:04:14.52,*Default,NTP,0000,0000,0000,,So this here was just a demo, so I'm putting it here.
+Dialogue: 0,0:04:14.52,0:04:17.20,*Default,NTP,0000,0000,0000,,And now let's specify the width here.
+Dialogue: 0,0:04:18.63,0:04:20.65,*Default,NTP,0000,0000,0000,,So it is actually very common
+Dialogue: 0,0:04:20.65,0:04:25.65,*Default,NTP,0000,0000,0000,,to size images in CSS and not in HTML like we did.
+Dialogue: 0,0:04:25.89,0:04:29.24,*Default,NTP,0000,0000,0000,,Actually many times, we never even specify the width
+Dialogue: 0,0:04:29.24,0:04:33.22,*Default,NTP,0000,0000,0000,,of images in HTML but only in CSS.
+Dialogue: 0,0:04:33.22,0:04:35.03,*Default,NTP,0000,0000,0000,,Now here for the first time,
+Dialogue: 0,0:04:35.03,0:04:38.08,*Default,NTP,0000,0000,0000,,I will not use length in pixels.
+Dialogue: 0,0:04:38.08,0:04:39.34,*Default,NTP,0000,0000,0000,,I mean, I could.
+Dialogue: 0,0:04:39.34,0:04:44.34,*Default,NTP,0000,0000,0000,,For now, let's say 800 pixels.
+Dialogue: 0,0:04:45.19,0:04:46.40,*Default,NTP,0000,0000,0000,,And so...
+Dialogue: 0,0:04:46.40,0:04:51.16,*Default,NTP,0000,0000,0000,,Well, that looks like it actually was the wrong image
+Dialogue: 0,0:04:51.16,0:04:52.40,*Default,NTP,0000,0000,0000,,that we selected here.
+Dialogue: 0,0:04:53.87,0:04:57.23,*Default,NTP,0000,0000,0000,,So the class should be of course on this one.
+Dialogue: 0,0:04:58.65,0:05:00.91,*Default,NTP,0000,0000,0000,,And so now that looks correct.
+Dialogue: 0,0:05:00.91,0:05:03.76,*Default,NTP,0000,0000,0000,,And so that's 800 that we specified there
+Dialogue: 0,0:05:03.76,0:05:07.17,*Default,NTP,0000,0000,0000,,did now override this 500.
+Dialogue: 0,0:05:07.17,0:05:10.79,*Default,NTP,0000,0000,0000,,However, this 200 here is still in place.
+Dialogue: 0,0:05:10.79,0:05:13.45,*Default,NTP,0000,0000,0000,,And that's why the aspect ratio is now
+Dialogue: 0,0:05:13.45,0:05:16.11,*Default,NTP,0000,0000,0000,,like completely broken, right?
+Dialogue: 0,0:05:16.11,0:05:18.07,*Default,NTP,0000,0000,0000,,So this doesn't look correct anymore.
+Dialogue: 0,0:05:18.07,0:05:22.01,*Default,NTP,0000,0000,0000,,It's way stretched to the width.
+Dialogue: 0,0:05:22.01,0:05:24.20,*Default,NTP,0000,0000,0000,,And so in order to fix that,
+Dialogue: 0,0:05:24.20,0:05:27.97,*Default,NTP,0000,0000,0000,,in case we do have to height specified in HTML,
+Dialogue: 0,0:05:27.97,0:05:32.97,*Default,NTP,0000,0000,0000,,what we need to do is to then set the height to 'auto'.
+Dialogue: 0,0:05:34.09,0:05:35.96,*Default,NTP,0000,0000,0000,,And so that will then fix it
+Dialogue: 0,0:05:35.96,0:05:39.37,*Default,NTP,0000,0000,0000,,and we'll put the aspect ratio back to the original.
+Dialogue: 0,0:05:40.21,0:05:41.04,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:41.04,0:05:44.06,*Default,NTP,0000,0000,0000,,But again, specifying the height
+Dialogue: 0,0:05:44.06,0:05:47.48,*Default,NTP,0000,0000,0000,,and setting it to auto is only necessary
+Dialogue: 0,0:05:47.48,0:05:52.06,*Default,NTP,0000,0000,0000,,if that height is already specified before in HTML.
+Dialogue: 0,0:05:52.06,0:05:54.11,*Default,NTP,0000,0000,0000,,In case we don't do that,
+Dialogue: 0,0:05:54.11,0:05:58.35,*Default,NTP,0000,0000,0000,,so in case we don't specify any image dimensions in HTML,
+Dialogue: 0,0:05:58.35,0:06:02.60,*Default,NTP,0000,0000,0000,,then if we set the height or the width using CSS,
+Dialogue: 0,0:06:02.60,0:06:05.58,*Default,NTP,0000,0000,0000,,the other one will automatically adapt in order
+Dialogue: 0,0:06:05.58,0:06:10.20,*Default,NTP,0000,0000,0000,,to account for the original aspect ratio of the image.
+Dialogue: 0,0:06:10.20,0:06:13.58,*Default,NTP,0000,0000,0000,,So for example if we set this to 300,
+Dialogue: 0,0:06:13.58,0:06:16.25,*Default,NTP,0000,0000,0000,,then it would become really small, right?
+Dialogue: 0,0:06:17.18,0:06:18.55,*Default,NTP,0000,0000,0000,,But now, as I said,
+Dialogue: 0,0:06:18.55,0:06:22.18,*Default,NTP,0000,0000,0000,,let's actually move away from pixels for the first time
+Dialogue: 0,0:06:22.18,0:06:24.30,*Default,NTP,0000,0000,0000,,and use percentages.
+Dialogue: 0,0:06:24.30,0:06:28.51,*Default,NTP,0000,0000,0000,,So I can say the width like this,
+Dialogue: 0,0:06:28.51,0:06:30.48,*Default,NTP,0000,0000,0000,,so '100%'.
+Dialogue: 0,0:06:30.48,0:06:34.09,*Default,NTP,0000,0000,0000,,And usually for a width measurement like this,
+Dialogue: 0,0:06:34.09,0:06:37.17,*Default,NTP,0000,0000,0000,,the percentage is usually the percentage
+Dialogue: 0,0:06:37.17,0:06:39.62,*Default,NTP,0000,0000,0000,,of the width of the parent container.
+Dialogue: 0,0:06:40.70,0:06:44.62,*Default,NTP,0000,0000,0000,,So the parent of the post image is the header
+Dialogue: 0,0:06:44.62,0:06:49.23,*Default,NTP,0000,0000,0000,,and this header is basically the entire width of the page.
+Dialogue: 0,0:06:49.23,0:06:50.06,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:06:50.06,0:06:52.97,*Default,NTP,0000,0000,0000,,And so if I say with of 100%,
+Dialogue: 0,0:06:52.97,0:06:57.07,*Default,NTP,0000,0000,0000,,then this image should now be the width of the entire page.
+Dialogue: 0,0:06:57.07,0:07:01.01,*Default,NTP,0000,0000,0000,,And indeed that is exactly what we get.
+Dialogue: 0,0:07:01.01,0:07:03.68,*Default,NTP,0000,0000,0000,,And so what's special about this is that now
+Dialogue: 0,0:07:03.68,0:07:06.88,*Default,NTP,0000,0000,0000,,as we change the size of the window,
+Dialogue: 0,0:07:06.88,0:07:11.78,*Default,NTP,0000,0000,0000,,then the size of the image will always stay at 100%.
+Dialogue: 0,0:07:12.80,0:07:13.63,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:13.63,0:07:17.05,*Default,NTP,0000,0000,0000,,Because that is always the size of the parent container.
+Dialogue: 0,0:07:18.21,0:07:20.90,*Default,NTP,0000,0000,0000,,Of course we could set it to something else,
+Dialogue: 0,0:07:20.90,0:07:24.02,*Default,NTP,0000,0000,0000,,like half of the size of the parent container.
+Dialogue: 0,0:07:25.17,0:07:27.04,*Default,NTP,0000,0000,0000,,And what would still happen is that
+Dialogue: 0,0:07:27.04,0:07:31.03,*Default,NTP,0000,0000,0000,,as we changed the size of the parent container,
+Dialogue: 0,0:07:31.03,0:07:34.64,*Default,NTP,0000,0000,0000,,then the size of the image would also adapt.
+Dialogue: 0,0:07:34.64,0:07:35.63,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:35.63,0:07:38.90,*Default,NTP,0000,0000,0000,,And this is something that will become very, very important
+Dialogue: 0,0:07:38.90,0:07:42.97,*Default,NTP,0000,0000,0000,,once we start talking about building responsive websites,
+Dialogue: 0,0:07:42.97,0:07:46.42,*Default,NTP,0000,0000,0000,,so websites that adapt to the screen width.
+Dialogue: 0,0:07:47.38,0:07:48.35,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:48.35,0:07:51.00,*Default,NTP,0000,0000,0000,,But let's put it back to 100%,
+Dialogue: 0,0:07:51.00,0:07:53.85,*Default,NTP,0000,0000,0000,,which is what we originally wanted.
+Dialogue: 0,0:07:53.85,0:07:56.74,*Default,NTP,0000,0000,0000,,And with that, I think we are actually done
+Dialogue: 0,0:07:56.74,0:08:00.68,*Default,NTP,0000,0000,0000,,with setting some heights and some width, at least for now.

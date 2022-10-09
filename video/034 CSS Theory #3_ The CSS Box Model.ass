@@ -1,0 +1,304 @@
+[Script Info]
+Title: 034 CSS Theory #3_ The CSS Box Model_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=32&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.57,0:00:04.95,*Default,NTP,0000,0000,0000,,CSS 盒子模型是最基本的模型之一
+Dialogue: 0,0:00:04.95,0:00:07.06,*Default,NTP,0000,0000,0000,,CSS 的一部分。
+Dialogue: 0,0:00:07.06,0:00:09.44,*Default,NTP,0000,0000,0000,,所以你真的需要理解它
+Dialogue: 0,0:00:09.44,0:00:11.60,*Default,NTP,0000,0000,0000,,为了学习CSS。
+Dialogue: 0,0:00:11.60,0:00:15.54,*Default,NTP,0000,0000,0000,,这正是我们将在本视频中所做的。
+Dialogue: 0,0:00:17.07,0:00:20.38,*Default,NTP,0000,0000,0000,,现在，盒子模型到底是什么？
+Dialogue: 0,0:00:20.38,0:00:24.74,*Default,NTP,0000,0000,0000,,好吧，盒子模型定义了元素如何显示在
+Dialogue: 0,0:00:24.74,0:00:27.84,*Default,NTP,0000,0000,0000,,网页以及它们的大小。
+Dialogue: 0,0:00:27.84,0:00:29.65,*Default,NTP,0000,0000,0000,,所以在这个盒子模型中，
+Dialogue: 0,0:00:29.65,0:00:33.78,*Default,NTP,0000,0000,0000,,网页上的每一个元素都可以看作是
+Dialogue: 0,0:00:33.78,0:00:38.73,*Default,NTP,0000,0000,0000,,矩形框，每个框都可以有内容，
+Dialogue: 0,0:00:38.73,0:00:43.32,*Default,NTP,0000,0000,0000,,它内部和外部的边界和空间。
+Dialogue: 0,0:00:43.32,0:00:45.96,*Default,NTP,0000,0000,0000,,所以让我们定义所有的部分
+Dialogue: 0,0:00:45.96,0:00:50.96,*Default,NTP,0000,0000,0000,,盒子模型一个一个，从内容开始
+Dialogue: 0,0:00:51.03,0:00:54.82,*Default,NTP,0000,0000,0000,,这是元素的实际内容。
+Dialogue: 0,0:00:54.82,0:00:58.88,*Default,NTP,0000,0000,0000,,所以它可以是文本或图像或表格，
+Dialogue: 0,0:00:58.88,0:01:03.88,*Default,NTP,0000,0000,0000,,视频，或者我们可能指定的任何其他内容。
+Dialogue: 0,0:01:04.69,0:01:09.31,*Default,NTP,0000,0000,0000,,使用 CSS 属性，我们可以指定高度和
+Dialogue: 0,0:01:09.31,0:01:11.33,*Default,NTP,0000,0000,0000,,内容区域的宽度，
+Dialogue: 0,0:01:11.33,0:01:15.42,*Default,NTP,0000,0000,0000,,我们将在下一节课中进行。
+Dialogue: 0,0:01:15.42,0:01:18.63,*Default,NTP,0000,0000,0000,,接下来，我们可以定义一个边界
+Dialogue: 0,0:01:18.63,0:01:20.48,*Default,NTP,0000,0000,0000,,元素周围。
+Dialogue: 0,0:01:20.48,0:01:24.68,*Default,NTP,0000,0000,0000,,实际上我们之前已经这样做了。记住？
+Dialogue: 0,0:01:24.68,0:01:27.52,*Default,NTP,0000,0000,0000,,顺便说一句，这个边界在技术上是
+Dialogue: 0,0:01:27.52,0:01:30.23,*Default,NTP,0000,0000,0000,,仍然在元素内部。
+Dialogue: 0,0:01:31.27,0:01:36.27,*Default,NTP,0000,0000,0000,,现在盒子模型的下一个成分是填充。
+Dialogue: 0,0:01:36.40,0:01:40.56,*Default,NTP,0000,0000,0000,,所以填充基本上是不可见的空白，我们可以
+Dialogue: 0,0:01:40.56,0:01:43.23,*Default,NTP,0000,0000,0000,,围绕元素内容创建。
+Dialogue: 0,0:01:43.23,0:01:46.66,*Default,NTP,0000,0000,0000,,所以在内容和边框之间，
+Dialogue: 0,0:01:46.66,0:01:49.53,*Default,NTP,0000,0000,0000,,你可以在这张图中很好地看到，
+Dialogue: 0,0:01:49.53,0:01:51.83,*Default,NTP,0000,0000,0000,,当
+Dialogue: 0,0:01:51.83,0:01:54.24,*Default,NTP,0000,0000,0000,,我们开始在实践中使用它。
+Dialogue: 0,0:01:54.24,0:01:58.28,*Default,NTP,0000,0000,0000,,但不管怎样，就像border一样，padding也是
+Dialogue: 0,0:01:58.28,0:02:01.36,*Default,NTP,0000,0000,0000,,仍然在元素内部。
+Dialogue: 0,0:02:01.36,0:02:05.93,*Default,NTP,0000,0000,0000,,所以本质上填充是我们可以创建的空白空间
+Dialogue: 0,0:02:05.93,0:02:08.33,*Default,NTP,0000,0000,0000,,元素内部。
+Dialogue: 0,0:02:08.33,0:02:12.84,*Default,NTP,0000,0000,0000,,然后类似于padding，我们也有margin。
+Dialogue: 0,0:02:12.84,0:02:15.17,*Default,NTP,0000,0000,0000,,现在不同的是，保证金创造
+Dialogue: 0,0:02:15.17,0:02:17.68,*Default,NTP,0000,0000,0000,,元素周围的空白区域。
+Dialogue: 0,0:02:17.68,0:02:21.48,*Default,NTP,0000,0000,0000,,所以在元素本身之外。
+Dialogue: 0,0:02:21.48,0:02:22.75,*Default,NTP,0000,0000,0000,,所以在实践中，
+Dialogue: 0,0:02:22.75,0:02:25.31,*Default,NTP,0000,0000,0000,,我们使用边距来创造空间
+Dialogue: 0,0:02:25.31,0:02:28.36,*Default,NTP,0000,0000,0000,,我们页面上的元素之间。
+Dialogue: 0,0:02:28.36,0:02:31.29,*Default,NTP,0000,0000,0000,,因此，例如，如果我们想要在
+Dialogue: 0,0:02:31.29,0:02:34.15,*Default,NTP,0000,0000,0000,,两个特定的元素，我们只需指定
+Dialogue: 0,0:02:34.15,0:02:37.02,*Default,NTP,0000,0000,0000,,其中之一的保证金属性。
+Dialogue: 0,0:02:37.02,0:02:40.89,*Default,NTP,0000,0000,0000,,再说一次，填充是我们可以使用的空白空间
+Dialogue: 0,0:02:40.89,0:02:43.96,*Default,NTP,0000,0000,0000,,在任何元素内添加。
+Dialogue: 0,0:02:43.96,0:02:48.01,*Default,NTP,0000,0000,0000,,它将位于内容本身和边界之间，
+Dialogue: 0,0:02:48.01,0:02:52.35,*Default,NTP,0000,0000,0000,,这基本上是元素的最外面的部分。
+Dialogue: 0,0:02:52.35,0:02:56.93,*Default,NTP,0000,0000,0000,,所以内容、内边距和边框都是
+Dialogue: 0,0:02:56.93,0:03:01.54,*Default,NTP,0000,0000,0000,,我们可以在页面上看到元素的可见部分。
+Dialogue: 0,0:03:01.54,0:03:05.18,*Default,NTP,0000,0000,0000,,然后，围绕所有这些，我们可以添加一些边距
+Dialogue: 0,0:03:05.18,0:03:08.64,*Default,NTP,0000,0000,0000,,为了在元素之间创造空间。
+Dialogue: 0,0:03:08.64,0:03:12.34,*Default,NTP,0000,0000,0000,,现在需要注意的是，所有这些都是
+Dialogue: 0,0:03:12.34,0:03:14.14,*Default,NTP,0000,0000,0000,,实际上是可选的，
+Dialogue: 0,0:03:14.14,0:03:19.14,*Default,NTP,0000,0000,0000,,所以我们不必指定填充或边框或边距
+Dialogue: 0,0:03:19.44,0:03:24.44,*Default,NTP,0000,0000,0000,,所以我们不能定义它们中的任何一个或一些，甚至全部。
+Dialogue: 0,0:03:24.50,0:03:28.82,*Default,NTP,0000,0000,0000,,这一切都取决于我们希望我们的布局看起来如何。
+Dialogue: 0,0:03:28.82,0:03:31.27,*Default,NTP,0000,0000,0000,,最后，还有一个东西叫
+Dialogue: 0,0:03:31.27,0:03:35.59,*Default,NTP,0000,0000,0000,,填充区域和这个可能有点混乱，
+Dialogue: 0,0:03:35.59,0:03:38.46,*Default,NTP,0000,0000,0000,,但让我们试着理解它。
+Dialogue: 0,0:03:38.46,0:03:41.29,*Default,NTP,0000,0000,0000,,所以请记住文本内容和
+Dialogue: 0,0:03:41.29,0:03:45.71,*Default,NTP,0000,0000,0000,,图像在内容框内，对吗？
+Dialogue: 0,0:03:45.71,0:03:48.61,*Default,NTP,0000,0000,0000,,现在，同样不适用于背景
+Dialogue: 0,0:03:48.61,0:03:52.29,*Default,NTP,0000,0000,0000,,图像或背面元素的底色。
+Dialogue: 0,0:03:52.29,0:03:56.04,*Default,NTP,0000,0000,0000,,这些属性实际上不仅适用于
+Dialogue: 0,0:03:56.04,0:03:59.77,*Default,NTP,0000,0000,0000,,内容区域，但到整个填充区域，
+Dialogue: 0,0:03:59.77,0:04:03.20,*Default,NTP,0000,0000,0000,,其中还包括填充和边框。
+Dialogue: 0,0:04:03.20,0:04:07.44,*Default,NTP,0000,0000,0000,,所以基本上如果我们应用背景图像或颜色，
+Dialogue: 0,0:04:07.44,0:04:11.37,*Default,NTP,0000,0000,0000,,它将占据元素的整个可见部分。
+Dialogue: 0,0:04:13.15,0:04:14.35,*Default,NTP,0000,0000,0000,,现在，对于一些人来说，
+Dialogue: 0,0:04:14.35,0:04:17.73,*Default,NTP,0000,0000,0000,,这听起来很抽象，很难想象
+Dialogue: 0,0:04:17.73,0:04:19.20,*Default,NTP,0000,0000,0000,,在现实世界。
+Dialogue: 0,0:04:19.20,0:04:20.90,*Default,NTP,0000,0000,0000,,所以在这些情况下，
+Dialogue: 0,0:04:20.90,0:04:25.37,*Default,NTP,0000,0000,0000,,在现实世界中进行类比是非常有用的。
+Dialogue: 0,0:04:25.37,0:04:29.16,*Default,NTP,0000,0000,0000,,还有一个我个人觉得很有帮助的类比
+Dialogue: 0,0:04:29.16,0:04:32.71,*Default,NTP,0000,0000,0000,,就是想象墙上的框架。
+Dialogue: 0,0:04:32.71,0:04:34.42,*Default,NTP,0000,0000,0000,,所以在这个类比中，
+Dialogue: 0,0:04:34.42,0:04:37.88,*Default,NTP,0000,0000,0000,,框架中的绘图或图像是
+Dialogue: 0,0:04:37.88,0:04:39.51,*Default,NTP,0000,0000,0000,,内容区。
+Dialogue: 0,0:04:39.51,0:04:43.16,*Default,NTP,0000,0000,0000,,然后，许多框架实际上都有这种
+Dialogue: 0,0:04:43.16,0:04:46.91,*Default,NTP,0000,0000,0000,,绘图或图像之间的白纸
+Dialogue: 0,0:04:46.91,0:04:49.35,*Default,NTP,0000,0000,0000,,和实际的框架本身。
+Dialogue: 0,0:04:49.35,0:04:52.77,*Default,NTP,0000,0000,0000,,所以如果我们把它带回我们的盒子模型，
+Dialogue: 0,0:04:52.77,0:04:55.54,*Default,NTP,0000,0000,0000,,那么这当然是填充。
+Dialogue: 0,0:04:55.54,0:04:59.60,*Default,NTP,0000,0000,0000,,所以内容区域和边框之间的空间。
+Dialogue: 0,0:04:59.60,0:05:04.58,*Default,NTP,0000,0000,0000,,所以在这个类比中，框架当然是边界，
+Dialogue: 0,0:05:04.58,0:05:07.30,*Default,NTP,0000,0000,0000,,对？所以这很有意义。
+Dialogue: 0,0:05:07.30,0:05:08.13,*Default,NTP,0000,0000,0000,,最后，
+Dialogue: 0,0:05:08.13,0:05:12.16,*Default,NTP,0000,0000,0000,,当我们用这样的框架把照片挂在墙上时，
+Dialogue: 0,0:05:12.16,0:05:15.85,*Default,NTP,0000,0000,0000,,那么当然其他之间可能会有一些空间
+Dialogue: 0,0:05:15.85,0:05:20.05,*Default,NTP,0000,0000,0000,,墙上的元素，甚至侧面的其他一些墙壁。
+Dialogue: 0,0:05:20.05,0:05:22.75,*Default,NTP,0000,0000,0000,,所以在我们的盒子模型类比中，
+Dialogue: 0,0:05:22.75,0:05:25.42,*Default,NTP,0000,0000,0000,,那当然是余量。
+Dialogue: 0,0:05:25.42,0:05:29.29,*Default,NTP,0000,0000,0000,,所以它是框架之外的空间，
+Dialogue: 0,0:05:29.29,0:05:33.14,*Default,NTP,0000,0000,0000,,在框架之间创造空间。例如，
+Dialogue: 0,0:05:33.14,0:05:36.62,*Default,NTP,0000,0000,0000,,墙上的某个地方可能还有另一个框架，并且
+Dialogue: 0,0:05:36.62,0:05:40.42,*Default,NTP,0000,0000,0000,,那些框架之间的空间，所以在它们之外，
+Dialogue: 0,0:05:40.42,0:05:44.61,*Default,NTP,0000,0000,0000,,就是我们所说的盒子模型中的边距。好的？
+Dialogue: 0,0:05:44.61,0:05:48.11,*Default,NTP,0000,0000,0000,,所以希望这个来自现实世界的类比可以帮助你
+Dialogue: 0,0:05:48.11,0:05:50.64,*Default,NTP,0000,0000,0000,,将这些概念带回
+Dialogue: 0,0:05:50.64,0:05:53.56,*Default,NTP,0000,0000,0000,,更抽象的 CSS 世界。
+Dialogue: 0,0:05:53.56,0:05:56.65,*Default,NTP,0000,0000,0000,,现在，为了完成，让我们快速学习
+Dialogue: 0,0:05:56.65,0:05:59.40,*Default,NTP,0000,0000,0000,,盒子模型实际上是如何计算的
+Dialogue: 0,0:05:59.40,0:06:02.54,*Default,NTP,0000,0000,0000,,元素的确切大小基于
+Dialogue: 0,0:06:02.54,0:06:05.10,*Default,NTP,0000,0000,0000,,内容、边框和内边距。
+Dialogue: 0,0:06:07.20,0:06:08.82,*Default,NTP,0000,0000,0000,,所以，正如我提到的，
+Dialogue: 0,0:06:08.82,0:06:13.52,*Default,NTP,0000,0000,0000,,我们可以指定内容区域的高度和宽度。
+Dialogue: 0,0:06:13.52,0:06:16.93,*Default,NTP,0000,0000,0000,,现在，如果我们选择不定义高度或宽度，
+Dialogue: 0,0:06:16.93,0:06:18.73,*Default,NTP,0000,0000,0000,,那么盒子模型将简单
+Dialogue: 0,0:06:18.73,0:06:22.19,*Default,NTP,0000,0000,0000,,根据内容暗示它们。
+Dialogue: 0,0:06:22.19,0:06:26.47,*Default,NTP,0000,0000,0000,,但是，这些指定或隐含的高度和宽度
+Dialogue: 0,0:06:26.47,0:06:31.25,*Default,NTP,0000,0000,0000,,实际上不是元素的最终大小。
+Dialogue: 0,0:06:31.25,0:06:33.97,*Default,NTP,0000,0000,0000,,那是因为边框和填充
+Dialogue: 0,0:06:33.97,0:06:37.06,*Default,NTP,0000,0000,0000,,也被考虑在内。
+Dialogue: 0,0:06:37.06,0:06:40.83,*Default,NTP,0000,0000,0000,,所以我们看到的元素的最终宽度
+Dialogue: 0,0:06:40.83,0:06:44.85,*Default,NTP,0000,0000,0000,,最终布局由左边框定义
+Dialogue: 0,0:06:44.85,0:06:49.85,*Default,NTP,0000,0000,0000,,加上左边的填充加上指定或隐含的宽度
+Dialogue: 0,0:06:49.96,0:06:53.85,*Default,NTP,0000,0000,0000,,加上右边的填充加上右边的边框。
+Dialogue: 0,0:06:53.85,0:06:56.60,*Default,NTP,0000,0000,0000,,同样的逻辑当然适用于
+Dialogue: 0,0:06:56.60,0:06:58.46,*Default,NTP,0000,0000,0000,,元素的高度。
+Dialogue: 0,0:06:58.46,0:07:02.35,*Default,NTP,0000,0000,0000,,所以它是顶部边框，加上顶部填充
+Dialogue: 0,0:07:02.35,0:07:06.02,*Default,NTP,0000,0000,0000,,加上指定或隐含的高度
+Dialogue: 0,0:07:06.02,0:07:11.02,*Default,NTP,0000,0000,0000,,加上底部填充，最后是底部边框。
+Dialogue: 0,0:07:11.18,0:07:13.97,*Default,NTP,0000,0000,0000,,现在，如您所见，边距当然是
+Dialogue: 0,0:07:13.97,0:07:17.10,*Default,NTP,0000,0000,0000,,不是宽度或高度计算的一部分
+Dialogue: 0,0:07:17.10,0:07:20.20,*Default,NTP,0000,0000,0000,,的元素，因为再次，
+Dialogue: 0,0:07:20.20,0:07:23.74,*Default,NTP,0000,0000,0000,,这只是他们周围的空间。
+Dialogue: 0,0:07:23.74,0:07:26.45,*Default,NTP,0000,0000,0000,,正如我在讲座开始时所说，
+Dialogue: 0,0:07:26.45,0:07:30.32,*Default,NTP,0000,0000,0000,,我们当然可以使用指定所有这些单独的尺寸
+Dialogue: 0,0:07:30.32,0:07:33.13,*Default,NTP,0000,0000,0000,,某些 CSS 属性。
+Dialogue: 0,0:07:33.13,0:07:37.19,*Default,NTP,0000,0000,0000,,现在非常重要的是要注意这种方式
+Dialogue: 0,0:07:37.19,0:07:41.62,*Default,NTP,0000,0000,0000,,计算高度和宽度实际上只是默认值
+Dialogue: 0,0:07:41.62,0:07:44.28,*Default,NTP,0000,0000,0000,,盒模型的行为。
+Dialogue: 0,0:07:44.28,0:07:47.58,*Default,NTP,0000,0000,0000,,但是，我们可以更改此默认行为
+Dialogue: 0,0:07:47.58,0:07:51.17,*Default,NTP,0000,0000,0000,,因为它实际上没有多大意义
+Dialogue: 0,0:07:51.17,0:07:53.65,*Default,NTP,0000,0000,0000,,我们稍后会这样做，但现在
+Dialogue: 0,0:07:53.65,0:07:55.99,*Default,NTP,0000,0000,0000,,我不想再混淆你了
+Dialogue: 0,0:07:55.99,0:07:59.44,*Default,NTP,0000,0000,0000,,所以让我们从使用这个默认行为开始
+Dialogue: 0,0:07:59.44,0:08:02.13,*Default,NTP,0000,0000,0000,,从下一个视频开始。
+Dialogue: 0,0:00:01.57,0:00:04.95,*Default,NTP,0000,0000,0000,,The CSS box model is one of the most fundamental
+Dialogue: 0,0:00:04.95,0:00:07.06,*Default,NTP,0000,0000,0000,,parts of CSS.
+Dialogue: 0,0:00:07.06,0:00:09.44,*Default,NTP,0000,0000,0000,,And so you really need to understand it
+Dialogue: 0,0:00:09.44,0:00:11.60,*Default,NTP,0000,0000,0000,,in order to learn CSS.
+Dialogue: 0,0:00:11.60,0:00:15.54,*Default,NTP,0000,0000,0000,,And so that is exactly what we will do in this video.
+Dialogue: 0,0:00:17.07,0:00:20.38,*Default,NTP,0000,0000,0000,,Now, what exactly is the box model?
+Dialogue: 0,0:00:20.38,0:00:24.74,*Default,NTP,0000,0000,0000,,Well, the box model defines how elements are displayed on a
+Dialogue: 0,0:00:24.74,0:00:27.84,*Default,NTP,0000,0000,0000,,webpage and how they are sized.
+Dialogue: 0,0:00:27.84,0:00:29.65,*Default,NTP,0000,0000,0000,,So in this box model,
+Dialogue: 0,0:00:29.65,0:00:33.78,*Default,NTP,0000,0000,0000,,each and every element on a webpage can be seen as a
+Dialogue: 0,0:00:33.78,0:00:38.73,*Default,NTP,0000,0000,0000,,rectangular box and each of these boxes can have content,
+Dialogue: 0,0:00:38.73,0:00:43.32,*Default,NTP,0000,0000,0000,,a border and space inside and outside of it.
+Dialogue: 0,0:00:43.32,0:00:45.96,*Default,NTP,0000,0000,0000,,So let's define all of the pieces of the
+Dialogue: 0,0:00:45.96,0:00:50.96,*Default,NTP,0000,0000,0000,,box model one by one, and starting with the content
+Dialogue: 0,0:00:51.03,0:00:54.82,*Default,NTP,0000,0000,0000,,This is the actual content of the element.
+Dialogue: 0,0:00:54.82,0:00:58.88,*Default,NTP,0000,0000,0000,,So it can be text or images or a table,
+Dialogue: 0,0:00:58.88,0:01:03.88,*Default,NTP,0000,0000,0000,,a video, or really any other content that we might specify.
+Dialogue: 0,0:01:04.69,0:01:09.31,*Default,NTP,0000,0000,0000,,Using CSS properties, we can specify both the height and
+Dialogue: 0,0:01:09.31,0:01:11.33,*Default,NTP,0000,0000,0000,,the width of the content area,
+Dialogue: 0,0:01:11.33,0:01:15.42,*Default,NTP,0000,0000,0000,,which we will do in one of the next lectures.
+Dialogue: 0,0:01:15.42,0:01:18.63,*Default,NTP,0000,0000,0000,,Next, we can define a border that goes
+Dialogue: 0,0:01:18.63,0:01:20.48,*Default,NTP,0000,0000,0000,,all around the element.
+Dialogue: 0,0:01:20.48,0:01:24.68,*Default,NTP,0000,0000,0000,,And actually we already did that before. Remember?
+Dialogue: 0,0:01:24.68,0:01:27.52,*Default,NTP,0000,0000,0000,,And by the way, this border is technically
+Dialogue: 0,0:01:27.52,0:01:30.23,*Default,NTP,0000,0000,0000,,still inside of the element.
+Dialogue: 0,0:01:31.27,0:01:36.27,*Default,NTP,0000,0000,0000,,And now the next ingredient of the box model is the padding.
+Dialogue: 0,0:01:36.40,0:01:40.56,*Default,NTP,0000,0000,0000,,So padding is basically invisible white space that we can
+Dialogue: 0,0:01:40.56,0:01:43.23,*Default,NTP,0000,0000,0000,,create around the elements content.
+Dialogue: 0,0:01:43.23,0:01:46.66,*Default,NTP,0000,0000,0000,,So between the content and the border,
+Dialogue: 0,0:01:46.66,0:01:49.53,*Default,NTP,0000,0000,0000,,you can see that nicely in this diagram,
+Dialogue: 0,0:01:49.53,0:01:51.83,*Default,NTP,0000,0000,0000,,and it will make even more sense when
+Dialogue: 0,0:01:51.83,0:01:54.24,*Default,NTP,0000,0000,0000,,we start using this in practice.
+Dialogue: 0,0:01:54.24,0:01:58.28,*Default,NTP,0000,0000,0000,,But anyway, just like the border, the padding is also
+Dialogue: 0,0:01:58.28,0:02:01.36,*Default,NTP,0000,0000,0000,,still inside of the element.
+Dialogue: 0,0:02:01.36,0:02:05.93,*Default,NTP,0000,0000,0000,,So essentially padding is empty space that we can create
+Dialogue: 0,0:02:05.93,0:02:08.33,*Default,NTP,0000,0000,0000,,inside of elements.
+Dialogue: 0,0:02:08.33,0:02:12.84,*Default,NTP,0000,0000,0000,,Then similar to padding, we also have margin.
+Dialogue: 0,0:02:12.84,0:02:15.17,*Default,NTP,0000,0000,0000,,Now the difference is that margin creates
+Dialogue: 0,0:02:15.17,0:02:17.68,*Default,NTP,0000,0000,0000,,empty space around the element.
+Dialogue: 0,0:02:17.68,0:02:21.48,*Default,NTP,0000,0000,0000,,So outside of the element itself.
+Dialogue: 0,0:02:21.48,0:02:22.75,*Default,NTP,0000,0000,0000,,So in practice,
+Dialogue: 0,0:02:22.75,0:02:25.31,*Default,NTP,0000,0000,0000,,we use margin in order to create space
+Dialogue: 0,0:02:25.31,0:02:28.36,*Default,NTP,0000,0000,0000,,between elements on our page.
+Dialogue: 0,0:02:28.36,0:02:31.29,*Default,NTP,0000,0000,0000,,So if for example we want space between
+Dialogue: 0,0:02:31.29,0:02:34.15,*Default,NTP,0000,0000,0000,,two certain elements, we simply specify the
+Dialogue: 0,0:02:34.15,0:02:37.02,*Default,NTP,0000,0000,0000,,margin property on one of them.
+Dialogue: 0,0:02:37.02,0:02:40.89,*Default,NTP,0000,0000,0000,,So again, padding is empty space that we can
+Dialogue: 0,0:02:40.89,0:02:43.96,*Default,NTP,0000,0000,0000,,add inside of any element.
+Dialogue: 0,0:02:43.96,0:02:48.01,*Default,NTP,0000,0000,0000,,It will sit between the content itself and the border,
+Dialogue: 0,0:02:48.01,0:02:52.35,*Default,NTP,0000,0000,0000,,which is basically the outermost part of the element.
+Dialogue: 0,0:02:52.35,0:02:56.93,*Default,NTP,0000,0000,0000,,So the content, padding and border all together are the
+Dialogue: 0,0:02:56.93,0:03:01.54,*Default,NTP,0000,0000,0000,,visible parts of the element as we can see it on the page.
+Dialogue: 0,0:03:01.54,0:03:05.18,*Default,NTP,0000,0000,0000,,Then, around all that, we can add some margin
+Dialogue: 0,0:03:05.18,0:03:08.64,*Default,NTP,0000,0000,0000,,in order to create space between elements.
+Dialogue: 0,0:03:08.64,0:03:12.34,*Default,NTP,0000,0000,0000,,Now what's important to note here is that all of these are
+Dialogue: 0,0:03:12.34,0:03:14.14,*Default,NTP,0000,0000,0000,,actually optional,
+Dialogue: 0,0:03:14.14,0:03:19.14,*Default,NTP,0000,0000,0000,,so we don't have to specify paddings or a border or margins
+Dialogue: 0,0:03:19.44,0:03:24.44,*Default,NTP,0000,0000,0000,,so we can define none of them or some, or even all of them.
+Dialogue: 0,0:03:24.50,0:03:28.82,*Default,NTP,0000,0000,0000,,It all depends on how we want our layout to look like.
+Dialogue: 0,0:03:28.82,0:03:31.27,*Default,NTP,0000,0000,0000,,Finally, there is also something called
+Dialogue: 0,0:03:31.27,0:03:35.59,*Default,NTP,0000,0000,0000,,the fill area and this one can be a bit confusing,
+Dialogue: 0,0:03:35.59,0:03:38.46,*Default,NTP,0000,0000,0000,,but let's try to understand it.
+Dialogue: 0,0:03:38.46,0:03:41.29,*Default,NTP,0000,0000,0000,,So remember that the text content and
+Dialogue: 0,0:03:41.29,0:03:45.71,*Default,NTP,0000,0000,0000,,images are inside the content box, right?
+Dialogue: 0,0:03:45.71,0:03:48.61,*Default,NTP,0000,0000,0000,,Now, the same does not apply for background
+Dialogue: 0,0:03:48.61,0:03:52.29,*Default,NTP,0000,0000,0000,,images or the background color of an element.
+Dialogue: 0,0:03:52.29,0:03:56.04,*Default,NTP,0000,0000,0000,,These properties will actually be applied not only to
+Dialogue: 0,0:03:56.04,0:03:59.77,*Default,NTP,0000,0000,0000,,the content area, but to the entire fill area,
+Dialogue: 0,0:03:59.77,0:04:03.20,*Default,NTP,0000,0000,0000,,which also includes the padding and the border.
+Dialogue: 0,0:04:03.20,0:04:07.44,*Default,NTP,0000,0000,0000,,So basically if we apply a background image or a color,
+Dialogue: 0,0:04:07.44,0:04:11.37,*Default,NTP,0000,0000,0000,,it will occupy the entire visible part of the element.
+Dialogue: 0,0:04:13.15,0:04:14.35,*Default,NTP,0000,0000,0000,,Now, for some people,
+Dialogue: 0,0:04:14.35,0:04:17.73,*Default,NTP,0000,0000,0000,,this can all sound very abstract and hard to imagine
+Dialogue: 0,0:04:17.73,0:04:19.20,*Default,NTP,0000,0000,0000,,in the real world.
+Dialogue: 0,0:04:19.20,0:04:20.90,*Default,NTP,0000,0000,0000,,And so in these situations,
+Dialogue: 0,0:04:20.90,0:04:25.37,*Default,NTP,0000,0000,0000,,it's very useful to think of an analogy in the real world.
+Dialogue: 0,0:04:25.37,0:04:29.16,*Default,NTP,0000,0000,0000,,And one analogy that I personally find very helpful
+Dialogue: 0,0:04:29.16,0:04:32.71,*Default,NTP,0000,0000,0000,,is to imagine a frame on a wall.
+Dialogue: 0,0:04:32.71,0:04:34.42,*Default,NTP,0000,0000,0000,,So in this analogy,
+Dialogue: 0,0:04:34.42,0:04:37.88,*Default,NTP,0000,0000,0000,,the drawing or the image that is in the frame is
+Dialogue: 0,0:04:37.88,0:04:39.51,*Default,NTP,0000,0000,0000,,the content area.
+Dialogue: 0,0:04:39.51,0:04:43.16,*Default,NTP,0000,0000,0000,,Then, many frames actually have this like kind of
+Dialogue: 0,0:04:43.16,0:04:46.91,*Default,NTP,0000,0000,0000,,white paper between the drawing or the image
+Dialogue: 0,0:04:46.91,0:04:49.35,*Default,NTP,0000,0000,0000,,and the actual frame itself.
+Dialogue: 0,0:04:49.35,0:04:52.77,*Default,NTP,0000,0000,0000,,And so if we bring that back to our box model,
+Dialogue: 0,0:04:52.77,0:04:55.54,*Default,NTP,0000,0000,0000,,then that would of course be the padding.
+Dialogue: 0,0:04:55.54,0:04:59.60,*Default,NTP,0000,0000,0000,,So the space between the content area and the border.
+Dialogue: 0,0:04:59.60,0:05:04.58,*Default,NTP,0000,0000,0000,,And so in this analogy, the frame is of course the border,
+Dialogue: 0,0:05:04.58,0:05:07.30,*Default,NTP,0000,0000,0000,,right? So that makes a lot of sense.
+Dialogue: 0,0:05:07.30,0:05:08.13,*Default,NTP,0000,0000,0000,,Finally,
+Dialogue: 0,0:05:08.13,0:05:12.16,*Default,NTP,0000,0000,0000,,when we hang a picture on the wall using a frame like this,
+Dialogue: 0,0:05:12.16,0:05:15.85,*Default,NTP,0000,0000,0000,,then of course there might be some space between other
+Dialogue: 0,0:05:15.85,0:05:20.05,*Default,NTP,0000,0000,0000,,elements on the wall or even some other walls on the sides.
+Dialogue: 0,0:05:20.05,0:05:22.75,*Default,NTP,0000,0000,0000,,And so in our box model analogy,
+Dialogue: 0,0:05:22.75,0:05:25.42,*Default,NTP,0000,0000,0000,,that of course would be the margin.
+Dialogue: 0,0:05:25.42,0:05:29.29,*Default,NTP,0000,0000,0000,,So it is the space that is outside of the frame and
+Dialogue: 0,0:05:29.29,0:05:33.14,*Default,NTP,0000,0000,0000,,creating space between frames. So for example,
+Dialogue: 0,0:05:33.14,0:05:36.62,*Default,NTP,0000,0000,0000,,there might be another frame somewhere here on the wall and
+Dialogue: 0,0:05:36.62,0:05:40.42,*Default,NTP,0000,0000,0000,,the space between those frames, so outside of them,
+Dialogue: 0,0:05:40.42,0:05:44.61,*Default,NTP,0000,0000,0000,,is what we call the margin in the box model. Okay?
+Dialogue: 0,0:05:44.61,0:05:48.11,*Default,NTP,0000,0000,0000,,So hopefully this analogy from the real world helps you
+Dialogue: 0,0:05:48.11,0:05:50.64,*Default,NTP,0000,0000,0000,,bring these concepts back into the
+Dialogue: 0,0:05:50.64,0:05:53.56,*Default,NTP,0000,0000,0000,,more abstract world of CSS.
+Dialogue: 0,0:05:53.56,0:05:56.65,*Default,NTP,0000,0000,0000,,And now, just to finish, let's quickly learn
+Dialogue: 0,0:05:56.65,0:05:59.40,*Default,NTP,0000,0000,0000,,how the box model actually calculates
+Dialogue: 0,0:05:59.40,0:06:02.54,*Default,NTP,0000,0000,0000,,the exact size of an element based on
+Dialogue: 0,0:06:02.54,0:06:05.10,*Default,NTP,0000,0000,0000,,the content, border and padding.
+Dialogue: 0,0:06:07.20,0:06:08.82,*Default,NTP,0000,0000,0000,,So, as I mentioned,
+Dialogue: 0,0:06:08.82,0:06:13.52,*Default,NTP,0000,0000,0000,,we can specify the height and the width of the content area.
+Dialogue: 0,0:06:13.52,0:06:16.93,*Default,NTP,0000,0000,0000,,Now, if we choose not to define the height or width,
+Dialogue: 0,0:06:16.93,0:06:18.73,*Default,NTP,0000,0000,0000,,then the box model will simply
+Dialogue: 0,0:06:18.73,0:06:22.19,*Default,NTP,0000,0000,0000,,imply them based on the content.
+Dialogue: 0,0:06:22.19,0:06:26.47,*Default,NTP,0000,0000,0000,,However, these specified or implied heights and widths
+Dialogue: 0,0:06:26.47,0:06:31.25,*Default,NTP,0000,0000,0000,,are actually not the final sizes of the element.
+Dialogue: 0,0:06:31.25,0:06:33.97,*Default,NTP,0000,0000,0000,,And that's because the border and the padding
+Dialogue: 0,0:06:33.97,0:06:37.06,*Default,NTP,0000,0000,0000,,are also taken into account.
+Dialogue: 0,0:06:37.06,0:06:40.83,*Default,NTP,0000,0000,0000,,So the final width of an element as we see it in the
+Dialogue: 0,0:06:40.83,0:06:44.85,*Default,NTP,0000,0000,0000,,final layout is defined by the left border
+Dialogue: 0,0:06:44.85,0:06:49.85,*Default,NTP,0000,0000,0000,,plus the left padding plus the specified or implied width
+Dialogue: 0,0:06:49.96,0:06:53.85,*Default,NTP,0000,0000,0000,,plus the right padding plus the right border.
+Dialogue: 0,0:06:53.85,0:06:56.60,*Default,NTP,0000,0000,0000,,And the same logic of course applies to
+Dialogue: 0,0:06:56.60,0:06:58.46,*Default,NTP,0000,0000,0000,,the height of an element.
+Dialogue: 0,0:06:58.46,0:07:02.35,*Default,NTP,0000,0000,0000,,So it's the top border, plus the top padding
+Dialogue: 0,0:07:02.35,0:07:06.02,*Default,NTP,0000,0000,0000,,plus the specified or implied height
+Dialogue: 0,0:07:06.02,0:07:11.02,*Default,NTP,0000,0000,0000,,plus the bottom padding, and finally the bottom border.
+Dialogue: 0,0:07:11.18,0:07:13.97,*Default,NTP,0000,0000,0000,,Now, as you can see, the margin is of course
+Dialogue: 0,0:07:13.97,0:07:17.10,*Default,NTP,0000,0000,0000,,not part of the width or height calculations
+Dialogue: 0,0:07:17.10,0:07:20.20,*Default,NTP,0000,0000,0000,,of the elements, because again,
+Dialogue: 0,0:07:20.20,0:07:23.74,*Default,NTP,0000,0000,0000,,it is just space that is around them.
+Dialogue: 0,0:07:23.74,0:07:26.45,*Default,NTP,0000,0000,0000,,And as I said in the beginning of the lecture,
+Dialogue: 0,0:07:26.45,0:07:30.32,*Default,NTP,0000,0000,0000,,we can of course specify all these individual sizes using
+Dialogue: 0,0:07:30.32,0:07:33.13,*Default,NTP,0000,0000,0000,,certain CSS properties.
+Dialogue: 0,0:07:33.13,0:07:37.19,*Default,NTP,0000,0000,0000,,Now what's very important to note here is that this way of
+Dialogue: 0,0:07:37.19,0:07:41.62,*Default,NTP,0000,0000,0000,,calculating heights and widths is actually just the default
+Dialogue: 0,0:07:41.62,0:07:44.28,*Default,NTP,0000,0000,0000,,behavior of the box model.
+Dialogue: 0,0:07:44.28,0:07:47.58,*Default,NTP,0000,0000,0000,,However, we can change this default behavior
+Dialogue: 0,0:07:47.58,0:07:51.17,*Default,NTP,0000,0000,0000,,because it actually doesn't make much sense and
+Dialogue: 0,0:07:51.17,0:07:53.65,*Default,NTP,0000,0000,0000,,we will do that a bit later, but for now
+Dialogue: 0,0:07:53.65,0:07:55.99,*Default,NTP,0000,0000,0000,,I don't want to confuse you anymore
+Dialogue: 0,0:07:55.99,0:07:59.44,*Default,NTP,0000,0000,0000,,and so let's start by using this default behavior
+Dialogue: 0,0:07:59.44,0:08:02.13,*Default,NTP,0000,0000,0000,,starting right in the next video.

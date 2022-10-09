@@ -1,0 +1,440 @@
+[Script Info]
+Title: 038 CHALLENGE #2_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=36&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.53,0:00:03.43,*Default,NTP,0000,0000,0000,,让我们继续努力
+Dialogue: 0,0:00:03.43,0:00:06.56,*Default,NTP,0000,0000,0000,,我们非常小的鞋品项目，
+Dialogue: 0,0:00:06.56,0:00:09.09,*Default,NTP,0000,0000,0000,,在这个编码挑战第二。
+Dialogue: 0,0:00:10.52,0:00:13.19,*Default,NTP,0000,0000,0000,,所以就像以前一样，使用结果
+Dialogue: 0,0:00:13.19,0:00:15.00,*Default,NTP,0000,0000,0000,,之前的挑战
+Dialogue: 0,0:00:15.00,0:00:17.40,*Default,NTP,0000,0000,0000,,作为这一点的起点。
+Dialogue: 0,0:00:17.40,0:00:20.64,*Default,NTP,0000,0000,0000,,如果由于某种原因你没有那个代码，
+Dialogue: 0,0:00:20.64,0:00:21.78,*Default,NTP,0000,0000,0000,,那么一如既往，
+Dialogue: 0,0:00:21.78,0:00:24.67,*Default,NTP,0000,0000,0000,,我有启动器和最终代码链接
+Dialogue: 0,0:00:24.67,0:00:28.58,*Default,NTP,0000,0000,0000,,在这个讲座的某个地方，但当然会更好，
+Dialogue: 0,0:00:28.58,0:00:30.49,*Default,NTP,0000,0000,0000,,如果您要使用自己的代码，
+Dialogue: 0,0:00:30.49,0:00:32.93,*Default,NTP,0000,0000,0000,,也许如果你在 CodePen 上有它，
+Dialogue: 0,0:00:32.93,0:00:36.41,*Default,NTP,0000,0000,0000,,或者如果你在自己的电脑上做这个挑战
+Dialogue: 0,0:00:36.41,0:00:39.20,*Default,NTP,0000,0000,0000,,使用VSCode，好吗？
+Dialogue: 0,0:00:39.20,0:00:41.64,*Default,NTP,0000,0000,0000,,所以，我们最终得到了这个结果
+Dialogue: 0,0:00:41.64,0:00:43.88,*Default,NTP,0000,0000,0000,,在最后的编码挑战中。
+Dialogue: 0,0:00:44.83,0:00:46.78,*Default,NTP,0000,0000,0000,,所以记得是这个，
+Dialogue: 0,0:00:46.78,0:00:50.13,*Default,NTP,0000,0000,0000,,而我现在想让你做的就是利用你的新知识
+Dialogue: 0,0:00:50.13,0:00:54.69,*Default,NTP,0000,0000,0000,,关于盒子模型得出这个结果。
+Dialogue: 0,0:00:54.69,0:00:57.73,*Default,NTP,0000,0000,0000,,所以你在这里看到这篇文章，
+Dialogue: 0,0:00:57.73,0:01:01.30,*Default,NTP,0000,0000,0000,,所以这个元素现在窄了很多，
+Dialogue: 0,0:01:01.30,0:01:05.13,*Default,NTP,0000,0000,0000,,它也很好地位于页面中心。
+Dialogue: 0,0:01:05.13,0:01:08.02,*Default,NTP,0000,0000,0000,,所以这里这个容器的宽度，
+Dialogue: 0,0:01:08.02,0:01:12.87,*Default,NTP,0000,0000,0000,,所以这篇文章元素是825像素。
+Dialogue: 0,0:01:12.87,0:01:15.93,*Default,NTP,0000,0000,0000,,接下来，您可以看到许多边距和填充
+Dialogue: 0,0:01:15.93,0:01:19.38,*Default,NTP,0000,0000,0000,,已被删除，因此这可能意味着
+Dialogue: 0,0:01:19.38,0:01:22.16,*Default,NTP,0000,0000,0000,,这里有一些全局重置。
+Dialogue: 0,0:01:22.16,0:01:26.30,*Default,NTP,0000,0000,0000,,就像我们在其中一场讲座中所做的那样，
+Dialogue: 0,0:01:26.30,0:01:28.98,*Default,NTP,0000,0000,0000,,但是当然要继续添加一些填充
+Dialogue: 0,0:01:28.98,0:01:30.31,*Default,NTP,0000,0000,0000,,和一些利润。
+Dialogue: 0,0:01:30.31,0:01:33.69,*Default,NTP,0000,0000,0000,,所以每当你在这个例子中看到一些空间时，
+Dialogue: 0,0:01:33.69,0:01:36.83,*Default,NTP,0000,0000,0000,,例如，在这里，在这个标题的内部，
+Dialogue: 0,0:01:36.83,0:01:39.87,*Default,NTP,0000,0000,0000,,那么当然你需要添加一些空间
+Dialogue: 0,0:01:39.87,0:01:43.34,*Default,NTP,0000,0000,0000,,如您所知，您可以使用边距或填充来做到这一点，
+Dialogue: 0,0:01:43.34,0:01:46.66,*Default,NTP,0000,0000,0000,,所以只要选择适合情况的写一个
+Dialogue: 0,0:01:46.66,0:01:48.80,*Default,NTP,0000,0000,0000,,或根据你所学的。
+Dialogue: 0,0:01:48.80,0:01:51.85,*Default,NTP,0000,0000,0000,,最后，还有一点就是
+Dialogue: 0,0:01:51.85,0:01:54.79,*Default,NTP,0000,0000,0000,,这个按钮现在很宽，
+Dialogue: 0,0:01:54.79,0:01:56.66,*Default,NTP,0000,0000,0000,,所以它一直跨越
+Dialogue: 0,0:01:56.66,0:01:59.17,*Default,NTP,0000,0000,0000,,从左边到右边，
+Dialogue: 0,0:01:59.17,0:02:02.56,*Default,NTP,0000,0000,0000,,而且它现在在顶部有这个边界
+Dialogue: 0,0:02:02.56,0:02:04.81,*Default,NTP,0000,0000,0000,,所以要创造一个按钮的错觉
+Dialogue: 0,0:02:04.81,0:02:06.69,*Default,NTP,0000,0000,0000,,即使我们悬停在它上面。
+Dialogue: 0,0:02:06.69,0:02:10.06,*Default,NTP,0000,0000,0000,,所以看看你能不能得出这个结果，
+Dialogue: 0,0:02:10.06,0:02:12.89,*Default,NTP,0000,0000,0000,,但如果你不能，那当然是，
+Dialogue: 0,0:02:12.89,0:02:15.38,*Default,NTP,0000,0000,0000,,一如既往不是大问题。
+Dialogue: 0,0:02:15.38,0:02:18.28,*Default,NTP,0000,0000,0000,,所以现在就花点时间真正尝试一下
+Dialogue: 0,0:02:18.28,0:02:21.75,*Default,NTP,0000,0000,0000,,编码这个挑战，我看到你回到这里
+Dialogue: 0,0:02:21.75,0:02:22.87,*Default,NTP,0000,0000,0000,,当你完成时。
+Dialogue: 0,0:02:25.72,0:02:26.55,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:27.48,0:02:30.92,*Default,NTP,0000,0000,0000,,因此，让我们不要浪费时间，立即开始。
+Dialogue: 0,0:02:31.76,0:02:33.59,*Default,NTP,0000,0000,0000,,我将真正开始，
+Dialogue: 0,0:02:35.04,0:02:37.17,*Default,NTP,0000,0000,0000,,在这里给我们更多的空间。
+Dialogue: 0,0:02:37.17,0:02:40.66,*Default,NTP,0000,0000,0000,,所以我将从我提到的全局重置开始，
+Dialogue: 0,0:02:41.67,0:02:46.67,*Default,NTP,0000,0000,0000,,所以添加零边距和零填充
+Dialogue: 0,0:02:47.16,0:02:50.09,*Default,NTP,0000,0000,0000,,到页面上的每个元素。
+Dialogue: 0,0:02:51.15,0:02:52.71,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:52.71,0:02:57.71,*Default,NTP,0000,0000,0000,,现在我将在这里实际制作这个产品，
+Dialogue: 0,0:02:57.78,0:03:01.72,*Default,NTP,0000,0000,0000,,所以这个元素，我会给它的宽度
+Dialogue: 0,0:03:01.72,0:03:06.18,*Default,NTP,0000,0000,0000,,正如我之前提到的，825 像素。
+Dialogue: 0,0:03:06.18,0:03:07.69,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:07.69,0:03:12.05,*Default,NTP,0000,0000,0000,,所以现在是时候把它放在浏览器中了。
+Dialogue: 0,0:03:12.05,0:03:13.11,*Default,NTP,0000,0000,0000,,而在最后一堂课中，
+Dialogue: 0,0:03:13.11,0:03:15.30,*Default,NTP,0000,0000,0000,,我实际上向您展示了如何做到这一点。
+Dialogue: 0,0:03:15.30,0:03:18.20,*Default,NTP,0000,0000,0000,,所以在那里，我们创建了一个我们称之为的元素
+Dialogue: 0,0:03:18.20,0:03:22.55,*Default,NTP,0000,0000,0000,,容器，然后我们将它放在身体内部。
+Dialogue: 0,0:03:22.55,0:03:25.32,*Default,NTP,0000,0000,0000,,现在，在这种情况下，容器基本上是
+Dialogue: 0,0:03:25.32,0:03:27.75,*Default,NTP,0000,0000,0000,,这个产品在这里，对吧？
+Dialogue: 0,0:03:27.75,0:03:30.08,*Default,NTP,0000,0000,0000,,这就是我们添加宽度的地方
+Dialogue: 0,0:03:30.08,0:03:31.87,*Default,NTP,0000,0000,0000,,这也是我们现在设置的地方
+Dialogue: 0,0:03:31.87,0:03:34.59,*Default,NTP,0000,0000,0000,,左边距和右边距为自动。
+Dialogue: 0,0:03:36.73,0:03:40.74,*Default,NTP,0000,0000,0000,,所以我在这里使用速记并给出它
+Dialogue: 0,0:03:40.74,0:03:43.30,*Default,NTP,0000,0000,0000,,在顶部和底部，零
+Dialogue: 0,0:03:43.30,0:03:45.56,*Default,NTP,0000,0000,0000,,然后左右，自动。
+Dialogue: 0,0:03:45.56,0:03:48.01,*Default,NTP,0000,0000,0000,,所以，我们开始吧。
+Dialogue: 0,0:03:48.01,0:03:50.89,*Default,NTP,0000,0000,0000,,现在它在身体内部居中。
+Dialogue: 0,0:03:52.53,0:03:56.44,*Default,NTP,0000,0000,0000,,很漂亮，但我们实际上可以做得更好一点
+Dialogue: 0,0:03:56.44,0:03:59.57,*Default,NTP,0000,0000,0000,,因为现在它有点粘在上面
+Dialogue: 0,0:03:59.57,0:04:01.33,*Default,NTP,0000,0000,0000,,和这里一样。
+Dialogue: 0,0:04:01.33,0:04:04.33,*Default,NTP,0000,0000,0000,,所以不是让顶部和底部都为零，
+Dialogue: 0,0:04:04.33,0:04:06.90,*Default,NTP,0000,0000,0000,,让我们将它们设置为 50 像素。
+Dialogue: 0,0:04:06.90,0:04:10.38,*Default,NTP,0000,0000,0000,,所以，这基本上创造了一些空间
+Dialogue: 0,0:04:10.38,0:04:12.65,*Default,NTP,0000,0000,0000,,围绕这个元素。
+Dialogue: 0,0:04:12.65,0:04:17.21,*Default,NTP,0000,0000,0000,,所以我们在这里添加了 50 个，在下面添加了 50 个，在顶部添加了 50 个。
+Dialogue: 0,0:04:17.21,0:04:18.37,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:04:18.37,0:04:22.73,*Default,NTP,0000,0000,0000,,接下来，让我们在标题中添加一些空格，
+Dialogue: 0,0:04:22.73,0:04:24.64,*Default,NTP,0000,0000,0000,,这就是产品标题。
+Dialogue: 0,0:04:25.73,0:04:29.36,*Default,NTP,0000,0000,0000,,所以，现在我们想要元素内部的一些空间
+Dialogue: 0,0:04:29.36,0:04:32.63,*Default,NTP,0000,0000,0000,,这样我们就可以在这里创建一些空白空间，
+Dialogue: 0,0:04:32.63,0:04:35.37,*Default,NTP,0000,0000,0000,,它仍然有一些背景颜色。
+Dialogue: 0,0:04:35.37,0:04:36.20,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:04:36.20,0:04:38.61,*Default,NTP,0000,0000,0000,,所以这就是我们使用填充的原因，因为我们想要
+Dialogue: 0,0:04:38.61,0:04:41.29,*Default,NTP,0000,0000,0000,,该空间位于元素内部
+Dialogue: 0,0:04:41.29,0:04:43.15,*Default,NTP,0000,0000,0000,,而不是在它之外。
+Dialogue: 0,0:04:43.15,0:04:44.86,*Default,NTP,0000,0000,0000,,所以如果它是一个利润，
+Dialogue: 0,0:04:45.93,0:04:47.89,*Default,NTP,0000,0000,0000,,那么它看起来像这样
+Dialogue: 0,0:04:47.89,0:04:50.48,*Default,NTP,0000,0000,0000,,然后背景颜色当然会
+Dialogue: 0,0:04:50.48,0:04:52.22,*Default,NTP,0000,0000,0000,,不在这里的任何地方。
+Dialogue: 0,0:04:53.74,0:04:56.91,*Default,NTP,0000,0000,0000,,所以因为它在外面，对，我们想要里面
+Dialogue: 0,0:04:56.91,0:04:59.39,*Default,NTP,0000,0000,0000,,所以这就是填充。
+Dialogue: 0,0:04:59.39,0:05:00.62,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:00.62,0:05:03.20,*Default,NTP,0000,0000,0000,,所以这开始看起来好多了。
+Dialogue: 0,0:05:04.15,0:05:05.91,*Default,NTP,0000,0000,0000,,现在也许让我们在这里创造一些空间
+Dialogue: 0,0:05:05.91,0:05:09.17,*Default,NTP,0000,0000,0000,,在此运输和此文本之间。
+Dialogue: 0,0:05:09.17,0:05:13.32,*Default,NTP,0000,0000,0000,,因此，为了创造一些垂直空间，
+Dialogue: 0,0:05:13.32,0:05:15.69,*Default,NTP,0000,0000,0000,,我再次使用边距底部。
+Dialogue: 0,0:05:16.86,0:05:20.21,*Default,NTP,0000,0000,0000,,所以在这里运输，让我们添加
+Dialogue: 0,0:05:20.21,0:05:21.64,*Default,NTP,0000,0000,0000,,一些
+Dialogue: 0,0:05:21.64,0:05:22.47,*Default,NTP,0000,0000,0000,,利润
+Dialogue: 0,0:05:23.92,0:05:24.75,*Default,NTP,0000,0000,0000,,底部
+Dialogue: 0,0:05:25.65,0:05:28.36,*Default,NTP,0000,0000,0000,,比方说，20 像素。
+Dialogue: 0,0:05:30.28,0:05:31.85,*Default,NTP,0000,0000,0000,,是的，看起来好多了
+Dialogue: 0,0:05:32.78,0:05:36.09,*Default,NTP,0000,0000,0000,,让我们看看最终的结果
+Dialogue: 0,0:05:36.09,0:05:38.40,*Default,NTP,0000,0000,0000,,我们想要达到的目标。
+Dialogue: 0,0:05:38.40,0:05:41.49,*Default,NTP,0000,0000,0000,,所以你看我们这里也有一些空间。
+Dialogue: 0,0:05:42.37,0:05:45.72,*Default,NTP,0000,0000,0000,,我们在此标题下方也有一些空间，
+Dialogue: 0,0:05:45.72,0:05:49.55,*Default,NTP,0000,0000,0000,,然后这个无序列表也移回了
+Dialogue: 0,0:05:50.55,0:05:52.46,*Default,NTP,0000,0000,0000,,在容器内部，
+Dialogue: 0,0:05:52.46,0:05:56.54,*Default,NTP,0000,0000,0000,,因为请注意，现在，这些子弹在外面。
+Dialogue: 0,0:05:56.54,0:05:57.41,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:05:57.41,0:05:59.28,*Default,NTP,0000,0000,0000,,所以我们不要解决所有这些问题。
+Dialogue: 0,0:06:03.56,0:06:07.31,*Default,NTP,0000,0000,0000,,所以让我们从这里开始
+Dialogue: 0,0:06:07.31,0:06:10.32,*Default,NTP,0000,0000,0000,,并像往常一样给它15个像素，
+Dialogue: 0,0:06:10.32,0:06:12.88,*Default,NTP,0000,0000,0000,,如果你这里的数字不同
+Dialogue: 0,0:06:12.88,0:06:15.25,*Default,NTP,0000,0000,0000,,那么这根本不重要。
+Dialogue: 0,0:06:15.25,0:06:16.48,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:16.48,0:06:20.53,*Default,NTP,0000,0000,0000,,现在这个链接和这个标题之间有一些空间，
+Dialogue: 0,0:06:20.53,0:06:24.56,*Default,NTP,0000,0000,0000,,所以这个标题和合乎逻辑的事情
+Dialogue: 0,0:06:24.56,0:06:28.57,*Default,NTP,0000,0000,0000,,可能是在链接底部添加一些边距，
+Dialogue: 0,0:06:28.57,0:06:30.13,*Default,NTP,0000,0000,0000,,因为正如我所说，
+Dialogue: 0,0:06:30.13,0:06:34.01,*Default,NTP,0000,0000,0000,,最好的办法是坚持其中一个方向，
+Dialogue: 0,0:06:34.01,0:06:38.22,*Default,NTP,0000,0000,0000,,所以到一侧，然后总是在那里添加边距。
+Dialogue: 0,0:06:38.22,0:06:39.75,*Default,NTP,0000,0000,0000,,所以让我们试试吧。
+Dialogue: 0,0:06:39.75,0:06:42.49,*Default,NTP,0000,0000,0000,,所以这是更多信息链接，
+Dialogue: 0,0:06:44.90,0:06:48.33,*Default,NTP,0000,0000,0000,,但你会发现这实际上是行不通的。
+Dialogue: 0,0:06:50.24,0:06:53.27,*Default,NTP,0000,0000,0000,,所以你看我们添加了它但它不起作用。
+Dialogue: 0,0:06:53.27,0:06:55.18,*Default,NTP,0000,0000,0000,,以及它不起作用的原因
+Dialogue: 0,0:06:55.18,0:06:58.65,*Default,NTP,0000,0000,0000,,是我将在下一课中解释的内容。
+Dialogue: 0,0:07:00.01,0:07:00.84,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:01.75,0:07:04.83,*Default,NTP,0000,0000,0000,,所以现在重要的是这行不通
+Dialogue: 0,0:07:04.83,0:07:08.02,*Default,NTP,0000,0000,0000,,因为你基本凯莉不能使用边距
+Dialogue: 0,0:07:08.02,0:07:12.78,*Default,NTP,0000,0000,0000,,在像锚这样的小元素上，所以喜欢这个链接。
+Dialogue: 0,0:07:12.78,0:07:15.18,*Default,NTP,0000,0000,0000,,所以相反，我们现在要做的
+Dialogue: 0,0:07:15.18,0:07:18.06,*Default,NTP,0000,0000,0000,,是在顶部添加边距
+Dialogue: 0,0:07:18.97,0:07:20.39,*Default,NTP,0000,0000,0000,,这个元素的。
+Dialogue: 0,0:07:20.39,0:07:24.00,*Default,NTP,0000,0000,0000,,因此，这将在视觉上看起来完全相同。
+Dialogue: 0,0:07:24.90,0:07:28.44,*Default,NTP,0000,0000,0000,,对，所以在底部加上 30，
+Dialogue: 0,0:07:28.44,0:07:31.35,*Default,NTP,0000,0000,0000,,它看起来与添加 30 基本相同
+Dialogue: 0,0:07:31.35,0:07:32.66,*Default,NTP,0000,0000,0000,,到这个的顶部。
+Dialogue: 0,0:07:35.93,0:07:37.71,*Default,NTP,0000,0000,0000,,接下来，让我们修复
+Dialogue: 0,0:07:39.06,0:07:41.80,*Default,NTP,0000,0000,0000,,这些不属于我们的要点
+Dialogue: 0,0:07:41.80,0:07:43.63,*Default,NTP,0000,0000,0000,,容器元素。
+Dialogue: 0,0:07:43.63,0:07:47.49,*Default,NTP,0000,0000,0000,,所以左边距，比方说20像素。
+Dialogue: 0,0:07:48.76,0:07:50.43,*Default,NTP,0000,0000,0000,,是的，所以看起来不错。
+Dialogue: 0,0:07:52.67,0:07:55.82,*Default,NTP,0000,0000,0000,,现在我也想在这里添加一些空间
+Dialogue: 0,0:07:55.82,0:07:57.48,*Default,NTP,0000,0000,0000,,这些元素之间。
+Dialogue: 0,0:07:58.34,0:08:01.63,*Default,NTP,0000,0000,0000,,这就是这里的详细信息列表，
+Dialogue: 0,0:08:01.63,0:08:04.15,*Default,NTP,0000,0000,0000,,所以让我们选择这些元素中的每一个
+Dialogue: 0,0:08:04.15,0:08:05.25,*Default,NTP,0000,0000,0000,,在那里。
+Dialogue: 0,0:08:07.74,0:08:12.37,*Default,NTP,0000,0000,0000,,所以 .details-list
+Dialogue: 0,0:08:12.37,0:08:15.45,*Default,NTP,0000,0000,0000,,然后是所有 li 子元素
+Dialogue: 0,0:08:16.89,0:08:19.81,*Default,NTP,0000,0000,0000,,所以这里是一个后代选择器，
+Dialogue: 0,0:08:19.81,0:08:22.25,*Default,NTP,0000,0000,0000,,就像我们之前学到的一样
+Dialogue: 0,0:08:22.25,0:08:24.89,*Default,NTP,0000,0000,0000,,正如我们以前多次使用过的那样。
+Dialogue: 0,0:08:24.89,0:08:26.46,*Default,NTP,0000,0000,0000,,我想我们从未使用过它
+Dialogue: 0,0:08:26.46,0:08:29.90,*Default,NTP,0000,0000,0000,,其中一个是这样的类选择器
+Dialogue: 0,0:08:29.90,0:08:31.71,*Default,NTP,0000,0000,0000,,另一个是元素，
+Dialogue: 0,0:08:31.71,0:08:33.82,*Default,NTP,0000,0000,0000,,但这当然没问题。
+Dialogue: 0,0:08:33.82,0:08:36.76,*Default,NTP,0000,0000,0000,,我们可以以任何我们想要的方式组合它们。
+Dialogue: 0,0:08:39.78,0:08:41.99,*Default,NTP,0000,0000,0000,,现在让我们添加那个空间，
+Dialogue: 0,0:08:43.10,0:08:45.31,*Default,NTP,0000,0000,0000,,比方说大约10个像素。
+Dialogue: 0,0:08:45.31,0:08:47.31,*Default,NTP,0000,0000,0000,,现在终于要结束了，
+Dialogue: 0,0:08:47.31,0:08:51.13,*Default,NTP,0000,0000,0000,,让我们在这个按钮上做一点工作。
+Dialogue: 0,0:08:51.13,0:08:54.71,*Default,NTP,0000,0000,0000,,所以这个，我将从这里的一些填充开始。
+Dialogue: 0,0:08:55.97,0:08:59.32,*Default,NTP,0000,0000,0000,,所以在按钮内部添加一些空间。
+Dialogue: 0,0:09:01.23,0:09:04.70,*Default,NTP,0000,0000,0000,,这样看起来已经好多了，对吧？
+Dialogue: 0,0:09:04.70,0:09:07.58,*Default,NTP,0000,0000,0000,,但现在让我们从一侧开始
+Dialogue: 0,0:09:07.58,0:09:09.58,*Default,NTP,0000,0000,0000,,一直到另一边。
+Dialogue: 0,0:09:09.58,0:09:13.23,*Default,NTP,0000,0000,0000,,所以这与我们对图像所做的非常相似
+Dialogue: 0,0:09:13.23,0:09:15.00,*Default,NTP,0000,0000,0000,,在之前的一次讲座中。
+Dialogue: 0,0:09:16.06,0:09:20.51,*Default,NTP,0000,0000,0000,,所以我们可以简单地给它一个 100% 的宽度。
+Dialogue: 0,0:09:21.35,0:09:25.53,*Default,NTP,0000,0000,0000,,所以现在它基本上占据了整个父元素，
+Dialogue: 0,0:09:25.53,0:09:30.53,*Default,NTP,0000,0000,0000,,这当然是完整的文章元素。
+Dialogue: 0,0:09:30.66,0:09:35.34,*Default,NTP,0000,0000,0000,,现在我们所缺少的只是顶部的边框。
+Dialogue: 0,0:09:35.34,0:09:40.34,*Default,NTP,0000,0000,0000,,对，所以请记住，在我们的演示中，当我们将其悬停时，
+Dialogue: 0,0:09:40.43,0:09:44.50,*Default,NTP,0000,0000,0000,,然后它仍然有点像一个按钮，对，
+Dialogue: 0,0:09:44.50,0:09:47.42,*Default,NTP,0000,0000,0000,,为了创造这种效果，
+Dialogue: 0,0:09:47.42,0:09:49.06,*Default,NTP,0000,0000,0000,,所以那种错觉，
+Dialogue: 0,0:09:49.06,0:09:51.97,*Default,NTP,0000,0000,0000,,我们在按钮顶部需要这个边框。
+Dialogue: 0,0:09:53.15,0:09:54.80,*Default,NTP,0000,0000,0000,,所以让我们添加
+Dialogue: 0,0:09:56.02,0:09:57.08,*Default,NTP,0000,0000,0000,,和
+Dialogue: 0,0:09:58.13,0:10:00.68,*Default,NTP,0000,0000,0000,,所以它基本上是相同的边界
+Dialogue: 0,0:10:00.68,0:10:02.67,*Default,NTP,0000,0000,0000,,就像这篇文章一样。
+Dialogue: 0,0:10:03.84,0:10:05.51,*Default,NTP,0000,0000,0000,,所以让我们看看我们有什么
+Dialogue: 0,0:10:07.57,0:10:10.41,*Default,NTP,0000,0000,0000,,我们实际上可以继续复制它。
+Dialogue: 0,0:10:10.41,0:10:12.61,*Default,NTP,0000,0000,0000,,我们唯一需要改变的就是
+Dialogue: 0,0:10:12.61,0:10:16.18,*Default,NTP,0000,0000,0000,,是我们只希望这个边框在顶部，在这种情况下。
+Dialogue: 0,0:10:17.84,0:10:21.14,*Default,NTP,0000,0000,0000,,好的，现在我们开始。
+Dialogue: 0,0:10:22.30,0:10:26.52,*Default,NTP,0000,0000,0000,,太漂亮了，效果很好。
+Dialogue: 0,0:10:26.52,0:10:30.78,*Default,NTP,0000,0000,0000,,我认为有了这个，我们实际上完成了这个挑战。
+Dialogue: 0,0:10:30.78,0:10:34.50,*Default,NTP,0000,0000,0000,,所以它看起来就像，我们的演示在这里。
+Dialogue: 0,0:10:34.50,0:10:37.56,*Default,NTP,0000,0000,0000,,所以我认为我们已经完成了这个挑战。
+Dialogue: 0,0:10:37.56,0:10:41.53,*Default,NTP,0000,0000,0000,,干得好，干得好，祝贺你
+Dialogue: 0,0:10:41.53,0:10:45.41,*Default,NTP,0000,0000,0000,,再次自己编写大量代码。
+Dialogue: 0,0:10:45.41,0:10:48.37,*Default,NTP,0000,0000,0000,,所以这些对你来说真的非常重要
+Dialogue: 0,0:10:48.37,0:10:50.32,*Default,NTP,0000,0000,0000,,巩固你的知识。
+Dialogue: 0,0:10:50.32,0:10:51.97,*Default,NTP,0000,0000,0000,,所以我很高兴看到
+Dialogue: 0,0:10:51.97,0:10:54.48,*Default,NTP,0000,0000,0000,,在这一点上你仍然和我在一起，
+Dialogue: 0,0:10:54.48,0:10:56.88,*Default,NTP,0000,0000,0000,,因为那真的很棒p进步。
+Dialogue: 0,0:00:01.53,0:00:03.43,*Default,NTP,0000,0000,0000,,Let's continue working on
+Dialogue: 0,0:00:03.43,0:00:06.56,*Default,NTP,0000,0000,0000,,our very small shoe article project,
+Dialogue: 0,0:00:06.56,0:00:09.09,*Default,NTP,0000,0000,0000,,in this coding challenge number two.
+Dialogue: 0,0:00:10.52,0:00:13.19,*Default,NTP,0000,0000,0000,,So just like before, use the results
+Dialogue: 0,0:00:13.19,0:00:15.00,*Default,NTP,0000,0000,0000,,of the previous challenge
+Dialogue: 0,0:00:15.00,0:00:17.40,*Default,NTP,0000,0000,0000,,as the starting point for this one.
+Dialogue: 0,0:00:17.40,0:00:20.64,*Default,NTP,0000,0000,0000,,And if for some reason you don't have that code,
+Dialogue: 0,0:00:20.64,0:00:21.78,*Default,NTP,0000,0000,0000,,then as always,
+Dialogue: 0,0:00:21.78,0:00:24.67,*Default,NTP,0000,0000,0000,,I have the starter and the final code links
+Dialogue: 0,0:00:24.67,0:00:28.58,*Default,NTP,0000,0000,0000,,somewhere in this lecture, but it would be better of course,
+Dialogue: 0,0:00:28.58,0:00:30.49,*Default,NTP,0000,0000,0000,,if you would use your own code,
+Dialogue: 0,0:00:30.49,0:00:32.93,*Default,NTP,0000,0000,0000,,maybe if you have it on CodePen,
+Dialogue: 0,0:00:32.93,0:00:36.41,*Default,NTP,0000,0000,0000,,or if you're doing this challenge on your own computer
+Dialogue: 0,0:00:36.41,0:00:39.20,*Default,NTP,0000,0000,0000,,using VSCode, all right?
+Dialogue: 0,0:00:39.20,0:00:41.64,*Default,NTP,0000,0000,0000,,So, we ended up with this result
+Dialogue: 0,0:00:41.64,0:00:43.88,*Default,NTP,0000,0000,0000,,in the last coding challenge.
+Dialogue: 0,0:00:44.83,0:00:46.78,*Default,NTP,0000,0000,0000,,So remember it was this,
+Dialogue: 0,0:00:46.78,0:00:50.13,*Default,NTP,0000,0000,0000,,and what I want you to do now is to use your new knowledge
+Dialogue: 0,0:00:50.13,0:00:54.69,*Default,NTP,0000,0000,0000,,about the box model to arrive at this result.
+Dialogue: 0,0:00:54.69,0:00:57.73,*Default,NTP,0000,0000,0000,,So you see that this article here,
+Dialogue: 0,0:00:57.73,0:01:01.30,*Default,NTP,0000,0000,0000,,so this element is a lot more narrow now,
+Dialogue: 0,0:01:01.30,0:01:05.13,*Default,NTP,0000,0000,0000,,and it is also nicely centered in the page.
+Dialogue: 0,0:01:05.13,0:01:08.02,*Default,NTP,0000,0000,0000,,So the width of this container here,
+Dialogue: 0,0:01:08.02,0:01:12.87,*Default,NTP,0000,0000,0000,,so this article element is 825 pixels.
+Dialogue: 0,0:01:12.87,0:01:15.93,*Default,NTP,0000,0000,0000,,Next, you can see that many margins and paddings
+Dialogue: 0,0:01:15.93,0:01:19.38,*Default,NTP,0000,0000,0000,,have been removed and so that probably means
+Dialogue: 0,0:01:19.38,0:01:22.16,*Default,NTP,0000,0000,0000,,that there has been some global reset here.
+Dialogue: 0,0:01:22.16,0:01:26.30,*Default,NTP,0000,0000,0000,,So do that just like we did in one of the lectures,
+Dialogue: 0,0:01:26.30,0:01:28.98,*Default,NTP,0000,0000,0000,,but then of course keep adding back some paddings
+Dialogue: 0,0:01:28.98,0:01:30.31,*Default,NTP,0000,0000,0000,,and some margins.
+Dialogue: 0,0:01:30.31,0:01:33.69,*Default,NTP,0000,0000,0000,,So whenever you see some space here in this example,
+Dialogue: 0,0:01:33.69,0:01:36.83,*Default,NTP,0000,0000,0000,,for example, here, inside of this heading,
+Dialogue: 0,0:01:36.83,0:01:39.87,*Default,NTP,0000,0000,0000,,then of course you need to add back some space
+Dialogue: 0,0:01:39.87,0:01:43.34,*Default,NTP,0000,0000,0000,,and you can do that using margin or padding as you know,
+Dialogue: 0,0:01:43.34,0:01:46.66,*Default,NTP,0000,0000,0000,,so just choose the write one for the right situation
+Dialogue: 0,0:01:46.66,0:01:48.80,*Default,NTP,0000,0000,0000,,or according to what you learned.
+Dialogue: 0,0:01:48.80,0:01:51.85,*Default,NTP,0000,0000,0000,,Finally, another thing is that
+Dialogue: 0,0:01:51.85,0:01:54.79,*Default,NTP,0000,0000,0000,,this button here now is a really wide,
+Dialogue: 0,0:01:54.79,0:01:56.66,*Default,NTP,0000,0000,0000,,so it spans all the way
+Dialogue: 0,0:01:56.66,0:01:59.17,*Default,NTP,0000,0000,0000,,from the left side to the right side,
+Dialogue: 0,0:01:59.17,0:02:02.56,*Default,NTP,0000,0000,0000,,and also it now has this border here at the top
+Dialogue: 0,0:02:02.56,0:02:04.81,*Default,NTP,0000,0000,0000,,so to create this illusion of a button
+Dialogue: 0,0:02:04.81,0:02:06.69,*Default,NTP,0000,0000,0000,,even when we're hovering it.
+Dialogue: 0,0:02:06.69,0:02:10.06,*Default,NTP,0000,0000,0000,,So see if you can maybe arrive at this result,
+Dialogue: 0,0:02:10.06,0:02:12.89,*Default,NTP,0000,0000,0000,,but if you can't then that's of course,
+Dialogue: 0,0:02:12.89,0:02:15.38,*Default,NTP,0000,0000,0000,,as always not a big problem.
+Dialogue: 0,0:02:15.38,0:02:18.28,*Default,NTP,0000,0000,0000,,So just take some time now and really try
+Dialogue: 0,0:02:18.28,0:02:21.75,*Default,NTP,0000,0000,0000,,to code up this challenge and I see you back here
+Dialogue: 0,0:02:21.75,0:02:22.87,*Default,NTP,0000,0000,0000,,when you are done.
+Dialogue: 0,0:02:25.72,0:02:26.55,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:02:27.48,0:02:30.92,*Default,NTP,0000,0000,0000,,So let's waste no time and start right away.
+Dialogue: 0,0:02:31.76,0:02:33.59,*Default,NTP,0000,0000,0000,,And I will actually start,
+Dialogue: 0,0:02:35.04,0:02:37.17,*Default,NTP,0000,0000,0000,,give us some more space here.
+Dialogue: 0,0:02:37.17,0:02:40.66,*Default,NTP,0000,0000,0000,,So I will start with that global reset I mentioned,
+Dialogue: 0,0:02:41.67,0:02:46.67,*Default,NTP,0000,0000,0000,,so adding a margin of zero and a padding of zero
+Dialogue: 0,0:02:47.16,0:02:50.09,*Default,NTP,0000,0000,0000,,to every single element on the page.
+Dialogue: 0,0:02:51.15,0:02:52.71,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:02:52.71,0:02:57.71,*Default,NTP,0000,0000,0000,,And now I will actually make this product here,
+Dialogue: 0,0:02:57.78,0:03:01.72,*Default,NTP,0000,0000,0000,,so this element, I will give it to the width of
+Dialogue: 0,0:03:01.72,0:03:06.18,*Default,NTP,0000,0000,0000,,825 pixels as I had mentioned before.
+Dialogue: 0,0:03:06.18,0:03:07.69,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:03:07.69,0:03:12.05,*Default,NTP,0000,0000,0000,,And so now it's time to center this in the browser.
+Dialogue: 0,0:03:12.05,0:03:13.11,*Default,NTP,0000,0000,0000,,And in the last lecture,
+Dialogue: 0,0:03:13.11,0:03:15.30,*Default,NTP,0000,0000,0000,,I actually showed you how to do that.
+Dialogue: 0,0:03:15.30,0:03:18.20,*Default,NTP,0000,0000,0000,,So there, we created an element that we called
+Dialogue: 0,0:03:18.20,0:03:22.55,*Default,NTP,0000,0000,0000,,the container, and then we centered that inside of the body.
+Dialogue: 0,0:03:22.55,0:03:25.32,*Default,NTP,0000,0000,0000,,Now, in this case, the container is basically
+Dialogue: 0,0:03:25.32,0:03:27.75,*Default,NTP,0000,0000,0000,,this product here, right?
+Dialogue: 0,0:03:27.75,0:03:30.08,*Default,NTP,0000,0000,0000,,And so that is where we add the width
+Dialogue: 0,0:03:30.08,0:03:31.87,*Default,NTP,0000,0000,0000,,and so that's where we also set now
+Dialogue: 0,0:03:31.87,0:03:34.59,*Default,NTP,0000,0000,0000,,the left and right margins to auto.
+Dialogue: 0,0:03:36.73,0:03:40.74,*Default,NTP,0000,0000,0000,,So I'm using the shorthand here and giving it
+Dialogue: 0,0:03:40.74,0:03:43.30,*Default,NTP,0000,0000,0000,,at the top and the bottom, zero
+Dialogue: 0,0:03:43.30,0:03:45.56,*Default,NTP,0000,0000,0000,,and then left and right, auto.
+Dialogue: 0,0:03:45.56,0:03:48.01,*Default,NTP,0000,0000,0000,,And so, here we go.
+Dialogue: 0,0:03:48.01,0:03:50.89,*Default,NTP,0000,0000,0000,,Now it is centered inside of the body.
+Dialogue: 0,0:03:52.53,0:03:56.44,*Default,NTP,0000,0000,0000,,Beautiful, but we can actually make this a bit better
+Dialogue: 0,0:03:56.44,0:03:59.57,*Default,NTP,0000,0000,0000,,because now it's kind of glued to the top here
+Dialogue: 0,0:03:59.57,0:04:01.33,*Default,NTP,0000,0000,0000,,and the same down here.
+Dialogue: 0,0:04:01.33,0:04:04.33,*Default,NTP,0000,0000,0000,,So instead of having top and bottom at zero,
+Dialogue: 0,0:04:04.33,0:04:06.90,*Default,NTP,0000,0000,0000,,let's set them to 50 pixels.
+Dialogue: 0,0:04:06.90,0:04:10.38,*Default,NTP,0000,0000,0000,,And so, that then creates some space basically
+Dialogue: 0,0:04:10.38,0:04:12.65,*Default,NTP,0000,0000,0000,,around this element.
+Dialogue: 0,0:04:12.65,0:04:17.21,*Default,NTP,0000,0000,0000,,So we added 50 here, down here, and 50 here at the top.
+Dialogue: 0,0:04:17.21,0:04:18.37,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:04:18.37,0:04:22.73,*Default,NTP,0000,0000,0000,,Next, let's add some space back here in the heading,
+Dialogue: 0,0:04:22.73,0:04:24.64,*Default,NTP,0000,0000,0000,,so that is the product title.
+Dialogue: 0,0:04:25.73,0:04:29.36,*Default,NTP,0000,0000,0000,,And so, now we want some space inside of the element
+Dialogue: 0,0:04:29.36,0:04:32.63,*Default,NTP,0000,0000,0000,,so that we can create some empty space here,
+Dialogue: 0,0:04:32.63,0:04:35.37,*Default,NTP,0000,0000,0000,,which still has some background color.
+Dialogue: 0,0:04:35.37,0:04:36.20,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:04:36.20,0:04:38.61,*Default,NTP,0000,0000,0000,,So that's why we use padding because we want
+Dialogue: 0,0:04:38.61,0:04:41.29,*Default,NTP,0000,0000,0000,,that space to be inside of the element
+Dialogue: 0,0:04:41.29,0:04:43.15,*Default,NTP,0000,0000,0000,,and not outside of it.
+Dialogue: 0,0:04:43.15,0:04:44.86,*Default,NTP,0000,0000,0000,,So if it was a margin,
+Dialogue: 0,0:04:45.93,0:04:47.89,*Default,NTP,0000,0000,0000,,then it would look like this
+Dialogue: 0,0:04:47.89,0:04:50.48,*Default,NTP,0000,0000,0000,,and then the background color would of course
+Dialogue: 0,0:04:50.48,0:04:52.22,*Default,NTP,0000,0000,0000,,not be anywhere here.
+Dialogue: 0,0:04:53.74,0:04:56.91,*Default,NTP,0000,0000,0000,,So because it's outside, right, we wanted inside
+Dialogue: 0,0:04:56.91,0:04:59.39,*Default,NTP,0000,0000,0000,,and so then that's padding.
+Dialogue: 0,0:04:59.39,0:05:00.62,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:05:00.62,0:05:03.20,*Default,NTP,0000,0000,0000,,So that's starting to look a lot better.
+Dialogue: 0,0:05:04.15,0:05:05.91,*Default,NTP,0000,0000,0000,,Now maybe let's create some space here
+Dialogue: 0,0:05:05.91,0:05:09.17,*Default,NTP,0000,0000,0000,,between this shipping and this text.
+Dialogue: 0,0:05:09.17,0:05:13.32,*Default,NTP,0000,0000,0000,,And so for that, so for creating some vertical space,
+Dialogue: 0,0:05:13.32,0:05:15.69,*Default,NTP,0000,0000,0000,,I am again using margin bottom.
+Dialogue: 0,0:05:16.86,0:05:20.21,*Default,NTP,0000,0000,0000,,So here in shipping, let's add
+Dialogue: 0,0:05:20.21,0:05:21.64,*Default,NTP,0000,0000,0000,,some
+Dialogue: 0,0:05:21.64,0:05:22.47,*Default,NTP,0000,0000,0000,,margin
+Dialogue: 0,0:05:23.92,0:05:24.75,*Default,NTP,0000,0000,0000,,bottom
+Dialogue: 0,0:05:25.65,0:05:28.36,*Default,NTP,0000,0000,0000,,of, let's say, 20 pixels.
+Dialogue: 0,0:05:30.28,0:05:31.85,*Default,NTP,0000,0000,0000,,Yeah, that looks a lot better
+Dialogue: 0,0:05:32.78,0:05:36.09,*Default,NTP,0000,0000,0000,,and let's take a look at the final result
+Dialogue: 0,0:05:36.09,0:05:38.40,*Default,NTP,0000,0000,0000,,that we want to achieve.
+Dialogue: 0,0:05:38.40,0:05:41.49,*Default,NTP,0000,0000,0000,,And so you see we have some space here as well.
+Dialogue: 0,0:05:42.37,0:05:45.72,*Default,NTP,0000,0000,0000,,We also have some space below this heading here,
+Dialogue: 0,0:05:45.72,0:05:49.55,*Default,NTP,0000,0000,0000,,and then this unordered list also moved back
+Dialogue: 0,0:05:50.55,0:05:52.46,*Default,NTP,0000,0000,0000,,here inside of the container,
+Dialogue: 0,0:05:52.46,0:05:56.54,*Default,NTP,0000,0000,0000,,because notice that right now, these bullets are outside.
+Dialogue: 0,0:05:56.54,0:05:57.41,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:05:57.41,0:05:59.28,*Default,NTP,0000,0000,0000,,And so let's not fix all of that.
+Dialogue: 0,0:06:03.56,0:06:07.31,*Default,NTP,0000,0000,0000,,So let's start with this one here
+Dialogue: 0,0:06:07.31,0:06:10.32,*Default,NTP,0000,0000,0000,,and giving it 15 pixels and as always,
+Dialogue: 0,0:06:10.32,0:06:12.88,*Default,NTP,0000,0000,0000,,if your numbers here were different
+Dialogue: 0,0:06:12.88,0:06:15.25,*Default,NTP,0000,0000,0000,,then that doesn't matter at all.
+Dialogue: 0,0:06:15.25,0:06:16.48,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:06:16.48,0:06:20.53,*Default,NTP,0000,0000,0000,,And now some space here between this link and this title,
+Dialogue: 0,0:06:20.53,0:06:24.56,*Default,NTP,0000,0000,0000,,so this heading and the logical thing to do
+Dialogue: 0,0:06:24.56,0:06:28.57,*Default,NTP,0000,0000,0000,,would probably be to add some margin bottom to the link,
+Dialogue: 0,0:06:28.57,0:06:30.13,*Default,NTP,0000,0000,0000,,because as I said,
+Dialogue: 0,0:06:30.13,0:06:34.01,*Default,NTP,0000,0000,0000,,the best thing to do is to stick to one of the directions,
+Dialogue: 0,0:06:34.01,0:06:38.22,*Default,NTP,0000,0000,0000,,so to one of the sides and then always add the margin there.
+Dialogue: 0,0:06:38.22,0:06:39.75,*Default,NTP,0000,0000,0000,,So let's try that.
+Dialogue: 0,0:06:39.75,0:06:42.49,*Default,NTP,0000,0000,0000,,So it's this more info link,
+Dialogue: 0,0:06:44.90,0:06:48.33,*Default,NTP,0000,0000,0000,,but you will see that this will actually not work.
+Dialogue: 0,0:06:50.24,0:06:53.27,*Default,NTP,0000,0000,0000,,So you see we added it and it doesn't work.
+Dialogue: 0,0:06:53.27,0:06:55.18,*Default,NTP,0000,0000,0000,,And the reason why it doesn't work
+Dialogue: 0,0:06:55.18,0:06:58.65,*Default,NTP,0000,0000,0000,,is something that I will explain in the next lecture.
+Dialogue: 0,0:07:00.01,0:07:00.84,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:07:01.75,0:07:04.83,*Default,NTP,0000,0000,0000,,So what matters now is that this doesn't work
+Dialogue: 0,0:07:04.83,0:07:08.02,*Default,NTP,0000,0000,0000,,because you basically cannot use margins
+Dialogue: 0,0:07:08.02,0:07:12.78,*Default,NTP,0000,0000,0000,,on small elements like anchors, so like this link.
+Dialogue: 0,0:07:12.78,0:07:15.18,*Default,NTP,0000,0000,0000,,And so instead, what we will do now
+Dialogue: 0,0:07:15.18,0:07:18.06,*Default,NTP,0000,0000,0000,,is to add a margin to the top
+Dialogue: 0,0:07:18.97,0:07:20.39,*Default,NTP,0000,0000,0000,,of this element.
+Dialogue: 0,0:07:20.39,0:07:24.00,*Default,NTP,0000,0000,0000,,And so this will then visually look exactly the same way.
+Dialogue: 0,0:07:24.90,0:07:28.44,*Default,NTP,0000,0000,0000,,Right, so adding 30 to the bottom of this,
+Dialogue: 0,0:07:28.44,0:07:31.35,*Default,NTP,0000,0000,0000,,it looks essentially the same as adding 30
+Dialogue: 0,0:07:31.35,0:07:32.66,*Default,NTP,0000,0000,0000,,to the top of this one.
+Dialogue: 0,0:07:35.93,0:07:37.71,*Default,NTP,0000,0000,0000,,Next, let's then fix
+Dialogue: 0,0:07:39.06,0:07:41.80,*Default,NTP,0000,0000,0000,,these bullet points that are outside of our
+Dialogue: 0,0:07:41.80,0:07:43.63,*Default,NTP,0000,0000,0000,,container element.
+Dialogue: 0,0:07:43.63,0:07:47.49,*Default,NTP,0000,0000,0000,,So margin left, let's say 20 pixels.
+Dialogue: 0,0:07:48.76,0:07:50.43,*Default,NTP,0000,0000,0000,,Yeah, so that looks nice.
+Dialogue: 0,0:07:52.67,0:07:55.82,*Default,NTP,0000,0000,0000,,And now I want to add some space here also
+Dialogue: 0,0:07:55.82,0:07:57.48,*Default,NTP,0000,0000,0000,,between these elements.
+Dialogue: 0,0:07:58.34,0:08:01.63,*Default,NTP,0000,0000,0000,,So that is this details list right here,
+Dialogue: 0,0:08:01.63,0:08:04.15,*Default,NTP,0000,0000,0000,,and so let's select each of these elements
+Dialogue: 0,0:08:04.15,0:08:05.25,*Default,NTP,0000,0000,0000,,that are in there.
+Dialogue: 0,0:08:07.74,0:08:12.37,*Default,NTP,0000,0000,0000,,So .details-list
+Dialogue: 0,0:08:12.37,0:08:15.45,*Default,NTP,0000,0000,0000,,and then all the li child elements
+Dialogue: 0,0:08:16.89,0:08:19.81,*Default,NTP,0000,0000,0000,,So this right here is a descendant selector,
+Dialogue: 0,0:08:19.81,0:08:22.25,*Default,NTP,0000,0000,0000,,just like we have learned previously
+Dialogue: 0,0:08:22.25,0:08:24.89,*Default,NTP,0000,0000,0000,,and as we have used many times before.
+Dialogue: 0,0:08:24.89,0:08:26.46,*Default,NTP,0000,0000,0000,,I think we have never used it
+Dialogue: 0,0:08:26.46,0:08:29.90,*Default,NTP,0000,0000,0000,,where one of them is a class selector like this
+Dialogue: 0,0:08:29.90,0:08:31.71,*Default,NTP,0000,0000,0000,,and the other is an element,
+Dialogue: 0,0:08:31.71,0:08:33.82,*Default,NTP,0000,0000,0000,,but of course that's no problem.
+Dialogue: 0,0:08:33.82,0:08:36.76,*Default,NTP,0000,0000,0000,,We can just combine them in any way that we want.
+Dialogue: 0,0:08:39.78,0:08:41.99,*Default,NTP,0000,0000,0000,,And so let's now add that space,
+Dialogue: 0,0:08:43.10,0:08:45.31,*Default,NTP,0000,0000,0000,,let's say some 10 pixels.
+Dialogue: 0,0:08:45.31,0:08:47.31,*Default,NTP,0000,0000,0000,,And now finally to finish,
+Dialogue: 0,0:08:47.31,0:08:51.13,*Default,NTP,0000,0000,0000,,let's work a little bit here on this button.
+Dialogue: 0,0:08:51.13,0:08:54.71,*Default,NTP,0000,0000,0000,,So this one, and I'm going to start with some padding here.
+Dialogue: 0,0:08:55.97,0:08:59.32,*Default,NTP,0000,0000,0000,,So adding some space inside of the button.
+Dialogue: 0,0:09:01.23,0:09:04.70,*Default,NTP,0000,0000,0000,,So that already looks a lot nicer, right?
+Dialogue: 0,0:09:04.70,0:09:07.58,*Default,NTP,0000,0000,0000,,But now let's have it go from one side
+Dialogue: 0,0:09:07.58,0:09:09.58,*Default,NTP,0000,0000,0000,,all the way to the other side.
+Dialogue: 0,0:09:09.58,0:09:13.23,*Default,NTP,0000,0000,0000,,So that's something very similar as we did with the image
+Dialogue: 0,0:09:13.23,0:09:15.00,*Default,NTP,0000,0000,0000,,in one of the previous lectures.
+Dialogue: 0,0:09:16.06,0:09:20.51,*Default,NTP,0000,0000,0000,,So we can simply give it a width of 100%.
+Dialogue: 0,0:09:21.35,0:09:25.53,*Default,NTP,0000,0000,0000,,And so now it basically occupies the entire parent element,
+Dialogue: 0,0:09:25.53,0:09:30.53,*Default,NTP,0000,0000,0000,,which is of course this complete article element.
+Dialogue: 0,0:09:30.66,0:09:35.34,*Default,NTP,0000,0000,0000,,And now all that we are missing is that border at the top.
+Dialogue: 0,0:09:35.34,0:09:40.34,*Default,NTP,0000,0000,0000,,Right, so remember that here in our demo, when we hover it,
+Dialogue: 0,0:09:40.43,0:09:44.50,*Default,NTP,0000,0000,0000,,then it still kind of looks like a button, right,
+Dialogue: 0,0:09:44.50,0:09:47.42,*Default,NTP,0000,0000,0000,,and in order to create that effect,
+Dialogue: 0,0:09:47.42,0:09:49.06,*Default,NTP,0000,0000,0000,,so that kind of illusion,
+Dialogue: 0,0:09:49.06,0:09:51.97,*Default,NTP,0000,0000,0000,,we need this border here at the top of the button.
+Dialogue: 0,0:09:53.15,0:09:54.80,*Default,NTP,0000,0000,0000,,So let's add that
+Dialogue: 0,0:09:56.02,0:09:57.08,*Default,NTP,0000,0000,0000,,and
+Dialogue: 0,0:09:58.13,0:10:00.68,*Default,NTP,0000,0000,0000,,so it is basically the same border
+Dialogue: 0,0:10:00.68,0:10:02.67,*Default,NTP,0000,0000,0000,,as goes around this article.
+Dialogue: 0,0:10:03.84,0:10:05.51,*Default,NTP,0000,0000,0000,,So let's see what we have there
+Dialogue: 0,0:10:07.57,0:10:10.41,*Default,NTP,0000,0000,0000,,and we can actually go ahead and copy it.
+Dialogue: 0,0:10:10.41,0:10:12.61,*Default,NTP,0000,0000,0000,,The only thing that we need to then change
+Dialogue: 0,0:10:12.61,0:10:16.18,*Default,NTP,0000,0000,0000,,is that we only want this border at the top, in this case.
+Dialogue: 0,0:10:17.84,0:10:21.14,*Default,NTP,0000,0000,0000,,Okay, and now there we go.
+Dialogue: 0,0:10:22.30,0:10:26.52,*Default,NTP,0000,0000,0000,,So beautiful, that works just nice.
+Dialogue: 0,0:10:26.52,0:10:30.78,*Default,NTP,0000,0000,0000,,And I think with this, we actually finished this challenge.
+Dialogue: 0,0:10:30.78,0:10:34.50,*Default,NTP,0000,0000,0000,,So it looks just like, our demo here.
+Dialogue: 0,0:10:34.50,0:10:37.56,*Default,NTP,0000,0000,0000,,So I think we're done here with this challenge.
+Dialogue: 0,0:10:37.56,0:10:41.53,*Default,NTP,0000,0000,0000,,So great job, well done and congratulations
+Dialogue: 0,0:10:41.53,0:10:45.41,*Default,NTP,0000,0000,0000,,for writing a lot of code on your own once again.
+Dialogue: 0,0:10:45.41,0:10:48.37,*Default,NTP,0000,0000,0000,,So these are really, really important for you to
+Dialogue: 0,0:10:48.37,0:10:50.32,*Default,NTP,0000,0000,0000,,consolidate your knowledge.
+Dialogue: 0,0:10:50.32,0:10:51.97,*Default,NTP,0000,0000,0000,,So I'm very happy to see
+Dialogue: 0,0:10:51.97,0:10:54.48,*Default,NTP,0000,0000,0000,,that you're still with me here at this point,
+Dialogue: 0,0:10:54.48,0:10:56.88,*Default,NTP,0000,0000,0000,,because that's really great progress.

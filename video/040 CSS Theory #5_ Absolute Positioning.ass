@@ -1,0 +1,673 @@
+[Script Info]
+Title: 040 CSS Theory #5_ Absolute Positioning_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=38&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.26,0:00:02.39,*Default,NTP,0000,0000,0000,,让我们来谈谈
+Dialogue: 0,0:00:02.39,0:00:06.32,*Default,NTP,0000,0000,0000,,CSS 的另一个极其重要的方面，
+Dialogue: 0,0:00:06.32,0:00:08.60,*Default,NTP,0000,0000,0000,,这是定位模式。
+Dialogue: 0,0:00:08.60,0:00:12.25,*Default,NTP,0000,0000,0000,,而这个是更复杂的讲座之一
+Dialogue: 0,0:00:12.25,0:00:13.88,*Default,NTP,0000,0000,0000,,本节的
+Dialogue: 0,0:00:13.88,0:00:16.66,*Default,NTP,0000,0000,0000,,所以一定要好好注意。
+Dialogue: 0,0:00:18.87,0:00:20.45,*Default,NTP,0000,0000,0000,,所以在 CSS 中，
+Dialogue: 0,0:00:20.45,0:00:23.52,*Default,NTP,0000,0000,0000,,有几种不同的定位模式。
+Dialogue: 0,0:00:23.52,0:00:25.10,*Default,NTP,0000,0000,0000,,但更重要的
+Dialogue: 0,0:00:25.10,0:00:27.97,*Default,NTP,0000,0000,0000,,以及我们现在要讨论的那些
+Dialogue: 0,0:00:27.97,0:00:30.96,*Default,NTP,0000,0000,0000,,是正常流量和绝对定位。
+Dialogue: 0,0:00:31.80,0:00:34.35,*Default,NTP,0000,0000,0000,,所以从正常流程开始，
+Dialogue: 0,0:00:34.35,0:00:37.40,*Default,NTP,0000,0000,0000,,它只是元素的默认定位
+Dialogue: 0,0:00:37.40,0:00:38.86,*Default,NTP,0000,0000,0000,,在我们的页面上。
+Dialogue: 0,0:00:38.86,0:00:41.89,*Default,NTP,0000,0000,0000,,或者我们也可以实现正常流
+Dialogue: 0,0:00:41.89,0:00:45.90,*Default,NTP,0000,0000,0000,,通过将位置设置为相对值。
+Dialogue: 0,0:00:45.90,0:00:49.66,*Default,NTP,0000,0000,0000,,所以在这种情况下，我们说一个元素是“流动的”，
+Dialogue: 0,0:00:49.66,0:00:52.82,*Default,NTP,0000,0000,0000,,这基本上意味着元素的布局
+Dialogue: 0,0:00:52.82,0:00:56.86,*Default,NTP,0000,0000,0000,,根据HTML中的源代码。
+Dialogue: 0,0:00:56.86,0:00:58.66,*Default,NTP,0000,0000,0000,,所以这很简单。
+Dialogue: 0,0:00:58.66,0:01:01.10,*Default,NTP,0000,0000,0000,,这只是我们一直看到的行为
+Dialogue: 0,0:01:01.10,0:01:02.47,*Default,NTP,0000,0000,0000,,直到这一点。
+Dialogue: 0,0:01:02.47,0:01:06.32,*Default,NTP,0000,0000,0000,,所以请记住，这被称​​为正常流程。
+Dialogue: 0,0:01:06.32,0:01:09.74,*Default,NTP,0000,0000,0000,,另一方面，现在我们有绝对定位，
+Dialogue: 0,0:01:09.74,0:01:13.43,*Default,NTP,0000,0000,0000,,这基本上允许我们绝对定位元素
+Dialogue: 0,0:01:13.43,0:01:15.74,*Default,NTP,0000,0000,0000,,页面上的任何位置。
+Dialogue: 0,0:01:15.74,0:01:18.97,*Default,NTP,0000,0000,0000,,现在我们可以实现这种定位模式，
+Dialogue: 0,0:01:18.97,0:01:21.83,*Default,NTP,0000,0000,0000,,所以我们可以绝对定位一个元素
+Dialogue: 0,0:01:21.83,0:01:23.97,*Default,NTP,0000,0000,0000,,通过设置它的位置属性
+Dialogue: 0,0:01:23.97,0:01:26.23,*Default,NTP,0000,0000,0000,,到绝对值。
+Dialogue: 0,0:01:26.23,0:01:27.47,*Default,NTP,0000,0000,0000,,所以在这种情况下，
+Dialogue: 0,0:01:27.47,0:01:30.76,*Default,NTP,0000,0000,0000,,然后从正常流程中删除该元素
+Dialogue: 0,0:01:30.76,0:01:34.14,*Default,NTP,0000,0000,0000,,我们说它“没有流量”。
+Dialogue: 0,0:01:34.14,0:01:36.70,*Default,NTP,0000,0000,0000,,现在这个元素会发生什么
+Dialogue: 0,0:01:36.70,0:01:40.92,*Default,NTP,0000,0000,0000,,它完全失去了对周围元素的任何影响。
+Dialogue: 0,0:01:40.92,0:01:44.37,*Default,NTP,0000,0000,0000,,事实上，它甚至可能与它们重叠。
+Dialogue: 0,0:01:44.37,0:01:46.40,*Default,NTP,0000,0000,0000,,所以这是经常发生的事情
+Dialogue: 0,0:01:46.40,0:01:49.30,*Default,NTP,0000,0000,0000,,具有绝对定位的元素。
+Dialogue: 0,0:01:49.30,0:01:52.26,*Default,NTP,0000,0000,0000,,现在，为了实际定位元素
+Dialogue: 0,0:01:52.26,0:01:54.42,*Default,NTP,0000,0000,0000,,绝对定位，
+Dialogue: 0,0:01:54.42,0:01:59.01,*Default,NTP,0000,0000,0000,,我们可以使用顶部、底部、左侧或右侧属性
+Dialogue: 0,0:01:59.01,0:02:01.34,*Default,NTP,0000,0000,0000,,为了定位该元素。
+Dialogue: 0,0:02:01.34,0:02:04.46,*Default,NTP,0000,0000,0000,,并且这种定位将发生在相关的
+Dialogue: 0,0:02:04.46,0:02:07.68,*Default,NTP,0000,0000,0000,,到一个相对定位的容器。
+Dialogue: 0,0:02:07.68,0:02:10.85,*Default,NTP,0000,0000,0000,,现在，我知道这听起来有点令人困惑
+Dialogue: 0,0:02:10.85,0:02:13.99,*Default,NTP,0000,0000,0000,,所以让我们实际看看这种情况在实践中发生。
+Dialogue: 0,0:02:15.40,0:02:17.60,*Default,NTP,0000,0000,0000,,所以我们在这个讲座中要做的是
+Dialogue: 0,0:02:17.60,0:02:21.46,*Default,NTP,0000,0000,0000,,创建一个位于外部的 Like 按钮
+Dialogue: 0,0:02:21.46,0:02:23.19,*Default,NTP,0000,0000,0000,,我们居中的容器。
+Dialogue: 0,0:02:24.09,0:02:26.68,*Default,NTP,0000,0000,0000,,所以让我在演示中展示这一点。
+Dialogue: 0,0:02:26.68,0:02:29.97,*Default,NTP,0000,0000,0000,,所以在最后，我们有这个 Like 按钮。
+Dialogue: 0,0:02:30.81,0:02:34.79,*Default,NTP,0000,0000,0000,,例如，当我们展开页面时，
+Dialogue: 0,0:02:34.79,0:02:37.57,*Default,NTP,0000,0000,0000,,你看到这个元素总是保持不变
+Dialogue: 0,0:02:37.57,0:02:40.95,*Default,NTP,0000,0000,0000,,在完全相同的位置，对吧？
+Dialogue: 0,0:02:40.95,0:02:44.52,*Default,NTP,0000,0000,0000,,所以它不受任何周围元素的影响
+Dialogue: 0,0:02:44.52,0:02:46.26,*Default,NTP,0000,0000,0000,,这更加明显
+Dialogue: 0,0:02:46.26,0:02:49.90,*Default,NTP,0000,0000,0000,,如果我们进一步减少页面。
+Dialogue: 0,0:02:49.90,0:02:53.14,*Default,NTP,0000,0000,0000,,所以在这里我们甚至有元素的情况
+Dialogue: 0,0:02:53.14,0:02:57.54,*Default,NTP,0000,0000,0000,,实际上在这里重叠了这个相关的帖子元素。
+Dialogue: 0,0:02:58.41,0:02:59.68,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:02:59.68,0:03:04.32,*Default,NTP,0000,0000,0000,,所以你会看到这个元素没有影响
+Dialogue: 0,0:03:04.32,0:03:06.72,*Default,NTP,0000,0000,0000,,它也没有受到影响
+Dialogue: 0,0:03:06.72,0:03:08.98,*Default,NTP,0000,0000,0000,,通过任何周围的元素。
+Dialogue: 0,0:03:08.98,0:03:12.13,*Default,NTP,0000,0000,0000,,它总是只是简单地呆在这个地方，
+Dialogue: 0,0:03:12.13,0:03:15.41,*Default,NTP,0000,0000,0000,,无论页面的其余部分发生什么。
+Dialogue: 0,0:03:15.41,0:03:17.68,*Default,NTP,0000,0000,0000,,这是一个很好的例子
+Dialogue: 0,0:03:17.68,0:03:20.87,*Default,NTP,0000,0000,0000,,一个绝对定位的元素。
+Dialogue: 0,0:03:20.87,0:03:23.87,*Default,NTP,0000,0000,0000,,现在我们应该在哪里行动lly 加价
+Dialogue: 0,0:03:23.87,0:03:25.18,*Default,NTP,0000,0000,0000,,这个按钮？
+Dialogue: 0,0:03:25.18,0:03:27.36,*Default,NTP,0000,0000,0000,,所以HTML...
+Dialogue: 0,0:03:27.36,0:03:31.36,*Default,NTP,0000,0000,0000,,好吧，至少现在这并不重要。
+Dialogue: 0,0:03:31.36,0:03:36.29,*Default,NTP,0000,0000,0000,,所以让我们把它放在正文的末尾。
+Dialogue: 0,0:03:38.96,0:03:42.16,*Default,NTP,0000,0000,0000,,所以在任何其他元素之后。
+Dialogue: 0,0:03:42.16,0:03:46.05,*Default,NTP,0000,0000,0000,,所以实际上即使在容器之后。
+Dialogue: 0,0:03:46.05,0:03:49.05,*Default,NTP,0000,0000,0000,,但同样，目前这还不是最重要的部分
+Dialogue: 0,0:03:49.05,0:03:51.20,*Default,NTP,0000,0000,0000,,我们稍后会改变它。
+Dialogue: 0,0:03:52.24,0:03:53.88,*Default,NTP,0000,0000,0000,,所以让我们使用按钮元素
+Dialogue: 0,0:03:53.88,0:03:57.85,*Default,NTP,0000,0000,0000,,我们也已经在我们的编码挑战中使用了它。
+Dialogue: 0,0:03:57.85,0:04:00.81,*Default,NTP,0000,0000,0000,,然后在这里我只写'Like'，
+Dialogue: 0,0:04:00.81,0:04:03.71,*Default,NTP,0000,0000,0000,,然后让我们在这里添加一个漂亮的表情符号，
+Dialogue: 0,0:04:03.71,0:04:05.08,*Default,NTP,0000,0000,0000,,在 Windows 中你可以做什么
+Dialogue: 0,0:04:05.08,0:04:09.80,*Default,NTP,0000,0000,0000,,通过同时击中控制命令和空间。
+Dialogue: 0,0:04:09.80,0:04:12.98,*Default,NTP,0000,0000,0000,,在 Windows 上，您可以打开表情符号选择器
+Dialogue: 0,0:04:12.98,0:04:16.74,*Default,NTP,0000,0000,0000,,通过点击 Windows 键加点。
+Dialogue: 0,0:04:16.74,0:04:19.48,*Default,NTP,0000,0000,0000,,所以这不是任何 VS 代码扩展。
+Dialogue: 0,0:04:19.48,0:04:21.90,*Default,NTP,0000,0000,0000,,这只是提供的功能
+Dialogue: 0,0:04:21.90,0:04:23.70,*Default,NTP,0000,0000,0000,,由操作系统。
+Dialogue: 0,0:04:23.70,0:04:27.08,*Default,NTP,0000,0000,0000,,再说一遍，控制 Mac 上的命令空间
+Dialogue: 0,0:04:27.08,0:04:31.09,*Default,NTP,0000,0000,0000,,和 Windows 加上 Windows 10 上的点。
+Dialogue: 0,0:04:31.09,0:04:34.18,*Default,NTP,0000,0000,0000,,所以让我们在这里寻找心
+Dialogue: 0,0:04:36.30,0:04:38.27,*Default,NTP,0000,0000,0000,,和...是的。
+Dialogue: 0,0:04:38.27,0:04:40.22,*Default,NTP,0000,0000,0000,,VS 代码类型的转换
+Dialogue: 0,0:04:40.22,0:04:44.85,*Default,NTP,0000,0000,0000,,出于某种原因进入这个灰色符号。
+Dialogue: 0,0:04:44.85,0:04:46.54,*Default,NTP,0000,0000,0000,,但别管那个了。
+Dialogue: 0,0:04:47.77,0:04:49.38,*Default,NTP,0000,0000,0000,,所以我们就来这里吧
+Dialogue: 0,0:04:49.38,0:04:52.68,*Default,NTP,0000,0000,0000,,我们的按钮现在应该在这里的某个地方。
+Dialogue: 0,0:04:52.68,0:04:55.03,*Default,NTP,0000,0000,0000,,所以现在，它就在这里。
+Dialogue: 0,0:04:55.03,0:04:57.57,*Default,NTP,0000,0000,0000,,所以在所有其他元素之后，
+Dialogue: 0,0:04:57.57,0:05:01.71,*Default,NTP,0000,0000,0000,,因为现在，当然，它仍然处于正常流程中。
+Dialogue: 0,0:05:01.71,0:05:04.87,*Default,NTP,0000,0000,0000,,所以我们还没有声明绝对位置。
+Dialogue: 0,0:05:04.87,0:05:07.51,*Default,NTP,0000,0000,0000,,因此，它只是在流动中
+Dialogue: 0,0:05:07.51,0:05:09.18,*Default,NTP,0000,0000,0000,,它的位置很简单
+Dialogue: 0,0:05:09.18,0:05:10.82,*Default,NTP,0000,0000,0000,,毕竟其他元素。
+Dialogue: 0,0:05:12.19,0:05:14.05,*Default,NTP,0000,0000,0000,,但现在让我们真正改变它。
+Dialogue: 0,0:05:15.98,0:05:19.05,*Default,NTP,0000,0000,0000,,因此，让我们使用按钮选择层。
+Dialogue: 0,0:05:19.89,0:05:22.00,*Default,NTP,0000,0000,0000,,让我们先给它一些视觉风格。
+Dialogue: 0,0:05:25.93,0:05:28.21,*Default,NTP,0000,0000,0000,,还添加一些填充。
+Dialogue: 0,0:05:28.21,0:05:30.78,*Default,NTP,0000,0000,0000,,我们也可以使用这个技巧
+Dialogue: 0,0:05:30.78,0:05:33.51,*Default,NTP,0000,0000,0000,,定义游标属性，
+Dialogue: 0,0:05:33.51,0:05:36.12,*Default,NTP,0000,0000,0000,,正如我在挑战赛中向你展示的那样，
+Dialogue: 0,0:05:36.12,0:05:39.94,*Default,NTP,0000,0000,0000,,并将其设置为指针，以便我们真正得到那只手。
+Dialogue: 0,0:05:42.20,0:05:43.03,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:05:43.03,0:05:44.81,*Default,NTP,0000,0000,0000,,所以现在它看起来更好一点。
+Dialogue: 0,0:05:45.80,0:05:47.94,*Default,NTP,0000,0000,0000,,你会看到还有这个悬停状态，
+Dialogue: 0,0:05:47.94,0:05:50.36,*Default,NTP,0000,0000,0000,,我们当然可以定制，
+Dialogue: 0,0:05:50.36,0:05:53.23,*Default,NTP,0000,0000,0000,,但我们不要花时间在这上面。
+Dialogue: 0,0:05:53.23,0:05:56.34,*Default,NTP,0000,0000,0000,,但是我们现在将立即设置位置
+Dialogue: 0,0:05:56.34,0:06:00.39,*Default,NTP,0000,0000,0000,,就像我在上一张幻灯片中向您展示的那样绝对。
+Dialogue: 0,0:06:01.36,0:06:05.12,*Default,NTP,0000,0000,0000,,所以让我们保存一下，看看它是什么样子的。
+Dialogue: 0,0:06:05.12,0:06:07.95,*Default,NTP,0000,0000,0000,,但就目前而言，它看起来仍然非常相似。
+Dialogue: 0,0:06:07.95,0:06:10.53,*Default,NTP,0000,0000,0000,,那是因为我们还没有真正定位它
+Dialogue: 0,0:06:10.53,0:06:14.23,*Default,NTP,0000,0000,0000,,使用我还提到的四个属性之一，
+Dialogue: 0,0:06:14.23,0:06:17.41,*Default,NTP,0000,0000,0000,,所以顶部，左侧，右侧和底部。
+Dialogue: 0,0:06:17.41,0:06:20.96,*Default,NTP,0000,0000,0000,,所以现在让我们实际使用顶部
+Dialogue: 0,0:06:20.96,0:06:22.53,*Default,NTP,0000,0000,0000,,并在此处将其设置为零，
+Dialogue: 0,0:06:22.53,0:06:25.01,*Default,NTP,0000,0000,0000,,这始终是一个很好的起点。
+Dialogue: 0,0:06:25.01,0:06:28.19,*Default,NTP,0000,0000,0000,,让我们说左边，零也是。
+Dialogue: 0,0:06:29.28,0:06:30.53,*Default,NTP,0000,0000,0000,,给它一个保存。
+Dialogue: 0,0:06:30.53,0:06:32.46,*Default,NTP,0000,0000,0000,,而现在它可能已经消失了。
+Dialogue: 0,0:06:32.46,0:06:34.05,*Default,NTP,0000,0000,0000,,是啊，就是。
+Dialogue: 0,0:06:34.05,0:06:37.69,*Default,NTP,0000,0000,0000,,那是因为现在它就在这里。
+Dialogue: 0,0:06:37.69,0:06:40.39,*Default,NTP,0000,0000,0000,,所以我们将它的顶部位置设置为零
+Dialogue: 0,0:06:40.39,0:06:43.36,*Default,NTP,0000,0000,0000,,所以现在它在页面的最顶部
+Dialogue: 0,0:06:43.36,0:06:45.21,*Default,NTP,0000,0000,0000,,因为这里的这些像素，
+Dialogue: 0,0:06:45.21,0:06:47.88,*Default,NTP,0000,0000,0000,,所以零像素，至少现在，
+Dialogue: 0,0:06:47.88,0:06:51.65,*Default,NTP,0000,0000,0000,,从视口的顶部开始计算，
+Dialogue: 0,0:06:51.65,0:06:53.99,*Default,NTP,0000,0000,0000,,所以这里页面的这个可见部分。
+Dialogue: 0,0:06:55.07,0:06:58.17,*Default,NTP,0000,0000,0000,,因此，如果我们将其更改为底部，例如，
+Dialogue: 0,0:06:59.10,0:07:02.45,*Default,NTP,0000,0000,0000,,那么它应该在视口的底部。
+Dialogue: 0,0:07:02.45,0:07:05.04,*Default,NTP,0000,0000,0000,,所以默认情况下，这个元素是定位的
+Dialogue: 0,0:07:05.04,0:07:07.25,*Default,NTP,0000,0000,0000,,关于视口，
+Dialogue: 0,0:07:07.25,0:07:08.45,*Default,NTP,0000,0000,0000,,这又是页面的可见部分。
+Dialogue: 0,0:07:11.27,0:07:12.13,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:12.13,0:07:13.11,*Default,NTP,0000,0000,0000,,所以现在它留在这里，
+Dialogue: 0,0:07:13.11,0:07:17.20,*Default,NTP,0000,0000,0000,,这是一个非常奇怪的地方。
+Dialogue: 0,0:07:17.20,0:07:20.62,*Default,NTP,0000,0000,0000,,但这里需要注意的重要一点是，事实上，
+Dialogue: 0,0:07:20.62,0:07:24.35,*Default,NTP,0000,0000,0000,,此元素已完全从流程中取出
+Dialogue: 0,0:07:24.35,0:07:27.29,*Default,NTP,0000,0000,0000,,它现在甚至悬停在此内容上。
+Dialogue: 0,0:07:27.29,0:07:31.16,*Default,NTP,0000,0000,0000,,所以就好像其余的内容都不存在
+Dialogue: 0,0:07:31.16,0:07:33.52,*Default,NTP,0000,0000,0000,,这变得更加明显
+Dialogue: 0,0:07:33.52,0:07:37.94,*Default,NTP,0000,0000,0000,,例如，当我们改变窗口的大小时。
+Dialogue: 0,0:07:39.95,0:07:42.61,*Default,NTP,0000,0000,0000,,让我们回到原来的位置。
+Dialogue: 0,0:07:43.65,0:07:45.30,*Default,NTP,0000,0000,0000,,把它放回顶部。
+Dialogue: 0,0:07:45.30,0:07:49.85,*Default,NTP,0000,0000,0000,,当然，我们也可以将它移动到其他位置。
+Dialogue: 0,0:07:50.84,0:07:53.63,*Default,NTP,0000,0000,0000,,所以它不必完全粘合
+Dialogue: 0,0:07:53.63,0:07:55.60,*Default,NTP,0000,0000,0000,,到顶部和左侧。
+Dialogue: 0,0:07:55.60,0:08:00.01,*Default,NTP,0000,0000,0000,,但是我们可以，例如，将它向下移动 50 个像素
+Dialogue: 0,0:08:00.01,0:08:02.28,*Default,NTP,0000,0000,0000,,向右多 50 像素，
+Dialogue: 0,0:08:02.28,0:08:04.86,*Default,NTP,0000,0000,0000,,从左边数到这里。
+Dialogue: 0,0:08:04.86,0:08:05.69,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:05.69,0:08:08.13,*Default,NTP,0000,0000,0000,,所以这是非常非常基本的
+Dialogue: 0,0:08:08.13,0:08:10.21,*Default,NTP,0000,0000,0000,,的绝对定位。
+Dialogue: 0,0:08:10.21,0:08:12.94,*Default,NTP,0000,0000,0000,,但非常重要的是要了解
+Dialogue: 0,0:08:12.94,0:08:15.68,*Default,NTP,0000,0000,0000,,这里的这 50 个像素需要
+Dialogue: 0,0:08:15.68,0:08:17.53,*Default,NTP,0000,0000,0000,,关于某事。
+Dialogue: 0,0:08:17.53,0:08:20.46,*Default,NTP,0000,0000,0000,,所以，正如我刚才提到的，
+Dialogue: 0,0:08:20.46,0:08:23.94,*Default,NTP,0000,0000,0000,,默认情况下，这 50 个像素是相关的
+Dialogue: 0,0:08:23.94,0:08:25.27,*Default,NTP,0000,0000,0000,,到视口，
+Dialogue: 0,0:08:25.27,0:08:28.85,*Default,NTP,0000,0000,0000,,所以页面的可见部分在浏览器中。
+Dialogue: 0,0:08:28.85,0:08:31.71,*Default,NTP,0000,0000,0000,,这就是元素向下移动的原因
+Dialogue: 0,0:08:31.71,0:08:35.47,*Default,NTP,0000,0000,0000,,当我将底部设置为零时到这个角落。
+Dialogue: 0,0:08:35.47,0:08:38.52,*Default,NTP,0000,0000,0000,,然而，这通常不是我们想要的。
+Dialogue: 0,0:08:38.52,0:08:42.37,*Default,NTP,0000,0000,0000,,所以通常，我们想要绝对定位元素
+Dialogue: 0,0:08:42.37,0:08:45.62,*Default,NTP,0000,0000,0000,,相对于其他一些父元素。
+Dialogue: 0,0:08:45.62,0:08:46.86,*Default,NTP,0000,0000,0000,,为了做到这一点，
+Dialogue: 0,0:08:46.86,0:08:48.78,*Default,NTP,0000,0000,0000,,我们需要专门设置位置
+Dialogue: 0,0:08:48.78,0:08:52.31,*Default,NTP,0000,0000,0000,,该父元素的相对关系。
+Dialogue: 0,0:08:52.31,0:08:53.53,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:53.53,0:08:54.57,*Default,NTP,0000,0000,0000,,所以在这种情况下，
+Dialogue: 0,0:08:54.57,0:08:57.39,*Default,NTP,0000,0000,0000,,我们希望这个元素在这里被定位
+Dialogue: 0,0:08:57.39,0:09:01.18,*Default,NTP,0000,0000,0000,,在页面的右下角。
+Dialogue: 0,0:09:01.18,0:09:04.02,*Default,NTP,0000,0000,0000,,所以页面而不是视口。
+Dialogue: 0,0:09:05.37,0:09:06.99,*Default,NTP,0000,0000,0000,,所以让我们试试吧。
+Dialogue: 0,0:09:07.87,0:09:09.59,*Default,NTP,0000,0000,0000,,所以我们说...
+Dialogue: 0,0:09:09.59,0:09:12.76,*Default,NTP,0000,0000,0000,,底部 50 像素，
+Dialogue: 0,0:09:12.76,0:09:15.17,*Default,NTP,0000,0000,0000,,实际上让我们把它留在这里
+Dialogue: 0,0:09:15.17,0:09:16.41,*Default,NTP,0000,0000,0000,,然后复制它
+Dialogue: 0,0:09:16.41,0:09:18.26,*Default,NTP,0000,0000,0000,,然后我会把它注释掉
+Dialogue: 0,0:09:18.26,0:09:19.99,*Default,NTP,0000,0000,0000,,把它放在这里作为参考。
+Dialogue: 0,0:09:20.97,0:09:25.85,*Default,NTP,0000,0000,0000,,但我们想要的是距底部 50 像素
+Dialogue: 0,0:09:25.85,0:09:29.43,*Default,NTP,0000,0000,0000,,和右侧 50 像素。
+Dialogue: 0,0:09:30.76,0:09:34.53,*Default,NTP,0000,0000,0000,,因此，它再次将其移动到视口中的这个位置，
+Dialogue: 0,0:09:34.53,0:09:36.52,*Default,NTP,0000,0000,0000,,但我们想把它放在这里，
+Dialogue: 0,0:09:36.52,0:09:38.95,*Default,NTP,0000,0000,0000,,所以从页面，对吧？
+Dialogue: 0,0:09:38.95,0:09:42.36,*Default,NTP,0000,0000,0000,,所以我们需要将位置设置为相对
+Dialogue: 0,0:09:42.36,0:09:44.38,*Default,NTP,0000,0000,0000,,基本上在页面上。
+Dialogue: 0,0:09:44.38,0:09:46.62,*Default,NTP,0000,0000,0000,,这就是身体元素。
+Dialogue: 0,0:09:48.39,0:09:50.12,*Default,NTP,0000,0000,0000,,所以让我们这样做。
+Dialogue: 0,0:09:50.12,0:09:51.59,*Default,NTP,0000,0000,0000,,让我们去身体，
+Dialogue: 0,0:09:52.50,0:09:54.37,*Default,NTP,0000,0000,0000,,就在这里。
+Dialogue: 0,0:09:54.37,0:09:58.85,*Default,NTP,0000,0000,0000,,让我们将它的位置设置为...
+Dialogue: 0,0:09:58.85,0:09:59.68,*Default,NTP,0000,0000,0000,,相对的。
+Dialogue: 0,0:10:00.88,0:10:02.21,*Default,NTP,0000,0000,0000,,给它一个保存。
+Dialogue: 0,0:10:02.21,0:10:04.46,*Default,NTP,0000,0000,0000,,现在，当我们下到这里时，
+Dialogue: 0,0:10:04.46,0:10:05.76,*Default,NTP,0000,0000,0000,,然后就在这里。
+Dialogue: 0,0:10:06.95,0:10:08.26,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:10:08.26,0:10:11.40,*Default,NTP,0000,0000,0000,,让我们稍微调整一下页面大小
+Dialogue: 0,0:10:11.40,0:10:13.23,*Default,NTP,0000,0000,0000,,现在无论发生什么，
+Dialogue: 0,0:10:13.23,0:10:15.82,*Default,NTP,0000,0000,0000,,元素始终正确定位d
+Dialogue: 0,0:10:15.82,0:10:19.77,*Default,NTP,0000,0000,0000,,在身体的右下角。
+Dialogue: 0,0:10:19.77,0:10:20.60,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:10:20.60,0:10:23.09,*Default,NTP,0000,0000,0000,,所以我希望这是有道理的。
+Dialogue: 0,0:10:23.09,0:10:26.96,*Default,NTP,0000,0000,0000,,当然，它不必总是在身体上。
+Dialogue: 0,0:10:26.96,0:10:29.11,*Default,NTP,0000,0000,0000,,所以我们也可以把它放在里面
+Dialogue: 0,0:10:29.11,0:10:31.04,*Default,NTP,0000,0000,0000,,任何其他父元素，
+Dialogue: 0,0:10:31.04,0:10:32.89,*Default,NTP,0000,0000,0000,,这不是身体。
+Dialogue: 0,0:10:33.75,0:10:37.11,*Default,NTP,0000,0000,0000,,所以让我们举个例子，在这里尝试容器。
+Dialogue: 0,0:10:37.11,0:10:38.30,*Default,NTP,0000,0000,0000,,但为了做到这一点，
+Dialogue: 0,0:10:38.30,0:10:42.12,*Default,NTP,0000,0000,0000,,该元素实际上需要在容器内
+Dialogue: 0,0:10:42.12,0:10:45.09,*Default,NTP,0000,0000,0000,,因为否则这不是父元素
+Dialogue: 0,0:10:45.09,0:10:47.46,*Default,NTP,0000,0000,0000,,按钮，对吧？
+Dialogue: 0,0:10:49.63,0:10:51.44,*Default,NTP,0000,0000,0000,,所以让我们把它带出这里
+Dialogue: 0,0:10:52.37,0:10:54.34,*Default,NTP,0000,0000,0000,,并将其放在其他地方。
+Dialogue: 0,0:10:54.34,0:10:56.45,*Default,NTP,0000,0000,0000,,而且在哪里并不重要。
+Dialogue: 0,0:10:56.45,0:10:59.83,*Default,NTP,0000,0000,0000,,重要的是它需要在某个地方
+Dialogue: 0,0:10:59.83,0:11:01.37,*Default,NTP,0000,0000,0000,,在这个容器内，
+Dialogue: 0,0:11:02.42,0:11:06.24,*Default,NTP,0000,0000,0000,,所以这个带有容器类的 div 元素就可以了。
+Dialogue: 0,0:11:06.24,0:11:08.55,*Default,NTP,0000,0000,0000,,我认为....实际上是这个地方
+Dialogue: 0,0:11:08.55,0:11:11.14,*Default,NTP,0000,0000,0000,,在语义上最有意义的地方
+Dialogue: 0,0:11:11.14,0:11:12.54,*Default,NTP,0000,0000,0000,,在标题中。
+Dialogue: 0,0:11:14.35,0:11:17.38,*Default,NTP,0000,0000,0000,,所以文章的标题，
+Dialogue: 0,0:11:17.38,0:11:20.53,*Default,NTP,0000,0000,0000,,所以这里的这个地方其实是司空见惯的
+Dialogue: 0,0:11:20.53,0:11:23.68,*Default,NTP,0000,0000,0000,,您认为“赞”按钮有意义的地方
+Dialogue: 0,0:11:23.68,0:11:26.35,*Default,NTP,0000,0000,0000,,在这样的博客文章中，对吧？
+Dialogue: 0,0:11:26.35,0:11:27.70,*Default,NTP,0000,0000,0000,,所以让我们把它放在那里，
+Dialogue: 0,0:11:27.70,0:11:30.62,*Default,NTP,0000,0000,0000,,即使在视觉上它不会出现在那里
+Dialogue: 0,0:11:30.62,0:11:35.16,*Default,NTP,0000,0000,0000,,因为再次，我们绝对定位这个元素。
+Dialogue: 0,0:11:35.16,0:11:36.57,*Default,NTP,0000,0000,0000,,所以如果我们给它一个保存，
+Dialogue: 0,0:11:36.57,0:11:38.77,*Default,NTP,0000,0000,0000,,那么现在什么都不会改变。
+Dialogue: 0,0:11:38.77,0:11:41.05,*Default,NTP,0000,0000,0000,,它仍然在这里。
+Dialogue: 0,0:11:41.05,0:11:43.79,*Default,NTP,0000,0000,0000,,但是现在让我们尝试添加相对位置
+Dialogue: 0,0:11:43.79,0:11:45.43,*Default,NTP,0000,0000,0000,,到这里的这个容器。
+Dialogue: 0,0:11:47.07,0:11:48.52,*Default,NTP,0000,0000,0000,,所以...
+Dialogue: 0,0:11:48.52,0:11:50.73,*Default,NTP,0000,0000,0000,,相对位置。
+Dialogue: 0,0:11:52.29,0:11:54.99,*Default,NTP,0000,0000,0000,,某处有一个错字。
+Dialogue: 0,0:11:56.61,0:11:58.66,*Default,NTP,0000,0000,0000,,所以现在它应该在别的地方。
+Dialogue: 0,0:11:59.95,0:12:03.09,*Default,NTP,0000,0000,0000,,现在它看起来好像在同一个地方，
+Dialogue: 0,0:12:03.09,0:12:05.29,*Default,NTP,0000,0000,0000,,但如果我们现在改变这个，
+Dialogue: 0,0:12:05.29,0:12:09.32,*Default,NTP,0000,0000,0000,,然后你会看到它现在在右上角
+Dialogue: 0,0:12:09.32,0:12:11.57,*Default,NTP,0000,0000,0000,,的容器元素。
+Dialogue: 0,0:12:11.57,0:12:16.08,*Default,NTP,0000,0000,0000,,因此，为了可视化这一点，让我们检查容器。
+Dialogue: 0,0:12:16.97,0:12:19.67,*Default,NTP,0000,0000,0000,,所以在这里，蓝色部分是内容。
+Dialogue: 0,0:12:19.67,0:12:23.22,*Default,NTP,0000,0000,0000,,所以你看到 Like 按钮现在是 50 像素
+Dialogue: 0,0:12:23.22,0:12:27.09,*Default,NTP,0000,0000,0000,,从容器的底部和右侧。
+Dialogue: 0,0:12:27.09,0:12:28.30,*Default,NTP,0000,0000,0000,,再说一遍
+Dialogue: 0,0:12:28.30,0:12:31.63,*Default,NTP,0000,0000,0000,,因为容器现在是第一个父元素
+Dialogue: 0,0:12:31.63,0:12:33.99,*Default,NTP,0000,0000,0000,,位置设置为相对。
+Dialogue: 0,0:12:35.92,0:12:36.93,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:12:36.93,0:12:39.13,*Default,NTP,0000,0000,0000,,为了使这一点更加清晰，\N00:12:39,130​​ --> 00:12:43,023\N让我们看一下对此的图形解释。\N\N261
+Dialogue: 0,0:12:44.46,0:12:46.71,*Default,NTP,0000,0000,0000,,所以让我们想象一下我们有这种
+Dialogue: 0,0:12:46.71,0:12:50.13,*Default,NTP,0000,0000,0000,,黄色元素在这里与容器类
+Dialogue: 0,0:12:50.13,0:12:53.27,*Default,NTP,0000,0000,0000,,并且它的位置设置为相对。
+Dialogue: 0,0:12:53.27,0:12:56.86,*Default,NTP,0000,0000,0000,,然后我们有另一个元素，就是这里的这个，
+Dialogue: 0,0:12:56.86,0:12:58.70,*Default,NTP,0000,0000,0000,,所以这个橙色元素
+Dialogue: 0,0:12:58.70,0:13:02.47,*Default,NTP,0000,0000,0000,,并且它的位置设置为绝对。
+Dialogue: 0,0:13:02.47,0:13:06.01,*Default,NTP,0000,0000,0000,,它的顶部也设置为 100 像素
+Dialogue: 0,0:13:06.01,0:13:09.10,*Default,NTP,0000,0000,0000,,左侧设置为 200 像素。
+Dialogue: 0,0:13:09.10,0:13:13.23,*Default,NTP,0000,0000,0000,,因此，它将恰好位于 100 像素
+Dialogue: 0,0:13:13.23,0:13:17.65,*Default,NTP,0000,0000,0000,,从其相对定位的容器元素的顶部
+Dialogue: 0,0:13:17.65,0:13:20.72,*Default,NTP,0000,0000,0000,,距离它的左侧 200 像素，
+Dialogue: 0,0:13:20.72,0:13:25.21,*Default,NTP,0000,0000,0000,,再次，第一个相对定位的容器元素。
+Dialogue: 0,0:13:25.21,0:13:26.66,*Default,NTP,0000,0000,0000,,值得一提的是
+Dialogue: 0,0:13:26.66,0:13:29.45,*Default,NTP,0000,0000,0000,,它是第一个父元素
+Dialogue: 0,0:13:29.45,0:13:31.70,*Default,NTP,0000,0000,0000,,位置设置为相对
+Dialogue: 0,0:13:31.70,0:13:36.58,*Default,NTP,0000,0000,0000,,将从中放置绝对定位的元素。
+Dialogue: 0,0:13:36.58,0:13:37.46,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:13:37.46,0:13:40.40,*Default,NTP,0000,0000,0000,,所以我希望有了这个可视化，
+Dialogue: 0,0:13:40.40,0:13:42.47,*Default,NTP,0000,0000,0000,,它变得更加明显
+Dialogue: 0,0:13:42.47,0:13:45.52,*Default,NTP,0000,0000,0000,,绝对定位在 CSS 中的工作原理。
+Dialogue: 0,0:13:46.92,0:13:50.05,*Default,NTP,0000,0000,0000,,让我们实际上只是尝试另一个元素
+Dialogue: 0,0:13:50.05,0:13:53.36,*Default,NTP,0000,0000,0000,,作为第一个相对定位的容器。
+Dialogue: 0,0:13:54.71,0:13:57.22,*Default,NTP,0000,0000,0000,,所以让我们在标题上这样做。
+Dialogue: 0,0:13:57.22,0:14:00.92,*Default,NTP,0000,0000,0000,,所以这里的这个按钮在这个标题里面。
+Dialogue: 0,0:14:00.92,0:14:02.88,*Default,NTP,0000,0000,0000,,所以我们可以使用这个标题
+Dialogue: 0,0:14:02.88,0:14:05.90,*Default,NTP,0000,0000,0000,,作为我们想要的父元素
+Dialogue: 0,0:14:05.90,0:14:07.91,*Default,NTP,0000,0000,0000,,绝对定位此按钮。
+Dialogue: 0,0:14:08.89,0:14:11.82,*Default,NTP,0000,0000,0000,,因此，让我们转到帖子标题。
+Dialogue: 0,0:14:13.49,0:14:14.90,*Default,NTP,0000,0000,0000,,把它放在这里。
+Dialogue: 0,0:14:15.91,0:14:18.07,*Default,NTP,0000,0000,0000,,现在...
+Dialogue: 0,0:14:18.07,0:14:18.90,*Default,NTP,0000,0000,0000,,开始了。
+Dialogue: 0,0:14:19.80,0:14:21.19,*Default,NTP,0000,0000,0000,,所以现在就在这里。
+Dialogue: 0,0:14:22.89,0:14:26.40,*Default,NTP,0000,0000,0000,,再次使用开发工具
+Dialogue: 0,0:14:26.40,0:14:29.64,*Default,NTP,0000,0000,0000,,所以我们可以检查整个元素。
+Dialogue: 0,0:14:29.64,0:14:33.34,*Default,NTP,0000,0000,0000,,事实上，按钮现在看起来是 50 像素
+Dialogue: 0,0:14:33.34,0:14:35.50,*Default,NTP,0000,0000,0000,,从底部和从右侧
+Dialogue: 0,0:14:35.50,0:14:38.55,*Default,NTP,0000,0000,0000,,它是新的相对定位的容器。
+Dialogue: 0,0:14:40.01,0:14:41.47,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:14:41.47,0:14:43.82,*Default,NTP,0000,0000,0000,,所以让我们实际删除这个。
+Dialogue: 0,0:14:44.87,0:14:48.14,*Default,NTP,0000,0000,0000,,所以把它和这个评论出来，
+Dialogue: 0,0:14:48.14,0:14:51.73,*Default,NTP,0000,0000,0000,,因为我们真正想要的是我们一开始所做的。
+Dialogue: 0,0:14:51.73,0:14:55.38,*Default,NTP,0000,0000,0000,,所以我们希望它相对于身体定位。
+Dialogue: 0,0:14:56.35,0:14:57.18,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:14:57.18,0:14:59.44,*Default,NTP,0000,0000,0000,,所以我希望这是有道理的。
+Dialogue: 0,0:14:59.44,0:15:04.06,*Default,NTP,0000,0000,0000,,因此，作为本次讲座的绝对定位回顾，
+Dialogue: 0,0:15:04.06,0:15:07.04,*Default,NTP,0000,0000,0000,,你基本上可以放任何你想要的元素
+Dialogue: 0,0:15:07.04,0:15:09.85,*Default,NTP,0000,0000,0000,,您希望它出现在页面上的任何位置，
+Dialogue: 0,0:15:09.85,0:15:12.92,*Default,NTP,0000,0000,0000,,这当然很有帮助。
+Dialogue: 0,0:15:12.92,0:15:14.18,*Default,NTP,0000,0000,0000,,现在重要的是
+Dialogue: 0,0:15:14.18,0:15:17.68,*Default,NTP,0000,0000,0000,,你不要滥用这种新发现的力量。
+Dialogue: 0,0:15:17.68,0:15:21.69,*Default,NTP,0000,0000,0000,,因此，例如，不要使用它来构建复杂的布局。
+Dialogue: 0,0:15:21.69,0:15:25.55,*Default,NTP,0000,0000,0000,,相反，我们对单个元素使用绝对定位
+Dialogue: 0,0:15:25.55,0:15:28.43,*Default,NTP,0000,0000,0000,,喜欢这个按钮或其他小东西，
+Dialogue: 0,0:15:28.43,0:15:31.22,*Default,NTP,0000,0000,0000,,就像我将在下一个视频中向您展示一样。
+Dialogue: 0,0:15:31.22,0:15:34.62,*Default,NTP,0000,0000,0000,,但在现实世界中，我们不使用这个例子，
+Dialogue: 0,0:15:34.62,0:15:37.61,*Default,NTP,0000,0000,0000,,将此菜单放置在此处，
+Dialogue: 0,0:15:37.61,0:15:39.69,*Default,NTP,0000,0000,0000,,喜欢这里在页面的顶部
+Dialogue: 0,0:15:39.69,0:15:42.84,*Default,NTP,0000,0000,0000,,或在此处放置例如此作者图片
+Dialogue: 0,0:15:42.84,0:15:44.65,*Default,NTP,0000,0000,0000,,页面上的任何位置。
+Dialogue: 0,0:15:44.65,0:15:47.51,*Default,NTP,0000,0000,0000,,对于那些东西，我们实际上会使用特殊的技术
+Dialogue: 0,0:15:47.51,0:15:49.47,*Default,NTP,0000,0000,0000,,用于建筑布局。
+Dialogue: 0,0:15:49.47,0:15:52.61,*Default,NTP,0000,0000,0000,,所以请记住，我们总是不简单地达到
+Dialogue: 0,0:15:52.61,0:15:54.50,*Default,NTP,0000,0000,0000,,对于绝对定位，
+Dialogue: 0,0:15:54.50,0:15:56.77,*Default,NTP,0000,0000,0000,,例如构建布局。
+Dialogue: 0,0:15:56.77,0:15:59.33,*Default,NTP,0000,0000,0000,,但这一切都会随着练习而来
+Dialogue: 0,0:15:59.33,0:16:01.97,*Default,NTP,0000,0000,0000,,所以暂时不要太担心。
+Dialogue: 0,0:00:01.26,0:00:02.39,*Default,NTP,0000,0000,0000,,Let's talk about
+Dialogue: 0,0:00:02.39,0:00:06.32,*Default,NTP,0000,0000,0000,,another extremely important aspect of CSS,
+Dialogue: 0,0:00:06.32,0:00:08.60,*Default,NTP,0000,0000,0000,,which are positioning modes.
+Dialogue: 0,0:00:08.60,0:00:12.25,*Default,NTP,0000,0000,0000,,And this one is one of the more complex lectures
+Dialogue: 0,0:00:12.25,0:00:13.88,*Default,NTP,0000,0000,0000,,of this section
+Dialogue: 0,0:00:13.88,0:00:16.66,*Default,NTP,0000,0000,0000,,and so make sure to pay good attention.
+Dialogue: 0,0:00:18.87,0:00:20.45,*Default,NTP,0000,0000,0000,,So in CSS,
+Dialogue: 0,0:00:20.45,0:00:23.52,*Default,NTP,0000,0000,0000,,there are a couple of different positioning modes.
+Dialogue: 0,0:00:23.52,0:00:25.10,*Default,NTP,0000,0000,0000,,But the more important ones
+Dialogue: 0,0:00:25.10,0:00:27.97,*Default,NTP,0000,0000,0000,,and the ones we are going to talk about for now
+Dialogue: 0,0:00:27.97,0:00:30.96,*Default,NTP,0000,0000,0000,,are the normal flow and absolute positioning.
+Dialogue: 0,0:00:31.80,0:00:34.35,*Default,NTP,0000,0000,0000,,So starting with normal flow,
+Dialogue: 0,0:00:34.35,0:00:37.40,*Default,NTP,0000,0000,0000,,it is simply the default positioning of elements
+Dialogue: 0,0:00:37.40,0:00:38.86,*Default,NTP,0000,0000,0000,,on our page.
+Dialogue: 0,0:00:38.86,0:00:41.89,*Default,NTP,0000,0000,0000,,Or we can also achieve the normal flow
+Dialogue: 0,0:00:41.89,0:00:45.90,*Default,NTP,0000,0000,0000,,by setting position to the value of relative.
+Dialogue: 0,0:00:45.90,0:00:49.66,*Default,NTP,0000,0000,0000,,So in this case, we say that an element is 'in flow',
+Dialogue: 0,0:00:49.66,0:00:52.82,*Default,NTP,0000,0000,0000,,which basically means that the elements are laid out
+Dialogue: 0,0:00:52.82,0:00:56.86,*Default,NTP,0000,0000,0000,,according to the source code in the HTML.
+Dialogue: 0,0:00:56.86,0:00:58.66,*Default,NTP,0000,0000,0000,,So this is very straightforward.
+Dialogue: 0,0:00:58.66,0:01:01.10,*Default,NTP,0000,0000,0000,,It is simply the behavior that we have been seeing
+Dialogue: 0,0:01:01.10,0:01:02.47,*Default,NTP,0000,0000,0000,,up until this point.
+Dialogue: 0,0:01:02.47,0:01:06.32,*Default,NTP,0000,0000,0000,,So just keep in mind that that is called normal flow.
+Dialogue: 0,0:01:06.32,0:01:09.74,*Default,NTP,0000,0000,0000,,Now on the other hand, we have absolute positioning,
+Dialogue: 0,0:01:09.74,0:01:13.43,*Default,NTP,0000,0000,0000,,which basically allows us to absolutely position elements
+Dialogue: 0,0:01:13.43,0:01:15.74,*Default,NTP,0000,0000,0000,,anywhere on the page.
+Dialogue: 0,0:01:15.74,0:01:18.97,*Default,NTP,0000,0000,0000,,Now we can achieve this positioning mode,
+Dialogue: 0,0:01:18.97,0:01:21.83,*Default,NTP,0000,0000,0000,,so we can position an element absolutely
+Dialogue: 0,0:01:21.83,0:01:23.97,*Default,NTP,0000,0000,0000,,by setting it's position property
+Dialogue: 0,0:01:23.97,0:01:26.23,*Default,NTP,0000,0000,0000,,to the value of absolute.
+Dialogue: 0,0:01:26.23,0:01:27.47,*Default,NTP,0000,0000,0000,,And so in this case,
+Dialogue: 0,0:01:27.47,0:01:30.76,*Default,NTP,0000,0000,0000,,the element is then removed from the normal flow
+Dialogue: 0,0:01:30.76,0:01:34.14,*Default,NTP,0000,0000,0000,,and we say that it is 'out of flow'.
+Dialogue: 0,0:01:34.14,0:01:36.70,*Default,NTP,0000,0000,0000,,Now what happens with this element is
+Dialogue: 0,0:01:36.70,0:01:40.92,*Default,NTP,0000,0000,0000,,that it completely loses any impact on surrounding elements.
+Dialogue: 0,0:01:40.92,0:01:44.37,*Default,NTP,0000,0000,0000,,And in fact, it might even overlap them.
+Dialogue: 0,0:01:44.37,0:01:46.40,*Default,NTP,0000,0000,0000,,So that's something common that happens
+Dialogue: 0,0:01:46.40,0:01:49.30,*Default,NTP,0000,0000,0000,,with absolutely positioned elements.
+Dialogue: 0,0:01:49.30,0:01:52.26,*Default,NTP,0000,0000,0000,,Now, in order to actually position the element
+Dialogue: 0,0:01:52.26,0:01:54.42,*Default,NTP,0000,0000,0000,,that is absolutely positioned,
+Dialogue: 0,0:01:54.42,0:01:59.01,*Default,NTP,0000,0000,0000,,we can use the top, bottom, left or right properties
+Dialogue: 0,0:01:59.01,0:02:01.34,*Default,NTP,0000,0000,0000,,in order to position that element.
+Dialogue: 0,0:02:01.34,0:02:04.46,*Default,NTP,0000,0000,0000,,And that positioning is going to happen in relation
+Dialogue: 0,0:02:04.46,0:02:07.68,*Default,NTP,0000,0000,0000,,to a relatively positioned container.
+Dialogue: 0,0:02:07.68,0:02:10.85,*Default,NTP,0000,0000,0000,,Now, I know that this sounds kind of confusing
+Dialogue: 0,0:02:10.85,0:02:13.99,*Default,NTP,0000,0000,0000,,and so let's actually see this happening in practice.
+Dialogue: 0,0:02:15.40,0:02:17.60,*Default,NTP,0000,0000,0000,,So what we're going to do in this lecture is
+Dialogue: 0,0:02:17.60,0:02:21.46,*Default,NTP,0000,0000,0000,,to create a Like button that is located outside
+Dialogue: 0,0:02:21.46,0:02:23.19,*Default,NTP,0000,0000,0000,,of our centered container.
+Dialogue: 0,0:02:24.09,0:02:26.68,*Default,NTP,0000,0000,0000,,So let me show that in the demo.
+Dialogue: 0,0:02:26.68,0:02:29.97,*Default,NTP,0000,0000,0000,,And so here at the very end, we have this Like button.
+Dialogue: 0,0:02:30.81,0:02:34.79,*Default,NTP,0000,0000,0000,,And as we expand the page for example,
+Dialogue: 0,0:02:34.79,0:02:37.57,*Default,NTP,0000,0000,0000,,you see that this element always stays
+Dialogue: 0,0:02:37.57,0:02:40.95,*Default,NTP,0000,0000,0000,,on exactly the same position, right?
+Dialogue: 0,0:02:40.95,0:02:44.52,*Default,NTP,0000,0000,0000,,So it's not impacted by any of the surrounding elements
+Dialogue: 0,0:02:44.52,0:02:46.26,*Default,NTP,0000,0000,0000,,and that is even better visible
+Dialogue: 0,0:02:46.26,0:02:49.90,*Default,NTP,0000,0000,0000,,if we decrease the page even further.
+Dialogue: 0,0:02:49.90,0:02:53.14,*Default,NTP,0000,0000,0000,,So here we even have that situation where the element
+Dialogue: 0,0:02:53.14,0:02:57.54,*Default,NTP,0000,0000,0000,,actually overlaps this related posts element right here.
+Dialogue: 0,0:02:58.41,0:02:59.68,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:02:59.68,0:03:04.32,*Default,NTP,0000,0000,0000,,And so you'll see that this element is not impacting
+Dialogue: 0,0:03:04.32,0:03:06.72,*Default,NTP,0000,0000,0000,,and it's also not being impacted
+Dialogue: 0,0:03:06.72,0:03:08.98,*Default,NTP,0000,0000,0000,,by any of the surrounding elements.
+Dialogue: 0,0:03:08.98,0:03:12.13,*Default,NTP,0000,0000,0000,,It always just simply stays here in this place,
+Dialogue: 0,0:03:12.13,0:03:15.41,*Default,NTP,0000,0000,0000,,no matter what happens to the rest of the page.
+Dialogue: 0,0:03:15.41,0:03:17.68,*Default,NTP,0000,0000,0000,,And so this is a great example
+Dialogue: 0,0:03:17.68,0:03:20.87,*Default,NTP,0000,0000,0000,,of an absolutely positioned element.
+Dialogue: 0,0:03:20.87,0:03:23.87,*Default,NTP,0000,0000,0000,,Now where should we actually put the mark-up
+Dialogue: 0,0:03:23.87,0:03:25.18,*Default,NTP,0000,0000,0000,,for this button?
+Dialogue: 0,0:03:25.18,0:03:27.36,*Default,NTP,0000,0000,0000,,So the HTML...
+Dialogue: 0,0:03:27.36,0:03:31.36,*Default,NTP,0000,0000,0000,,Well, it doesn't really matter at least for now.
+Dialogue: 0,0:03:31.36,0:03:36.29,*Default,NTP,0000,0000,0000,,So let's just actually put it here at the end of the body.
+Dialogue: 0,0:03:38.96,0:03:42.16,*Default,NTP,0000,0000,0000,,So after any other element.
+Dialogue: 0,0:03:42.16,0:03:46.05,*Default,NTP,0000,0000,0000,,So actually even after the container.
+Dialogue: 0,0:03:46.05,0:03:49.05,*Default,NTP,0000,0000,0000,,But again, for now that's not the most important part
+Dialogue: 0,0:03:49.05,0:03:51.20,*Default,NTP,0000,0000,0000,,and we will change this a little bit later.
+Dialogue: 0,0:03:52.24,0:03:53.88,*Default,NTP,0000,0000,0000,,So let's use the button element
+Dialogue: 0,0:03:53.88,0:03:57.85,*Default,NTP,0000,0000,0000,,that we have also used in our coding challenges already.
+Dialogue: 0,0:03:57.85,0:04:00.81,*Default,NTP,0000,0000,0000,,And then here I'm just going to write 'Like',
+Dialogue: 0,0:04:00.81,0:04:03.71,*Default,NTP,0000,0000,0000,,and then let's just add a nice emoji here,
+Dialogue: 0,0:04:03.71,0:04:05.08,*Default,NTP,0000,0000,0000,,which in Windows you can do
+Dialogue: 0,0:04:05.08,0:04:09.80,*Default,NTP,0000,0000,0000,,by hitting control command and space at the same time.
+Dialogue: 0,0:04:09.80,0:04:12.98,*Default,NTP,0000,0000,0000,,And on Windows, you can open up the emoji picker
+Dialogue: 0,0:04:12.98,0:04:16.74,*Default,NTP,0000,0000,0000,,by hitting the Windows key plus the dot.
+Dialogue: 0,0:04:16.74,0:04:19.48,*Default,NTP,0000,0000,0000,,So this is not any VS code extension.
+Dialogue: 0,0:04:19.48,0:04:21.90,*Default,NTP,0000,0000,0000,,This is simply functionality that is provided
+Dialogue: 0,0:04:21.90,0:04:23.70,*Default,NTP,0000,0000,0000,,by the operating system.
+Dialogue: 0,0:04:23.70,0:04:27.08,*Default,NTP,0000,0000,0000,,So again, control command space on the Mac
+Dialogue: 0,0:04:27.08,0:04:31.09,*Default,NTP,0000,0000,0000,,and Windows plus the dot on Windows 10.
+Dialogue: 0,0:04:31.09,0:04:34.18,*Default,NTP,0000,0000,0000,,So let's just search for hearts here
+Dialogue: 0,0:04:36.30,0:04:38.27,*Default,NTP,0000,0000,0000,,and... yeah.
+Dialogue: 0,0:04:38.27,0:04:40.22,*Default,NTP,0000,0000,0000,,VS code kind of transforms this
+Dialogue: 0,0:04:40.22,0:04:44.85,*Default,NTP,0000,0000,0000,,into this gray symbol here for some reason.
+Dialogue: 0,0:04:44.85,0:04:46.54,*Default,NTP,0000,0000,0000,,But nevermind about that.
+Dialogue: 0,0:04:47.77,0:04:49.38,*Default,NTP,0000,0000,0000,,So let's just come here
+Dialogue: 0,0:04:49.38,0:04:52.68,*Default,NTP,0000,0000,0000,,and our button should be somewhere here now.
+Dialogue: 0,0:04:52.68,0:04:55.03,*Default,NTP,0000,0000,0000,,And so right now, it is simply here.
+Dialogue: 0,0:04:55.03,0:04:57.57,*Default,NTP,0000,0000,0000,,So simply after all the other elements,
+Dialogue: 0,0:04:57.57,0:05:01.71,*Default,NTP,0000,0000,0000,,because for now, of course, it is in the normal flow still.
+Dialogue: 0,0:05:01.71,0:05:04.87,*Default,NTP,0000,0000,0000,,So we haven't declared position absolute on it yet.
+Dialogue: 0,0:05:04.87,0:05:07.51,*Default,NTP,0000,0000,0000,,And so therefore it is simply in the flow
+Dialogue: 0,0:05:07.51,0:05:09.18,*Default,NTP,0000,0000,0000,,and it's simply positioned right
+Dialogue: 0,0:05:09.18,0:05:10.82,*Default,NTP,0000,0000,0000,,after all the other elements.
+Dialogue: 0,0:05:12.19,0:05:14.05,*Default,NTP,0000,0000,0000,,But now let's actually change that.
+Dialogue: 0,0:05:15.98,0:05:19.05,*Default,NTP,0000,0000,0000,,So let's select the tier using button.
+Dialogue: 0,0:05:19.89,0:05:22.00,*Default,NTP,0000,0000,0000,,Let's first give it some visual styles.
+Dialogue: 0,0:05:25.93,0:05:28.21,*Default,NTP,0000,0000,0000,,Adding some padding as well.
+Dialogue: 0,0:05:28.21,0:05:30.78,*Default,NTP,0000,0000,0000,,And we can also use that trick
+Dialogue: 0,0:05:30.78,0:05:33.51,*Default,NTP,0000,0000,0000,,of defining the cursor property,
+Dialogue: 0,0:05:33.51,0:05:36.12,*Default,NTP,0000,0000,0000,,as I also show it to you in the challenge,
+Dialogue: 0,0:05:36.12,0:05:39.94,*Default,NTP,0000,0000,0000,,and set it to pointer so that we actually get that hand.
+Dialogue: 0,0:05:42.20,0:05:43.03,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:05:43.03,0:05:44.81,*Default,NTP,0000,0000,0000,,So now it looks a little bit nicer.
+Dialogue: 0,0:05:45.80,0:05:47.94,*Default,NTP,0000,0000,0000,,And you'll see there's also this hover state,
+Dialogue: 0,0:05:47.94,0:05:50.36,*Default,NTP,0000,0000,0000,,which we could of course customize,
+Dialogue: 0,0:05:50.36,0:05:53.23,*Default,NTP,0000,0000,0000,,but let's not spend time on that.
+Dialogue: 0,0:05:53.23,0:05:56.34,*Default,NTP,0000,0000,0000,,But instead we will now immediately set the position
+Dialogue: 0,0:05:56.34,0:06:00.39,*Default,NTP,0000,0000,0000,,to absolute just like I showed you in the previous slide.
+Dialogue: 0,0:06:01.36,0:06:05.12,*Default,NTP,0000,0000,0000,,So let's give it a save and see what it looks like.
+Dialogue: 0,0:06:05.12,0:06:07.95,*Default,NTP,0000,0000,0000,,But for now it still looks pretty similar.
+Dialogue: 0,0:06:07.95,0:06:10.53,*Default,NTP,0000,0000,0000,,And that's because we didn't really position it yet
+Dialogue: 0,0:06:10.53,0:06:14.23,*Default,NTP,0000,0000,0000,,using one of the four properties that I also mentioned,
+Dialogue: 0,0:06:14.23,0:06:17.41,*Default,NTP,0000,0000,0000,,so top, left, right and bottom.
+Dialogue: 0,0:06:17.41,0:06:20.96,*Default,NTP,0000,0000,0000,,And so let's for now actually go with top
+Dialogue: 0,0:06:20.96,0:06:22.53,*Default,NTP,0000,0000,0000,,and set it to zero here,
+Dialogue: 0,0:06:22.53,0:06:25.01,*Default,NTP,0000,0000,0000,,which is always a good starting point.
+Dialogue: 0,0:06:25.01,0:06:28.19,*Default,NTP,0000,0000,0000,,And let's say left, zero as well.
+Dialogue: 0,0:06:29.28,0:06:30.53,*Default,NTP,0000,0000,0000,,Give it a save.
+Dialogue: 0,0:06:30.53,0:06:32.46,*Default,NTP,0000,0000,0000,,And now it might be gone.
+Dialogue: 0,0:06:32.46,0:06:34.05,*Default,NTP,0000,0000,0000,,Yeah, it is.
+Dialogue: 0,0:06:34.05,0:06:37.69,*Default,NTP,0000,0000,0000,,And so that's because now it is right here.
+Dialogue: 0,0:06:37.69,0:06:40.39,*Default,NTP,0000,0000,0000,,So we set its top position to zero
+Dialogue: 0,0:06:40.39,0:06:43.36,*Default,NTP,0000,0000,0000,,and so now it's at the very top of the page
+Dialogue: 0,0:06:43.36,0:06:45.21,*Default,NTP,0000,0000,0000,,because these pixels here,
+Dialogue: 0,0:06:45.21,0:06:47.88,*Default,NTP,0000,0000,0000,,so the zero pixels, at least for now,
+Dialogue: 0,0:06:47.88,0:06:51.65,*Default,NTP,0000,0000,0000,,are being counted from the top of the viewport,
+Dialogue: 0,0:06:51.65,0:06:53.99,*Default,NTP,0000,0000,0000,,so of this visible part of the page here.
+Dialogue: 0,0:06:55.07,0:06:58.17,*Default,NTP,0000,0000,0000,,So if we change this to bottom, for example,
+Dialogue: 0,0:06:59.10,0:07:02.45,*Default,NTP,0000,0000,0000,,then it should be here at the bottom of the viewport.
+Dialogue: 0,0:07:02.45,0:07:05.04,*Default,NTP,0000,0000,0000,,So by default, this element is positioned
+Dialogue: 0,0:07:05.04,0:07:07.25,*Default,NTP,0000,0000,0000,,in relation to the viewport,
+Dialogue: 0,0:07:07.25,0:07:08.45,*Default,NTP,0000,0000,0000,,which again is this visible part of the page.
+Dialogue: 0,0:07:11.27,0:07:12.13,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:12.13,0:07:13.11,*Default,NTP,0000,0000,0000,,So now it stays here,
+Dialogue: 0,0:07:13.11,0:07:17.20,*Default,NTP,0000,0000,0000,,which is a very weird place for it to be.
+Dialogue: 0,0:07:17.20,0:07:20.62,*Default,NTP,0000,0000,0000,,But what is important to note here is that in fact,
+Dialogue: 0,0:07:20.62,0:07:24.35,*Default,NTP,0000,0000,0000,,this element has been completely taken out of the flow
+Dialogue: 0,0:07:24.35,0:07:27.29,*Default,NTP,0000,0000,0000,,and it's now even hovering over this content.
+Dialogue: 0,0:07:27.29,0:07:31.16,*Default,NTP,0000,0000,0000,,So it is as if the rest of the content is not even there
+Dialogue: 0,0:07:31.16,0:07:33.52,*Default,NTP,0000,0000,0000,,and that is becoming even more apparent
+Dialogue: 0,0:07:33.52,0:07:37.94,*Default,NTP,0000,0000,0000,,as we change, for example, the size of the window.
+Dialogue: 0,0:07:39.95,0:07:42.61,*Default,NTP,0000,0000,0000,,And let's go back to where we were.
+Dialogue: 0,0:07:43.65,0:07:45.30,*Default,NTP,0000,0000,0000,,Put it back to top.
+Dialogue: 0,0:07:45.30,0:07:49.85,*Default,NTP,0000,0000,0000,,And of course we can also move it to some other position.
+Dialogue: 0,0:07:50.84,0:07:53.63,*Default,NTP,0000,0000,0000,,So it doesn't have to be exactly glued
+Dialogue: 0,0:07:53.63,0:07:55.60,*Default,NTP,0000,0000,0000,,to the top and the left.
+Dialogue: 0,0:07:55.60,0:08:00.01,*Default,NTP,0000,0000,0000,,But we can, for example, move it 50 pixels down
+Dialogue: 0,0:08:00.01,0:08:02.28,*Default,NTP,0000,0000,0000,,and 50 pixels more to the right,
+Dialogue: 0,0:08:02.28,0:08:04.86,*Default,NTP,0000,0000,0000,,counting here from the left side.
+Dialogue: 0,0:08:04.86,0:08:05.69,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:05.69,0:08:08.13,*Default,NTP,0000,0000,0000,,So that's the very, very fundamentals
+Dialogue: 0,0:08:08.13,0:08:10.21,*Default,NTP,0000,0000,0000,,of absolute positioning.
+Dialogue: 0,0:08:10.21,0:08:12.94,*Default,NTP,0000,0000,0000,,But what is very important to understand is
+Dialogue: 0,0:08:12.94,0:08:15.68,*Default,NTP,0000,0000,0000,,that these 50 pixels here need to be
+Dialogue: 0,0:08:15.68,0:08:17.53,*Default,NTP,0000,0000,0000,,in relation to something.
+Dialogue: 0,0:08:17.53,0:08:20.46,*Default,NTP,0000,0000,0000,,And so, as I just mentioned a minute ago,
+Dialogue: 0,0:08:20.46,0:08:23.94,*Default,NTP,0000,0000,0000,,by default, these 50 pixels here are in relation
+Dialogue: 0,0:08:23.94,0:08:25.27,*Default,NTP,0000,0000,0000,,to the viewport,
+Dialogue: 0,0:08:25.27,0:08:28.85,*Default,NTP,0000,0000,0000,,so the visible part of the page here in the browser.
+Dialogue: 0,0:08:28.85,0:08:31.71,*Default,NTP,0000,0000,0000,,That's the reason why the element moved down here
+Dialogue: 0,0:08:31.71,0:08:35.47,*Default,NTP,0000,0000,0000,,to this corner when I set the bottom to zero.
+Dialogue: 0,0:08:35.47,0:08:38.52,*Default,NTP,0000,0000,0000,,However, that is usually not what we want.
+Dialogue: 0,0:08:38.52,0:08:42.37,*Default,NTP,0000,0000,0000,,So usually, we want to absolutely position the element
+Dialogue: 0,0:08:42.37,0:08:45.62,*Default,NTP,0000,0000,0000,,in relation to some other parent element.
+Dialogue: 0,0:08:45.62,0:08:46.86,*Default,NTP,0000,0000,0000,,And in order to do that,
+Dialogue: 0,0:08:46.86,0:08:48.78,*Default,NTP,0000,0000,0000,,we need to specifically set the position
+Dialogue: 0,0:08:48.78,0:08:52.31,*Default,NTP,0000,0000,0000,,of that parent element to relative.
+Dialogue: 0,0:08:52.31,0:08:53.53,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:53.53,0:08:54.57,*Default,NTP,0000,0000,0000,,So in this case,
+Dialogue: 0,0:08:54.57,0:08:57.39,*Default,NTP,0000,0000,0000,,we want this element here to be positioned
+Dialogue: 0,0:08:57.39,0:09:01.18,*Default,NTP,0000,0000,0000,,in the right bottom corner of the page.
+Dialogue: 0,0:09:01.18,0:09:04.02,*Default,NTP,0000,0000,0000,,So of the page and not of the viewport.
+Dialogue: 0,0:09:05.37,0:09:06.99,*Default,NTP,0000,0000,0000,,So let's try that.
+Dialogue: 0,0:09:07.87,0:09:09.59,*Default,NTP,0000,0000,0000,,So let's say...
+Dialogue: 0,0:09:09.59,0:09:12.76,*Default,NTP,0000,0000,0000,,bottom 50 pixels,
+Dialogue: 0,0:09:12.76,0:09:15.17,*Default,NTP,0000,0000,0000,,and actually let's keep this here
+Dialogue: 0,0:09:15.17,0:09:16.41,*Default,NTP,0000,0000,0000,,and just copy it
+Dialogue: 0,0:09:16.41,0:09:18.26,*Default,NTP,0000,0000,0000,,and then I will comment it out
+Dialogue: 0,0:09:18.26,0:09:19.99,*Default,NTP,0000,0000,0000,,to keep it here as a reference.
+Dialogue: 0,0:09:20.97,0:09:25.85,*Default,NTP,0000,0000,0000,,But what we want is 50 pixels from the bottom
+Dialogue: 0,0:09:25.85,0:09:29.43,*Default,NTP,0000,0000,0000,,and 50 pixels from the right.
+Dialogue: 0,0:09:30.76,0:09:34.53,*Default,NTP,0000,0000,0000,,So again, it moves it to this place in the viewport,
+Dialogue: 0,0:09:34.53,0:09:36.52,*Default,NTP,0000,0000,0000,,but we want it down here,
+Dialogue: 0,0:09:36.52,0:09:38.95,*Default,NTP,0000,0000,0000,,so from the page, right?
+Dialogue: 0,0:09:38.95,0:09:42.36,*Default,NTP,0000,0000,0000,,And so we need to set position to relative
+Dialogue: 0,0:09:42.36,0:09:44.38,*Default,NTP,0000,0000,0000,,on the page basically.
+Dialogue: 0,0:09:44.38,0:09:46.62,*Default,NTP,0000,0000,0000,,And so that is the body element.
+Dialogue: 0,0:09:48.39,0:09:50.12,*Default,NTP,0000,0000,0000,,So let's do that.
+Dialogue: 0,0:09:50.12,0:09:51.59,*Default,NTP,0000,0000,0000,,Let's go to body,
+Dialogue: 0,0:09:52.50,0:09:54.37,*Default,NTP,0000,0000,0000,,which is right here.
+Dialogue: 0,0:09:54.37,0:09:58.85,*Default,NTP,0000,0000,0000,,and let's set it's position to...
+Dialogue: 0,0:09:58.85,0:09:59.68,*Default,NTP,0000,0000,0000,,Relative.
+Dialogue: 0,0:10:00.88,0:10:02.21,*Default,NTP,0000,0000,0000,,Give it a save.
+Dialogue: 0,0:10:02.21,0:10:04.46,*Default,NTP,0000,0000,0000,,And now as we go down here,
+Dialogue: 0,0:10:04.46,0:10:05.76,*Default,NTP,0000,0000,0000,,then here it is.
+Dialogue: 0,0:10:06.95,0:10:08.26,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:10:08.26,0:10:11.40,*Default,NTP,0000,0000,0000,,And let's resize the page a little bit
+Dialogue: 0,0:10:11.40,0:10:13.23,*Default,NTP,0000,0000,0000,,and now no matter what happens,
+Dialogue: 0,0:10:13.23,0:10:15.82,*Default,NTP,0000,0000,0000,,the element is always correctly positioned
+Dialogue: 0,0:10:15.82,0:10:19.77,*Default,NTP,0000,0000,0000,,in the bottom right corner of the body.
+Dialogue: 0,0:10:19.77,0:10:20.60,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:10:20.60,0:10:23.09,*Default,NTP,0000,0000,0000,,So I hope that made sense.
+Dialogue: 0,0:10:23.09,0:10:26.96,*Default,NTP,0000,0000,0000,,And of course, it doesn't have to be at the body always.
+Dialogue: 0,0:10:26.96,0:10:29.11,*Default,NTP,0000,0000,0000,,So we could also position this inside
+Dialogue: 0,0:10:29.11,0:10:31.04,*Default,NTP,0000,0000,0000,,of any other parent element,
+Dialogue: 0,0:10:31.04,0:10:32.89,*Default,NTP,0000,0000,0000,,which is not the body.
+Dialogue: 0,0:10:33.75,0:10:37.11,*Default,NTP,0000,0000,0000,,So let's for example, try here to container.
+Dialogue: 0,0:10:37.11,0:10:38.30,*Default,NTP,0000,0000,0000,,But in order to do that,
+Dialogue: 0,0:10:38.30,0:10:42.12,*Default,NTP,0000,0000,0000,,the element actually needs to be inside of the container
+Dialogue: 0,0:10:42.12,0:10:45.09,*Default,NTP,0000,0000,0000,,because otherwise this is not a parent element
+Dialogue: 0,0:10:45.09,0:10:47.46,*Default,NTP,0000,0000,0000,,of the button, right?
+Dialogue: 0,0:10:49.63,0:10:51.44,*Default,NTP,0000,0000,0000,,So let's take this out of here
+Dialogue: 0,0:10:52.37,0:10:54.34,*Default,NTP,0000,0000,0000,,and put it somewhere else.
+Dialogue: 0,0:10:54.34,0:10:56.45,*Default,NTP,0000,0000,0000,,And it doesn't really matter where.
+Dialogue: 0,0:10:56.45,0:10:59.83,*Default,NTP,0000,0000,0000,,All that matters is that it needs to be somewhere
+Dialogue: 0,0:10:59.83,0:11:01.37,*Default,NTP,0000,0000,0000,,inside of this container,
+Dialogue: 0,0:11:02.42,0:11:06.24,*Default,NTP,0000,0000,0000,,so this div element with the container class on it.
+Dialogue: 0,0:11:06.24,0:11:08.55,*Default,NTP,0000,0000,0000,,And I think....actually the place
+Dialogue: 0,0:11:08.55,0:11:11.14,*Default,NTP,0000,0000,0000,,where it's semantically makes the most sense
+Dialogue: 0,0:11:11.14,0:11:12.54,*Default,NTP,0000,0000,0000,,is here in the header.
+Dialogue: 0,0:11:14.35,0:11:17.38,*Default,NTP,0000,0000,0000,,So the header of the article,
+Dialogue: 0,0:11:17.38,0:11:20.53,*Default,NTP,0000,0000,0000,,so this place here is actually a commonplace
+Dialogue: 0,0:11:20.53,0:11:23.68,*Default,NTP,0000,0000,0000,,where you would think a Like button makes sense
+Dialogue: 0,0:11:23.68,0:11:26.35,*Default,NTP,0000,0000,0000,,in a blog post like this, right?
+Dialogue: 0,0:11:26.35,0:11:27.70,*Default,NTP,0000,0000,0000,,And so let's put it there,
+Dialogue: 0,0:11:27.70,0:11:30.62,*Default,NTP,0000,0000,0000,,even though visually it's not going to appear there
+Dialogue: 0,0:11:30.62,0:11:35.16,*Default,NTP,0000,0000,0000,,because again, we are positioning this element absolutely.
+Dialogue: 0,0:11:35.16,0:11:36.57,*Default,NTP,0000,0000,0000,,So if we give it a save,
+Dialogue: 0,0:11:36.57,0:11:38.77,*Default,NTP,0000,0000,0000,,then for now nothing will have changed.
+Dialogue: 0,0:11:38.77,0:11:41.05,*Default,NTP,0000,0000,0000,,It is still right here.
+Dialogue: 0,0:11:41.05,0:11:43.79,*Default,NTP,0000,0000,0000,,But now let's try to add position relative
+Dialogue: 0,0:11:43.79,0:11:45.43,*Default,NTP,0000,0000,0000,,to this container here.
+Dialogue: 0,0:11:47.07,0:11:48.52,*Default,NTP,0000,0000,0000,,So...
+Dialogue: 0,0:11:48.52,0:11:50.73,*Default,NTP,0000,0000,0000,,Position relative.
+Dialogue: 0,0:11:52.29,0:11:54.99,*Default,NTP,0000,0000,0000,,And there was a typo somewhere.
+Dialogue: 0,0:11:56.61,0:11:58.66,*Default,NTP,0000,0000,0000,,And so now it should be somewhere else.
+Dialogue: 0,0:11:59.95,0:12:03.09,*Default,NTP,0000,0000,0000,,And for now it does look as if it's in the same place,
+Dialogue: 0,0:12:03.09,0:12:05.29,*Default,NTP,0000,0000,0000,,but if we change this now,
+Dialogue: 0,0:12:05.29,0:12:09.32,*Default,NTP,0000,0000,0000,,then you'll see that it is here in the top right corner now
+Dialogue: 0,0:12:09.32,0:12:11.57,*Default,NTP,0000,0000,0000,,of the container element.
+Dialogue: 0,0:12:11.57,0:12:16.08,*Default,NTP,0000,0000,0000,,So to visualize this, let's inspect the container.
+Dialogue: 0,0:12:16.97,0:12:19.67,*Default,NTP,0000,0000,0000,,And so here, the blue part is the content.
+Dialogue: 0,0:12:19.67,0:12:23.22,*Default,NTP,0000,0000,0000,,And so there you see that the Like button is now 50 pixels
+Dialogue: 0,0:12:23.22,0:12:27.09,*Default,NTP,0000,0000,0000,,from the bottom and from the right of the container.
+Dialogue: 0,0:12:27.09,0:12:28.30,*Default,NTP,0000,0000,0000,,And again that is
+Dialogue: 0,0:12:28.30,0:12:31.63,*Default,NTP,0000,0000,0000,,because the container is now the first parent element
+Dialogue: 0,0:12:31.63,0:12:33.99,*Default,NTP,0000,0000,0000,,that has position set to relative.
+Dialogue: 0,0:12:35.92,0:12:36.93,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:12:36.93,0:12:39.13,*Default,NTP,0000,0000,0000,,And to make this even more crystal clear,
+Dialogue: 0,0:12:39.13,0:12:43.02,*Default,NTP,0000,0000,0000,,let's take a look at a graphical explanation of this.
+Dialogue: 0,0:12:44.46,0:12:46.71,*Default,NTP,0000,0000,0000,,So let's imagine that we have this kind
+Dialogue: 0,0:12:46.71,0:12:50.13,*Default,NTP,0000,0000,0000,,of yellow element here with the container class
+Dialogue: 0,0:12:50.13,0:12:53.27,*Default,NTP,0000,0000,0000,,and it has its position set to relative.
+Dialogue: 0,0:12:53.27,0:12:56.86,*Default,NTP,0000,0000,0000,,Then we have another element which is this one here,
+Dialogue: 0,0:12:56.86,0:12:58.70,*Default,NTP,0000,0000,0000,,so this orange element
+Dialogue: 0,0:12:58.70,0:13:02.47,*Default,NTP,0000,0000,0000,,and it has its position set to absolute.
+Dialogue: 0,0:13:02.47,0:13:06.01,*Default,NTP,0000,0000,0000,,And it also has the top set to 100 pixels
+Dialogue: 0,0:13:06.01,0:13:09.10,*Default,NTP,0000,0000,0000,,and the left set to 200 pixels.
+Dialogue: 0,0:13:09.10,0:13:13.23,*Default,NTP,0000,0000,0000,,And so therefore, it will be located exactly 100 pixels
+Dialogue: 0,0:13:13.23,0:13:17.65,*Default,NTP,0000,0000,0000,,from the top of it's relatively positioned container element
+Dialogue: 0,0:13:17.65,0:13:20.72,*Default,NTP,0000,0000,0000,,and 200 pixels from the left of it,
+Dialogue: 0,0:13:20.72,0:13:25.21,*Default,NTP,0000,0000,0000,,again, first relatively positioned container element.
+Dialogue: 0,0:13:25.21,0:13:26.66,*Default,NTP,0000,0000,0000,,And it's important to mention
+Dialogue: 0,0:13:26.66,0:13:29.45,*Default,NTP,0000,0000,0000,,that it is the first parent element
+Dialogue: 0,0:13:29.45,0:13:31.70,*Default,NTP,0000,0000,0000,,that has position set to relative
+Dialogue: 0,0:13:31.70,0:13:36.58,*Default,NTP,0000,0000,0000,,from which the absolutely positioned element will be placed.
+Dialogue: 0,0:13:36.58,0:13:37.46,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:13:37.46,0:13:40.40,*Default,NTP,0000,0000,0000,,And so I hope that with this visualization,
+Dialogue: 0,0:13:40.40,0:13:42.47,*Default,NTP,0000,0000,0000,,it became even more obvious
+Dialogue: 0,0:13:42.47,0:13:45.52,*Default,NTP,0000,0000,0000,,how absolute positioning works in CSS.
+Dialogue: 0,0:13:46.92,0:13:50.05,*Default,NTP,0000,0000,0000,,And let's actually just try another element
+Dialogue: 0,0:13:50.05,0:13:53.36,*Default,NTP,0000,0000,0000,,as the first relatively positioned container.
+Dialogue: 0,0:13:54.71,0:13:57.22,*Default,NTP,0000,0000,0000,,So let's do that on the header.
+Dialogue: 0,0:13:57.22,0:14:00.92,*Default,NTP,0000,0000,0000,,So this button here is inside of this header.
+Dialogue: 0,0:14:00.92,0:14:02.88,*Default,NTP,0000,0000,0000,,And so we could use this header
+Dialogue: 0,0:14:02.88,0:14:05.90,*Default,NTP,0000,0000,0000,,as the parent element inside of which we want
+Dialogue: 0,0:14:05.90,0:14:07.91,*Default,NTP,0000,0000,0000,,to absolutely position this button.
+Dialogue: 0,0:14:08.89,0:14:11.82,*Default,NTP,0000,0000,0000,,So let's go to a post header.
+Dialogue: 0,0:14:13.49,0:14:14.90,*Default,NTP,0000,0000,0000,,Place that here.
+Dialogue: 0,0:14:15.91,0:14:18.07,*Default,NTP,0000,0000,0000,,And now...
+Dialogue: 0,0:14:18.07,0:14:18.90,*Default,NTP,0000,0000,0000,,Here we go.
+Dialogue: 0,0:14:19.80,0:14:21.19,*Default,NTP,0000,0000,0000,,So now here it is.
+Dialogue: 0,0:14:22.89,0:14:26.40,*Default,NTP,0000,0000,0000,,Once again using the dev tools
+Dialogue: 0,0:14:26.40,0:14:29.64,*Default,NTP,0000,0000,0000,,so we can check out this entire element.
+Dialogue: 0,0:14:29.64,0:14:33.34,*Default,NTP,0000,0000,0000,,And in fact, it looks like the button is now 50 pixels
+Dialogue: 0,0:14:33.34,0:14:35.50,*Default,NTP,0000,0000,0000,,from the bottom and from the right
+Dialogue: 0,0:14:35.50,0:14:38.55,*Default,NTP,0000,0000,0000,,of it's new relatively positioned container.
+Dialogue: 0,0:14:40.01,0:14:41.47,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:14:41.47,0:14:43.82,*Default,NTP,0000,0000,0000,,So let's actually remove this one.
+Dialogue: 0,0:14:44.87,0:14:48.14,*Default,NTP,0000,0000,0000,,So commenting it out and this one as well,
+Dialogue: 0,0:14:48.14,0:14:51.73,*Default,NTP,0000,0000,0000,,because what we really want is what we did in the beginning.
+Dialogue: 0,0:14:51.73,0:14:55.38,*Default,NTP,0000,0000,0000,,So we want it to be positioned in relation to the body.
+Dialogue: 0,0:14:56.35,0:14:57.18,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:14:57.18,0:14:59.44,*Default,NTP,0000,0000,0000,,So I hope this made sense.
+Dialogue: 0,0:14:59.44,0:15:04.06,*Default,NTP,0000,0000,0000,,And so as a recap of this lecture with absolute positioning,
+Dialogue: 0,0:15:04.06,0:15:07.04,*Default,NTP,0000,0000,0000,,you can basically put any element that you want
+Dialogue: 0,0:15:07.04,0:15:09.85,*Default,NTP,0000,0000,0000,,wherever you want it to be on the page,
+Dialogue: 0,0:15:09.85,0:15:12.92,*Default,NTP,0000,0000,0000,,which of course can be quite helpful.
+Dialogue: 0,0:15:12.92,0:15:14.18,*Default,NTP,0000,0000,0000,,Now what's important is
+Dialogue: 0,0:15:14.18,0:15:17.68,*Default,NTP,0000,0000,0000,,that you don't abuse this newfound power.
+Dialogue: 0,0:15:17.68,0:15:21.69,*Default,NTP,0000,0000,0000,,So don't use this to build complex layouts, for example.
+Dialogue: 0,0:15:21.69,0:15:25.55,*Default,NTP,0000,0000,0000,,Instead, we use absolute positioning for single elements
+Dialogue: 0,0:15:25.55,0:15:28.43,*Default,NTP,0000,0000,0000,,like this button or other small things,
+Dialogue: 0,0:15:28.43,0:15:31.22,*Default,NTP,0000,0000,0000,,just like I will show you in the next video.
+Dialogue: 0,0:15:31.22,0:15:34.62,*Default,NTP,0000,0000,0000,,But in the real world, we don't use this for example,
+Dialogue: 0,0:15:34.62,0:15:37.61,*Default,NTP,0000,0000,0000,,to position this menu here,
+Dialogue: 0,0:15:37.61,0:15:39.69,*Default,NTP,0000,0000,0000,,like here on the top of the page
+Dialogue: 0,0:15:39.69,0:15:42.84,*Default,NTP,0000,0000,0000,,or to position for example this author image here
+Dialogue: 0,0:15:42.84,0:15:44.65,*Default,NTP,0000,0000,0000,,anywhere on the page.
+Dialogue: 0,0:15:44.65,0:15:47.51,*Default,NTP,0000,0000,0000,,For those things, we will actually use special techniques
+Dialogue: 0,0:15:47.51,0:15:49.47,*Default,NTP,0000,0000,0000,,for building layouts.
+Dialogue: 0,0:15:49.47,0:15:52.61,*Default,NTP,0000,0000,0000,,So just keep in mind that we always don't simply reach
+Dialogue: 0,0:15:52.61,0:15:54.50,*Default,NTP,0000,0000,0000,,for absolute positioning,
+Dialogue: 0,0:15:54.50,0:15:56.77,*Default,NTP,0000,0000,0000,,for example to build layouts.
+Dialogue: 0,0:15:56.77,0:15:59.33,*Default,NTP,0000,0000,0000,,But all of this will come with practice
+Dialogue: 0,0:15:59.33,0:16:01.97,*Default,NTP,0000,0000,0000,,and so don't worry too much about it for now.

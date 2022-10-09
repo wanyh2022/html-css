@@ -1,0 +1,736 @@
+[Script Info]
+Title: 044 CHALLENGE #3_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=42&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.68,0:00:02.75,*Default,NTP,0000,0000,0000,,欢迎回来
+Dialogue: 0,0:00:02.75,0:00:06.83,*Default,NTP,0000,0000,0000,,到本节的最后一个编码挑战。
+Dialogue: 0,0:00:06.83,0:00:11.08,*Default,NTP,0000,0000,0000,,和往常一样，我们将继续致力于我们的同一个项目。
+Dialogue: 0,0:00:12.60,0:00:15.11,*Default,NTP,0000,0000,0000,,所以，这就是我们离开它的方式
+Dialogue: 0,0:00:15.11,0:00:17.90,*Default,NTP,0000,0000,0000,,在我们的编码挑战之后，排名第二。
+Dialogue: 0,0:00:17.90,0:00:21.13,*Default,NTP,0000,0000,0000,,和往常一样，以此为出发点
+Dialogue: 0,0:00:21.13,0:00:24.03,*Default,NTP,0000,0000,0000,,希望你有一些 CodePen
+Dialogue: 0,0:00:24.03,0:00:25.93,*Default,NTP,0000,0000,0000,,或计算机上的某个位置。
+Dialogue: 0,0:00:25.93,0:00:30.93,*Default,NTP,0000,0000,0000,,如果没有，此代码的链接将在本讲座中。
+Dialogue: 0,0:00:31.03,0:00:33.06,*Default,NTP,0000,0000,0000,,我想让你做什么
+Dialogue: 0,0:00:33.06,0:00:36.52,*Default,NTP,0000,0000,0000,,基本上就是把这个改成这个。
+Dialogue: 0,0:00:37.42,0:00:41.41,*Default,NTP,0000,0000,0000,,本质上只有两个大的变化。
+Dialogue: 0,0:00:41.41,0:00:44.25,*Default,NTP,0000,0000,0000,,首先，我们这里有这个销售标签
+Dialogue: 0,0:00:44.25,0:00:48.09,*Default,NTP,0000,0000,0000,,在元素的左上角。
+Dialogue: 0,0:00:48.09,0:00:50.09,*Default,NTP,0000,0000,0000,,然后也在这里，
+Dialogue: 0,0:00:50.09,0:00:54.08,*Default,NTP,0000,0000,0000,,我们基本上有这六种可用的颜色
+Dialogue: 0,0:00:54.08,0:00:56.34,*Default,NTP,0000,0000,0000,,我们可以在其中购买鞋子。
+Dialogue: 0,0:00:56.34,0:01:00.14,*Default,NTP,0000,0000,0000,,所以我希望你在这里和这个地方建立这个部分。
+Dialogue: 0,0:01:01.28,0:01:03.57,*Default,NTP,0000,0000,0000,,所以这次销售非常相似
+Dialogue: 0,0:01:03.57,0:01:05.66,*Default,NTP,0000,0000,0000,,我们以前做过的事情。
+Dialogue: 0,0:01:05.66,0:01:10.66,*Default,NTP,0000,0000,0000,,所以希望你记得就是这样，好吧。
+Dialogue: 0,0:01:10.78,0:01:13.61,*Default,NTP,0000,0000,0000,,但是在这种情况下，您实际上不需要使用
+Dialogue: 0,0:01:13.61,0:01:16.11,*Default,NTP,0000,0000,0000,,一个伪元素。
+Dialogue: 0,0:01:16.11,0:01:19.19,*Default,NTP,0000,0000,0000,,您可以简单地添加一个元素，例如，
+Dialogue: 0,0:01:19.19,0:01:23.56,*Default,NTP,0000,0000,0000,,一段出售，然后放在这里，
+Dialogue: 0,0:01:23.56,0:01:27.52,*Default,NTP,0000,0000,0000,,就像我们在之前的一堂课中所做的那样。
+Dialogue: 0,0:01:27.52,0:01:30.09,*Default,NTP,0000,0000,0000,,现在，也许你注意到了这个细节
+Dialogue: 0,0:01:30.09,0:01:33.26,*Default,NTP,0000,0000,0000,,在本文中，有一些空间
+Dialogue: 0,0:01:33.26,0:01:35.53,*Default,NTP,0000,0000,0000,,不同人物之间
+Dialogue: 0,0:01:35.53,0:01:38.41,*Default,NTP,0000,0000,0000,,还是这里的这些字母，对吧？
+Dialogue: 0,0:01:38.41,0:01:42.33,*Default,NTP,0000,0000,0000,,所以有一个 CSS 属性可以让你做到这一点。
+Dialogue: 0,0:01:42.33,0:01:45.53,*Default,NTP,0000,0000,0000,,我想让你做的是谷歌。
+Dialogue: 0,0:01:45.53,0:01:48.17,*Default,NTP,0000,0000,0000,,所以我想让你用谷歌弄清楚
+Dialogue: 0,0:01:48.17,0:01:51.81,*Default,NTP,0000,0000,0000,,你怎么能像我给你看的那样添加那个空间
+Dialogue: 0,0:01:51.81,0:01:56.36,*Default,NTP,0000,0000,0000,,在关于谷歌搜索的开发人员技能讲座中。
+Dialogue: 0,0:01:56.36,0:01:59.24,*Default,NTP,0000,0000,0000,,所以现在你也可以应用它。
+Dialogue: 0,0:01:59.24,0:02:00.77,*Default,NTP,0000,0000,0000,,好的？
+Dialogue: 0,0:02:00.77,0:02:03.40,*Default,NTP,0000,0000,0000,,所以这是你需要做的事情之一。
+Dialogue: 0,0:02:03.40,0:02:06.25,*Default,NTP,0000,0000,0000,,另一个是这里。
+Dialogue: 0,0:02:06.25,0:02:07.83,*Default,NTP,0000,0000,0000,,所以基本上你需要什么
+Dialogue: 0,0:02:07.83,0:02:10.66,*Default,NTP,0000,0000,0000,,要做的是创建一个元素。
+Dialogue: 0,0:02:10.66,0:02:14.52,*Default,NTP,0000,0000,0000,,然后在那个元素里面，它可以是一个简单的 div。
+Dialogue: 0,0:02:15.38,0:02:17.15,*Default,NTP,0000,0000,0000,,所以在那个元素里面，
+Dialogue: 0,0:02:17.15,0:02:20.28,*Default,NTP,0000,0000,0000,,那么你需要再创建六个元素。
+Dialogue: 0,0:02:20.28,0:02:23.26,*Default,NTP,0000,0000,0000,,如果你愿意，这些也可以是 div。
+Dialogue: 0,0:02:23.26,0:02:25.97,*Default,NTP,0000,0000,0000,,然后你需要做的就是给他们每个人
+Dialogue: 0,0:02:25.97,0:02:28.92,*Default,NTP,0000,0000,0000,,一种颜色并将它们并排放置，
+Dialogue: 0,0:02:28.92,0:02:31.11,*Default,NTP,0000,0000,0000,,使用一个巧妙的小技巧
+Dialogue: 0,0:02:31.11,0:02:35.05,*Default,NTP,0000,0000,0000,,我们实际上也在其中一堂课中学到了这一点。
+Dialogue: 0,0:02:35.05,0:02:37.40,*Default,NTP,0000,0000,0000,,特别是讲座
+Dialogue: 0,0:02:37.40,0:02:42.03,*Default,NTP,0000,0000,0000,,如果我没记错的话，关于盒子的类型。
+Dialogue: 0,0:02:42.03,0:02:46.14,*Default,NTP,0000,0000,0000,,所以这是我们在那里使用的一个不错的小技巧。
+Dialogue: 0,0:02:46.14,0:02:48.67,*Default,NTP,0000,0000,0000,,所以你也可以在这里使用它。
+Dialogue: 0,0:02:48.67,0:02:50.61,*Default,NTP,0000,0000,0000,,如果你不记得了，
+Dialogue: 0,0:02:50.61,0:02:53.64,*Default,NTP,0000,0000,0000,,一如既往绝对没有问题
+Dialogue: 0,0:02:53.64,0:02:56.06,*Default,NTP,0000,0000,0000,,如果您需要返回我们的代码
+Dialogue: 0,0:02:56.06,0:02:58.88,*Default,NTP,0000,0000,0000,,并查看我们是如何做到的。
+Dialogue: 0,0:02:58.88,0:03:02.13,*Default,NTP,0000,0000,0000,,当然，这里的这种技术也是如此。
+Dialogue: 0,0:03:02.13,0:03:04.30,*Default,NTP,0000,0000,0000,,所以我不指望你能记住
+Dialogue: 0,0:03:04.30,0:03:06.47,*Default,NTP,0000,0000,0000,,我在这里向您展示的所有技术。
+Dialogue: 0,0:03:06.47,0:03:09.05,*Default,NTP,0000,0000,0000,,但是，如果您可以在代码中查找它们
+Dialogue: 0,0:03:09.05,0:03:11.78,*Default,NTP,0000,0000,0000,,并将它们转化为不同的情况，
+Dialogue: 0,0:03:11.78,0:03:15.21,*Default,NTP,0000,0000,0000,,这已经是一项了不起的成就。
+Dialogue: 0,0:03:15.21,0:03:16.22,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:16.22,0:03:18.03,*Default,NTP,0000,0000,0000,,所以如果你能做到这一点，
+Dialogue: 0,0:03:18.03,0:03:21.31,*Default,NTP,0000,0000,0000,,那么请继续暂停视频
+Dialogue: 0,0:03:21.31,0:03:23.76,*Default,NTP,0000,0000,0000,,你完成后我会再见的。
+Dialogue: 0,0:03:26.95,0:03:29.75,*Default,NTP,0000,0000,0000,,好吧，回到这里工作。
+Dialogue: 0,0:03:29.75,0:03:33.63,*Default,NTP,0000,0000,0000,,让我们从销售标签开始。
+Dialogue: 0,0:03:33.63,0:03:37.52,*Default,NTP,0000,0000,0000,,正如我所说，我将在某处简单地添加一个段落。
+Dialogue: 0,0:03:37.52,0:03:40.85,*Default,NTP,0000,0000,0000,,既然我们会定位它，绝对，
+Dialogue: 0,0:03:40.85,0:03:43.33,*Default,NTP,0000,0000,0000,,它在哪里并不重要。
+Dialogue: 0,0:03:43.33,0:03:45.06,*Default,NTP,0000,0000,0000,,但我只是把它放在这里
+Dialogue: 0,0:03:45.06,0:03:47.30,*Default,NTP,0000,0000,0000,,接近价格和运费
+Dialogue: 0,0:03:47.30,0:03:49.81,*Default,NTP,0000,0000,0000,,因为从语义上讲，这就是
+Dialogue: 0,0:03:49.81,0:03:51.75,*Default,NTP,0000,0000,0000,,定位是有意义的。
+Dialogue: 0,0:03:54.93,0:03:58.20,*Default,NTP,0000,0000,0000,,所以让我们给它一个销售类。
+Dialogue: 0,0:04:01.04,0:04:04.69,*Default,NTP,0000,0000,0000,,然后我们也想要销售文本。
+Dialogue: 0,0:04:04.69,0:04:07.12,*Default,NTP,0000,0000,0000,,然后让我们关闭它。
+Dialogue: 0,0:04:08.87,0:04:11.82,*Default,NTP,0000,0000,0000,,现在我们在我们的 CSS 中。
+Dialogue: 0,0:04:11.82,0:04:16.82,*Default,NTP,0000,0000,0000,,让我们把它也靠近这个航运。
+Dialogue: 0,0:04:16.97,0:04:17.82,*Default,NTP,0000,0000,0000,,所以下来这里。
+Dialogue: 0,0:04:19.87,0:04:22.94,*Default,NTP,0000,0000,0000,,让我们从添加一些视觉样式开始。
+Dialogue: 0,0:04:25.67,0:04:28.88,*Default,NTP,0000,0000,0000,,例如，一些背景颜色。
+Dialogue: 0,0:04:28.88,0:04:30.67,*Default,NTP,0000,0000,0000,,在这里你可以使用
+Dialogue: 0,0:04:30.67,0:04:32.44,*Default,NTP,0000,0000,0000,,你想要的任何红色。
+Dialogue: 0,0:04:32.44,0:04:35.57,*Default,NTP,0000,0000,0000,,例如，使用 VS Code 颜色选择器。
+Dialogue: 0,0:04:35.57,0:04:37.52,*Default,NTP,0000,0000,0000,,我也这样做了。
+Dialogue: 0,0:04:37.52,0:04:40.21,*Default,NTP,0000,0000,0000,,所以我想出的颜色是ec2f2f。
+Dialogue: 0,0:04:44.41,0:04:45.42,*Default,NTP,0000,0000,0000,,像这样。
+Dialogue: 0,0:04:46.34,0:04:47.39,*Default,NTP,0000,0000,0000,,它实际上去那里。
+Dialogue: 0,0:04:48.24,0:04:49.13,*Default,NTP,0000,0000,0000,,现在，对。
+Dialogue: 0,0:04:50.37,0:04:53.01,*Default,NTP,0000,0000,0000,,然后让我们担心文本。
+Dialogue: 0,0:04:53.01,0:04:55.03,*Default,NTP,0000,0000,0000,,所以让我们把它变成白色。
+Dialogue: 0,0:04:56.09,0:04:57.05,*Default,NTP,0000,0000,0000,,像这样。
+Dialogue: 0,0:04:58.81,0:05:03.73,*Default,NTP,0000,0000,0000,,给它一个 12 像素的字体大小并使其大写。
+Dialogue: 0,0:05:09.26,0:05:11.39,*Default,NTP,0000,0000,0000,,并使其大胆。
+Dialogue: 0,0:05:13.91,0:05:16.96,*Default,NTP,0000,0000,0000,,所以字体粗细，粗体。
+Dialogue: 0,0:05:19.40,0:05:21.06,*Default,NTP,0000,0000,0000,,让我们给它一些填充。
+Dialogue: 0,0:05:21.06,0:05:24.14,*Default,NTP,0000,0000,0000,,顶部 7 个像素，左右 15 个像素。
+Dialogue: 0,0:05:25.15,0:05:27.51,*Default,NTP,0000,0000,0000,,再说一次，这些并不重要。
+Dialogue: 0,0:05:27.51,0:05:29.51,*Default,NTP,0000,0000,0000,,但很多时候这是个好主意
+Dialogue: 0,0:05:29.51,0:05:31.86,*Default,NTP,0000,0000,0000,,有水平填充
+Dialogue: 0,0:05:31.86,0:05:34.10,*Default,NTP,0000,0000,0000,,是一种垂直的两倍。
+Dialogue: 0,0:05:35.06,0:05:36.58,*Default,NTP,0000,0000,0000,,这是一个很好的经验法则
+Dialogue: 0,0:05:36.58,0:05:38.65,*Default,NTP,0000,0000,0000,,很多时候看起来非常好。
+Dialogue: 0,0:05:39.52,0:05:44.30,*Default,NTP,0000,0000,0000,,现在下一步是，实际上我们想要这个元素
+Dialogue: 0,0:05:44.30,0:05:47.46,*Default,NTP,0000,0000,0000,,只是为了占据它实际需要的空间。
+Dialogue: 0,0:05:48.48,0:05:51.85,*Default,NTP,0000,0000,0000,,因此，有两种技术。
+Dialogue: 0,0:05:51.85,0:05:54.77,*Default,NTP,0000,0000,0000,,嗯，实际上只有一个，但你也可以善良
+Dialogue: 0,0:05:54.77,0:05:57.46,*Default,NTP,0000,0000,0000,,以不同的方式实现这一目标。
+Dialogue: 0,0:05:57.46,0:05:59.55,*Default,NTP,0000,0000,0000,,所以最好的方法是做到这一点
+Dialogue: 0,0:06:01.19,0:06:04.40,*Default,NTP,0000,0000,0000,,将显示设置为内联框，
+Dialogue: 0,0:06:06.51,0:06:08.62,*Default,NTP,0000,0000,0000,,实际上是内联块。
+Dialogue: 0,0:06:08.62,0:06:12.19,*Default,NTP,0000,0000,0000,,所以现在确实，就像任何内联元素一样，
+Dialogue: 0,0:06:13.29,0:06:17.44,*Default,NTP,0000,0000,0000,,盒子只占据其内容的空间。
+Dialogue: 0,0:06:17.44,0:06:18.27,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:18.27,0:06:20.03,*Default,NTP,0000,0000,0000,,所以这是正确的解决方案，
+Dialogue: 0,0:06:20.03,0:06:23.84,*Default,NTP,0000,0000,0000,,但是让我们对此进行评论以向您展示另一种解决方案。
+Dialogue: 0,0:06:23.84,0:06:26.06,*Default,NTP,0000,0000,0000,,所以你可能也猜到了
+Dialogue: 0,0:06:26.06,0:06:29.63,*Default,NTP,0000,0000,0000,,这个元素的 with，如果你想的话。
+Dialogue: 0,0:06:29.63,0:06:33.85,*Default,NTP,0000,0000,0000,,假设 100 像素，然后我们可以调整它。
+Dialogue: 0,0:06:34.93,0:06:39.93,*Default,NTP,0000,0000,0000,,因此，假设只有 80 像素或 50 像素。
+Dialogue: 0,0:06:40.25,0:06:42.74,*Default,NTP,0000,0000,0000,,甚至40个。
+Dialogue: 0,0:06:42.74,0:06:45.78,*Default,NTP,0000,0000,0000,,然后一旦你接近了，
+Dialogue: 0,0:06:45.78,0:06:49.83,*Default,NTP,0000,0000,0000,,然后你可以只说文本、对齐、居中。
+Dialogue: 0,0:06:51.90,0:06:54.37,*Default,NTP,0000,0000,0000,,因为现在实际上有足够的空间
+Dialogue: 0,0:06:54.37,0:06:56.07,*Default,NTP,0000,0000,0000,,围绕里面的元素
+Dialogue: 0,0:06:56.07,0:06:58.26,*Default,NTP,0000,0000,0000,,然后可以将其中的文本居中。
+Dialogue: 0,0:06:59.29,0:07:00.17,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:00.17,0:07:02.35,*Default,NTP,0000,0000,0000,,所以当我们实际上有一个宽度时，
+Dialogue: 0,0:07:02.35,0:07:04.63,*Default,NTP,0000,0000,0000,,那么我们就不再是那种情况了
+Dialogue: 0,0:07:04.63,0:07:08.98,*Default,NTP,0000,0000,0000,,其中文本对齐中心在元素中没有意义。
+Dialogue: 0,0:07:08.98,0:07:12.12,*Default,NTP,0000,0000,0000,,就像我们之前在这里使用这些链接一样。
+Dialogue: 0,0:07:12.12,0:07:14.99,*Default,NTP,0000,0000,0000,,还记得吗？所以我觉得就像两堂课前一样。
+Dialogue: 0,0:07:16.35,0:07:19.67,*Default,NTP,0000,0000,0000,,但无论如何，这不是首选的解决方案，
+Dialogue: 0,0:07:19.67,0:07:23.30,*Default,NTP,0000,0000,0000,,但我们也可以这样做。
+Dialogue: 0,0:07:23.30,0:07:27.37,*Default,NTP,0000,0000,0000,,因此，我发现向您展示这一点也很有趣。
+Dialogue: 0,0:07:27.37,0:07:29.23,*Default,NTP,0000,0000,0000,,所以现在是时候真正
+Dialogue: 0,0:07:29.23,0:07:33.62,*Default,NTP,0000,0000,0000,,绝对将这个元素放在这里。
+Dialogue: 0,0:07:33.62,0:07:37.38,*Default,NTP,0000,0000,0000,,所以让我们记住我们需要做的第一件事
+Dialogue: 0,0:07:37.38,0:07:40.52,*Default,NTP,0000,0000,0000,,为了绝对定位一个元素
+Dialogue: 0,0:07:40.52,0:07:44.33,*Default,NTP,0000,0000,0000,,是定义相对于什么父元素，
+Dialogue: 0,0:07:44.33,0:07:46.66,*Default,NTP,0000,0000,0000,,这个元素应该被定位。
+Dialogue: 0,0:07:46.66,0:07:50.70,*Default,NTP,0000,0000,0000,,等等那个父元素，我们将位置设置为相对。
+Dialogue: 0,0:07:51.60,0:07:54.63,*Default,NTP,0000,0000,0000,,所以在这种情况下，这应该很容易，对吧？
+Dialogue: 0,0:07:54.63,0:07:58.47,*Default,NTP,0000,0000,0000,,这就是这里的产品。
+Dialogue: 0,0:07:58.47,0:08:01.88,*Default,NTP,0000,0000,0000,,所以这篇文章同类产品。
+Dialogue: 0,0:08:01.88,0:08:03.22,*Default,NTP,0000,0000,0000,,所以，这就是我们现在想要的地方
+Dialogue: 0,0:08:03.22,0:08:08.01,*Default,NTP,0000,0000,0000,,将位置设置为相对。
+Dialogue: 0,0:08:09.59,0:08:12.38,*Default,NTP,0000,0000,0000,,所以，现在我们可以回到这里
+Dialogue: 0,0:08:13.83,0:08:17.60,*Default,NTP,0000,0000,0000,,并说绝对位置。
+Dialogue: 0,0:08:18.82,0:08:22.47,*Default,NTP,0000,0000,0000,,并将顶部和左侧设置为零。只是为了开始。
+Dialogue: 0,0:08:25.15,0:08:26.82,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:26.82,0:08:31.13,*Default,NTP,0000,0000,0000,,现在我们可以猜测值
+Dialogue: 0,0:08:31.13,0:08:32.42,*Default,NTP,0000,0000,0000,,这应该在哪里。
+Dialogue: 0,0:08:32.42,0:08:36.52,*Default,NTP,0000,0000,0000,,所以，假设是负 15 像素。
+Dialogue: 0,0:08:36.52,0:08:39.82,*Default,NTP,0000,0000,0000,,这可以多一点，17。
+Dialogue: 0,0:08:41.15,0:08:41.98,*Default,NTP,0000,0000,0000,,是的。
+Dialogue: 0,0:08:41.98,0:08:44.82,*Default,NTP,0000,0000,0000,,所以现在它就像在中间
+Dialogue: 0,0:08:44.82,0:08:48.96,*Default,NTP,0000,0000,0000,,现在让我们将它也向左移动 30 个像素。
+Dialogue: 0,0:08:49.90,0:08:52.43,*Default,NTP,0000,0000,0000,,所以这还不是很集中。
+Dialogue: 0,0:08:52.43,0:08:54.32,*Default,NTP,0000,0000,0000,,比如说35。
+Dialogue: 0,0:08:55.43,0:08:57.15,*Default,NTP,0000,0000,0000,,好吧，让我们把它设为 34，
+Dialogue: 0,0:08:57.15,0:08:59.89,*Default,NTP,0000,0000,0000,,所以它正好是顶部的两倍。
+Dialogue: 0,0:09:00.91,0:09:05.40,*Default,NTP,0000,0000,0000,,好的。有了这个，我们几乎完成了这部分。
+Dialogue: 0,0:09:05.40,0:09:08.48,*Default,NTP,0000,0000,0000,,所缺少的只是这个额外的空间
+Dialogue: 0,0:09:08.48,0:09:10.30,*Default,NTP,0000,0000,0000,,人物之间。
+Dialogue: 0,0:09:10.30,0:09:11.17,*Default,NTP,0000,0000,0000,,对？
+Dialogue: 0,0:09:11.17,0:09:13.39,*Default,NTP,0000,0000,0000,,所以要给它额外的触感，
+Dialogue: 0,0:09:13.39,0:09:16.00,*Default,NTP,0000,0000,0000,,也因为我想要你
+Dialogue: 0,0:09:16.00,0:09:18.84,*Default,NTP,0000,0000,0000,,练习你的谷歌搜索技能。
+Dialogue: 0,0:09:18.84,0:09:21.04,*Default,NTP,0000,0000,0000,,所以我会用谷歌搜索的是，
+Dialogue: 0,0:09:21.04,0:09:26.04,*Default,NTP,0000,0000,0000,,CSS 在字符之间添加空格，
+Dialogue: 0,0:09:26.81,0:09:29.02,*Default,NTP,0000,0000,0000,,或者你也可以写信，
+Dialogue: 0,0:09:30.22,0:09:34.45,*Default,NTP,0000,0000,0000,,但在这里你实际上立即得到结果。
+Dialogue: 0,0:09:34.45,0:09:36.33,*Default,NTP,0000,0000,0000,,所以字母间距。
+Dialogue: 0,0:09:36.33,0:09:38.29,*Default,NTP,0000,0000,0000,,但我对这里更感兴趣，
+Dialogue: 0,0:09:38.29,0:09:40.68,*Default,NTP,0000,0000,0000,,通常在堆栈溢出回复中
+Dialogue: 0,0:09:40.68,0:09:44.27,*Default,NTP,0000,0000,0000,,或 MDN 的这个文档。
+Dialogue: 0,0:09:44.27,0:09:45.77,*Default,NTP,0000,0000,0000,,所以这里我们有字母间距，
+Dialogue: 0,0:09:45.77,0:09:48.89,*Default,NTP,0000,0000,0000,,这看起来像我们想要的东西。
+Dialogue: 0,0:09:48.89,0:09:51.53,*Default,NTP,0000,0000,0000,,所以在这里，我们确实像往常一样
+Dialogue: 0,0:09:51.53,0:09:53.95,*Default,NTP,0000,0000,0000,,几个不同的例子。
+Dialogue: 0,0:09:53.95,0:09:58.04,*Default,NTP,0000,0000,0000,,所以，是的。这是我们要使用的属性。
+Dialogue: 0,0:09:58.04,0:09:59.34,*Default,NTP,0000,0000,0000,,所以我在复制它。
+Dialogue: 0,0:10:00.57,0:10:03.80,*Default,NTP,0000,0000,0000,,让我们把它放在这里，接近这些风格。
+Dialogue: 0,0:10:03.80,0:10:06.31,*Default,NTP,0000,0000,0000,,我将它设置为两个像素。
+Dialogue: 0,0:10:07.81,0:10:11.77,*Default,NTP,0000,0000,0000,,是的。这实际上看起来好多了。
+Dialogue: 0,0:10:11.77,0:10:14.60,*Default,NTP,0000,0000,0000,,现在我们只需要喜欢，推送它
+Dialogue: 0,0:10:14.60,0:10:19.60,*Default,NTP,0000,0000,0000,,甚至在那边多一点，像这样。
+Dialogue: 0,0:10:19.84,0:10:23.77,*Default,NTP,0000,0000,0000,,将其居中。是的，就是这样。
+Dialogue: 0,0:10:23.77,0:10:25.94,*Default,NTP,0000,0000,0000,,所以我们完成了这部分。
+Dialogue: 0,0:10:25.94,0:10:29.12,*Default,NTP,0000,0000,0000,,所以现在让我们在这里快速添加这些颜色。
+Dialogue: 0,0:10:29.12,0:10:33.66,*Default,NTP,0000,0000,0000,,正如我之前所说，我们基本上会创建一个 div。
+Dialogue: 0,0:10:33.66,0:10:36.86,*Default,NTP,0000,0000,0000,,所以一个没有任何语义意义的容器。
+Dialogue: 0,0:10:36.86,0:10:39.99,*Default,NTP,0000,0000,0000,,然后在那里，我将再创建六个 div。
+Dialogue: 0,0:10:39.99,0:10:43.31,*Default,NTP,0000,0000,0000,,然后他们每个人都会得到自己的背景颜色。
+Dialogue: 0,0:10:45.52,0:10:50.52,*Default,NTP,0000,0000,0000,,所以，这应该在链接之后。
+Dialogue: 0,0:10:53.55,0:10:57.76,*Default,NTP,0000,0000,0000,,对？因此，在链接之后和这些产品详细信息之前。
+Dialogue: 0,0:10:59.89,0:11:03.92,*Default,NTP,0000,0000,0000,,所以一个div，我称之为颜色。
+Dialogue: 0,0:11:07.49,0:11:10.54,*Default,NTP,0000,0000,0000,,让我们立即关闭它，这样我们就不会忘记它。
+Dialogue: 0,0:11:11.60,0:11:16.24,*Default,NTP,0000,0000,0000,,因为这个编辑器不如 VS Code。
+Dialogue: 0,0:11:16.24,0:11:18.00,*Default,NTP,0000,0000,0000,,但是还是很有帮助的
+Dialogue: 0,0:11:18.00,0:11:21.60,*Default,NTP,0000,0000,0000,,实际使用 CodePen 来完成类似的事情。
+Dialogue: 0,0:11:21.60,0:11:25.56,*Default,NTP,0000,0000,0000,,现在我们将在这里创建另一个 div。
+Dialogue: 0,0:11:27.55,0:11:28.38,*Default,NTP,0000,0000,0000,,颜色。
+Dialogue: 0,0:11:30.01,0:11:33.65,*Default,NTP,0000,0000,0000,,然后实际上这并没有有任何内容。
+Dialogue: 0,0:11:35.74,0:11:36.57,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:11:37.41,0:11:40.94,*Default,NTP,0000,0000,0000,,所以这是我们以前没有真正做过的事情。
+Dialogue: 0,0:11:42.10,0:11:47.10,*Default,NTP,0000,0000,0000,,所以让我解释一下，告诉你我们将如何做到这一点。
+Dialogue: 0,0:11:47.40,0:11:48.89,*Default,NTP,0000,0000,0000,,所以我们想要六种颜色。
+Dialogue: 0,0:11:48.89,0:11:51.77,*Default,NTP,0000,0000,0000,,所以我只是复制粘贴它六次。
+Dialogue: 0,0:11:53.45,0:11:54.89,*Default,NTP,0000,0000,0000,,是的。
+Dialogue: 0,0:11:56.05,0:11:58.54,*Default,NTP,0000,0000,0000,,让我们把它放在最后。
+Dialogue: 0,0:11:58.54,0:12:01.69,*Default,NTP,0000,0000,0000,,所以就像在 HTML 中一样。
+Dialogue: 0,0:12:01.69,0:12:05.02,*Default,NTP,0000,0000,0000,,所以颜色类并不是很重要，我认为。
+Dialogue: 0,0:12:05.87,0:12:10.56,*Default,NTP,0000,0000,0000,,因此，让我们从定义每个正方形开始。
+Dialogue: 0,0:12:10.56,0:12:12.41,*Default,NTP,0000,0000,0000,,所以每一个。
+Dialogue: 0,0:12:12.41,0:12:15.17,*Default,NTP,0000,0000,0000,,所以基本上我们把它们做成一个正方形
+Dialogue: 0,0:12:15.17,0:12:18.73,*Default,NTP,0000,0000,0000,,通过给他们一定的高度，然后给他们一个宽度
+Dialogue: 0,0:12:18.73,0:12:19.97,*Default,NTP,0000,0000,0000,,这是一样的。
+Dialogue: 0,0:12:22.24,0:12:24.89,*Default,NTP,0000,0000,0000,,所以让我给你看。
+Dialogue: 0,0:12:24.89,0:12:25.99,*Default,NTP,0000,0000,0000,,我们应该做的第一件事是
+Dialogue: 0,0:12:25.99,0:12:27.54,*Default,NTP,0000,0000,0000,,给他们一个背景颜色
+Dialogue: 0,0:12:28.64,0:12:30.29,*Default,NTP,0000,0000,0000,,以便更容易看到它。
+Dialogue: 0,0:12:32.50,0:12:34.53,*Default,NTP,0000,0000,0000,,第一个我认为是黑色的。
+Dialogue: 0,0:12:38.13,0:12:39.09,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:12:39.09,0:12:40.72,*Default,NTP,0000,0000,0000,,但现在它们不可见
+Dialogue: 0,0:12:40.72,0:12:42.78,*Default,NTP,0000,0000,0000,,因为他们没有任何内容。
+Dialogue: 0,0:12:43.90,0:12:46.07,*Default,NTP,0000,0000,0000,,但是如果我们给它们一个高度和宽度，
+Dialogue: 0,0:12:46.07,0:12:48.32,*Default,NTP,0000,0000,0000,,然后它们将变得可见。
+Dialogue: 0,0:12:48.32,0:12:52.22,*Default,NTP,0000,0000,0000,,所以让我们这样做。高度 22 像素。
+Dialogue: 0,0:12:52.22,0:12:54.57,*Default,NTP,0000,0000,0000,,所以现在他们马上就长高了
+Dialogue: 0,0:12:54.57,0:12:57.90,*Default,NTP,0000,0000,0000,,然后他们占据了他们可以占据的所有空间
+Dialogue: 0,0:12:57.90,0:13:02.08,*Default,NTP,0000,0000,0000,,因为默认情况下它们是块级元素，对吗？
+Dialogue: 0,0:13:02.08,0:13:04.80,*Default,NTP,0000,0000,0000,,所以它们是 div，因此
+Dialogue: 0,0:13:04.80,0:13:06.73,*Default,NTP,0000,0000,0000,,默认情况下是块级别。
+Dialogue: 0,0:13:07.67,0:13:11.40,*Default,NTP,0000,0000,0000,,但是现在如果我们指定它们的宽度相同，
+Dialogue: 0,0:13:11.40,0:13:14.66,*Default,NTP,0000,0000,0000,,所以它看起来像一个正方形，
+Dialogue: 0,0:13:14.66,0:13:18.73,*Default,NTP,0000,0000,0000,,那么当然他们不再这样做了。
+Dialogue: 0,0:13:18.73,0:13:19.56,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:13:19.56,0:13:23.74,*Default,NTP,0000,0000,0000,,所以当然我们离最终的结果还很远。
+Dialogue: 0,0:13:23.74,0:13:26.52,*Default,NTP,0000,0000,0000,,但为了有效地继续，
+Dialogue: 0,0:13:26.52,0:13:29.62,*Default,NTP,0000,0000,0000,,现在让我们给他们每个人一个不同的颜色。
+Dialogue: 0,0:13:29.62,0:13:32.10,*Default,NTP,0000,0000,0000,,那么我们该怎么做呢？
+Dialogue: 0,0:13:32.10,0:13:35.76,*Default,NTP,0000,0000,0000,,好吧，我实际上会为他们每个人添加另一个类。
+Dialogue: 0,0:13:35.76,0:13:37.89,*Default,NTP,0000,0000,0000,,这是完全可能的。
+Dialogue: 0,0:13:37.89,0:13:39.81,*Default,NTP,0000,0000,0000,,请记住，我们被允许
+Dialogue: 0,0:13:39.81,0:13:42.87,*Default,NTP,0000,0000,0000,,给每个元素一个以上的类。
+Dialogue: 0,0:13:42.87,0:13:44.82,*Default,NTP,0000,0000,0000,,所以我之前给你看了。
+Dialogue: 0,0:13:44.82,0:13:47.47,*Default,NTP,0000,0000,0000,,所以我们这样做的方式是添加一个空格
+Dialogue: 0,0:13:47.47,0:13:49.77,*Default,NTP,0000,0000,0000,,然后简单地添加另一个。
+Dialogue: 0,0:13:51.13,0:13:53.08,*Default,NTP,0000,0000,0000,,所以第一个是黑色的，
+Dialogue: 0,0:13:53.08,0:13:56.23,*Default,NTP,0000,0000,0000,,然后是蓝色、红色、黄色、绿色和棕色。
+Dialogue: 0,0:13:57.67,0:13:58.85,*Default,NTP,0000,0000,0000,,所以，
+Dialogue: 0,0:13:58.85,0:14:01.69,*Default,NTP,0000,0000,0000,,好吧，在第一个中，我们实际上不需要这样做
+Dialogue: 0,0:14:01.69,0:14:04.16,*Default,NTP,0000,0000,0000,,因为它们已经是黑色的了，所有的。
+Dialogue: 0,0:14:04.16,0:14:06.98,*Default,NTP,0000,0000,0000,,所以我们基本上可以覆盖它
+Dialogue: 0,0:14:06.98,0:14:08.14,*Default,NTP,0000,0000,0000,,在所有其他的。
+Dialogue: 0,0:14:09.96,0:14:13.72,*Default,NTP,0000,0000,0000,,所以我们称它为蓝色。
+Dialogue: 0,0:14:14.74,0:14:18.82,*Default,NTP,0000,0000,0000,,然后让我复制粘贴几次。
+Dialogue: 0,0:14:23.47,0:14:25.00,*Default,NTP,0000,0000,0000,,这么红，
+Dialogue: 0,0:14:27.51,0:14:28.34,*Default,NTP,0000,0000,0000,,黄色的，
+Dialogue: 0,0:14:29.96,0:14:31.35,*Default,NTP,0000,0000,0000,,绿色，
+Dialogue: 0,0:14:31.35,0:14:32.69,*Default,NTP,0000,0000,0000,,和
+Dialogue: 0,0:14:32.69,0:14:33.65,*Default,NTP,0000,0000,0000,,棕色的。
+Dialogue: 0,0:14:34.85,0:14:36.01,*Default,NTP,0000,0000,0000,,现在我们当然会有
+Dialogue: 0,0:14:36.01,0:14:38.31,*Default,NTP,0000,0000,0000,,在这里选择所有这些。
+Dialogue: 0,0:14:49.62,0:14:50.94,*Default,NTP,0000,0000,0000,,再说一次，你本可以上来的
+Dialogue: 0,0:14:50.94,0:14:53.95,*Default,NTP,0000,0000,0000,,任何你喜欢的蓝色。
+Dialogue: 0,0:14:53.95,0:14:56.63,*Default,NTP,0000,0000,0000,,我的选择是这个，2f6ee2。
+Dialogue: 0,0:15:01.47,0:15:03.13,*Default,NTP,0000,0000,0000,,那么让我们看看。
+Dialogue: 0,0:15:03.13,0:15:06.71,*Default,NTP,0000,0000,0000,,事实上，现在它是蓝色的。
+Dialogue: 0,0:15:06.71,0:15:09.62,*Default,NTP,0000,0000,0000,,现在，我们将复制几次。
+Dialogue: 0,0:15:12.62,0:15:13.56,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:15:14.84,0:15:15.73,*Default,NTP,0000,0000,0000,,这么红，
+Dialogue: 0,0:15:17.34,0:15:18.27,*Default,NTP,0000,0000,0000,,黄色的，
+Dialogue: 0,0:15:18.27,0:15:19.39,*Default,NTP,0000,0000,0000,,绿色，
+Dialogue: 0,0:15:20.89,0:15:22.27,*Default,NTP,0000,0000,0000,,和棕色。
+Dialogue: 0,0:15:25.40,0:15:27.19,*Default,NTP,0000,0000,0000,,所以不是在这里，而是在这里。
+Dialogue: 0,0:15:30.66,0:15:35.59,*Default,NTP,0000,0000,0000,,实际上，这里让我们使用我以前的红色。
+Dialogue: 0,0:15:38.84,0:15:40.91,*Default,NTP,0000,0000,0000,,然后黄色是 f0ef1e。
+Dialogue: 0,0:15:46.05,0:15:48.76,*Default,NTP,0000,0000,0000,,绿色是 90cc20。
+Dialogue: 0,0:15:49.91,0:15:53.97,*Default,NTP,0000,0000,0000,,最后棕色是 885214。
+Dialogue: 0,0:15:56.63,0:15:57.95,*Default,NTP,0000,0000,0000,,你去吧。
+Dialogue: 0,0:15:57.95,0:16:00.62,*Default,NTP,0000,0000,0000,,我们有六种不同的颜色。
+Dialogue: 0,0:16:00.62,0:16:03.94,*Default,NTP,0000,0000,0000,,现在，我们需要做的就是将它们并排放置。
+Dialogue: 0,0:16:05.17,0:16:06.99,*Default,NTP,0000,0000,0000,,那么我们该怎么做呢？
+Dialogue: 0,0:16:07.96,0:16:11.22,*Default,NTP,0000,0000,0000,,嗯，我们之前学过一个巧妙的技巧，
+Dialogue: 0,0:16:11.22,0:16:13.73,*Default,NTP,0000,0000,0000,,也就是改变显示属性
+Dialogue: 0,0:16:13.73,0:16:16.31,*Default,NTP,0000,0000,0000,,这些元素的内联块。
+Dialogue: 0,0:16:18.30,0:16:23.17,*Default,NTP,0000,0000,0000,,所以我们现在将设置所有这六个元素。
+Dialogue: 0,0:16:23.17,0:16:26.70,*Default,NTP,0000,0000,0000,,所以所有这些都有颜色类
+Dialogue: 0,0:16:26.70,0:16:29.48,*Default,NTP,0000,0000,0000,,到内联块。
+Dialogue: 0,0:16:29.48,0:16:32.62,*Default,NTP,0000,0000,0000,,因为这样，他们只会占据空间
+Dialogue: 0,0:16:32.62,0:16:34.98,*Default,NTP,0000,0000,0000,,他们需要，他们也会
+Dialogue: 0,0:16:34.98,0:16:38.11,*Default,NTP,0000,0000,0000,,不要在它们之后创建任何换行符。
+Dialogue: 0,0:16:38.11,0:16:40.83,*Default,NTP,0000,0000,0000,,这正是我们想要的。
+Dialogue: 0,0:16:40.83,0:16:42.55,*Default,NTP,0000,0000,0000,,现在我们不能使用 inline 因为
+Dialogue: 0,0:16:42.55,0:16:46.36,*Default,NTP,0000,0000,0000,,那么高度和宽度将无法按预期工作。
+Dialogue: 0,0:16:47.29,0:16:49.35,*Default,NTP,0000,0000,0000,,或者至少他们不应该。
+Dialogue: 0,0:16:49.35,0:16:52.83,*Default,NTP,0000,0000,0000,,你会发现它确实行不通。
+Dialogue: 0,0:16:52.83,0:16:54.41,*Default,NTP,0000,0000,0000,,所以它需要是内联块
+Dialogue: 0,0:16:54.41,0:16:56.60,*Default,NTP,0000,0000,0000,,因为记住高度和宽度，
+Dialogue: 0,0:16:56.60,0:16:58.78,*Default,NTP,0000,0000,0000,,不适用于内联元素。
+Dialogue: 0,0:16:59.64,0:17:02.24,*Default,NTP,0000,0000,0000,,现在我们需要的只是一点点余地
+Dialogue: 0,0:17:02.24,0:17:04.50,*Default,NTP,0000,0000,0000,,在他们每个人的右边
+Dialogue: 0,0:17:05.40,0:17:08.05,*Default,NTP,0000,0000,0000,,比方说，12 像素。
+Dialogue: 0,0:17:09.12,0:17:10.59,*Default,NTP,0000,0000,0000,,我们开始了。
+Dialogue: 0,0:17:10.59,0:17:14.50,*Default,NTP,0000,0000,0000,,可能有点过分了吧所以10像素。
+Dialogue: 0,0:17:14.50,0:17:16.32,*Default,NTP,0000,0000,0000,,就是这样。
+Dialogue: 0,0:17:16.32,0:17:18.52,*Default,NTP,0000,0000,0000,,这就是我们需要做的。
+Dialogue: 0,0:17:18.52,0:17:20.37,*Default,NTP,0000,0000,0000,,好吧，实际上我们失踪了
+Dialogue: 0,0:17:20.37,0:17:24.09,*Default,NTP,0000,0000,0000,,就像这个锚之后的一些空间。
+Dialogue: 0,0:17:24.09,0:17:25.59,*Default,NTP,0000,0000,0000,,记住我们实际上是如何
+Dialogue: 0,0:17:25.59,0:17:27.78,*Default,NTP,0000,0000,0000,,之前已经有这个问题了。
+Dialogue: 0,0:17:27.78,0:17:29.84,*Default,NTP,0000,0000,0000,,所以我们试图增加一些空间。
+Dialogue: 0,0:17:29.84,0:17:33.53,*Default,NTP,0000,0000,0000,,所以这个锚点有一些边距底部，但它没有用。
+Dialogue: 0,0:17:33.53,0:17:36.49,*Default,NTP,0000,0000,0000,,所以解决方法是添加那个空间
+Dialogue: 0,0:17:36.49,0:17:39.96,*Default,NTP,0000,0000,0000,,在这个标题的顶部。
+Dialogue: 0,0:17:39.96,0:17:41.35,*Default,NTP,0000,0000,0000,,还记得吗？
+Dialogue: 0,0:17:41.35,0:17:45.21,*Default,NTP,0000,0000,0000,,所以这就是为什么这里的这些细节标题，有边缘顶部。
+Dialogue: 0,0:17:45.21,0:17:47.47,*Default,NTP,0000,0000,0000,,当我们不明白的时候
+Dialogue: 0,0:17:47.47,0:17:52.13,*Default,NTP,0000,0000,0000,,为什么向此锚元素添加边距底部不起作用。
+Dialogue: 0,0:17:52.13,0:17:54.57,*Default,NTP,0000,0000,0000,,但现在我们确实做到了。
+Dialogue: 0,0:17:54.57,0:17:56.86,*Default,NTP,0000,0000,0000,,所以让我们也这样做。
+Dialogue: 0,0:17:58.27,0:18:01.25,*Default,NTP,0000,0000,0000,,所以就在这里。
+Dialogue: 0,0:18:01.25,0:18:06.25,*Default,NTP,0000,0000,0000,,所以让我们在这里添加一个 30 像素的边距底部，
+Dialogue: 0,0:18:06.50,0:18:08.77,*Default,NTP,0000,0000,0000,,这仍然行不通。
+Dialogue: 0,0:18:08.77,0:18:11.77,*Default,NTP,0000,0000,0000,,但同样，我们现在知道为什么它不起作用了。
+Dialogue: 0,0:18:11.77,0:18:13.74,*Default,NTP,0000,0000,0000,,原因是，
+Dialogue: 0,0:18:13.74,0:18:16.58,*Default,NTP,0000,0000,0000,,锚元素是一个内联元素。
+Dialogue: 0,0:18:16.58,0:18:18.38,*Default,NTP,0000,0000,0000,,在内联元素上，
+Dialogue: 0,0:18:18.38,0:18:22.02,*Default,NTP,0000,0000,0000,,顶部和边距底部不适用。
+Dialogue: 0,0:18:22.02,0:18:24.26,*Default,NTP,0000,0000,0000,,所以，为了再次解决这个问题，
+Dialogue: 0,0:18:24.26,0:18:28.09,*Default,NTP,0000,0000,0000,,我们需要将其显示为内联块。
+Dialogue: 0,0:18:28.09,0:18:30.14,*Default,NTP,0000,0000,0000,,所以，很容易。
+Dialogue: 0,0:18:30.14,0:18:34.54,*Default,NTP,0000,0000,0000,,显示内联块，
+Dialogue: 0,0:18:34.54,0:18:37.28,*Default,NTP,0000,0000,0000,,你去吧。
+Dialogue: 0,0:18:37.28,0:18:40.79,*Default,NTP,0000,0000,0000,,我们有，我们的 30 像素现在很好地显示了。
+Dialogue: 0,0:18:42.39,0:18:43.55,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:18:43.55,0:18:45.36,*Default,NTP,0000,0000,0000,,我认为，
+Dialogue: 0,0:18:46.65,0:18:51.03,*Default,NTP,0000,0000,0000,,我们的解决方案看起来与我们的演示完全相同。
+Dialogue: 0,0:18:51.03,0:18:54.91,*Default,NTP,0000,0000,0000,,所以我们现在已经完成了。
+Dialogue: 0,0:18:56.53,0:18:59.22,*Default,NTP,0000,0000,0000,,是的。所以，看起来是这样。
+Dialogue: 0,0:18:59.22,0:19:01.08,*Default,NTP,0000,0000,0000,,所以，是的。
+Dialogue: 0,0:19:01.08,0:19:06.08,*Default,NTP,0000,0000,0000,,这实际上是对 CSS 部分的介绍的总结。
+Dialogue: 0,0:19:06.32,0:19:08.98,*Default,NTP,0000,0000,0000,,再来一次，恭喜
+Dialogue: 0,0:19:08.98,0:19:12.46,*Default,NTP,0000,0000,0000,,达到课程的第一部分。
+Dialogue: 0,0:19:12.46,0:19:16.33,*Default,NTP,0000,0000,0000,,现在你已经掌握了 HTML 和 CSS 的所有基础知识
+Dialogue: 0,0:19:16.33,0:19:19.77,*Default,NTP,0000,0000,0000,,开始构建布局所需的。
+Dialogue: 0,0:19:19.77,0:19:24.19,*Default,NTP,0000,0000,0000,,这实际上是 CSS 的主要部分之一。
+Dialogue: 0,0:19:24.19,0:19:26.95,*Default,NTP,0000,0000,0000,,所以有一整节 w对此很感兴趣。
+Dialogue: 0,0:19:26.95,0:19:29.33,*Default,NTP,0000,0000,0000,,所以一旦你完成了所有的审查
+Dialogue: 0,0:19:29.33,0:19:33.59,*Default,NTP,0000,0000,0000,,我们在这里做的，我会在下一节见到你。
+Dialogue: 0,0:19:33.59,0:19:34.82,*Default,NTP,0000,0000,0000,,一旦你准备好了。
+Dialogue: 0,0:00:01.68,0:00:02.75,*Default,NTP,0000,0000,0000,,Welcome back
+Dialogue: 0,0:00:02.75,0:00:06.83,*Default,NTP,0000,0000,0000,,to the last coding challenge of this section.
+Dialogue: 0,0:00:06.83,0:00:11.08,*Default,NTP,0000,0000,0000,,And as always, we will keep working on our same project.
+Dialogue: 0,0:00:12.60,0:00:15.11,*Default,NTP,0000,0000,0000,,So, this is how we left it
+Dialogue: 0,0:00:15.11,0:00:17.90,*Default,NTP,0000,0000,0000,,after our coding challenge, number two.
+Dialogue: 0,0:00:17.90,0:00:21.13,*Default,NTP,0000,0000,0000,,And so as always, keep this as a starting point
+Dialogue: 0,0:00:21.13,0:00:24.03,*Default,NTP,0000,0000,0000,,which hopefully you have on some CodePen
+Dialogue: 0,0:00:24.03,0:00:25.93,*Default,NTP,0000,0000,0000,,or somewhere on your computer.
+Dialogue: 0,0:00:25.93,0:00:30.93,*Default,NTP,0000,0000,0000,,And if not, the link to this code will be in this lecture.
+Dialogue: 0,0:00:31.03,0:00:33.06,*Default,NTP,0000,0000,0000,,And what I want you to do
+Dialogue: 0,0:00:33.06,0:00:36.52,*Default,NTP,0000,0000,0000,,is basically to change this to this.
+Dialogue: 0,0:00:37.42,0:00:41.41,*Default,NTP,0000,0000,0000,,And essentially there are only two big changes.
+Dialogue: 0,0:00:41.41,0:00:44.25,*Default,NTP,0000,0000,0000,,First, we have this sale label here
+Dialogue: 0,0:00:44.25,0:00:48.09,*Default,NTP,0000,0000,0000,,in this top left corner of the element.
+Dialogue: 0,0:00:48.09,0:00:50.09,*Default,NTP,0000,0000,0000,,And then also down here,
+Dialogue: 0,0:00:50.09,0:00:54.08,*Default,NTP,0000,0000,0000,,we have basically these six available colors
+Dialogue: 0,0:00:54.08,0:00:56.34,*Default,NTP,0000,0000,0000,,in which we can buy the shoe.
+Dialogue: 0,0:00:56.34,0:01:00.14,*Default,NTP,0000,0000,0000,,So I want you to build this part here and this.
+Dialogue: 0,0:01:01.28,0:01:03.57,*Default,NTP,0000,0000,0000,,So this sale is very similar
+Dialogue: 0,0:01:03.57,0:01:05.66,*Default,NTP,0000,0000,0000,,to something that we did before.
+Dialogue: 0,0:01:05.66,0:01:10.66,*Default,NTP,0000,0000,0000,,So hopefully you remember that's this, okay.
+Dialogue: 0,0:01:10.78,0:01:13.61,*Default,NTP,0000,0000,0000,,But in this case, you actually don't need to use
+Dialogue: 0,0:01:13.61,0:01:16.11,*Default,NTP,0000,0000,0000,,a pseudo element for that.
+Dialogue: 0,0:01:16.11,0:01:19.19,*Default,NTP,0000,0000,0000,,You can simply add a element, for example,
+Dialogue: 0,0:01:19.19,0:01:23.56,*Default,NTP,0000,0000,0000,,a paragraph for the sale and then position it here,
+Dialogue: 0,0:01:23.56,0:01:27.52,*Default,NTP,0000,0000,0000,,just like we did it in one of the previous lectures.
+Dialogue: 0,0:01:27.52,0:01:30.09,*Default,NTP,0000,0000,0000,,Now, maybe you're noticing this detail
+Dialogue: 0,0:01:30.09,0:01:33.26,*Default,NTP,0000,0000,0000,,that in this text, there is some space
+Dialogue: 0,0:01:33.26,0:01:35.53,*Default,NTP,0000,0000,0000,,between the different characters
+Dialogue: 0,0:01:35.53,0:01:38.41,*Default,NTP,0000,0000,0000,,or these letters here, right?
+Dialogue: 0,0:01:38.41,0:01:42.33,*Default,NTP,0000,0000,0000,,And so there is a CSS property which allows you to do that.
+Dialogue: 0,0:01:42.33,0:01:45.53,*Default,NTP,0000,0000,0000,,And what I want you to do is to Google that.
+Dialogue: 0,0:01:45.53,0:01:48.17,*Default,NTP,0000,0000,0000,,So I want you to use Google to figure out
+Dialogue: 0,0:01:48.17,0:01:51.81,*Default,NTP,0000,0000,0000,,how you can add that space a little bit like I showed you
+Dialogue: 0,0:01:51.81,0:01:56.36,*Default,NTP,0000,0000,0000,,in the developer skills lecture about Googling.
+Dialogue: 0,0:01:56.36,0:01:59.24,*Default,NTP,0000,0000,0000,,So now you can apply that as well.
+Dialogue: 0,0:01:59.24,0:02:00.77,*Default,NTP,0000,0000,0000,,Okay?
+Dialogue: 0,0:02:00.77,0:02:03.40,*Default,NTP,0000,0000,0000,,So that is one of the things that you need to do.
+Dialogue: 0,0:02:03.40,0:02:06.25,*Default,NTP,0000,0000,0000,,And the other one is this here.
+Dialogue: 0,0:02:06.25,0:02:07.83,*Default,NTP,0000,0000,0000,,So basically what you will need
+Dialogue: 0,0:02:07.83,0:02:10.66,*Default,NTP,0000,0000,0000,,to do is to create an element.
+Dialogue: 0,0:02:10.66,0:02:14.52,*Default,NTP,0000,0000,0000,,And then inside of that element, which can be a simple div.
+Dialogue: 0,0:02:15.38,0:02:17.15,*Default,NTP,0000,0000,0000,,So inside of that element,
+Dialogue: 0,0:02:17.15,0:02:20.28,*Default,NTP,0000,0000,0000,,then you need to create six more elements.
+Dialogue: 0,0:02:20.28,0:02:23.26,*Default,NTP,0000,0000,0000,,And these can also be divs if you like.
+Dialogue: 0,0:02:23.26,0:02:25.97,*Default,NTP,0000,0000,0000,,And then all you need to do is to give each of them
+Dialogue: 0,0:02:25.97,0:02:28.92,*Default,NTP,0000,0000,0000,,a color and put them side by side,
+Dialogue: 0,0:02:28.92,0:02:31.11,*Default,NTP,0000,0000,0000,,using a neat little trick
+Dialogue: 0,0:02:31.11,0:02:35.05,*Default,NTP,0000,0000,0000,,that we actually also learned in one of the lectures.
+Dialogue: 0,0:02:35.05,0:02:37.40,*Default,NTP,0000,0000,0000,,And in particular, it was the lecture
+Dialogue: 0,0:02:37.40,0:02:42.03,*Default,NTP,0000,0000,0000,,about the types of boxes, if I remember correctly.
+Dialogue: 0,0:02:42.03,0:02:46.14,*Default,NTP,0000,0000,0000,,So this was a nice little trick that we used there.
+Dialogue: 0,0:02:46.14,0:02:48.67,*Default,NTP,0000,0000,0000,,And so you can use that here as well.
+Dialogue: 0,0:02:48.67,0:02:50.61,*Default,NTP,0000,0000,0000,,And if you don't remember it,
+Dialogue: 0,0:02:50.61,0:02:53.64,*Default,NTP,0000,0000,0000,,as always there is absolutely no problem
+Dialogue: 0,0:02:53.64,0:02:56.06,*Default,NTP,0000,0000,0000,,if you need to go back to our code
+Dialogue: 0,0:02:56.06,0:02:58.88,*Default,NTP,0000,0000,0000,,and look up exactly how we did that.
+Dialogue: 0,0:02:58.88,0:03:02.13,*Default,NTP,0000,0000,0000,,And the same, of course, goes for this technique here.
+Dialogue: 0,0:03:02.13,0:03:04.30,*Default,NTP,0000,0000,0000,,So I don't expect that you memorize
+Dialogue: 0,0:03:04.30,0:03:06.47,*Default,NTP,0000,0000,0000,,all the techniques that I show you here.
+Dialogue: 0,0:03:06.47,0:03:09.05,*Default,NTP,0000,0000,0000,,But if you can look them up in your code
+Dialogue: 0,0:03:09.05,0:03:11.78,*Default,NTP,0000,0000,0000,,and translate them to a different situation,
+Dialogue: 0,0:03:11.78,0:03:15.21,*Default,NTP,0000,0000,0000,,that already would be an amazing achievement.
+Dialogue: 0,0:03:15.21,0:03:16.22,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:16.22,0:03:18.03,*Default,NTP,0000,0000,0000,,So if you can just do that,
+Dialogue: 0,0:03:18.03,0:03:21.31,*Default,NTP,0000,0000,0000,,then please go ahead and pause the video now
+Dialogue: 0,0:03:21.31,0:03:23.76,*Default,NTP,0000,0000,0000,,and I'll see you once you're done.
+Dialogue: 0,0:03:26.95,0:03:29.75,*Default,NTP,0000,0000,0000,,All right back to work here.
+Dialogue: 0,0:03:29.75,0:03:33.63,*Default,NTP,0000,0000,0000,,And let's start with the sale label.
+Dialogue: 0,0:03:33.63,0:03:37.52,*Default,NTP,0000,0000,0000,,So as I said, I will simply add a paragraph somewhere.
+Dialogue: 0,0:03:37.52,0:03:40.85,*Default,NTP,0000,0000,0000,,And since we will position it, absolutely,
+Dialogue: 0,0:03:40.85,0:03:43.33,*Default,NTP,0000,0000,0000,,it doesn't really matter where it is.
+Dialogue: 0,0:03:43.33,0:03:45.06,*Default,NTP,0000,0000,0000,,But I will just put it here
+Dialogue: 0,0:03:45.06,0:03:47.30,*Default,NTP,0000,0000,0000,,close to the price and the shipping
+Dialogue: 0,0:03:47.30,0:03:49.81,*Default,NTP,0000,0000,0000,,because semantically that's where
+Dialogue: 0,0:03:49.81,0:03:51.75,*Default,NTP,0000,0000,0000,,it makes sense to be located.
+Dialogue: 0,0:03:54.93,0:03:58.20,*Default,NTP,0000,0000,0000,,So let's give it a class of sale.
+Dialogue: 0,0:04:01.04,0:04:04.69,*Default,NTP,0000,0000,0000,,And then we want the text of sale as well.
+Dialogue: 0,0:04:04.69,0:04:07.12,*Default,NTP,0000,0000,0000,,And then let's close this.
+Dialogue: 0,0:04:08.87,0:04:11.82,*Default,NTP,0000,0000,0000,,And now we're here in our CSS.
+Dialogue: 0,0:04:11.82,0:04:16.82,*Default,NTP,0000,0000,0000,,Let's put it also close to this shipping.
+Dialogue: 0,0:04:16.97,0:04:17.82,*Default,NTP,0000,0000,0000,,So down here.
+Dialogue: 0,0:04:19.87,0:04:22.94,*Default,NTP,0000,0000,0000,,And let's start by adding some visual styles to it.
+Dialogue: 0,0:04:25.67,0:04:28.88,*Default,NTP,0000,0000,0000,,So some background color, for example.
+Dialogue: 0,0:04:28.88,0:04:30.67,*Default,NTP,0000,0000,0000,,And here you could have just used
+Dialogue: 0,0:04:30.67,0:04:32.44,*Default,NTP,0000,0000,0000,,any red color that you wanted.
+Dialogue: 0,0:04:32.44,0:04:35.57,*Default,NTP,0000,0000,0000,,For example, using the VS Code Color Picker.
+Dialogue: 0,0:04:35.57,0:04:37.52,*Default,NTP,0000,0000,0000,,And I also did that.
+Dialogue: 0,0:04:37.52,0:04:40.21,*Default,NTP,0000,0000,0000,,And so the color I came up with is ec2f2f.
+Dialogue: 0,0:04:44.41,0:04:45.42,*Default,NTP,0000,0000,0000,,Just like this.
+Dialogue: 0,0:04:46.34,0:04:47.39,*Default,NTP,0000,0000,0000,,It actually go there.
+Dialogue: 0,0:04:48.24,0:04:49.13,*Default,NTP,0000,0000,0000,,Now, right.
+Dialogue: 0,0:04:50.37,0:04:53.01,*Default,NTP,0000,0000,0000,,Then let's worry about the text.
+Dialogue: 0,0:04:53.01,0:04:55.03,*Default,NTP,0000,0000,0000,,So let's make it white.
+Dialogue: 0,0:04:56.09,0:04:57.05,*Default,NTP,0000,0000,0000,,Like this.
+Dialogue: 0,0:04:58.81,0:05:03.73,*Default,NTP,0000,0000,0000,,Give it a font size of 12 pixels and make it uppercase.
+Dialogue: 0,0:05:09.26,0:05:11.39,*Default,NTP,0000,0000,0000,,And make it bold as well.
+Dialogue: 0,0:05:13.91,0:05:16.96,*Default,NTP,0000,0000,0000,,So font weight, bold.
+Dialogue: 0,0:05:19.40,0:05:21.06,*Default,NTP,0000,0000,0000,,Let's give it some padding.
+Dialogue: 0,0:05:21.06,0:05:24.14,*Default,NTP,0000,0000,0000,,7 pixels at the top, 15 left and right.
+Dialogue: 0,0:05:25.15,0:05:27.51,*Default,NTP,0000,0000,0000,,And again, these don't really matter.
+Dialogue: 0,0:05:27.51,0:05:29.51,*Default,NTP,0000,0000,0000,,But many times it's a good idea
+Dialogue: 0,0:05:29.51,0:05:31.86,*Default,NTP,0000,0000,0000,,to have the horizontal padding
+Dialogue: 0,0:05:31.86,0:05:34.10,*Default,NTP,0000,0000,0000,,to be kind of double of vertical.
+Dialogue: 0,0:05:35.06,0:05:36.58,*Default,NTP,0000,0000,0000,,That's a good rule of thumb
+Dialogue: 0,0:05:36.58,0:05:38.65,*Default,NTP,0000,0000,0000,,that many times looks very good.
+Dialogue: 0,0:05:39.52,0:05:44.30,*Default,NTP,0000,0000,0000,,And now the next step is that, actually we want this element
+Dialogue: 0,0:05:44.30,0:05:47.46,*Default,NTP,0000,0000,0000,,only to occupy the space that it actually needs.
+Dialogue: 0,0:05:48.48,0:05:51.85,*Default,NTP,0000,0000,0000,,So, there are two techniques for that.
+Dialogue: 0,0:05:51.85,0:05:54.77,*Default,NTP,0000,0000,0000,,Well, actually just one, but you could also kind
+Dialogue: 0,0:05:54.77,0:05:57.46,*Default,NTP,0000,0000,0000,,of achieve this in a different way.
+Dialogue: 0,0:05:57.46,0:05:59.55,*Default,NTP,0000,0000,0000,,So the best way to do this
+Dialogue: 0,0:06:01.19,0:06:04.40,*Default,NTP,0000,0000,0000,,would be to set a display to inline box,
+Dialogue: 0,0:06:06.51,0:06:08.62,*Default,NTP,0000,0000,0000,,actually inline block.
+Dialogue: 0,0:06:08.62,0:06:12.19,*Default,NTP,0000,0000,0000,,And so now indeed, just like any inline element,
+Dialogue: 0,0:06:13.29,0:06:17.44,*Default,NTP,0000,0000,0000,,the box only occupies the space of its content.
+Dialogue: 0,0:06:17.44,0:06:18.27,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:18.27,0:06:20.03,*Default,NTP,0000,0000,0000,,So this is the correct solution,
+Dialogue: 0,0:06:20.03,0:06:23.84,*Default,NTP,0000,0000,0000,,but let's comment this out to show you another solution.
+Dialogue: 0,0:06:23.84,0:06:26.06,*Default,NTP,0000,0000,0000,,So you could have also kind of guessed
+Dialogue: 0,0:06:26.06,0:06:29.63,*Default,NTP,0000,0000,0000,,the with of this element, if you wanted.
+Dialogue: 0,0:06:29.63,0:06:33.85,*Default,NTP,0000,0000,0000,,Let's say 100 pixels and then we could adjust it.
+Dialogue: 0,0:06:34.93,0:06:39.93,*Default,NTP,0000,0000,0000,,So let's say just 80 pixels or just 50 pixels maybe.
+Dialogue: 0,0:06:40.25,0:06:42.74,*Default,NTP,0000,0000,0000,,Or 40 even.
+Dialogue: 0,0:06:42.74,0:06:45.78,*Default,NTP,0000,0000,0000,,And then once you kind of got close,
+Dialogue: 0,0:06:45.78,0:06:49.83,*Default,NTP,0000,0000,0000,,you can then just say text, align, center.
+Dialogue: 0,0:06:51.90,0:06:54.37,*Default,NTP,0000,0000,0000,,Because now there is actually enough space
+Dialogue: 0,0:06:54.37,0:06:56.07,*Default,NTP,0000,0000,0000,,around the element inside
+Dialogue: 0,0:06:56.07,0:06:58.26,*Default,NTP,0000,0000,0000,,of which the text could then be centered.
+Dialogue: 0,0:06:59.29,0:07:00.17,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:00.17,0:07:02.35,*Default,NTP,0000,0000,0000,,So when we have actually a width,
+Dialogue: 0,0:07:02.35,0:07:04.63,*Default,NTP,0000,0000,0000,,then we are no longer in that situation
+Dialogue: 0,0:07:04.63,0:07:08.98,*Default,NTP,0000,0000,0000,,where text align center doesn't make sense in an element.
+Dialogue: 0,0:07:08.98,0:07:12.12,*Default,NTP,0000,0000,0000,,Like we had before here with these links.
+Dialogue: 0,0:07:12.12,0:07:14.99,*Default,NTP,0000,0000,0000,,Remember that? So I think like two lectures ago.
+Dialogue: 0,0:07:16.35,0:07:19.67,*Default,NTP,0000,0000,0000,,But anyway, this is not the preferred solution,
+Dialogue: 0,0:07:19.67,0:07:23.30,*Default,NTP,0000,0000,0000,,but it is something that we could also have done.
+Dialogue: 0,0:07:23.30,0:07:27.37,*Default,NTP,0000,0000,0000,,So, I found that interesting to also show you that.
+Dialogue: 0,0:07:27.37,0:07:29.23,*Default,NTP,0000,0000,0000,,And so now it's time to actually
+Dialogue: 0,0:07:29.23,0:07:33.62,*Default,NTP,0000,0000,0000,,absolutely position this element right here.
+Dialogue: 0,0:07:33.62,0:07:37.38,*Default,NTP,0000,0000,0000,,So let's remember that the first thing that we need to do
+Dialogue: 0,0:07:37.38,0:07:40.52,*Default,NTP,0000,0000,0000,,in order to absolutely position an element
+Dialogue: 0,0:07:40.52,0:07:44.33,*Default,NTP,0000,0000,0000,,is to define in relation to what parent element,
+Dialogue: 0,0:07:44.33,0:07:46.66,*Default,NTP,0000,0000,0000,,this element should be positioned.
+Dialogue: 0,0:07:46.66,0:07:50.70,*Default,NTP,0000,0000,0000,,And so on that parent element, we set position to relative.
+Dialogue: 0,0:07:51.60,0:07:54.63,*Default,NTP,0000,0000,0000,,So in this case, that should be quite easy, right?
+Dialogue: 0,0:07:54.63,0:07:58.47,*Default,NTP,0000,0000,0000,,That is simply this product here.
+Dialogue: 0,0:07:58.47,0:08:01.88,*Default,NTP,0000,0000,0000,,So this article with the class of product.
+Dialogue: 0,0:08:01.88,0:08:03.22,*Default,NTP,0000,0000,0000,,And so, this is where now we want
+Dialogue: 0,0:08:03.22,0:08:08.01,*Default,NTP,0000,0000,0000,,to set position to relative.
+Dialogue: 0,0:08:09.59,0:08:12.38,*Default,NTP,0000,0000,0000,,And so, now we can go back here
+Dialogue: 0,0:08:13.83,0:08:17.60,*Default,NTP,0000,0000,0000,,and say position absolute.
+Dialogue: 0,0:08:18.82,0:08:22.47,*Default,NTP,0000,0000,0000,,And set the top and left to zero. Just to get started.
+Dialogue: 0,0:08:25.15,0:08:26.82,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:26.82,0:08:31.13,*Default,NTP,0000,0000,0000,,And now we can kind of guess the values
+Dialogue: 0,0:08:31.13,0:08:32.42,*Default,NTP,0000,0000,0000,,where this should be.
+Dialogue: 0,0:08:32.42,0:08:36.52,*Default,NTP,0000,0000,0000,,So, let's say like minus 15 pixels.
+Dialogue: 0,0:08:36.52,0:08:39.82,*Default,NTP,0000,0000,0000,,That can be a little bit more, 17.
+Dialogue: 0,0:08:41.15,0:08:41.98,*Default,NTP,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:41.98,0:08:44.82,*Default,NTP,0000,0000,0000,,So now it's like nicely in the middle
+Dialogue: 0,0:08:44.82,0:08:48.96,*Default,NTP,0000,0000,0000,,and now let's move it also like 30 pixels to the left.
+Dialogue: 0,0:08:49.90,0:08:52.43,*Default,NTP,0000,0000,0000,,So that's not quite centered yet.
+Dialogue: 0,0:08:52.43,0:08:54.32,*Default,NTP,0000,0000,0000,,Let's say 35.
+Dialogue: 0,0:08:55.43,0:08:57.15,*Default,NTP,0000,0000,0000,,Well, let's actually make it 34,
+Dialogue: 0,0:08:57.15,0:08:59.89,*Default,NTP,0000,0000,0000,,so it's exactly double off the top.
+Dialogue: 0,0:09:00.91,0:09:05.40,*Default,NTP,0000,0000,0000,,All right. So with this, we are almost done with this part.
+Dialogue: 0,0:09:05.40,0:09:08.48,*Default,NTP,0000,0000,0000,,All that's missing is this extra space
+Dialogue: 0,0:09:08.48,0:09:10.30,*Default,NTP,0000,0000,0000,,between the characters.
+Dialogue: 0,0:09:10.30,0:09:11.17,*Default,NTP,0000,0000,0000,,Right?
+Dialogue: 0,0:09:11.17,0:09:13.39,*Default,NTP,0000,0000,0000,,So to give it this extra touch,
+Dialogue: 0,0:09:13.39,0:09:16.00,*Default,NTP,0000,0000,0000,,and also because I wanted you
+Dialogue: 0,0:09:16.00,0:09:18.84,*Default,NTP,0000,0000,0000,,to practice your Googling skills.
+Dialogue: 0,0:09:18.84,0:09:21.04,*Default,NTP,0000,0000,0000,,So what I would have Googled is,
+Dialogue: 0,0:09:21.04,0:09:26.04,*Default,NTP,0000,0000,0000,,CSS add space between characters,
+Dialogue: 0,0:09:26.81,0:09:29.02,*Default,NTP,0000,0000,0000,,or you could have written letters as well,
+Dialogue: 0,0:09:30.22,0:09:34.45,*Default,NTP,0000,0000,0000,,but here you actually immediately get the result.
+Dialogue: 0,0:09:34.45,0:09:36.33,*Default,NTP,0000,0000,0000,,So letters spacing.
+Dialogue: 0,0:09:36.33,0:09:38.29,*Default,NTP,0000,0000,0000,,But I'm more interested in here,
+Dialogue: 0,0:09:38.29,0:09:40.68,*Default,NTP,0000,0000,0000,,usually in a stack overflow reply
+Dialogue: 0,0:09:40.68,0:09:44.27,*Default,NTP,0000,0000,0000,,or this documentation of MDN.
+Dialogue: 0,0:09:44.27,0:09:45.77,*Default,NTP,0000,0000,0000,,So here we have letter spacing,
+Dialogue: 0,0:09:45.77,0:09:48.89,*Default,NTP,0000,0000,0000,,which looks like something we want.
+Dialogue: 0,0:09:48.89,0:09:51.53,*Default,NTP,0000,0000,0000,,And so here, indeed we get as always
+Dialogue: 0,0:09:51.53,0:09:53.95,*Default,NTP,0000,0000,0000,,a couple of different examples.
+Dialogue: 0,0:09:53.95,0:09:58.04,*Default,NTP,0000,0000,0000,,And so, yeah. This is the property that we're gonna use.
+Dialogue: 0,0:09:58.04,0:09:59.34,*Default,NTP,0000,0000,0000,,So I'm copying it.
+Dialogue: 0,0:10:00.57,0:10:03.80,*Default,NTP,0000,0000,0000,,Let's put it here, close to these styles.
+Dialogue: 0,0:10:03.80,0:10:06.31,*Default,NTP,0000,0000,0000,,And I'm setting it to two pixels.
+Dialogue: 0,0:10:07.81,0:10:11.77,*Default,NTP,0000,0000,0000,,And yeah. That actually looks a lot nicer.
+Dialogue: 0,0:10:11.77,0:10:14.60,*Default,NTP,0000,0000,0000,,Now we just need to like, push it
+Dialogue: 0,0:10:14.60,0:10:19.60,*Default,NTP,0000,0000,0000,,even a bit more to the side there, like this.
+Dialogue: 0,0:10:19.84,0:10:23.77,*Default,NTP,0000,0000,0000,,To center it. And yeah, that's it.
+Dialogue: 0,0:10:23.77,0:10:25.94,*Default,NTP,0000,0000,0000,,So we are done with this part.
+Dialogue: 0,0:10:25.94,0:10:29.12,*Default,NTP,0000,0000,0000,,So now let's quickly add those colors here.
+Dialogue: 0,0:10:29.12,0:10:33.66,*Default,NTP,0000,0000,0000,,And as I said, previously, we will basically create a div.
+Dialogue: 0,0:10:33.66,0:10:36.86,*Default,NTP,0000,0000,0000,,So a container without any semantic meaning.
+Dialogue: 0,0:10:36.86,0:10:39.99,*Default,NTP,0000,0000,0000,,And then in there, I will create six more divs.
+Dialogue: 0,0:10:39.99,0:10:43.31,*Default,NTP,0000,0000,0000,,And then each of them will get its own background color.
+Dialogue: 0,0:10:45.52,0:10:50.52,*Default,NTP,0000,0000,0000,,So, that should be right here after the link.
+Dialogue: 0,0:10:53.55,0:10:57.76,*Default,NTP,0000,0000,0000,,Right? So after the link and before these product details.
+Dialogue: 0,0:10:59.89,0:11:03.92,*Default,NTP,0000,0000,0000,,So a div, and I'm calling it the colors.
+Dialogue: 0,0:11:07.49,0:11:10.54,*Default,NTP,0000,0000,0000,,Let's just immediately close it so we don't forget it.
+Dialogue: 0,0:11:11.60,0:11:16.24,*Default,NTP,0000,0000,0000,,Because this editor is not as good as VS Code.
+Dialogue: 0,0:11:16.24,0:11:18.00,*Default,NTP,0000,0000,0000,,But it's still quite helpful
+Dialogue: 0,0:11:18.00,0:11:21.60,*Default,NTP,0000,0000,0000,,to actually use CodePen for something like this.
+Dialogue: 0,0:11:21.60,0:11:25.56,*Default,NTP,0000,0000,0000,,And now we will just create another div in here.
+Dialogue: 0,0:11:27.55,0:11:28.38,*Default,NTP,0000,0000,0000,,Color.
+Dialogue: 0,0:11:30.01,0:11:33.65,*Default,NTP,0000,0000,0000,,And then actually this doesn't have any content at all.
+Dialogue: 0,0:11:35.74,0:11:36.57,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:11:37.41,0:11:40.94,*Default,NTP,0000,0000,0000,,So this is something we didn't really do before.
+Dialogue: 0,0:11:42.10,0:11:47.10,*Default,NTP,0000,0000,0000,,And so let me just explain and show you how we will do it.
+Dialogue: 0,0:11:47.40,0:11:48.89,*Default,NTP,0000,0000,0000,,So we want six colors.
+Dialogue: 0,0:11:48.89,0:11:51.77,*Default,NTP,0000,0000,0000,,So I'm just a copy pasting it six times.
+Dialogue: 0,0:11:53.45,0:11:54.89,*Default,NTP,0000,0000,0000,,So yeah.
+Dialogue: 0,0:11:56.05,0:11:58.54,*Default,NTP,0000,0000,0000,,Let's put that right here at the end.
+Dialogue: 0,0:11:58.54,0:12:01.69,*Default,NTP,0000,0000,0000,,So just like in the HTML.
+Dialogue: 0,0:12:01.69,0:12:05.02,*Default,NTP,0000,0000,0000,,So the colors class is not really important, I think.
+Dialogue: 0,0:12:05.87,0:12:10.56,*Default,NTP,0000,0000,0000,,So let's just start by defining each of the squares.
+Dialogue: 0,0:12:10.56,0:12:12.41,*Default,NTP,0000,0000,0000,,So each of these.
+Dialogue: 0,0:12:12.41,0:12:15.17,*Default,NTP,0000,0000,0000,,So basically we make them a square
+Dialogue: 0,0:12:15.17,0:12:18.73,*Default,NTP,0000,0000,0000,,by giving them a certain height and then a width
+Dialogue: 0,0:12:18.73,0:12:19.97,*Default,NTP,0000,0000,0000,,which is the same.
+Dialogue: 0,0:12:22.24,0:12:24.89,*Default,NTP,0000,0000,0000,,So let me show that to you.
+Dialogue: 0,0:12:24.89,0:12:25.99,*Default,NTP,0000,0000,0000,,The first thing we should do is
+Dialogue: 0,0:12:25.99,0:12:27.54,*Default,NTP,0000,0000,0000,,to give them a background color
+Dialogue: 0,0:12:28.64,0:12:30.29,*Default,NTP,0000,0000,0000,,to make it easier to see it.
+Dialogue: 0,0:12:32.50,0:12:34.53,*Default,NTP,0000,0000,0000,,The first one I think was black.
+Dialogue: 0,0:12:38.13,0:12:39.09,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:12:39.09,0:12:40.72,*Default,NTP,0000,0000,0000,,But right now they are not visible
+Dialogue: 0,0:12:40.72,0:12:42.78,*Default,NTP,0000,0000,0000,,because they don't have any content.
+Dialogue: 0,0:12:43.90,0:12:46.07,*Default,NTP,0000,0000,0000,,But if we give them a height and the width,
+Dialogue: 0,0:12:46.07,0:12:48.32,*Default,NTP,0000,0000,0000,,then they will become visible.
+Dialogue: 0,0:12:48.32,0:12:52.22,*Default,NTP,0000,0000,0000,,So let's do that. Height 22 pixels.
+Dialogue: 0,0:12:52.22,0:12:54.57,*Default,NTP,0000,0000,0000,,And so now immediately they get a height
+Dialogue: 0,0:12:54.57,0:12:57.90,*Default,NTP,0000,0000,0000,,and then they occupy all the space that they can
+Dialogue: 0,0:12:57.90,0:13:02.08,*Default,NTP,0000,0000,0000,,because they are block level elements by default, right?
+Dialogue: 0,0:13:02.08,0:13:04.80,*Default,NTP,0000,0000,0000,,So they are divs and therefore
+Dialogue: 0,0:13:04.80,0:13:06.73,*Default,NTP,0000,0000,0000,,that is by default a block level.
+Dialogue: 0,0:13:07.67,0:13:11.40,*Default,NTP,0000,0000,0000,,But now if we specify their width to be the same,
+Dialogue: 0,0:13:11.40,0:13:14.66,*Default,NTP,0000,0000,0000,,so it looks like a square then,
+Dialogue: 0,0:13:14.66,0:13:18.73,*Default,NTP,0000,0000,0000,,Well then of course they no longer do that.
+Dialogue: 0,0:13:18.73,0:13:19.56,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:13:19.56,0:13:23.74,*Default,NTP,0000,0000,0000,,So of course we are still far away from the final result.
+Dialogue: 0,0:13:23.74,0:13:26.52,*Default,NTP,0000,0000,0000,,But in order to continue effectively,
+Dialogue: 0,0:13:26.52,0:13:29.62,*Default,NTP,0000,0000,0000,,let's now give each of them a different color.
+Dialogue: 0,0:13:29.62,0:13:32.10,*Default,NTP,0000,0000,0000,,So how can we do that?
+Dialogue: 0,0:13:32.10,0:13:35.76,*Default,NTP,0000,0000,0000,,Well, I will actually add another class to each of them.
+Dialogue: 0,0:13:35.76,0:13:37.89,*Default,NTP,0000,0000,0000,,And that is completely possible.
+Dialogue: 0,0:13:37.89,0:13:39.81,*Default,NTP,0000,0000,0000,,Remember that we are allowed
+Dialogue: 0,0:13:39.81,0:13:42.87,*Default,NTP,0000,0000,0000,,to give each element more than one class.
+Dialogue: 0,0:13:42.87,0:13:44.82,*Default,NTP,0000,0000,0000,,So I showed you that before.
+Dialogue: 0,0:13:44.82,0:13:47.47,*Default,NTP,0000,0000,0000,,So the way we do that, is to add a space
+Dialogue: 0,0:13:47.47,0:13:49.77,*Default,NTP,0000,0000,0000,,and then simply add another one.
+Dialogue: 0,0:13:51.13,0:13:53.08,*Default,NTP,0000,0000,0000,,So the first one was black,
+Dialogue: 0,0:13:53.08,0:13:56.23,*Default,NTP,0000,0000,0000,,then blue, red, yellow, green, and brown.
+Dialogue: 0,0:13:57.67,0:13:58.85,*Default,NTP,0000,0000,0000,,And so,
+Dialogue: 0,0:13:58.85,0:14:01.69,*Default,NTP,0000,0000,0000,,Well, in the first one, we actually don't need to do that
+Dialogue: 0,0:14:01.69,0:14:04.16,*Default,NTP,0000,0000,0000,,because they are black already, all of them.
+Dialogue: 0,0:14:04.16,0:14:06.98,*Default,NTP,0000,0000,0000,,And so we can then basically override that
+Dialogue: 0,0:14:06.98,0:14:08.14,*Default,NTP,0000,0000,0000,,in all the other ones.
+Dialogue: 0,0:14:09.96,0:14:13.72,*Default,NTP,0000,0000,0000,,So let's call this one, the color blue.
+Dialogue: 0,0:14:14.74,0:14:18.82,*Default,NTP,0000,0000,0000,,And then let me just copy-paste that a couple of times.
+Dialogue: 0,0:14:23.47,0:14:25.00,*Default,NTP,0000,0000,0000,,So red,
+Dialogue: 0,0:14:27.51,0:14:28.34,*Default,NTP,0000,0000,0000,,yellow,
+Dialogue: 0,0:14:29.96,0:14:31.35,*Default,NTP,0000,0000,0000,,green,
+Dialogue: 0,0:14:31.35,0:14:32.69,*Default,NTP,0000,0000,0000,,and
+Dialogue: 0,0:14:32.69,0:14:33.65,*Default,NTP,0000,0000,0000,,brown.
+Dialogue: 0,0:14:34.85,0:14:36.01,*Default,NTP,0000,0000,0000,,And now we will of course have
+Dialogue: 0,0:14:36.01,0:14:38.31,*Default,NTP,0000,0000,0000,,to select all of them right here.
+Dialogue: 0,0:14:49.62,0:14:50.94,*Default,NTP,0000,0000,0000,,So again, you could have come up
+Dialogue: 0,0:14:50.94,0:14:53.95,*Default,NTP,0000,0000,0000,,with any blue color that you like.
+Dialogue: 0,0:14:53.95,0:14:56.63,*Default,NTP,0000,0000,0000,,My choice was this one, 2f6ee2.
+Dialogue: 0,0:15:01.47,0:15:03.13,*Default,NTP,0000,0000,0000,,So let's see.
+Dialogue: 0,0:15:03.13,0:15:06.71,*Default,NTP,0000,0000,0000,,And indeed, now it is blue.
+Dialogue: 0,0:15:06.71,0:15:09.62,*Default,NTP,0000,0000,0000,,Now, we'll just copy this a couple of times.
+Dialogue: 0,0:15:12.62,0:15:13.56,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:15:14.84,0:15:15.73,*Default,NTP,0000,0000,0000,,So red,
+Dialogue: 0,0:15:17.34,0:15:18.27,*Default,NTP,0000,0000,0000,,yellow,
+Dialogue: 0,0:15:18.27,0:15:19.39,*Default,NTP,0000,0000,0000,,green,
+Dialogue: 0,0:15:20.89,0:15:22.27,*Default,NTP,0000,0000,0000,,and brown.
+Dialogue: 0,0:15:25.40,0:15:27.19,*Default,NTP,0000,0000,0000,,So not here, but here.
+Dialogue: 0,0:15:30.66,0:15:35.59,*Default,NTP,0000,0000,0000,,Here let's use the same red that I had before, actually.
+Dialogue: 0,0:15:38.84,0:15:40.91,*Default,NTP,0000,0000,0000,,And then the yellow was f0ef1e.
+Dialogue: 0,0:15:46.05,0:15:48.76,*Default,NTP,0000,0000,0000,,Green is 90cc20.
+Dialogue: 0,0:15:49.91,0:15:53.97,*Default,NTP,0000,0000,0000,,And finally the brown is 885214.
+Dialogue: 0,0:15:56.63,0:15:57.95,*Default,NTP,0000,0000,0000,,And there you go.
+Dialogue: 0,0:15:57.95,0:16:00.62,*Default,NTP,0000,0000,0000,,There we have all six different colors.
+Dialogue: 0,0:16:00.62,0:16:03.94,*Default,NTP,0000,0000,0000,,Now, all we need to do is to put them side by side.
+Dialogue: 0,0:16:05.17,0:16:06.99,*Default,NTP,0000,0000,0000,,So how can we do that?
+Dialogue: 0,0:16:07.96,0:16:11.22,*Default,NTP,0000,0000,0000,,Well, there is a neat trick that we learned before,
+Dialogue: 0,0:16:11.22,0:16:13.73,*Default,NTP,0000,0000,0000,,which is to change the display property
+Dialogue: 0,0:16:13.73,0:16:16.31,*Default,NTP,0000,0000,0000,,of these elements to inline block.
+Dialogue: 0,0:16:18.30,0:16:23.17,*Default,NTP,0000,0000,0000,,So we will now set all of these six elements.
+Dialogue: 0,0:16:23.17,0:16:26.70,*Default,NTP,0000,0000,0000,,So all of them, which have the class of color
+Dialogue: 0,0:16:26.70,0:16:29.48,*Default,NTP,0000,0000,0000,,to inline block.
+Dialogue: 0,0:16:29.48,0:16:32.62,*Default,NTP,0000,0000,0000,,Because like this, they will only occupy the space
+Dialogue: 0,0:16:32.62,0:16:34.98,*Default,NTP,0000,0000,0000,,that they need and they will also
+Dialogue: 0,0:16:34.98,0:16:38.11,*Default,NTP,0000,0000,0000,,not create any line breaks after them.
+Dialogue: 0,0:16:38.11,0:16:40.83,*Default,NTP,0000,0000,0000,,And so that is exactly what we want.
+Dialogue: 0,0:16:40.83,0:16:42.55,*Default,NTP,0000,0000,0000,,Now we could not use inline because
+Dialogue: 0,0:16:42.55,0:16:46.36,*Default,NTP,0000,0000,0000,,then the height and width wouldn't really work as expected.
+Dialogue: 0,0:16:47.29,0:16:49.35,*Default,NTP,0000,0000,0000,,Or at least they shouldn't.
+Dialogue: 0,0:16:49.35,0:16:52.83,*Default,NTP,0000,0000,0000,,And you see that indeed it doesn't work.
+Dialogue: 0,0:16:52.83,0:16:54.41,*Default,NTP,0000,0000,0000,,So it needs to be inline block
+Dialogue: 0,0:16:54.41,0:16:56.60,*Default,NTP,0000,0000,0000,,because remember height and width,
+Dialogue: 0,0:16:56.60,0:16:58.78,*Default,NTP,0000,0000,0000,,do not apply to inline elements.
+Dialogue: 0,0:16:59.64,0:17:02.24,*Default,NTP,0000,0000,0000,,And now all we need is a small margin
+Dialogue: 0,0:17:02.24,0:17:04.50,*Default,NTP,0000,0000,0000,,to the right of each of them
+Dialogue: 0,0:17:05.40,0:17:08.05,*Default,NTP,0000,0000,0000,,of let's say, 12 pixels.
+Dialogue: 0,0:17:09.12,0:17:10.59,*Default,NTP,0000,0000,0000,,And there we go.
+Dialogue: 0,0:17:10.59,0:17:14.50,*Default,NTP,0000,0000,0000,,It's a bit too much, maybe. So 10 pixels.
+Dialogue: 0,0:17:14.50,0:17:16.32,*Default,NTP,0000,0000,0000,,And that's it.
+Dialogue: 0,0:17:16.32,0:17:18.52,*Default,NTP,0000,0000,0000,,So that's all we need to do.
+Dialogue: 0,0:17:18.52,0:17:20.37,*Default,NTP,0000,0000,0000,,Well, actually we are missing
+Dialogue: 0,0:17:20.37,0:17:24.09,*Default,NTP,0000,0000,0000,,like some space here after this anchor.
+Dialogue: 0,0:17:24.09,0:17:25.59,*Default,NTP,0000,0000,0000,,And remember how we actually
+Dialogue: 0,0:17:25.59,0:17:27.78,*Default,NTP,0000,0000,0000,,already had this problem before.
+Dialogue: 0,0:17:27.78,0:17:29.84,*Default,NTP,0000,0000,0000,,So we tried to add some space.
+Dialogue: 0,0:17:29.84,0:17:33.53,*Default,NTP,0000,0000,0000,,So some margin bottom to this anchor, but it didn't work.
+Dialogue: 0,0:17:33.53,0:17:36.49,*Default,NTP,0000,0000,0000,,And so the work around was to then add that space
+Dialogue: 0,0:17:36.49,0:17:39.96,*Default,NTP,0000,0000,0000,,at the top of this heading.
+Dialogue: 0,0:17:39.96,0:17:41.35,*Default,NTP,0000,0000,0000,,Remember that?
+Dialogue: 0,0:17:41.35,0:17:45.21,*Default,NTP,0000,0000,0000,,So that's why here these details title, has the margin top.
+Dialogue: 0,0:17:45.21,0:17:47.47,*Default,NTP,0000,0000,0000,,And by the time we didn't understand
+Dialogue: 0,0:17:47.47,0:17:52.13,*Default,NTP,0000,0000,0000,,why adding margin bottom to this anchor element didn't work.
+Dialogue: 0,0:17:52.13,0:17:54.57,*Default,NTP,0000,0000,0000,,But now we actually do.
+Dialogue: 0,0:17:54.57,0:17:56.86,*Default,NTP,0000,0000,0000,,So let's do that as well.
+Dialogue: 0,0:17:58.27,0:18:01.25,*Default,NTP,0000,0000,0000,,So that's right here.
+Dialogue: 0,0:18:01.25,0:18:06.25,*Default,NTP,0000,0000,0000,,So let's add a margin bottom here of 30 pixels,
+Dialogue: 0,0:18:06.50,0:18:08.77,*Default,NTP,0000,0000,0000,,which will still not work.
+Dialogue: 0,0:18:08.77,0:18:11.77,*Default,NTP,0000,0000,0000,,But again, we now know why it doesn't work.
+Dialogue: 0,0:18:11.77,0:18:13.74,*Default,NTP,0000,0000,0000,,And the reason is that,
+Dialogue: 0,0:18:13.74,0:18:16.58,*Default,NTP,0000,0000,0000,,the anchor element is an inline element.
+Dialogue: 0,0:18:16.58,0:18:18.38,*Default,NTP,0000,0000,0000,,And on inline elements,
+Dialogue: 0,0:18:18.38,0:18:22.02,*Default,NTP,0000,0000,0000,,the top and margin bottoms do not apply.
+Dialogue: 0,0:18:22.02,0:18:24.26,*Default,NTP,0000,0000,0000,,So, to fix that once again,
+Dialogue: 0,0:18:24.26,0:18:28.09,*Default,NTP,0000,0000,0000,,we need to display this as an inline block.
+Dialogue: 0,0:18:28.09,0:18:30.14,*Default,NTP,0000,0000,0000,,So, easy enough.
+Dialogue: 0,0:18:30.14,0:18:34.54,*Default,NTP,0000,0000,0000,,Display inline block,
+Dialogue: 0,0:18:34.54,0:18:37.28,*Default,NTP,0000,0000,0000,,and there you go.
+Dialogue: 0,0:18:37.28,0:18:40.79,*Default,NTP,0000,0000,0000,,There we have, our 30 pixels now nicely displayed.
+Dialogue: 0,0:18:42.39,0:18:43.55,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:18:43.55,0:18:45.36,*Default,NTP,0000,0000,0000,,And I think with this,
+Dialogue: 0,0:18:46.65,0:18:51.03,*Default,NTP,0000,0000,0000,,our solution looks exactly the same as our demo.
+Dialogue: 0,0:18:51.03,0:18:54.91,*Default,NTP,0000,0000,0000,,So we are done now as it looks.
+Dialogue: 0,0:18:56.53,0:18:59.22,*Default,NTP,0000,0000,0000,,Yep. So, it seems so.
+Dialogue: 0,0:18:59.22,0:19:01.08,*Default,NTP,0000,0000,0000,,And so, yeah.
+Dialogue: 0,0:19:01.08,0:19:06.08,*Default,NTP,0000,0000,0000,,That's actually a wraps up this introduction to CSS section.
+Dialogue: 0,0:19:06.32,0:19:08.98,*Default,NTP,0000,0000,0000,,So one more time, congratulations
+Dialogue: 0,0:19:08.98,0:19:12.46,*Default,NTP,0000,0000,0000,,for reaching this first part of the course.
+Dialogue: 0,0:19:12.46,0:19:16.33,*Default,NTP,0000,0000,0000,,And you now have all the fundamentals of HTML and CSS
+Dialogue: 0,0:19:16.33,0:19:19.77,*Default,NTP,0000,0000,0000,,that you need in order to start building layouts.
+Dialogue: 0,0:19:19.77,0:19:24.19,*Default,NTP,0000,0000,0000,,Which is actually one of the main parts of CSS.
+Dialogue: 0,0:19:24.19,0:19:26.95,*Default,NTP,0000,0000,0000,,So there's a whole section waiting about that.
+Dialogue: 0,0:19:26.95,0:19:29.33,*Default,NTP,0000,0000,0000,,And so once you're done reviewing everything
+Dialogue: 0,0:19:29.33,0:19:33.59,*Default,NTP,0000,0000,0000,,that we did here, I will see you in that next section.
+Dialogue: 0,0:19:33.59,0:19:34.82,*Default,NTP,0000,0000,0000,,Once you are ready.

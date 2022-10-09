@@ -1,0 +1,294 @@
+[Script Info]
+Title: 037 Centering our Page_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=35&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.54,0:00:05.87,*Default,NTP,0000,0000,0000,,我从 CSS 中学到的第一个技巧之一
+Dialogue: 0,0:00:05.87,0:00:10.07,*Default,NTP,0000,0000,0000,,是如何在浏览器中居中页面。
+Dialogue: 0,0:00:10.07,0:00:11.24,*Default,NTP,0000,0000,0000,,所以回到过去，
+Dialogue: 0,0:00:11.24,0:00:15.80,*Default,NTP,0000,0000,0000,,许多寻呼机没有居中，我发现它真的很酷
+Dialogue: 0,0:00:15.80,0:00:19.37,*Default,NTP,0000,0000,0000,,我们可以很容易地在浏览器中将页面居中
+Dialogue: 0,0:00:19.37,0:00:22.67,*Default,NTP,0000,0000,0000,,使用一个非常简单的技巧。所以现在让我
+Dialogue: 0,0:00:22.67,0:00:26.68,*Default,NTP,0000,0000,0000,,在此视频中与您分享这个非常棒的技巧。
+Dialogue: 0,0:00:27.86,0:00:30.96,*Default,NTP,0000,0000,0000,,现在，我们需要做的第一件事
+Dialogue: 0,0:00:30.96,0:00:34.12,*Default,NTP,0000,0000,0000,,为了完成这个技巧是
+Dialogue: 0,0:00:34.12,0:00:38.17,*Default,NTP,0000,0000,0000,,将我们所有的内容放入一个容器元素中，
+Dialogue: 0,0:00:38.17,0:00:41.09,*Default,NTP,0000,0000,0000,,因为否则，如果我们不这样做，
+Dialogue: 0,0:00:41.09,0:00:44.71,*Default,NTP,0000,0000,0000,,那么实际上在窗口中居中的是什么？
+Dialogue: 0,0:00:44.71,0:00:49.43,*Default,NTP,0000,0000,0000,,所以我的意思是现在，随着我们不断调整大小
+Dialogue: 0,0:00:49.43,0:00:52.63,*Default,NTP,0000,0000,0000,,浏览器窗口，实际上所有的内容
+Dialogue: 0,0:00:52.63,0:00:55.65,*Default,NTP,0000,0000,0000,,从一侧延伸到另一侧。
+Dialogue: 0,0:00:55.65,0:00:59.60,*Default,NTP,0000,0000,0000,,所以没有内容可以居中
+Dialogue: 0,0:00:59.60,0:01:03.14,*Default,NTP,0000,0000,0000,,在浏览器的中心，对吧？
+Dialogue: 0,0:01:03.14,0:01:06.68,*Default,NTP,0000,0000,0000,,所以我们首先需要一个容器和那个容器
+Dialogue: 0,0:01:06.68,0:01:08.44,*Default,NTP,0000,0000,0000,,然后需要一定的宽度。
+Dialogue: 0,0:01:09.81,0:01:14.81,*Default,NTP,0000,0000,0000,,所以让我们把所有这些都放在一个盒子里
+Dialogue: 0,0:01:15.01,0:01:18.96,*Default,NTP,0000,0000,0000,,这个框不需要有任何特殊含义。
+Dialogue: 0,0:01:18.96,0:01:22.45,*Default,NTP,0000,0000,0000,,所以我们在这里不需要语义 HTML 元素。
+Dialogue: 0,0:01:22.45,0:01:25.91,*Default,NTP,0000,0000,0000,,所以我们可以简单地使用 div 元素。
+Dialogue: 0,0:01:27.44,0:01:29.82,*Default,NTP,0000,0000,0000,,现在这个不应该在这里关闭，
+Dialogue: 0,0:01:30.69,0:01:34.82,*Default,NTP,0000,0000,0000,,但它应该在身体结束之前关闭。
+Dialogue: 0,0:01:36.57,0:01:38.42,*Default,NTP,0000,0000,0000,,所以它从那里开始
+Dialogue: 0,0:01:39.30,0:01:42.87,*Default,NTP,0000,0000,0000,,我们只在页脚之后关闭它。
+Dialogue: 0,0:01:43.72,0:01:44.97,*Default,NTP,0000,0000,0000,,现在当我保存它时，
+Dialogue: 0,0:01:44.97,0:01:48.77,*Default,NTP,0000,0000,0000,,所有缩进都应该自动修复
+Dialogue: 0,0:01:48.77,0:01:53.16,*Default,NTP,0000,0000,0000,,确实如此，很好。所以这是一件非常好的事情
+Dialogue: 0,0:01:53.16,0:01:58.16,*Default,NTP,0000,0000,0000,,关于更漂亮，所以当我们不断添加其他元素时，
+Dialogue: 0,0:01:58.28,0:02:00.97,*Default,NTP,0000,0000,0000,,然后所有的缩进都会自动修复，
+Dialogue: 0,0:02:00.97,0:02:02.88,*Default,NTP,0000,0000,0000,,这真的非常有帮助。
+Dialogue: 0,0:02:03.75,0:02:06.21,*Default,NTP,0000,0000,0000,,那么在这里，我们需要给我们一个名字
+Dialogue: 0,0:02:06.21,0:02:09.25,*Default,NTP,0000,0000,0000,,我喜欢使用容器的名称。
+Dialogue: 0,0:02:10.21,0:02:13.57,*Default,NTP,0000,0000,0000,,让我们复制该类并在此处设置样式。
+Dialogue: 0,0:02:14.63,0:02:17.73,*Default,NTP,0000,0000,0000,,正如我所说，现在我们实际上需要给予
+Dialogue: 0,0:02:17.73,0:02:19.87,*Default,NTP,0000,0000,0000,,这个容器有一个宽度，因为
+Dialogue: 0,0:02:19.87,0:02:23.34,*Default,NTP,0000,0000,0000,,否则就没有什么可居中的了。
+Dialogue: 0,0:02:25.55,0:02:29.09,*Default,NTP,0000,0000,0000,,所以让我们从 700 像素开始
+Dialogue: 0,0:02:29.09,0:02:31.80,*Default,NTP,0000,0000,0000,,稍后我会扩大一点。
+Dialogue: 0,0:02:31.80,0:02:33.26,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:02:33.26,0:02:37.60,*Default,NTP,0000,0000,0000,,所以我们现在有这个 700 像素的宽度。
+Dialogue: 0,0:02:37.60,0:02:40.67,*Default,NTP,0000,0000,0000,,所以你会看到现在这个元素的宽度。
+Dialogue: 0,0:02:40.67,0:02:42.37,*Default,NTP,0000,0000,0000,,所以这里的标题，
+Dialogue: 0,0:02:42.37,0:02:45.76,*Default,NTP,0000,0000,0000,,这是容器的子元素是
+Dialogue: 0,0:02:45.76,0:02:49.26,*Default,NTP,0000,0000,0000,,现在也只有 702 像素。
+Dialogue: 0,0:02:51.60,0:02:56.50,*Default,NTP,0000,0000,0000,,再说一遍，这里的 div 的宽度是 700，
+Dialogue: 0,0:02:57.61,0:02:59.48,*Default,NTP,0000,0000,0000,,所以我们可以在这里看到。
+Dialogue: 0,0:02:59.48,0:03:01.75,*Default,NTP,0000,0000,0000,,所以现在的子元素，
+Dialogue: 0,0:03:01.75,0:03:05.20,*Default,NTP,0000,0000,0000,,里面当然不能大于
+Dialogue: 0,0:03:05.20,0:03:10.20,*Default,NTP,0000,0000,0000,,那。所以它们只能和容器元素一样大。
+Dialogue: 0,0:03:10.20,0:03:15.10,*Default,NTP,0000,0000,0000,,因此，这个也是 600 像素宽
+Dialogue: 0,0:03:15.10,0:03:20.08,*Default,NTP,0000,0000,0000,,或者实际上是 700。所以这是 620 加 40 加 40。
+Dialogue: 0,0:03:21.28,0:03:22.41,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:03:22.41,0:03:26.04,*Default,NTP,0000,0000,0000,,所以这与继承或其他东西无关
+Dialogue: 0,0:03:26.04,0:03:29.64,*Default,NTP,0000,0000,0000,,像那样。相反，它只是逻辑
+Dialogue: 0,0:03:29.64,0:03:33.03,*Default,NTP,0000,0000,0000,,子元素永远不能比父元素宽
+Dialogue: 0,0:03:33.03,0:03:37.10,*Default,NTP,0000,0000,0000,,元素。所以如果父元素是700，
+Dialogue: 0,0:03:37.10,0:03:40.44,*Default,NTP,0000,0000,0000,,那么所有其他人也将是700。
+Dialogue: 0,0:03:41.82,0:03:46.63,*Default,NTP,0000,0000,0000,,所以这个例如是 700 和 h2 也是如此，
+Dialogue: 0,0:03:46.63,0:03:48.22,*Default,NTP,0000,0000,0000,,等等等等。
+Dialogue: 0,0:03:49.30,0:03:52.67,*Default,NTP,0000,0000,0000,,对，当然图片也是如此，
+Dialogue: 0,0:03:52.67,0:03:54.48,*Default,NTP,0000,0000,0000,,这是父母的100％。
+Dialogue: 0,0:03:56.07,0:03:58.81,*Default,NTP,0000,0000,0000,,所以现在我们继续做大
+Dialogue: 0,0:03:58.81,0:04:01.87,*Default,NTP,0000,0000,0000,,这个 700 像素的容器在这里，67
+Dialogue: 0,0:04:01.87,0:04:04.82,*Default,NTP,0000,0000,0000,,始终保持在左侧。
+Dialogue: 0,0:04:04.82,0:04:07.10,*Default,NTP,0000,0000,0000,,所以现在作为最后一步，
+Dialogue: 0,0:04:07.10,0:04:10.73,*Default,NTP,0000,0000,0000,,我们需要将这个容器元素居中
+Dialogue: 0,0:04:10.73,0:04:12.88,*Default,NTP,0000,0000,0000,,浏览器内部。
+Dialogue: 0,0:04:12.88,0:04:15.56,*Default,NTP,0000,0000,0000,,这就是真正的技巧。
+Dialogue: 0,0:04:17.47,0:04:21.50,*Default,NTP,0000,0000,0000,,所以给容器宽度是第一部分，
+Dialogue: 0,0:04:21.50,0:04:25.62,*Default,NTP,0000,0000,0000,,现在第二部分是在左边添加一些边距
+Dialogue: 0,0:04:25.62,0:04:27.76,*Default,NTP,0000,0000,0000,,和容器的右侧。
+Dialogue: 0,0:04:31.10,0:04:35.50,*Default,NTP,0000,0000,0000,,所以我们可以说margin left，然后设置为auto，
+Dialogue: 0,0:04:35.50,0:04:37.22,*Default,NTP,0000,0000,0000,,代表自动。
+Dialogue: 0,0:04:38.42,0:04:43.32,*Default,NTP,0000,0000,0000,,右边距也是自动的。
+Dialogue: 0,0:04:43.32,0:04:47.05,*Default,NTP,0000,0000,0000,,所以这意味着左边的边距需要
+Dialogue: 0,0:04:47.05,0:04:50.24,*Default,NTP,0000,0000,0000,,与右侧的边距相同。
+Dialogue: 0,0:04:50.24,0:04:52.97,*Default,NTP,0000,0000,0000,,它们都应该自动计算
+Dialogue: 0,0:04:52.97,0:04:54.30,*Default,NTP,0000,0000,0000,,通过浏览器。
+Dialogue: 0,0:04:54.30,0:04:57.91,*Default,NTP,0000,0000,0000,,因此，这将意味着会有一个余量
+Dialogue: 0,0:04:57.91,0:04:59.66,*Default,NTP,0000,0000,0000,,在左边和右边，
+Dialogue: 0,0:04:59.66,0:05:02.26,*Default,NTP,0000,0000,0000,,这将是完全相同的大小。
+Dialogue: 0,0:05:02.26,0:05:04.32,*Default,NTP,0000,0000,0000,,因此，结果，
+Dialogue: 0,0:05:04.32,0:05:08.48,*Default,NTP,0000,0000,0000,,容器将在身体内部看起来居中。
+Dialogue: 0,0:05:08.48,0:05:11.49,*Default,NTP,0000,0000,0000,,所以基本上在浏览器内部。
+Dialogue: 0,0:05:12.53,0:05:17.37,*Default,NTP,0000,0000,0000,,因此，如果我们给我们一个安全的，那么它确实有效。
+Dialogue: 0,0:05:17.37,0:05:19.03,*Default,NTP,0000,0000,0000,,伟大的。
+Dialogue: 0,0:05:19.03,0:05:21.06,*Default,NTP,0000,0000,0000,,这是太棒了。
+Dialogue: 0,0:05:21.06,0:05:24.37,*Default,NTP,0000,0000,0000,,所以当我们调整大小时，让我们看看，
+Dialogue: 0,0:05:25.78,0:05:30.00,*Default,NTP,0000,0000,0000,,然后左边和右边的边距不断增长。
+Dialogue: 0,0:05:30.00,0:05:34.30,*Default,NTP,0000,0000,0000,,他们基本上一直给我们一种错觉，即
+Dialogue: 0,0:05:34.30,0:05:36.95,*Default,NTP,0000,0000,0000,,页面完全居中
+Dialogue: 0,0:05:36.95,0:05:39.56,*Default,NTP,0000,0000,0000,,使容器居中。
+Dialogue: 0,0:05:39.56,0:05:43.20,*Default,NTP,0000,0000,0000,,所以如果我现在检查这个并去容器，
+Dialogue: 0,0:05:44.49,0:05:47.43,*Default,NTP,0000,0000,0000,,然后在这里，我可以看到边距是现在，
+Dialogue: 0,0:05:47.43,0:05:50.66,*Default,NTP,0000,0000,0000,,两边180。
+Dialogue: 0,0:05:50.66,0:05:52.45,*Default,NTP,0000,0000,0000,,如果我调整这个大小，
+Dialogue: 0,0:05:54.12,0:05:56.89,*Default,NTP,0000,0000,0000,,然后你会看到现在它只是例如，
+Dialogue: 0,0:05:56.89,0:05:59.58,*Default,NTP,0000,0000,0000,,每边72个半。
+Dialogue: 0,0:06:00.57,0:06:03.04,*Default,NTP,0000,0000,0000,,所以再一次，两边都是一样的
+Dialogue: 0,0:06:03.04,0:06:06.16,*Default,NTP,0000,0000,0000,,因为两边都是自动的。
+Dialogue: 0,0:06:06.16,0:06:08.90,*Default,NTP,0000,0000,0000,,而auto表示浏览器会自动
+Dialogue: 0,0:06:08.90,0:06:11.05,*Default,NTP,0000,0000,0000,,算出宽度。
+Dialogue: 0,0:06:12.19,0:06:13.82,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:13.82,0:06:17.52,*Default,NTP,0000,0000,0000,,现在这里实际上我希望这是 800 像素，
+Dialogue: 0,0:06:17.52,0:06:19.69,*Default,NTP,0000,0000,0000,,但我之前把它放小了一点，
+Dialogue: 0,0:06:19.69,0:06:24.40,*Default,NTP,0000,0000,0000,,因为如果我们再这样说，我们实际上不能，
+Dialogue: 0,0:06:24.40,0:06:27.76,*Default,NTP,0000,0000,0000,,什么也看不见。所以它看起来并不居中，
+Dialogue: 0,0:06:27.76,0:06:31.94,*Default,NTP,0000,0000,0000,,但当然，如果我们继续扩大窗口，
+Dialogue: 0,0:06:31.94,0:06:36.25,*Default,NTP,0000,0000,0000,,那么现在整个专栏都很好地居中，对吧？
+Dialogue: 0,0:06:38.17,0:06:40.34,*Default,NTP,0000,0000,0000,,所以这是一个非常棒的技巧。
+Dialogue: 0,0:06:40.34,0:06:45.34,*Default,NTP,0000,0000,0000,,我记得在那天，就像 15 年前一样，
+Dialogue: 0,0:06:45.50,0:06:48.46,*Default,NTP,0000,0000,0000,,当我发现这个技巧时，我真的很高兴。
+Dialogue: 0,0:06:50.48,0:06:51.91,*Default,NTP,0000,0000,0000,,现在，刚刚结束，
+Dialogue: 0,0:06:51.91,0:06:55.63,*Default,NTP,0000,0000,0000,,我们也可以再次将serie写成速记，
+Dialogue: 0,0:06:55.63,0:06:57.92,*Default,NTP,0000,0000,0000,,这实际上更常见。
+Dialogue: 0,0:06:59.10,0:07:03.26,*Default,NTP,0000,0000,0000,,所以现在顶部和底部的边距为零
+Dialogue: 0,0:07:03.26,0:07:05.46,*Default,NTP,0000,0000,0000,,左右，是自动的。
+Dialogue: 0,0:07:05.46,0:07:07.91,*Default,NTP,0000,0000,0000,,这就是速记的第二个值。
+Dialogue: 0,0:07:09.59,0:07:11.99,*Default,NTP,0000,0000,0000,,所以我们可以摆脱这个。
+Dialogue: 0,0:07:11.99,0:07:15.71,*Default,NTP,0000,0000,0000,,好了，让我们再次测试一下。
+Dialogue: 0,0:07:15.71,0:07:19.39,*Default,NTP,0000,0000,0000,,事实上，它的工作原理是一样的，对吧？
+Dialogue: 0,0:07:20.32,0:07:23.89,*Default,NTP,0000,0000,0000,,有了这个，我们完成了这个绝妙的技巧。
+Dialogue: 0,0:07:23.89,0:07:26.87,*Default,NTP,0000,0000,0000,,而且实际上我们完成了这部分
+Dialogue: 0,0:07:26.87,0:07:29.19,*Default,NTP,0000,0000,0000,,关于盒子模型的部分。
+Dialogue: 0,0:07:29.19,0:07:32.70,*Default,NTP,0000,0000,0000,,所以这意味着我们现在已经准备好迎接下一个
+Dialogue: 0,0:07:32.70,0:07:35.53,*Default,NTP,0000,0000,0000,,编码挑战的一部分。
+Dialogue: 0,0:07:35.53,0:07:39.81,*Default,NTP,0000,0000,0000,,所以在揭露了这个，也许揭露了整个
+Dialogue: 0,0:07:39.81,0:07:42.87,*Default,NTP,0000,0000,0000,,文件，所以它现在的样子
+Dialogue: 0,0:07:42.87,0:07:45.03,*Default,NTP,0000,0000,0000,,在本节的这一部分之后。
+Dialogue: 0,0:07:45.03,0:07:47.01,*Default,NTP,0000,0000,0000,,所以一旦你这样做了，
+Dialogue: 0,0:07:47.01,0:07:51.30,*Default,NTP,0000,0000,0000,,那么让我们继续到下一个视频并开始我们的下一个
+Dialogue: 0,0:07:51.30,0:07:52.71,*Default,NTP,0000,0000,0000,,编码挑战。
+Dialogue: 0,0:07:52.71,0:07:53.68,*Default,NTP,0000,0000,0000,,所以在那里见。
+Dialogue: 0,0:00:01.54,0:00:05.87,*Default,NTP,0000,0000,0000,,One of the very first tricks that I learned with CSS
+Dialogue: 0,0:00:05.87,0:00:10.07,*Default,NTP,0000,0000,0000,,was how to center a page inside of the browser.
+Dialogue: 0,0:00:10.07,0:00:11.24,*Default,NTP,0000,0000,0000,,So back in the day,
+Dialogue: 0,0:00:11.24,0:00:15.80,*Default,NTP,0000,0000,0000,,many pagers were not centered and I found it really cool
+Dialogue: 0,0:00:15.80,0:00:19.37,*Default,NTP,0000,0000,0000,,that we could very easily center a page in a browser
+Dialogue: 0,0:00:19.37,0:00:22.67,*Default,NTP,0000,0000,0000,,using a very simple trick. And so let me now
+Dialogue: 0,0:00:22.67,0:00:26.68,*Default,NTP,0000,0000,0000,,share that really nice trick with you in this video.
+Dialogue: 0,0:00:27.86,0:00:30.96,*Default,NTP,0000,0000,0000,,Now, the very first thing that we need to do
+Dialogue: 0,0:00:30.96,0:00:34.12,*Default,NTP,0000,0000,0000,,in order to pull off this trick is to
+Dialogue: 0,0:00:34.12,0:00:38.17,*Default,NTP,0000,0000,0000,,put all of our content into a container element,
+Dialogue: 0,0:00:38.17,0:00:41.09,*Default,NTP,0000,0000,0000,,because otherwise, if we don't do that,
+Dialogue: 0,0:00:41.09,0:00:44.71,*Default,NTP,0000,0000,0000,,then what is there actually to center in the window?
+Dialogue: 0,0:00:44.71,0:00:49.43,*Default,NTP,0000,0000,0000,,So what I mean is that right now, as we keep resizing
+Dialogue: 0,0:00:49.43,0:00:52.63,*Default,NTP,0000,0000,0000,,the browser window, all of the content actually
+Dialogue: 0,0:00:52.63,0:00:55.65,*Default,NTP,0000,0000,0000,,stretches from one side to the other.
+Dialogue: 0,0:00:55.65,0:00:59.60,*Default,NTP,0000,0000,0000,,So there is no content there to center
+Dialogue: 0,0:00:59.60,0:01:03.14,*Default,NTP,0000,0000,0000,,in the center of the browser, right?
+Dialogue: 0,0:01:03.14,0:01:06.68,*Default,NTP,0000,0000,0000,,So we first need a container and that container
+Dialogue: 0,0:01:06.68,0:01:08.44,*Default,NTP,0000,0000,0000,,then needs a certain width.
+Dialogue: 0,0:01:09.81,0:01:14.81,*Default,NTP,0000,0000,0000,,So let's put all of this into a box and
+Dialogue: 0,0:01:15.01,0:01:18.96,*Default,NTP,0000,0000,0000,,this box doesn't need to have any special meaning.
+Dialogue: 0,0:01:18.96,0:01:22.45,*Default,NTP,0000,0000,0000,,So we don't need a semantic HTML element here.
+Dialogue: 0,0:01:22.45,0:01:25.91,*Default,NTP,0000,0000,0000,,And so we can simply use a div element.
+Dialogue: 0,0:01:27.44,0:01:29.82,*Default,NTP,0000,0000,0000,,Now this one should not close here,
+Dialogue: 0,0:01:30.69,0:01:34.82,*Default,NTP,0000,0000,0000,,but it should close right before the end of the body.
+Dialogue: 0,0:01:36.57,0:01:38.42,*Default,NTP,0000,0000,0000,,So it starts right there
+Dialogue: 0,0:01:39.30,0:01:42.87,*Default,NTP,0000,0000,0000,,and we close it only here after the footer.
+Dialogue: 0,0:01:43.72,0:01:44.97,*Default,NTP,0000,0000,0000,,And now as I save it,
+Dialogue: 0,0:01:44.97,0:01:48.77,*Default,NTP,0000,0000,0000,,all the indentation should automatically get fixed
+Dialogue: 0,0:01:48.77,0:01:53.16,*Default,NTP,0000,0000,0000,,and it did, nice. So this is a really nice thing
+Dialogue: 0,0:01:53.16,0:01:58.16,*Default,NTP,0000,0000,0000,,about prettier, so when we keep adding other elements,
+Dialogue: 0,0:01:58.28,0:02:00.97,*Default,NTP,0000,0000,0000,,then all the indentation will automatically get fixed,
+Dialogue: 0,0:02:00.97,0:02:02.88,*Default,NTP,0000,0000,0000,,which is really, really helpful.
+Dialogue: 0,0:02:03.75,0:02:06.21,*Default,NTP,0000,0000,0000,,Then here, we need to give us a name
+Dialogue: 0,0:02:06.21,0:02:09.25,*Default,NTP,0000,0000,0000,,and I like to use the name of container.
+Dialogue: 0,0:02:10.21,0:02:13.57,*Default,NTP,0000,0000,0000,,Let's copy that class and style it here.
+Dialogue: 0,0:02:14.63,0:02:17.73,*Default,NTP,0000,0000,0000,,And as I was saying, now we actually need to give
+Dialogue: 0,0:02:17.73,0:02:19.87,*Default,NTP,0000,0000,0000,,this container a width because
+Dialogue: 0,0:02:19.87,0:02:23.34,*Default,NTP,0000,0000,0000,,otherwise there is not really anything to center.
+Dialogue: 0,0:02:25.55,0:02:29.09,*Default,NTP,0000,0000,0000,,So let's start with 700 pixels
+Dialogue: 0,0:02:29.09,0:02:31.80,*Default,NTP,0000,0000,0000,,and I'll make it a bit wider later.
+Dialogue: 0,0:02:31.80,0:02:33.26,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:02:33.26,0:02:37.60,*Default,NTP,0000,0000,0000,,So we have this width of 700 pixels now.
+Dialogue: 0,0:02:37.60,0:02:40.67,*Default,NTP,0000,0000,0000,,So you'll see it that now the width of this element.
+Dialogue: 0,0:02:40.67,0:02:42.37,*Default,NTP,0000,0000,0000,,So this header here,
+Dialogue: 0,0:02:42.37,0:02:45.76,*Default,NTP,0000,0000,0000,,which is a child element of the container is
+Dialogue: 0,0:02:45.76,0:02:49.26,*Default,NTP,0000,0000,0000,,now only 702 pixels as well.
+Dialogue: 0,0:02:51.60,0:02:56.50,*Default,NTP,0000,0000,0000,,So again, this div here has a width of 700,
+Dialogue: 0,0:02:57.61,0:02:59.48,*Default,NTP,0000,0000,0000,,so we can see that here.
+Dialogue: 0,0:02:59.48,0:03:01.75,*Default,NTP,0000,0000,0000,,And so now the child elements,
+Dialogue: 0,0:03:01.75,0:03:05.20,*Default,NTP,0000,0000,0000,,which are inside of it can of course not be bigger than
+Dialogue: 0,0:03:05.20,0:03:10.20,*Default,NTP,0000,0000,0000,,that. So they can only be as large as the container element.
+Dialogue: 0,0:03:10.20,0:03:15.10,*Default,NTP,0000,0000,0000,,And so therefore this one is also a 600 pixels wide
+Dialogue: 0,0:03:15.10,0:03:20.08,*Default,NTP,0000,0000,0000,,or actually 700. So that's 620 plus 40 plus 40.
+Dialogue: 0,0:03:21.28,0:03:22.41,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:22.41,0:03:26.04,*Default,NTP,0000,0000,0000,,So this has nothing to do like with inheritance or something
+Dialogue: 0,0:03:26.04,0:03:29.64,*Default,NTP,0000,0000,0000,,like that. Instead it is simply the logic that
+Dialogue: 0,0:03:29.64,0:03:33.03,*Default,NTP,0000,0000,0000,,the child element can never be wider than the parent
+Dialogue: 0,0:03:33.03,0:03:37.10,*Default,NTP,0000,0000,0000,,element. And so if the parent element is 700,
+Dialogue: 0,0:03:37.10,0:03:40.44,*Default,NTP,0000,0000,0000,,then all the others are going to be 700 as well.
+Dialogue: 0,0:03:41.82,0:03:46.63,*Default,NTP,0000,0000,0000,,So this one for example is 700 and the h2 as well,
+Dialogue: 0,0:03:46.63,0:03:48.22,*Default,NTP,0000,0000,0000,,and so on and so forth.
+Dialogue: 0,0:03:49.30,0:03:52.67,*Default,NTP,0000,0000,0000,,Right, the same here goes for the image of course,
+Dialogue: 0,0:03:52.67,0:03:54.48,*Default,NTP,0000,0000,0000,,which is 100% of the parent.
+Dialogue: 0,0:03:56.07,0:03:58.81,*Default,NTP,0000,0000,0000,,And so now as we keep making this bigger
+Dialogue: 0,0:03:58.81,0:04:01.87,*Default,NTP,0000,0000,0000,,this 700 pixel container here,
+Dialogue: 0,0:04:01.87,0:04:04.82,*Default,NTP,0000,0000,0000,,always keep staying on the left side.
+Dialogue: 0,0:04:04.82,0:04:07.10,*Default,NTP,0000,0000,0000,,And so now as a final step,
+Dialogue: 0,0:04:07.10,0:04:10.73,*Default,NTP,0000,0000,0000,,we need to center this container element
+Dialogue: 0,0:04:10.73,0:04:12.88,*Default,NTP,0000,0000,0000,,inside of the browser.
+Dialogue: 0,0:04:12.88,0:04:15.56,*Default,NTP,0000,0000,0000,,And so that is the actual trick.
+Dialogue: 0,0:04:17.47,0:04:21.50,*Default,NTP,0000,0000,0000,,So giving the container width is part one,
+Dialogue: 0,0:04:21.50,0:04:25.62,*Default,NTP,0000,0000,0000,,and now part two is to add some margins to the left
+Dialogue: 0,0:04:25.62,0:04:27.76,*Default,NTP,0000,0000,0000,,and to the right of the container.
+Dialogue: 0,0:04:31.10,0:04:35.50,*Default,NTP,0000,0000,0000,,So we can say margin left and then set it to auto,
+Dialogue: 0,0:04:35.50,0:04:37.22,*Default,NTP,0000,0000,0000,,which stands for automatic.
+Dialogue: 0,0:04:38.42,0:04:43.32,*Default,NTP,0000,0000,0000,,And margin to the right also automatic.
+Dialogue: 0,0:04:43.32,0:04:47.05,*Default,NTP,0000,0000,0000,,So what this means is that the margin on the left needs to
+Dialogue: 0,0:04:47.05,0:04:50.24,*Default,NTP,0000,0000,0000,,be the same than the margin on the right side.
+Dialogue: 0,0:04:50.24,0:04:52.97,*Default,NTP,0000,0000,0000,,And they should both be calculated automatically
+Dialogue: 0,0:04:52.97,0:04:54.30,*Default,NTP,0000,0000,0000,,by the browser.
+Dialogue: 0,0:04:54.30,0:04:57.91,*Default,NTP,0000,0000,0000,,And so therefore this will mean that there will be a margin
+Dialogue: 0,0:04:57.91,0:04:59.66,*Default,NTP,0000,0000,0000,,on the left and on the right,
+Dialogue: 0,0:04:59.66,0:05:02.26,*Default,NTP,0000,0000,0000,,which will be exactly the same size.
+Dialogue: 0,0:05:02.26,0:05:04.32,*Default,NTP,0000,0000,0000,,And therefore, as a result,
+Dialogue: 0,0:05:04.32,0:05:08.48,*Default,NTP,0000,0000,0000,,the container will look centered inside of the body.
+Dialogue: 0,0:05:08.48,0:05:11.49,*Default,NTP,0000,0000,0000,,So basically inside of the browser.
+Dialogue: 0,0:05:12.53,0:05:17.37,*Default,NTP,0000,0000,0000,,So if we give us a safe , then it does actually work.
+Dialogue: 0,0:05:17.37,0:05:19.03,*Default,NTP,0000,0000,0000,,Great.
+Dialogue: 0,0:05:19.03,0:05:21.06,*Default,NTP,0000,0000,0000,,This is fantastic.
+Dialogue: 0,0:05:21.06,0:05:24.37,*Default,NTP,0000,0000,0000,,So as we resize, let's see,
+Dialogue: 0,0:05:25.78,0:05:30.00,*Default,NTP,0000,0000,0000,,then the margin on the left and on the right keep growing.
+Dialogue: 0,0:05:30.00,0:05:34.30,*Default,NTP,0000,0000,0000,,And they keep giving us basically this illusion that the
+Dialogue: 0,0:05:34.30,0:05:36.95,*Default,NTP,0000,0000,0000,,page is completely centered
+Dialogue: 0,0:05:36.95,0:05:39.56,*Default,NTP,0000,0000,0000,,so that the container is centered.
+Dialogue: 0,0:05:39.56,0:05:43.20,*Default,NTP,0000,0000,0000,,So if I inspect this now and go to the container,
+Dialogue: 0,0:05:44.49,0:05:47.43,*Default,NTP,0000,0000,0000,,then here, I can see that the margin is right now,
+Dialogue: 0,0:05:47.43,0:05:50.66,*Default,NTP,0000,0000,0000,,180 on both sides.
+Dialogue: 0,0:05:50.66,0:05:52.45,*Default,NTP,0000,0000,0000,,And if I resize this,
+Dialogue: 0,0:05:54.12,0:05:56.89,*Default,NTP,0000,0000,0000,,then you see that now it is only for example,
+Dialogue: 0,0:05:56.89,0:05:59.58,*Default,NTP,0000,0000,0000,,72 and a half on each side.
+Dialogue: 0,0:06:00.57,0:06:03.04,*Default,NTP,0000,0000,0000,,So again, it is the same on both sides
+Dialogue: 0,0:06:03.04,0:06:06.16,*Default,NTP,0000,0000,0000,,because it is auto on both sides.
+Dialogue: 0,0:06:06.16,0:06:08.90,*Default,NTP,0000,0000,0000,,And auto means that the browser will automatically
+Dialogue: 0,0:06:08.90,0:06:11.05,*Default,NTP,0000,0000,0000,,figure out the width.
+Dialogue: 0,0:06:12.19,0:06:13.82,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:13.82,0:06:17.52,*Default,NTP,0000,0000,0000,,Now here actually I want this to be 800 pixels,
+Dialogue: 0,0:06:17.52,0:06:19.69,*Default,NTP,0000,0000,0000,,but I put it a bit smaller before,
+Dialogue: 0,0:06:19.69,0:06:24.40,*Default,NTP,0000,0000,0000,,because if we then put it like this, we can actually not,
+Dialogue: 0,0:06:24.40,0:06:27.76,*Default,NTP,0000,0000,0000,,not see anything. So it doesn't look centered,
+Dialogue: 0,0:06:27.76,0:06:31.94,*Default,NTP,0000,0000,0000,,but of course, if we keep growing the window,
+Dialogue: 0,0:06:31.94,0:06:36.25,*Default,NTP,0000,0000,0000,,then now this entire column is nicely centered, right?
+Dialogue: 0,0:06:38.17,0:06:40.34,*Default,NTP,0000,0000,0000,,So this is a really great trick.
+Dialogue: 0,0:06:40.34,0:06:45.34,*Default,NTP,0000,0000,0000,,And I remember back in the day, like way over 15 years ago,
+Dialogue: 0,0:06:45.50,0:06:48.46,*Default,NTP,0000,0000,0000,,I was really happy when I discovered this trick.
+Dialogue: 0,0:06:50.48,0:06:51.91,*Default,NTP,0000,0000,0000,,Now, just to finish,
+Dialogue: 0,0:06:51.91,0:06:55.63,*Default,NTP,0000,0000,0000,,we can also write the serie as a shorthand once again,
+Dialogue: 0,0:06:55.63,0:06:57.92,*Default,NTP,0000,0000,0000,,which is actually even more common.
+Dialogue: 0,0:06:59.10,0:07:03.26,*Default,NTP,0000,0000,0000,,So the margin at the top and the bottom right now is zero
+Dialogue: 0,0:07:03.26,0:07:05.46,*Default,NTP,0000,0000,0000,,and left and right, is auto.
+Dialogue: 0,0:07:05.46,0:07:07.91,*Default,NTP,0000,0000,0000,,And so that is the second value of the shorthand.
+Dialogue: 0,0:07:09.59,0:07:11.99,*Default,NTP,0000,0000,0000,,So we can get rid of this.
+Dialogue: 0,0:07:11.99,0:07:15.71,*Default,NTP,0000,0000,0000,,And there we go, let's test it again.
+Dialogue: 0,0:07:15.71,0:07:19.39,*Default,NTP,0000,0000,0000,,And indeed it had work the same, right?
+Dialogue: 0,0:07:20.32,0:07:23.89,*Default,NTP,0000,0000,0000,,And with this, we finished this nice trick.
+Dialogue: 0,0:07:23.89,0:07:26.87,*Default,NTP,0000,0000,0000,,And also actually we finished this part of
+Dialogue: 0,0:07:26.87,0:07:29.19,*Default,NTP,0000,0000,0000,,the section about the box model.
+Dialogue: 0,0:07:29.19,0:07:32.70,*Default,NTP,0000,0000,0000,,And so what this means is that we are now ready for the next
+Dialogue: 0,0:07:32.70,0:07:35.53,*Default,NTP,0000,0000,0000,,part of the coding challenge.
+Dialogue: 0,0:07:35.53,0:07:39.81,*Default,NTP,0000,0000,0000,,So after revealing this and maybe revealing this entire
+Dialogue: 0,0:07:39.81,0:07:42.87,*Default,NTP,0000,0000,0000,,file, so how it looks like right now
+Dialogue: 0,0:07:42.87,0:07:45.03,*Default,NTP,0000,0000,0000,,after this part of the section.
+Dialogue: 0,0:07:45.03,0:07:47.01,*Default,NTP,0000,0000,0000,,So once you're done doing that,
+Dialogue: 0,0:07:47.01,0:07:51.30,*Default,NTP,0000,0000,0000,,then let's move on to the next video and start our next
+Dialogue: 0,0:07:51.30,0:07:52.71,*Default,NTP,0000,0000,0000,,coding challenge.
+Dialogue: 0,0:07:52.71,0:07:53.68,*Default,NTP,0000,0000,0000,,So see you there.

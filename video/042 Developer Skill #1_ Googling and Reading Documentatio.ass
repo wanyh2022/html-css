@@ -1,0 +1,512 @@
+[Script Info]
+Title: 042 Developer Skill #1_ Googling and Reading Documentation_哔哩哔哩_bilibili
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 3
+ScaledBorderAndShadow: yes
+; ----------------------
+; 本字幕由CC字幕助手自动转换
+; 字幕来源https://www.bilibili.com/video/BV1A34y1e7wL?p=40&vd_source=22f66c56d922dc2e7eaab1492700a954
+; 脚本地址https://greasyfork.org/scripts/378513
+; 设置了字幕过长自动换行，但若字幕中没有空格换行将无效
+; 字体大小依据720p 48号字体等比缩放
+; 如显示不正常请尝试使用SRT格式
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Segoe UI,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,1,0,0,0,100,100,0,0.00,1,1,3,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.56,0:00:03.64,*Default,NTP,0000,0000,0000,,最重要的讯息之一
+Dialogue: 0,0:00:03.64,0:00:06.47,*Default,NTP,0000,0000,0000,,我想在这门课程中遇到的
+Dialogue: 0,0:00:06.47,0:00:08.72,*Default,NTP,0000,0000,0000,,是你不必记住
+Dialogue: 0,0:00:08.72,0:00:11.97,*Default,NTP,0000,0000,0000,,每一个 CSS 属性，
+Dialogue: 0,0:00:11.97,0:00:14.11,*Default,NTP,0000,0000,0000,,或者您在本课程中学到的知识。
+Dialogue: 0,0:00:14.11,0:00:18.61,*Default,NTP,0000,0000,0000,,而且你实际上可以开始编写自己的 CSS，
+Dialogue: 0,0:00:18.61,0:00:21.57,*Default,NTP,0000,0000,0000,,即使你还不知道一切。
+Dialogue: 0,0:00:21.57,0:00:23.48,*Default,NTP,0000,0000,0000,,所以对于像你这样的初学者，
+Dialogue: 0,0:00:23.48,0:00:26.55,*Default,NTP,0000,0000,0000,,了解事实非常重要
+Dialogue: 0,0:00:26.55,0:00:29.41,*Default,NTP,0000,0000,0000,,什么都不知道也没关系
+Dialogue: 0,0:00:29.41,0:00:31.15,*Default,NTP,0000,0000,0000,,你可以随时谷歌
+Dialogue: 0,0:00:31.15,0:00:32.90,*Default,NTP,0000,0000,0000,,当你什么都不知道的时候
+Dialogue: 0,0:00:32.90,0:00:35.16,*Default,NTP,0000,0000,0000,,或阅读文档。
+Dialogue: 0,0:00:35.16,0:00:36.56,*Default,NTP,0000,0000,0000,,所以在这次讲座中，
+Dialogue: 0,0:00:36.56,0:00:38.67,*Default,NTP,0000,0000,0000,,我想快速向您展示一些技巧
+Dialogue: 0,0:00:38.67,0:00:42.15,*Default,NTP,0000,0000,0000,,我用谷歌搜索我不知道的东西，
+Dialogue: 0,0:00:42.15,0:00:44.08,*Default,NTP,0000,0000,0000,,以及如何阅读文档
+Dialogue: 0,0:00:44.08,0:00:46.97,*Default,NTP,0000,0000,0000,,为了了解有关财产的知识
+Dialogue: 0,0:00:46.97,0:00:48.70,*Default,NTP,0000,0000,0000,,你还不知道的，
+Dialogue: 0,0:00:48.70,0:00:51.45,*Default,NTP,0000,0000,0000,,或者您不记得如何使用。
+Dialogue: 0,0:00:52.93,0:00:55.23,*Default,NTP,0000,0000,0000,,让我们从一个假设开始，
+Dialogue: 0,0:00:55.23,0:00:57.49,*Default,NTP,0000,0000,0000,,但现实世界的场景。
+Dialogue: 0,0:00:57.49,0:01:01.50,*Default,NTP,0000,0000,0000,,所以让我们假设你在你的网页上建立了一个论坛
+Dialogue: 0,0:01:01.50,0:01:03.77,*Default,NTP,0000,0000,0000,,那个论坛有一个按钮，
+Dialogue: 0,0:01:03.77,0:01:07.30,*Default,NTP,0000,0000,0000,,但现在你不记得如何实际添加
+Dialogue: 0,0:01:07.30,0:01:10.18,*Default,NTP,0000,0000,0000,,就像那个鼠标光标到按钮一样。
+Dialogue: 0,0:01:10.18,0:01:12.37,*Default,NTP,0000,0000,0000,,因此，当您的用户悬停按钮时，
+Dialogue: 0,0:01:12.37,0:01:15.39,*Default,NTP,0000,0000,0000,,你希望它看起来像这样。
+Dialogue: 0,0:01:15.39,0:01:17.41,*Default,NTP,0000,0000,0000,,所以随着这个光标在这里发生，
+Dialogue: 0,0:01:17.41,0:01:18.41,*Default,NTP,0000,0000,0000,,但同样，
+Dialogue: 0,0:01:18.41,0:01:20.70,*Default,NTP,0000,0000,0000,,你不记得该怎么做。
+Dialogue: 0,0:01:20.70,0:01:21.56,*Default,NTP,0000,0000,0000,,但又一次，
+Dialogue: 0,0:01:21.56,0:01:25.06,*Default,NTP,0000,0000,0000,,你可能不记得如何实际做到这一点。
+Dialogue: 0,0:01:25.06,0:01:28.44,*Default,NTP,0000,0000,0000,,这真的完全没有问题。
+Dialogue: 0,0:01:28.44,0:01:30.43,*Default,NTP,0000,0000,0000,,所以你总是可以谷歌一些东西
+Dialogue: 0,0:01:30.43,0:01:32.51,*Default,NTP,0000,0000,0000,,如果你不知道怎么做
+Dialogue: 0,0:01:32.51,0:01:35.52,*Default,NTP,0000,0000,0000,,并阅读文档。
+Dialogue: 0,0:01:35.52,0:01:38.71,*Default,NTP,0000,0000,0000,,所以在这种情况下，这就是我要做的。
+Dialogue: 0,0:01:38.71,0:01:41.25,*Default,NTP,0000,0000,0000,,所以我会谷歌CSS，
+Dialogue: 0,0:01:41.25,0:01:44.24,*Default,NTP,0000,0000,0000,,所以我总是使用的第一个词
+Dialogue: 0,0:01:44.24,0:01:46.91,*Default,NTP,0000,0000,0000,,当我搜索与 CSS 相关的东西时，就是 CSS。
+Dialogue: 0,0:01:49.56,0:01:50.86,*Default,NTP,0000,0000,0000,,然后让我们说，
+Dialogue: 0,0:01:50.86,0:01:55.26,*Default,NTP,0000,0000,0000,,要添加的 CSS 属性
+Dialogue: 0,0:01:56.51,0:02:01.51,*Default,NTP,0000,0000,0000,,鼠标光标到按钮。
+Dialogue: 0,0:02:02.06,0:02:05.91,*Default,NTP,0000,0000,0000,,所以这基本上就是你想要实现的目标，对吧？
+Dialogue: 0,0:02:05.91,0:02:07.87,*Default,NTP,0000,0000,0000,,然后在搜索结果中，
+Dialogue: 0,0:02:07.87,0:02:12.87,*Default,NTP,0000,0000,0000,,通常您想查找 stackoverflow.com。
+Dialogue: 0,0:02:12.97,0:02:16.06,*Default,NTP,0000,0000,0000,,所以stackoverflow基本上是一个网站
+Dialogue: 0,0:02:16.06,0:02:19.64,*Default,NTP,0000,0000,0000,,数百万用户在哪里发布了数十
+Dialogue: 0,0:02:19.64,0:02:22.62,*Default,NTP,0000,0000,0000,,或者数亿个问题
+Dialogue: 0,0:02:22.62,0:02:24.85,*Default,NTP,0000,0000,0000,,关于各种编程。
+Dialogue: 0,0:02:24.85,0:02:26.48,*Default,NTP,0000,0000,0000,,这包括 CSS。
+Dialogue: 0,0:02:27.45,0:02:31.52,*Default,NTP,0000,0000,0000,,所以这个 W3schools 通常不是一个很好的参考。
+Dialogue: 0,0:02:31.52,0:02:33.46,*Default,NTP,0000,0000,0000,,所以不要用那个。
+Dialogue: 0,0:02:33.46,0:02:37.82,*Default,NTP,0000,0000,0000,,然后还有CSS-Tricks，也很不错。
+Dialogue: 0,0:02:37.82,0:02:42.35,*Default,NTP,0000,0000,0000,,下面是 developer.mozilla.org，
+Dialogue: 0,0:02:42.35,0:02:45.44,*Default,NTP,0000,0000,0000,,这实际上是 MDN 文档，
+Dialogue: 0,0:02:45.44,0:02:48.74,*Default,NTP,0000,0000,0000,,我们将在一分钟内查看。
+Dialogue: 0,0:02:48.74,0:02:52.25,*Default,NTP,0000,0000,0000,,但现在我感兴趣的是stackoverflow，
+Dialogue: 0,0:02:52.25,0:02:54.93,*Default,NTP,0000,0000,0000,,这又像一个问答网站
+Dialogue: 0,0:02:54.93,0:02:57.08,*Default,NTP,0000,0000,0000,,人们可以在哪里提问
+Dialogue: 0,0:02:57.08,0:02:59.51,*Default,NTP,0000,0000,0000,,然后其他用户帮助他们。
+Dialogue: 0,0:02:59.51,0:03:00.79,*Default,NTP,0000,0000,0000,,所以这里我们有一个问题，
+Dialogue: 0,0:03:00.79,0:03:03.63,*Default,NTP,0000,0000,0000,,"如何将光标变成手
+Dialogue: 0,0:03:03.63,0:03:07.54,*Default,NTP,0000,0000,0000,,当用户将鼠标悬停在列表项上时？”
+Dialogue: 0,0:03:07.54,0:03:10.80,*Default,NTP,0000,0000,0000,,现在你对列表项并不真正感兴趣，
+Dialogue: 0,0:03:10.80,0:03:12.49,*Default,NTP,0000,0000,0000,,但剩下的问题
+Dialogue: 0,0:03:12.49,0:03:16.18,*Default,NTP,0000,0000,0000,,是你要找的东西，对吧？
+Dialogue: 0,0:03:16.18,0:03:20.47,*Default,NTP,0000,0000,0000,,因此，让我们尝试在这里查看我们的回复。
+Dialogue: 0,0:03:20.47,0:03:22.44,*Default,NTP,0000,0000,0000,,这是最受欢迎的
+Dialogue: 0,0:03:22.44,0:03:26.76,*Default,NTP,0000,0000,0000,,并且原始海报也被投票为正确的。
+Dialogue: 0,0:03:27.67,0:03:32.67,*Default,NTP,0000,0000,0000,,所以这里要做的就是基本上将游标集添加到指针
+Dialogue: 0,0:03:32.77,0:03:37.38,*Default,NTP,0000,0000,0000,,到元素，应该得到那只手，对吗？
+Dialogue: 0,0:03:37.38,0:03:40.89,*Default,NTP,0000,0000,0000,,事实上，这实际上是解决方案。
+Dialogue: 0,0:03:40.89,0:03:43.29,*Default,NTP,0000,0000,0000,,所以现在我们可以复制解决方案
+Dialogue: 0,0:03:43.29,0:03:46.46,*Default,NTP,0000,0000,0000,,或者如果你认为这是一种不好的做法，
+Dialogue: 0,0:03:46.46,0:03:48.51,*Default,NTP,0000,0000,0000,,那么你可以去你的按钮
+Dialogue: 0,0:03:48.51,0:03:50.46,*Default,NTP,0000,0000,0000,,并手动编写。
+Dialogue: 0,0:03:50.46,0:03:53.26,*Default,NTP,0000,0000,0000,,但重要的是现在你解决了你的问题
+Dialogue: 0,0:03:53.26,0:03:57.06,*Default,NTP,0000,0000,0000,,现在只需通过谷歌搜索，对吗？
+Dialogue: 0,0:03:57.06,0:03:59.95,*Default,NTP,0000,0000,0000,,再说一次，不要因为不得不谷歌而感到难过
+Dialogue: 0,0:03:59.95,0:04:01.40,*Default,NTP,0000,0000,0000,,当你什么都不知道的时候。
+Dialogue: 0,0:04:01.40,0:04:03.81,*Default,NTP,0000,0000,0000,,我每天都这样做。
+Dialogue: 0,0:04:03.81,0:04:07.67,*Default,NTP,0000,0000,0000,,所以真正的开发人员永远不会知道一切。
+Dialogue: 0,0:04:07.67,0:04:09.88,*Default,NTP,0000,0000,0000,,我们只知道有些东西存在
+Dialogue: 0,0:04:09.88,0:04:13.14,*Default,NTP,0000,0000,0000,,我们也知道如何查找它。
+Dialogue: 0,0:04:13.14,0:04:15.62,*Default,NTP,0000,0000,0000,,所以你当然需要了解基础知识
+Dialogue: 0,0:04:15.62,0:04:18.21,*Default,NTP,0000,0000,0000,,关于 CSS 的实际工作原理。
+Dialogue: 0,0:04:18.21,0:04:22.17,*Default,NTP,0000,0000,0000,,但同样，您不需要记住每一个属性。
+Dialogue: 0,0:04:22.17,0:04:23.35,*Default,NTP,0000,0000,0000,,你只需要知道
+Dialogue: 0,0:04:23.35,0:04:27.39,*Default,NTP,0000,0000,0000,,可以将鼠标光标添加到按钮，
+Dialogue: 0,0:04:27.39,0:04:31.51,*Default,NTP,0000,0000,0000,,但你不必总是知道如何做到这一点。
+Dialogue: 0,0:04:31.51,0:04:32.35,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:04:32.35,0:04:35.27,*Default,NTP,0000,0000,0000,,现在让我们试试另一个例子。
+Dialogue: 0,0:04:36.11,0:04:38.93,*Default,NTP,0000,0000,0000,,并返回到我们的页面，
+Dialogue: 0,0:04:38.93,0:04:43.39,*Default,NTP,0000,0000,0000,,假设我们想要将所有这些链接居中
+Dialogue: 0,0:04:43.39,0:04:45.36,*Default,NTP,0000,0000,0000,,导航里面。
+Dialogue: 0,0:04:46.49,0:04:50.27,*Default,NTP,0000,0000,0000,,所以这里有导航，这里有这些链接
+Dialogue: 0,0:04:50.27,0:04:52.61,*Default,NTP,0000,0000,0000,,所以我们想把它们放在中心。
+Dialogue: 0,0:04:52.61,0:04:55.03,*Default,NTP,0000,0000,0000,,因此，让我们尝试自己做这件事。
+Dialogue: 0,0:04:55.03,0:04:57.60,*Default,NTP,0000,0000,0000,,第一种方法可能是选择
+Dialogue: 0,0:04:57.60,0:04:59.37,*Default,NTP,0000,0000,0000,,这些锚元素
+Dialogue: 0,0:04:59.37,0:05:03.82,*Default,NTP,0000,0000,0000,,并将文本对齐设置为中心，对吗？
+Dialogue: 0,0:05:04.96,0:05:08.36,*Default,NTP,0000,0000,0000,,所以我很确定我们在某个地方选择了它们
+Dialogue: 0,0:05:08.36,0:05:10.81,*Default,NTP,0000,0000,0000,,他们实际上在这里。
+Dialogue: 0,0:05:11.79,0:05:15.28,*Default,NTP,0000,0000,0000,,所以让我们做我刚才解释的事情。
+Dialogue: 0,0:05:15.28,0:05:20.28,*Default,NTP,0000,0000,0000,,因此，让我们尝试 text-align 并设置为中心。
+Dialogue: 0,0:05:21.64,0:05:22.72,*Default,NTP,0000,0000,0000,,让我们拯救它。
+Dialogue: 0,0:05:23.82,0:05:25.56,*Default,NTP,0000,0000,0000,,也许我必须手动重新加载。
+Dialogue: 0,0:05:26.44,0:05:27.31,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:27.31,0:05:29.76,*Default,NTP,0000,0000,0000,,但现在你看到什么都没有改变。
+Dialogue: 0,0:05:30.75,0:05:32.52,*Default,NTP,0000,0000,0000,,所以让我们检查一下。
+Dialogue: 0,0:05:34.25,0:05:38.71,*Default,NTP,0000,0000,0000,,我们需要更多的空间。
+Dialogue: 0,0:05:39.74,0:05:41.69,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:41.69,0:05:44.47,*Default,NTP,0000,0000,0000,,所以选择它们，
+Dialogue: 0,0:05:44.47,0:05:48.52,*Default,NTP,0000,0000,0000,,当然我们可以看到 text-align, center 确实设置了，
+Dialogue: 0,0:05:48.52,0:05:50.22,*Default,NTP,0000,0000,0000,,但仍然没有任何反应。
+Dialogue: 0,0:05:51.25,0:05:52.82,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:05:52.82,0:05:54.96,*Default,NTP,0000,0000,0000,,但是，如果我们考虑到这一点，
+Dialogue: 0,0:05:54.96,0:05:56.74,*Default,NTP,0000,0000,0000,,这实际上是有道理的
+Dialogue: 0,0:05:56.74,0:05:58.84,*Default,NTP,0000,0000,0000,,因为文本行确实
+Dialogue: 0,0:05:58.84,0:06:03.32,*Default,NTP,0000,0000,0000,,基本上是使元素内部的一些文本居中。
+Dialogue: 0,0:06:03.32,0:06:06.33,*Default,NTP,0000,0000,0000,,现在这里的这些元素是内联元素。
+Dialogue: 0,0:06:06.33,0:06:09.59,*Default,NTP,0000,0000,0000,,因此他们占据的唯一空间
+Dialogue: 0,0:06:09.59,0:06:13.59,*Default,NTP,0000,0000,0000,,正是内容需要的空间，对吧？
+Dialogue: 0,0:06:13.59,0:06:15.60,*Default,NTP,0000,0000,0000,,所以这些元素的宽度
+Dialogue: 0,0:06:15.60,0:06:20.12,*Default,NTP,0000,0000,0000,,完全符合内容所需的宽度。
+Dialogue: 0,0:06:20.12,0:06:21.96,*Default,NTP,0000,0000,0000,,因此不可能
+Dialogue: 0,0:06:21.96,0:06:24.21,*Default,NTP,0000,0000,0000,,将其中的任何东西居中
+Dialogue: 0,0:06:24.21,0:06:26.77,*Default,NTP,0000,0000,0000,,因为根本没有空白
+Dialogue: 0,0:06:26.77,0:06:30.42,*Default,NTP,0000,0000,0000,,元素可以在其中居中。
+Dialogue: 0,0:06:30.42,0:06:31.30,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:31.30,0:06:34.05,*Default,NTP,0000,0000,0000,,所以得出了这个结论，
+Dialogue: 0,0:06:34.05,0:06:37.48,*Default,NTP,0000,0000,0000,,也许现在你不知道如何真正解决问题
+Dialogue: 0,0:06:37.48,0:06:41.80,*Default,NTP,0000,0000,0000,,因为您仍然希望所有这些链接都集中在此处。
+Dialogue: 0,0:06:41.80,0:06:44.99,*Default,NTP,0000,0000,0000,,所以让我们再次尝试谷歌。
+Dialogue: 0,0:06:44.99,0:06:49.99,*Default,NTP,0000,0000,0000,,让我们说 CSS 如何使锚元素居中。
+Dialogue: 0,0:06:54.65,0:06:55.48,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:06:55.48,0:06:56.70,*Default,NTP,0000,0000,0000,,而现在，
+Dialogue: 0,0:06:56.70,0:07:00.17,*Default,NTP,0000,0000,0000,,你想寻找stackoverflow.com
+Dialogue: 0,0:07:00.17,0:07:03.50,*Default,NTP,0000,0000,0000,,而这个看起来正是我们正在寻找的。
+Dialogue: 0,0:07:03.50,0:07:06.60,*Default,NTP,0000,0000,0000,,那么如何在 CSS 中将锚元素居中，
+Dialogue: 0,0:07:07.44,0:07:08.31,*Default,NTP,0000,0000,0000,,并且很多次
+Dialogue: 0,0:07:08.31,0:07:11.91,*Default,NTP,0000,0000,0000,,您实际上需要提出各种问题
+Dialogue: 0,0:07:11.91,0:07:13.99,*Default,NTP,0000,0000,0000,,因为并不总是他们的问题
+Dialogue: 0,0:07:13.99,0:07:15.91,*Default,NTP,0000,0000,0000,,和你的完全一样。
+Dialogue: 0,0:07:17.22,0:07:18.40,*Default,NTP,0000,0000,0000,,现在，在这种情况下，
+Dialogue: 0,0:07:18.40,0:07:21.55,*Default,NTP,0000,0000,0000,,我们实际上在这里有正确的解决方案。
+Dialogue: 0,0:07:21.55,0:07:22.98,*Default,NTP,0000,0000,0000,,所以他们说的是，
+Dialogue: 0,0:07:22.98,0:07:25.60,*Default,NTP,0000,0000,0000,,"添加 text-align CSS 属性
+Dialogue: 0,0:07:25.60,0:07:28.32,*Default,NTP,0000,0000,0000,,到它的父样式属性。”
+Dialogue: 0,0:07:28.32,0:07:31.01,*Default,NTP,0000,0000,0000,,嗯，这部分的style属性
+Dialogue: 0,0:07:31.01,0:07:32.81,*Default,NTP,0000,0000,0000,,并不真正相关
+Dialogue: 0,0:07:32.81,0:07:36.90,*Default,NTP,0000,0000,0000,,因为记住，我告诉过你不要使用这样的风格。
+Dialogue: 0,0:07:36.90,0:07:37.73,*Default,NTP,0000,0000,0000,,对。
+Dialogue: 0,0:07:37.73,0:07:40.20,*Default,NTP,0000,0000,0000,,而是使用一个类，
+Dialogue: 0,0:07:40.20,0:07:42.66,*Default,NTP,0000,0000,0000,,这也不是很重要。
+Dialogue: 0,0:07:42.66,0:07:46.02,*Default,NTP,0000,0000,0000,,重要的是我们需要的是这个。
+Dialogue: 0,0:07:46.02,0:07:50.08,*Default,NTP,0000,0000,0000,,所以我们需要将文本对齐中心设置为父级。
+Dialogue: 0,0:07:51.09,0:07:52.60,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:07:52.60,0:07:55.95,*Default,NTP,0000,0000,0000,,那么让我们把它放到我们的代码中。
+Dialogue: 0,0:07:55.95,0:07:59.56,*Default,NTP,0000,0000,0000,,所以我们不希望这里出现，
+Dialogue: 0,0:08:00.88,0:08:02.89,*Default,NTP,0000,0000,0000,,但我们希望它在资产净值中。
+Dialogue: 0,0:08:02.89,0:08:04.65,*Default,NTP,0000,0000,0000,,所以让我们去寻找资产净值。
+Dialogue: 0,0:08:05.95,0:08:07.90,*Default,NTP,0000,0000,0000,,它应该在顶部的某个地方。
+Dialogue: 0,0:08:09.46,0:08:10.81,*Default,NTP,0000,0000,0000,,这里是。
+Dialogue: 0,0:08:10.81,0:08:15.81,*Default,NTP,0000,0000,0000,,现在 text-align 设置为居中。
+Dialogue: 0,0:08:16.21,0:08:17.77,*Default,NTP,0000,0000,0000,,现在我们开始。
+Dialogue: 0,0:08:19.03,0:08:21.67,*Default,NTP,0000,0000,0000,,所以现在这些元素实际上是居中的
+Dialogue: 0,0:08:21.67,0:08:24.62,*Default,NTP,0000,0000,0000,,在父容器内。
+Dialogue: 0,0:08:24.62,0:08:25.62,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:25.62,0:08:27.30,*Default,NTP,0000,0000,0000,,在这种情况下，这有效
+Dialogue: 0,0:08:27.30,0:08:31.24,*Default,NTP,0000,0000,0000,,因为这些元素是内联元素
+Dialogue: 0,0:08:31.24,0:08:33.91,*Default,NTP,0000,0000,0000,,或者实际上在这种情况下，内联块。
+Dialogue: 0,0:08:33.91,0:08:36.52,*Default,NTP,0000,0000,0000,,但重要的是他们不占用
+Dialogue: 0,0:08:36.52,0:08:39.48,*Default,NTP,0000,0000,0000,,父级的整个宽度。
+Dialogue: 0,0:08:39.48,0:08:43.62,*Default,NTP,0000,0000,0000,,所以当我们想把一堆这样的元素居中时，
+Dialogue: 0,0:08:43.62,0:08:46.64,*Default,NTP,0000,0000,0000,,无论是 inline 还是 inline-block 元素，
+Dialogue: 0,0:08:46.64,0:08:48.10,*Default,NTP,0000,0000,0000,,那么我们需要做的就是
+Dialogue: 0,0:08:48.10,0:08:51.30,*Default,NTP,0000,0000,0000,,就是添加text-align center属性
+Dialogue: 0,0:08:51.30,0:08:53.31,*Default,NTP,0000,0000,0000,,在父元素上。
+Dialogue: 0,0:08:53.31,0:08:54.58,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:08:54.58,0:08:57.50,*Default,NTP,0000,0000,0000,,现在也许你想多学一点
+Dialogue: 0,0:08:57.50,0:08:59.24,*Default,NTP,0000,0000,0000,,关于这个属性。
+Dialogue: 0,0:09:01.65,0:09:05.15,*Default,NTP,0000,0000,0000,,所以现在让我们使用 MDN 文档。
+Dialogue: 0,0:09:05.15,0:09:07.96,*Default,NTP,0000,0000,0000,,现在这不是官方文档，
+Dialogue: 0,0:09:07.96,0:09:10.50,*Default,NTP,0000,0000,0000,,但它仍然是大多数开发人员使用的
+Dialogue: 0,0:09:10.50,0:09:12.81,*Default,NTP,0000,0000,0000,,查找 CSS 属性。
+Dialogue: 0,0:09:12.81,0:09:17.00,*Default,NTP,0000,0000,0000,,所以我们先写MDN然后写CSS，
+Dialogue: 0,0:09:17.00,0:09:20.53,*Default,NTP,0000,0000,0000,,因为在 MDN 上有很多不同的语言。
+Dialogue: 0,0:09:20.53,0:09:23.68,*Default,NTP,0000,0000,0000,,然后让我们说文本对齐。
+Dialogue: 0,0:09:25.55,0:09:26.38,*Default,NTP,0000,0000,0000,,然后在这里，
+Dialogue: 0,0:09:26.38,0:09:28.75,*Default,NTP,0000,0000,0000,,第一个结果已经是我们正在寻找的。
+Dialogue: 0,0:09:28.75,0:09:31.59,*Default,NTP,0000,0000,0000,,所以 developer.mozilla.org。
+Dialogue: 0,0:09:32.62,0:09:35.96,*Default,NTP,0000,0000,0000,,所以在这里，基本上有一个描述
+Dialogue: 0,0:09:35.96,0:09:38.63,*Default,NTP,0000,0000,0000,,还有一些关于不同值的演示
+Dialogue: 0,0:09:38.63,0:09:39.78,*Default,NTP,0000,0000,0000,,对于这个属性。
+Dialogue: 0,0:09:40.86,0:09:43.34,*Default,NTP,0000,0000,0000,,所以 text-align CSS 属性
+Dialogue: 0,0:09:43.34,0:09:45.90,*Default,NTP,0000,0000,0000,,设置内容的水平对齐方式
+Dialogue: 0,0:09:45.90,0:09:49.45,*Default,NTP,0000,0000,0000,,在块元素或表格单元框中。
+Dialogue: 0,0:09:50.97,0:09:51.80,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:09:51.80,0:09:53.69,*Default,NTP,0000,0000,0000,,这正是我们所做的。
+Dialogue: 0,0:09:53.69,0:09:55.84,*Default,NTP,0000,0000,0000,,所以我们在这里设置，
+Dialogue: 0,0:09:55.84,0:09:59.80,*Default,NTP,0000,0000,0000,,块元素上的文本对齐中心，对。
+Dialogue: 0,0:09:59.80,0:10:03.50,*Default,NTP,0000,0000,0000,,之前我们尝试将它设置在一个内联块元素上
+Dialogue: 0,0:10:03.50,0:10:05.87,*Default,NTP,0000,0000,0000,,它没有做任何事情。
+Dialogue: 0,0:10:05.87,0:10:08.02,*Default,NTP,0000,0000,0000,,所以我们也可以得到
+Dialogue: 0,0:10:08.02,0:10:10.65,*Default,NTP,0000,0000,0000,,这里来自文档。
+Dialogue: 0,0:10:10.65,0:10:13.86,*Default,NTP,0000,0000,0000,,然后在这里我们可以点击一些不同的演示。
+Dialogue: 0,0:10:13.86,0:10:17.72,*Default,NTP,0000,0000,0000,,所以当然是左，右，中，甚至还有理由。
+Dialogue: 0,0:10:19.00,0:10:22.29,*Default,NTP,0000,0000,0000,,那么这里是存在的所有不同的值。
+Dialogue: 0,0:10:22.29,0:10:25.14,*Default,NTP,0000,0000,0000,,然后这里有一堆，
+Dialogue: 0,0:10:25.14,0:10:28.91,*Default,NTP,0000,0000,0000,,甚至更多你可能不需要的东西。
+Dialogue: 0,0:10:28.91,0:10:33.91,*Default,NTP,0000,0000,0000,,所以还有很多例子，这个也很重要。
+Dialogue: 0,0:10:34.34,0:10:35.56,*Default,NTP,0000,0000,0000,,好吧，在这种情况下，
+Dialogue: 0,0:10:35.56,0:10:38.37,*Default,NTP,0000,0000,0000,,但在一些更现代的房产中。
+Dialogue: 0,0:10:38.37,0:10:41.13,*Default,NTP,0000,0000,0000,,在这里我们可以看到浏览器的兼容性
+Dialogue: 0,0:10:41.13,0:10:44.17,*Default,NTP,0000,0000,0000,,这个特定的 CSS 属性。
+Dialogue: 0,0:10:46.01,0:10:48.72,*Default,NTP,0000,0000,0000,,所以在这种情况下，它不是那么相关，
+Dialogue: 0,0:10:48.72,0:10:51.72,*Default,NTP,0000,0000,0000,,但有时您可能也想检查一下。
+Dialogue: 0,0:10:53.23,0:10:54.99,*Default,NTP,0000,0000,0000,,现在另一个，例如，
+Dialogue: 0,0:10:54.99,0:10:57.83,*Default,NTP,0000,0000,0000,,我们可以检查边界
+Dialogue: 0,0:10:57.83,0:11:00.33,*Default,NTP,0000,0000,0000,,因为这个有点复杂。
+Dialogue: 0,0:11:00.33,0:11:03.64,*Default,NTP,0000,0000,0000,,假设你想设置一个边界，
+Dialogue: 0,0:11:03.64,0:11:06.92,*Default,NTP,0000,0000,0000,,例如，虚线或波浪形边框，
+Dialogue: 0,0:11:06.92,0:11:09.52,*Default,NTP,0000,0000,0000,,但你不记得确切的语法。
+Dialogue: 0,0:11:10.67,0:11:12.26,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:11:12.26,0:11:15.82,*Default,NTP,0000,0000,0000,,所以这里你再举几个例子，
+Dialogue: 0,0:11:17.93,0:11:20.43,*Default,NTP,0000,0000,0000,,您可以单击它们并检查它们。
+Dialogue: 0,0:11:20.43,0:11:24.31,*Default,NTP,0000,0000,0000,,正如我之前提到的，在这里你还可以学习，
+Dialogue: 0,0:11:24.31,0:11:27.67,*Default,NTP,0000,0000,0000,,该边框实际上是一个速记属性
+Dialogue: 0,0:11:27.67,0:11:30.76,*Default,NTP,0000,0000,0000,,用于边框宽度、样式和颜色。
+Dialogue: 0,0:11:31.79,0:11:35.03,*Default,NTP,0000,0000,0000,,然后在这里，你有一堆例子
+Dialogue: 0,0:11:35.97,0:11:40.34,*Default,NTP,0000,0000,0000,,是的，对于您想要的所有属性，
+Dialogue: 0,0:11:40.34,0:11:44.14,*Default,NTP,0000,0000,0000,,您可以查看文档以准确了解
+Dialogue: 0,0:11:44.14,0:11:47.74,*Default,NTP,0000,0000,0000,,您可以赋予他们什么价值以及他们如何工作。
+Dialogue: 0,0:11:47.74,0:11:48.57,*Default,NTP,0000,0000,0000,,好的。
+Dialogue: 0,0:11:48.57,0:11:50.15,*Default,NTP,0000,0000,0000,,我认为，
+Dialogue: 0,0:11:50.15,0:11:52.97,*Default,NTP,0000,0000,0000,,我向你展示了足够多的东西，所以你可以靠自己
+Dialogue: 0,0:11:52.97,0:11:56.77,*Default,NTP,0000,0000,0000,,现在尝试谷歌一些你可能有的问题，
+Dialogue: 0,0:11:56.77,0:12:00.09,*Default,NTP,0000,0000,0000,,并阅读有关某些属性的文档
+Dialogue: 0,0:12:00.09,0:12:03.44,*Default,NTP,0000,0000,0000,,你可能不知道它们是如何工作的。
+Dialogue: 0,0:12:03.44,0:12:06.57,*Default,NTP,0000,0000,0000,,这是一项非常重要的开发人员技能
+Dialogue: 0,0:12:06.57,0:12:10.80,*Default,NTP,0000,0000,0000,,当你开始成为一名 CSS 人员时你需要学习的东西
+Dialogue: 0,0:12:10.80,0:12:12.96,*Default,NTP,0000,0000,0000,,以及 HTML 开发人员。
+Dialogue: 0,0:00:01.56,0:00:03.64,*Default,NTP,0000,0000,0000,,One of the most important messages
+Dialogue: 0,0:00:03.64,0:00:06.47,*Default,NTP,0000,0000,0000,,that I want to get across in this course
+Dialogue: 0,0:00:06.47,0:00:08.72,*Default,NTP,0000,0000,0000,,is that you do not have to memorize
+Dialogue: 0,0:00:08.72,0:00:11.97,*Default,NTP,0000,0000,0000,,every single CSS property that there is,
+Dialogue: 0,0:00:11.97,0:00:14.11,*Default,NTP,0000,0000,0000,,or that you learn in this course.
+Dialogue: 0,0:00:14.11,0:00:18.61,*Default,NTP,0000,0000,0000,,And also that you can actually start writing your own CSS,
+Dialogue: 0,0:00:18.61,0:00:21.57,*Default,NTP,0000,0000,0000,,even when you don't know everything yet.
+Dialogue: 0,0:00:21.57,0:00:23.48,*Default,NTP,0000,0000,0000,,So for beginners, like you,
+Dialogue: 0,0:00:23.48,0:00:26.55,*Default,NTP,0000,0000,0000,,it's really important to be aware of the fact
+Dialogue: 0,0:00:26.55,0:00:29.41,*Default,NTP,0000,0000,0000,,that it is okay not to know everything
+Dialogue: 0,0:00:29.41,0:00:31.15,*Default,NTP,0000,0000,0000,,and that you can always Google
+Dialogue: 0,0:00:31.15,0:00:32.90,*Default,NTP,0000,0000,0000,,when you don't know anything
+Dialogue: 0,0:00:32.90,0:00:35.16,*Default,NTP,0000,0000,0000,,or read the documentation.
+Dialogue: 0,0:00:35.16,0:00:36.56,*Default,NTP,0000,0000,0000,,And so in this lecture,
+Dialogue: 0,0:00:36.56,0:00:38.67,*Default,NTP,0000,0000,0000,,I want to quickly show you some techniques
+Dialogue: 0,0:00:38.67,0:00:42.15,*Default,NTP,0000,0000,0000,,that I use to Google stuff that I don't know,
+Dialogue: 0,0:00:42.15,0:00:44.08,*Default,NTP,0000,0000,0000,,and also how to read documentation
+Dialogue: 0,0:00:44.08,0:00:46.97,*Default,NTP,0000,0000,0000,,in order to learn something about a property
+Dialogue: 0,0:00:46.97,0:00:48.70,*Default,NTP,0000,0000,0000,,that you don't know yet,
+Dialogue: 0,0:00:48.70,0:00:51.45,*Default,NTP,0000,0000,0000,,or that you don't remember how exactly to use.
+Dialogue: 0,0:00:52.93,0:00:55.23,*Default,NTP,0000,0000,0000,,And let's start with a hypothetical,
+Dialogue: 0,0:00:55.23,0:00:57.49,*Default,NTP,0000,0000,0000,,but real world scenario.
+Dialogue: 0,0:00:57.49,0:01:01.50,*Default,NTP,0000,0000,0000,,So let's imagine that you built a forum on your webpage
+Dialogue: 0,0:01:01.50,0:01:03.77,*Default,NTP,0000,0000,0000,,and that forum has a button,
+Dialogue: 0,0:01:03.77,0:01:07.30,*Default,NTP,0000,0000,0000,,but now you don't remember how you can actually add
+Dialogue: 0,0:01:07.30,0:01:10.18,*Default,NTP,0000,0000,0000,,like that mouse cursor to the button.
+Dialogue: 0,0:01:10.18,0:01:12.37,*Default,NTP,0000,0000,0000,,So when your users hover the button,
+Dialogue: 0,0:01:12.37,0:01:15.39,*Default,NTP,0000,0000,0000,,you want it to look something like this.
+Dialogue: 0,0:01:15.39,0:01:17.41,*Default,NTP,0000,0000,0000,,So with this cursor here happening,
+Dialogue: 0,0:01:17.41,0:01:18.41,*Default,NTP,0000,0000,0000,,but again,
+Dialogue: 0,0:01:18.41,0:01:20.70,*Default,NTP,0000,0000,0000,,you don't remember how to do that.
+Dialogue: 0,0:01:20.70,0:01:21.56,*Default,NTP,0000,0000,0000,,But again,
+Dialogue: 0,0:01:21.56,0:01:25.06,*Default,NTP,0000,0000,0000,,you might not remember how to actually do that.
+Dialogue: 0,0:01:25.06,0:01:28.44,*Default,NTP,0000,0000,0000,,And this is really no problem at all.
+Dialogue: 0,0:01:28.44,0:01:30.43,*Default,NTP,0000,0000,0000,,So you can always Google something
+Dialogue: 0,0:01:30.43,0:01:32.51,*Default,NTP,0000,0000,0000,,if you don't know how to do it
+Dialogue: 0,0:01:32.51,0:01:35.52,*Default,NTP,0000,0000,0000,,and read the documentation as well.
+Dialogue: 0,0:01:35.52,0:01:38.71,*Default,NTP,0000,0000,0000,,So in this case, this is what I would do.
+Dialogue: 0,0:01:38.71,0:01:41.25,*Default,NTP,0000,0000,0000,,So I would Google CSS,
+Dialogue: 0,0:01:41.25,0:01:44.24,*Default,NTP,0000,0000,0000,,and so the first word that I always use
+Dialogue: 0,0:01:44.24,0:01:46.91,*Default,NTP,0000,0000,0000,,when I'm searching something related to CSS is CSS.
+Dialogue: 0,0:01:49.56,0:01:50.86,*Default,NTP,0000,0000,0000,,And then let's say,
+Dialogue: 0,0:01:50.86,0:01:55.26,*Default,NTP,0000,0000,0000,,CSS property to add
+Dialogue: 0,0:01:56.51,0:02:01.51,*Default,NTP,0000,0000,0000,,a mouse cursor to button.
+Dialogue: 0,0:02:02.06,0:02:05.91,*Default,NTP,0000,0000,0000,,So this is basically what you want to achieve, right?
+Dialogue: 0,0:02:05.91,0:02:07.87,*Default,NTP,0000,0000,0000,,And then in the search results,
+Dialogue: 0,0:02:07.87,0:02:12.87,*Default,NTP,0000,0000,0000,,usually you want to look for stackoverflow.com.
+Dialogue: 0,0:02:12.97,0:02:16.06,*Default,NTP,0000,0000,0000,,So stackoverflow is basically a website
+Dialogue: 0,0:02:16.06,0:02:19.64,*Default,NTP,0000,0000,0000,,where millions of users have posted tens
+Dialogue: 0,0:02:19.64,0:02:22.62,*Default,NTP,0000,0000,0000,,or maybe hundreds of millions of questions
+Dialogue: 0,0:02:22.62,0:02:24.85,*Default,NTP,0000,0000,0000,,about all kinds of programming.
+Dialogue: 0,0:02:24.85,0:02:26.48,*Default,NTP,0000,0000,0000,,And that includes CSS.
+Dialogue: 0,0:02:27.45,0:02:31.52,*Default,NTP,0000,0000,0000,,So this W3schools is usually not a good reference.
+Dialogue: 0,0:02:31.52,0:02:33.46,*Default,NTP,0000,0000,0000,,So don't use that.
+Dialogue: 0,0:02:33.46,0:02:37.82,*Default,NTP,0000,0000,0000,,Then there's also CSS-Tricks, which is also very good.
+Dialogue: 0,0:02:37.82,0:02:42.35,*Default,NTP,0000,0000,0000,,And down here there is developer.mozilla.org,
+Dialogue: 0,0:02:42.35,0:02:45.44,*Default,NTP,0000,0000,0000,,which is actually the MDN documentation,
+Dialogue: 0,0:02:45.44,0:02:48.74,*Default,NTP,0000,0000,0000,,which we will check out also in a minute.
+Dialogue: 0,0:02:48.74,0:02:52.25,*Default,NTP,0000,0000,0000,,But for now I'm interested in here is stackoverflow,
+Dialogue: 0,0:02:52.25,0:02:54.93,*Default,NTP,0000,0000,0000,,which again is like a Q&amp;A site
+Dialogue: 0,0:02:54.93,0:02:57.08,*Default,NTP,0000,0000,0000,,where people can ask questions
+Dialogue: 0,0:02:57.08,0:02:59.51,*Default,NTP,0000,0000,0000,,and then other users help them.
+Dialogue: 0,0:02:59.51,0:03:00.79,*Default,NTP,0000,0000,0000,,So here we have a question,
+Dialogue: 0,0:03:00.79,0:03:03.63,*Default,NTP,0000,0000,0000,,"How to change the cursor into a hand
+Dialogue: 0,0:03:03.63,0:03:07.54,*Default,NTP,0000,0000,0000,,when a user hovers over a list item?"
+Dialogue: 0,0:03:07.54,0:03:10.80,*Default,NTP,0000,0000,0000,,Now you are not really interested in the list item,
+Dialogue: 0,0:03:10.80,0:03:12.49,*Default,NTP,0000,0000,0000,,but the rest of the question
+Dialogue: 0,0:03:12.49,0:03:16.18,*Default,NTP,0000,0000,0000,,is kind of what you're looking for, right?
+Dialogue: 0,0:03:16.18,0:03:20.47,*Default,NTP,0000,0000,0000,,So let's try to take a look at our responses here.
+Dialogue: 0,0:03:20.47,0:03:22.44,*Default,NTP,0000,0000,0000,,And here is the most popular one
+Dialogue: 0,0:03:22.44,0:03:26.76,*Default,NTP,0000,0000,0000,,and which was also voted as correct by the original poster.
+Dialogue: 0,0:03:27.67,0:03:32.67,*Default,NTP,0000,0000,0000,,So here what to do is to basically add cursor set to pointer
+Dialogue: 0,0:03:32.77,0:03:37.38,*Default,NTP,0000,0000,0000,,to the element, which should get that hand, right?
+Dialogue: 0,0:03:37.38,0:03:40.89,*Default,NTP,0000,0000,0000,,And in fact that is actually the solution.
+Dialogue: 0,0:03:40.89,0:03:43.29,*Default,NTP,0000,0000,0000,,So now we can just copy the solution
+Dialogue: 0,0:03:43.29,0:03:46.46,*Default,NTP,0000,0000,0000,,or if you think that is a bad practice,
+Dialogue: 0,0:03:46.46,0:03:48.51,*Default,NTP,0000,0000,0000,,well, then you can just go to your button
+Dialogue: 0,0:03:48.51,0:03:50.46,*Default,NTP,0000,0000,0000,,and write it manually.
+Dialogue: 0,0:03:50.46,0:03:53.26,*Default,NTP,0000,0000,0000,,But what matters is that now you solved your problem
+Dialogue: 0,0:03:53.26,0:03:57.06,*Default,NTP,0000,0000,0000,,simply by Googling it now, right?
+Dialogue: 0,0:03:57.06,0:03:59.95,*Default,NTP,0000,0000,0000,,So again, don't feel bad for having to Google
+Dialogue: 0,0:03:59.95,0:04:01.40,*Default,NTP,0000,0000,0000,,when you don't know anything.
+Dialogue: 0,0:04:01.40,0:04:03.81,*Default,NTP,0000,0000,0000,,I do that every single day.
+Dialogue: 0,0:04:03.81,0:04:07.67,*Default,NTP,0000,0000,0000,,So really developers never know everything.
+Dialogue: 0,0:04:07.67,0:04:09.88,*Default,NTP,0000,0000,0000,,We just know that something exists
+Dialogue: 0,0:04:09.88,0:04:13.14,*Default,NTP,0000,0000,0000,,and we also know how to then look it up.
+Dialogue: 0,0:04:13.14,0:04:15.62,*Default,NTP,0000,0000,0000,,So of course you need to know the fundamentals
+Dialogue: 0,0:04:15.62,0:04:18.21,*Default,NTP,0000,0000,0000,,about how CSS actually works.
+Dialogue: 0,0:04:18.21,0:04:22.17,*Default,NTP,0000,0000,0000,,But again, you don't need to memorize every single property.
+Dialogue: 0,0:04:22.17,0:04:23.35,*Default,NTP,0000,0000,0000,,You just need to know
+Dialogue: 0,0:04:23.35,0:04:27.39,*Default,NTP,0000,0000,0000,,that it is possible to add a mouse cursor to a button,
+Dialogue: 0,0:04:27.39,0:04:31.51,*Default,NTP,0000,0000,0000,,but you don't have to always know how exactly to do that.
+Dialogue: 0,0:04:31.51,0:04:32.35,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:32.35,0:04:35.27,*Default,NTP,0000,0000,0000,,And now let's try another example.
+Dialogue: 0,0:04:36.11,0:04:38.93,*Default,NTP,0000,0000,0000,,And returning actually here to our page,
+Dialogue: 0,0:04:38.93,0:04:43.39,*Default,NTP,0000,0000,0000,,let's imagine that we wanted to center all of these links
+Dialogue: 0,0:04:43.39,0:04:45.36,*Default,NTP,0000,0000,0000,,inside of the navigation.
+Dialogue: 0,0:04:46.49,0:04:50.27,*Default,NTP,0000,0000,0000,,So here we have the navigation and here we have these links
+Dialogue: 0,0:04:50.27,0:04:52.61,*Default,NTP,0000,0000,0000,,and so we want to center them.
+Dialogue: 0,0:04:52.61,0:04:55.03,*Default,NTP,0000,0000,0000,,So let's try to do that on our own.
+Dialogue: 0,0:04:55.03,0:04:57.60,*Default,NTP,0000,0000,0000,,And the first approach might be to select
+Dialogue: 0,0:04:57.60,0:04:59.37,*Default,NTP,0000,0000,0000,,these anchor elements
+Dialogue: 0,0:04:59.37,0:05:03.82,*Default,NTP,0000,0000,0000,,and set the text-align to center, right?
+Dialogue: 0,0:05:04.96,0:05:08.36,*Default,NTP,0000,0000,0000,,So I'm pretty sure we selected them somewhere
+Dialogue: 0,0:05:08.36,0:05:10.81,*Default,NTP,0000,0000,0000,,and here they are actually.
+Dialogue: 0,0:05:11.79,0:05:15.28,*Default,NTP,0000,0000,0000,,And so let's do what I just explained.
+Dialogue: 0,0:05:15.28,0:05:20.28,*Default,NTP,0000,0000,0000,,So let's try text-align and set to center.
+Dialogue: 0,0:05:21.64,0:05:22.72,*Default,NTP,0000,0000,0000,,Let's give it a save.
+Dialogue: 0,0:05:23.82,0:05:25.56,*Default,NTP,0000,0000,0000,,Maybe I have to reload manually.
+Dialogue: 0,0:05:26.44,0:05:27.31,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:27.31,0:05:29.76,*Default,NTP,0000,0000,0000,,But now you see that nothing changed.
+Dialogue: 0,0:05:30.75,0:05:32.52,*Default,NTP,0000,0000,0000,,So let's inspect this.
+Dialogue: 0,0:05:34.25,0:05:38.71,*Default,NTP,0000,0000,0000,,And we'll need some more space here.
+Dialogue: 0,0:05:39.74,0:05:41.69,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:05:41.69,0:05:44.47,*Default,NTP,0000,0000,0000,,And so selecting them,
+Dialogue: 0,0:05:44.47,0:05:48.52,*Default,NTP,0000,0000,0000,,of course we can see the text-align, center is indeed set,
+Dialogue: 0,0:05:48.52,0:05:50.22,*Default,NTP,0000,0000,0000,,but still nothing happens.
+Dialogue: 0,0:05:51.25,0:05:52.82,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:05:52.82,0:05:54.96,*Default,NTP,0000,0000,0000,,However, if we think about this,
+Dialogue: 0,0:05:54.96,0:05:56.74,*Default,NTP,0000,0000,0000,,this actually makes sense
+Dialogue: 0,0:05:56.74,0:05:58.84,*Default,NTP,0000,0000,0000,,because texts line does
+Dialogue: 0,0:05:58.84,0:06:03.32,*Default,NTP,0000,0000,0000,,is to basically center some text inside of an element.
+Dialogue: 0,0:06:03.32,0:06:06.33,*Default,NTP,0000,0000,0000,,Now these elements here are inline elements.
+Dialogue: 0,0:06:06.33,0:06:09.59,*Default,NTP,0000,0000,0000,,And therefore the only space that they occupy
+Dialogue: 0,0:06:09.59,0:06:13.59,*Default,NTP,0000,0000,0000,,is exactly the space that the content needs, right?
+Dialogue: 0,0:06:13.59,0:06:15.60,*Default,NTP,0000,0000,0000,,And so the width of these elements
+Dialogue: 0,0:06:15.60,0:06:20.12,*Default,NTP,0000,0000,0000,,is exactly as wide as it needs to be to fit the content.
+Dialogue: 0,0:06:20.12,0:06:21.96,*Default,NTP,0000,0000,0000,,Therefore it is not possible
+Dialogue: 0,0:06:21.96,0:06:24.21,*Default,NTP,0000,0000,0000,,to center anything inside of them
+Dialogue: 0,0:06:24.21,0:06:26.77,*Default,NTP,0000,0000,0000,,because there's simply no empty space
+Dialogue: 0,0:06:26.77,0:06:30.42,*Default,NTP,0000,0000,0000,,inside of which the element could be centered.
+Dialogue: 0,0:06:30.42,0:06:31.30,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:31.30,0:06:34.05,*Default,NTP,0000,0000,0000,,So having arrived at that conclusion,
+Dialogue: 0,0:06:34.05,0:06:37.48,*Default,NTP,0000,0000,0000,,maybe now you don't know how to actually solve the problem
+Dialogue: 0,0:06:37.48,0:06:41.80,*Default,NTP,0000,0000,0000,,because you still want all these links centered here.
+Dialogue: 0,0:06:41.80,0:06:44.99,*Default,NTP,0000,0000,0000,,So let's try to Google that once again.
+Dialogue: 0,0:06:44.99,0:06:49.99,*Default,NTP,0000,0000,0000,,Let's say CSS how to center anchor elements.
+Dialogue: 0,0:06:54.65,0:06:55.48,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:55.48,0:06:56.70,*Default,NTP,0000,0000,0000,,And now again,
+Dialogue: 0,0:06:56.70,0:07:00.17,*Default,NTP,0000,0000,0000,,you want to be looking for stackoverflow.com
+Dialogue: 0,0:07:00.17,0:07:03.50,*Default,NTP,0000,0000,0000,,and this one looks exactly what we are looking for.
+Dialogue: 0,0:07:03.50,0:07:06.60,*Default,NTP,0000,0000,0000,,So how do I center an anchor element in CSS,
+Dialogue: 0,0:07:07.44,0:07:08.31,*Default,NTP,0000,0000,0000,,and many times
+Dialogue: 0,0:07:08.31,0:07:11.91,*Default,NTP,0000,0000,0000,,you actually need to open up various questions
+Dialogue: 0,0:07:11.91,0:07:13.99,*Default,NTP,0000,0000,0000,,because not always their question
+Dialogue: 0,0:07:13.99,0:07:15.91,*Default,NTP,0000,0000,0000,,is exactly the same as yours.
+Dialogue: 0,0:07:17.22,0:07:18.40,*Default,NTP,0000,0000,0000,,Now, in this case,
+Dialogue: 0,0:07:18.40,0:07:21.55,*Default,NTP,0000,0000,0000,,we actually have the correct solution right here.
+Dialogue: 0,0:07:21.55,0:07:22.98,*Default,NTP,0000,0000,0000,,So what they say is,
+Dialogue: 0,0:07:22.98,0:07:25.60,*Default,NTP,0000,0000,0000,,"Add the text- align CSS property
+Dialogue: 0,0:07:25.60,0:07:28.32,*Default,NTP,0000,0000,0000,,to its parent style attribute."
+Dialogue: 0,0:07:28.32,0:07:31.01,*Default,NTP,0000,0000,0000,,Well, this part of the style attribute
+Dialogue: 0,0:07:31.01,0:07:32.81,*Default,NTP,0000,0000,0000,,is not really relevant
+Dialogue: 0,0:07:32.81,0:07:36.90,*Default,NTP,0000,0000,0000,,because remember, I told you not to use style like this.
+Dialogue: 0,0:07:36.90,0:07:37.73,*Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:07:37.73,0:07:40.20,*Default,NTP,0000,0000,0000,,But instead using a class,
+Dialogue: 0,0:07:40.20,0:07:42.66,*Default,NTP,0000,0000,0000,,and that is also not really important.
+Dialogue: 0,0:07:42.66,0:07:46.02,*Default,NTP,0000,0000,0000,,What matters is that what we need is this.
+Dialogue: 0,0:07:46.02,0:07:50.08,*Default,NTP,0000,0000,0000,,So we need text-align center set to the parent.
+Dialogue: 0,0:07:51.09,0:07:52.60,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:07:52.60,0:07:55.95,*Default,NTP,0000,0000,0000,,So let's then put that into our code.
+Dialogue: 0,0:07:55.95,0:07:59.56,*Default,NTP,0000,0000,0000,,And so we want this not here,
+Dialogue: 0,0:08:00.88,0:08:02.89,*Default,NTP,0000,0000,0000,,but we want it in the NAV.
+Dialogue: 0,0:08:02.89,0:08:04.65,*Default,NTP,0000,0000,0000,,So let's go look for the NAV.
+Dialogue: 0,0:08:05.95,0:08:07.90,*Default,NTP,0000,0000,0000,,It should be somewhere at the top.
+Dialogue: 0,0:08:09.46,0:08:10.81,*Default,NTP,0000,0000,0000,,Here it is.
+Dialogue: 0,0:08:10.81,0:08:15.81,*Default,NTP,0000,0000,0000,,And now text-align set to center.
+Dialogue: 0,0:08:16.21,0:08:17.77,*Default,NTP,0000,0000,0000,,And here we go.
+Dialogue: 0,0:08:19.03,0:08:21.67,*Default,NTP,0000,0000,0000,,So now these elements are actually centered
+Dialogue: 0,0:08:21.67,0:08:24.62,*Default,NTP,0000,0000,0000,,inside of the parent container.
+Dialogue: 0,0:08:24.62,0:08:25.62,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:25.62,0:08:27.30,*Default,NTP,0000,0000,0000,,And in this case, this works
+Dialogue: 0,0:08:27.30,0:08:31.24,*Default,NTP,0000,0000,0000,,because these elements are inline elements
+Dialogue: 0,0:08:31.24,0:08:33.91,*Default,NTP,0000,0000,0000,,or actually in this case, inline-blocks.
+Dialogue: 0,0:08:33.91,0:08:36.52,*Default,NTP,0000,0000,0000,,But what matters is they do not occupy
+Dialogue: 0,0:08:36.52,0:08:39.48,*Default,NTP,0000,0000,0000,,the entire width of the parent.
+Dialogue: 0,0:08:39.48,0:08:43.62,*Default,NTP,0000,0000,0000,,And so when we want to center a bunch of elements like this,
+Dialogue: 0,0:08:43.62,0:08:46.64,*Default,NTP,0000,0000,0000,,no matter if inline or inline-block elements,
+Dialogue: 0,0:08:46.64,0:08:48.10,*Default,NTP,0000,0000,0000,,then all we need to do
+Dialogue: 0,0:08:48.10,0:08:51.30,*Default,NTP,0000,0000,0000,,is to add the text-align center property
+Dialogue: 0,0:08:51.30,0:08:53.31,*Default,NTP,0000,0000,0000,,on the parent element.
+Dialogue: 0,0:08:53.31,0:08:54.58,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:54.58,0:08:57.50,*Default,NTP,0000,0000,0000,,Now maybe you wanted to learn a little bit more
+Dialogue: 0,0:08:57.50,0:08:59.24,*Default,NTP,0000,0000,0000,,about this property.
+Dialogue: 0,0:09:01.65,0:09:05.15,*Default,NTP,0000,0000,0000,,And so let's now use the MDN documentation.
+Dialogue: 0,0:09:05.15,0:09:07.96,*Default,NTP,0000,0000,0000,,Now this is not an official documentation,
+Dialogue: 0,0:09:07.96,0:09:10.50,*Default,NTP,0000,0000,0000,,but it's still what most developers use
+Dialogue: 0,0:09:10.50,0:09:12.81,*Default,NTP,0000,0000,0000,,to look up CSS properties.
+Dialogue: 0,0:09:12.81,0:09:17.00,*Default,NTP,0000,0000,0000,,So we write MDN then CSS,
+Dialogue: 0,0:09:17.00,0:09:20.53,*Default,NTP,0000,0000,0000,,because on MDN, there are many different languages.
+Dialogue: 0,0:09:20.53,0:09:23.68,*Default,NTP,0000,0000,0000,,And then let's say text-align.
+Dialogue: 0,0:09:25.55,0:09:26.38,*Default,NTP,0000,0000,0000,,And then here,
+Dialogue: 0,0:09:26.38,0:09:28.75,*Default,NTP,0000,0000,0000,,the first result is already what we're looking for.
+Dialogue: 0,0:09:28.75,0:09:31.59,*Default,NTP,0000,0000,0000,,So developer.mozilla.org.
+Dialogue: 0,0:09:32.62,0:09:35.96,*Default,NTP,0000,0000,0000,,And so here, there is basically a description
+Dialogue: 0,0:09:35.96,0:09:38.63,*Default,NTP,0000,0000,0000,,and also some demos about different values
+Dialogue: 0,0:09:38.63,0:09:39.78,*Default,NTP,0000,0000,0000,,for this property.
+Dialogue: 0,0:09:40.86,0:09:43.34,*Default,NTP,0000,0000,0000,,So the text-align CSS property
+Dialogue: 0,0:09:43.34,0:09:45.90,*Default,NTP,0000,0000,0000,,sets the horizontal alignment of the content
+Dialogue: 0,0:09:45.90,0:09:49.45,*Default,NTP,0000,0000,0000,,inside a block element or table-cell box.
+Dialogue: 0,0:09:50.97,0:09:51.80,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:51.80,0:09:53.69,*Default,NTP,0000,0000,0000,,And so that's exactly what we did.
+Dialogue: 0,0:09:53.69,0:09:55.84,*Default,NTP,0000,0000,0000,,So we set it here,
+Dialogue: 0,0:09:55.84,0:09:59.80,*Default,NTP,0000,0000,0000,,text-align center on a block element, right.
+Dialogue: 0,0:09:59.80,0:10:03.50,*Default,NTP,0000,0000,0000,,And previously we tried to set it on an inline block element
+Dialogue: 0,0:10:03.50,0:10:05.87,*Default,NTP,0000,0000,0000,,and there it didn't do anything.
+Dialogue: 0,0:10:05.87,0:10:08.02,*Default,NTP,0000,0000,0000,,And so we could also have gotten that
+Dialogue: 0,0:10:08.02,0:10:10.65,*Default,NTP,0000,0000,0000,,here from the documentation.
+Dialogue: 0,0:10:10.65,0:10:13.86,*Default,NTP,0000,0000,0000,,Then here we can click on some different demos.
+Dialogue: 0,0:10:13.86,0:10:17.72,*Default,NTP,0000,0000,0000,,So of course left, right, center and there's even justify.
+Dialogue: 0,0:10:19.00,0:10:22.29,*Default,NTP,0000,0000,0000,,Then here are all the different values that exist.
+Dialogue: 0,0:10:22.29,0:10:25.14,*Default,NTP,0000,0000,0000,,And then here's a bunch of,
+Dialogue: 0,0:10:25.14,0:10:28.91,*Default,NTP,0000,0000,0000,,even more stuff that you probably don't even need.
+Dialogue: 0,0:10:28.91,0:10:33.91,*Default,NTP,0000,0000,0000,,So a lot of more examples, and this one is also important.
+Dialogue: 0,0:10:34.34,0:10:35.56,*Default,NTP,0000,0000,0000,,Well, not in this case,
+Dialogue: 0,0:10:35.56,0:10:38.37,*Default,NTP,0000,0000,0000,,but in some more modern properties.
+Dialogue: 0,0:10:38.37,0:10:41.13,*Default,NTP,0000,0000,0000,,Here we can see the browser compatibility
+Dialogue: 0,0:10:41.13,0:10:44.17,*Default,NTP,0000,0000,0000,,of this specific CSS property.
+Dialogue: 0,0:10:46.01,0:10:48.72,*Default,NTP,0000,0000,0000,,So in this case, it's not that relevant,
+Dialogue: 0,0:10:48.72,0:10:51.72,*Default,NTP,0000,0000,0000,,but sometimes you might want to check that out as well.
+Dialogue: 0,0:10:53.23,0:10:54.99,*Default,NTP,0000,0000,0000,,NoW another one, for example,
+Dialogue: 0,0:10:54.99,0:10:57.83,*Default,NTP,0000,0000,0000,,we can check for border
+Dialogue: 0,0:10:57.83,0:11:00.33,*Default,NTP,0000,0000,0000,,because this one is a little bit complex.
+Dialogue: 0,0:11:00.33,0:11:03.64,*Default,NTP,0000,0000,0000,,And so let's say you want to set a border,
+Dialogue: 0,0:11:03.64,0:11:06.92,*Default,NTP,0000,0000,0000,,for example, a dotted one or a wavy border,
+Dialogue: 0,0:11:06.92,0:11:09.52,*Default,NTP,0000,0000,0000,,but you don't remember exactly the syntax.
+Dialogue: 0,0:11:10.67,0:11:12.26,*Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:11:12.26,0:11:15.82,*Default,NTP,0000,0000,0000,,So here you have a couple of examples once again,
+Dialogue: 0,0:11:17.93,0:11:20.43,*Default,NTP,0000,0000,0000,,and you can click them and check them out.
+Dialogue: 0,0:11:20.43,0:11:24.31,*Default,NTP,0000,0000,0000,,And here you can also learn, as I mentioned before,
+Dialogue: 0,0:11:24.31,0:11:27.67,*Default,NTP,0000,0000,0000,,that border is actually a shorthand property
+Dialogue: 0,0:11:27.67,0:11:30.76,*Default,NTP,0000,0000,0000,,for the border width, style and color.
+Dialogue: 0,0:11:31.79,0:11:35.03,*Default,NTP,0000,0000,0000,,And then here again, you have a bunch of examples
+Dialogue: 0,0:11:35.97,0:11:40.34,*Default,NTP,0000,0000,0000,,and yeah, for all the properties that you want,
+Dialogue: 0,0:11:40.34,0:11:44.14,*Default,NTP,0000,0000,0000,,you can check out the documentation to learn exactly
+Dialogue: 0,0:11:44.14,0:11:47.74,*Default,NTP,0000,0000,0000,,what values you can give to them and how they work.
+Dialogue: 0,0:11:47.74,0:11:48.57,*Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:11:48.57,0:11:50.15,*Default,NTP,0000,0000,0000,,And I think with this,
+Dialogue: 0,0:11:50.15,0:11:52.97,*Default,NTP,0000,0000,0000,,I showed you enough so that you can on your own
+Dialogue: 0,0:11:52.97,0:11:56.77,*Default,NTP,0000,0000,0000,,now try to Google some questions that you might have,
+Dialogue: 0,0:11:56.77,0:12:00.09,*Default,NTP,0000,0000,0000,,and also read documentation about some properties
+Dialogue: 0,0:12:00.09,0:12:03.44,*Default,NTP,0000,0000,0000,,that you might not know exactly how they work.
+Dialogue: 0,0:12:03.44,0:12:06.57,*Default,NTP,0000,0000,0000,,And this is a really important developer skill
+Dialogue: 0,0:12:06.57,0:12:10.80,*Default,NTP,0000,0000,0000,,that you need to learn as you start becoming a CSS
+Dialogue: 0,0:12:10.80,0:12:12.96,*Default,NTP,0000,0000,0000,,and also HTML developer.
