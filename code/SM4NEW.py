@@ -67,7 +67,7 @@ def l_(b):#l'
 
 def enc(x,mk):
     if len(x)!=32:
-        x=(32-len(x))*'0'+x
+        x=x+(32-len(x))*'0'
     p=[x[:8],x[8:16],x[16:24],x[24:]]
     x=p
     for i in range(len(x)):
